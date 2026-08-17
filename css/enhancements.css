@@ -1,79 +1,8 @@
 /* ============================================================
    Dylan Thiart // Portfolio enhancements
-   Add <link rel="stylesheet" href="css/enhancements.css"> in <head>
-   AFTER the existing style.css link, on every page.
    ============================================================ */
-
-/* --- animated background canvas: sits behind everything --- */
-#bg-field {
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-}
-
-/* make sure real content stacks above the canvas + scanlines */
-.site-header,
-main,
-.footer {
-  position: relative;
-  z-index: 2;
-}
-
-/* --- boot sequence overlay --- */
-#boot-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 999;
-  background: var(--bg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: opacity 0.45s ease;
-}
-#boot-overlay.boot-out { opacity: 0; }
-body.boot-lock { overflow: hidden; }
-
-.boot-lines {
-  font: 600 0.8rem/1.9 ui-monospace, SFMono-Regular, Menlo, monospace;
-  color: var(--accent);
-  letter-spacing: 0.06em;
-}
-.boot-lines p { margin: 0; opacity: 0; animation: boot-fade 0.25s ease forwards; }
-@keyframes boot-fade { to { opacity: 1; } }
-
-.cursor-blink {
-  display: inline-block;
-  animation: blink 0.9s steps(1) infinite;
-}
-@keyframes blink { 50% { opacity: 0; } }
-
-/* --- live HUD clock: keep monospace alignment steady --- */
-.top-right { font-variant-numeric: tabular-nums; }
-
-/* --- scroll reveal --- */
-.reveal {
-  opacity: 0;
-  transform: translateY(22px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
-}
-.reveal.in-view {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* --- subtle glow pulse on the status dot for a more "alive" feel --- */
-.status-dot {
-  animation: pulse-dot 2.4s ease-in-out infinite;
-}
-@keyframes pulse-dot {
-  0%, 100% { box-shadow: 0 0 12px var(--accent); }
-  50% { box-shadow: 0 0 22px var(--accent), 0 0 4px var(--accent); }
-}
-
-/* --- respect reduced motion preference across the board --- */
-@media (prefers-reduced-motion: reduce) {
-  .reveal { opacity: 1; transform: none; transition: none; }
-  .status-dot { animation: none; }
-  #bg-field { display: none; }
-}
+#bg-field{position:fixed;inset:0;z-index:0;pointer-events:none}.site-header,main,.footer{position:relative;z-index:2}#boot-overlay{position:fixed;inset:0;z-index:999;background:var(--bg);display:flex;align-items:center;justify-content:center;transition:opacity .45s ease}#boot-overlay.boot-out{opacity:0}body.boot-lock{overflow:hidden}.boot-lines{font:600 .8rem/1.9 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--accent);letter-spacing:.06em}.boot-lines p{margin:0;opacity:0;animation:boot-fade .25s ease forwards}@keyframes boot-fade{to{opacity:1}}.cursor-blink{display:inline-block;animation:blink .9s steps(1) infinite}@keyframes blink{50%{opacity:0}}.top-right{font-variant-numeric:tabular-nums}.reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}.reveal.in-view{opacity:1;transform:translateY(0)}.status-dot{animation:pulse-dot 2.4s ease-in-out infinite}@keyframes pulse-dot{0%,100%{box-shadow:0 0 12px var(--accent)}50%{box-shadow:0 0 22px var(--accent),0 0 4px var(--accent)}}
+/* Keep the landing section compact enough to show the beginning of the portfolio without a full-screen scroll barrier. */
+.hero{min-height:auto;padding-block:105px 45px}.hero-footer{margin-top:38px}
+@media(max-width:800px){.hero{min-height:auto;padding-block:70px 35px}}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.status-dot{animation:none}#bg-field{display:none}}
