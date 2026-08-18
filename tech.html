@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Dylan Thiart Tech Intelligence - technology, cybersecurity, AI, Linux, Windows and engineering news.">
+<title>Tech Intelligence | Dylan Thiart</title>
+<link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/enhancements.css"><link rel="stylesheet" href="css/tech.css">
+</head>
+<body><div class="scanlines"></div>
+<header class="site-header"><nav class="nav container">
+<a class="brand" href="index.html"><span class="status-dot"></span> DYLAN THIART <small>// INTEL</small></a>
+<button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu">MENU <span>☰</span></button>
+<div class="nav-links"><a href="index.html#about">ABOUT</a><a href="index.html#projects">PROJECTS</a><a href="systems.html">SYSTEMS</a><a href="lab.html">LAB</a><a href="reference.html">REFERENCE</a><a href="tech.html">TECH INTEL</a><a href="signal.html">XENO SIGNAL</a></div>
+<div class="mobile-menu" id="mobile-menu"><a href="index.html#about">ABOUT</a><a href="index.html#projects">PROJECTS</a><a href="systems.html">SYSTEMS</a><a href="lab.html">LAB</a><a href="reference.html">REFERENCE</a><a href="tech.html">TECH INTEL</a><a href="signal.html">XENO SIGNAL</a></div>
+</nav></header>
+<main>
+<section class="page-hero container"><p class="eyebrow">SIGNALS / TECHNOLOGY / SECURITY / ENGINEERING</p><h1>TECH<br><span>INTEL.</span></h1><p>A lightweight technology intelligence feed covering the systems and subjects I'm actively learning about.</p></section>
+<section class="section container tech-controls-section"><div class="section-label">FILTER</div><div class="section-content">
+<div class="tech-status"><span class="live-dot"></span><span id="feed-status">INITIALIZING FEED...</span><span id="feed-updated"></span></div>
+<div class="category-tabs" id="category-tabs" role="tablist" aria-label="News categories"><button class="active" data-category="ALL">ALL</button><button data-category="AI">AI</button><button data-category="CYBERSECURITY">CYBERSECURITY</button><button data-category="LINUX">LINUX</button><button data-category="WINDOWS">WINDOWS</button><button data-category="HARDWARE">HARDWARE</button><button data-category="ROBOTICS">ROBOTICS</button><button data-category="SPACE">SPACE</button></div>
+</div></section>
+<section class="section container tech-feed-section"><div class="section-label">LIVE FEED</div><div class="section-content"><div id="news-feed" class="news-feed" aria-live="polite"><div class="news-loading">WAITING FOR FEED SYNC...</div></div></div></section>
+<section class="section container"><div class="section-label">SOURCES</div><div class="section-content"><div class="source-panel"><div><strong>RSS AGGREGATION</strong><p>Headlines are collected from public RSS feeds and cached by the site's GitHub Actions workflow. The site does not copy full articles; each item links back to its original publisher.</p></div><div class="source-list">ARS TECHNICA · THE REGISTER · WIRED · BLEEPINGCOMPUTER · TECHCRUNCH · IEEE SPECTRUM · HACKER NEWS</div></div></div></section>
+</main><footer class="footer container"><span>© 2026 DYLAN THIART</span><span>TECH INTELLIGENCE // RSS AGGREGATOR</span></footer>
+<script src="js/tech-news.js"></script><script>const toggle=document.getElementById('mobile-menu-toggle'),menu=document.getElementById('mobile-menu');toggle.addEventListener('click',()=>{const open=menu.classList.toggle('open');toggle.setAttribute('aria-expanded',open);toggle.setAttribute('aria-label',open?'Close navigation':'Open navigation')});menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.classList.remove('open');toggle.setAttribute('aria-expanded','false')}));</script>
+</body></html>
