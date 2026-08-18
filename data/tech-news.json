@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-08-18T14:55:10.497938+00:00",
+  "generated_at": "2026-08-18T15:48:57.535635+00:00",
   "articles": [
+    {
+      "title": "Teenage Sex and Death at Camp Miasma takes pains to deliver a slasher fan’s dream",
+      "summary": "Matte paintings—not CGI—warp a world designed to hit a nerve for slasher fans.",
+      "url": "https://arstechnica.com/culture/2026/08/teenage-sex-and-death-at-camp-miasma-takes-pains-to-deliver-a-slasher-fans-dream/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "X-rays add new twist to narwhal's spiral tusk",
+      "summary": "New study finds that the tusks have not one but two spirals, twisting in opposite directions.",
+      "url": "https://arstechnica.com/science/2026/08/x-rays-add-new-twist-to-narwhals-spiral-tusk/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
     {
       "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
       "summary": "Secret parameter allowed hackers to steal passwords when a target clicked on a link.",
@@ -146,18 +162,18 @@
       "age": "RECENT"
     },
     {
-      "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
-      "summary": "Screen-sharing bug lets remote hackers log in without a password.",
-      "url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
-      "source": "Ars Technica",
+      "title": "CISA gives feds 3 days to fix actively exploited Ray RCE bug",
+      "summary": "Phishing, malvertising attacks could target devs to gain access to private corporate networks",
+      "url": "https://www.theregister.com/security/2026/08/18/cisa-gives-feds-3-days-to-fix-actively-exploited-ray-rce-bug/5289007",
+      "source": "The Register",
       "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
-      "title": "First test flight of largest all-electric aircraft used just $5 of electricity",
-      "summary": "Airline-backed venture aims to develop a hybrid-electric commercial aircraft.",
-      "url": "https://arstechnica.com/gadgets/2026/08/first-test-flight-of-largest-all-electric-aircraft-used-just-5-of-electricity/",
-      "source": "Ars Technica",
+      "title": "Apple plugs image-processing hole ripe for spyware abuse",
+      "summary": "Patch batch spans current kit, older iGadgets, Macs, and Vision Pro",
+      "url": "https://www.theregister.com/security/2026/08/18/apple-plugs-image-processing-hole-ripe-for-spyware-abuse/5289031",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -346,22 +362,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Be a hater all you want, AI's here to stay",
-      "summary": "The good news? One of the worst bits, tech giants controlling it all, might soon be over",
-      "url": "https://www.theregister.com/columnists/2026/08/17/be-a-hater-all-you-want-ais-here-to-stay/5288275",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Code fixers have fired up the AI warp drive. Strange new worlds await",
-      "summary": "With more patches per month than at a pirate convention, the bug must be an endangered species. Well, about that",
-      "url": "https://www.theregister.com/columnists/2026/08/17/code-fixers-have-fired-up-the-ai-warp-drive-strange-new-worlds-await/5287681",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
       "title": "Meta Ran Ads for an App That Promised to Nudify Female Politicians",
       "summary": "One advertisement featured a pornographic video with a deepfake closely resembling a prominent US politician. Apple removed the app from the App Store after an inquiry from WIRED.",
       "url": "https://www.wired.com/story/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
@@ -370,7 +370,7 @@
       "age": "RECENT"
     },
     {
-      "title": "Can the Upcoming ‘Expanse’ Game Avoid ‘Mass Effect’’s Biggest Mistake?",
+      "title": "Can the Upcoming ‘Expanse’ Game Avoid the Biggest Mistake of ‘Mass Effect’?",
       "summary": "The universe may never tell you if your choices mattered. Owlcat’s Osiris Reborn might not either.",
       "url": "https://www.wired.com/story/the-upcoming-expanse-game-has-to-make-some-hard-choices/",
       "source": "WIRED",
@@ -386,19 +386,19 @@
       "age": "RECENT"
     },
     {
-      "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
-      "summary": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, starting with the Fairphone (Gen 6+).",
-      "url": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To",
       "summary": "Proton’s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?",
       "url": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
       "source": "WIRED",
       "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
+      "summary": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, starting with the Fairphone (Gen 6+).",
+      "url": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -426,6 +426,14 @@
       "age": "RECENT"
     },
     {
+      "title": "SteelSeries Coupon Codes: 15% Off in August 2026",
+      "summary": "Unlock exclusive discounts on SteelSeries' award-winning gaming headsets, keyboards, and accessories.",
+      "url": "https://www.wired.com/story/steelseries-coupon-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Noom Promo Codes: 50% Off Best Deals & Free Trials for August 2026",
       "summary": "Discover the best ways to save on Noom subscriptions, including free trials, limited-time offers for GLP-1Rx Plus, and essential tips for redeeming your Noom discount.",
       "url": "https://www.wired.com/story/noom-promo-code/",
@@ -450,9 +458,9 @@
       "age": "RECENT"
     },
     {
-      "title": "SteelSeries Coupon Codes: 15% Off in August 2026",
-      "summary": "Unlock exclusive discounts on SteelSeries' award-winning gaming headsets, keyboards, and accessories.",
-      "url": "https://www.wired.com/story/steelseries-coupon-code/",
+      "title": "Womanizer Coupons: Save 15% in August",
+      "summary": "Save on the Womanizer Duo Premium and more with our latest Womanizer discount codes.",
+      "url": "https://www.wired.com/story/womanizer-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -485,14 +493,6 @@
       "title": "Ring Promo Code: 50% Off",
       "summary": "Discover how to save on Ring cameras, doorbells, outdoor cameras, and more.",
       "url": "https://www.wired.com/story/ring-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Womanizer Coupons: Save 15% in August",
-      "summary": "Save on the Womanizer Duo Premium and more with our latest Womanizer discount codes.",
-      "url": "https://www.wired.com/story/womanizer-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -682,6 +682,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Peacock is raising prices across all of its streaming plans",
+      "summary": "The cheapest ad-supported “Select” plan is increasing from $7.99 to $8.99 per month.",
+      "url": "https://techcrunch.com/2026/08/18/peacock-is-raising-prices-across-all-of-its-streaming-plans/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Anthro Energy breaks ground on factory that could pave the road to solid-state batteries",
       "summary": "Battery materials startup Anthro Energy has broken ground on a Louisville factory to make electrolytes, including those for solid-state batteries.",
       "url": "https://techcrunch.com/2026/08/18/anthro-energy-breaks-ground-on-factory-that-could-pave-the-road-to-solid-state-batteries/",
@@ -691,7 +699,7 @@
     },
     {
       "title": "Warp’s new system is an out-of-the-box software factory for AI development",
-      "summary": "On Tuesday, Warp introduced Warp Factories, a new infrastrructure system designed to make building AI software factories as easy as possible.",
+      "summary": "On Tuesday, Warp introduced Warp Factories, a new infrastructure system designed to make building AI software factories as easy as possible.",
       "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
       "source": "TechCrunch",
       "category": "AI",
@@ -789,14 +797,6 @@
       "title": "Save up to $300 on your TechCrunch Disrupt 2026 pass until August 21",
       "summary": "If you’ve been circling around Disrupt, then now’s the best time to lock in your pass and start getting ready to join the rest of the startup community gathering in San Francisco from October 13-15 at Moscone West!",
       "url": "https://techcrunch.com/2026/08/17/save-up-to-300-on-your-techcrunch-disrupt-2026-pass-until-august-21/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Spotify’s new Playlist Notes let users and editors explain their song picks",
-      "summary": "Spotify launches a new feature that gives users a chance to explain the stories and reasoning behind their favorite music. Editors will be using the feature, too, on top playlists like RapCaviar and others.",
-      "url": "https://techcrunch.com/2026/08/17/spotifys-new-playlist-notes-let-users-and-editors-explain-their-song-picks/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
