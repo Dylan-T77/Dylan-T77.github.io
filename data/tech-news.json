@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-08-18T13:11:22.677193+00:00",
+  "generated_at": "2026-08-18T13:58:59.016054+00:00",
   "articles": [
+    {
+      "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
+      "summary": "Secret parameter allowed hackers to steal passwords when a target clicked on a link.",
+      "url": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
+      "source": "Ars Technica",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
     {
       "title": "As temperatures get hotter, pesticides are more dangerous to farmworkers",
       "summary": "Research shows heat amplifies the dangers of pesticides.",
@@ -154,11 +162,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
-      "summary": "Judge warns pro se litigants are using chatbots wrong and getting desperate.",
-      "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
+      "title": "Microsoft finally fixing File Explorer and the Context Menu",
+      "summary": "Time to flex that Windows 10 muscle memory",
+      "url": "https://www.theregister.com/os-platforms/2026/08/18/microsoft-finally-fixing-file-explorer-and-the-context-menu/5289121",
+      "source": "The Register",
+      "category": "WINDOWS",
       "age": "RECENT"
     },
     {
@@ -354,14 +362,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Part didn't fit so techie got out his screwdriver. Then something flew off the motherboard",
-      "summary": "Whatever it was broke a PC and led to a face-saving lie",
-      "url": "https://www.theregister.com/systems/2026/08/17/part-didnt-fit-so-techie-got-out-his-screwdriver-then-something-flew-off-the-motherboard/5287692",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Can the Upcoming ‘Expanse’ Game Avoid ‘Mass Effect’s’ Biggest Mistake?",
       "summary": "The universe may never tell you if your choices mattered. Owlcat’s Osiris Reborn might not either.",
       "url": "https://www.wired.com/story/the-upcoming-expanse-game-has-to-make-some-hard-choices/",
@@ -378,19 +378,19 @@
       "age": "RECENT"
     },
     {
-      "title": "Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To",
-      "summary": "Proton’s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?",
-      "url": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
-      "source": "WIRED",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
       "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
       "summary": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, starting with the Fairphone (Gen 6+).",
       "url": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
       "source": "WIRED",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To",
+      "summary": "Proton’s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
+      "source": "WIRED",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -418,14 +418,6 @@
       "age": "RECENT"
     },
     {
-      "title": "SteelSeries Coupon Codes: 15% Off in August 2026",
-      "summary": "Unlock exclusive discounts on SteelSeries' award-winning gaming headsets, keyboards, and accessories.",
-      "url": "https://www.wired.com/story/steelseries-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Noom Promo Codes: 50% Off Best Deals & Free Trials for August 2026",
       "summary": "Discover the best ways to save on Noom subscriptions, including free trials, limited-time offers for GLP-1Rx Plus, and essential tips for redeeming your Noom discount.",
       "url": "https://www.wired.com/story/noom-promo-code/",
@@ -450,9 +442,9 @@
       "age": "RECENT"
     },
     {
-      "title": "Womanizer Coupons: Save 15% in August",
-      "summary": "Save on the Womanizer Duo Premium and more with our latest Womanizer discount codes.",
-      "url": "https://www.wired.com/story/womanizer-coupon/",
+      "title": "SteelSeries Coupon Codes: 15% Off in August 2026",
+      "summary": "Unlock exclusive discounts on SteelSeries' award-winning gaming headsets, keyboards, and accessories.",
+      "url": "https://www.wired.com/story/steelseries-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -485,6 +477,14 @@
       "title": "Ring Promo Code: 50% Off",
       "summary": "Discover how to save on Ring cameras, doorbells, outdoor cameras, and more.",
       "url": "https://www.wired.com/story/ring-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Womanizer Coupons: Save 15% in August",
+      "summary": "Save on the Womanizer Duo Premium and more with our latest Womanizer discount codes.",
+      "url": "https://www.wired.com/story/womanizer-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -682,6 +682,30 @@
       "age": "RECENT"
     },
     {
+      "title": "OpenAI launches a safer ChatGPT for teens — years after teens started using it",
+      "summary": "ChatGPT for Teens adds age-appropriate safety measures, parental controls, and learning tools designed to steer teens away from harmful content — and from using AI to cheat on their homework.",
+      "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Perplexity’s free AI offer left it with millions more users in India",
+      "summary": "Perplexity's India revenue rose about 60% after the Airtel offer ended for new users, even as downloads declined.",
+      "url": "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Apple’s new macOS update reportedly contains a video of AirPods with a camera",
+      "summary": "A video in a MacOS Tahoe release candidate version shows a user wearing AirPods, looking at a book, and talking to Siri.",
+      "url": "https://techcrunch.com/2026/08/18/apples-new-macos-update-reportedly-contains-a-video-of-airpods-with-a-camera/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Daniel Ek’s body-scanning startup Neko Health opens first US office, in New York",
       "summary": "The scanning and bloodwork health startup founded by Spotify's founder will officially launch in New York in about a month.",
       "url": "https://techcrunch.com/2026/08/18/daniel-eks-body-scanning-startup-neko-health-opens-first-us-office-in-new-york/",
@@ -775,30 +799,6 @@
       "url": "https://techcrunch.com/2026/08/17/reddit-begins-testing-a-new-audio-and-video-experience-similar-to-popular-tiktok-videos/",
       "source": "TechCrunch",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Sound-powered fire protection startup gets $15M to snuff out fires before they turn catastrophic",
-      "summary": "Sonic Fire Tech raised its new funding to help get its sound-powered fire protection system into everything from commercial kitchens to apartment buildings.",
-      "url": "https://techcrunch.com/2026/08/17/sound-powered-fire-protection-startup-gets-15m-to-snuff-out-fires-before-they-turn-catastrophic/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "YouTube will now count a view as soon as a video starts playing",
-      "summary": "The change comes a year after YouTube applied the same approach to counting views on Shorts videos.",
-      "url": "https://techcrunch.com/2026/08/17/youtube-will-now-count-a-view-as-soon-as-a-video-starts-playing/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Feedly attributes weeklong slowdown to bug, not its AI pivot",
-      "summary": "Feedly says a bug is behind the performance issues that have made its web app nearly \"unusable\" for some users, while complaints about its mobile apps and customer support are adding to frustrations.",
-      "url": "https://techcrunch.com/2026/08/17/feedly-attributes-weeklong-slowdown-to-bug-not-its-ai-pivot/",
-      "source": "TechCrunch",
-      "category": "AI",
       "age": "RECENT"
     }
   ]
