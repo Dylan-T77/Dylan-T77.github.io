@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T19:43:00.308597+00:00",
+  "generated_at": "2026-08-18T20:42:39.443787+00:00",
   "articles": [
     {
       "title": "Peacock raises prices by 18 percent after becoming profitable",
@@ -362,6 +362,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Squeeze More Juice Out of a Dead Battery!",
+      "summary": "How the joule thief circuit “steals” energy from seemingly depleted power cells.",
+      "url": "https://www.wired.com/story/squeeze-more-juice-out-of-a-dead-battery/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Garmin Watches Are Up to $250 Off Right Now On Amazon (2026)",
       "summary": "Save $250 off the Garmin Fenix 8, plus discounts on other popular fitness trackers from the brand.",
       "url": "https://www.wired.com/story/garmin-deals-august-2026/",
@@ -410,19 +418,19 @@
       "age": "RECENT"
     },
     {
-      "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
-      "summary": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, starting with the Fairphone (Gen 6+).",
-      "url": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To",
       "summary": "Proton’s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?",
       "url": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
       "source": "WIRED",
       "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
+      "summary": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, starting with the Fairphone (Gen 6+).",
+      "url": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -450,14 +458,6 @@
       "age": "RECENT"
     },
     {
-      "title": "SteelSeries Coupon Codes: 15% Off in August 2026",
-      "summary": "Unlock exclusive discounts on SteelSeries' award-winning gaming headsets, keyboards, and accessories.",
-      "url": "https://www.wired.com/story/steelseries-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Noom Promo Codes: 50% Off Best Deals & Free Trials for August 2026",
       "summary": "Discover the best ways to save on Noom subscriptions, including free trials, limited-time offers for GLP-1Rx Plus, and essential tips for redeeming your Noom discount.",
       "url": "https://www.wired.com/story/noom-promo-code/",
@@ -477,6 +477,14 @@
       "title": "1Password Coupon: Score a Free Trial in August 2026",
       "summary": "Save up to 28% on business and personal memberships with 1Password promo codes and deals.",
       "url": "https://www.wired.com/story/1password-coupon/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "SteelSeries Coupon Codes: 15% Off in August 2026",
+      "summary": "Unlock exclusive discounts on SteelSeries' award-winning gaming headsets, keyboards, and accessories.",
+      "url": "https://www.wired.com/story/steelseries-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -554,10 +562,10 @@
       "age": "RECENT"
     },
     {
-      "title": "Skylight Buddy Review (2026): Kid Routines Just Got Easy",
-      "summary": "This kid-friendly version of Skylight’s digital calendar actually gets my son to complete his nighttime routine in a timely fashion.",
-      "url": "https://www.wired.com/review/skylight-buddy/",
-      "source": "WIRED",
+      "title": "Comcast turns your Xfinity WiFi into a home motion detector",
+      "summary": "Comcast is promoting WiFi-based motion detection as a part of its new Xfinity Shield home protection platform, allowing routers and wireless devices to detect people moving through a home without cameras or motion sensors. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
+      "source": "BleepingComputer",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -674,11 +682,19 @@
       "age": "RECENT"
     },
     {
-      "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
-      "summary": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be selling the stolen data. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
+      "title": "DOJ’s probe into Andreessen Horowitz over board seats baffles VCs",
+      "summary": "Since portfolio companies often pivot and expand into competing markets, investors view occasional conflicts of interest as unavoidable for large VC firms.",
+      "url": "https://techcrunch.com/2026/08/18/dojs-probe-into-andreessen-horowitz-over-board-seats-baffles-vcs/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "TikTok explores peer-to-peer payments via DMs, report says",
+      "summary": "If rolled out, the feature would use the social media service’s TikTok Pay offering, which is already available in Southeast Asia for TikTok Shop purchases.",
+      "url": "https://techcrunch.com/2026/08/18/tiktok-explores-peer-to-peer-payments-via-dms-report-says/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -715,7 +731,7 @@
     },
     {
       "title": "Comcast adds motion sensing to millions of its newer routers, with a privacy catch",
-      "summary": "A new feature added to Comcast's newest routers can detect if there is motion is inside your home without needing traditional motion sensors.",
+      "summary": "A new feature added to Comcast's newest routers can detect if there is motion inside your home without needing traditional motion sensors.",
       "url": "https://techcrunch.com/2026/08/18/comcast-adds-motion-sensing-to-millions-of-its-newer-routers-with-a-privacy-catch/",
       "source": "TechCrunch",
       "category": "GENERAL",
@@ -779,26 +795,10 @@
     },
     {
       "title": "Apple’s new macOS update reportedly contains a video of AirPods with a camera",
-      "summary": "A video in a MacOS Tahoe release candidate version shows a user wearing AirPods, looking at a book, and talking to Siri.",
+      "summary": "A video in a macOS Tahoe release candidate version shows a user wearing AirPods, looking at a book, and talking to Siri.",
       "url": "https://techcrunch.com/2026/08/18/apples-new-macos-update-reportedly-contains-a-video-of-airpods-with-a-camera/",
       "source": "TechCrunch",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Daniel Ek’s body-scanning startup Neko Health opens first US office, in New York",
-      "summary": "The scanning and bloodwork health startup founded by Spotify's founder will officially launch in New York in about a month.",
-      "url": "https://techcrunch.com/2026/08/18/daniel-eks-body-scanning-startup-neko-health-opens-first-us-office-in-new-york/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Reach Capital raises $265M Fund V to back AI founders building to ‘expand human potential’",
-      "summary": "Reach Capital announced Tuesday an oversubscribed $265 million Fund V.",
-      "url": "https://techcrunch.com/2026/08/18/reach-capital-raises-265m-fund-v-to-back-ai-founders-building-to-expand-human-potential/",
-      "source": "TechCrunch",
-      "category": "AI",
       "age": "RECENT"
     }
   ]
