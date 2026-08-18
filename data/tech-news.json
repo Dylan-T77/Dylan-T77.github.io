@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T10:49:26.967674+00:00",
+  "generated_at": "2026-08-18T11:44:02.044425+00:00",
   "articles": [
     {
       "title": "Theban tomb reveals how Egyptian burial trends evolved in time",
@@ -159,6 +159,14 @@
       "url": "https://arstechnica.com/tech-policy/2026/08/state-judge-orders-kalshi-to-stop-offering-sports-bets-and-other-wagers/",
       "source": "Ars Technica",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Passport out-of-control at French airport",
+      "summary": "Papers please. Windows is watching",
+      "url": "https://www.theregister.com/os-platforms/2026/08/18/passport-out-of-control-at-french-airport/5288697",
+      "source": "The Register",
+      "category": "WINDOWS",
       "age": "RECENT"
     },
     {
@@ -354,11 +362,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Microsoft blames AI for delayed Exchange update, can’t say when it will arrive",
-      "summary": "Dealing with machine-made bug backlog makes it hard to find a moment to deliver promised subscription service",
-      "url": "https://www.theregister.com/software/2026/08/17/microsoft-blames-ai-for-delayed-exchange-update-cant-say-when-it-will-arrive/5288227",
-      "source": "The Register",
-      "category": "AI",
+      "title": "I Put the Best Digital Notebooks to the Test. Here Are My Favorites (2026)",
+      "summary": "These nifty tools combine the ease of jotting notes by hand with the power of saving them digitally.",
+      "url": "https://www.wired.com/gallery/best-smart-notebooks-and-smart-pens/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -386,7 +394,15 @@
       "age": "RECENT"
     },
     {
-      "title": "The Powerful Chinese Model Experts Warned About—and Waited for—Is Here",
+      "title": "Best Merino Wool Clothing (2026): Base Layers, Hoodies, Jackets",
+      "summary": "Merino is one of the best fabrics you can wear. We explain the different blends, what “GSM” means, and how to care for your clothes.",
+      "url": "https://www.wired.com/story/best-merino-wool-clothes/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "The Powerful Chinese AI Model Experts Warned About Is Here",
       "summary": "Z.ai’s latest AI model release could help companies secure their systems—or find its way into the hands of hackers.",
       "url": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking/",
       "source": "WIRED",
@@ -394,9 +410,9 @@
       "age": "RECENT"
     },
     {
-      "title": "Best Merino Wool Clothing (2026): Base Layers, Hoodies, Jackets",
-      "summary": "Merino is one of the best fabrics you can wear. We explain the different blends, what “GSM” means, and how to care for your clothes.",
-      "url": "https://www.wired.com/story/best-merino-wool-clothes/",
+      "title": "SteelSeries Coupon Codes: 15% Off in August 2026",
+      "summary": "Unlock exclusive discounts on SteelSeries' award-winning gaming headsets, keyboards, and accessories.",
+      "url": "https://www.wired.com/story/steelseries-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -421,14 +437,6 @@
       "title": "1Password Coupon: Score a Free Trial in August 2026",
       "summary": "Save up to 28% on business and personal memberships with 1Password promo codes and deals.",
       "url": "https://www.wired.com/story/1password-coupon/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "SteelSeries Coupon Codes: 15% Off in August 2026",
-      "summary": "Unlock exclusive discounts on SteelSeries' award-winning gaming headsets, keyboards, and accessories.",
-      "url": "https://www.wired.com/story/steelseries-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -554,11 +562,11 @@
       "age": "RECENT"
     },
     {
-      "title": "It’s Never Too Early to Start Planning for the Next Two Solar Eclipses",
-      "summary": "In 2027 and 2028, there will be two spectacular, long-duration solar eclipses. Here’s what you need to know about them.",
-      "url": "https://www.wired.com/story/its-never-too-early-to-start-planning-for-the-next-two-solar-eclipses/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "Microsoft tests faster Windows File Explorer, new context menu",
+      "summary": "Microsoft has started testing a faster File Explorer and a less cluttered and more customizable context menu in Windows 11 preview builds rolling out to Insiders this week. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/",
+      "source": "BleepingComputer",
+      "category": "WINDOWS",
       "age": "RECENT"
     },
     {
@@ -674,11 +682,11 @@
       "age": "RECENT"
     },
     {
-      "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
-      "summary": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's web browser. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
+      "title": "Reach Capital raises $265M Fund V to back AI founders building to ‘expand human potential’",
+      "summary": "Reach Capital announced Tuesday an oversubscribed $265M Fund V.",
+      "url": "https://techcrunch.com/2026/08/18/reach-capital-raises-265m-fund-v-to-back-ai-founders-building-to-expand-human-potential/",
+      "source": "TechCrunch",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -789,14 +797,6 @@
       "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
       "summary": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
       "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
-      "source": "TechCrunch",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
-      "summary": "Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center.",
-      "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
       "source": "TechCrunch",
       "category": "HARDWARE",
       "age": "RECENT"
