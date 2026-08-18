@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T07:56:49.127523+00:00",
+  "generated_at": "2026-08-18T08:55:26.825803+00:00",
   "articles": [
     {
       "title": "Theban tomb reveals how Egyptian burial trends evolved in time",
@@ -158,6 +158,206 @@
       "summary": "Kalshi ordered to stop offering bets in Washington, must implement geofencing.",
       "url": "https://arstechnica.com/tech-policy/2026/08/state-judge-orders-kalshi-to-stop-offering-sports-bets-and-other-wagers/",
       "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Microsoft MVP creates site to remind you of all the brands Redmond replaced",
+      "summary": "If you’re still talking about ‘DirSync’ or ‘Active Directory’ instead of ‘Entra’, and need to explain why, this is the site for you",
+      "url": "https://www.theregister.com/software/2026/08/18/microsoft-mvp-creates-site-to-remind-you-of-all-the-brands-redmond-replaced/5288937",
+      "source": "The Register",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Xen Project gets serious about safety in push to possibly partition robot brains",
+      "summary": "Boeing quietly joins FOSS hypervisor crew, as AMD and Renesas lead new effort to comply with formal standards",
+      "url": "https://www.theregister.com/virtualization/2026/08/18/xen-project-gets-serious-about-safety-in-push-to-possibly-partition-robot-brains/5288914",
+      "source": "The Register",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Almost nobody pays attention to web standards anymore",
+      "summary": "Screen readers suffer as nearly 90% of top websites tested contain HTML spec violations",
+      "url": "https://www.theregister.com/devops/2026/08/17/almost-nobody-pays-attention-to-web-standards-anymore/5288782",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Payments giant Stripe is about to drop over $7 billion to become a gateway to AI token sales",
+      "summary": "AI gateways look promising as companies struggle with model orchestration",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/17/payments-giant-stripe-is-about-to-drop-over-7-billion-to-become-a-gateway-to-ai-token-sales/5288743",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Siemens and Reinhausen turn up the voltage for hungry AI racks",
+      "summary": "Not a German cop show, but a pair of engineering firms aiming to feed 800 VDC to next-gen kit",
+      "url": "https://www.theregister.com/on-prem/2026/08/17/siemens-and-reinhausen-turn-up-the-voltage-for-hungry-ai-racks/5288565",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Mozilla adds ad blocking to Firefox for iOS",
+      "summary": "Experimental feature to block some, but not all, ads",
+      "url": "https://www.theregister.com/software/2026/08/17/mozilla-adds-ad-blocking-to-firefox-for-ios/5288585",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "GitHub has Issues as repo downloads hit 50% error rate",
+      "summary": "Copilot also wobbles as another outage tests developer patience",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/17/github-has-issues-as-repo-downloads-hit-50-error-rate/5288543",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "$1K laser mosquito zapper promises precision strikes as backers itch for answers",
+      "summary": "After raising $2.8M, the project has entered production, but company comms have done little to reassure buyers",
+      "url": "https://www.theregister.com/offbeat/2026/08/17/1k-laser-mosquito-zapper-promises-precision-strikes-as-backers-itch-for-answers/5288431",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Windows 11 movable taskbar edges closer to general release",
+      "summary": "Preview also brings compact icons, Start menu sizing, and the final shove for WMIC",
+      "url": "https://www.theregister.com/os-platforms/2026/08/17/windows-11-movable-taskbar-edges-closer-to-general-release/5288393",
+      "source": "The Register",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Capita handed vital role in next pandemic despite civil service pension failures",
+      "summary": "Initial £31M deal comes with scope to scale sharply during a major outbreak",
+      "url": "https://www.theregister.com/public-sector/2026/08/17/capita-handed-vital-role-in-next-pandemic-despite-civil-service-pension-failures/5288454",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Agentic AI costs set to balloon fivefold by 2028",
+      "summary": "Cheaper tokens won't help when complex workflows consume so many more of them, Gartner warns",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/17/agentic-ai-costs-set-to-balloon-fivefold-by-2028/5288363",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Crook hawks millions of records allegedly plundered from corporate Azure tenants",
+      "summary": "McDonald's, Vodafone, TCS, Kyndryl, and others named as researchers point to compromised credentials",
+      "url": "https://www.theregister.com/security/2026/08/17/crook-hawks-millions-of-records-allegedly-plundered-from-corporate-azure-tenants/5288305",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Excel's Copilot function is headed for the Recycle Bin",
+      "summary": "Microsoft realizes the side pane should be enough for anyone",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/17/excels-copilot-function-is-headed-for-the-recycle-bin/5288327",
+      "source": "The Register",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Be a hater all you want, AI's here to stay",
+      "summary": "The good news? One of the worst bits, tech giants controlling it all, might soon be over",
+      "url": "https://www.theregister.com/columnists/2026/08/17/be-a-hater-all-you-want-ais-here-to-stay/5288275",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Code fixers have fired up the AI warp drive. Strange new worlds await",
+      "summary": "With more patches per month than at a pirate convention, the bug must be an endangered species. Well, about that",
+      "url": "https://www.theregister.com/columnists/2026/08/17/code-fixers-have-fired-up-the-ai-warp-drive-strange-new-worlds-await/5287681",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Black Hat and DEF CON are AI conferences now, too",
+      "summary": "On this week's episode of The Reg's Kettle podcast, we revisit 'hacker summer camp,' where the hottest topic was ... sigh... agentic AI",
+      "url": "https://www.theregister.com/security/2026/08/17/black-hat-and-def-con-are-ai-conferences-now-too/5288076",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Part didn't fit so techie got out his screwdriver. Then something flew off the motherboard",
+      "summary": "Whatever it was broke a PC and led to a face-saving lie",
+      "url": "https://www.theregister.com/systems/2026/08/17/part-didnt-fit-so-techie-got-out-his-screwdriver-then-something-flew-off-the-motherboard/5287692",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Linux 7.2 debuts, Linus Torvalds says ‘new normal’ means he had to do it now ... or never?",
+      "summary": "Say hello to smarter use of caches to speed things up, and a very odd gaming controller. Say goodbye to some PCMCIA support",
+      "url": "https://www.theregister.com/os-platforms/2026/08/17/linux-72-debuts-linus-torvalds-says-new-normal-means-he-had-to-do-it-now-or-never/5288250",
+      "source": "The Register",
+      "category": "LINUX",
+      "age": "RECENT"
+    },
+    {
+      "title": "Sainsbury's staff eject wrong shopper after facial recognition alert – again",
+      "summary": "Facewatch says its technology worked as intended before humans mishandled the result",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/17/sainsburys-staff-eject-wrong-shopper-after-facial-recognition-alert-again/5288602",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Microsoft blames AI for delayed Exchange update, can’t say when it will arrive",
+      "summary": "Dealing with machine-made bug backlog makes it hard to find a moment to deliver promised subscription service",
+      "url": "https://www.theregister.com/software/2026/08/17/microsoft-blames-ai-for-delayed-exchange-update-cant-say-when-it-will-arrive/5288227",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Chinese AI company Zhipu claims its new model is a better bug-finder than Anthropic, OpenAI",
+      "summary": "PLUS: HCL, TCS, admit data breaches; South Korea to fine Apple, Google; India bans some rideshare tips; and more!",
+      "url": "https://www.theregister.com/security/2026/08/17/chinese-ai-company-zhipu-claims-its-new-model-is-a-better-bug-finder-than-anthropic-openai/5288203",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Stopping a cyberattack while walking your dog - defensive AI security CEO says it's not ruff to do",
+      "summary": "Corma CEO tells The Reg it's building 'One ring to rule them all, for the defenders to have this power'",
+      "url": "https://www.theregister.com/security/2026/08/16/stopping-a-cyberattack-while-walking-your-dog-defensive-ai-security-ceo-says-its-not-ruff-to-do/5288126",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "The what, why, and how of pull requests and source comments",
+      "summary": "Microsoft veteran on knowing the difference and convincing approvers to accept a change",
+      "url": "https://www.theregister.com/offbeat/2026/08/16/the-what-why-and-how-of-pull-requests-and-source-comments/5287914",
+      "source": "The Register",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "ChainDrop worm crawls into npm supply chain, evades standard defenses",
+      "summary": "Shai-Hulud variant poisons 444 packages, spreads via tarballs and dev-tool hooks",
+      "url": "https://www.theregister.com/security/2026/08/15/chaindrop-worm-crawls-into-npm-supply-chain-evades-standard-defenses/5287958",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Lego's supersized Hubble deserves a little more shine",
+      "summary": "Excellent internal detail cannot entirely disguise some penny-pinching choices",
+      "url": "https://www.theregister.com/offbeat/2026/08/15/legos-supersized-hubble-deserves-a-little-more-shine/5282858",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -362,6 +562,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Microsoft starts removing WMIC tool used by cybercriminals",
+      "summary": "Microsoft announced that it removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, as well as from Windows 11 beta builds released this week. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/",
+      "source": "BleepingComputer",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
       "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
       "summary": "A threat actor is selling employee databases allegedly stolen from the Microsoft Azure infrastructure of multiple Fortune 500 companies after gaining access using compromised credentials. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
@@ -471,14 +679,6 @@
       "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
       "source": "BleepingComputer",
       "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
-      "summary": "Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at a service provider, allowing them to withdraw funds from Commerzbank customers' bank accounts. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -599,206 +799,6 @@
       "url": "https://techcrunch.com/2026/08/17/wordpress-com-targets-the-next-generation-of-web-creators-with-a-free-student-plan/",
       "source": "TechCrunch",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Uber adds Zipline drones to its Eats delivery network",
-      "summary": "Uber is also making investing in Zipline a part of the tie-up.",
-      "url": "https://techcrunch.com/2026/08/17/uber-adds-zipline-drones-to-its-eats-delivery-network/",
-      "source": "TechCrunch",
-      "category": "ROBOTICS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
-      "summary": "The funds will allow Wispr to increase its footprint as it ventures into new areas, such as meetings, with its newly released note-taker tool.",
-      "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Crypto hardware wallet owners face fresh security risks after recent spate of personal data thefts",
-      "summary": "The hacks at shipping companies used to mail out hardware wallets puts crypto owners at greater risk of real-world attacks.",
-      "url": "https://techcrunch.com/2026/08/17/crypto-hardware-wallet-owners-face-fresh-security-risks-after-recent-spate-of-personal-data-thefts/",
-      "source": "TechCrunch",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
-      "summary": "OpenRouter's CEO recently described the startup as Stripe for AI.",
-      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
-      "summary": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.",
-      "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "IEEE Presidents’ Scholarship Honors Teen Innovators",
-      "summary": "About 16 percent of the global population—more than 1 billion people—live with some form of disability, according to the World Health Organization . Many of the disabilities affect independence and mobility. Three high school students working on inventions to help people with dis",
-      "url": "https://spectrum.ieee.org/ieee-presidents-scholarship-2026",
-      "source": "IEEE Spectrum",
-      "category": "ROBOTICS",
-      "age": "RECENT"
-    },
-    {
-      "title": "From AI Copilots to Agent Swarms",
-      "summary": "The impact of AI on software development has been both profound and ever-evolving. Last year, I wrote about AMD’s plans to use AI not just for generating new lines of code, but also for other steps in the software development lifecycle (SDLC), such as triaging problems, debugging",
-      "url": "https://spectrum.ieee.org/amd-agent-swarms",
-      "source": "IEEE Spectrum",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Digital Signal Processing Pioneer Bede Liu Dies At 91",
-      "summary": "Bede Liu, a digital signal processing pioneer, died on 7 May. He was 91. Liu was widely regarded as one of the founders of modern digital signal processing, a field that applies mathematical algorithms to analyze, modify, and transmit signals including sound, images, and video. T",
-      "url": "https://spectrum.ieee.org/digital-signal-processing-pioneer-bede-liu",
-      "source": "IEEE Spectrum",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Predict Antenna Coupling on Electrically Large Platforms Before Building Hardware",
-      "summary": "Learn how full-wave simulation predicts very low antenna coupling on aircraft-sized platforms, and which three modeling techniques deliver accurate results with fewer computational resources. Download this free whitepaper now!",
-      "url": "https://content.knowledgehub.wiley.com/efficient-and-accurate-prediction-of-cosite-isolation-on-large-platforms/",
-      "source": "IEEE Spectrum",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Bring a Product Manager Mindset to Your Next Engineering Job",
-      "summary": "If you haven’t already seen a job listing for a “product engineer,” you probably will soon. The job everyone’s suddenly hiring for, this role is like a cross between a product manager and an engineer (as the name suggests). And it’s a hiring trend worth paying attention to. Compa",
-      "url": "https://spectrum.ieee.org/product-engineer",
-      "source": "IEEE Spectrum",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Inside the Data Bottleneck Slowing Visual and Physical AI",
-      "summary": "A survey of over 700 professionals examines how visual and physical AI teams build systems, why models fail, and where data work drives production. Download this free whitepaper now!",
-      "url": "https://content.knowledgehub.wiley.com/the-2026-state-of-visual-and-physical-ai-a-survey-of-700-practitioners-on-data-models-and-production/",
-      "source": "IEEE Spectrum",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "IEEE Engineering Summit Supports Bhutan’s Digital Transformation",
-      "summary": "In collaboration with the Kingdom of Bhutan government, IEEE recently introduced its Engineering Education, Research, and Innovation Summit. Held on 9 and 10 June in Paro, in the eastern Himalayas, the event was designed to help Bhutan navigate its digital transformation by focus",
-      "url": "https://spectrum.ieee.org/ieee-summit-bhutan-digital-transformation",
-      "source": "IEEE Spectrum",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Zap Rocks. Add Water. Get Clean Hydrogen",
-      "summary": "In a tranquil Boston suburb , on the far edge of a horse farm, where pasture gives way to woods, a crane lowers an enormous electrode into a borehole. The electrode, a half-meter-long cylinder with copper-tipped arms to ensure good contact with the borehole walls, descends—deeper",
-      "url": "https://spectrum.ieee.org/stimulated-geologic-hydrogen",
-      "source": "IEEE Spectrum",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Navigating the Pivot From Tech Expert to Organizational Leader",
-      "summary": "The transition from a purely technical expert or individual contributor position to a broader leadership role is one of the most challenging phases in a STEM career. It requires moving away from relying solely on technical excellence toward mastering systems thinking, adaptive le",
-      "url": "https://spectrum.ieee.org/navigating-pivot-tech-expert-leader",
-      "source": "IEEE Spectrum",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Cars Communicating Badly Is an Already-Solved Problem",
-      "summary": "The history of networking is full of tools that repurposed solutions to very different kinds of problems first. Wi-Fi’s origins trace back , in part, to a team of Australian radio astronomers trying to detect signals from evaporating black holes. But the data-processing tools the",
-      "url": "https://spectrum.ieee.org/v2x-technology-5g-open-ran",
-      "source": "IEEE Spectrum",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "IEEE Course Teaches How to Use AI to Modernize Power Grids",
-      "summary": "Today’s U.S. electrical grid, among the largest, most complex systems ever built, is operating at its limit. The combination of rapid industrial growth, more frequent extreme weather, and a record surge in electricity use has pushed the grid to its breaking point , according to t",
-      "url": "https://spectrum.ieee.org/ieee-course-ai-power-grids",
-      "source": "IEEE Spectrum",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Why R&D Waste Persists Despite Widespread AI Adoption",
-      "summary": "This report examines R&D waste and how AI adoption has outpaced the intelligence needed to make consequential decisions well. What Attendees will Learn Where R&D budget is lost. More than a third of organizations spend 25 to 40 percent of their R&D budget on projects that never r",
-      "url": "https://content.knowledgehub.wiley.com/the-2026-rd-benchmark-report-waste-ai-and-the-race-to-market/",
-      "source": "IEEE Spectrum",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "The System That Turned Paper Charts Into Digital Medical Records",
-      "summary": "Most hospitals and health care providers use electronic health records instead of paper charts to note patient vaccinations, diagnoses, and procedures. AthenaOne , Epic , and Oracle Health are some of the systems employed around the world. Many patients can access their electroni",
-      "url": "https://spectrum.ieee.org/ieee-milestone-digital-medical-records",
-      "source": "IEEE Spectrum",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Identifying the Root Cause of Electronics Failures With Simulation Apps",
-      "summary": "This article is brought to you by COMSOL . In pursuit of improved range, greater reliability, and faster charging, electric vehicles are driving the demand for high-voltage electronics. Other applications driving this demand include wind farms, data centers, and server farms, to ",
-      "url": "https://spectrum.ieee.org/electronics-corrosion-multiphysics-simulation",
-      "source": "IEEE Spectrum",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "This Hi-Fi Tape Recorder Changed Radio Forever",
-      "summary": "A German engineer wanted a cheaper cigarette. The popular crooner Bing Crosby wanted a vacation. Satisfying both desires inadvertently led to the invention of the laugh track. Along the way there were Nazis, spoils of war, and more than one accidental encounter. Tying together th",
-      "url": "https://spectrum.ieee.org/magnetophon-laugh-track",
-      "source": "IEEE Spectrum",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Fridays With Bob",
-      "summary": "When I started at Spectrum 25 years ago, a senior editor suggested that I find a “rabbi,” by which he meant someone who could mentor me in how EEs approach problems and evaluate potential solutions. I didn’t find one right away. Then in 2005 we decided to do a special report, foc",
-      "url": "https://spectrum.ieee.org/risk",
-      "source": "IEEE Spectrum",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "IEEE Publishing Ethics Team Upholds Research Integrity",
-      "summary": "Given a rising number of publishing misconduct allegations , IEEE in 2022 created the Publishing Ethics Team as a centralized department to assist in handling claims. The group also works to increase the organization’s visibility in the broader publishing ethics area and helps IE",
-      "url": "https://spectrum.ieee.org/ieee-publishing-ethics-research-integrity",
-      "source": "IEEE Spectrum",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Detect Dark Matter’s Mark From Your Backyard",
-      "summary": "If you’re wondering what dark matter is, you’re not alone. Astronomers don’t know. But they’ve determined that this invisible material must be far more abundant than the stars and nebulas that they can see. They’ve surmised as much from observing the gravitational effects of all ",
-      "url": "https://spectrum.ieee.org/dark-matter",
-      "source": "IEEE Spectrum",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "A Remote Indigenous Community Built One of Canada’s Fastest Fiber Networks",
-      "summary": "In February 2024, a young man lay somewhere on the frozen shore of James Bay, Canada, surrounded by snow and darkness, succumbing to hypothermia. When he failed to get home on time, his frantic mother sent a Facebook message to Elizabeth Kataquapit, then chief of the indigenous c",
-      "url": "https://spectrum.ieee.org/indigenous-fiber-network",
-      "source": "IEEE Spectrum",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Negotiating Your Salary Is About More Than Money",
-      "summary": "This article is crossposted from IEEE Spectrum ’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written i n partnership with tech career development company Parsity and delivered to your inbox for free! Scroll through LinkedIn right",
-      "url": "https://spectrum.ieee.org/how-to-negotiate-your-salary",
-      "source": "IEEE Spectrum",
-      "category": "ROBOTICS",
       "age": "RECENT"
     }
   ]
