@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-08-18T11:44:02.044425+00:00",
+  "generated_at": "2026-08-18T13:11:22.677193+00:00",
   "articles": [
+    {
+      "title": "As temperatures get hotter, pesticides are more dangerous to farmworkers",
+      "summary": "Research shows heat amplifies the dangers of pesticides.",
+      "url": "https://arstechnica.com/science/2026/08/as-temperatures-get-hotter-pesticides-are-more-dangerous-to-farmworkers/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
     {
       "title": "Theban tomb reveals how Egyptian burial trends evolved in time",
       "summary": "Practices shifted from individuals buried in coffins to reusing sites for later mummy interments.",
@@ -154,10 +162,18 @@
       "age": "RECENT"
     },
     {
-      "title": "State judge orders Kalshi to stop offering sports bets and other wagers",
-      "summary": "Kalshi ordered to stop offering bets in Washington, must implement geofencing.",
-      "url": "https://arstechnica.com/tech-policy/2026/08/state-judge-orders-kalshi-to-stop-offering-sports-bets-and-other-wagers/",
-      "source": "Ars Technica",
+      "title": "Copilot tricked into telling reseachers how to hack itself",
+      "summary": "How to social engineer an AI's reasoning engine",
+      "url": "https://www.theregister.com/research/2026/08/18/copilot-tricked-into-telling-reseachers-how-to-hack-itself/5288857",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Government Teams users face another ******* month of filtered captions",
+      "summary": "Officials must wait a little longer before Live Captions tells it like it is",
+      "url": "https://www.theregister.com/software/2026/08/18/government-teams-users-face-another-month-of-filtered-captions/5288985",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -346,18 +362,10 @@
       "age": "RECENT"
     },
     {
-      "title": "Linux 7.2 debuts, Linus Torvalds says ‘new normal’ means he had to do it now ... or never?",
-      "summary": "Say hello to smarter use of caches to speed things up, and a very odd gaming controller. Say goodbye to some PCMCIA support",
-      "url": "https://www.theregister.com/os-platforms/2026/08/17/linux-72-debuts-linus-torvalds-says-new-normal-means-he-had-to-do-it-now-or-never/5288250",
-      "source": "The Register",
-      "category": "LINUX",
-      "age": "RECENT"
-    },
-    {
-      "title": "Sainsbury's staff eject wrong shopper after facial recognition alert – again",
-      "summary": "Facewatch says its technology worked as intended before humans mishandled the result",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/17/sainsburys-staff-eject-wrong-shopper-after-facial-recognition-alert-again/5288602",
-      "source": "The Register",
+      "title": "Can the Upcoming ‘Expanse’ Game Avoid ‘Mass Effect’s’ Biggest Mistake?",
+      "summary": "The universe may never tell you if your choices mattered. Owlcat’s Osiris Reborn might not either.",
+      "url": "https://www.wired.com/story/the-upcoming-expanse-game-has-to-make-some-hard-choices/",
+      "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -370,19 +378,19 @@
       "age": "RECENT"
     },
     {
-      "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
-      "summary": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, starting with the Fairphone (Gen 6+).",
-      "url": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To",
       "summary": "Proton’s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?",
       "url": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
       "source": "WIRED",
       "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
+      "summary": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, starting with the Fairphone (Gen 6+).",
+      "url": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -442,6 +450,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Womanizer Coupons: Save 15% in August",
+      "summary": "Save on the Womanizer Duo Premium and more with our latest Womanizer discount codes.",
+      "url": "https://www.wired.com/story/womanizer-coupon/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Vivid Seats Promo Codes and Deals: Get 10% Off",
       "summary": "Whether you are heading to a sold-out concert or a championship game, use a Vivid Seats discount code to secure your seats for less this August 2026.",
       "url": "https://www.wired.com/story/vivid-seats-promo-code/",
@@ -469,14 +485,6 @@
       "title": "Ring Promo Code: 50% Off",
       "summary": "Discover how to save on Ring cameras, doorbells, outdoor cameras, and more.",
       "url": "https://www.wired.com/story/ring-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Womanizer Coupons: Save 15% in August",
-      "summary": "Save on the Womanizer Duo Premium and more with our latest Womanizer discount codes.",
-      "url": "https://www.wired.com/story/womanizer-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -541,14 +549,6 @@
       "title": "There’s a New Link Between Gut Health and Alzheimer’s Disease",
       "summary": "Researchers found that a metabolite produced by gut bacteria can weaken the barrier that protects the brain and promote changes associated with the cognitive disease.",
       "url": "https://www.wired.com/story/new-link-between-gut-health-and-alzheimers/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Samsung Galaxy Z Fold8 and Galaxy Z Fold8 Ultra Review: The Right Shape",
-      "summary": "Nearly a decade after its debut, Samsung’s Galaxy Fold finally comes into its own.",
-      "url": "https://www.wired.com/review/samsung-galaxy-z-fold8-and-z-fold8-ultra/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -682,11 +682,27 @@
       "age": "RECENT"
     },
     {
+      "title": "Daniel Ek’s body-scanning startup Neko Health opens first US office, in New York",
+      "summary": "The scanning and bloodwork health startup founded by Spotify's founder will officially launch in New York in about a month.",
+      "url": "https://techcrunch.com/2026/08/18/daniel-eks-body-scanning-startup-neko-health-opens-first-us-office-in-new-york/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Reach Capital raises $265M Fund V to back AI founders building to ‘expand human potential’",
       "summary": "Reach Capital announced Tuesday an oversubscribed $265M Fund V.",
       "url": "https://techcrunch.com/2026/08/18/reach-capital-raises-265m-fund-v-to-back-ai-founders-building-to-expand-human-potential/",
       "source": "TechCrunch",
       "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Fairphone is launching its latest repairable phone in the US too",
+      "summary": "The Fairphone 6+ is priced at $649 and will be available on Amazon.",
+      "url": "https://techcrunch.com/2026/08/18/fairphone-is-launching-its-latest-repairable-phone-in-the-us-too/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -783,22 +799,6 @@
       "url": "https://techcrunch.com/2026/08/17/feedly-attributes-weeklong-slowdown-to-bug-not-its-ai-pivot/",
       "source": "TechCrunch",
       "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
-      "summary": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
-      "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
-      "summary": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
-      "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
-      "source": "TechCrunch",
-      "category": "HARDWARE",
       "age": "RECENT"
     }
   ]
