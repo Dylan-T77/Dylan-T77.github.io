@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T13:58:59.016054+00:00",
+  "generated_at": "2026-08-18T14:55:10.497938+00:00",
   "articles": [
     {
       "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
@@ -158,6 +158,14 @@
       "summary": "Airline-backed venture aims to develop a hybrid-electric commercial aircraft.",
       "url": "https://arstechnica.com/gadgets/2026/08/first-test-flight-of-largest-all-electric-aircraft-used-just-5-of-electricity/",
       "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Tim King, AmigaDOS royalty, dies aged 70",
+      "summary": "Parallel computing pioneer went on to found early British ISP UK Online",
+      "url": "https://www.theregister.com/software/2026/08/18/tim-king-amigados-royalty-dies-aged-70/5289101",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -354,15 +362,15 @@
       "age": "RECENT"
     },
     {
-      "title": "Black Hat and DEF CON are AI conferences now, too",
-      "summary": "On this week's episode of The Reg's Kettle podcast, we revisit 'hacker summer camp,' where the hottest topic was ... sigh... agentic AI",
-      "url": "https://www.theregister.com/security/2026/08/17/black-hat-and-def-con-are-ai-conferences-now-too/5288076",
-      "source": "The Register",
-      "category": "AI",
+      "title": "Meta Ran Ads for an App That Promised to Nudify Female Politicians",
+      "summary": "One advertisement featured a pornographic video with a deepfake closely resembling a prominent US politician. Apple removed the app from the App Store after an inquiry from WIRED.",
+      "url": "https://www.wired.com/story/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "Can the Upcoming ‘Expanse’ Game Avoid ‘Mass Effect’s’ Biggest Mistake?",
+      "title": "Can the Upcoming ‘Expanse’ Game Avoid ‘Mass Effect’’s Biggest Mistake?",
       "summary": "The universe may never tell you if your choices mattered. Owlcat’s Osiris Reborn might not either.",
       "url": "https://www.wired.com/story/the-upcoming-expanse-game-has-to-make-some-hard-choices/",
       "source": "WIRED",
@@ -554,11 +562,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Astronomers Discover the Existence of a Black Hole Star",
-      "summary": "An object observed by the James Webb Space Telescope lends credence to a strange explanation for the mysterious red spots in the early universe.",
-      "url": "https://www.wired.com/story/black-hole-stars-are-becoming-less-hypothetical/",
-      "source": "WIRED",
-      "category": "SPACE",
+      "title": "Your Controls Block Known Attacks. What About the Behavior?",
+      "summary": "Security controls can block a familiar attack method while missing quieter ways to achieve the same objective. Picus Security's Blue Report 2026 shows how prevention rates can vary dramatically by technique and why behavioral testing is needed to uncover those gaps. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -674,11 +682,19 @@
       "age": "RECENT"
     },
     {
-      "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
-      "summary": "Multiple distributed denial-of-service (DDoS) attacks targeted the Threema secure messaging service earlier this week, causing severe disruptions to communications. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
-      "source": "BleepingComputer",
+      "title": "Anthro Energy breaks ground on factory that could pave the road to solid-state batteries",
+      "summary": "Battery materials startup Anthro Energy has broken ground on a Louisville factory to make electrolytes, including those for solid-state batteries.",
+      "url": "https://techcrunch.com/2026/08/18/anthro-energy-breaks-ground-on-factory-that-could-pave-the-road-to-solid-state-batteries/",
+      "source": "TechCrunch",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Warp’s new system is an out-of-the-box software factory for AI development",
+      "summary": "On Tuesday, Warp introduced Warp Factories, a new infrastrructure system designed to make building AI software factories as easy as possible.",
+      "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
+      "source": "TechCrunch",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -781,22 +797,6 @@
       "title": "Spotify’s new Playlist Notes let users and editors explain their song picks",
       "summary": "Spotify launches a new feature that gives users a chance to explain the stories and reasoning behind their favorite music. Editors will be using the feature, too, on top playlists like RapCaviar and others.",
       "url": "https://techcrunch.com/2026/08/17/spotifys-new-playlist-notes-let-users-and-editors-explain-their-song-picks/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Higgsfield raises $400M Series B, quadrupling its valuation in 8 months to $5.4B",
-      "summary": "Higgsfield, founded by former Snap exec Alex Mashrabov, lets users create AI images and videos.",
-      "url": "https://techcrunch.com/2026/08/17/higgsfield-raises-400m-series-b-quadrupling-its-valuation-in-8-months-to-5-4b/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Reddit begins testing a new audio and video experience, similar to popular TikTok videos",
-      "summary": "Reddit is beginning to test video and audio versions of popular posts, allowing users to watch or listen to Reddit stories instead of just reading them.",
-      "url": "https://techcrunch.com/2026/08/17/reddit-begins-testing-a-new-audio-and-video-experience-similar-to-popular-tiktok-videos/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
