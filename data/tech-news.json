@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T08:55:26.825803+00:00",
+  "generated_at": "2026-08-18T09:51:23.116233+00:00",
   "articles": [
     {
       "title": "Theban tomb reveals how Egyptian burial trends evolved in time",
@@ -159,6 +159,38 @@
       "url": "https://arstechnica.com/tech-policy/2026/08/state-judge-orders-kalshi-to-stop-offering-sports-bets-and-other-wagers/",
       "source": "Ars Technica",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "UK puts Google AI on the flight path to fewer contrails",
+      "summary": "Trial will test whether small route and altitude tweaks can reduce aviation's warming impact",
+      "url": "https://www.theregister.com/public-sector/2026/08/18/uk-puts-google-ai-on-the-flight-path-to-fewer-contrails/5288516",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "AI models get convenient amnesia about source material as they grow, MIT boffins find",
+      "summary": "Attributing diffusion model output to a specific input becomes more difficult with more training data",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/18/ai-models-get-convenient-amnesia-about-source-material-as-they-grow-mit-boffins-find/5288846",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "UK's tech talent pipeline shrinks as overseas worker visa applications fall 7%",
+      "summary": "Third consecutive annual decline adds to concerns about shortages of specialist skills",
+      "url": "https://www.theregister.com/cxo/2026/08/18/uks-tech-talent-pipeline-shrinks-as-overseas-worker-visa-applications-fall-7/5288476",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Google buys crashed airline Spirit’s data at auction, because AI",
+      "summary": "$10 million buys over 100 million emails, 30 million recorded phone calls, reams of stuff from Teams, Oracle, and SAP",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
+      "source": "The Register",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -330,34 +362,26 @@
       "age": "RECENT"
     },
     {
-      "title": "Stopping a cyberattack while walking your dog - defensive AI security CEO says it's not ruff to do",
-      "summary": "Corma CEO tells The Reg it's building 'One ring to rule them all, for the defenders to have this power'",
-      "url": "https://www.theregister.com/security/2026/08/16/stopping-a-cyberattack-while-walking-your-dog-defensive-ai-security-ceo-says-its-not-ruff-to-do/5288126",
-      "source": "The Register",
-      "category": "CYBERSECURITY",
+      "title": "The Powerful Chinese Model Experts Warned About—and Waited for—Is Here",
+      "summary": "Z.ai’s latest AI model release could help companies secure their systems—or find its way into the hands of hackers.",
+      "url": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking/",
+      "source": "WIRED",
+      "category": "AI",
       "age": "RECENT"
     },
     {
-      "title": "The what, why, and how of pull requests and source comments",
-      "summary": "Microsoft veteran on knowing the difference and convincing approvers to accept a change",
-      "url": "https://www.theregister.com/offbeat/2026/08/16/the-what-why-and-how-of-pull-requests-and-source-comments/5287914",
-      "source": "The Register",
-      "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
-      "title": "ChainDrop worm crawls into npm supply chain, evades standard defenses",
-      "summary": "Shai-Hulud variant poisons 444 packages, spreads via tarballs and dev-tool hooks",
-      "url": "https://www.theregister.com/security/2026/08/15/chaindrop-worm-crawls-into-npm-supply-chain-evades-standard-defenses/5287958",
-      "source": "The Register",
+      "title": "Best Merino Wool Clothing (2026): Base Layers, Hoodies, Jackets",
+      "summary": "Merino is one of the best fabrics you can wear. We explain the different blends, what “GSM” means, and how to care for your clothes.",
+      "url": "https://www.wired.com/story/best-merino-wool-clothes/",
+      "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "Lego's supersized Hubble deserves a little more shine",
-      "summary": "Excellent internal detail cannot entirely disguise some penny-pinching choices",
-      "url": "https://www.theregister.com/offbeat/2026/08/15/legos-supersized-hubble-deserves-a-little-more-shine/5282858",
-      "source": "The Register",
+      "title": "SteelSeries Coupon Codes: 15% Off in August 2026",
+      "summary": "Unlock exclusive discounts on SteelSeries' award-winning gaming headsets, keyboards, and accessories.",
+      "url": "https://www.wired.com/story/steelseries-coupon-code/",
+      "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -386,9 +410,9 @@
       "age": "RECENT"
     },
     {
-      "title": "SteelSeries Coupon Codes: 15% Off in August 2026",
-      "summary": "Unlock exclusive discounts on SteelSeries' award-winning gaming headsets, keyboards, and accessories.",
-      "url": "https://www.wired.com/story/steelseries-coupon-code/",
+      "title": "Womanizer Coupons: Save 15% in August",
+      "summary": "Save on the Womanizer Duo Premium and more with our latest Womanizer discount codes.",
+      "url": "https://www.wired.com/story/womanizer-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -421,14 +445,6 @@
       "title": "Ring Promo Code: 50% Off",
       "summary": "Discover how to save on Ring cameras, doorbells, outdoor cameras, and more.",
       "url": "https://www.wired.com/story/ring-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Womanizer Coupons: Save 15% in August",
-      "summary": "Save on the Womanizer Duo Premium and more with our latest Womanizer discount codes.",
-      "url": "https://www.wired.com/story/womanizer-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -546,19 +562,11 @@
       "age": "RECENT"
     },
     {
-      "title": "The Best Cat Water Fountains of 2026: Petlibro, Petkit, Oneisall",
-      "summary": "Ensuring your cat stays hydrated is one of the best ways to keep your pet healthy. The right pet water fountain can help.",
-      "url": "https://www.wired.com/gallery/best-cat-water-fountains/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Retrospec Joe Rev 2 Review (2026): Putting the ‘Joy’ in Joyride",
-      "summary": "This affordable electric BMX delighted my entire family, even if its range, ride comfort, and actual BMX abilities are limited.",
-      "url": "https://www.wired.com/review/retrospec-joe-rev-2/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "Microsoft confirms outage affecting search in Microsoft 365 apps",
+      "summary": "Microsoft says some users are experiencing issues searching in Microsoft 365 apps, including Outlook on the web, Outlook desktop, SharePoint Online, and OneDrive. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/",
+      "source": "BleepingComputer",
+      "category": "WINDOWS",
       "age": "RECENT"
     },
     {
@@ -671,14 +679,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
       "source": "BleepingComputer",
       "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "How Anthropic plans to watermark Claude's AI-generated text",
-      "summary": "It could soon become easier to identify AI-generated content, even if it's not the usual \"It's Not X, it's Y\" type of post you'd come across on LinkedIn and other socials. [...]",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
-      "source": "BleepingComputer",
-      "category": "AI",
       "age": "RECENT"
     },
     {
