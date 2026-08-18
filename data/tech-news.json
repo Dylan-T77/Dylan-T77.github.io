@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T09:51:23.116233+00:00",
+  "generated_at": "2026-08-18T10:49:26.967674+00:00",
   "articles": [
     {
       "title": "Theban tomb reveals how Egyptian burial trends evolved in time",
@@ -159,6 +159,14 @@
       "url": "https://arstechnica.com/tech-policy/2026/08/state-judge-orders-kalshi-to-stop-offering-sports-bets-and-other-wagers/",
       "source": "Ars Technica",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Sponsor gives KDE Plasma 6.6 the LTS treatment",
+      "summary": "Kubuntu 26.04 gets three years of fixes for the desktop, frameworks, and apps",
+      "url": "https://www.theregister.com/software/2026/08/18/sponsor-gives-kde-plasma-66-the-lts-treatment/5288531",
+      "source": "The Register",
+      "category": "LINUX",
       "age": "RECENT"
     },
     {
@@ -354,11 +362,27 @@
       "age": "RECENT"
     },
     {
-      "title": "Chinese AI company Zhipu claims its new model is a better bug-finder than Anthropic, OpenAI",
-      "summary": "PLUS: HCL, TCS, admit data breaches; South Korea to fine Apple, Google; India bans some rideshare tips; and more!",
-      "url": "https://www.theregister.com/security/2026/08/17/chinese-ai-company-zhipu-claims-its-new-model-is-a-better-bug-finder-than-anthropic-openai/5288203",
-      "source": "The Register",
+      "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
+      "summary": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, starting with the Fairphone (Gen 6+).",
+      "url": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To",
+      "summary": "Proton’s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
+      "source": "WIRED",
       "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "The Cop Who Took On Flock",
+      "summary": "After Noel Pichardo called out his city's embrace of Flock surveillance cameras, he was subjected to five internal affairs investigations in less than two years.",
+      "url": "https://www.wired.com/story/the-cop-who-took-on-flock/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -373,14 +397,6 @@
       "title": "Best Merino Wool Clothing (2026): Base Layers, Hoodies, Jackets",
       "summary": "Merino is one of the best fabrics you can wear. We explain the different blends, what “GSM” means, and how to care for your clothes.",
       "url": "https://www.wired.com/story/best-merino-wool-clothes/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "SteelSeries Coupon Codes: 15% Off in August 2026",
-      "summary": "Unlock exclusive discounts on SteelSeries' award-winning gaming headsets, keyboards, and accessories.",
-      "url": "https://www.wired.com/story/steelseries-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -410,9 +426,9 @@
       "age": "RECENT"
     },
     {
-      "title": "Womanizer Coupons: Save 15% in August",
-      "summary": "Save on the Womanizer Duo Premium and more with our latest Womanizer discount codes.",
-      "url": "https://www.wired.com/story/womanizer-coupon/",
+      "title": "SteelSeries Coupon Codes: 15% Off in August 2026",
+      "summary": "Unlock exclusive discounts on SteelSeries' award-winning gaming headsets, keyboards, and accessories.",
+      "url": "https://www.wired.com/story/steelseries-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -445,6 +461,14 @@
       "title": "Ring Promo Code: 50% Off",
       "summary": "Discover how to save on Ring cameras, doorbells, outdoor cameras, and more.",
       "url": "https://www.wired.com/story/ring-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Womanizer Coupons: Save 15% in August",
+      "summary": "Save on the Womanizer Duo Premium and more with our latest Womanizer discount codes.",
+      "url": "https://www.wired.com/story/womanizer-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -514,19 +538,19 @@
       "age": "RECENT"
     },
     {
-      "title": "Astronomers Discover the Existence of a Black Hole Star",
-      "summary": "An object observed by the James Webb Space Telescope lends credence to a strange explanation for the mysterious red spots in the early universe.",
-      "url": "https://www.wired.com/story/black-hole-stars-are-becoming-less-hypothetical/",
-      "source": "WIRED",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
       "title": "Samsung Galaxy Z Fold8 and Galaxy Z Fold8 Ultra Review: The Right Shape",
       "summary": "Nearly a decade after its debut, Samsung’s Galaxy Fold finally comes into its own.",
       "url": "https://www.wired.com/review/samsung-galaxy-z-fold8-and-z-fold8-ultra/",
       "source": "WIRED",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Astronomers Discover the Existence of a Black Hole Star",
+      "summary": "An object observed by the James Webb Space Telescope lends credence to a strange explanation for the mysterious red spots in the early universe.",
+      "url": "https://www.wired.com/story/black-hole-stars-are-becoming-less-hypothetical/",
+      "source": "WIRED",
+      "category": "SPACE",
       "age": "RECENT"
     },
     {
@@ -538,27 +562,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Someone Finally Fixed Installing Apps on a Mac",
-      "summary": "The installation utility EasyDMG makes it so you never drag and drop an icon again.",
-      "url": "https://www.wired.com/story/easydmg-finally-fixed-installing-apps-on-a-mac/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "TerraMow V1000 Review: Show Your Lawn Some Love",
-      "summary": "With automatic mapping, Spot Mode functionality, and smart AI cameras, the TerraMow V1000 is the complete package.",
-      "url": "https://www.wired.com/review/terramow-v1000/",
-      "source": "WIRED",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Inside the Experimental Traps Scientists Set for Ghostly Neutrinos",
-      "summary": "Observatories have been built in mines, deep under the Antarctic ice sheet, and elsewhere in an effort to detect the fleeting particles.",
-      "url": "https://www.wired.com/story/inside-experimental-traps-scientists-set-for-neutrinos/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability that was flagged as actively exploited in April. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -674,11 +682,19 @@
       "age": "RECENT"
     },
     {
-      "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
-      "summary": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
+      "title": "Einride strikes deal to add 500 Tesla Semis to its fleet",
+      "summary": "Einride will buy the Tesla Semis, which will be made to Amazon and other customers.",
+      "url": "https://techcrunch.com/2026/08/18/einride-strikes-deal-to-add-500-tesla-semis-to-its-fleet/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Detroit startup Grounded raises $5M to customize electric and gas-powered vans",
+      "summary": "The company has shifted from making van-life builds to custom outfitting vehicles for small businesses, all while the EV landscape in the US changed dramatically.",
+      "url": "https://techcrunch.com/2026/08/18/detroit-startup-grounded-raises-5m-to-customize-electric-and-gas-powered-vans/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -783,22 +799,6 @@
       "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
       "source": "TechCrunch",
       "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Terra Industries closes $52M seed round to build defense infrastructure for the Global South",
-      "summary": "African defense tech company Terra Industries announced an additional $18 million in funding, bringing its seed round to $52 million.",
-      "url": "https://techcrunch.com/2026/08/17/terra-industries-closes-52m-seed-round-to-build-defense-infrastructure-for-the-global-south/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "WordPress.com targets the next generation of web creators with a free student plan",
-      "summary": "WordPress.com Education lets teachers offer their students free domains, plug-in support, and professional website-building tools.",
-      "url": "https://techcrunch.com/2026/08/17/wordpress-com-targets-the-next-generation-of-web-creators-with-a-free-student-plan/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
       "age": "RECENT"
     }
   ]
