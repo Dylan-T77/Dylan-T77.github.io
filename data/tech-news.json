@@ -1,4 +1,805 @@
 {
-  "generated_at": "2026-08-18T00:00:00Z",
-  "articles": []
+  "generated_at": "2026-08-18T07:10:28.847470+00:00",
+  "articles": [
+    {
+      "title": "Theban tomb reveals how Egyptian burial trends evolved in time",
+      "summary": "Practices shifted from individuals buried in coffins to reusing sites for later mummy interments.",
+      "url": "https://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "US vaccination rates fall again as exemptions continue to rise, CDC data shows",
+      "summary": "Again, the CDC did not publish a full report and instead simply put the data online.",
+      "url": "https://arstechnica.com/health/2026/08/us-vaccination-rates-fall-again-as-exemptions-continue-to-rise-cdc-data-shows/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Former SpaceX engineers are building a robotic factory for making steel parts",
+      "summary": "“We're not necessarily building in a dogmatic fashion towards full autonomy.”",
+      "url": "https://arstechnica.com/ai/2026/08/former-spacex-engineers-are-building-a-robotic-factory-for-making-steel-parts/",
+      "source": "Ars Technica",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "The Moon's shadow raced across the heart of Spain, and I was there to see it",
+      "summary": "Here's what it was like watching a total solar eclipse 90 minutes north of Madrid.",
+      "url": "https://arstechnica.com/space/2026/08/the-moons-shadow-raced-across-the-heart-of-spain-and-i-was-there-to-see-it/",
+      "source": "Ars Technica",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "As Wisconsin cities flee Flock, its shared camera network loses value",
+      "summary": "\"Network effect\" can run in reverse.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/as-wisconsin-cities-flee-flock-its-shared-camera-network-loses-value/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Supreme Court rejects Verizon bid for $47 million refund of FCC fine",
+      "summary": "Despite loss, carriers still claim selling device-location data isn't illegal.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/supreme-court-rejects-verizon-bid-for-47-million-refund-of-fcc-fine/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Petlibro accused of “gaslighting” users over smart pet feeder outage",
+      "summary": "Petlibro says feeders perform scheduled feedings offline. Users report otherwise.",
+      "url": "https://arstechnica.com/gadgets/2026/08/petlibro-accused-of-gaslighting-users-over-smart-pet-feeder-outage/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Hidden Airtag reveals Amazon is trashing rare books to train AI",
+      "summary": "Amazon’s team uses a T. rex preparing to devour a book as its logo.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
+      "source": "Ars Technica",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "This sub-$7,000 sportscar might be just what the future needs",
+      "summary": "The Gasolini AR1 uses 2-cylinder Honda bike engine, and an EV is underway, too.",
+      "url": "https://arstechnica.com/cars/2026/08/the-opposite-of-a-hypercar-is-fun-meet-the-gasolini-ar1/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Nvidia discloses $21B stake in SpaceX",
+      "summary": "Filing comes after Elon Musk announced exclusive arrangement to kit out its data centers.",
+      "url": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex/",
+      "source": "Ars Technica",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Meet the only known trebuchet casualty in history",
+      "summary": "\"It highlights the brutality of medieval warfare,\" said paleopathologist Jo Buckberry.",
+      "url": "https://arstechnica.com/science/2026/08/meet-the-only-known-trebuchet-casualty-in-history/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Satellite operators are in panic mode due to a worsening launch crisis",
+      "summary": "What happens if the Falcon rockets stop flying?",
+      "url": "https://arstechnica.com/space/2026/08/theres-a-huge-launch-crunch-right-now-and-it-will-probably-get-worse/",
+      "source": "Ars Technica",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Wildfire smoke now bigger prenatal threat than human sources of air pollution",
+      "summary": "Regulations reduced prenatal exposure to harmful emissions, but wildfire smoke is erasing gains.",
+      "url": "https://arstechnica.com/science/2026/08/wildfire-smoke-now-bigger-prenatal-threat-than-human-sources-of-air-pollution/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "VisionQuest trailer kicks off Disney's D23 fan event",
+      "summary": "Also: Ahsoka S2 teaser, Doomsday trailer, news about MCU's X-Men and Star Wars: Starfighter .",
+      "url": "https://arstechnica.com/culture/2026/08/visionquest-trailer-kicks-off-disneys-d23-fan-event/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Ukraine strikes major Russian rocket factory with cruise missiles",
+      "summary": "\"Flamingo missiles were used. A good achievement.\"",
+      "url": "https://arstechnica.com/space/2026/08/ukraine-strikes-major-russian-rocket-factory-with-cruise-missiles/",
+      "source": "Ars Technica",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "So much solar: Digging into the list of every US power plant that went online this year",
+      "summary": "Utility-scale solar leads by a mile, followed by batteries. Fossil fuels, not so much.",
+      "url": "https://arstechnica.com/science/2026/08/so-much-solar-digging-into-the-list-of-every-us-power-plant-that-went-online-this-year/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
+      "summary": "Screen-sharing bug lets remote hackers log in without a password.",
+      "url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
+      "source": "Ars Technica",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "First test flight of largest all-electric aircraft used just $5 of electricity",
+      "summary": "Airline-backed venture aims to develop a hybrid-electric commercial aircraft.",
+      "url": "https://arstechnica.com/gadgets/2026/08/first-test-flight-of-largest-all-electric-aircraft-used-just-5-of-electricity/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+      "summary": "Judge warns pro se litigants are using chatbots wrong and getting desperate.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "State judge orders Kalshi to stop offering sports bets and other wagers",
+      "summary": "Kalshi ordered to stop offering bets in Washington, must implement geofencing.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/state-judge-orders-kalshi-to-stop-offering-sports-bets-and-other-wagers/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Microsoft MVP creates site to remind you of all the brands Redmond replaced",
+      "summary": "If you’re still talking about ‘DirSync’ or ‘Active Directory’ instead of ‘Entra’, and need to explain why, this is the site for you",
+      "url": "https://www.theregister.com/software/2026/08/18/microsoft-mvp-creates-site-to-remind-you-of-all-the-brands-redmond-replaced/5288937",
+      "source": "The Register",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Xen Project gets serious about safety in push to possibly partition robot brains",
+      "summary": "Boeing quietly joins FOSS hypervisor crew, as AMD and Renesas lead new effort to comply with formal standards",
+      "url": "https://www.theregister.com/virtualization/2026/08/18/xen-project-gets-serious-about-safety-in-push-to-possibly-partition-robot-brains/5288914",
+      "source": "The Register",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Almost nobody pays attention to web standards anymore",
+      "summary": "Screen readers suffer as nearly 90% of top websites tested contain HTML spec violations",
+      "url": "https://www.theregister.com/devops/2026/08/17/almost-nobody-pays-attention-to-web-standards-anymore/5288782",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Payments giant Stripe is about to drop over $7 billion to become a gateway to AI token sales",
+      "summary": "AI gateways look promising as companies struggle with model orchestration",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/17/payments-giant-stripe-is-about-to-drop-over-7-billion-to-become-a-gateway-to-ai-token-sales/5288743",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Siemens and Reinhausen turn up the voltage for hungry AI racks",
+      "summary": "Not a German cop show, but a pair of engineering firms aiming to feed 800 VDC to next-gen kit",
+      "url": "https://www.theregister.com/on-prem/2026/08/17/siemens-and-reinhausen-turn-up-the-voltage-for-hungry-ai-racks/5288565",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Mozilla adds ad blocking to Firefox for iOS",
+      "summary": "Experimental feature to block some, but not all, ads",
+      "url": "https://www.theregister.com/software/2026/08/17/mozilla-adds-ad-blocking-to-firefox-for-ios/5288585",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "GitHub has Issues as repo downloads hit 50% error rate",
+      "summary": "Copilot also wobbles as another outage tests developer patience",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/17/github-has-issues-as-repo-downloads-hit-50-error-rate/5288543",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "$1K laser mosquito zapper promises precision strikes as backers itch for answers",
+      "summary": "After raising $2.8M, the project has entered production, but company comms have done little to reassure buyers",
+      "url": "https://www.theregister.com/offbeat/2026/08/17/1k-laser-mosquito-zapper-promises-precision-strikes-as-backers-itch-for-answers/5288431",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Windows 11 movable taskbar edges closer to general release",
+      "summary": "Preview also brings compact icons, Start menu sizing, and the final shove for WMIC",
+      "url": "https://www.theregister.com/os-platforms/2026/08/17/windows-11-movable-taskbar-edges-closer-to-general-release/5288393",
+      "source": "The Register",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Capita handed vital role in next pandemic despite civil service pension failures",
+      "summary": "Initial £31M deal comes with scope to scale sharply during a major outbreak",
+      "url": "https://www.theregister.com/public-sector/2026/08/17/capita-handed-vital-role-in-next-pandemic-despite-civil-service-pension-failures/5288454",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Agentic AI costs set to balloon fivefold by 2028",
+      "summary": "Cheaper tokens won't help when complex workflows consume so many more of them, Gartner warns",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/17/agentic-ai-costs-set-to-balloon-fivefold-by-2028/5288363",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Crook hawks millions of records allegedly plundered from corporate Azure tenants",
+      "summary": "McDonald's, Vodafone, TCS, Kyndryl, and others named as researchers point to compromised credentials",
+      "url": "https://www.theregister.com/security/2026/08/17/crook-hawks-millions-of-records-allegedly-plundered-from-corporate-azure-tenants/5288305",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Excel's Copilot function is headed for the Recycle Bin",
+      "summary": "Microsoft realizes the side pane should be enough for anyone",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/17/excels-copilot-function-is-headed-for-the-recycle-bin/5288327",
+      "source": "The Register",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Be a hater all you want, AI's here to stay",
+      "summary": "The good news? One of the worst bits, tech giants controlling it all, might soon be over",
+      "url": "https://www.theregister.com/columnists/2026/08/17/be-a-hater-all-you-want-ais-here-to-stay/5288275",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Code fixers have fired up the AI warp drive. Strange new worlds await",
+      "summary": "With more patches per month than at a pirate convention, the bug must be an endangered species. Well, about that",
+      "url": "https://www.theregister.com/columnists/2026/08/17/code-fixers-have-fired-up-the-ai-warp-drive-strange-new-worlds-await/5287681",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Black Hat and DEF CON are AI conferences now, too",
+      "summary": "On this week's episode of The Reg's Kettle podcast, we revisit 'hacker summer camp,' where the hottest topic was ... sigh... agentic AI",
+      "url": "https://www.theregister.com/security/2026/08/17/black-hat-and-def-con-are-ai-conferences-now-too/5288076",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Part didn't fit so techie got out his screwdriver. Then something flew off the motherboard",
+      "summary": "Whatever it was broke a PC and led to a face-saving lie",
+      "url": "https://www.theregister.com/systems/2026/08/17/part-didnt-fit-so-techie-got-out-his-screwdriver-then-something-flew-off-the-motherboard/5287692",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Linux 7.2 debuts, Linus Torvalds says ‘new normal’ means he had to do it now ... or never?",
+      "summary": "Say hello to smarter use of caches to speed things up, and a very odd gaming controller. Say goodbye to some PCMCIA support",
+      "url": "https://www.theregister.com/os-platforms/2026/08/17/linux-72-debuts-linus-torvalds-says-new-normal-means-he-had-to-do-it-now-or-never/5288250",
+      "source": "The Register",
+      "category": "LINUX",
+      "age": "RECENT"
+    },
+    {
+      "title": "Sainsbury's staff eject wrong shopper after facial recognition alert – again",
+      "summary": "Facewatch says its technology worked as intended before humans mishandled the result",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/17/sainsburys-staff-eject-wrong-shopper-after-facial-recognition-alert-again/5288602",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Microsoft blames AI for delayed Exchange update, can’t say when it will arrive",
+      "summary": "Dealing with machine-made bug backlog makes it hard to find a moment to deliver promised subscription service",
+      "url": "https://www.theregister.com/software/2026/08/17/microsoft-blames-ai-for-delayed-exchange-update-cant-say-when-it-will-arrive/5288227",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Chinese AI company Zhipu claims its new model is a better bug-finder than Anthropic, OpenAI",
+      "summary": "PLUS: HCL, TCS, admit data breaches; South Korea to fine Apple, Google; India bans some rideshare tips; and more!",
+      "url": "https://www.theregister.com/security/2026/08/17/chinese-ai-company-zhipu-claims-its-new-model-is-a-better-bug-finder-than-anthropic-openai/5288203",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Stopping a cyberattack while walking your dog - defensive AI security CEO says it's not ruff to do",
+      "summary": "Corma CEO tells The Reg it's building 'One ring to rule them all, for the defenders to have this power'",
+      "url": "https://www.theregister.com/security/2026/08/16/stopping-a-cyberattack-while-walking-your-dog-defensive-ai-security-ceo-says-its-not-ruff-to-do/5288126",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "The what, why, and how of pull requests and source comments",
+      "summary": "Microsoft veteran on knowing the difference and convincing approvers to accept a change",
+      "url": "https://www.theregister.com/offbeat/2026/08/16/the-what-why-and-how-of-pull-requests-and-source-comments/5287914",
+      "source": "The Register",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "ChainDrop worm crawls into npm supply chain, evades standard defenses",
+      "summary": "Shai-Hulud variant poisons 444 packages, spreads via tarballs and dev-tool hooks",
+      "url": "https://www.theregister.com/security/2026/08/15/chaindrop-worm-crawls-into-npm-supply-chain-evades-standard-defenses/5287958",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Lego's supersized Hubble deserves a little more shine",
+      "summary": "Excellent internal detail cannot entirely disguise some penny-pinching choices",
+      "url": "https://www.theregister.com/offbeat/2026/08/15/legos-supersized-hubble-deserves-a-little-more-shine/5282858",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Noom Promo Codes: 50% Off Best Deals & Free Trials for August 2026",
+      "summary": "Discover the best ways to save on Noom subscriptions, including free trials, limited-time offers for GLP-1Rx Plus, and essential tips for redeeming your Noom discount.",
+      "url": "https://www.wired.com/story/noom-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Hydrow Discount Code: Save Up to $150 | August 2026",
+      "summary": "Save on rowers and accessories with Hydrow coupons, including an exclusive discount of $50.",
+      "url": "https://www.wired.com/story/hydrow-discount-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "1Password Coupon: Score a Free Trial in August 2026",
+      "summary": "Save up to 28% on business and personal memberships with 1Password promo codes and deals.",
+      "url": "https://www.wired.com/story/1password-coupon/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "SteelSeries Coupon Codes: 15% Off in August 2026",
+      "summary": "Unlock exclusive discounts on SteelSeries' award-winning gaming headsets, keyboards, and accessories.",
+      "url": "https://www.wired.com/story/steelseries-coupon-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Vivid Seats Promo Codes and Deals: Get 10% Off",
+      "summary": "Whether you are heading to a sold-out concert or a championship game, use a Vivid Seats discount code to secure your seats for less this August 2026.",
+      "url": "https://www.wired.com/story/vivid-seats-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Western Digital Promo Code: 15% Off",
+      "summary": "Get 15% off your first order at Western Digital when you register your email.",
+      "url": "https://www.wired.com/story/western-digital-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Logitech Promo Codes and Deals: Up to $100 Off",
+      "summary": "Score up to $100 off refurbished premium products, free shipping on orders of $29+, and more at Logitech.",
+      "url": "https://www.wired.com/story/logitech-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Ring Promo Code: 50% Off",
+      "summary": "Discover how to save on Ring cameras, doorbells, outdoor cameras, and more.",
+      "url": "https://www.wired.com/story/ring-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Womanizer Coupons: Save 15% in August",
+      "summary": "Save on the Womanizer Duo Premium and more with our latest Womanizer discount codes.",
+      "url": "https://www.wired.com/story/womanizer-coupon/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "What Is El Niño, and What Does It Mean for Weather, Water, and the Global Economy?",
+      "summary": "This year’s El Niño is shaping up to be the strongest on record. Here’s what to expect.",
+      "url": "https://www.wired.com/story/what-el-nino-means-weather-water-global-economy/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "This R-Rated Film Studio Wants to Be the HBO of AI",
+      "summary": "Rogue Studios, a new cinematic adult AI-generator, is betting big on the future of “sophisticated” spicy content.",
+      "url": "https://www.wired.com/story/this-r-rated-film-studio-wants-to-be-the-hbo-of-ai/",
+      "source": "WIRED",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "7 Best Cheap Laptops to Buy in 2026 (and Some to Avoid)",
+      "summary": "From surprisingly good $300 Chromebooks to excellent $650 Windows notebooks and more, these are the best budget laptops I’ve tested.",
+      "url": "https://www.wired.com/gallery/best-cheap-laptops/",
+      "source": "WIRED",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "CookUnity Prepared Meal Delivery Review (2026): Chef-Centric Meals",
+      "summary": "I’ve tried most of the ready-to-eat meal delivery services in the country. CookUnity is the one that feels like real cooking, from real chefs.",
+      "url": "https://www.wired.com/review/cookunity-prepared-meal-delivery-2026/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Skylight Buddy Review (2026): Kid Routines Just Got Easy",
+      "summary": "This kid-friendly version of Skylight’s digital calendar actually gets my son to complete his nighttime routine in a timely fashion.",
+      "url": "https://www.wired.com/review/skylight-buddy/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "El Niño and Saharan Dust Silence Atlantic Hurricane Season",
+      "summary": "El Niño coupled with Saharan dust is making this year’s hurricane season a dud. But there’s still potential for dangerous storms.",
+      "url": "https://www.wired.com/story/el-nino-quiets-atlantic-hurricane-season/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Election Officials Are Preparing for Prediction Markets to Sow Chaos in the Midterms",
+      "summary": "From threats to the safety of poll workers to voters who can’t distinguish between odds and results, prediction markets are already scrambling the political process.",
+      "url": "https://www.wired.com/story/election-officials-are-preparing-for-prediction-markets-to-sow-chaos-in-the-midterms/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "There’s a New Link Between Gut Health and Alzheimer’s Disease",
+      "summary": "Researchers found that a metabolite produced by gut bacteria can weaken the barrier that protects the brain and promote changes associated with the cognitive disease.",
+      "url": "https://www.wired.com/story/new-link-between-gut-health-and-alzheimers/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Astronomers Discover the Existence of a Black Hole Star",
+      "summary": "An object observed by the James Webb Space Telescope lends credence to a strange explanation for the mysterious red spots in the early universe.",
+      "url": "https://www.wired.com/story/black-hole-stars-are-becoming-less-hypothetical/",
+      "source": "WIRED",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Samsung Galaxy Z Fold8 and Galaxy Z Fold8 Ultra Review: The Right Shape",
+      "summary": "Nearly a decade after its debut, Samsung’s Galaxy Fold finally comes into its own.",
+      "url": "https://www.wired.com/review/samsung-galaxy-z-fold8-and-z-fold8-ultra/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "It’s Never Too Early to Start Planning for the Next Two Solar Eclipses",
+      "summary": "In 2027 and 2028, there will be two spectacular, long-duration solar eclipses. Here’s what you need to know about them.",
+      "url": "https://www.wired.com/story/its-never-too-early-to-start-planning-for-the-next-two-solar-eclipses/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Someone Finally Fixed Installing Apps on a Mac",
+      "summary": "The installation utility EasyDMG makes it so you never drag and drop an icon again.",
+      "url": "https://www.wired.com/story/easydmg-finally-fixed-installing-apps-on-a-mac/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "TerraMow V1000 Review: Show Your Lawn Some Love",
+      "summary": "With automatic mapping, Spot Mode functionality, and smart AI cameras, the TerraMow V1000 is the complete package.",
+      "url": "https://www.wired.com/review/terramow-v1000/",
+      "source": "WIRED",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Inside the Experimental Traps Scientists Set for Ghostly Neutrinos",
+      "summary": "Observatories have been built in mines, deep under the Antarctic ice sheet, and elsewhere in an effort to detect the fleeting particles.",
+      "url": "https://www.wired.com/story/inside-experimental-traps-scientists-set-for-neutrinos/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "The Best Cat Water Fountains of 2026: Petlibro, Petkit, Oneisall",
+      "summary": "Ensuring your cat stays hydrated is one of the best ways to keep your pet healthy. The right pet water fountain can help.",
+      "url": "https://www.wired.com/gallery/best-cat-water-fountains/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Retrospec Joe Rev 2 Review (2026): Putting the ‘Joy’ in Joyride",
+      "summary": "This affordable electric BMX delighted my entire family, even if its range, ride comfort, and actual BMX abilities are limited.",
+      "url": "https://www.wired.com/review/retrospec-joe-rev-2/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
+      "summary": "A threat actor is selling employee databases allegedly stolen from the Microsoft Azure infrastructure of multiple Fortune 500 companies after gaining access using compromised credentials. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
+      "source": "BleepingComputer",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Pokémon Center data breach exposes customer info, cancels some orders",
+      "summary": "Pokémon Center is notifying customers in the United Kingdom and Germany that it suffered a third-party data breach after hackers stole customer personal and order information from third-party logistics provider CEVA Logistics. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Microsoft confirms GitHub is down worldwide",
+      "summary": "GitHub is down for some users as a widespread outage is causing errors across the website, API, Actions, Pull Requests, and several other services. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
+      "source": "BleepingComputer",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
+      "summary": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privilege, implicit trust, and treating PKI as the Tier 0 identity infrastructure it has always been. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
+      "summary": "Microsoft has reminded IT administrators that Windows Server 2022 is rapidly approaching its mainstream end date of October 2026, when it will switch to extended support. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
+      "source": "BleepingComputer",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Philips and GE investigating Clop ransomware data theft claims",
+      "summary": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "French tax authority data breach affects 678,000 individuals",
+      "summary": "The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
+      "summary": "Microsoft is working on a security patch for the \"ShieldBreak\" zero-day vulnerability disclosed last week by security researcher \"Nightmare Eclipse\" and now tracked as CVE-2026-69414. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
+      "summary": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be selling the stolen data. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Anthropic confirms Claude is down in major outage affecting multiple services",
+      "summary": "Claude is experiencing a major outage, with users reporting login problems and degraded performance across several Anthropic services. [...]",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
+      "source": "BleepingComputer",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
+      "summary": "Multiple distributed denial-of-service (DDoS) attacks targeted the Threema secure messaging service earlier this week, causing severe disruptions to communications. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
+      "source": "BleepingComputer",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
+      "summary": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's web browser. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
+      "summary": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "How Anthropic plans to watermark Claude's AI-generated text",
+      "summary": "It could soon become easier to identify AI-generated content, even if it's not the usual \"It's Not X, it's Y\" type of post you'd come across on LinkedIn and other socials. [...]",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
+      "source": "BleepingComputer",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
+      "summary": "Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at a service provider, allowing them to withdraw funds from Commerzbank customers' bank accounts. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Anthropic’s annualized revenue surges to $65B",
+      "summary": "The model maker added $18 billion in annualized revenue in two months.",
+      "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
+      "summary": "\"We have some really ambitious plans to help you work with AI in Chrome to get things done, and I’ll have more to share soon,\" Jacob Bank, Relay founder and CEO, said.",
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "‘Unprecedented’ number of Apple users received recent spyware alert, say investigators",
+      "summary": "Cybersecurity experts who investigate spyware attacks say the number of people who received a recent threat notification from Apple is unusually high.",
+      "url": "https://techcrunch.com/2026/08/17/unprecedented-number-of-apple-users-received-recent-spyware-alert-say-investigators/",
+      "source": "TechCrunch",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Save up to $300 on your TechCrunch Disrupt 2026 pass until August 21",
+      "summary": "If you’ve been circling around Disrupt, then now’s the best time to lock in your pass and start getting ready to join the rest of the startup community gathering in San Francisco from October 13-15 at Moscone West!",
+      "url": "https://techcrunch.com/2026/08/17/save-up-to-300-on-your-techcrunch-disrupt-2026-pass-until-august-21/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Spotify’s new Playlist Notes let users and editors explain their song picks",
+      "summary": "Spotify launches a new feature that gives users a chance to explain the stories and reasoning behind their favorite music. Editors will be using the feature, too, on top playlists like RapCaviar and others.",
+      "url": "https://techcrunch.com/2026/08/17/spotifys-new-playlist-notes-let-users-and-editors-explain-their-song-picks/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Higgsfield raises $400M Series B, quadrupling its valuation in 8 months to $5.4B",
+      "summary": "Higgsfield, founded by former Snap exec Alex Mashrabov, lets users create AI images and videos.",
+      "url": "https://techcrunch.com/2026/08/17/higgsfield-raises-400m-series-b-quadrupling-its-valuation-in-8-months-to-5-4b/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Reddit begins testing a new audio and video experience, similar to popular TikTok videos",
+      "summary": "Reddit is beginning to test video and audio versions of popular posts, allowing users to watch or listen to Reddit stories instead of just reading them.",
+      "url": "https://techcrunch.com/2026/08/17/reddit-begins-testing-a-new-audio-and-video-experience-similar-to-popular-tiktok-videos/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Sound-powered fire protection startup gets $15M to snuff out fires before they turn catastrophic",
+      "summary": "Sonic Fire Tech raised its new funding to help get its sound-powered fire protection system into everything from commercial kitchens to apartment buildings.",
+      "url": "https://techcrunch.com/2026/08/17/sound-powered-fire-protection-startup-gets-15m-to-snuff-out-fires-before-they-turn-catastrophic/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "YouTube will now count a view as soon as a video starts playing",
+      "summary": "The change comes a year after YouTube applied the same approach to counting views on Shorts videos.",
+      "url": "https://techcrunch.com/2026/08/17/youtube-will-now-count-a-view-as-soon-as-a-video-starts-playing/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Feedly attributes weeklong slowdown to bug, not its AI pivot",
+      "summary": "Feedly says a bug is behind the performance issues that have made its web app nearly \"unusable\" for some users, while complaints about its mobile apps and customer support are adding to frustrations.",
+      "url": "https://techcrunch.com/2026/08/17/feedly-attributes-weeklong-slowdown-to-bug-not-its-ai-pivot/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
+      "summary": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
+      "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
+      "summary": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
+      "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+      "source": "TechCrunch",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
+      "summary": "Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center.",
+      "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+      "source": "TechCrunch",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Terra Industries closes $52M seed round to build defense infrastructure for the Global South",
+      "summary": "African defense tech company Terra Industries announced an additional $18 million in funding, bringing its seed round to $52 million.",
+      "url": "https://techcrunch.com/2026/08/17/terra-industries-closes-52m-seed-round-to-build-defense-infrastructure-for-the-global-south/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "WordPress.com targets the next generation of web creators with a free student plan",
+      "summary": "WordPress.com Education lets teachers offer their students free domains, plug-in support, and professional website-building tools.",
+      "url": "https://techcrunch.com/2026/08/17/wordpress-com-targets-the-next-generation-of-web-creators-with-a-free-student-plan/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    }
+  ]
 }
