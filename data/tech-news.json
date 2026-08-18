@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-08-18T20:42:39.443787+00:00",
+  "generated_at": "2026-08-18T21:41:47.774287+00:00",
   "articles": [
+    {
+      "title": "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea",
+      "summary": "\"A team of SpaceX engineers is on their way to conduct additional analysis on the vehicle.\"",
+      "url": "https://arstechnica.com/space/2026/08/its-christmastime-at-spacex-as-company-salvages-starship-from-indian-ocean/",
+      "source": "Ars Technica",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Disney sues FCC and its chair, escalating fight against Trump's chief censor",
+      "summary": "FCC demands \"total capitulation\" in Trump censorship campaign, Disney suit says.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/disney-sues-fcc-and-its-chair-escalating-fight-against-trumps-chief-censor/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
     {
       "title": "Peacock raises prices by 18 percent after becoming profitable",
       "summary": "Peacock's quarterly profitability isn't guaranteed.",
@@ -146,19 +162,19 @@
       "age": "RECENT"
     },
     {
-      "title": "Meet the only known trebuchet casualty in history",
-      "summary": "\"It highlights the brutality of medieval warfare,\" said paleopathologist Jo Buckberry.",
-      "url": "https://arstechnica.com/science/2026/08/meet-the-only-known-trebuchet-casualty-in-history/",
-      "source": "Ars Technica",
+      "title": "Expired credit cards revived by researchers to make unauthorized payments",
+      "summary": "Gaps in expiry checks could let dead plastic make purchases again",
+      "url": "https://www.theregister.com/security/2026/08/18/expired-credit-cards-revived-by-researchers-to-make-unauthorized-payments/5289229",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "Satellite operators are in panic mode due to a worsening launch crisis",
-      "summary": "What happens if the Falcon rockets stop flying?",
-      "url": "https://arstechnica.com/space/2026/08/theres-a-huge-launch-crunch-right-now-and-it-will-probably-get-worse/",
-      "source": "Ars Technica",
-      "category": "SPACE",
+      "title": "Meta and Google mobile apps gorge on user data: Study",
+      "summary": "Zuck's empire declares triple the appetite of Apple or Microsoft, while Google packs the leaderboard, dev survey shows",
+      "url": "https://www.theregister.com/personal-tech/2026/08/18/meta-and-google-mobile-apps-gorge-on-user-data-study/5289171",
+      "source": "The Register",
+      "category": "WINDOWS",
       "age": "RECENT"
     },
     {
@@ -346,22 +362,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Crook hawks millions of records allegedly plundered from corporate Azure tenants",
-      "summary": "McDonald's, Vodafone, TCS, Kyndryl, and others named as researchers point to compromised credentials",
-      "url": "https://www.theregister.com/security/2026/08/17/crook-hawks-millions-of-records-allegedly-plundered-from-corporate-azure-tenants/5288305",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Excel's Copilot function is headed for the Recycle Bin",
-      "summary": "Microsoft realizes the side pane should be enough for anyone",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/17/excels-copilot-function-is-headed-for-the-recycle-bin/5288327",
-      "source": "The Register",
-      "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
       "title": "Squeeze More Juice Out of a Dead Battery!",
       "summary": "How the joule thief circuit “steals” energy from seemingly depleted power cells.",
       "url": "https://www.wired.com/story/squeeze-more-juice-out-of-a-dead-battery/",
@@ -418,14 +418,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To",
-      "summary": "Proton’s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?",
-      "url": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
-      "source": "WIRED",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
       "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
       "summary": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, starting with the Fairphone (Gen 6+).",
       "url": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
@@ -434,9 +426,25 @@
       "age": "RECENT"
     },
     {
+      "title": "Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To",
+      "summary": "Proton’s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
+      "source": "WIRED",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
       "title": "The Cop Who Took On Flock",
       "summary": "After Noel Pichardo called out his city's embrace of Flock surveillance cameras, he was subjected to five internal affairs investigations in less than two years.",
       "url": "https://www.wired.com/story/the-cop-who-took-on-flock/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Best Merino Wool Clothing (2026): Base Layers, Hoodies, Jackets",
+      "summary": "Merino is one of the best fabrics you can wear. We explain the different blends, what “GSM” means, and how to care for your clothes.",
+      "url": "https://www.wired.com/story/best-merino-wool-clothes/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -450,9 +458,9 @@
       "age": "RECENT"
     },
     {
-      "title": "Best Merino Wool Clothing (2026): Base Layers, Hoodies, Jackets",
-      "summary": "Merino is one of the best fabrics you can wear. We explain the different blends, what “GSM” means, and how to care for your clothes.",
-      "url": "https://www.wired.com/story/best-merino-wool-clothes/",
+      "title": "SteelSeries Coupon Codes: 15% Off in August 2026",
+      "summary": "Unlock exclusive discounts on SteelSeries' award-winning gaming headsets, keyboards, and accessories.",
+      "url": "https://www.wired.com/story/steelseries-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -482,9 +490,9 @@
       "age": "RECENT"
     },
     {
-      "title": "SteelSeries Coupon Codes: 15% Off in August 2026",
-      "summary": "Unlock exclusive discounts on SteelSeries' award-winning gaming headsets, keyboards, and accessories.",
-      "url": "https://www.wired.com/story/steelseries-coupon-code/",
+      "title": "Womanizer Coupons: Save 15% in August",
+      "summary": "Save on the Womanizer Duo Premium and more with our latest Womanizer discount codes.",
+      "url": "https://www.wired.com/story/womanizer-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -517,14 +525,6 @@
       "title": "Ring Promo Code: 50% Off",
       "summary": "Discover how to save on Ring cameras, doorbells, outdoor cameras, and more.",
       "url": "https://www.wired.com/story/ring-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Womanizer Coupons: Save 15% in August",
-      "summary": "Save on the Womanizer Duo Premium and more with our latest Womanizer discount codes.",
-      "url": "https://www.wired.com/story/womanizer-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
