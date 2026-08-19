@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-08-19T22:44:55.675915+00:00",
+  "generated_at": "2026-08-19T23:41:01.908246+00:00",
   "articles": [
+    {
+      "title": "Amazon aims for delivery drones to reach 500 US neighborhoods by end of 2026",
+      "summary": "US residents face trade-offs as delivery drone services such as Prime Air expand.",
+      "url": "https://arstechnica.com/gadgets/2026/08/amazon-aims-for-delivery-drones-to-reach-500-us-neighborhoods-by-end-of-2026/",
+      "source": "Ars Technica",
+      "category": "ROBOTICS",
+      "age": "RECENT"
+    },
     {
       "title": "Framework responds to complaints that BIOS update bricks Ryzen 7040 laptops",
       "summary": "Framework says it's replacing some out-of-warranty AMD mainboards.",
@@ -149,14 +157,6 @@
       "title": "Teenage Sex and Death at Camp Miasma takes pains to deliver a slasher fan’s dream",
       "summary": "Matte paintings—not CGI—warp a world designed to hit a nerve for slasher fans.",
       "url": "https://arstechnica.com/culture/2026/08/teenage-sex-and-death-at-camp-miasma-takes-pains-to-deliver-a-slasher-fans-dream/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "X-rays add new twist to narwhal's spiral tusk",
-      "summary": "New study finds that the tusks have not one but two spirals, twisting in opposite directions.",
-      "url": "https://arstechnica.com/science/2026/08/x-rays-add-new-twist-to-narwhals-spiral-tusk/",
       "source": "Ars Technica",
       "category": "GENERAL",
       "age": "RECENT"
@@ -362,6 +362,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Elon Musk Is Expected to Point His Money Machine at Texas",
+      "summary": "Sources tell WIRED that Elon Musk is expected to spend up to $200 million in the midterms. It could be a big boost for GOP Senate candidate Ken Paxton, who’s struggled to raise cash.",
+      "url": "https://www.wired.com/story/elon-musk-is-expected-to-point-his-money-machine-at-texas/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "I Saw the Future of AI in a Robot That Can Learn on the Spot",
       "summary": "During a recent visit to Generalist AI, I watched a robotic arm improvise and use a banana as a tool.",
       "url": "https://www.wired.com/story/generalist-ai-robots-learn-like-clever-toddlers/",
@@ -554,14 +562,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Dyson Promo Codes: 25% Off in August 2026",
-      "summary": "Get 25% off with a Dyson coupon code, plus save up to $600 with discounts on vacuums, $150 off Airwraps, and more.",
-      "url": "https://www.wired.com/story/dyson-cordless-vacuum-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Rogue ransomware affiliate poses as recovery firm to steal payments",
       "summary": "A suspected ransomware affiliate is posing as a ransomware recovery service called \"Ransom Busters,\" contacting the victims before the attacks become public and claiming to be able to provide decryption keys and delete stolen data for a fee. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
@@ -682,6 +682,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Stripe didn’t really buy OpenRouter because of the ‘singularity’",
+      "summary": "What does a payments giant want with a startup that routes prompts between different AI models? Stripe says it's because of \"the singularity\" but it's really for a far more real and powerful reason.",
+      "url": "https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
       "title": "Waymo’s cheaper, next-gen robotaxi is now open to all riders in these three cities",
       "summary": "The next-generation robotaxi, called the Waymo Ojai, is central to the company's push towards mass scale, and eventually, profitability.",
       "url": "https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/",
@@ -791,14 +799,6 @@
       "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
       "source": "TechCrunch",
       "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Rivian spinout Also raises another $150M",
-      "summary": "The round, led by Prysm Capital, will fund the company's expansion beyond pedal-assist electric bikes and commercial cargo quads to autonomous delivery vehicles.",
-      "url": "https://techcrunch.com/2026/08/19/rivian-spinout-also-raises-another-150-million/",
-      "source": "TechCrunch",
-      "category": "ROBOTICS",
       "age": "RECENT"
     }
   ]
