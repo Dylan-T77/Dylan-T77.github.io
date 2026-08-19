@@ -1,6 +1,38 @@
 {
-  "generated_at": "2026-08-19T19:42:47.661127+00:00",
+  "generated_at": "2026-08-19T20:48:19.569641+00:00",
   "articles": [
+    {
+      "title": "Framework responds to complaints that BIOS update bricks Ryzen 7040 laptops",
+      "summary": "Framework says it's replacing some out-of-warranty AMD mainboards.",
+      "url": "https://arstechnica.com/gadgets/2026/08/framework-responds-to-complaints-that-bios-update-bricked-ryzen-7040-laptops/",
+      "source": "Ars Technica",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Flight attendants freaked out that Google is buying tons of Spirit employee data",
+      "summary": "Bankrupt Spirit accused of selling out workers in massive data sale to Google.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/flight-attendants-freaked-out-that-google-to-buy-tons-of-spirit-employee-data/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "FCC abolishes gigabit speed goal, suggesting it is unfair to slower technologies",
+      "summary": "FCC decides 1Gbps is too fast, standard must be \"technologically neutral.\"",
+      "url": "https://arstechnica.com/tech-policy/2026/08/fcc-abolishes-gigabit-speed-goal-suggesting-it-is-unfair-to-slower-technologies/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "The floodgates are open after another Chinese company lands a reusable rocket",
+      "summary": "\"We will put the booster back into service for another flight as soon as possible.\"",
+      "url": "https://arstechnica.com/space/2026/08/the-floodgates-are-open-after-another-chinese-company-lands-a-reusable-rocket/",
+      "source": "Ars Technica",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
     {
       "title": "A fantastical journey unfolds in gorgeous Wildwood trailer",
       "summary": "\"I will tear apart this forest and bring back what it took from me.\"",
@@ -125,38 +157,6 @@
       "title": "X-rays add new twist to narwhal's spiral tusk",
       "summary": "New study finds that the tusks have not one but two spirals, twisting in opposite directions.",
       "url": "https://arstechnica.com/science/2026/08/x-rays-add-new-twist-to-narwhals-spiral-tusk/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
-      "summary": "Secret parameter allowed hackers to steal passwords when a target clicked on a link.",
-      "url": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
-      "source": "Ars Technica",
-      "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
-      "title": "As temperatures get hotter, pesticides are more dangerous to farmworkers",
-      "summary": "Research shows heat amplifies the dangers of pesticides.",
-      "url": "https://arstechnica.com/science/2026/08/as-temperatures-get-hotter-pesticides-are-more-dangerous-to-farmworkers/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Theban tomb reveals how Egyptian burial trends evolved in time",
-      "summary": "Practices shifted from individuals buried in coffins to reusing sites for later mummy interments.",
-      "url": "https://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "US vaccination rates fall again as exemptions continue to rise, CDC data shows",
-      "summary": "Again, the CDC did not publish a full report and instead simply put the data online.",
-      "url": "https://arstechnica.com/health/2026/08/us-vaccination-rates-fall-again-as-exemptions-continue-to-rise-cdc-data-shows/",
       "source": "Ars Technica",
       "category": "GENERAL",
       "age": "RECENT"
@@ -474,14 +474,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
-      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
-      "url": "https://www.wired.com/story/ulta-coupon/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Uber Eats Promo Codes: $15 Off│August 2026",
       "summary": "Hunger meets savings. Discover verified Uber Eats promo codes, new user offers, and Uber One discounts to slash your delivery fees and meal costs.",
       "url": "https://www.wired.com/story/uber-eats-promo-code/",
@@ -530,6 +522,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
+      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
+      "url": "https://www.wired.com/story/ulta-coupon/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Newegg Promo Codes and Coupons for August 2026",
       "summary": "Enjoy up to 10% off your entire order with today’s Newegg promo code and discount codes. Save with the latest deals for gaming PCs, laptops, and computer parts.",
       "url": "https://www.wired.com/story/newegg-promo-code/",
@@ -559,6 +559,14 @@
       "url": "https://www.wired.com/story/dyson-cordless-vacuum-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Healthtech firm CareCloud data breach impacts 3.7 million patients",
+      "summary": "U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -674,11 +682,27 @@
       "age": "RECENT"
     },
     {
-      "title": "Microsoft starts removing WMIC tool used by cybercriminals",
-      "summary": "Microsoft announced that it removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, as well as from Windows 11 beta builds released this week. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/",
-      "source": "BleepingComputer",
-      "category": "WINDOWS",
+      "title": "Rillet raises $100M Series C at $1B valuation — 2 years after emerging from stealth",
+      "summary": "AI-native account startup Rillet became a unicorn, led by ICONIQ after it doubled its ARR in the past three months, it said.",
+      "url": "https://techcrunch.com/2026/08/19/rillet-raises-100m-series-c-at-1b-valuation-2-years-after-emerging-from-stealth/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Gwyneth Paltrow allegedly set to throw dinner in honor of Sam Altman",
+      "summary": "The actress' firm Kinship Ventures is an investor in the company.",
+      "url": "https://techcrunch.com/2026/08/19/gwyneth-paltrow-allegedly-set-to-throw-dinner-in-honor-of-sam-altman/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Gambling on the Little League World Series? Sports bettors have gone too far",
+      "summary": "Have we tried turning off society and turning it back on again?",
+      "url": "https://techcrunch.com/2026/08/19/gambling-on-the-little-league-world-series-sports-bettors-have-gone-too-far/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -775,30 +799,6 @@
       "url": "https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus/",
       "source": "TechCrunch",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "The founder’s secret weapon: Work at TechCrunch Disrupt 2026 and learn how the pros do it",
-      "summary": "Volunteer at TechCrunch Disrupt 2026 and get an insider's view of how world-class tech events get built and more.",
-      "url": "https://techcrunch.com/2026/08/19/the-founders-secret-weapon-work-at-techcrunch-disrupt-2026-and-learn-how-the-pros-do-it/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Home batteries are suddenly cheap and everywhere. Here’s why.",
-      "summary": "Companies including Tesla and Base Power are vying for a piece of the rapidly growing market for home batteries. One technology has made it all possible.",
-      "url": "https://techcrunch.com/2026/08/19/home-batteries-are-suddenly-cheap-and-everywhere-heres-why/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "CareCloud confirms 3.7M patients had their medical records stolen in data breach",
-      "summary": "The cyberattack at CareCloud resulted in one of the largest reported data breaches in the U.S. healthcare industry this year.",
-      "url": "https://techcrunch.com/2026/08/19/carecloud-confirms-3-7m-patients-had-their-medical-records-stolen-in-data-breach/",
-      "source": "TechCrunch",
-      "category": "CYBERSECURITY",
       "age": "RECENT"
     }
   ]
