@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T21:43:55.902145+00:00",
+  "generated_at": "2026-08-19T22:44:55.675915+00:00",
   "articles": [
     {
       "title": "Framework responds to complaints that BIOS update bricks Ryzen 7040 laptops",
@@ -158,6 +158,46 @@
       "summary": "New study finds that the tusks have not one but two spirals, twisting in opposite directions.",
       "url": "https://arstechnica.com/science/2026/08/x-rays-add-new-twist-to-narwhals-spiral-tusk/",
       "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "'Not a theoretical risk,' feds warn as attackers use AI-made code to hack critical infrastructure controllers",
+      "summary": "'It is an active threat'",
+      "url": "https://www.theregister.com/security/2026/08/19/not-a-theoretical-risk-feds-warn-as-attackers-use-ai-made-code-to-hack-critical-infrastructure-controllers/5289960",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "SvelteKit 3 puts heat on Next.js with radical approach to RPCs",
+      "summary": "Remote functions bring type-safe remote procedure calls right into Web page components",
+      "url": "https://www.theregister.com/devops/2026/08/19/sveltekit-3-puts-heat-on-nextjs-with-radical-approach-to-rpcs/5289925",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Google pits Marvell against Broadcom as it chases AI crown",
+      "summary": "And Marvell just offered the Chocolate Factory a $12.2B stake to sweeten the deal",
+      "url": "https://www.theregister.com/off-prem/2026/08/19/google-pits-marvell-against-broadcom-as-it-chases-ai-crown/5289902",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Dev taps Claude Code to craft custom printer driver for macOS",
+      "summary": "Unsupported platform? Is that even a thing anymore?",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/19/dev-taps-claude-code-to-craft-custom-printer-driver-for-macos/5289875",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "ICE boss to agents: Leave the Meta spy glasses at home",
+      "summary": "'Personally owned body-worn cameras are prohibited,' ICE tells The Reg. Because the last thing DHS needs is more proof of misconduct",
+      "url": "https://www.theregister.com/security/2026/08/19/ice-boss-to-agents-leave-the-meta-spy-glasses-at-home/5289826",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -322,46 +362,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Tim King, AmigaDOS royalty, dies aged 70",
-      "summary": "Parallel computing pioneer went on to found early British ISP UK Online",
-      "url": "https://www.theregister.com/software/2026/08/18/tim-king-amigados-royalty-dies-aged-70/5289101",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Microsoft finally fixing File Explorer and the Context Menu",
-      "summary": "Time to flex that Windows 10 muscle memory",
-      "url": "https://www.theregister.com/os-platforms/2026/08/18/microsoft-finally-fixing-file-explorer-and-the-context-menu/5289121",
-      "source": "The Register",
-      "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Copilot tricked into telling reseachers how to hack itself",
-      "summary": "How to social engineer an AI's reasoning engine",
-      "url": "https://www.theregister.com/research/2026/08/18/copilot-tricked-into-telling-reseachers-how-to-hack-itself/5288857",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Government Teams users face another ******* month of filtered captions",
-      "summary": "Officials must wait a little longer before Live Captions tells it like it is",
-      "url": "https://www.theregister.com/software/2026/08/18/government-teams-users-face-another-month-of-filtered-captions/5288985",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Passport out-of-control at French airport",
-      "summary": "Papers please. Windows is watching",
-      "url": "https://www.theregister.com/os-platforms/2026/08/18/passport-out-of-control-at-french-airport/5288697",
-      "source": "The Register",
-      "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
       "title": "I Saw the Future of AI in a Robot That Can Learn on the Spot",
       "summary": "During a recent visit to Generalist AI, I watched a robotic arm improvise and use a banana as a tool.",
       "url": "https://www.wired.com/story/generalist-ai-robots-learn-like-clever-toddlers/",
@@ -474,14 +474,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
-      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
-      "url": "https://www.wired.com/story/ulta-coupon/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Uber Eats Promo Codes: $15 Off│August 2026",
       "summary": "Hunger meets savings. Discover verified Uber Eats promo codes, new user offers, and Uber One discounts to slash your delivery fees and meal costs.",
       "url": "https://www.wired.com/story/uber-eats-promo-code/",
@@ -530,6 +522,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
+      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
+      "url": "https://www.wired.com/story/ulta-coupon/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Newegg Promo Codes and Coupons for August 2026",
       "summary": "Enjoy up to 10% off your entire order with today’s Newegg promo code and discount codes. Save with the latest deals for gaming PCs, laptops, and computer parts.",
       "url": "https://www.wired.com/story/newegg-promo-code/",
@@ -562,9 +562,9 @@
       "age": "RECENT"
     },
     {
-      "title": "Rogue ransomware affiliate poses as data recovery firm to steal payments",
+      "title": "Rogue ransomware affiliate poses as recovery firm to steal payments",
       "summary": "A suspected ransomware affiliate is posing as a ransomware recovery service called \"Ransom Busters,\" contacting the victims before the attacks become public and claiming to be able to provide decryption keys and delete stolen data for a fee. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-data-recovery-firm/",
+      "url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
       "source": "BleepingComputer",
       "category": "CYBERSECURITY",
       "age": "RECENT"
@@ -682,6 +682,38 @@
       "age": "RECENT"
     },
     {
+      "title": "Waymo’s cheaper, next-gen robotaxi is now open to all riders in these three cities",
+      "summary": "The next-generation robotaxi, called the Waymo Ojai, is central to the company's push towards mass scale, and eventually, profitability.",
+      "url": "https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/",
+      "source": "TechCrunch",
+      "category": "ROBOTICS",
+      "age": "RECENT"
+    },
+    {
+      "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+      "summary": "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data.",
+      "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
+      "summary": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.",
+      "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Travis Kalanick kicks off another round of VC bashing: ‘1% are helpful’",
+      "summary": "After raising $1.7 billion for his new robotics company Atoms, Travis Kalanick is introspective about the role VCs have played in his career.",
+      "url": "https://techcrunch.com/2026/08/19/travis-kalanick-kicks-off-another-round-of-vc-bashing-1-are-helpful/",
+      "source": "TechCrunch",
+      "category": "ROBOTICS",
+      "age": "RECENT"
+    },
+    {
       "title": "Rillet raises $100M Series C at $1B valuation — 2 years after emerging from stealth",
       "summary": "AI-native account startup Rillet became a unicorn, led by Iconiq, after it doubled its ARR in the past three months, it said.",
       "url": "https://techcrunch.com/2026/08/19/rillet-raises-100m-series-c-at-1b-valuation-2-years-after-emerging-from-stealth/",
@@ -767,38 +799,6 @@
       "url": "https://techcrunch.com/2026/08/19/rivian-spinout-also-raises-another-150-million/",
       "source": "TechCrunch",
       "category": "ROBOTICS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Sachin Bansal’s fintech Navi raises first outside capital with $100M Prosus investment",
-      "summary": "The investment comes amid Navi plans to go public.",
-      "url": "https://techcrunch.com/2026/08/19/sachin-bansals-fintech-navi-raises-first-outside-capital-with-100m-prosus-investment/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Amazon makes its AI-powered Alexa+ free on Fire TV, no Prime required",
-      "summary": "Amazon is making its AI-powered Alexa+ assistant free on all compatible Fire TV devices in the U.S., automatically upgrading users whether or not they subscribe to Prime.",
-      "url": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Amazon’s Prime Air is taking off in nearly 500 US cities",
-      "summary": "Amazon is significantly expanding its Prime Air drone delivery service, with plans to reach nearly 500 U.S. cities by the end of 2026.",
-      "url": "https://techcrunch.com/2026/08/19/amazons-prime-air-is-taking-off-in-nearly-500-u-s-cities/",
-      "source": "TechCrunch",
-      "category": "ROBOTICS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Calendly throws its hat into meeting note-taker circus",
-      "summary": "Calendly is also releasing a meeting scheduling assistant called Callie.",
-      "url": "https://techcrunch.com/2026/08/19/calendly-throws-its-hat-into-meeting-note-taker-circus/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
       "age": "RECENT"
     }
   ]
