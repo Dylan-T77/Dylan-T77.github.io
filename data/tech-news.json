@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T13:13:33.691991+00:00",
+  "generated_at": "2026-08-19T14:00:33.065173+00:00",
   "articles": [
     {
       "title": "\"Sabotage\": Experts, lawmakers blast RFK Jr. for destroying healthcare research",
@@ -159,6 +159,14 @@
       "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
       "source": "Ars Technica",
       "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Comcast gives its Wi-Fi motion detector a security makeover",
+      "summary": "Rebranded feature promises household alerts without video, but mind the small print",
+      "url": "https://www.theregister.com/security/2026/08/19/comcast-gives-its-wi-fi-motion-detector-a-security-makeover/5289572",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -351,14 +359,6 @@
       "url": "https://www.theregister.com/cxo/2026/08/18/uks-tech-talent-pipeline-shrinks-as-overseas-worker-visa-applications-fall-7/5288476",
       "source": "The Register",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Google buys crashed airline Spirit’s data at auction, because AI",
-      "summary": "$10 million buys over 100 million emails, 30 million recorded phone calls, reams of stuff from Teams, Oracle, and SAP",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
-      "source": "The Register",
-      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -562,6 +562,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
+      "summary": "Huntress observed a 155x increase in password spraying attacks in H1 2026, including a campaign that generated more than 81 million login attempts in two weeks. The attacks exploited legacy authentication and gaps in MFA policies that left some login flows unprotected. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
       "title": "Microsoft fixes known issue causing Windows Defender crashes",
       "summary": "Microsoft has resolved a bug that caused Windows Defender to crash after a recent security update, resulting in 0xc0000005 access violation errors on some affected systems. [...]",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes/",
@@ -674,11 +682,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
-      "summary": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privilege, implicit trust, and treating PKI as the Tier 0 identity infrastructure it has always been. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
+      "title": "Home batteries are suddenly cheap and everywhere. Here’s why.",
+      "summary": "Companies including Tesla and Base Power are vying for a piece of the rapidly growing market for home batteries. One technology has made it all possible.",
+      "url": "https://techcrunch.com/2026/08/19/home-batteries-are-suddenly-cheap-and-everywhere-heres-why/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -789,14 +797,6 @@
       "title": "Bluesky says its recent outage was caused by another DDoS attack",
       "summary": "This is the latest large-scale DDoS attack to hit the social networking site this year.",
       "url": "https://techcrunch.com/2026/08/18/bluesky-says-its-recent-outage-was-caused-by-another-ddos-attack/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Peacock is raising prices across all of its streaming plans",
-      "summary": "\"These price changes allow Peacock to continue to create the best experience for its viewers, remain competitive in the marketplace, and deliver unique content across all genres,\" the company wrote on a support page.",
-      "url": "https://techcrunch.com/2026/08/18/peacock-is-raising-prices-across-all-of-its-streaming-plans/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
