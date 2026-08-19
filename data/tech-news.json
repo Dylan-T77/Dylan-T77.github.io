@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T18:56:07.109684+00:00",
+  "generated_at": "2026-08-19T19:42:47.661127+00:00",
   "articles": [
     {
       "title": "A fantastical journey unfolds in gorgeous Wildwood trailer",
@@ -362,6 +362,14 @@
       "age": "RECENT"
     },
     {
+      "title": "I Saw the Future of AI in a Robot That Can Learn on the Spot",
+      "summary": "During a recent visit to Generalist AI, I watched a robotic arm improvise and use a banana as a tool.",
+      "url": "https://www.wired.com/story/generalist-ai-robots-learn-like-clever-toddlers/",
+      "source": "WIRED",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
       "title": "Coders Say They Already Found Workarounds to Claude’s Invisible Watermarks",
       "summary": "Anthropic announced last week it would include invisible watermarks in AI-generated content to comply with new EU rules. Within hours, overrides were being touted online.",
       "url": "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/",
@@ -466,6 +474,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
+      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
+      "url": "https://www.wired.com/story/ulta-coupon/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Uber Eats Promo Codes: $15 Off│August 2026",
       "summary": "Hunger meets savings. Discover verified Uber Eats promo codes, new user offers, and Uber One discounts to slash your delivery fees and meal costs.",
       "url": "https://www.wired.com/story/uber-eats-promo-code/",
@@ -514,14 +530,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
-      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
-      "url": "https://www.wired.com/story/ulta-coupon/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Newegg Promo Codes and Coupons for August 2026",
       "summary": "Enjoy up to 10% off your entire order with today’s Newegg promo code and discount codes. Save with the latest deals for gaming PCs, laptops, and computer parts.",
       "url": "https://www.wired.com/story/newegg-promo-code/",
@@ -549,14 +557,6 @@
       "title": "Dyson Promo Codes: 25% Off in August 2026",
       "summary": "Get 25% off with a Dyson coupon code, plus save up to $600 with discounts on vacuums, $150 off Airwraps, and more.",
       "url": "https://www.wired.com/story/dyson-cordless-vacuum-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Squeeze More Juice Out of Your Dead Batteries—Using Physics",
-      "summary": "How the joule thief circuit “steals” energy from seemingly depleted power cells.",
-      "url": "https://www.wired.com/story/squeeze-more-juice-out-of-a-dead-battery/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -682,11 +682,27 @@
       "age": "RECENT"
     },
     {
+      "title": "AI was supposed to win people over by now — it hasn’t",
+      "summary": "As AI becomes harder to avoid, consumers are growing more wary of the technology — and Silicon Valley is discovering that widespread adoption doesn’t necessarily lead to acceptance.",
+      "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Google packs Search and Gemini with new AI study tools",
+      "summary": "The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.",
+      "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
       "title": "Researchers say OpenAI revoked their access to limited cyber program",
-      "summary": "Multiple cybersecurity researchers said they suddenly lost access to OpenAI’s Trusted Access for Cyber (TAC) program, which offers models with fewer guardrails for vetted users.",
+      "summary": "The idea behind OpenAI's Trusted Access for Cyber program is to give trusted defenders better models so they can report bugs and vulnerabilities to companies, with the aim of getting flaws patched faster.",
       "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program/",
       "source": "TechCrunch",
-      "category": "CYBERSECURITY",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -783,22 +799,6 @@
       "url": "https://techcrunch.com/2026/08/19/carecloud-confirms-3-7m-patients-had-their-medical-records-stolen-in-data-breach/",
       "source": "TechCrunch",
       "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
-      "summary": "It's the data, stupid.",
-      "url": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "You can Venmo your college tuition, for some reason",
-      "summary": "Kids these days don't know how good they have it.",
-      "url": "https://techcrunch.com/2026/08/19/you-can-venmo-your-college-tuition-for-some-reason/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
       "age": "RECENT"
     }
   ]
