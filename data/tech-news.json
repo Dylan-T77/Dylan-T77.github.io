@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T23:40:10.765524+00:00",
+  "generated_at": "2026-08-19T01:55:32.414738+00:00",
   "articles": [
     {
       "title": "\"Sabotage\": Experts, lawmakers blast RFK Jr. for destroying healthcare research",
@@ -158,6 +158,22 @@
       "summary": "Amazon’s team uses a T. rex preparing to devour a book as its logo.",
       "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
       "source": "Ars Technica",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Cerebras CS-4 rack systems juice chips for every last drop of AI performance",
+      "summary": "Next-gen systems double per-chip performance while cramming 3x as many into a rack",
+      "url": "https://www.theregister.com/systems/2026/08/19/cerebras-cs-4-rack-systems-juice-chips-for-every-last-drop-of-ai-performance/5289286",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "OpenAI's overhead will rise 20 percent for some workloads as it hardens security",
+      "summary": "Expanded multistage chain of thought monitoring makes frontier model work more expensive",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/19/openais-overhead-will-rise-20-percent-for-some-workloads-as-it-hardens-security/5289303",
+      "source": "The Register",
       "category": "AI",
       "age": "RECENT"
     },
@@ -346,22 +362,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Capita handed vital role in next pandemic despite civil service pension failures",
-      "summary": "Initial £31M deal comes with scope to scale sharply during a major outbreak",
-      "url": "https://www.theregister.com/public-sector/2026/08/17/capita-handed-vital-role-in-next-pandemic-despite-civil-service-pension-failures/5288454",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Agentic AI costs set to balloon fivefold by 2028",
-      "summary": "Cheaper tokens won't help when complex workflows consume so many more of them, Gartner warns",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/17/agentic-ai-costs-set-to-balloon-fivefold-by-2028/5288363",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
       "title": "Squeeze More Juice Out of Your Dead Batteries—Using Physics",
       "summary": "How the joule thief circuit “steals” energy from seemingly depleted power cells.",
       "url": "https://www.wired.com/story/squeeze-more-juice-out-of-a-dead-battery/",
@@ -418,19 +418,19 @@
       "age": "RECENT"
     },
     {
-      "title": "Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To",
-      "summary": "Proton’s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?",
-      "url": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
-      "source": "WIRED",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
       "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
       "summary": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, starting with the Fairphone (Gen 6+).",
       "url": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
       "source": "WIRED",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To",
+      "summary": "Proton’s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
+      "source": "WIRED",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -442,19 +442,19 @@
       "age": "RECENT"
     },
     {
-      "title": "Best Merino Wool Clothing (2026): Base Layers, Hoodies, Jackets",
-      "summary": "Merino is one of the best fabrics you can wear. We explain the different blends, what “GSM” means, and how to care for your clothes.",
-      "url": "https://www.wired.com/story/best-merino-wool-clothes/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "The Powerful Chinese AI Model Experts Warned About Is Here",
       "summary": "Z.ai’s latest AI model release could help companies secure their systems—or find its way into the hands of hackers.",
       "url": "https://www.wired.com/story/zai-open-weight-ai-models-release-cybersecurity-hacking/",
       "source": "WIRED",
       "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Best Merino Wool Clothing (2026): Base Layers, Hoodies, Jackets",
+      "summary": "Merino is one of the best fabrics you can wear. We explain the different blends, what “GSM” means, and how to care for your clothes.",
+      "url": "https://www.wired.com/story/best-merino-wool-clothes/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
