@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T15:48:57.316019+00:00",
+  "generated_at": "2026-08-19T16:50:09.768746+00:00",
   "articles": [
     {
       "title": "\"Sabotage\": Experts, lawmakers blast RFK Jr. for destroying healthcare research",
@@ -362,6 +362,30 @@
       "age": "RECENT"
     },
     {
+      "title": "Coders Say They Already Found Workarounds to Claude’s Invisible Watermarks",
+      "summary": "Anthropic announced last week it would include invisible watermarks in AI-generated content to comply with new EU rules. Within hours, overrides were being touted online.",
+      "url": "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/",
+      "source": "WIRED",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Google Pixel Watch 5 Review: More Health, More AI",
+      "summary": "With smarter gym tracking, new health alerts, and offline Gemini, the Pixel Watch 5 fine-tunes a winning formula—for a price.",
+      "url": "https://www.wired.com/review/google-pixel-watch-5/",
+      "source": "WIRED",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Google Pixel 11 Pro and Pixel 11 Pro XL Review: Smart Software, Small Upgrade",
+      "summary": "Google’s new voice typing is pure magic, but subpar gaming performance and a useless rear LED keep these flagships from true greatness.",
+      "url": "https://www.wired.com/review/google-pixel-11-pro-and-pixel-11-pro-xl/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Why Is It Absolute Hell to Buy a Movie Ticket Now?",
       "summary": "Overwhelmed theater apps and a scarcity mindset around exclusive big-screen formats for blockbusters like Dune: Part Three and The Odyssey have led to the “concertification” of movies.",
       "url": "https://www.wired.com/story/why-is-it-absolute-hell-to-buy-a-movie-ticket-now/",
@@ -538,27 +562,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Garmin Watches Are Up to $250 Off Right Now On Amazon (2026)",
-      "summary": "Save $250 off the Garmin Fenix 8, plus discounts on other popular fitness trackers from the brand.",
-      "url": "https://www.wired.com/story/garmin-deals-august-2026/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue",
-      "summary": "The ChatGPT maker says its upcoming Astra model may have reached “critical” cyber capabilities, prompting it to halt a significant number of training runs while it tightens internal safeguards.",
-      "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
-      "source": "WIRED",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Viral Disneyland Content Creator Defends Her ‘Special Friendship’ With Peter Pan",
-      "summary": "Disney superfan Toni Kulusich has been accused of stalking her favorite character, sparking discourse about boundaries with park actors. She tells WIRED the backlash is unfair.",
-      "url": "https://www.wired.com/story/viral-disneyland-content-creator-defends-her-special-friendship-with-peter-pan/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "US charges Iranian hackers over $3.4 billion intellectual property theft",
+      "summary": "The U.S. has charged 17 Iranians, alleged members of a hacking-for-hire company called Mabna Institute, involved in years-long operations that stole data from American organizations. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/",
+      "source": "BleepingComputer",
+      "category": "HARDWARE",
       "age": "RECENT"
     },
     {
@@ -674,11 +682,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Microsoft confirms GitHub is down worldwide",
-      "summary": "GitHub is down for some users as a widespread outage is causing errors across the website, API, Actions, Pull Requests, and several other services. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
-      "source": "BleepingComputer",
-      "category": "WINDOWS",
+      "title": "Time’s running out! Save $300 on your TechCrunch Disrupt 2026 pass until August 21",
+      "summary": "If you’ve been circling around Disrupt, then now’s the best time to lock in your pass and start getting ready to join the rest of the startup community gathering in San Francisco from October 13-15 at Moscone West!",
+      "url": "https://techcrunch.com/2026/08/19/times-running-out-save-300-on-your-techcrunch-disrupt-2026-pass-until-august-21/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -690,7 +698,7 @@
       "age": "RECENT"
     },
     {
-      "title": "Rivian spinout Also raises another $150 million",
+      "title": "Rivian spinout Also raises another $150M",
       "summary": "The round, led by Prysm Capital, will fund the company's expansion beyond pedal-assist electric bikes and commercial cargo quads to autonomous delivery vehicles.",
       "url": "https://techcrunch.com/2026/08/19/rivian-spinout-also-raises-another-150-million/",
       "source": "TechCrunch",
@@ -714,7 +722,7 @@
       "age": "RECENT"
     },
     {
-      "title": "Amazon’s Prime Air is taking off in nearly 500 U.S. cities",
+      "title": "Amazon’s Prime Air is taking off in nearly 500 US cities",
       "summary": "Amazon is significantly expanding its Prime Air drone delivery service, with plans to reach nearly 500 U.S. cities by the end of 2026.",
       "url": "https://techcrunch.com/2026/08/19/amazons-prime-air-is-taking-off-in-nearly-500-u-s-cities/",
       "source": "TechCrunch",
@@ -789,14 +797,6 @@
       "title": "DOJ’s probe into Andreessen Horowitz over board seats baffles VCs",
       "summary": "Since portfolio companies often pivot and expand into competing markets, investors view occasional conflicts of interest as unavoidable for large VC firms.",
       "url": "https://techcrunch.com/2026/08/18/dojs-probe-into-andreessen-horowitz-over-board-seats-baffles-vcs/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "TikTok explores peer-to-peer payments via DMs, report says",
-      "summary": "If rolled out, the feature would use the social media service’s TikTok Pay offering, which is already available in Southeast Asia for TikTok Shop purchases.",
-      "url": "https://techcrunch.com/2026/08/18/tiktok-explores-peer-to-peer-payments-via-dms-report-says/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
