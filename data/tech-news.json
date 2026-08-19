@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T20:48:19.569641+00:00",
+  "generated_at": "2026-08-19T21:43:55.902145+00:00",
   "articles": [
     {
       "title": "Framework responds to complaints that BIOS update bricks Ryzen 7040 laptops",
@@ -474,6 +474,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
+      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
+      "url": "https://www.wired.com/story/ulta-coupon/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Uber Eats Promo Codes: $15 Off│August 2026",
       "summary": "Hunger meets savings. Discover verified Uber Eats promo codes, new user offers, and Uber One discounts to slash your delivery fees and meal costs.",
       "url": "https://www.wired.com/story/uber-eats-promo-code/",
@@ -522,14 +530,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
-      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
-      "url": "https://www.wired.com/story/ulta-coupon/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Newegg Promo Codes and Coupons for August 2026",
       "summary": "Enjoy up to 10% off your entire order with today’s Newegg promo code and discount codes. Save with the latest deals for gaming PCs, laptops, and computer parts.",
       "url": "https://www.wired.com/story/newegg-promo-code/",
@@ -558,6 +558,22 @@
       "summary": "Get 25% off with a Dyson coupon code, plus save up to $600 with discounts on vacuums, $150 off Airwraps, and more.",
       "url": "https://www.wired.com/story/dyson-cordless-vacuum-promo-code/",
       "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Rogue ransomware affiliate poses as data recovery firm to steal payments",
+      "summary": "A suspected ransomware affiliate is posing as a ransomware recovery service called \"Ransom Busters,\" contacting the victims before the attacks become public and claiming to be able to provide decryption keys and delete stolen data for a fee. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-data-recovery-firm/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Sakura Internet hack exposes data of up to 1.36 million accounts",
+      "summary": "Japanese cloud and data center service provider Sakura Internet disclosed that hackers accessed its sales management system, where customer contract and membership information is stored. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/",
+      "source": "BleepingComputer",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -666,24 +682,8 @@
       "age": "RECENT"
     },
     {
-      "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability that was flagged as actively exploited in April. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Microsoft confirms outage affecting search in Microsoft 365 apps",
-      "summary": "Microsoft says some users are experiencing issues searching in Microsoft 365 apps, including Outlook on the web, Outlook desktop, SharePoint Online, and OneDrive. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/",
-      "source": "BleepingComputer",
-      "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
       "title": "Rillet raises $100M Series C at $1B valuation — 2 years after emerging from stealth",
-      "summary": "AI-native account startup Rillet became a unicorn, led by ICONIQ after it doubled its ARR in the past three months, it said.",
+      "summary": "AI-native account startup Rillet became a unicorn, led by Iconiq, after it doubled its ARR in the past three months, it said.",
       "url": "https://techcrunch.com/2026/08/19/rillet-raises-100m-series-c-at-1b-valuation-2-years-after-emerging-from-stealth/",
       "source": "TechCrunch",
       "category": "GENERAL",
