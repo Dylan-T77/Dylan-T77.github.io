@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T07:08:12.408709+00:00",
+  "generated_at": "2026-08-19T07:56:45.639328+00:00",
   "articles": [
     {
       "title": "\"Sabotage\": Experts, lawmakers blast RFK Jr. for destroying healthcare research",
@@ -362,14 +362,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
-      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
-      "url": "https://www.wired.com/story/ulta-coupon/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Uber Eats Promo Codes: $15 Off│August 2026",
       "summary": "Hunger meets savings. Discover verified Uber Eats promo codes, new user offers, and Uber One discounts to slash your delivery fees and meal costs.",
       "url": "https://www.wired.com/story/uber-eats-promo-code/",
@@ -413,6 +405,14 @@
       "title": "Loop Earplugs Discount Codes: 40% Off",
       "summary": "Save on Loop Earplugs, including Quiet 2 and popular gift sets for improved sleep, focus, and comfort.",
       "url": "https://www.wired.com/story/loop-earplugs-discount-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
+      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
+      "url": "https://www.wired.com/story/ulta-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -506,19 +506,19 @@
       "age": "RECENT"
     },
     {
-      "title": "Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To",
-      "summary": "Proton’s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?",
-      "url": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
-      "source": "WIRED",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
       "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
       "summary": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, starting with the Fairphone (Gen 6+).",
       "url": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
       "source": "WIRED",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To",
+      "summary": "Proton’s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?",
+      "url": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
+      "source": "WIRED",
+      "category": "AI",
       "age": "RECENT"
     },
     {
