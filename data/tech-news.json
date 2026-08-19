@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T08:56:59.114458+00:00",
+  "generated_at": "2026-08-19T09:51:48.851999+00:00",
   "articles": [
     {
       "title": "\"Sabotage\": Experts, lawmakers blast RFK Jr. for destroying healthcare research",
@@ -158,6 +158,22 @@
       "summary": "Amazon’s team uses a T. rex preparing to devour a book as its logo.",
       "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
       "source": "Ars Technica",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Hot or Not Built the Internet We’re Still Swiping Through",
+      "summary": "The early website Hot or Not taught its users to rank people at scale. Twenty-six years later, dating apps are trying to escape the culture the site helped create.",
+      "url": "https://www.wired.com/story/hot-or-not-built-the-internet-were-still-swiping-through/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Flock Has a Powerful New AI Tool for Police. We Got Its Code",
+      "summary": "Flock’s surveillance cameras have already sparked outrage. WIRED reconstructed its next-generation AI system, already in use by some police, to confirm it goes much further than tracking license plates.",
+      "url": "https://www.wired.com/story/flock-safety-os-investigate/",
+      "source": "WIRED",
       "category": "AI",
       "age": "RECENT"
     },
@@ -346,19 +362,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Noom Promo Codes: 50% Off Best Deals & Free Trials for August 2026",
-      "summary": "Discover the best ways to save on Noom subscriptions, including free trials, limited-time offers for GLP-1Rx Plus, and essential tips for redeeming your Noom discount.",
-      "url": "https://www.wired.com/story/noom-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "1Password Coupon: Score a Free Trial in August 2026",
-      "summary": "Save up to 28% on business and personal memberships with 1Password promo codes and deals.",
-      "url": "https://www.wired.com/story/1password-coupon/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "Windows 11 24H2 Home and Pro reach end of support in 2 months",
+      "summary": "Microsoft has reminded customers that systems running Home and Pro editions of Windows 11 24H2 will stop receiving updates in two months. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/",
+      "source": "BleepingComputer",
+      "category": "WINDOWS",
       "age": "RECENT"
     },
     {
@@ -469,14 +477,6 @@
       "title": "Philips and GE investigating Clop ransomware data theft claims",
       "summary": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "French tax authority data breach affects 678,000 individuals",
-      "summary": "The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
       "source": "BleepingComputer",
       "category": "CYBERSECURITY",
       "age": "RECENT"
