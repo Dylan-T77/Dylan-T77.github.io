@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T10:48:50.689102+00:00",
+  "generated_at": "2026-08-19T11:43:23.935075+00:00",
   "articles": [
     {
       "title": "\"Sabotage\": Experts, lawmakers blast RFK Jr. for destroying healthcare research",
@@ -158,6 +158,14 @@
       "summary": "Amazon’s team uses a T. rex preparing to devour a book as its logo.",
       "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
       "source": "Ars Technica",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Scotland's AI Growth Zone gets a wee £300M power-up",
+      "summary": "DataVita secures funding to expand datacenter capacity, while Dell brings some desks",
+      "url": "https://www.theregister.com/on-prem/2026/08/19/scotlands-ai-growth-zone-gets-a-wee-300m-power-up/5289042",
+      "source": "The Register",
       "category": "AI",
       "age": "RECENT"
     },
@@ -354,10 +362,34 @@
       "age": "RECENT"
     },
     {
-      "title": "Almost nobody pays attention to web standards anymore",
-      "summary": "Screen readers suffer as nearly 90% of top websites tested contain HTML spec violations",
-      "url": "https://www.theregister.com/devops/2026/08/17/almost-nobody-pays-attention-to-web-standards-anymore/5288782",
-      "source": "The Register",
+      "title": "The Best Digital Wall Calendar (2026): Skylight, Everblog, Apolosign",
+      "summary": "What originally looked like clutter turned out to be my new favorite gadget for organizing my family’s life.",
+      "url": "https://www.wired.com/story/are-digital-wall-calendars-worth-it/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "I Tried a Window-Cleaning Robot: Do Not Recommend",
+      "summary": "I tested the top-of-the-line Ecovacs Winbot W2S Omni window-cleaning robot on my Victorian home, and it was an unmitigated disaster.",
+      "url": "https://www.wired.com/story/window-cleaning-robots-are-kinda-terrible/",
+      "source": "WIRED",
+      "category": "ROBOTICS",
+      "age": "RECENT"
+    },
+    {
+      "title": "‘Your Excel Skills Suck’: The Power Users Turning Spreadsheets Into a Spectator Sport",
+      "summary": "Data and finance professionals are competing in Excel obstacle courses—amassing huge followings and keeping the Microsoft program relevant.",
+      "url": "https://www.wired.com/story/your-excel-skills-suck-the-power-users-turning-spreadsheets-into-a-spectator-sport/",
+      "source": "WIRED",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "We Bought a $500 Counterfeit Rolex So Good, Even Rolex Didn’t Spot It",
+      "summary": "The replica watch industry is in its “super clone” era. Following tips from murky internet forums, we bought three budget fakes that were good enough to pass as real—but ultimately disposable.",
+      "url": "https://www.wired.com/story/we-bought-a-counterfeit-rolex-so-good-even-rolex-didnt-spot-it/",
+      "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -399,6 +431,14 @@
       "url": "https://www.wired.com/story/flock-safety-os-investigate/",
       "source": "WIRED",
       "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
+      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
+      "url": "https://www.wired.com/story/ulta-coupon/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -445,14 +485,6 @@
       "title": "Loop Earplugs Discount Codes: 40% Off",
       "summary": "Save on Loop Earplugs, including Quiet 2 and popular gift sets for improved sleep, focus, and comfort.",
       "url": "https://www.wired.com/story/loop-earplugs-discount-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
-      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
-      "url": "https://www.wired.com/story/ulta-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -530,35 +562,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Can the Upcoming ‘Expanse’ Game Avoid the Biggest Mistake of ‘Mass Effect’?",
-      "summary": "The universe may never tell you if your choices mattered. Owlcat’s Osiris Reborn might not either.",
-      "url": "https://www.wired.com/story/the-upcoming-expanse-game-has-to-make-some-hard-choices/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "I Put the Best Digital Notebooks to the Test. Here Are My Favorites (2026)",
-      "summary": "These nifty tools combine the ease of jotting notes by hand with the power of saving them digitally.",
-      "url": "https://www.wired.com/gallery/best-smart-notebooks-and-smart-pens/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
-      "summary": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, starting with the Fairphone (Gen 6+).",
-      "url": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To",
-      "summary": "Proton’s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?",
-      "url": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
-      "source": "WIRED",
-      "category": "AI",
+      "title": "Microsoft fixes known issue causing Windows Defender crashes",
+      "summary": "Microsoft has resolved a bug that caused Windows Defender to crash after a recent security update, resulting in 0xc0000005 access violation errors on some affected systems. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes/",
+      "source": "BleepingComputer",
+      "category": "WINDOWS",
       "age": "RECENT"
     },
     {
@@ -671,14 +679,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
       "source": "BleepingComputer",
       "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
-      "summary": "Microsoft has reminded IT administrators that Windows Server 2022 is rapidly approaching its mainstream end date of October 2026, when it will switch to extended support. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
-      "source": "BleepingComputer",
-      "category": "WINDOWS",
       "age": "RECENT"
     },
     {
