@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T05:49:01.925791+00:00",
+  "generated_at": "2026-08-19T07:08:12.408709+00:00",
   "articles": [
     {
       "title": "\"Sabotage\": Experts, lawmakers blast RFK Jr. for destroying healthcare research",
@@ -159,6 +159,30 @@
       "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
       "source": "Ars Technica",
       "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "NASA estimates the size of the hole SpaceX made in the moon",
+      "summary": "As the latest Starship finds its way to an obscure part of Australia, for observations",
+      "url": "https://www.theregister.com/offbeat/2026/08/19/nasa-estimates-the-size-of-the-hole-spacex-made-in-the-moon/5289425",
+      "source": "The Register",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Baidu says Chinese buyers want local AI chips due to ‘supply chain’ issues",
+      "summary": "It seems like Nvidia’s not getting back into the Middle Kingdom anytime soon",
+      "url": "https://www.theregister.com/systems/2026/08/19/baidu-says-chinese-buyers-want-local-ai-chips-due-to-supply-chain-issues/5289377",
+      "source": "The Register",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Australian hotel chain leaks guests’ PII after breach at third-party database operator",
+      "summary": "Unknown parties know where you stayed last summer, down under, across 120 Quest properties",
+      "url": "https://www.theregister.com/cyber-crime/2026/08/19/australian-hotel-chain-leaks-guests-pii-after-breach-at-third-party-database-operator/5289341",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -338,27 +362,11 @@
       "age": "RECENT"
     },
     {
-      "title": "GitHub has Issues as repo downloads hit 50% error rate",
-      "summary": "Copilot also wobbles as another outage tests developer patience",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/17/github-has-issues-as-repo-downloads-hit-50-error-rate/5288543",
-      "source": "The Register",
+      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
+      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
+      "url": "https://www.wired.com/story/ulta-coupon/",
+      "source": "WIRED",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "$1K laser mosquito zapper promises precision strikes as backers itch for answers",
-      "summary": "After raising $2.8M, the project has entered production, but company comms have done little to reassure buyers",
-      "url": "https://www.theregister.com/offbeat/2026/08/17/1k-laser-mosquito-zapper-promises-precision-strikes-as-backers-itch-for-answers/5288431",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Windows 11 movable taskbar edges closer to general release",
-      "summary": "Preview also brings compact icons, Start menu sizing, and the final shove for WMIC",
-      "url": "https://www.theregister.com/os-platforms/2026/08/17/windows-11-movable-taskbar-edges-closer-to-general-release/5288393",
-      "source": "The Register",
-      "category": "WINDOWS",
       "age": "RECENT"
     },
     {
@@ -405,14 +413,6 @@
       "title": "Loop Earplugs Discount Codes: 40% Off",
       "summary": "Save on Loop Earplugs, including Quiet 2 and popular gift sets for improved sleep, focus, and comfort.",
       "url": "https://www.wired.com/story/loop-earplugs-discount-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
-      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
-      "url": "https://www.wired.com/story/ulta-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -506,19 +506,19 @@
       "age": "RECENT"
     },
     {
-      "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
-      "summary": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, starting with the Fairphone (Gen 6+).",
-      "url": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Can AI Coexist With Privacy? Proton’s Andy Yen Says It Will Have To",
       "summary": "Proton’s CEO is a champion of encryption for everyone. So why is he going all in on un-encryptable AI?",
       "url": "https://www.wired.com/story/the-big-interview-podcast-andy-yen-proton/",
       "source": "WIRED",
       "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Exclusive: You Can Finally Buy a Fairphone—a Sustainable, Repairable Smartphone—in the US",
+      "summary": "More than a decade after launching in Europe, the Netherlands company is now selling its repairable phones in the US, starting with the Fairphone (Gen 6+).",
+      "url": "https://www.wired.com/story/you-can-finally-buy-a-fairphone-a-sustainable-repairable-smartphone-in-the-us/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
