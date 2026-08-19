@@ -1,6 +1,54 @@
 {
-  "generated_at": "2026-08-19T16:50:09.768746+00:00",
+  "generated_at": "2026-08-19T17:43:53.019967+00:00",
   "articles": [
+    {
+      "title": "A fantastical journey unfolds in gorgeous Wildwood trailer",
+      "summary": "\"I will tear apart this forest and bring back what it took from me.\"",
+      "url": "https://arstechnica.com/culture/2026/08/a-fantastical-journey-unfolds-in-gorgeous-wildwood-trailer/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "mRNA cancer vaccine succeeded in Phase 3 melanoma trial, Moderna and Merck say",
+      "summary": "The vaccine reportedly thwarted the cancer's return and spread.",
+      "url": "https://arstechnica.com/health/2026/08/mrna-cancer-vaccine-succeeded-in-phase-3-melanoma-trial-moderna-and-merck-say/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Google Pixel 11 series review: Is the magic fading?",
+      "summary": "Google's new Pixels make some compromises but still manage to be good phones.",
+      "url": "https://arstechnica.com/gadgets/2026/08/google-pixel-11-series-review-is-the-magic-fading/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Scientists find closest star to the Milky Way's central black hole",
+      "summary": "Star, moving at 8% the speed of light, may let us measure the black hole's rotation.",
+      "url": "https://arstechnica.com/science/2026/08/scientists-find-closest-star-to-the-milky-ways-central-black-hole/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Meta ran ads for an app promising to nudify female politicians",
+      "summary": "One ad featured a pornographic video with deepfake closely resembling a US politician.",
+      "url": "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Trump expected to pick conservative policy wonk Heidi Overton to lead FDA",
+      "summary": "She opposes abortion, is wary of peptides, supports limiting vaccines, vexes MAHA.",
+      "url": "https://arstechnica.com/health/2026/08/trump-expected-to-pick-conservative-policy-wonk-heidi-overton-to-lead-fda/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
     {
       "title": "\"Sabotage\": Experts, lawmakers blast RFK Jr. for destroying healthcare research",
       "summary": "US healthcare is broken. Under RFK Jr., the research agency working to fix it is, too.",
@@ -114,50 +162,26 @@
       "age": "RECENT"
     },
     {
-      "title": "Former SpaceX engineers are building a robotic factory for making steel parts",
-      "summary": "“We're not necessarily building in a dogmatic fashion towards full autonomy.”",
-      "url": "https://arstechnica.com/ai/2026/08/former-spacex-engineers-are-building-a-robotic-factory-for-making-steel-parts/",
-      "source": "Ars Technica",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "The Moon's shadow raced across the heart of Spain, and I was there to see it",
-      "summary": "Here's what it was like watching a total solar eclipse 90 minutes north of Madrid.",
-      "url": "https://arstechnica.com/space/2026/08/the-moons-shadow-raced-across-the-heart-of-spain-and-i-was-there-to-see-it/",
-      "source": "Ars Technica",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "As Wisconsin cities flee Flock, its shared camera network loses value",
-      "summary": "\"Network effect\" can run in reverse.",
-      "url": "https://arstechnica.com/tech-policy/2026/08/as-wisconsin-cities-flee-flock-its-shared-camera-network-loses-value/",
-      "source": "Ars Technica",
+      "title": "Epic Games dismisses Apple's simplified EU App Store fees as 'junk'",
+      "summary": "Consumer group sees improvements on paper but warns the devil remains in the detail",
+      "url": "https://www.theregister.com/personal-tech/2026/08/19/epic-games-dismisses-apples-simplified-eu-app-store-fees-as-junk/5289794",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "Supreme Court rejects Verizon bid for $47 million refund of FCC fine",
-      "summary": "Despite loss, carriers still claim selling device-location data isn't illegal.",
-      "url": "https://arstechnica.com/tech-policy/2026/08/supreme-court-rejects-verizon-bid-for-47-million-refund-of-fcc-fine/",
-      "source": "Ars Technica",
+      "title": "Flock surveillance backlash mounts as fiendish Halloween plans circulate",
+      "summary": "CEO apologizes for police misuse as activists call for vandal action against license plate cameras",
+      "url": "https://www.theregister.com/security/2026/08/19/flock-surveillance-backlash-mounts-as-fiendish-halloween-plans-circulate/5289701",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "Petlibro accused of “gaslighting” users over smart pet feeder outage",
-      "summary": "Petlibro says feeders perform scheduled feedings offline. Users report otherwise.",
-      "url": "https://arstechnica.com/gadgets/2026/08/petlibro-accused-of-gaslighting-users-over-smart-pet-feeder-outage/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Hidden Airtag reveals Amazon is trashing rare books to train AI",
-      "summary": "Amazon’s team uses a T. rex preparing to devour a book as its logo.",
-      "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/",
-      "source": "Ars Technica",
+      "title": "More than half of Americans now view AI negatively",
+      "summary": "Concern continues to climb for adults under 30, as people fear being replaced by AI",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/19/more-than-half-of-americans-now-view-ai-negatively/5289736",
+      "source": "The Register",
       "category": "AI",
       "age": "RECENT"
     },
@@ -335,30 +359,6 @@
       "url": "https://www.theregister.com/os-platforms/2026/08/18/passport-out-of-control-at-french-airport/5288697",
       "source": "The Register",
       "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Sponsor gives KDE Plasma 6.6 the LTS treatment",
-      "summary": "Kubuntu 26.04 gets three years of fixes for the desktop, frameworks, and apps",
-      "url": "https://www.theregister.com/software/2026/08/18/sponsor-gives-kde-plasma-66-the-lts-treatment/5288531",
-      "source": "The Register",
-      "category": "LINUX",
-      "age": "RECENT"
-    },
-    {
-      "title": "UK puts Google AI on the flight path to fewer contrails",
-      "summary": "Trial will test whether small route and altitude tweaks can reduce aviation's warming impact",
-      "url": "https://www.theregister.com/public-sector/2026/08/18/uk-puts-google-ai-on-the-flight-path-to-fewer-contrails/5288516",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "AI models get convenient amnesia about source material as they grow, MIT boffins find",
-      "summary": "Attributing diffusion model output to a specific input becomes more difficult with more training data",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/18/ai-models-get-convenient-amnesia-about-source-material-as-they-grow-mit-boffins-find/5288846",
-      "source": "The Register",
-      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -682,6 +682,22 @@
       "age": "RECENT"
     },
     {
+      "title": "Meet the startup helping Wall Street put a price on AI compute",
+      "summary": "The AI buildout shows no signs of slowing. And&#160;with&#160;hundreds of&#160;billions of dollars a year going into data centers and GPUs,&#160;compute has&#160;become the single biggest cost for anyone building AI products. But for all that spending, there still&#160;isn’t&#160",
+      "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "T-Mobile ‘chopped a cable’ to expel Chinese hackers from its network",
+      "summary": "The U.S. phone provider escaped a large-scale breach of its network after identifying Chinese-backed hackers early on.",
+      "url": "https://techcrunch.com/2026/08/19/t-mobile-chopped-a-cable-to-expel-chinese-hackers-from-its-network/",
+      "source": "TechCrunch",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
       "title": "Time’s running out! Save $300 on your TechCrunch Disrupt 2026 pass until August 21",
       "summary": "If you’ve been circling around Disrupt, then now’s the best time to lock in your pass and start getting ready to join the rest of the startup community gathering in San Francisco from October 13-15 at Moscone West!",
       "url": "https://techcrunch.com/2026/08/19/times-running-out-save-300-on-your-techcrunch-disrupt-2026-pass-until-august-21/",
@@ -781,22 +797,6 @@
       "title": "Relativity Networks raises $22 million to bring a faster kind of fiber to data centers",
       "summary": "Relativity Networks deals in hollow-core fiber, a rarely deployed technology that allows data to be transmitted 30% faster than conventional fiber.",
       "url": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
-      "summary": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.",
-      "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "DOJ’s probe into Andreessen Horowitz over board seats baffles VCs",
-      "summary": "Since portfolio companies often pivot and expand into competing markets, investors view occasional conflicts of interest as unavoidable for large VC firms.",
-      "url": "https://techcrunch.com/2026/08/18/dojs-probe-into-andreessen-horowitz-over-board-seats-baffles-vcs/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
