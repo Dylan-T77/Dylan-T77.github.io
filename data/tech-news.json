@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-08-20T19:03:25.352469+00:00",
+  "generated_at": "2026-08-20T19:48:25.932600+00:00",
   "articles": [
+    {
+      "title": "Roblox must make changes after failing to block adults creeping on kids",
+      "summary": "Roblox is first platform to submit to independent audits under the Online Safety Act.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/weak-roblox-safeguards-failed-to-stop-adults-contacting-kids-regulator-says/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
     {
       "title": "Genesis joins the giant electric SUV club with new GV90",
       "summary": "A retractable screen, a huge heads-up display, and an optional 4-seat VIP interior.",
@@ -151,14 +159,6 @@
       "url": "https://arstechnica.com/space/2026/08/its-christmastime-at-spacex-as-company-salvages-starship-from-indian-ocean/",
       "source": "Ars Technica",
       "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Disney sues FCC and its chair, escalating fight against Trump's chief censor",
-      "summary": "FCC demands \"total capitulation\" in Trump censorship campaign, Disney suit says.",
-      "url": "https://arstechnica.com/tech-policy/2026/08/disney-sues-fcc-and-its-chair-escalating-fight-against-trumps-chief-censor/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -418,14 +418,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Chewy Promo Codes: $20 Off August 2026",
-      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts.",
-      "url": "https://www.wired.com/story/chewy-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Peacock Promo Codes: 40% Off August 2026",
       "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
       "url": "https://www.wired.com/story/peacock-promo-code/",
@@ -458,6 +450,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Chewy Promo Codes: $20 Off August 2026",
+      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts.",
+      "url": "https://www.wired.com/story/chewy-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Dell Coupon Codes: 20% Off for August 2026",
       "summary": "Get 20% off with verified Dell promo code, plus today’s coupons for up to $600 off laptops, Alienware monitors, and all things tech.",
       "url": "https://www.wired.com/story/dell-coupon-code/",
@@ -466,19 +466,11 @@
       "age": "RECENT"
     },
     {
-      "title": "20% Off Samsung Promo Code | August 2026",
-      "summary": "Save 30% or 10% with Samsung coupon codes, up to $1,000 on appliances, plus limited-time deals on the Galaxy Z Fold7, Flip7, and S25.",
-      "url": "https://www.wired.com/story/samsung-promo-codes/",
+      "title": "eBay Coupons: 20% Off in August 2026",
+      "summary": "Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more.",
+      "url": "https://www.wired.com/story/ebay-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "iRobot Promo Code: 15% Off",
-      "summary": "Save on iRobot products, including robot vacuums and mops designed to handle pet hair, daily messes, and hands-free cleaning with smart home integration.",
-      "url": "https://www.wired.com/story/irobot-promo-code/",
-      "source": "WIRED",
-      "category": "ROBOTICS",
       "age": "RECENT"
     },
     {
@@ -498,9 +490,17 @@
       "age": "RECENT"
     },
     {
-      "title": "eBay Coupons: 20% Off in August 2026",
-      "summary": "Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more.",
-      "url": "https://www.wired.com/story/ebay-coupon-code/",
+      "title": "iRobot Promo Code: 15% Off",
+      "summary": "Save on iRobot products, including robot vacuums and mops designed to handle pet hair, daily messes, and hands-free cleaning with smart home integration.",
+      "url": "https://www.wired.com/story/irobot-promo-code/",
+      "source": "WIRED",
+      "category": "ROBOTICS",
+      "age": "RECENT"
+    },
+    {
+      "title": "20% Off Samsung Promo Code | August 2026",
+      "summary": "Save 30% or 10% with Samsung coupon codes, up to $1,000 on appliances, plus limited-time deals on the Galaxy Z Fold7, Flip7, and S25.",
+      "url": "https://www.wired.com/story/samsung-promo-codes/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -682,8 +682,24 @@
       "age": "RECENT"
     },
     {
+      "title": "Google gives publishers a new way to fight AI-driven traffic losses",
+      "summary": "Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Google News, potentially boosting their traffic as AI search sends fewer clicks to the web.",
+      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
+      "summary": "Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing product.",
+      "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Castelion hits $13B valuation to mass-produce hypersonic missiles",
-      "summary": "The $1 billion Series C was co-led by Andreessen Horowitz, Carlyle, and JP Morgan Chase.",
+      "summary": "Founded in 2022, Castelion set out to manufacture hypersonic weapon systems at a lower cost and at faster speeds than traditional defense primes.",
       "url": "https://techcrunch.com/2026/08/20/castelion-hits-13b-valuation-to-mass-produce-hypersonic-missiles/",
       "source": "TechCrunch",
       "category": "GENERAL",
@@ -783,22 +799,6 @@
       "url": "https://techcrunch.com/2026/08/20/there-are-less-than-48-hours-to-save-up-to-300-on-your-techcrunch-disrupt-2026-ticket/",
       "source": "TechCrunch",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Apollo Atomics wants to make nuclear power cheaper by shrinking an overlooked part",
-      "summary": "Y Combinator alumnus Apollo Atomics is shrinking a key nuclear reactor part, which promises to slash the cost of electricity below natural gas.",
-      "url": "https://techcrunch.com/2026/08/20/apollo-atomics-wants-to-make-nuclear-power-cheaper-by-shrinking-an-overlooked-part/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "AI data giant Alation confirms cyberattack",
-      "summary": "The data search and AI giant confirmed unauthorized access to its systems during an incident on Tuesday, and said it was investigating the breach.",
-      "url": "https://techcrunch.com/2026/08/20/ai-data-giant-alation-confirms-cyberattack/",
-      "source": "TechCrunch",
-      "category": "CYBERSECURITY",
       "age": "RECENT"
     }
   ]
