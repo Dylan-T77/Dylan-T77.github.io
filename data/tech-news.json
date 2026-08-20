@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T19:48:25.932600+00:00",
+  "generated_at": "2026-08-20T20:49:11.048843+00:00",
   "articles": [
     {
       "title": "Roblox must make changes after failing to block adults creeping on kids",
@@ -159,6 +159,30 @@
       "url": "https://arstechnica.com/space/2026/08/its-christmastime-at-spacex-as-company-salvages-starship-from-indian-ocean/",
       "source": "Ars Technica",
       "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "OpenAI chases Anthropic's biz customers with zero data retention pledge",
+      "summary": "With Private Safety Processing, AI biz promises discreet, automated prompt surveillance",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/20/openai-chases-anthropics-biz-customers-with-zero-data-retention-pledge/5290609",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Waymo has designed a robocar chip to stay ahead of Tesla",
+      "summary": "5 nm ML accelerators promise 1,000+ TOPS, ultra-low latency",
+      "url": "https://www.theregister.com/edge-and-iot/2026/08/20/waymo-has-designed-a-robocar-chip-to-stay-ahead-of-tesla/5290592",
+      "source": "The Register",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "US Bank investigates LockBit's claims as ransomware crims set pay-or-leak deadline",
+      "summary": "Follow the money",
+      "url": "https://www.theregister.com/security/2026/08/20/us-bank-investigates-lockbits-claims-as-ransomware-crims-set-pay-or-leak-deadline/5290560",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -338,27 +362,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Google pits Marvell against Broadcom as it chases AI crown",
-      "summary": "And Marvell just offered the Chocolate Factory a $12.2B stake to sweeten the deal",
-      "url": "https://www.theregister.com/off-prem/2026/08/19/google-pits-marvell-against-broadcom-as-it-chases-ai-crown/5289902",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Dev taps Claude Code to craft custom printer driver for macOS",
-      "summary": "Unsupported platform? Is that even a thing anymore?",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/19/dev-taps-claude-code-to-craft-custom-printer-driver-for-macos/5289875",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "ICE boss to agents: Leave the Meta spy glasses at home",
-      "summary": "'Personally owned body-worn cameras are prohibited,' ICE tells The Reg. Because the last thing DHS needs is more proof of misconduct",
-      "url": "https://www.theregister.com/security/2026/08/19/ice-boss-to-agents-leave-the-meta-spy-glasses-at-home/5289826",
-      "source": "The Register",
-      "category": "GENERAL",
+      "title": "China Is Strapping ‘Digital Bombs’ to Civilian Infrastructure—Is the US Ready?",
+      "summary": "This week on “Uncanny Valley,” Andy Greenberg discusses sitting in on a war game simulating a cyberattack from the Chinese hacking group Volt Typhoon",
+      "url": "https://www.wired.com/story/china-is-strapping-digital-bombs-to-civilian-infrastructure-is-the-us-ready/",
+      "source": "WIRED",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -418,6 +426,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Chewy Promo Codes: $20 Off August 2026",
+      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts.",
+      "url": "https://www.wired.com/story/chewy-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Peacock Promo Codes: 40% Off August 2026",
       "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
       "url": "https://www.wired.com/story/peacock-promo-code/",
@@ -445,14 +461,6 @@
       "title": "Nike Promo Codes and Discounts: 30% for August 2026",
       "summary": "Check out our deals for Nike this August 2026, including 15% off select purchases.",
       "url": "https://www.wired.com/story/nike-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Chewy Promo Codes: $20 Off August 2026",
-      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts.",
-      "url": "https://www.wired.com/story/chewy-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -549,14 +557,6 @@
       "title": "Why Is It Absolute Hell to Buy a Movie Ticket Now?",
       "summary": "Overwhelmed theater apps and a scarcity mindset around exclusive big-screen formats for blockbusters like Dune: Part Three and The Odyssey have led to the “concertification” of movies.",
       "url": "https://www.wired.com/story/why-is-it-absolute-hell-to-buy-a-movie-ticket-now/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "The Best Digital Wall Calendar (2026): Skylight, Everblog, Apolosign",
-      "summary": "What originally looked like clutter turned out to be my new favorite gadget for organizing my family’s life.",
-      "url": "https://www.wired.com/story/are-digital-wall-calendars-worth-it/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -682,6 +682,22 @@
       "age": "RECENT"
     },
     {
+      "title": "Someone targeted security researchers using a fake crypto conference as a lure",
+      "summary": "A hacker pretending to work for a leading cryptocurrency news website targeted several cybersecurity professionals using Google Docs as a way to deliver malware.",
+      "url": "https://techcrunch.com/2026/08/20/someone-targeted-security-researchers-using-a-fake-crypto-conference-as-a-lure/",
+      "source": "TechCrunch",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Mark buys a castle",
+      "summary": "Mark Zuckerberg just bought a cozy abode somewhat close to Meta’s international headquarters in Ireland.",
+      "url": "https://techcrunch.com/2026/08/20/mark-buys-a-castle/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Google gives publishers a new way to fight AI-driven traffic losses",
       "summary": "Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Google News, potentially boosting their traffic as AI search sends fewer clicks to the web.",
       "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
@@ -781,22 +797,6 @@
       "title": "Patreon launches 30 new creator features, including short-form Clips and revamped discovery",
       "summary": "Patreon is overhauling how creators get discovered, adding short-form Clips, topic-based communities, and a revamped recommendation system designed to give smaller creators more visibility.",
       "url": "https://techcrunch.com/2026/08/20/patreon-launches-30-new-creator-features-including-short-form-clips-and-revamped-discovery/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Inertia Enterprises finds a way to make its fusion fuel fast",
-      "summary": "Fusion power startup Inertia Enterprises reduced the fuel filling process from a week to just a few hours. It's one of 10 hurdles the company must overcome to make a profitable power plant.",
-      "url": "https://techcrunch.com/2026/08/20/inertia-enterprises-finds-a-way-to-make-its-fusion-fuel-fast/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "There are less than 48 hours to save up to $300 on your TechCrunch Disrupt 2026 ticket",
-      "summary": "If you’ve been circling around Disrupt, then now’s the best time to lock in your pass and start getting ready to join the rest of the startup community gathering in San Francisco from October 13-15 at Moscone West!",
-      "url": "https://techcrunch.com/2026/08/20/there-are-less-than-48-hours-to-save-up-to-300-on-your-techcrunch-disrupt-2026-ticket/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
