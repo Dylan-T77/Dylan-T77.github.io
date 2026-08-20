@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T09:52:32.115179+00:00",
+  "generated_at": "2026-08-20T10:49:58.937841+00:00",
   "articles": [
     {
       "title": "NASA calls off mission to rescue Swift gamma-ray observatory",
@@ -162,209 +162,41 @@
       "age": "RECENT"
     },
     {
-      "title": "SparkyLinux 8.4 rekindles support for 32-bit PCs",
-      "summary": "Debian 13 derivative offers minimal x86 images and lets CDE ride again",
-      "url": "https://www.theregister.com/os-platforms/2026/08/20/sparkylinux-84-rekindles-support-for-32-bit-pcs/5289203",
-      "source": "The Register",
-      "category": "LINUX",
-      "age": "RECENT"
-    },
-    {
-      "title": "AI agent suggested installing a malware package. Engineer almost took its advice",
-      "summary": "Fortunately, the company had a policy of checking source code on GitHub first",
-      "url": "https://www.theregister.com/security/2026/08/20/ai-agent-suggested-installing-a-malware-package-engineer-almost-took-its-advice/5289849",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "China marches towards re-usable rockets with successful first-stage landing",
-      "summary": "Red alert for rivals as LandSpace nails it after December disaster",
-      "url": "https://www.theregister.com/offbeat/2026/08/20/china-marches-towards-re-usable-rockets-with-successful-first-stage-landing/5290095",
-      "source": "The Register",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "IBM says super-chill boxes that connect through 'cryogenic tunnels' will get quantum computers scaling",
-      "summary": "Absolute zero inside is much cooler than Intel inside",
-      "url": "https://www.theregister.com/systems/2026/08/20/ibm-says-super-chill-boxes-that-connect-through-cryogenic-tunnels-will-get-quantum-computers-scaling/5290067",
-      "source": "The Register",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Microsoft ends one of the last ways to buy VMware without big bundles",
-      "summary": "Broadcom’s VCF-or-nothing licenses are coming to Azure",
-      "url": "https://www.theregister.com/virtualization/2026/08/20/microsoft-ends-one-of-the-last-ways-to-buy-vmware-without-big-bundles/5290044",
-      "source": "The Register",
-      "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
-      "title": "AMD inches closer to its goal of making AI suck less ... energy",
-      "summary": "House of Zen claims latest systems already 4x more efficient than two years ago",
-      "url": "https://www.theregister.com/systems/2026/08/20/amd-inches-closer-to-its-goal-of-making-ai-suck-less-energy/5289990",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "'Not a theoretical risk,' feds warn as attackers use AI-made code to hack critical infrastructure controllers",
-      "summary": "'It is an active threat'",
-      "url": "https://www.theregister.com/security/2026/08/19/not-a-theoretical-risk-feds-warn-as-attackers-use-ai-made-code-to-hack-critical-infrastructure-controllers/5289960",
-      "source": "The Register",
+      "title": "The 3 Best USB Phone Chargers (2026): Anker, DeWalt",
+      "summary": "I put top-rated USB car chargers to the test for fast charging, value, heat, and safety. These are the best I found.",
+      "url": "https://www.wired.com/story/best-usb-car-chargers/",
+      "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "SvelteKit 3 puts heat on Next.js with radical approach to RPCs",
-      "summary": "Remote functions bring type-safe remote procedure calls right into Web page components",
-      "url": "https://www.theregister.com/devops/2026/08/19/sveltekit-3-puts-heat-on-nextjs-with-radical-approach-to-rpcs/5289925",
-      "source": "The Register",
+      "title": "A MAGA County’s Top Election Official Wants to Hire Election Denial Superstar Tina Peters",
+      "summary": "Tina Peters was convicted of seven counts related to election interference in 2024. Now, she’s fielding an offer from a county that’s become a hotbed of voting-related conspiracy theories.",
+      "url": "https://www.wired.com/story/a-maga-countys-top-election-official-wants-to-hire-election-denial-superstar-tina-peters/",
+      "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "Google pits Marvell against Broadcom as it chases AI crown",
-      "summary": "And Marvell just offered the Chocolate Factory a $12.2B stake to sweeten the deal",
-      "url": "https://www.theregister.com/off-prem/2026/08/19/google-pits-marvell-against-broadcom-as-it-chases-ai-crown/5289902",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Dev taps Claude Code to craft custom printer driver for macOS",
-      "summary": "Unsupported platform? Is that even a thing anymore?",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/19/dev-taps-claude-code-to-craft-custom-printer-driver-for-macos/5289875",
-      "source": "The Register",
+      "title": "How Teen ‘After-Prom’ Kings in LA Monetized the High School Rager",
+      "summary": "The West Coast house-party scene has long been iconic. For these young, tech-savvy entrepreneurs, it was also inspiration for MyPlots, a party-promotion empire.",
+      "url": "https://www.wired.com/myplots-jack-schwartz-zane-harwin-teen-parties-after-prom/",
+      "source": "WIRED",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "ICE boss to agents: Leave the Meta spy glasses at home",
-      "summary": "'Personally owned body-worn cameras are prohibited,' ICE tells The Reg. Because the last thing DHS needs is more proof of misconduct",
-      "url": "https://www.theregister.com/security/2026/08/19/ice-boss-to-agents-leave-the-meta-spy-glasses-at-home/5289826",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Epic Games dismisses Apple's simplified EU App Store fees as 'junk'",
-      "summary": "Consumer group sees improvements on paper but warns the devil remains in the detail",
-      "url": "https://www.theregister.com/personal-tech/2026/08/19/epic-games-dismisses-apples-simplified-eu-app-store-fees-as-junk/5289794",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Flock surveillance backlash mounts as fiendish Halloween plans circulate",
-      "summary": "CEO apologizes for police misuse as activists call for vandal action against license plate cameras",
-      "url": "https://www.theregister.com/security/2026/08/19/flock-surveillance-backlash-mounts-as-fiendish-halloween-plans-circulate/5289701",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "More than half of Americans now view AI negatively",
-      "summary": "Concern continues to climb for adults under 30, as people fear being replaced by AI",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/19/more-than-half-of-americans-now-view-ai-negatively/5289736",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "ISS spacewalkers discover there's no such thing as a quick antenna job",
-      "summary": "Astronauts removed broken hardware but will have to return for more orbital DIY",
-      "url": "https://www.theregister.com/science/2026/08/19/iss-spacewalkers-discover-theres-no-such-thing-as-a-quick-antenna-job/5289644",
-      "source": "The Register",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Comcast gives its Wi-Fi motion detector a security makeover",
-      "summary": "Rebranded feature promises household alerts without video, but mind the small print",
-      "url": "https://www.theregister.com/security/2026/08/19/comcast-gives-its-wi-fi-motion-detector-a-security-makeover/5289572",
-      "source": "The Register",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Postgres pioneer credits Oracle with helping his database take over the world",
-      "summary": "Big Red's acquisition of MySQL sent users running toward the open source alternative, says Michael Stonebraker",
-      "url": "https://www.theregister.com/databases/2026/08/19/postgres-pioneer-credits-oracle-with-helping-his-database-take-over-the-world/5289087",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "GitHub blames 8-hour outage on autoscaling fail and VS Code retry storm",
-      "summary": "Load balancers buckled after a monitoring blind spot allowed traffic to spiral",
-      "url": "https://www.theregister.com/saas/2026/08/19/github-blames-8-hour-outage-on-autoscaling-fail-and-vs-code-retry-storm/5289547",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Scotland's AI Growth Zone gets a wee £300M power-up",
-      "summary": "DataVita secures funding to expand datacenter capacity, while Dell brings some desks",
-      "url": "https://www.theregister.com/on-prem/2026/08/19/scotlands-ai-growth-zone-gets-a-wee-300m-power-up/5289042",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "SAP consultant job ads overshoot final offers by up to 12%, recruiter claims",
-      "summary": "Both sides apparently start high then price in the inevitable haggle",
-      "url": "https://www.theregister.com/software/2026/08/19/sap-consultant-job-ads-overshoot-final-offers-by-up-to-12-recruiter-claims/5289467",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Raspberry Pi gets jiggy with batch CM5 provisioning",
-      "summary": "Clamp, flash, repeat – no separate IO board or host computer required",
-      "url": "https://www.theregister.com/edge-and-iot/2026/08/19/raspberry-pi-gets-jiggy-with-batch-cm5-provisioning/5289499",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "UK taxman discovers low code doesn't mean low cost with £657M awards",
-      "summary": "Those legacy systems won't fix themselves",
-      "url": "https://www.theregister.com/public-sector/2026/08/19/uk-taxman-discovers-low-code-doesnt-mean-low-cost-with-657m-awards/5288634",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "NASA estimates the size of the hole SpaceX made in the moon",
-      "summary": "As the latest Starship finds its way to an obscure part of Australia, for observations",
-      "url": "https://www.theregister.com/offbeat/2026/08/19/nasa-estimates-the-size-of-the-hole-spacex-made-in-the-moon/5289425",
-      "source": "The Register",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Baidu says Chinese buyers want local AI chips due to ‘supply chain’ issues",
-      "summary": "It seems like Nvidia’s not getting back into the Middle Kingdom anytime soon",
-      "url": "https://www.theregister.com/systems/2026/08/19/baidu-says-chinese-buyers-want-local-ai-chips-due-to-supply-chain-issues/5289377",
-      "source": "The Register",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Australian hotel chain leaks guests’ PII after breach at third-party database operator",
-      "summary": "Unknown parties know where you stayed last summer, down under, across 120 Quest properties",
-      "url": "https://www.theregister.com/cyber-crime/2026/08/19/australian-hotel-chain-leaks-guests-pii-after-breach-at-third-party-database-operator/5289341",
-      "source": "The Register",
-      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
       "title": "Salmonella Is Everywhere",
       "summary": "From granola to guacamole, a wide variety of foods have been recalled lately over salmonella risks. Experts say common-sense precautions go a long way.",
       "url": "https://www.wired.com/story/salmonella-is-everywhere/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Chewy Promo Codes: $20 Off August 2026",
+      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts.",
+      "url": "https://www.wired.com/story/chewy-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -405,14 +237,6 @@
       "title": "Nike Promo Codes and Discounts: 30% for August 2026",
       "summary": "Check out our deals for Nike this August 2026, including 15% off select purchases.",
       "url": "https://www.wired.com/story/nike-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Chewy Promo Codes: $20 Off August 2026",
-      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts.",
-      "url": "https://www.wired.com/story/chewy-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -538,27 +362,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Dell XPS 13 vs. MacBook Neo: A Surprising Upset",
-      "summary": "The Dell XPS 13 and MacBook Neo are both premium-feeling laptops with only 8 GB of RAM. Which $700 laptop is the better buy?",
-      "url": "https://www.wired.com/story/macbook-neo-vs-dell-xps-13/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "There’s a Very Simple Reason Why You Love the Slate Truck",
-      "summary": "The car world is filled with designers still obsessed with shoehorning sex into their rides. Slate went a different route, and it’s why people are smitten with the charming electric pickup.",
-      "url": "https://www.wired.com/story/theres-a-very-simple-reason-why-you-love-the-slate-truck/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Reverse-Lookup Service Exposed Millions of Photos of People’s Faces",
-      "summary": "The people-search tool ClarityCheck says its reverse image search service is “private and secure”—but it left a database containing more than 9 million image files exposed.",
-      "url": "https://www.wired.com/story/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "New Manic Android malware can exfiltrate data through nearby devices",
+      "summary": "A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -671,14 +479,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
       "source": "BleepingComputer",
       "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Comcast turns your Xfinity WiFi into a home motion detector",
-      "summary": "Comcast is promoting WiFi-based motion detection as a part of its new Xfinity Shield home protection platform, allowing routers and wireless devices to detect people moving through a home without cameras or motion sensors. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
-      "source": "BleepingComputer",
-      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -799,6 +599,206 @@
       "url": "https://techcrunch.com/2026/08/19/times-running-out-save-300-on-your-techcrunch-disrupt-2026-pass-until-august-21/",
       "source": "TechCrunch",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "TerraPower’s nuclear reactor has a secret weapon for powering AI data centers",
+      "summary": "TerraPower's nuclear power plant possesses a strategic advantage over competitors, especially when chasing after data center deals.",
+      "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Rivian spinout Also raises another $150M",
+      "summary": "The round, led by Prysm Capital, will fund the company's expansion beyond pedal-assist electric bikes and commercial cargo quads to autonomous delivery vehicles.",
+      "url": "https://techcrunch.com/2026/08/19/rivian-spinout-also-raises-another-150-million/",
+      "source": "TechCrunch",
+      "category": "ROBOTICS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Sachin Bansal’s fintech Navi raises first outside capital with $100M Prosus investment",
+      "summary": "The investment comes amid Navi plans to go public.",
+      "url": "https://techcrunch.com/2026/08/19/sachin-bansals-fintech-navi-raises-first-outside-capital-with-100m-prosus-investment/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Amazon makes its AI-powered Alexa+ free on Fire TV, no Prime required",
+      "summary": "Amazon is making its AI-powered Alexa+ assistant free on all compatible Fire TV devices in the U.S., automatically upgrading users whether or not they subscribe to Prime.",
+      "url": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Amazon’s Prime Air is taking off in nearly 500 US cities",
+      "summary": "Amazon is significantly expanding its Prime Air drone delivery service, with plans to reach nearly 500 U.S. cities by the end of 2026.",
+      "url": "https://techcrunch.com/2026/08/19/amazons-prime-air-is-taking-off-in-nearly-500-u-s-cities/",
+      "source": "TechCrunch",
+      "category": "ROBOTICS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Gaining Leadership Backing for Your Innovations",
+      "summary": "This article is part of our exclusive career advice series in partnership with the IEEE Technology and Engineering Management Society. Imagine this: You have a strong idea for a new product for your company. Your coworkers encourage you to move forward because they believe it cou",
+      "url": "https://spectrum.ieee.org/leadership-backing-innovation",
+      "source": "IEEE Spectrum",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "IEEE Presidents’ Scholarship Honors Teen Innovators",
+      "summary": "About 16 percent of the global population—more than 1 billion people—live with some form of disability, according to the World Health Organization . Many of the disabilities affect independence and mobility. Three high school students working on inventions to help people with dis",
+      "url": "https://spectrum.ieee.org/ieee-presidents-scholarship-2026",
+      "source": "IEEE Spectrum",
+      "category": "ROBOTICS",
+      "age": "RECENT"
+    },
+    {
+      "title": "From AI Copilots to Agent Swarms",
+      "summary": "The impact of AI on software development has been both profound and ever-evolving. Last year, I wrote about AMD’s plans to use AI not just for generating new lines of code, but also for other steps in the software development lifecycle (SDLC), such as triaging problems, debugging",
+      "url": "https://spectrum.ieee.org/amd-agent-swarms",
+      "source": "IEEE Spectrum",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Digital Signal Processing Pioneer Bede Liu Dies At 91",
+      "summary": "Bede Liu, a digital signal processing pioneer, died on 7 May. He was 91. Liu was widely regarded as one of the founders of modern digital signal processing, a field that applies mathematical algorithms to analyze, modify, and transmit signals including sound, images, and video. T",
+      "url": "https://spectrum.ieee.org/digital-signal-processing-pioneer-bede-liu",
+      "source": "IEEE Spectrum",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Predict Antenna Coupling on Electrically Large Platforms Before Building Hardware",
+      "summary": "Learn how full-wave simulation predicts very low antenna coupling on aircraft-sized platforms, and which three modeling techniques deliver accurate results with fewer computational resources. Download this free whitepaper now!",
+      "url": "https://content.knowledgehub.wiley.com/efficient-and-accurate-prediction-of-cosite-isolation-on-large-platforms/",
+      "source": "IEEE Spectrum",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Bring a Product Manager Mindset to Your Next Engineering Job",
+      "summary": "If you haven’t already seen a job listing for a “product engineer,” you probably will soon. The job everyone’s suddenly hiring for, this role is like a cross between a product manager and an engineer (as the name suggests). And it’s a hiring trend worth paying attention to. Compa",
+      "url": "https://spectrum.ieee.org/product-engineer",
+      "source": "IEEE Spectrum",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Inside the Data Bottleneck Slowing Visual and Physical AI",
+      "summary": "A survey of over 700 professionals examines how visual and physical AI teams build systems, why models fail, and where data work drives production. Download this free whitepaper now!",
+      "url": "https://content.knowledgehub.wiley.com/the-2026-state-of-visual-and-physical-ai-a-survey-of-700-practitioners-on-data-models-and-production/",
+      "source": "IEEE Spectrum",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "IEEE Engineering Summit Supports Bhutan’s Digital Transformation",
+      "summary": "In collaboration with the Kingdom of Bhutan government, IEEE recently introduced its Engineering Education, Research, and Innovation Summit. Held on 9 and 10 June in Paro, in the eastern Himalayas, the event was designed to help Bhutan navigate its digital transformation by focus",
+      "url": "https://spectrum.ieee.org/ieee-summit-bhutan-digital-transformation",
+      "source": "IEEE Spectrum",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Zap Rocks. Add Water. Get Clean Hydrogen",
+      "summary": "In a tranquil Boston suburb , on the far edge of a horse farm, where pasture gives way to woods, a crane lowers an enormous electrode into a borehole. The electrode, a half-meter-long cylinder with copper-tipped arms to ensure good contact with the borehole walls, descends—deeper",
+      "url": "https://spectrum.ieee.org/stimulated-geologic-hydrogen",
+      "source": "IEEE Spectrum",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Navigating the Pivot From Tech Expert to Organizational Leader",
+      "summary": "The transition from a purely technical expert or individual contributor position to a broader leadership role is one of the most challenging phases in a STEM career. It requires moving away from relying solely on technical excellence toward mastering systems thinking, adaptive le",
+      "url": "https://spectrum.ieee.org/navigating-pivot-tech-expert-leader",
+      "source": "IEEE Spectrum",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Cars Communicating Badly Is an Already-Solved Problem",
+      "summary": "The history of networking is full of tools that repurposed solutions to very different kinds of problems first. Wi-Fi’s origins trace back , in part, to a team of Australian radio astronomers trying to detect signals from evaporating black holes. But the data-processing tools the",
+      "url": "https://spectrum.ieee.org/v2x-technology-5g-open-ran",
+      "source": "IEEE Spectrum",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "IEEE Course Teaches How to Use AI to Modernize Power Grids",
+      "summary": "Today’s U.S. electrical grid, among the largest, most complex systems ever built, is operating at its limit. The combination of rapid industrial growth, more frequent extreme weather, and a record surge in electricity use has pushed the grid to its breaking point , according to t",
+      "url": "https://spectrum.ieee.org/ieee-course-ai-power-grids",
+      "source": "IEEE Spectrum",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Why R&D Waste Persists Despite Widespread AI Adoption",
+      "summary": "This report examines R&D waste and how AI adoption has outpaced the intelligence needed to make consequential decisions well. What Attendees will Learn Where R&D budget is lost. More than a third of organizations spend 25 to 40 percent of their R&D budget on projects that never r",
+      "url": "https://content.knowledgehub.wiley.com/the-2026-rd-benchmark-report-waste-ai-and-the-race-to-market/",
+      "source": "IEEE Spectrum",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "The System That Turned Paper Charts Into Digital Medical Records",
+      "summary": "Most hospitals and health care providers use electronic health records instead of paper charts to note patient vaccinations, diagnoses, and procedures. AthenaOne , Epic , and Oracle Health are some of the systems employed around the world. Many patients can access their electroni",
+      "url": "https://spectrum.ieee.org/ieee-milestone-digital-medical-records",
+      "source": "IEEE Spectrum",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Identifying the Root Cause of Electronics Failures With Simulation Apps",
+      "summary": "This article is brought to you by COMSOL . In pursuit of improved range, greater reliability, and faster charging, electric vehicles are driving the demand for high-voltage electronics. Other applications driving this demand include wind farms, data centers, and server farms, to ",
+      "url": "https://spectrum.ieee.org/electronics-corrosion-multiphysics-simulation",
+      "source": "IEEE Spectrum",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "This Hi-Fi Tape Recorder Changed Radio Forever",
+      "summary": "A German engineer wanted a cheaper cigarette. The popular crooner Bing Crosby wanted a vacation. Satisfying both desires inadvertently led to the invention of the laugh track. Along the way there were Nazis, spoils of war, and more than one accidental encounter. Tying together th",
+      "url": "https://spectrum.ieee.org/magnetophon-laugh-track",
+      "source": "IEEE Spectrum",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Fridays With Bob",
+      "summary": "When I started at Spectrum 25 years ago, a senior editor suggested that I find a “rabbi,” by which he meant someone who could mentor me in how EEs approach problems and evaluate potential solutions. I didn’t find one right away. Then in 2005 we decided to do a special report, foc",
+      "url": "https://spectrum.ieee.org/risk",
+      "source": "IEEE Spectrum",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "IEEE Publishing Ethics Team Upholds Research Integrity",
+      "summary": "Given a rising number of publishing misconduct allegations , IEEE in 2022 created the Publishing Ethics Team as a centralized department to assist in handling claims. The group also works to increase the organization’s visibility in the broader publishing ethics area and helps IE",
+      "url": "https://spectrum.ieee.org/ieee-publishing-ethics-research-integrity",
+      "source": "IEEE Spectrum",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Detect Dark Matter’s Mark From Your Backyard",
+      "summary": "If you’re wondering what dark matter is, you’re not alone. Astronomers don’t know. But they’ve determined that this invisible material must be far more abundant than the stars and nebulas that they can see. They’ve surmised as much from observing the gravitational effects of all ",
+      "url": "https://spectrum.ieee.org/dark-matter",
+      "source": "IEEE Spectrum",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "A Remote Indigenous Community Built One of Canada’s Fastest Fiber Networks",
+      "summary": "In February 2024, a young man lay somewhere on the frozen shore of James Bay, Canada, surrounded by snow and darkness, succumbing to hypothermia. When he failed to get home on time, his frantic mother sent a Facebook message to Elizabeth Kataquapit, then chief of the indigenous c",
+      "url": "https://spectrum.ieee.org/indigenous-fiber-network",
+      "source": "IEEE Spectrum",
+      "category": "SPACE",
       "age": "RECENT"
     }
   ]
