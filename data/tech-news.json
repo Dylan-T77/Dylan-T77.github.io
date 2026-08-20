@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-08-19T23:41:01.908246+00:00",
+  "generated_at": "2026-08-20T01:54:12.305447+00:00",
   "articles": [
+    {
+      "title": "NASA calls off mission to rescue Swift gamma-ray observatory",
+      "summary": "Without a rescue, NASA's Swift Observatory is expected to reenter the atmosphere later this year.",
+      "url": "https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/",
+      "source": "Ars Technica",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
     {
       "title": "Amazon aims for delivery drones to reach 500 US neighborhoods by end of 2026",
       "summary": "US residents face trade-offs as delivery drone services such as Prime Air expand.",
@@ -149,14 +157,6 @@
       "title": "Ford hopes this Hypercar will be its next Le Mans winner",
       "summary": "The American automaker returns to the top category of endurance racing next year.",
       "url": "https://arstechnica.com/cars/2026/08/ford-hopes-this-hypercar-will-be-its-next-le-mans-winner/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Teenage Sex and Death at Camp Miasma takes pains to deliver a slasher fan’s dream",
-      "summary": "Matte paintings—not CGI—warp a world designed to hit a nerve for slasher fans.",
-      "url": "https://arstechnica.com/culture/2026/08/teenage-sex-and-death-at-camp-miasma-takes-pains-to-deliver-a-slasher-fans-dream/",
       "source": "Ars Technica",
       "category": "GENERAL",
       "age": "RECENT"
@@ -362,7 +362,7 @@
       "age": "RECENT"
     },
     {
-      "title": "Elon Musk Is Expected to Point His Money Machine at Texas",
+      "title": "Elon Musk Is Expected to Point His Money Machine at Texas Politics",
       "summary": "Sources tell WIRED that Elon Musk is expected to spend up to $200 million in the midterms. It could be a big boost for GOP Senate candidate Ken Paxton, who’s struggled to raise cash.",
       "url": "https://www.wired.com/story/elon-musk-is-expected-to-point-his-money-machine-at-texas/",
       "source": "WIRED",
@@ -482,6 +482,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
+      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
+      "url": "https://www.wired.com/story/ulta-coupon/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Uber Eats Promo Codes: $15 Off│August 2026",
       "summary": "Hunger meets savings. Discover verified Uber Eats promo codes, new user offers, and Uber One discounts to slash your delivery fees and meal costs.",
       "url": "https://www.wired.com/story/uber-eats-promo-code/",
@@ -530,14 +538,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Ulta Promo Codes: Up to 20% Off in August 2026",
-      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
-      "url": "https://www.wired.com/story/ulta-coupon/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Newegg Promo Codes and Coupons for August 2026",
       "summary": "Enjoy up to 10% off your entire order with today’s Newegg promo code and discount codes. Save with the latest deals for gaming PCs, laptops, and computer parts.",
       "url": "https://www.wired.com/story/newegg-promo-code/",
@@ -559,6 +559,14 @@
       "url": "https://www.wired.com/story/whoop-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "OpenAI confirms ChatGPT is down as logins and signups fail",
+      "summary": "ChatGPT is experiencing a major outage, and users are unable to sign in, create accounts, or load chats, including previous conversations. [...]",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
+      "source": "BleepingComputer",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -671,14 +679,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/",
       "source": "BleepingComputer",
       "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Microsoft tests faster Windows File Explorer, new context menu",
-      "summary": "Microsoft has started testing a faster File Explorer and a less cluttered and more customizable context menu in Windows 11 preview builds rolling out to Insiders this week. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/",
-      "source": "BleepingComputer",
-      "category": "WINDOWS",
       "age": "RECENT"
     },
     {
