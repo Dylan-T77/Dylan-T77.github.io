@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T07:59:25.705890+00:00",
+  "generated_at": "2026-08-20T08:58:27.572043+00:00",
   "articles": [
     {
       "title": "NASA calls off mission to rescue Swift gamma-ray observatory",
@@ -159,6 +159,14 @@
       "url": "https://arstechnica.com/cars/2026/08/ford-hopes-this-hypercar-will-be-its-next-le-mans-winner/",
       "source": "Ars Technica",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "SparkyLinux 8.4 rekindles support for 32-bit PCs",
+      "summary": "Debian 13 derivative offers minimal x86 images and lets CDE ride again",
+      "url": "https://www.theregister.com/os-platforms/2026/08/20/sparkylinux-84-rekindles-support-for-32-bit-pcs/5289203",
+      "source": "The Register",
+      "category": "LINUX",
       "age": "RECENT"
     },
     {
@@ -354,14 +362,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Cerebras CS-4 rack systems juice chips for every last drop of AI performance",
-      "summary": "Next-gen systems double per-chip performance while cramming 3x as many into a rack",
-      "url": "https://www.theregister.com/systems/2026/08/19/cerebras-cs-4-rack-systems-juice-chips-for-every-last-drop-of-ai-performance/5289286",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
       "title": "Chewy Promo Codes: $20 Off August 2026",
       "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts.",
       "url": "https://www.wired.com/story/chewy-promo-code/",
@@ -410,6 +410,14 @@
       "age": "RECENT"
     },
     {
+      "title": "20% Off Samsung Promo Code | August 2026",
+      "summary": "Save 30% or 10% with Samsung coupon codes, up to $1,000 on appliances, plus limited-time deals on the Galaxy Z Fold7, Flip7, and S25.",
+      "url": "https://www.wired.com/story/samsung-promo-codes/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "iRobot Promo Code: 15% Off",
       "summary": "Save on iRobot products, including robot vacuums and mops designed to handle pet hair, daily messes, and hands-free cleaning with smart home integration.",
       "url": "https://www.wired.com/story/irobot-promo-code/",
@@ -437,14 +445,6 @@
       "title": "eBay Coupons: 20% Off in August 2026",
       "summary": "Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more.",
       "url": "https://www.wired.com/story/ebay-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "20% Off Samsung Promo Code | August 2026",
-      "summary": "Save 30% or 10% with Samsung coupon codes, up to $1,000 on appliances, plus limited-time deals on the Galaxy Z Fold7, Flip7, and S25.",
-      "url": "https://www.wired.com/story/samsung-promo-codes/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
