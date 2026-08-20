@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T20:49:11.048843+00:00",
+  "generated_at": "2026-08-20T21:46:28.530577+00:00",
   "articles": [
     {
       "title": "Roblox must make changes after failing to block adults creeping on kids",
@@ -362,6 +362,14 @@
       "age": "RECENT"
     },
     {
+      "title": "The Galaxy’s Fastest Star Could Reveal the Secrets of a Supermassive Black Hole",
+      "summary": "S301 passes close to Sagittarius A*—so close that its orbit could reveal how the black hole’s rotation warps the spacetime around it.",
+      "url": "https://www.wired.com/story/the-galaxys-fastest-star-could-reveal-the-secrets-of-a-supermassive-black-hole/",
+      "source": "WIRED",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
       "title": "China Is Strapping ‘Digital Bombs’ to Civilian Infrastructure—Is the US Ready?",
       "summary": "This week on “Uncanny Valley,” Andy Greenberg discusses sitting in on a war game simulating a cyberattack from the Chinese hacking group Volt Typhoon",
       "url": "https://www.wired.com/story/china-is-strapping-digital-bombs-to-civilian-infrastructure-is-the-us-ready/",
@@ -474,11 +482,19 @@
       "age": "RECENT"
     },
     {
-      "title": "eBay Coupons: 20% Off in August 2026",
-      "summary": "Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more.",
-      "url": "https://www.wired.com/story/ebay-coupon-code/",
+      "title": "20% Off Samsung Promo Code | August 2026",
+      "summary": "Save 30% or 10% with Samsung coupon codes, up to $1,000 on appliances, plus limited-time deals on the Galaxy Z Fold7, Flip7, and S25.",
+      "url": "https://www.wired.com/story/samsung-promo-codes/",
       "source": "WIRED",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "iRobot Promo Code: 15% Off",
+      "summary": "Save on iRobot products, including robot vacuums and mops designed to handle pet hair, daily messes, and hands-free cleaning with smart home integration.",
+      "url": "https://www.wired.com/story/irobot-promo-code/",
+      "source": "WIRED",
+      "category": "ROBOTICS",
       "age": "RECENT"
     },
     {
@@ -498,17 +514,9 @@
       "age": "RECENT"
     },
     {
-      "title": "iRobot Promo Code: 15% Off",
-      "summary": "Save on iRobot products, including robot vacuums and mops designed to handle pet hair, daily messes, and hands-free cleaning with smart home integration.",
-      "url": "https://www.wired.com/story/irobot-promo-code/",
-      "source": "WIRED",
-      "category": "ROBOTICS",
-      "age": "RECENT"
-    },
-    {
-      "title": "20% Off Samsung Promo Code | August 2026",
-      "summary": "Save 30% or 10% with Samsung coupon codes, up to $1,000 on appliances, plus limited-time deals on the Galaxy Z Fold7, Flip7, and S25.",
-      "url": "https://www.wired.com/story/samsung-promo-codes/",
+      "title": "eBay Coupons: 20% Off in August 2026",
+      "summary": "Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more.",
+      "url": "https://www.wired.com/story/ebay-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -549,14 +557,6 @@
       "title": "Google Pixel 11 Pro and Pixel 11 Pro XL Review: Smart Software, Small Upgrade",
       "summary": "Google’s new voice typing is pure magic, but subpar gaming performance and a useless rear LED keep these flagships from true greatness.",
       "url": "https://www.wired.com/review/google-pixel-11-pro-and-pixel-11-pro-xl/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Why Is It Absolute Hell to Buy a Movie Ticket Now?",
-      "summary": "Overwhelmed theater apps and a scarcity mindset around exclusive big-screen formats for blockbusters like Dune: Part Three and The Odyssey have led to the “concertification” of movies.",
-      "url": "https://www.wired.com/story/why-is-it-absolute-hell-to-buy-a-movie-ticket-now/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -682,6 +682,22 @@
       "age": "RECENT"
     },
     {
+      "title": "The Enhanced Games — tech’s steroid extravaganza — didn’t pay off, as company posts $60 million loss",
+      "summary": "An effort to transform the world of sports through steroid use doesn't exactly seem to be bearing financial fruit.",
+      "url": "https://techcrunch.com/2026/08/20/the-enhanced-games-techs-steroid-extravaganza-didnt-pay-off-as-company-posts-60-million-loss/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Ok, can we actually cool data centers with our pee?",
+      "summary": "Jason Kelce joked that people should cool data centers with their pee, rather than potable water -- his suggestion is not completely ludicrous.",
+      "url": "https://techcrunch.com/2026/08/20/ok-can-we-actually-cool-data-centers-with-our-pee/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Someone targeted security researchers using a fake crypto conference as a lure",
       "summary": "A hacker pretending to work for a leading cryptocurrency news website targeted several cybersecurity professionals using Google Docs as a way to deliver malware.",
       "url": "https://techcrunch.com/2026/08/20/someone-targeted-security-researchers-using-a-fake-crypto-conference-as-a-lure/",
@@ -781,22 +797,6 @@
       "title": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users",
       "summary": "Meta is bringing Pocket, its experimental AI-powered app for creating and sharing interactive games, to users across the U.S. after quietly testing it in Brazil.",
       "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "The 2026 Startup Battlefield 200 is here — see who made the cut",
-      "summary": "We’re thrilled to unveil the 2026 Startup Battlefield 200, our annual handpicked list of the 200 most promising early-stage startups from around the world.",
-      "url": "https://techcrunch.com/2026/08/20/the-2026-startup-battlefield-200-is-here-see-who-made-the-cut/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Patreon launches 30 new creator features, including short-form Clips and revamped discovery",
-      "summary": "Patreon is overhauling how creators get discovered, adding short-form Clips, topic-based communities, and a revamped recommendation system designed to give smaller creators more visibility.",
-      "url": "https://techcrunch.com/2026/08/20/patreon-launches-30-new-creator-features-including-short-form-clips-and-revamped-discovery/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
