@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T05:49:13.762155+00:00",
+  "generated_at": "2026-08-20T07:09:28.091770+00:00",
   "articles": [
     {
       "title": "NASA calls off mission to rescue Swift gamma-ray observatory",
@@ -159,6 +159,30 @@
       "url": "https://arstechnica.com/cars/2026/08/ford-hopes-this-hypercar-will-be-its-next-le-mans-winner/",
       "source": "Ars Technica",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "AI agent suggested installing a malware package. Engineer almost took its advice",
+      "summary": "Fortunately, the company had a policy of checking source code on GitHub first",
+      "url": "https://www.theregister.com/security/2026/08/20/ai-agent-suggested-installing-a-malware-package-engineer-almost-took-its-advice/5289849",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "China marches towards re-usable rockets with successful first-stage landing",
+      "summary": "Red alert for rivals as LandSpace nails it after December disaster",
+      "url": "https://www.theregister.com/offbeat/2026/08/20/china-marches-towards-re-usable-rockets-with-successful-first-stage-landing/5290095",
+      "source": "The Register",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "IBM says super-chill boxes that connect through 'cryogenic tunnels' will get quantum computers scaling",
+      "summary": "Absolute zero inside is much cooler than Intel inside",
+      "url": "https://www.theregister.com/systems/2026/08/20/ibm-says-super-chill-boxes-that-connect-through-cryogenic-tunnels-will-get-quantum-computers-scaling/5290067",
+      "source": "The Register",
+      "category": "HARDWARE",
       "age": "RECENT"
     },
     {
@@ -338,38 +362,6 @@
       "age": "RECENT"
     },
     {
-      "title": "OpenAI's overhead will rise 20 percent for some workloads as it hardens security",
-      "summary": "Expanded multistage chain of thought monitoring makes frontier model work more expensive",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/19/openais-overhead-will-rise-20-percent-for-some-workloads-as-it-hardens-security/5289303",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Expired credit cards revived by researchers to make unauthorized payments",
-      "summary": "Gaps in expiry checks could let dead plastic make purchases again",
-      "url": "https://www.theregister.com/security/2026/08/18/expired-credit-cards-revived-by-researchers-to-make-unauthorized-payments/5289229",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Study finds Meta and Google mobile apps gorge on user data",
-      "summary": "Zuck's empire declares triple the appetite of Apple or Microsoft, while Google packs the leaderboard, survey shows",
-      "url": "https://www.theregister.com/personal-tech/2026/08/18/study-finds-meta-and-google-mobile-apps-gorge-on-user-data/5289171",
-      "source": "The Register",
-      "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Chewy Promo Codes: $20 Off August 2026",
-      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts.",
-      "url": "https://www.wired.com/story/chewy-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Peacock Promo Codes: 40% Off August 2026",
       "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
       "url": "https://www.wired.com/story/peacock-promo-code/",
@@ -410,9 +402,9 @@
       "age": "RECENT"
     },
     {
-      "title": "20% Off Samsung Promo Code | August 2026",
-      "summary": "Save 30% or 10% with Samsung coupon codes, up to $1,000 on appliances, plus limited-time deals on the Galaxy Z Fold7, Flip7, and S25.",
-      "url": "https://www.wired.com/story/samsung-promo-codes/",
+      "title": "Chewy Promo Codes: $20 Off August 2026",
+      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts.",
+      "url": "https://www.wired.com/story/chewy-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -447,6 +439,14 @@
       "url": "https://www.wired.com/story/irobot-promo-code/",
       "source": "WIRED",
       "category": "ROBOTICS",
+      "age": "RECENT"
+    },
+    {
+      "title": "20% Off Samsung Promo Code | August 2026",
+      "summary": "Save 30% or 10% with Samsung coupon codes, up to $1,000 on appliances, plus limited-time deals on the Galaxy Z Fold7, Flip7, and S25.",
+      "url": "https://www.wired.com/story/samsung-promo-codes/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -562,6 +562,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Microsoft says August Windows updates may cause gaming issues",
+      "summary": "Microsoft is investigating a potential issue with the August 2026 updates that may prevent some games from launching or cause them to crash on affected Windows 11 systems. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-windows-updates-may-cause-gaming-issues-reboots/",
+      "source": "BleepingComputer",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
       "title": "OpenAI confirms ChatGPT is down as logins and signups fail",
       "summary": "ChatGPT is experiencing a major outage, and users are unable to sign in, create accounts, or load chats, including previous conversations. [...]",
       "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
@@ -669,14 +677,6 @@
       "title": "Clop created custom web shell for Windchill data theft attacks",
       "summary": "A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file repositories, and steal files. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Your Controls Block Known Attacks. What About the Behavior?",
-      "summary": "Security controls can block a familiar attack method while missing quieter ways to achieve the same objective. Picus Security's Blue Report 2026 shows how prevention rates can vary dramatically by technique and why behavioral testing is needed to uncover those gaps. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/",
       "source": "BleepingComputer",
       "category": "CYBERSECURITY",
       "age": "RECENT"
