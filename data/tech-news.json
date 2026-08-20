@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T08:58:27.572043+00:00",
+  "generated_at": "2026-08-20T09:52:32.115179+00:00",
   "articles": [
     {
       "title": "NASA calls off mission to rescue Swift gamma-ray observatory",
@@ -362,9 +362,9 @@
       "age": "RECENT"
     },
     {
-      "title": "Chewy Promo Codes: $20 Off August 2026",
-      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts.",
-      "url": "https://www.wired.com/story/chewy-promo-code/",
+      "title": "Salmonella Is Everywhere",
+      "summary": "From granola to guacamole, a wide variety of foods have been recalled lately over salmonella risks. Experts say common-sense precautions go a long way.",
+      "url": "https://www.wired.com/story/salmonella-is-everywhere/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -405,6 +405,14 @@
       "title": "Nike Promo Codes and Discounts: 30% for August 2026",
       "summary": "Check out our deals for Nike this August 2026, including 15% off select purchases.",
       "url": "https://www.wired.com/story/nike-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Chewy Promo Codes: $20 Off August 2026",
+      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts.",
+      "url": "https://www.wired.com/story/chewy-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -554,11 +562,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Hot or Not Built the Internet We’re Still Swiping Through",
-      "summary": "The early website Hot or Not taught its users to rank people at scale. Twenty-six years later, dating apps are trying to escape the culture the site helped create.",
-      "url": "https://www.wired.com/story/hot-or-not-built-the-internet-were-still-swiping-through/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
+      "summary": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -674,11 +682,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Clop created custom web shell for Windchill data theft attacks",
-      "summary": "A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file repositories, and steal files. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
+      "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+      "summary": "Binance's Agent OS works with tools including ChatGPT, Claude Code, and Cursor.",
+      "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
+      "source": "TechCrunch",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -791,14 +799,6 @@
       "url": "https://techcrunch.com/2026/08/19/times-running-out-save-300-on-your-techcrunch-disrupt-2026-pass-until-august-21/",
       "source": "TechCrunch",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "TerraPower’s nuclear reactor has a secret weapon for powering AI data centers",
-      "summary": "TerraPower's nuclear power plant possesses a strategic advantage over competitors, especially when chasing after data center deals.",
-      "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
-      "source": "TechCrunch",
-      "category": "AI",
       "age": "RECENT"
     }
   ]
