@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T15:51:15.143702+00:00",
+  "generated_at": "2026-08-20T16:53:50.085905+00:00",
   "articles": [
     {
       "title": "Genesis joins the giant electric SUV club with new GV90",
@@ -458,11 +458,11 @@
       "age": "RECENT"
     },
     {
-      "title": "iRobot Promo Code: 15% Off",
-      "summary": "Save on iRobot products, including robot vacuums and mops designed to handle pet hair, daily messes, and hands-free cleaning with smart home integration.",
-      "url": "https://www.wired.com/story/irobot-promo-code/",
+      "title": "eBay Coupons: 20% Off in August 2026",
+      "summary": "Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more.",
+      "url": "https://www.wired.com/story/ebay-coupon-code/",
       "source": "WIRED",
-      "category": "ROBOTICS",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -482,11 +482,11 @@
       "age": "RECENT"
     },
     {
-      "title": "eBay Coupons: 20% Off in August 2026",
-      "summary": "Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more.",
-      "url": "https://www.wired.com/story/ebay-coupon-code/",
+      "title": "iRobot Promo Code: 15% Off",
+      "summary": "Save on iRobot products, including robot vacuums and mops designed to handle pet hair, daily messes, and hands-free cleaning with smart home integration.",
+      "url": "https://www.wired.com/story/irobot-promo-code/",
       "source": "WIRED",
-      "category": "GENERAL",
+      "category": "ROBOTICS",
       "age": "RECENT"
     },
     {
@@ -682,6 +682,62 @@
       "age": "RECENT"
     },
     {
+      "title": "Ramp launches its own AI model router, called Router",
+      "summary": "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API.",
+      "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Senators demand answers from TikTok over experiment that disabled safeguards",
+      "summary": "The safeguard was designed to prevent users from being overwhelmed by harmful content, but TikTok wanted to determine whether it made the app less engaging.",
+      "url": "https://techcrunch.com/2026/08/20/senators-demand-answers-from-tiktok-over-experiment-that-disabled-safeguards/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users",
+      "summary": "Meta is bringing Pocket, its experimental AI-powered app for creating and sharing interactive games, to users across the U.S. after quietly testing it in Brazil.",
+      "url": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "The 2026 Startup Battlefield 200 is here — see who made the cut",
+      "summary": "We’re thrilled to unveil the 2026 Startup Battlefield 200, our annual handpicked list of the 200 most promising early-stage startups from around the world.",
+      "url": "https://techcrunch.com/2026/08/20/the-2026-startup-battlefield-200-is-here-see-who-made-the-cut/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Patreon launches 30 new creator features, including short-form Clips and revamped discovery",
+      "summary": "Patreon is overhauling how creators get discovered, adding short-form Clips, topic-based communities, and a revamped recommendation system designed to give smaller creators more visibility.",
+      "url": "https://techcrunch.com/2026/08/20/patreon-launches-30-new-creator-features-including-short-form-clips-and-revamped-discovery/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Inertia Enterprises finds a way to make its fusion fuel fast",
+      "summary": "Fusion power startup Inertia Enterprises reduced the fuel filling process from a week to just a few hours. It's one of 10 hurdles the company must overcome to make a profitable power plant.",
+      "url": "https://techcrunch.com/2026/08/20/inertia-enterprises-finds-a-way-to-make-its-fusion-fuel-fast/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "There are less than 48 hours to save up to $300 on your TechCrunch Disrupt 2026 ticket",
+      "summary": "If you’ve been circling around Disrupt, then now’s the best time to lock in your pass and start getting ready to join the rest of the startup community gathering in San Francisco from October 13-15 at Moscone West!",
+      "url": "https://techcrunch.com/2026/08/20/there-are-less-than-48-hours-to-save-up-to-300-on-your-techcrunch-disrupt-2026-ticket/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Apollo Atomics wants to make nuclear power cheaper by shrinking an overlooked part",
       "summary": "Y Combinator alumnus Apollo Atomics is shrinking a key nuclear reactor part, which promises to slash the cost of electricity below natural gas.",
       "url": "https://techcrunch.com/2026/08/20/apollo-atomics-wants-to-make-nuclear-power-cheaper-by-shrinking-an-overlooked-part/",
@@ -699,7 +755,7 @@
     },
     {
       "title": "For a16z, AI gives foreign founders an advantage",
-      "summary": "a16z’s Borderless Founder network initiative supports immigrant and international founders. 'Having one foot in your home country, and one foot in Silicon Valley,\" is an advantage, the firm believes.",
+      "summary": "a16z’s Borderless Founder network initiative supports immigrant and international founders. \"Having one foot in your home country, and one foot in Silicon Valley\" is an advantage, the firm believes.",
       "url": "https://techcrunch.com/2026/08/20/for-a16z-ai-gives-foreign-founders-an-advantage/",
       "source": "TechCrunch",
       "category": "AI",
@@ -715,7 +771,7 @@
     },
     {
       "title": "Meta AI’s new Mac app wants you to talk to your apps",
-      "summary": "Meta said its Muse Spark model is powering the dictation feature.",
+      "summary": "The company said that the dictation feature works across all apps, just like other tools such as Wispr Flow, Superwhisper, and Monologue.",
       "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
       "source": "TechCrunch",
       "category": "GENERAL",
@@ -723,7 +779,7 @@
     },
     {
       "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
-      "summary": "Binance's Agent OS works with tools including ChatGPT, Claude Code, and Cursor.",
+      "summary": "Binance's Agent OS works with tools such as ChatGPT, Claude Code, and Cursor.",
       "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users/",
       "source": "TechCrunch",
       "category": "AI",
@@ -743,62 +799,6 @@
       "url": "https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/",
       "source": "TechCrunch",
       "category": "ROBOTICS",
-      "age": "RECENT"
-    },
-    {
-      "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
-      "summary": "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data.",
-      "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Cognition CEO denies report that SpaceX tried to acquire the startup",
-      "summary": "SpaceX was reportedly in talks to buy AI coding startup Cognition. SpaceX has already acquired Cursor as it races to catch up to rivals like OpenAI and Anthropic in enterprise AI.",
-      "url": "https://techcrunch.com/2026/08/19/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Travis Kalanick kicks off another round of VC bashing: ‘1% are helpful’",
-      "summary": "After raising $1.7 billion for his new robotics company Atoms, Travis Kalanick is introspective about the role VCs have played in his career.",
-      "url": "https://techcrunch.com/2026/08/19/travis-kalanick-kicks-off-another-round-of-vc-bashing-1-are-helpful/",
-      "source": "TechCrunch",
-      "category": "ROBOTICS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Rillet raises $100M Series C at $1B valuation — 2 years after emerging from stealth",
-      "summary": "AI-native account startup Rillet became a unicorn, led by Iconiq, after it doubled its ARR in the past three months, it said.",
-      "url": "https://techcrunch.com/2026/08/19/rillet-raises-100m-series-c-at-1b-valuation-2-years-after-emerging-from-stealth/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Gwyneth Paltrow allegedly set to throw dinner in honor of Sam Altman",
-      "summary": "The actress' firm Kinship Ventures is an investor in the company.",
-      "url": "https://techcrunch.com/2026/08/19/gwyneth-paltrow-allegedly-set-to-throw-dinner-in-honor-of-sam-altman/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Gambling on the Little League World Series? Sports bettors have gone too far",
-      "summary": "Have we tried turning off society and turning it back on again?",
-      "url": "https://techcrunch.com/2026/08/19/gambling-on-the-little-league-world-series-sports-bettors-have-gone-too-far/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "AI was supposed to win people over by now — it hasn’t",
-      "summary": "As AI becomes harder to avoid, consumers are growing more wary of the technology — and Silicon Valley is discovering that widespread adoption doesn’t necessarily lead to acceptance.",
-      "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
-      "source": "TechCrunch",
-      "category": "AI",
       "age": "RECENT"
     }
   ]
