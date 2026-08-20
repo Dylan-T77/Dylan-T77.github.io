@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-08-20T13:14:14.858968+00:00",
+  "generated_at": "2026-08-20T14:03:18.220544+00:00",
   "articles": [
+    {
+      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
+      "summary": "Cryptographic Context Injection is only the latest way to break an LLM safety guardrail.",
+      "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+      "source": "Ars Technica",
+      "category": "AI",
+      "age": "RECENT"
+    },
     {
       "title": "NASA calls off mission to rescue Swift gamma-ray observatory",
       "summary": "Without a rescue, NASA's Swift Observatory is expected to reenter the atmosphere later this year.",
@@ -154,11 +162,19 @@
       "age": "RECENT"
     },
     {
-      "title": "Ford hopes this Hypercar will be its next Le Mans winner",
-      "summary": "The American automaker returns to the top category of endurance racing next year.",
-      "url": "https://arstechnica.com/cars/2026/08/ford-hopes-this-hypercar-will-be-its-next-le-mans-winner/",
-      "source": "Ars Technica",
+      "title": "NetBSD 11 lands with RISC-V support and lightning-fast VM boots",
+      "summary": "Venerable Unix-like remains reassuringly old-school, if you're willing to put in the work",
+      "url": "https://www.theregister.com/os-platforms/2026/08/20/netbsd-11-lands-with-risc-v-support-and-lightning-fast-vm-boots/5289713",
+      "source": "The Register",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "£37M SAP overhaul could extend Capgemini's run with UK tax collector to 28 years",
+      "summary": "UK tax collector insists latest deal followed fair and competitive procurement",
+      "url": "https://www.theregister.com/public-sector/2026/08/20/37m-sap-overhaul-could-extend-capgeminis-run-with-uk-tax-collector-to-28-years/5290329",
+      "source": "The Register",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -195,7 +211,7 @@
     },
     {
       "title": "Software development and tech services in the cross-hairs as AI marches on",
-      "summary": "Forrester warns of disruption to long-established tech activity",
+      "summary": "Analysts warn of disruption to long-established tech activity",
       "url": "https://www.theregister.com/ai-and-ml/2026/08/20/software-development-and-tech-services-in-the-cross-hairs-as-ai-marches-on/5289668",
       "source": "The Register",
       "category": "AI",
@@ -343,22 +359,6 @@
       "url": "https://www.theregister.com/databases/2026/08/19/postgres-pioneer-credits-oracle-with-helping-his-database-take-over-the-world/5289087",
       "source": "The Register",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "GitHub blames 8-hour outage on autoscaling fail and VS Code retry storm",
-      "summary": "Load balancers buckled after a monitoring blind spot allowed traffic to spiral",
-      "url": "https://www.theregister.com/saas/2026/08/19/github-blames-8-hour-outage-on-autoscaling-fail-and-vs-code-retry-storm/5289547",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Scotland's AI Growth Zone gets a wee £300M power-up",
-      "summary": "DataVita secures funding to expand datacenter capacity, while Dell brings some desks",
-      "url": "https://www.theregister.com/on-prem/2026/08/19/scotlands-ai-growth-zone-gets-a-wee-300m-power-up/5289042",
-      "source": "The Register",
-      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -682,6 +682,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Apollo Atomics wants to make nuclear power cheaper by shrinking an overlooked part",
+      "summary": "Y Combinator alumnus Apollo Atomics is shrinking a key nuclear reactor part, which promises to slash the cost of electricity below natural gas.",
+      "url": "https://techcrunch.com/2026/08/20/apollo-atomics-wants-to-make-nuclear-power-cheaper-by-shrinking-an-overlooked-part/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "AI data giant Alation confirms cyberattack",
       "summary": "The data search and AI giant confirmed unauthorized access to its systems during an incident on Tuesday, and said it was investigating the breach.",
       "url": "https://techcrunch.com/2026/08/20/ai-data-giant-alation-confirms-cyberattack/",
@@ -789,14 +797,6 @@
       "title": "AI was supposed to win people over by now — it hasn’t",
       "summary": "As AI becomes harder to avoid, consumers are growing more wary of the technology — and Silicon Valley is discovering that widespread adoption doesn’t necessarily lead to acceptance.",
       "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Google packs Search and Gemini with new AI study tools",
-      "summary": "The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.",
-      "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
       "source": "TechCrunch",
       "category": "AI",
       "age": "RECENT"
