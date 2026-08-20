@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T17:48:17.280804+00:00",
+  "generated_at": "2026-08-20T19:03:25.352469+00:00",
   "articles": [
     {
       "title": "Genesis joins the giant electric SUV club with new GV90",
@@ -362,6 +362,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Silicon Valley Doesn't Get Why You Hate AI",
+      "summary": "Technology leaders don’t seem to understand society’s gripes about AI, but boy, are they posting through it.",
+      "url": "https://www.wired.com/story/silicon-valley-doesnt-get-why-you-hate-ai/",
+      "source": "WIRED",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
       "title": "Poolease X1 Pool Robot Review: How Bad Can It Be?",
       "summary": "The Poolease X1 can collect leaves from the pool floor, but dirt, silt, walls, and steps are all beyond its pay grade.",
       "url": "https://www.wired.com/review/poolease-x1-pool-robot/",
@@ -378,7 +386,7 @@
       "age": "RECENT"
     },
     {
-      "title": "The 3 Best USB Phone Chargers (2026): Anker, DeWalt",
+      "title": "The 3 Best USB Car Chargers for Phones (2026): Anker, DeWalt",
       "summary": "I put top-rated USB car chargers to the test for fast charging, value, heat, and safety. These are the best I found.",
       "url": "https://www.wired.com/story/best-usb-car-chargers/",
       "source": "WIRED",
@@ -554,11 +562,11 @@
       "age": "RECENT"
     },
     {
-      "title": "I Tried a Window-Cleaning Robot: Do Not Recommend",
-      "summary": "I tested the top-of-the-line Ecovacs Winbot W2S Omni window-cleaning robot on my Victorian home, and it was an unmitigated disaster.",
-      "url": "https://www.wired.com/story/window-cleaning-robots-are-kinda-terrible/",
-      "source": "WIRED",
-      "category": "ROBOTICS",
+      "title": "Hackers poison arrayref Rust crate to push infostealer malware",
+      "summary": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -674,16 +682,24 @@
       "age": "RECENT"
     },
     {
-      "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
-      "summary": "Huntress observed a 155x increase in password spraying attacks in H1 2026, including a campaign that generated more than 81 million login attempts in two weeks. The attacks exploited legacy authentication and gaps in MFA policies that left some login flows unprotected. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
+      "title": "Castelion hits $13B valuation to mass-produce hypersonic missiles",
+      "summary": "The $1 billion Series C was co-led by Andreessen Horowitz, Carlyle, and JP Morgan Chase.",
+      "url": "https://techcrunch.com/2026/08/20/castelion-hits-13b-valuation-to-mass-produce-hypersonic-missiles/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+      "summary": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
+      "url": "https://techcrunch.com/2026/08/20/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+      "source": "TechCrunch",
+      "category": "AI",
       "age": "RECENT"
     },
     {
       "title": "Grok keeps sending gibberish responses to users",
-      "summary": "Affected users told TechCrunch say they were using Grok Lite, and noticed the issues as early as Wednesday morning.",
+      "summary": "Affected users told TechCrunch they were using Grok Lite, and noticed the issues as early as Wednesday morning.",
       "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
       "source": "TechCrunch",
       "category": "GENERAL",
@@ -783,22 +799,6 @@
       "url": "https://techcrunch.com/2026/08/20/ai-data-giant-alation-confirms-cyberattack/",
       "source": "TechCrunch",
       "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "For a16z, AI gives foreign founders an advantage",
-      "summary": "a16z’s Borderless Founder network initiative supports immigrant and international founders. \"Having one foot in your home country, and one foot in Silicon Valley\" is an advantage, the firm believes.",
-      "url": "https://techcrunch.com/2026/08/20/for-a16z-ai-gives-foreign-founders-an-advantage/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "US says hackers are targeting vulnerable water systems with the help of AI",
-      "summary": "Hackers are targeting internet-connected Siemens controllers used in water facilities around the United States.",
-      "url": "https://techcrunch.com/2026/08/20/us-says-hackers-are-targeting-vulnerable-water-systems-with-the-help-of-ai/",
-      "source": "TechCrunch",
-      "category": "AI",
       "age": "RECENT"
     }
   ]
