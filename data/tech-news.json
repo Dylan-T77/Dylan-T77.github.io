@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-08-20T22:47:36.532855+00:00",
+  "generated_at": "2026-08-20T23:43:35.027264+00:00",
   "articles": [
+    {
+      "title": "US distributor of China’s most popular humanoid robots pivots after US ban",
+      "summary": "FCC ban on foreign-made robots accelerated RoboStore’s US manufacturing plans.",
+      "url": "https://arstechnica.com/gadgets/2026/08/us-distributor-of-chinas-most-popular-humanoid-robots-pivots-after-us-ban/",
+      "source": "Ars Technica",
+      "category": "ROBOTICS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Europe cancels planned upgrades for Ariane 6 rocket",
+      "summary": "Arianespace hasn’t publicly disclosed the cost for an Ariane 6 launch.",
+      "url": "https://arstechnica.com/space/2026/08/europe-cancels-planned-upgrades-for-ariane-6-rocket/",
+      "source": "Ars Technica",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "They survived 9/11; 25 years later, their bonds remain unbroken",
+      "summary": "Survivors reconnect with those who saved them in National Geographic's 9/11: Reunited .",
+      "url": "https://arstechnica.com/culture/2026/08/new-9-11-documentary-finds-hope-in-the-horror/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
     {
       "title": "Roblox must make changes after failing to block adults creeping on kids",
       "summary": "Roblox is first platform to submit to independent audits under the Online Safety Act.",
@@ -138,27 +162,11 @@
       "age": "RECENT"
     },
     {
-      "title": "\"Sabotage\": Experts, lawmakers blast RFK Jr. for destroying healthcare research",
-      "summary": "US healthcare is broken. Under RFK Jr., the research agency working to fix it is, too.",
-      "url": "https://arstechnica.com/health/2026/08/sabotage-experts-lawmakers-blast-rfk-jr-for-destroying-healthcare-research/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Ukrainian drones overwhelm Russian tanks’ new active protection system—for now",
-      "summary": "Tanks with defensive tech for shooting down drones are still proving vulnerable.",
-      "url": "https://arstechnica.com/gadgets/2026/08/ukrainian-drones-overwhelm-russian-tanks-new-active-protection-system-for-now/",
-      "source": "Ars Technica",
-      "category": "ROBOTICS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea",
-      "summary": "\"A team of SpaceX engineers is on their way to conduct additional analysis on the vehicle.\"",
-      "url": "https://arstechnica.com/space/2026/08/its-christmastime-at-spacex-as-company-salvages-starship-from-indian-ocean/",
-      "source": "Ars Technica",
-      "category": "SPACE",
+      "title": "Go updates may delight diehard gophers but displease AI overlords",
+      "summary": "v 1.27 expands generics to support methods",
+      "url": "https://www.theregister.com/devops/2026/08/20/go-updates-may-delight-diehard-gophers-but-displease-ai-overlords/5290643",
+      "source": "The Register",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -243,7 +251,7 @@
     },
     {
       "title": "£37M SAP overhaul could extend Capgemini's run with UK tax collector to 28 years",
-      "summary": "UK tax collector insists latest deal followed fair and competitive procurement",
+      "summary": "HMRC insists latest deal followed fair and competitive procurement",
       "url": "https://www.theregister.com/public-sector/2026/08/20/37m-sap-overhaul-could-extend-capgeminis-run-with-uk-tax-collector-to-28-years/5290329",
       "source": "The Register",
       "category": "AI",
@@ -354,10 +362,10 @@
       "age": "RECENT"
     },
     {
-      "title": "SvelteKit 3 puts heat on Next.js with radical approach to RPCs",
-      "summary": "Remote functions bring type-safe remote procedure calls right into Web page components",
-      "url": "https://www.theregister.com/devops/2026/08/19/sveltekit-3-puts-heat-on-nextjs-with-radical-approach-to-rpcs/5289925",
-      "source": "The Register",
+      "title": "Google Pixel 11 Review: Minor Upgrade",
+      "summary": "Incremental improvements fail to generate much excitement, but Google’s Pixel 11 is still an accomplished Android phone.",
+      "url": "https://www.wired.com/review/google-pixel-11/",
+      "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -434,14 +442,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Chewy Promo Codes: $20 Off August 2026",
-      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts.",
-      "url": "https://www.wired.com/story/chewy-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Peacock Promo Codes: 40% Off August 2026",
       "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
       "url": "https://www.wired.com/story/peacock-promo-code/",
@@ -469,6 +469,14 @@
       "title": "Nike Promo Codes and Discounts: 30% for August 2026",
       "summary": "Check out our deals for Nike this August 2026, including 15% off select purchases.",
       "url": "https://www.wired.com/story/nike-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Chewy Promo Codes: $20 Off August 2026",
+      "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more August 2026 discounts.",
+      "url": "https://www.wired.com/story/chewy-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -551,14 +559,6 @@
       "url": "https://www.wired.com/review/google-pixel-watch-5/",
       "source": "WIRED",
       "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Google Pixel 11 Pro and Pixel 11 Pro XL Review: Smart Software, Small Upgrade",
-      "summary": "Google’s new voice typing is pure magic, but subpar gaming performance and a useless rear LED keep these flagships from true greatness.",
-      "url": "https://www.wired.com/review/google-pixel-11-pro-and-pixel-11-pro-xl/",
-      "source": "WIRED",
-      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -682,6 +682,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Learn what VCs actually want, from a founder who’s raised $1B",
+      "summary": "Investors want founders who understand the financial reality of their business. Messy data, misunderstood metrics, or waiting until you’re nearly out of cash to start fundraising can cost founders leverage, valuation, and even a term sheet. In this episode of Build Mode, host Isa",
+      "url": "https://techcrunch.com/video/learn-what-vcs-actually-want-from-a-founder-whos-raised-1b/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
       "summary": "Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is.",
       "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
@@ -791,14 +799,6 @@
       "url": "https://techcrunch.com/2026/08/20/early-cerebras-investor-adit-singh-joins-mayfield-as-infrastructure-partner/",
       "source": "TechCrunch",
       "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Ramp launches its own AI model router, called Router",
-      "summary": "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API.",
-      "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
-      "source": "TechCrunch",
-      "category": "AI",
       "age": "RECENT"
     }
   ]
