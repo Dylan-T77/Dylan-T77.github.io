@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T07:10:21.150300+00:00",
+  "generated_at": "2026-08-21T08:00:26.833076+00:00",
   "articles": [
     {
       "title": "US distributor of China’s most popular humanoid robots pivots after US ban",
@@ -158,6 +158,14 @@
       "summary": "She opposes abortion, is wary of peptides, supports limiting vaccines, vexes MAHA.",
       "url": "https://arstechnica.com/health/2026/08/trump-expected-to-pick-conservative-policy-wonk-heidi-overton-to-lead-fda/",
       "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "EE invites mobile users to live life in the 5G Fast Lane – for a price",
+      "summary": "Network slicing offers a prioritized experience for those prepared to pay for a premium monthly plan",
+      "url": "https://www.theregister.com/networks/2026/08/21/ee-invites-mobile-users-to-live-life-in-the-5g-fast-lane-for-a-price/5290303",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -351,14 +359,6 @@
       "url": "https://www.theregister.com/science/2026/08/20/no-lift-for-swift-as-nasa-abandons-orbital-rescue/5290164",
       "source": "The Register",
       "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "SparkyLinux 8.4 rekindles support for 32-bit PCs",
-      "summary": "Debian 13 derivative offers minimal x86 images and lets CDE ride again",
-      "url": "https://www.theregister.com/os-platforms/2026/08/20/sparkylinux-84-rekindles-support-for-32-bit-pcs/5289203",
-      "source": "The Register",
-      "category": "LINUX",
       "age": "RECENT"
     },
     {
