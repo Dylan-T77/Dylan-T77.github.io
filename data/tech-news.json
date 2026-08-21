@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T08:00:26.833076+00:00",
+  "generated_at": "2026-08-21T09:00:57.384691+00:00",
   "articles": [
     {
       "title": "US distributor of China’s most popular humanoid robots pivots after US ban",
@@ -159,6 +159,14 @@
       "url": "https://arstechnica.com/health/2026/08/trump-expected-to-pick-conservative-policy-wonk-heidi-overton-to-lead-fda/",
       "source": "Ars Technica",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Debian is 33, Haiku is 25, and neither is standing still",
+      "summary": "One remains a pillar of Linux, while the other keeps the BeOS dream alive",
+      "url": "https://www.theregister.com/os-platforms/2026/08/21/debian-is-33-haiku-is-25-and-neither-is-standing-still/5290144",
+      "source": "The Register",
+      "category": "LINUX",
       "age": "RECENT"
     },
     {
@@ -354,14 +362,6 @@
       "age": "RECENT"
     },
     {
-      "title": "No lift for Swift as NASA abandons orbital rescue",
-      "summary": "LINK will attempt a rendezvous, but its failed reaction wheels rule out grabbing and boosting the observatory",
-      "url": "https://www.theregister.com/science/2026/08/20/no-lift-for-swift-as-nasa-abandons-orbital-rescue/5290164",
-      "source": "The Register",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
       "title": "The Single English County Saying No to Palantir",
       "summary": "The UK government is facing calls to cancel a sprawling health care contract with Palantir. The region of Greater Manchester insists it can do a better job itself.",
       "url": "https://www.wired.com/story/the-single-english-county-saying-no-to-palantir/",
@@ -370,57 +370,9 @@
       "age": "RECENT"
     },
     {
-      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
-      "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
-      "url": "https://www.wired.com/story/ray-ban-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Meta Quest Promo Codes and Coupons for August 2026",
-      "summary": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and more deals.",
-      "url": "https://www.wired.com/story/meta-quest-promo-code/",
-      "source": "WIRED",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Paramount+ Coupon Codes and Deals for August 2026",
-      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
-      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Zoro Coupon Codes: 55% Off August",
-      "summary": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplies this month.",
-      "url": "https://www.wired.com/story/zoro-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "B&H Photo Promo Codes and Deals This August 2026",
       "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
       "url": "https://www.wired.com/story/bh-photo-coupon/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Lenovo Coupon Codes: 15% Off in August 2026",
-      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
-      "url": "https://www.wired.com/story/lenovo-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Valvoline Coupons and Promo Codes for August 2026",
-      "summary": "We've gathered all the top Valvoline coupons and promo codes for August 2026, including deals on full synthetic oil changes and other essential maintenance.",
-      "url": "https://www.wired.com/story/valvoline-coupons/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -450,9 +402,57 @@
       "age": "RECENT"
     },
     {
+      "title": "Meta Quest Promo Codes and Coupons for August 2026",
+      "summary": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and more deals.",
+      "url": "https://www.wired.com/story/meta-quest-promo-code/",
+      "source": "WIRED",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Paramount+ Coupon Codes and Deals for August 2026",
+      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
+      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Zoro Coupon Codes: 55% Off August",
+      "summary": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplies this month.",
+      "url": "https://www.wired.com/story/zoro-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Hoka Coupon Codes: 30% Off in August 2026",
       "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for August 2026.",
       "url": "https://www.wired.com/story/hoka-coupon-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Lenovo Coupon Codes: 15% Off in August 2026",
+      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
+      "url": "https://www.wired.com/story/lenovo-coupon-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Valvoline Coupons and Promo Codes for August 2026",
+      "summary": "We've gathered all the top Valvoline coupons and promo codes for August 2026, including deals on full synthetic oil changes and other essential maintenance.",
+      "url": "https://www.wired.com/story/valvoline-coupons/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
+      "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
+      "url": "https://www.wired.com/story/ray-ban-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
