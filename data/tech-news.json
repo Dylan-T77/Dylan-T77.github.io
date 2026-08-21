@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T20:43:08.712232+00:00",
+  "generated_at": "2026-08-21T21:42:44.278552+00:00",
   "articles": [
     {
       "title": "Motorola's GrapheneOS phones will launch in 2027 priced higher than Pixels",
@@ -159,6 +159,22 @@
       "url": "https://arstechnica.com/tech-policy/2026/08/flight-attendants-freaked-out-that-google-to-buy-tons-of-spirit-employee-data/",
       "source": "Ars Technica",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Salesforce partners not seeing meaningful revenue from Agentforce AI platform, report says",
+      "summary": "Show us the money",
+      "url": "https://www.theregister.com/saas/2026/08/21/salesforce-partners-not-seeing-meaningful-revenue-from-agentforce-ai-platform-report-says/5291167",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "AI companies are burning books, advocates complain to FTC",
+      "summary": "Fahrenheit 203, the temperature GPUs stop gorging on literature",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/21/ai-companies-are-burning-books-advocates-complain-to-ftc/5291299",
+      "source": "The Register",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -346,22 +362,6 @@
       "age": "RECENT"
     },
     {
-      "title": "US claims 15 of the world's top 20 hyperscale datacenter locations",
-      "summary": "Northern Virginia alone accounts for nearly 12% of global capacity, though new builds are shifting inland",
-      "url": "https://www.theregister.com/off-prem/2026/08/20/us-claims-15-of-the-worlds-top-20-hyperscale-datacenter-locations/5290436",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Researcher tricks Apple’s Find My into sharing location data with Linux",
-      "summary": "Clever protocol wrangling gets iBiz-only people tracking working on a non-iGadget",
-      "url": "https://www.theregister.com/security/2026/08/20/researcher-tricks-apples-find-my-into-sharing-location-data-with-linux/5290496",
-      "source": "The Register",
-      "category": "LINUX",
-      "age": "RECENT"
-    },
-    {
       "title": "Meta’s Big Reckoning Is Here",
       "summary": "Meta is in court again over child safety, and this time it’s a landmark case that could force significant changes to core features of Facebook and Instagram.",
       "url": "https://www.wired.com/story/metas-big-reckoning-is-here/",
@@ -434,46 +434,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Paramount+ Coupon Codes and Deals for August 2026",
-      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
-      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Zoro Coupon Codes: 55% Off August",
-      "summary": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplies this month.",
-      "url": "https://www.wired.com/story/zoro-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Meta Quest Promo Codes and Coupons for August 2026",
-      "summary": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and more deals.",
-      "url": "https://www.wired.com/story/meta-quest-promo-code/",
-      "source": "WIRED",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Lenovo Coupon Codes: 15% Off in August 2026",
-      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
-      "url": "https://www.wired.com/story/lenovo-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
-      "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
-      "url": "https://www.wired.com/story/ray-ban-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "B&H Photo Promo Codes and Deals This August 2026",
       "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
       "url": "https://www.wired.com/story/bh-photo-coupon/",
@@ -506,9 +466,41 @@
       "age": "RECENT"
     },
     {
-      "title": "30% Off Canon Promo Codes | August 2026",
-      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this August.",
-      "url": "https://www.wired.com/story/canon-promo-code/",
+      "title": "Meta Quest Promo Codes and Coupons for August 2026",
+      "summary": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and more deals.",
+      "url": "https://www.wired.com/story/meta-quest-promo-code/",
+      "source": "WIRED",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Paramount+ Coupon Codes and Deals for August 2026",
+      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
+      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Zoro Coupon Codes: 55% Off August",
+      "summary": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplies this month.",
+      "url": "https://www.wired.com/story/zoro-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Hoka Coupon Codes: 30% Off in August 2026",
+      "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for August 2026.",
+      "url": "https://www.wired.com/story/hoka-coupon-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Lenovo Coupon Codes: 15% Off in August 2026",
+      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
+      "url": "https://www.wired.com/story/lenovo-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -522,9 +514,17 @@
       "age": "RECENT"
     },
     {
-      "title": "Hoka Coupon Codes: 30% Off in August 2026",
-      "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for August 2026.",
-      "url": "https://www.wired.com/story/hoka-coupon-code/",
+      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
+      "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
+      "url": "https://www.wired.com/story/ray-ban-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "30% Off Canon Promo Codes | August 2026",
+      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this August.",
+      "url": "https://www.wired.com/story/canon-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -682,6 +682,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Apple is reportedly cutting hundreds of jobs from Siri, Vision Pro teams",
+      "summary": "Apple has admitted that some roles are being impacted as it shifts its focus away from certain initiatives.",
+      "url": "https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "TikTok reaches $400M settlement over children’s privacy lawsuit",
       "summary": "Two years after the U.S. Department of Justice alleged that TikTok violated the Children’s Online Privacy Protection Act, it has reached a $400 million settlement.",
       "url": "https://techcrunch.com/2026/08/21/tiktok-reaches-400m-settlement-over-childrens-privacy-lawsuit/",
@@ -791,14 +799,6 @@
       "url": "https://techcrunch.com/2026/08/21/senator-asks-us-federal-watchdog-to-review-how-feds-use-hacking-tools/",
       "source": "TechCrunch",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Tesla, Uber, and Waymo all get the OK to operate thousands of robotaxis in Nevada",
-      "summary": "Together, these permits would allow up to 8,000 robotaxis to be deployed over the next 12 months.",
-      "url": "https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada/",
-      "source": "TechCrunch",
-      "category": "ROBOTICS",
       "age": "RECENT"
     }
   ]
