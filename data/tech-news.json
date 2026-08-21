@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T09:00:57.384691+00:00",
+  "generated_at": "2026-08-21T09:54:17.878120+00:00",
   "articles": [
     {
       "title": "US distributor of China’s most popular humanoid robots pivots after US ban",
@@ -159,6 +159,14 @@
       "url": "https://arstechnica.com/health/2026/08/trump-expected-to-pick-conservative-policy-wonk-heidi-overton-to-lead-fda/",
       "source": "Ars Technica",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Wi-Fi 7's WPA3 protections come with a compatibility catch",
+      "summary": "CableLabs wants hardware makers to embrace a workaround that keeps legacy kit connected",
+      "url": "https://www.theregister.com/networks/2026/08/21/wi-fi-7s-wpa3-protections-come-with-a-compatibility-catch/5289614",
+      "source": "The Register",
+      "category": "HARDWARE",
       "age": "RECENT"
     },
     {
@@ -354,17 +362,57 @@
       "age": "RECENT"
     },
     {
-      "title": "Software development and tech services in the cross-hairs as AI marches on",
-      "summary": "Analysts warn of disruption to long-established tech activity",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/20/software-development-and-tech-services-in-the-cross-hairs-as-ai-marches-on/5289668",
-      "source": "The Register",
-      "category": "AI",
+      "title": "Best Early Tech Labor Day Sales I’d Shop Myself (2026): AirTags, Dyson, and More",
+      "summary": "From the best Dyson vacuum to the best wireless headphones and earbuds we’ve tested, you can get some great gadgets on sale already ahead of Labor Day.",
+      "url": "https://www.wired.com/story/early-tech-labor-day-sales-2026/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
       "title": "The Single English County Saying No to Palantir",
       "summary": "The UK government is facing calls to cancel a sprawling health care contract with Palantir. The region of Greater Manchester insists it can do a better job itself.",
       "url": "https://www.wired.com/story/the-single-english-county-saying-no-to-palantir/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Paramount+ Coupon Codes and Deals for August 2026",
+      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
+      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Zoro Coupon Codes: 55% Off August",
+      "summary": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplies this month.",
+      "url": "https://www.wired.com/story/zoro-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Meta Quest Promo Codes and Coupons for August 2026",
+      "summary": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and more deals.",
+      "url": "https://www.wired.com/story/meta-quest-promo-code/",
+      "source": "WIRED",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Lenovo Coupon Codes: 15% Off in August 2026",
+      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
+      "url": "https://www.wired.com/story/lenovo-coupon-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
+      "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
+      "url": "https://www.wired.com/story/ray-ban-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -402,41 +450,9 @@
       "age": "RECENT"
     },
     {
-      "title": "Meta Quest Promo Codes and Coupons for August 2026",
-      "summary": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and more deals.",
-      "url": "https://www.wired.com/story/meta-quest-promo-code/",
-      "source": "WIRED",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Paramount+ Coupon Codes and Deals for August 2026",
-      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
-      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Zoro Coupon Codes: 55% Off August",
-      "summary": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplies this month.",
-      "url": "https://www.wired.com/story/zoro-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Hoka Coupon Codes: 30% Off in August 2026",
-      "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for August 2026.",
-      "url": "https://www.wired.com/story/hoka-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Lenovo Coupon Codes: 15% Off in August 2026",
-      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
-      "url": "https://www.wired.com/story/lenovo-coupon-code/",
+      "title": "30% Off Canon Promo Codes | August 2026",
+      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this August.",
+      "url": "https://www.wired.com/story/canon-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -450,17 +466,9 @@
       "age": "RECENT"
     },
     {
-      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
-      "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
-      "url": "https://www.wired.com/story/ray-ban-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "30% Off Canon Promo Codes | August 2026",
-      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this August.",
-      "url": "https://www.wired.com/story/canon-promo-code/",
+      "title": "Hoka Coupon Codes: 30% Off in August 2026",
+      "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for August 2026.",
+      "url": "https://www.wired.com/story/hoka-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -549,14 +557,6 @@
       "title": "Salmonella Is Everywhere",
       "summary": "From granola to guacamole, a wide variety of foods have been recalled lately over salmonella risks. Experts say common-sense precautions go a long way.",
       "url": "https://www.wired.com/story/salmonella-is-everywhere/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Peacock Promo Codes: 40% Off August 2026",
-      "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
-      "url": "https://www.wired.com/story/peacock-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
