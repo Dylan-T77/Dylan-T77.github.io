@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-08-21T11:45:24.065604+00:00",
+  "generated_at": "2026-08-21T13:13:43.111962+00:00",
   "articles": [
+    {
+      "title": "As demand for Meta AI glasses explodes, it’s harder to avoid creepy recordings",
+      "summary": "Ars looks at Zuckoff, the latest free app detecting Meta AI glasses amid privacy backlash.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect/",
+      "source": "Ars Technica",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Rocket Report: SpaceX makes its mark on the Moon; ULA names new boss",
+      "summary": "Taiwan's effort to develop its own satellite launcher hit a setback this week.",
+      "url": "https://arstechnica.com/space/2026/08/rocket-report-spacex-makes-a-mark-on-the-moon-ula-names-new-boss/",
+      "source": "Ars Technica",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
     {
       "title": "US distributor of China’s most popular humanoid robots pivots after US ban",
       "summary": "FCC ban on foreign-made robots accelerated RoboStore’s US manufacturing plans.",
@@ -141,22 +157,6 @@
       "title": "Scientists find closest star to the Milky Way's central black hole",
       "summary": "Star, moving at 8% the speed of light, may let us measure the black hole's rotation.",
       "url": "https://arstechnica.com/science/2026/08/scientists-find-closest-star-to-the-milky-ways-central-black-hole/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Meta ran ads for an app promising to nudify female politicians",
-      "summary": "One ad featured a pornographic video with deepfake closely resembling a US politician.",
-      "url": "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Trump expected to pick conservative policy wonk Heidi Overton to lead FDA",
-      "summary": "She opposes abortion, is wary of peptides, supports limiting vaccines, vexes MAHA.",
-      "url": "https://arstechnica.com/health/2026/08/trump-expected-to-pick-conservative-policy-wonk-heidi-overton-to-lead-fda/",
       "source": "Ars Technica",
       "category": "GENERAL",
       "age": "RECENT"
@@ -562,6 +562,14 @@
       "age": "RECENT"
     },
     {
+      "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
       "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
       "summary": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
@@ -674,11 +682,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Healthtech firm CareCloud data breach impacts 3.7 million patients",
-      "summary": "U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
+      "title": "Senator asks US government watchdog to review how feds use hacking tools",
+      "summary": "Senator Ron Wyden sent a letter to the U.S. federal watchdog requesting a comprehensive review of how the FBI, DEA, ICE's HSI, and the Secret Service use hacking tools and spyware against Americans.",
+      "url": "https://techcrunch.com/2026/08/21/senator-asks-us-federal-watchdog-to-review-how-feds-use-hacking-tools/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -789,14 +797,6 @@
       "title": "Grok keeps sending gibberish responses to users",
       "summary": "Affected users told TechCrunch they were using Grok Lite, and noticed the issues as early as Wednesday morning.",
       "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "The investor’s guide to TechCrunch Disrupt 2026: Everything you need to know",
-      "summary": "Year after year, investors who've explored the Expo Halls, met founders, and learned from peers have proven why you need to be on the ground at Disrupt this year.",
-      "url": "https://techcrunch.com/2026/08/20/the-investors-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
