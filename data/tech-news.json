@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-08-21T14:56:13.750659+00:00",
+  "generated_at": "2026-08-21T15:50:40.161137+00:00",
   "articles": [
+    {
+      "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
+      "summary": "Alphabet-owned company is seeking to persuade US regulators to clear a path for fully autonomous taxi services.",
+      "url": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/",
+      "source": "Ars Technica",
+      "category": "ROBOTICS",
+      "age": "RECENT"
+    },
     {
       "title": "As demand for Meta AI glasses explodes, it’s harder to avoid creepy recordings",
       "summary": "Ars looks at Zuckoff, the latest free app detecting Meta AI glasses amid privacy backlash.",
@@ -154,11 +162,59 @@
       "age": "RECENT"
     },
     {
-      "title": "Scientists find closest star to the Milky Way's central black hole",
-      "summary": "Star, moving at 8% the speed of light, may let us measure the black hole's rotation.",
-      "url": "https://arstechnica.com/science/2026/08/scientists-find-closest-star-to-the-milky-ways-central-black-hole/",
-      "source": "Ars Technica",
+      "title": "SickKids children’s hospital bandages up careers website after intruder breaks in",
+      "summary": "Toronto org says it wasn’t the only one to be affected by the third-party software vulnerability",
+      "url": "https://www.theregister.com/cyber-crime/2026/08/21/sickkids-childrens-hospital-bandages-up-careers-website-after-intruder-breaks-in/5291098",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Hackers poison popular Rust crates to steal developers' credentials",
+      "summary": "Malicious updates turned routine builds into a delivery system for infostealer malware",
+      "url": "https://www.theregister.com/security/2026/08/21/hackers-poison-popular-rust-crates-to-steal-developers-credentials/5291075",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "AMD grabs more CPU share while pricier PCs punish desktop demand",
+      "summary": "Mercury Research blames costly memory and scarce GPUs for 20% processor shipment slide",
+      "url": "https://www.theregister.com/systems/2026/08/21/amd-grabs-more-cpu-share-while-pricier-pcs-punish-desktop-demand/5291053",
+      "source": "The Register",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "'We let you down': GitHub pledges to scale up before developers give up",
+      "summary": "CTO promises architectural overhaul following second outage of the month",
+      "url": "https://www.theregister.com/devops/2026/08/21/we-let-you-down-github-pledges-to-scale-up-before-developers-give-up/5291031",
+      "source": "The Register",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "$10K phishing kit claims it can plant rogue passkeys for persistent access to pwned accounts",
+      "summary": "Seller's demos show a browser-in-the-middle attack adding credentials seconds after authentication",
+      "url": "https://www.theregister.com/cyber-crime/2026/08/21/10k-phishing-kit-claims-it-can-plant-rogue-passkeys-for-persistent-access-to-pwned-accounts/5291006",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Microsoft lets you swap New Outlook's looks with the face of Outlook Classic",
+      "summary": "Functionality not all there yet, but at least Redmond's latest and greatest appears a bit more like its predecessor",
+      "url": "https://www.theregister.com/applications/2026/08/21/microsoft-lets-you-swap-new-outlooks-looks-with-the-face-of-outlook-classic/5290948",
+      "source": "The Register",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Microsoft sounds alarm as perfect-10 Entra ID flaw comes under attack",
+      "summary": "Redmond says the cloud identity bug is already fixed, but isn't saying who exploited it or how widely",
+      "url": "https://www.theregister.com/cyber-crime/2026/08/21/microsoft-sounds-alarm-as-perfect-10-entra-id-flaw-comes-under-attack/5290925",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -306,59 +362,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Ransomware crook poses as recovery firm to steal payments from fellow extortionists",
-      "summary": "Because apparently even ransomware gangs can't trust the people they do business with",
-      "url": "https://www.theregister.com/cyber-crime/2026/08/20/ransomware-crook-poses-as-recovery-firm-to-steal-payments-from-fellow-extortionists/5290344",
-      "source": "The Register",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "NetBSD 11 lands with RISC-V support and lightning-fast VM boots",
-      "summary": "Venerable Unix-like remains reassuringly old-school, if you're willing to put in the work",
-      "url": "https://www.theregister.com/os-platforms/2026/08/20/netbsd-11-lands-with-risc-v-support-and-lightning-fast-vm-boots/5289713",
-      "source": "The Register",
+      "title": "Meta’s Big Reckoning Is Here",
+      "summary": "Meta is in court again over child safety, and this time it’s a landmark case that could force significant changes to core features of Facebook and Instagram.",
+      "url": "https://www.wired.com/story/metas-big-reckoning-is-here/",
+      "source": "WIRED",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "£37M SAP overhaul could extend Capgemini's run with UK tax collector to 28 years",
-      "summary": "HMRC insists latest deal followed fair and competitive procurement",
-      "url": "https://www.theregister.com/public-sector/2026/08/20/37m-sap-overhaul-could-extend-capgeminis-run-with-uk-tax-collector-to-28-years/5290329",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Grok chat duped into swallowing injected instructions",
-      "summary": "A spoonful of encryption helps the malware go down",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/20/grok-chat-duped-into-swallowing-injected-instructions/5290019",
-      "source": "The Register",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "French tax authority says break-in exposed data of 600K, including some private messages",
-      "summary": "Stolen details range from contact information to household finances and withholding rates",
-      "url": "https://www.theregister.com/security/2026/08/20/french-tax-authority-says-break-in-exposed-data-of-600k-including-some-private-messages/5290249",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "OpenAI glitch locks out vetted cyber researchers – and some can't get back in",
-      "summary": "Affected users say support cannot restore their previous approval or override the new decision",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/20/openai-glitch-locks-out-vetted-cyber-researchers-and-some-cant-get-back-in/5290238",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Microsoft probes reports of games taking exception to Windows 11's August update",
-      "summary": "Affected titles crash, freeze, or restart PCs while Redmond works out whether it is to blame",
-      "url": "https://www.theregister.com/os-platforms/2026/08/20/microsoft-probes-reports-of-games-taking-exception-to-windows-11s-august-update/5290214",
-      "source": "The Register",
-      "category": "WINDOWS",
       "age": "RECENT"
     },
     {
@@ -551,14 +559,6 @@
       "url": "https://www.wired.com/story/china-is-strapping-digital-bombs-to-civilian-infrastructure-is-the-us-ready/",
       "source": "WIRED",
       "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Silicon Valley Doesn't Get Why You Hate AI",
-      "summary": "Technology leaders don’t seem to understand society’s gripes about AI, but boy, are they posting through it.",
-      "url": "https://www.wired.com/story/silicon-valley-doesnt-get-why-you-hate-ai/",
-      "source": "WIRED",
-      "category": "AI",
       "age": "RECENT"
     },
     {
