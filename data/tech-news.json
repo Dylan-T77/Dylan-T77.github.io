@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-08-21T21:42:44.278552+00:00",
+  "generated_at": "2026-08-21T22:44:49.244817+00:00",
   "articles": [
+    {
+      "title": "Thunder + fiber-optic cabling used for seismic imaging",
+      "summary": "Thunderstorms make seismic waves that can be used to find sub-surface features.",
+      "url": "https://arstechnica.com/science/2026/08/researchers-use-thunderquakes-to-study-structure-of-earths-surface/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Hidden Zillow listings created fake supply shock, raising NYC rents, lawsuit says",
+      "summary": "Renters say hidden Zillow listings make it harder to afford living in New York City.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/class-action-accuses-brokers-of-hiding-zillow-listings-driving-up-nyc-rents/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
     {
       "title": "Motorola's GrapheneOS phones will launch in 2027 priced higher than Pixels",
       "summary": "The private Android-based OS will expand beyond Pixels next year.",
@@ -143,22 +159,6 @@
       "url": "https://arstechnica.com/gadgets/2026/08/amazon-aims-for-delivery-drones-to-reach-500-us-neighborhoods-by-end-of-2026/",
       "source": "Ars Technica",
       "category": "ROBOTICS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Framework responds to complaints that BIOS update bricks Ryzen 7040 laptops",
-      "summary": "Framework says it's replacing some out-of-warranty AMD mainboards.",
-      "url": "https://arstechnica.com/gadgets/2026/08/framework-responds-to-complaints-that-bios-update-bricked-ryzen-7040-laptops/",
-      "source": "Ars Technica",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Flight attendants freaked out that Google is buying tons of Spirit employee data",
-      "summary": "Bankrupt Spirit accused of selling out workers in massive data sale to Google.",
-      "url": "https://arstechnica.com/tech-policy/2026/08/flight-attendants-freaked-out-that-google-to-buy-tons-of-spirit-employee-data/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -434,33 +434,9 @@
       "age": "RECENT"
     },
     {
-      "title": "B&H Photo Promo Codes and Deals This August 2026",
-      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
-      "url": "https://www.wired.com/story/bh-photo-coupon/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "NordVPN Coupons: 75% Off, Plus 3 Months Free in August 2026",
-      "summary": "Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.",
-      "url": "https://www.wired.com/story/nordvpn-coupon/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Home Depot Promo Codes: 30% Off in August 2026",
-      "summary": "Save up to 50% today with the latest Home Depot promo codes for appliances, power tools, and more this August.",
-      "url": "https://www.wired.com/story/home-depot-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Ruggable Discount Code: 30% Off Rugs | August 2026",
-      "summary": "Keep your floors pristine and your budget intact. Save up to 30% off machine-washable rugs, runners, mats, and pillows using Ruggable coupons plus our expert advice.",
-      "url": "https://www.wired.com/story/ruggable-discount-code/",
+      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
+      "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
+      "url": "https://www.wired.com/story/ray-ban-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -490,9 +466,9 @@
       "age": "RECENT"
     },
     {
-      "title": "Hoka Coupon Codes: 30% Off in August 2026",
-      "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for August 2026.",
-      "url": "https://www.wired.com/story/hoka-coupon-code/",
+      "title": "B&H Photo Promo Codes and Deals This August 2026",
+      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
+      "url": "https://www.wired.com/story/bh-photo-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -514,9 +490,33 @@
       "age": "RECENT"
     },
     {
-      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
-      "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
-      "url": "https://www.wired.com/story/ray-ban-promo-code/",
+      "title": "NordVPN Coupons: 75% Off, Plus 3 Months Free in August 2026",
+      "summary": "Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.",
+      "url": "https://www.wired.com/story/nordvpn-coupon/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Home Depot Promo Codes: 30% Off in August 2026",
+      "summary": "Save up to 50% today with the latest Home Depot promo codes for appliances, power tools, and more this August.",
+      "url": "https://www.wired.com/story/home-depot-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Ruggable Discount Code: 30% Off Rugs | August 2026",
+      "summary": "Keep your floors pristine and your budget intact. Save up to 30% off machine-washable rugs, runners, mats, and pillows using Ruggable coupons plus our expert advice.",
+      "url": "https://www.wired.com/story/ruggable-discount-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Hoka Coupon Codes: 30% Off in August 2026",
+      "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for August 2026.",
+      "url": "https://www.wired.com/story/hoka-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -682,6 +682,22 @@
       "age": "RECENT"
     },
     {
+      "title": "Nvidia partners with data center developer Cloverleaf",
+      "summary": "Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia.",
+      "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "How AI accounting startup Rillet raised $100M and became a unicorn in 48 hours",
+      "summary": "Rillet CEO Nicolas Kopp shared growth numbers at a board meeting and set off a fundraising frenzy from Iconiq, Sequoia and others. Without even trying.",
+      "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
       "title": "Apple is reportedly cutting hundreds of jobs from Siri, Vision Pro teams",
       "summary": "Apple has admitted that some roles are being impacted as it shifts its focus away from certain initiatives.",
       "url": "https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/",
@@ -781,22 +797,6 @@
       "title": "Tesla recalls 3 million cars as part of China-wide push to stop hidden door handles",
       "summary": "Tesla and eight other automakers will install warning labels that help occupants identify the often hard-to-find manual door releases.",
       "url": "https://techcrunch.com/2026/08/21/tesla-recalls-3-million-cars-as-part-of-china-wide-push-to-stop-hidden-door-handles/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Private equity firm Apollo confirms data breach amid hacking wave targeting financial giants",
-      "summary": "The private equity giant confirms a breach, weeks after Google researchers said hackers were targeting financial companies.",
-      "url": "https://techcrunch.com/2026/08/21/private-equity-firm-apollo-confirms-data-breach-amid-hacking-wave-targeting-financial-giants/",
-      "source": "TechCrunch",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Senator asks US government watchdog to review how feds use hacking tools",
-      "summary": "Senator Ron Wyden sent a letter to the U.S. federal watchdog requesting a comprehensive review of how the FBI, DEA, ICE's HSI, and the Secret Service use hacking tools and spyware against Americans.",
-      "url": "https://techcrunch.com/2026/08/21/senator-asks-us-federal-watchdog-to-review-how-feds-use-hacking-tools/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
