@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T22:44:49.244817+00:00",
+  "generated_at": "2026-08-21T23:42:23.317474+00:00",
   "articles": [
     {
       "title": "Thunder + fiber-optic cabling used for seismic imaging",
@@ -159,6 +159,14 @@
       "url": "https://arstechnica.com/gadgets/2026/08/amazon-aims-for-delivery-drones-to-reach-500-us-neighborhoods-by-end-of-2026/",
       "source": "Ars Technica",
       "category": "ROBOTICS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Cloverleaf deal is latest example of Nvidia using its war chest to patch cracks in the AI bubble",
+      "summary": "Nv's new chips need new datacenters, but you can't have bit barns without power",
+      "url": "https://www.theregister.com/systems/2026/08/22/cloverleaf-deal-is-latest-example-of-nvidia-using-its-war-chest-to-patch-cracks-in-the-ai-bubble/5291369",
+      "source": "The Register",
+      "category": "HARDWARE",
       "age": "RECENT"
     },
     {
@@ -354,11 +362,19 @@
       "age": "RECENT"
     },
     {
-      "title": "Microsoft gives Task Manager another task: Watching AI workloads",
-      "summary": "Per-process NPU metrics arrive as one more venerable Windows utility risks feature bloat",
-      "url": "https://www.theregister.com/os-platforms/2026/08/20/microsoft-gives-task-manager-another-task-watching-ai-workloads/5290448",
-      "source": "The Register",
-      "category": "WINDOWS",
+      "title": "The Unlikely Place at the Center of China’s AI Boom",
+      "summary": "Cheap energy, abundant land, and proximity to Beijing have turned a city in Inner Mongolia into a crucial hub for data centers.",
+      "url": "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/",
+      "source": "WIRED",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Tesla’s Door Handles Lead to Its Biggest Recall Yet",
+      "summary": "A Chinese agency says the two recalls affecting some 3 million vehicles can mostly be fixed by over-the-air updates—but they will also require physical warning stickers and camera-related updates.",
+      "url": "https://www.wired.com/story/teslas-door-handles-lead-to-its-biggest-recall-yet/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -546,22 +562,6 @@
       "age": "RECENT"
     },
     {
-      "title": "The Galaxy’s Fastest Star Could Reveal the Secrets of a Supermassive Black Hole",
-      "summary": "S301 passes close to Sagittarius A*—so close that its orbit could reveal how the black hole’s rotation warps the spacetime around it.",
-      "url": "https://www.wired.com/story/the-galaxys-fastest-star-could-reveal-the-secrets-of-a-supermassive-black-hole/",
-      "source": "WIRED",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "China Is Strapping ‘Digital Bombs’ to Civilian Infrastructure—Is the US Ready?",
-      "summary": "This week on “Uncanny Valley,” Andy Greenberg discusses sitting in on a war game simulating a cyberattack from the Chinese hacking group Volt Typhoon",
-      "url": "https://www.wired.com/story/china-is-strapping-digital-bombs-to-civilian-infrastructure-is-the-us-ready/",
-      "source": "WIRED",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
       "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
       "summary": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
@@ -682,6 +682,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Anthropic’s Opus 4.6 is a smut-machine",
+      "summary": "Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction.",
+      "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
       "title": "Nvidia partners with data center developer Cloverleaf",
       "summary": "Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia.",
       "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
@@ -791,14 +799,6 @@
       "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
       "source": "TechCrunch",
       "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Tesla recalls 3 million cars as part of China-wide push to stop hidden door handles",
-      "summary": "Tesla and eight other automakers will install warning labels that help occupants identify the often hard-to-find manual door releases.",
-      "url": "https://techcrunch.com/2026/08/21/tesla-recalls-3-million-cars-as-part-of-china-wide-push-to-stop-hidden-door-handles/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
       "age": "RECENT"
     }
   ]
