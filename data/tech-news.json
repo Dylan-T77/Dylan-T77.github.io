@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T10:50:43.324690+00:00",
+  "generated_at": "2026-08-21T11:45:24.065604+00:00",
   "articles": [
     {
       "title": "US distributor of China’s most popular humanoid robots pivots after US ban",
@@ -362,6 +362,30 @@
       "age": "RECENT"
     },
     {
+      "title": "I Tried the Best Robotic Pool Cleaners of 2026: Beatbot, iGarden, Dreame",
+      "summary": "Pack up your pool cleaning supplies. Let one of these robot buddies maintain your water quality instead",
+      "url": "https://www.wired.com/story/best-pool-cleaning-robots/",
+      "source": "WIRED",
+      "category": "ROBOTICS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Nyrius Phoenix Home True 4K60 (2026): A Solution for Cord Clutter",
+      "summary": "The Nyrius Phoenix Home True 4K60 can wirelessly transmit games, TV shows, movies, and more across your home (even through walls).",
+      "url": "https://www.wired.com/review/nyrius-phoenix-home-true-4k60/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "The Patrick Clancy Conspiracy Theories Are Rooted in the Harsh Realities of Motherhood",
+      "summary": "Lindsay Clancy’s defense argues she killed her three kids because of postpartum psychosis. But armchair detectives, including many fed-up mothers, are laying blame with her ex-husband.",
+      "url": "https://www.wired.com/story/the-patrick-clancy-conspiracy-theories-are-rooted-in-the-harsh-realities-of-motherhood/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "5 Best Electric Toothbrushes (2026): Philips, Oral-B, Quip, More",
       "summary": "After two years of testing, these are the electric toothbrushes that impressed WIRED staffers the most.",
       "url": "https://www.wired.com/story/the-best-electric-toothbrush-for-healthier-teeth-and-gums/",
@@ -538,27 +562,19 @@
       "age": "RECENT"
     },
     {
-      "title": "Poolease X1 Pool Robot Review: How Bad Can It Be?",
-      "summary": "The Poolease X1 can collect leaves from the pool floor, but dirt, silt, walls, and steps are all beyond its pay grade.",
-      "url": "https://www.wired.com/review/poolease-x1-pool-robot/",
-      "source": "WIRED",
-      "category": "ROBOTICS",
+      "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
+      "summary": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
-      "title": "Bumble Tried to Change Dating, but the Dating Market Forced It to Change Instead",
-      "summary": "The app now allows men to make the first move, suggesting its women-first positioning was limiting growth. It joins other dating apps now throwing everything at the wall in a bid to stay relevant.",
-      "url": "https://www.wired.com/story/bumble-women-first-rule-change/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "The 3 Best USB Car Chargers for Phones (2026): Anker, DeWalt",
-      "summary": "I put top-rated USB car chargers to the test for fast charging, value, heat, and safety. These are the best I found.",
-      "url": "https://www.wired.com/story/best-usb-car-chargers/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "Hackers abuse FTP server banners to deliver new Windows malware",
+      "summary": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOLE. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -661,22 +677,6 @@
       "title": "Healthtech firm CareCloud data breach impacts 3.7 million patients",
       "summary": "U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Hackers compromise 14,500 Dahua web cameras in 35-day campaign",
-      "summary": "In a large-scale campaign that researchers dubbed CameraSwarm, hackers compromised more than 14,500 Dahua IP cameras mostly in Ukraine and Russia. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/",
-      "source": "BleepingComputer",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "US warns of AI-powered attacks on Siemens PLCs in critical infrastructure",
-      "summary": "U.S. cybersecurity agencies warn that threat actors are using AI-generated scripts to exploit Siemens S7 Series programmable logic controllers (PLCs) in U.S. critical infrastructure. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
       "source": "BleepingComputer",
       "category": "CYBERSECURITY",
       "age": "RECENT"
