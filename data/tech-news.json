@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T14:01:37.199704+00:00",
+  "generated_at": "2026-08-21T14:56:13.750659+00:00",
   "articles": [
     {
       "title": "As demand for Meta AI glasses explodes, it’s harder to avoid creepy recordings",
@@ -562,6 +562,22 @@
       "age": "RECENT"
     },
     {
+      "title": "Microsoft blames Windows gaming issues on RGB lighting devices",
+      "summary": "Microsoft says ongoing issues causing games to crash or fail to launch after installing the August 2026 Windows updates may be caused by peripherals with RGB lighting. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/",
+      "source": "BleepingComputer",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Is Online Privacy Possible? How Digital Identities Can Help",
+      "summary": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your activity. Anonyome Labs explains how separate digital personas can reduce correlation and limit the impact of breaches, spam, and identity thef",
+      "url": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
       "title": "Microsoft rolls out Classic Outlook theme for New Outlook users",
       "summary": "Microsoft has started rolling out a Classic Outlook theme for users of Outlook on the web and the New Outlook for Windows. [...]",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-classic-outlook-theme-for-new-outlook-users/",
@@ -666,19 +682,19 @@
       "age": "RECENT"
     },
     {
-      "title": "OpenAI confirms ChatGPT is down as logins and signups fail",
-      "summary": "ChatGPT is experiencing a major outage, and users are unable to sign in, create accounts, or load chats, including previous conversations. [...]",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
-      "source": "BleepingComputer",
-      "category": "AI",
+      "title": "Oura faces lawsuit accusing it of misleading consumers about sleep-tracking accuracy",
+      "summary": "The lawsuit alleges that Oura rings are unable to measure any of the physiological signals needed to assess sleep quality or determine sleep stages.",
+      "url": "https://techcrunch.com/2026/08/21/oura-faces-lawsuit-accusing-it-of-misleading-consumers-about-sleep-tracking-accuracy/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "Rogue ransomware affiliate poses as recovery firm to steal payments",
-      "summary": "A suspected ransomware affiliate is posing as a ransomware recovery service called \"Ransom Busters,\" contacting the victims before the attacks become public and claiming to be able to provide decryption keys and delete stolen data for a fee. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
+      "title": "Walmart to finally start accepting Apple Pay and Google Pay",
+      "summary": "Are pigs flying? Walmart has finally caved on its refusal to support Apple Pay and Google Pay.",
+      "url": "https://techcrunch.com/2026/08/21/walmart-to-finally-start-accepting-apple-pay-and-google-pay/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -781,22 +797,6 @@
       "title": "Mark buys a castle",
       "summary": "Mark Zuckerberg just bought a cozy abode somewhat close to Meta’s international headquarters in Ireland.",
       "url": "https://techcrunch.com/2026/08/20/mark-buys-a-castle/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Google gives publishers a new way to fight AI-driven traffic losses",
-      "summary": "Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Google News, potentially boosting their traffic as AI search sends fewer clicks to the web.",
-      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
-      "summary": "Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing product.",
-      "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
