@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T05:50:29.118300+00:00",
+  "generated_at": "2026-08-21T07:10:21.150300+00:00",
   "articles": [
     {
       "title": "US distributor of China’s most popular humanoid robots pivots after US ban",
@@ -162,6 +162,54 @@
       "age": "RECENT"
     },
     {
+      "title": "Developer given Mission:Impossible - fixing rubbish code that could crash a city - simply chose not to accept it",
+      "summary": "After imagining explosions, blackouts, and daring escapes, this techie decided the best thing to do was just not doing the job",
+      "url": "https://www.theregister.com/software/2026/08/21/developer-given-missionimpossible-fixing-rubbish-code-that-could-crash-a-city-simply-chose-not-to-accept-it/5290120",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Cisco bug severity warning reads like Olympic gymnastics scores: 10, 10, 9.9, 9.6, and 7.5.",
+      "summary": "Secure Workload Software has five nasty flaws and even SaaS users have updates to install",
+      "url": "https://www.theregister.com/security/2026/08/21/cisco-bug-severity-warning-reads-like-olympic-gymnastics-scores-10-10-99-96-and-75/5290838",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Alibaba Cloud plans to use fewer Western chips, to boost its already huge AI margins",
+      "summary": "Cloudy AI is Chinese giant’s ‘most certain’ path to growth as e-commerce slows",
+      "url": "https://www.theregister.com/off-prem/2026/08/21/alibaba-cloud-plans-to-use-fewer-western-chips-to-boost-its-already-huge-ai-margins/5290815",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Supermicro fired staff after probe into $2.5 billion GPUs-to-China smuggling operation",
+      "summary": "Policies and code of conduct breached",
+      "url": "https://www.theregister.com/legal/2026/08/21/supermicro-fired-staff-after-probe-into-25-billion-gpus-to-china-smuggling-operation/5290791",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Russian snoops add OAuth abuse to targeted phishing campaigns",
+      "summary": "Don't click on that State Department meeting invite",
+      "url": "https://www.theregister.com/security/2026/08/21/russian-snoops-add-oauth-abuse-to-targeted-phishing-campaigns/5290706",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Google tethers Antigravity to enterprise controls amid AI shakeup",
+      "summary": "Corporate customers can look forward to easier management of agents in Google Cloud",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/21/google-tethers-antigravity-to-enterprise-controls-amid-ai-shakeup/5290730",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
       "title": "Go updates may delight diehard gophers but displease AI overlords",
       "summary": "v 1.27 expands generics to support methods",
       "url": "https://www.theregister.com/devops/2026/08/20/go-updates-may-delight-diehard-gophers-but-displease-ai-overlords/5290643",
@@ -314,57 +362,17 @@
       "age": "RECENT"
     },
     {
-      "title": "AI agent suggested installing a malware package. Engineer almost took its advice",
-      "summary": "Fortunately, the company had a policy of checking source code on GitHub first",
-      "url": "https://www.theregister.com/security/2026/08/20/ai-agent-suggested-installing-a-malware-package-engineer-almost-took-its-advice/5289849",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "China marches towards re-usable rockets with successful first-stage landing",
-      "summary": "Red alert for rivals as LandSpace nails it after December disaster",
-      "url": "https://www.theregister.com/offbeat/2026/08/20/china-marches-towards-re-usable-rockets-with-successful-first-stage-landing/5290095",
-      "source": "The Register",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "IBM says super-chill boxes that connect through 'cryogenic tunnels' will get quantum computers scaling",
-      "summary": "Absolute zero inside is much cooler than Intel inside",
-      "url": "https://www.theregister.com/systems/2026/08/20/ibm-says-super-chill-boxes-that-connect-through-cryogenic-tunnels-will-get-quantum-computers-scaling/5290067",
-      "source": "The Register",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Microsoft ends one of the last ways to buy VMware without big bundles",
-      "summary": "Broadcom’s VCF-or-nothing licenses are coming to Azure",
-      "url": "https://www.theregister.com/virtualization/2026/08/20/microsoft-ends-one-of-the-last-ways-to-buy-vmware-without-big-bundles/5290044",
-      "source": "The Register",
-      "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
-      "title": "AMD inches closer to its goal of making AI suck less ... energy",
-      "summary": "House of Zen claims latest systems already 4x more efficient than two years ago",
-      "url": "https://www.theregister.com/systems/2026/08/20/amd-inches-closer-to-its-goal-of-making-ai-suck-less-energy/5289990",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "'Not a theoretical risk,' feds warn as attackers use AI-made code to hack critical infrastructure controllers",
-      "summary": "'It is an active threat'",
-      "url": "https://www.theregister.com/security/2026/08/19/not-a-theoretical-risk-feds-warn-as-attackers-use-ai-made-code-to-hack-critical-infrastructure-controllers/5289960",
-      "source": "The Register",
+      "title": "The Single English County Saying No to Palantir",
+      "summary": "The UK government is facing calls to cancel a sprawling health care contract with Palantir. The region of Greater Manchester insists it can do a better job itself.",
+      "url": "https://www.wired.com/story/the-single-english-county-saying-no-to-palantir/",
+      "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "B&H Photo Promo Codes and Deals This August 2026",
-      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
-      "url": "https://www.wired.com/story/bh-photo-coupon/",
+      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
+      "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
+      "url": "https://www.wired.com/story/ray-ban-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -375,14 +383,6 @@
       "url": "https://www.wired.com/story/meta-quest-promo-code/",
       "source": "WIRED",
       "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "30% Off Canon Promo Codes | August 2026",
-      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this August.",
-      "url": "https://www.wired.com/story/canon-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -402,17 +402,17 @@
       "age": "RECENT"
     },
     {
-      "title": "Lenovo Coupon Codes: 15% Off in August 2026",
-      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
-      "url": "https://www.wired.com/story/lenovo-coupon-code/",
+      "title": "B&H Photo Promo Codes and Deals This August 2026",
+      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
+      "url": "https://www.wired.com/story/bh-photo-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "NordVPN Coupons: 75% Off, Plus 3 Months Free in August 2026",
-      "summary": "Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.",
-      "url": "https://www.wired.com/story/nordvpn-coupon/",
+      "title": "Lenovo Coupon Codes: 15% Off in August 2026",
+      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
+      "url": "https://www.wired.com/story/lenovo-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -426,17 +426,17 @@
       "age": "RECENT"
     },
     {
-      "title": "Home Depot Promo Codes: 30% Off in August 2026",
-      "summary": "Save up to 50% today with the latest Home Depot promo codes for appliances, power tools, and more this August.",
-      "url": "https://www.wired.com/story/home-depot-promo-code/",
+      "title": "NordVPN Coupons: 75% Off, Plus 3 Months Free in August 2026",
+      "summary": "Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.",
+      "url": "https://www.wired.com/story/nordvpn-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "Hoka Coupon Codes: 30% Off in August 2026",
-      "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for August 2026.",
-      "url": "https://www.wired.com/story/hoka-coupon-code/",
+      "title": "Home Depot Promo Codes: 30% Off in August 2026",
+      "summary": "Save up to 50% today with the latest Home Depot promo codes for appliances, power tools, and more this August.",
+      "url": "https://www.wired.com/story/home-depot-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -450,9 +450,17 @@
       "age": "RECENT"
     },
     {
-      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
-      "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
-      "url": "https://www.wired.com/story/ray-ban-promo-code/",
+      "title": "Hoka Coupon Codes: 30% Off in August 2026",
+      "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for August 2026.",
+      "url": "https://www.wired.com/story/hoka-coupon-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "30% Off Canon Promo Codes | August 2026",
+      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this August.",
+      "url": "https://www.wired.com/story/canon-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -549,14 +557,6 @@
       "title": "Peacock Promo Codes: 40% Off August 2026",
       "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
       "url": "https://www.wired.com/story/peacock-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "TurboTax Full Service Coupons This August",
-      "summary": "Tax season doesn’t have to be stressful. Score 10% off full service expert on federal tax filings and more exclusive TurboTax discount codes on WIRED.",
-      "url": "https://www.wired.com/story/turbotax-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
