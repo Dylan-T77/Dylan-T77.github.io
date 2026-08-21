@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-08-21T17:48:25.711794+00:00",
+  "generated_at": "2026-08-21T18:59:38.688724+00:00",
   "articles": [
+    {
+      "title": "Chinese regulators tell Tesla to fix nearly 3 million cars",
+      "summary": "Chinese safety regulators have cracked down on doors that don't open in a crash.",
+      "url": "https://arstechnica.com/cars/2026/08/chinese-regulators-tell-tesla-to-fix-nearly-3-million-cars/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Fighter jets help destroy Russian drone boat near European offshore gas platform",
+      "summary": "Romania blew up drone boat to protect lives of several hundred rig workers.",
+      "url": "https://arstechnica.com/gadgets/2026/08/explosive-russian-drone-boat-destroyed-near-european-offshore-gas-site/",
+      "source": "Ars Technica",
+      "category": "ROBOTICS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Personalized pricing is “abhorrent,” but FTC limits may increase costs, critics say",
+      "summary": "Some Americans fear the FTC may be thinking about personalized pricing all wrong.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/critics-ftc-limits-on-personalized-pricing-may-increase-costs-kill-discounts/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
     {
       "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
       "summary": "Alphabet-owned company is seeking to persuade US regulators to clear a path for fully autonomous taxi services.",
@@ -135,30 +159,6 @@
       "url": "https://arstechnica.com/space/2026/08/the-floodgates-are-open-after-another-chinese-company-lands-a-reusable-rocket/",
       "source": "Ars Technica",
       "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "A fantastical journey unfolds in gorgeous Wildwood trailer",
-      "summary": "\"I will tear apart this forest and bring back what it took from me.\"",
-      "url": "https://arstechnica.com/culture/2026/08/a-fantastical-journey-unfolds-in-gorgeous-wildwood-trailer/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "mRNA cancer vaccine succeeded in Phase 3 melanoma trial, Moderna and Merck say",
-      "summary": "The vaccine reportedly thwarted the cancer's return and spread.",
-      "url": "https://arstechnica.com/health/2026/08/mrna-cancer-vaccine-succeeded-in-phase-3-melanoma-trial-moderna-and-merck-say/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Google Pixel 11 series review: Is the magic fading?",
-      "summary": "Google's new Pixels make some compromises but still manage to be good phones.",
-      "url": "https://arstechnica.com/gadgets/2026/08/google-pixel-11-series-review-is-the-magic-fading/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -434,6 +434,46 @@
       "age": "RECENT"
     },
     {
+      "title": "Paramount+ Coupon Codes and Deals for August 2026",
+      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
+      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Zoro Coupon Codes: 55% Off August",
+      "summary": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplies this month.",
+      "url": "https://www.wired.com/story/zoro-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Meta Quest Promo Codes and Coupons for August 2026",
+      "summary": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and more deals.",
+      "url": "https://www.wired.com/story/meta-quest-promo-code/",
+      "source": "WIRED",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Lenovo Coupon Codes: 15% Off in August 2026",
+      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
+      "url": "https://www.wired.com/story/lenovo-coupon-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
+      "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
+      "url": "https://www.wired.com/story/ray-ban-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "B&H Photo Promo Codes and Deals This August 2026",
       "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
       "url": "https://www.wired.com/story/bh-photo-coupon/",
@@ -466,41 +506,9 @@
       "age": "RECENT"
     },
     {
-      "title": "Meta Quest Promo Codes and Coupons for August 2026",
-      "summary": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and more deals.",
-      "url": "https://www.wired.com/story/meta-quest-promo-code/",
-      "source": "WIRED",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Paramount+ Coupon Codes and Deals for August 2026",
-      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
-      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Zoro Coupon Codes: 55% Off August",
-      "summary": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplies this month.",
-      "url": "https://www.wired.com/story/zoro-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Hoka Coupon Codes: 30% Off in August 2026",
-      "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for August 2026.",
-      "url": "https://www.wired.com/story/hoka-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Lenovo Coupon Codes: 15% Off in August 2026",
-      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
-      "url": "https://www.wired.com/story/lenovo-coupon-code/",
+      "title": "30% Off Canon Promo Codes | August 2026",
+      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this August.",
+      "url": "https://www.wired.com/story/canon-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -514,17 +522,9 @@
       "age": "RECENT"
     },
     {
-      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
-      "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
-      "url": "https://www.wired.com/story/ray-ban-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "30% Off Canon Promo Codes | August 2026",
-      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this August.",
-      "url": "https://www.wired.com/story/canon-promo-code/",
+      "title": "Hoka Coupon Codes: 30% Off in August 2026",
+      "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for August 2026.",
+      "url": "https://www.wired.com/story/hoka-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -558,6 +558,14 @@
       "summary": "This week on “Uncanny Valley,” Andy Greenberg discusses sitting in on a war game simulating a cyberattack from the Chinese hacking group Volt Typhoon",
       "url": "https://www.wired.com/story/china-is-strapping-digital-bombs-to-civilian-infrastructure-is-the-us-ready/",
       "source": "WIRED",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
+      "summary": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
+      "source": "BleepingComputer",
       "category": "CYBERSECURITY",
       "age": "RECENT"
     },
@@ -674,11 +682,19 @@
       "age": "RECENT"
     },
     {
-      "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
-      "summary": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
+      "title": "Tesla’s solar roof is dead — here’s what went wrong",
+      "summary": "Tesla's solar roof was an experiment that never really caught on for the company. But does that mean the concept of roof-integrated solar is dead?",
+      "url": "https://techcrunch.com/2026/08/21/teslas-solar-roof-is-dead-heres-what-went-wrong/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Waymo hands over documents in NHTSA’s child collision probe",
+      "summary": "The responses to NHTSA's questions so far are redacted entirely, citing \"confidential business information.\"",
+      "url": "https://techcrunch.com/2026/08/21/waymo-hands-over-documents-in-nhtsas-child-collision-probe/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -781,22 +797,6 @@
       "title": "ChatGPT can now send texts for you with new Apple Messages plug-in",
       "summary": "Ever wanted someone else to do your texting for you? ChatGPT is being offered up as an automated text scribe via a new Apple Messages integration.",
       "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "The Enhanced Games — tech’s steroid extravaganza — didn’t pay off, as company posts $60 million loss",
-      "summary": "An effort to transform the world of sports through steroid use doesn't exactly seem to be bearing financial fruit.",
-      "url": "https://techcrunch.com/2026/08/20/the-enhanced-games-techs-steroid-extravaganza-didnt-pay-off-as-company-posts-60-million-loss/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "OK, can we actually cool data centers with our pee?",
-      "summary": "Jason Kelce joked that people should cool data centers with their pee, rather than potable water -- but his suggestion is not completely ludicrous.",
-      "url": "https://techcrunch.com/2026/08/20/ok-can-we-actually-cool-data-centers-with-our-pee/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
