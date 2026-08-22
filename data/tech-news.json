@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T14:41:30.885156+00:00",
+  "generated_at": "2026-08-22T15:38:45.224415+00:00",
   "articles": [
     {
       "title": "Putting mice into hibernation causes a major loss of synapses",
@@ -159,6 +159,14 @@
       "url": "https://arstechnica.com/gadgets/2026/08/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
       "source": "Ars Technica",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "If you're not using AI to attack your own systems, your adversaries will",
+      "summary": "Agents are also the new attack surface - cue defenders' existential angst",
+      "url": "https://www.theregister.com/security/2026/08/22/if-youre-not-using-ai-to-attack-your-own-systems-your-adversaries-will/5291346",
+      "source": "The Register",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -354,14 +362,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Google tethers Antigravity to enterprise controls amid AI shakeup",
-      "summary": "Corporate customers can look forward to easier management of agents in Google Cloud",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/21/google-tethers-antigravity-to-enterprise-controls-amid-ai-shakeup/5290730",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
       "title": "Saily Ultra eSIM Premum Plan Review: Packed With Perks",
       "summary": "For uninterrupted service as you country-hop, the Saily Ultra eSIM works well and comes with plentiful perks. It’s pricey though.",
       "url": "https://www.wired.com/review/saily-ultra-esim/",
@@ -530,25 +530,17 @@
       "age": "RECENT"
     },
     {
+      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
+      "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
+      "url": "https://www.wired.com/story/ray-ban-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Home Depot Promo Codes: 30% Off in August 2026",
       "summary": "Save up to 50% today with the latest Home Depot promo codes for appliances, power tools, and more this August.",
       "url": "https://www.wired.com/story/home-depot-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "B&H Photo Promo Codes and Deals This August 2026",
-      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
-      "url": "https://www.wired.com/story/bh-photo-coupon/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Lenovo Coupon Codes: 15% Off in August 2026",
-      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
-      "url": "https://www.wired.com/story/lenovo-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -559,6 +551,14 @@
       "url": "https://www.wired.com/story/meta-quest-promo-code/",
       "source": "WIRED",
       "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "B&H Photo Promo Codes and Deals This August 2026",
+      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
+      "url": "https://www.wired.com/story/bh-photo-coupon/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -682,6 +682,14 @@
       "age": "RECENT"
     },
     {
+      "title": "US battery startups have found a lifeline in defense",
+      "summary": "U.S. battery startups pulled in $500 million in grants from the Department of Energy, throwing a lifeline to an industry that was on the ropes after EV incentives were slashed.",
+      "url": "https://techcrunch.com/2026/08/22/us-battery-startups-have-found-a-lifeline-in-defense/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Pixel 11 Pro XL review: Snappier cameras can’t hide an iterative upgrade",
       "summary": "Google’s Pixel 11 Pro XL brings snappier cameras and genuinely useful AI features like Rambler, but its iterative upgrades may not be enough to tempt recent Pixel owners.",
       "url": "https://techcrunch.com/2026/08/22/pixel-11-pro-xl-review-snappier-cameras-cant-hide-an-iterative-upgrade/",
@@ -791,14 +799,6 @@
       "url": "https://techcrunch.com/video/why-is-the-doj-investigating-andreessen-horowitzs-board-seats/",
       "source": "TechCrunch",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "US government lab is probing Chinese lidar for security vulnerabilities",
-      "summary": "The security review is being performed by the Idaho National Laboratory, and the research is being funded by a company -- or a group of companies -- in the electric and autonomous vehicle industries.",
-      "url": "https://techcrunch.com/2026/08/21/us-government-lab-is-probing-chinese-lidar-for-security-vulnerabilities/",
-      "source": "TechCrunch",
-      "category": "CYBERSECURITY",
       "age": "RECENT"
     }
   ]
