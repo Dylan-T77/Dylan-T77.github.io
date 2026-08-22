@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T07:48:10.761099+00:00",
+  "generated_at": "2026-08-22T08:50:53.154598+00:00",
   "articles": [
     {
       "title": "Trump's space transportation policy calls for new spaceport on federal land",
@@ -159,6 +159,14 @@
       "url": "https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/",
       "source": "Ars Technica",
       "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Casio decides it's about time the simple digital watch got a little smarter",
+      "summary": "F-B100W adds Bluetooth and step tracking while keeping a two-year battery",
+      "url": "https://www.theregister.com/personal-tech/2026/08/22/casio-decides-its-about-time-the-simple-digital-watch-got-a-little-smarter/5291223",
+      "source": "The Register",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -354,14 +362,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Waymo has designed a robocar chip to stay ahead of Tesla",
-      "summary": "5 nm ML accelerators promise 1,000+ TOPS, ultra-low latency",
-      "url": "https://www.theregister.com/edge-and-iot/2026/08/20/waymo-has-designed-a-robocar-chip-to-stay-ahead-of-tesla/5290592",
-      "source": "The Register",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
       "title": "The Unlikely Place at the Center of China’s AI Boom",
       "summary": "Cheap energy, abundant land, and proximity to Beijing have turned a city in Inner Mongolia into a crucial hub for data centers.",
       "url": "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/",
@@ -450,22 +450,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Paramount+ Coupon Codes and Deals for August 2026",
-      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
-      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Zoro Coupon Codes: 55% Off August",
-      "summary": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplies this month.",
-      "url": "https://www.wired.com/story/zoro-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "NordVPN Coupons: 75% Off, Plus 3 Months Free in August 2026",
       "summary": "Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.",
       "url": "https://www.wired.com/story/nordvpn-coupon/",
@@ -482,17 +466,25 @@
       "age": "RECENT"
     },
     {
-      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
-      "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
-      "url": "https://www.wired.com/story/ray-ban-promo-code/",
+      "title": "Paramount+ Coupon Codes and Deals for August 2026",
+      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
+      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "Home Depot Promo Codes: 30% Off in August 2026",
-      "summary": "Save up to 50% today with the latest Home Depot promo codes for appliances, power tools, and more this August.",
-      "url": "https://www.wired.com/story/home-depot-promo-code/",
+      "title": "Zoro Coupon Codes: 55% Off August",
+      "summary": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplies this month.",
+      "url": "https://www.wired.com/story/zoro-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "B&H Photo Promo Codes and Deals This August 2026",
+      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
+      "url": "https://www.wired.com/story/bh-photo-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -506,9 +498,9 @@
       "age": "RECENT"
     },
     {
-      "title": "B&H Photo Promo Codes and Deals This August 2026",
-      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
-      "url": "https://www.wired.com/story/bh-photo-coupon/",
+      "title": "Valvoline Coupons and Promo Codes for August 2026",
+      "summary": "We've gathered all the top Valvoline coupons and promo codes for August 2026, including deals on full synthetic oil changes and other essential maintenance.",
+      "url": "https://www.wired.com/story/valvoline-coupons/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -517,14 +509,6 @@
       "title": "Hoka Coupon Codes: 30% Off in August 2026",
       "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for August 2026.",
       "url": "https://www.wired.com/story/hoka-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Valvoline Coupons and Promo Codes for August 2026",
-      "summary": "We've gathered all the top Valvoline coupons and promo codes for August 2026, including deals on full synthetic oil changes and other essential maintenance.",
-      "url": "https://www.wired.com/story/valvoline-coupons/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -541,6 +525,22 @@
       "title": "30% Off Canon Promo Codes | August 2026",
       "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this August.",
       "url": "https://www.wired.com/story/canon-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
+      "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
+      "url": "https://www.wired.com/story/ray-ban-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Home Depot Promo Codes: 30% Off in August 2026",
+      "summary": "Save up to 50% today with the latest Home Depot promo codes for appliances, power tools, and more this August.",
+      "url": "https://www.wired.com/story/home-depot-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
