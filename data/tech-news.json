@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-08-22T11:38:46.290080+00:00",
+  "generated_at": "2026-08-22T13:03:35.129284+00:00",
   "articles": [
+    {
+      "title": "Putting mice into hibernation causes a major loss of synapses",
+      "summary": "Hibernation cuts down on synapses, but mice seem to retain memories anyway.",
+      "url": "https://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Dismantling the Roadless Rule threatens to disrupt wildlife and water in US",
+      "summary": "Lands free of roads are under threat from the Trump administration’s proposed rollback.",
+      "url": "https://arstechnica.com/science/2026/08/dismantling-the-roadless-rule-threatens-to-disrupt-wildlife-and-water-in-us/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
     {
       "title": "Trump's space transportation policy calls for new spaceport on federal land",
       "summary": "\"We probably need another site that's capable of heavy and super heavy launch capability.\"",
@@ -143,22 +159,6 @@
       "url": "https://arstechnica.com/gadgets/2026/08/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
       "source": "Ars Technica",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
-      "summary": "Cryptographic Context Injection is only the latest way to break an LLM safety guardrail.",
-      "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
-      "source": "Ars Technica",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "NASA calls off mission to rescue Swift gamma-ray observatory",
-      "summary": "Without a rescue, NASA's Swift Observatory is expected to reenter the atmosphere later this year.",
-      "url": "https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/",
-      "source": "Ars Technica",
-      "category": "SPACE",
       "age": "RECENT"
     },
     {
@@ -362,6 +362,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Saily Ultra eSIM Premum Plan Review: Packed With Perks",
+      "summary": "For uninterrupted service as you country-hop, the Saily Ultra eSIM works well and comes with plentiful perks. It’s pricey though.",
+      "url": "https://www.wired.com/review/saily-ultra-esim/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "The 4 Best Monitor Arms to Clear Up Your Desk Space (2026)",
       "summary": "Your desk setup needs a monitor arm, and I’ve been testing every one I can get my hands on to find the best.",
       "url": "https://www.wired.com/gallery/best-monitor-arms/",
@@ -490,22 +498,6 @@
       "age": "RECENT"
     },
     {
-      "title": "NordVPN Coupons: 75% Off, Plus 3 Months Free in August 2026",
-      "summary": "Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.",
-      "url": "https://www.wired.com/story/nordvpn-coupon/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Ruggable Discount Code: 30% Off Rugs | August 2026",
-      "summary": "Keep your floors pristine and your budget intact. Save up to 30% off machine-washable rugs, runners, mats, and pillows using Ruggable coupons plus our expert advice.",
-      "url": "https://www.wired.com/story/ruggable-discount-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Paramount+ Coupon Codes and Deals for August 2026",
       "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
       "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
@@ -522,9 +514,33 @@
       "age": "RECENT"
     },
     {
-      "title": "B&H Photo Promo Codes and Deals This August 2026",
-      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
-      "url": "https://www.wired.com/story/bh-photo-coupon/",
+      "title": "NordVPN Coupons: 75% Off, Plus 3 Months Free in August 2026",
+      "summary": "Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.",
+      "url": "https://www.wired.com/story/nordvpn-coupon/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Ruggable Discount Code: 30% Off Rugs | August 2026",
+      "summary": "Keep your floors pristine and your budget intact. Save up to 30% off machine-washable rugs, runners, mats, and pillows using Ruggable coupons plus our expert advice.",
+      "url": "https://www.wired.com/story/ruggable-discount-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
+      "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
+      "url": "https://www.wired.com/story/ray-ban-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Home Depot Promo Codes: 30% Off in August 2026",
+      "summary": "Save up to 50% today with the latest Home Depot promo codes for appliances, power tools, and more this August.",
+      "url": "https://www.wired.com/story/home-depot-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -538,25 +554,9 @@
       "age": "RECENT"
     },
     {
-      "title": "Valvoline Coupons and Promo Codes for August 2026",
-      "summary": "We've gathered all the top Valvoline coupons and promo codes for August 2026, including deals on full synthetic oil changes and other essential maintenance.",
-      "url": "https://www.wired.com/story/valvoline-coupons/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Hoka Coupon Codes: 30% Off in August 2026",
-      "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for August 2026.",
-      "url": "https://www.wired.com/story/hoka-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Lenovo Coupon Codes: 15% Off in August 2026",
-      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
-      "url": "https://www.wired.com/story/lenovo-coupon-code/",
+      "title": "B&H Photo Promo Codes and Deals This August 2026",
+      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
+      "url": "https://www.wired.com/story/bh-photo-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
