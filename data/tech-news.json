@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-08-21T23:42:23.317474+00:00",
+  "generated_at": "2026-08-22T01:53:25.513033+00:00",
   "articles": [
+    {
+      "title": "Trump's space transportation policy calls for new spaceport on federal land",
+      "summary": "\"We probably need another site that's capable of heavy and super heavy launch capability.\"",
+      "url": "https://arstechnica.com/space/2026/08/trump-admin-calls-for-more-spaceports-to-handle-surge-in-launches/",
+      "source": "Ars Technica",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
     {
       "title": "Thunder + fiber-optic cabling used for seismic imaging",
       "summary": "Thunderstorms make seismic waves that can be used to find sub-surface features.",
@@ -151,14 +159,6 @@
       "url": "https://arstechnica.com/space/2026/08/nasa-calls-off-mission-to-rescue-swift-gamma-ray-observatory/",
       "source": "Ars Technica",
       "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Amazon aims for delivery drones to reach 500 US neighborhoods by end of 2026",
-      "summary": "US residents face trade-offs as delivery drone services such as Prime Air expand.",
-      "url": "https://arstechnica.com/gadgets/2026/08/amazon-aims-for-delivery-drones-to-reach-500-us-neighborhoods-by-end-of-2026/",
-      "source": "Ars Technica",
-      "category": "ROBOTICS",
       "age": "RECENT"
     },
     {
@@ -450,22 +450,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
-      "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
-      "url": "https://www.wired.com/story/ray-ban-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Meta Quest Promo Codes and Coupons for August 2026",
-      "summary": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and more deals.",
-      "url": "https://www.wired.com/story/meta-quest-promo-code/",
-      "source": "WIRED",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
       "title": "Paramount+ Coupon Codes and Deals for August 2026",
       "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
       "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
@@ -482,11 +466,11 @@
       "age": "RECENT"
     },
     {
-      "title": "B&H Photo Promo Codes and Deals This August 2026",
-      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
-      "url": "https://www.wired.com/story/bh-photo-coupon/",
+      "title": "Meta Quest Promo Codes and Coupons for August 2026",
+      "summary": "Experience cutting-edge VR and save up to 20% with coupons for the latest games, Meta Quest 3, Ray-Ban AI glasses, and more deals.",
+      "url": "https://www.wired.com/story/meta-quest-promo-code/",
       "source": "WIRED",
-      "category": "GENERAL",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -498,9 +482,17 @@
       "age": "RECENT"
     },
     {
-      "title": "Valvoline Coupons and Promo Codes for August 2026",
-      "summary": "We've gathered all the top Valvoline coupons and promo codes for August 2026, including deals on full synthetic oil changes and other essential maintenance.",
-      "url": "https://www.wired.com/story/valvoline-coupons/",
+      "title": "Ray-Ban Promo Codes: Save 50% in August 2026",
+      "summary": "Upgrade your frames with major savings on classic shapes, custom designs, and prescription lenses using these verified Ray-Ban discounts.",
+      "url": "https://www.wired.com/story/ray-ban-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "B&H Photo Promo Codes and Deals This August 2026",
+      "summary": "Enjoy top deals on cameras, computers, and tech essentials at B&H Photo.",
+      "url": "https://www.wired.com/story/bh-photo-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -530,17 +522,25 @@
       "age": "RECENT"
     },
     {
-      "title": "Hoka Coupon Codes: 30% Off in August 2026",
-      "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for August 2026.",
-      "url": "https://www.wired.com/story/hoka-coupon-code/",
+      "title": "30% Off Canon Promo Codes | August 2026",
+      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this August.",
+      "url": "https://www.wired.com/story/canon-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "30% Off Canon Promo Codes | August 2026",
-      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this August.",
-      "url": "https://www.wired.com/story/canon-promo-code/",
+      "title": "Valvoline Coupons and Promo Codes for August 2026",
+      "summary": "We've gathered all the top Valvoline coupons and promo codes for August 2026, including deals on full synthetic oil changes and other essential maintenance.",
+      "url": "https://www.wired.com/story/valvoline-coupons/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Hoka Coupon Codes: 30% Off in August 2026",
+      "summary": "Unlock free expedited shipping or 10% off with today’s Hoka discount codes, plus save up to 30% with the best discounts for August 2026.",
+      "url": "https://www.wired.com/story/hoka-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -682,6 +682,22 @@
       "age": "RECENT"
     },
     {
+      "title": "Michael Polansky is training an AI model on skin that’s still alive",
+      "summary": "Michael Polansky — better known publicly as Lady Gaga's partner and a former top deputy to Sean Parker — has quietly spent years building an AI-driven startup that keeps living human skin tissue alive for weeks outside the body to discover new skincare compounds, and is only now ",
+      "url": "https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Japanese space tech startup Letara expands beyond satellite thrusters with $16M",
+      "summary": "Japanese space startup Letara is betting its hybrid rocket technology can move beyond small satellite thrusters into a broader market for space, defense and security, after raising ¥2.6 billion ($16 million).",
+      "url": "https://techcrunch.com/2026/08/21/japanese-space-tech-startup-letara-expands-beyond-satellite-thrusters-with-16m/",
+      "source": "TechCrunch",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
       "title": "Anthropic’s Opus 4.6 is a smut-machine",
       "summary": "Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction.",
       "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
@@ -783,22 +799,6 @@
       "url": "https://techcrunch.com/2026/08/21/oura-faces-lawsuit-accusing-it-of-misleading-consumers-about-sleep-tracking-accuracy/",
       "source": "TechCrunch",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Walmart to finally start accepting Apple Pay and Google Pay",
-      "summary": "Are pigs flying? Walmart has finally caved on its refusal to support Apple Pay and Google Pay.",
-      "url": "https://techcrunch.com/2026/08/21/walmart-to-finally-start-accepting-apple-pay-and-google-pay/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
-      "summary": "There's about to be a big fight to secure access to space.",
-      "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
-      "source": "TechCrunch",
-      "category": "SPACE",
       "age": "RECENT"
     }
   ]
