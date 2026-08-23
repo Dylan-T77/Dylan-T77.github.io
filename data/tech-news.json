@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-08-23T11:39:30.676184+00:00",
+  "generated_at": "2026-08-23T13:05:05.900172+00:00",
   "articles": [
+    {
+      "title": "Volcanoes that made history",
+      "summary": "Enormous eruptions altered Earth’s climate and societies all over the globe.",
+      "url": "https://arstechnica.com/science/2026/08/volcanoes-that-made-history/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
     {
       "title": "Putting mice into hibernation causes a major loss of synapses",
       "summary": "Hibernation cuts down on synapses, but mice seem to retain memories anyway.",
@@ -154,11 +162,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Reverse-lookup service exposed millions of photos of people’s faces",
-      "summary": "People-search tool ClarityCheck left database containing more than 9M image files exposed.",
-      "url": "https://arstechnica.com/gadgets/2026/08/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
+      "title": "An ultra-rare piece of Microsoft history could be hiding on your shelf",
+      "summary": "Red Tetris stickers and shirtless Windows 95 tots - accidental collectibles gathering dust",
+      "url": "https://www.theregister.com/offbeat/2026/08/23/an-ultra-rare-piece-of-microsoft-history-could-be-hiding-on-your-shelf/5291118",
+      "source": "The Register",
+      "category": "WINDOWS",
       "age": "RECENT"
     },
     {
@@ -354,14 +362,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Russian snoops add OAuth abuse to targeted phishing campaigns",
-      "summary": "Don't click on that State Department meeting invite",
-      "url": "https://www.theregister.com/security/2026/08/21/russian-snoops-add-oauth-abuse-to-targeted-phishing-campaigns/5290706",
-      "source": "The Register",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
       "title": "What’s the Best Kindle of 2026? (So Far)",
       "summary": "I’ve tested every single Kindle. Here’s how Amazon’s ebook readers stack up.",
       "url": "https://www.wired.com/gallery/best-kindle/",
@@ -538,25 +538,25 @@
       "age": "RECENT"
     },
     {
-      "title": "Paramount+ Coupon Codes and Deals for August 2026",
-      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
-      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Zoro Coupon Codes: 55% Off August",
-      "summary": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplies this month.",
-      "url": "https://www.wired.com/story/zoro-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "NordVPN Coupons: 75% Off, Plus 3 Months Free in August 2026",
       "summary": "Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.",
       "url": "https://www.wired.com/story/nordvpn-coupon/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Ruggable Discount Code: 30% Off Rugs | August 2026",
+      "summary": "Keep your floors pristine and your budget intact. Save up to 30% off machine-washable rugs, runners, mats, and pillows using Ruggable coupons plus our expert advice.",
+      "url": "https://www.wired.com/story/ruggable-discount-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Paramount+ Coupon Codes and Deals for August 2026",
+      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
+      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
