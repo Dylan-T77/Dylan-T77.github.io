@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T13:47:58.996670+00:00",
+  "generated_at": "2026-08-23T14:43:10.695099+00:00",
   "articles": [
     {
       "title": "Volcanoes that made history",
@@ -562,6 +562,14 @@
       "age": "RECENT"
     },
     {
+      "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
+      "summary": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
       "title": "Hackers infect Android car head units with proxy botnet malware",
       "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
@@ -671,14 +679,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
       "source": "BleepingComputer",
       "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Citrix urges admins to patch new NetScaler flaws as soon as possible",
-      "summary": "Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions and NetScaler ADC networking appliances. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
-      "source": "BleepingComputer",
-      "category": "GENERAL",
       "age": "RECENT"
     },
     {
