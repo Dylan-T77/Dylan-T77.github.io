@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-08-23T14:43:10.695099+00:00",
+  "generated_at": "2026-08-23T15:40:23.691963+00:00",
   "articles": [
+    {
+      "title": "Due to need for 'absolute success,' China delays critical Moon launch to 2027",
+      "summary": "\"The Chang’e 7 mission does not meet the conditions for launch.\"",
+      "url": "https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/",
+      "source": "Ars Technica",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
     {
       "title": "Volcanoes that made history",
       "summary": "Enormous eruptions altered Earth’s climate and societies all over the globe.",
@@ -151,14 +159,6 @@
       "url": "https://arstechnica.com/cars/2026/08/genesis-joins-the-giant-electric-suv-club-with-new-gv90/",
       "source": "Ars Technica",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "SpaceX’s orbital data centers would create a new category of e-waste",
-      "summary": "The yeetcycling math resembles asteroid mining in reverse.",
-      "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/",
-      "source": "Ars Technica",
-      "category": "SPACE",
       "age": "RECENT"
     },
     {
@@ -546,17 +546,17 @@
       "age": "RECENT"
     },
     {
-      "title": "Paramount+ Coupon Codes and Deals for August 2026",
-      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
-      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
+      "title": "NordVPN Coupons: 75% Off, Plus 3 Months Free in August 2026",
+      "summary": "Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.",
+      "url": "https://www.wired.com/story/nordvpn-coupon/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "Zoro Coupon Codes: 55% Off August",
-      "summary": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplies this month.",
-      "url": "https://www.wired.com/story/zoro-promo-code/",
+      "title": "Ruggable Discount Code: 30% Off Rugs | August 2026",
+      "summary": "Keep your floors pristine and your budget intact. Save up to 30% off machine-washable rugs, runners, mats, and pillows using Ruggable coupons plus our expert advice.",
+      "url": "https://www.wired.com/story/ruggable-discount-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -682,6 +682,22 @@
       "age": "RECENT"
     },
     {
+      "title": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
+      "summary": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused.",
+      "url": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Is it legal to train AI models on copyrighted books? It’s complicated",
+      "summary": "Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?",
+      "url": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
       "title": "Two years after launch, Walmart’s Flipkart is closing in on India’s quick-commerce leaders",
       "summary": "Flipkart's quick-commerce venture is delivering 1.1 million to 1.2 million orders a day, nearly triple its November volume.",
       "url": "https://techcrunch.com/2026/08/22/two-years-after-launch-walmarts-flipkart-is-closing-in-on-indias-quick-commerce-leaders/",
@@ -783,22 +799,6 @@
       "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
       "source": "TechCrunch",
       "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Apple is reportedly cutting hundreds of jobs from Siri, Vision Pro teams",
-      "summary": "Apple has admitted that some roles are being impacted as it shifts its focus away from certain initiatives.",
-      "url": "https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "TikTok reaches $400M settlement over children’s privacy lawsuit",
-      "summary": "Two years after the U.S. Department of Justice alleged that TikTok violated the Children’s Online Privacy Protection Act, it has reached a $400 million settlement.",
-      "url": "https://techcrunch.com/2026/08/21/tiktok-reaches-400m-settlement-over-childrens-privacy-lawsuit/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
       "age": "RECENT"
     }
   ]
