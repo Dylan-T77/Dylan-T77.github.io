@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T13:05:05.900172+00:00",
+  "generated_at": "2026-08-23T13:47:58.996670+00:00",
   "articles": [
     {
       "title": "Volcanoes that made history",
@@ -159,6 +159,14 @@
       "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/",
       "source": "Ars Technica",
       "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "How Cursor beat Git's scalability shortcomings",
+      "summary": "S3 keeps the source of truth while local NVMe repositories do the latency-sensitive work",
+      "url": "https://www.theregister.com/devops/2026/08/23/how-cursor-beat-gits-scalability-shortcomings/5291421",
+      "source": "The Register",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -354,11 +362,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Supermicro fired staff after probe into $2.5 billion GPUs-to-China smuggling operation",
-      "summary": "Policies and code of conduct breached",
-      "url": "https://www.theregister.com/legal/2026/08/21/supermicro-fired-staff-after-probe-into-25-billion-gpus-to-china-smuggling-operation/5290791",
-      "source": "The Register",
-      "category": "CYBERSECURITY",
+      "title": "Asus ROG Swift RGB Stripe OLED Review: Clarity King",
+      "summary": "The Asus PG27UCWM brings a new sub-pixel layout to the world of OLED gaming monitors, and in my testing, I appreciated the improvements it brings to the table.",
+      "url": "https://www.wired.com/review/asus-rog-swift-rgb-stripe-oled-pg27ucwm/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -538,25 +546,17 @@
       "age": "RECENT"
     },
     {
-      "title": "NordVPN Coupons: 75% Off, Plus 3 Months Free in August 2026",
-      "summary": "Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.",
-      "url": "https://www.wired.com/story/nordvpn-coupon/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Ruggable Discount Code: 30% Off Rugs | August 2026",
-      "summary": "Keep your floors pristine and your budget intact. Save up to 30% off machine-washable rugs, runners, mats, and pillows using Ruggable coupons plus our expert advice.",
-      "url": "https://www.wired.com/story/ruggable-discount-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Paramount+ Coupon Codes and Deals for August 2026",
       "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
       "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Zoro Coupon Codes: 55% Off August",
+      "summary": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplies this month.",
+      "url": "https://www.wired.com/story/zoro-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
