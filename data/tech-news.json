@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T15:58:16.452746+00:00",
+  "generated_at": "2026-08-24T16:57:31.975567+00:00",
   "articles": [
     {
       "title": "Review: Chuwi's $449 Unibook laptop is a funhouse-mirror MacBook Neo",
@@ -162,11 +162,27 @@
       "age": "RECENT"
     },
     {
+      "title": "Users mash LinkedIn's AI slop button 1M+ times in 3 weeks",
+      "summary": "Or: Shock as users of world's largest slop repository report lots of slop",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/24/users-mash-linkedins-ai-slop-button-1m-times-in-3-weeks/5291802",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
       "title": "Emperor Penguin Linus Torvalds banishes a bug – with a bot",
       "summary": "The lad himself finds and fixes a tricky one… or does he?",
       "url": "https://www.theregister.com/os-platforms/2026/08/24/emperor-penguin-linus-torvalds-banishes-a-bug-with-a-bot/5291784",
       "source": "The Register",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "What Nvidia's first Groq 3 LPU benchmarks do and don't tell us about its $20B gamble",
+      "summary": "Gemma 4 31B performance tests offer a best-case scenario for next-gen dataflow accelerators",
+      "url": "https://www.theregister.com/systems/2026/08/24/what-nvidias-first-groq-3-lpu-benchmarks-do-and-dont-tell-us-about-its-20b-gamble/5291880",
+      "source": "The Register",
+      "category": "HARDWARE",
       "age": "RECENT"
     },
     {
@@ -343,22 +359,6 @@
       "url": "https://www.theregister.com/personal-tech/2026/08/22/casio-decides-its-about-time-the-simple-digital-watch-got-a-little-smarter/5291223",
       "source": "The Register",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "AWS Security makes an inscrutable choice",
-      "summary": "Quarantining leaked credentials is not good enough",
-      "url": "https://www.theregister.com/security/2026/08/22/aws-security-makes-an-inscrutable-choice-corey-quinn/5291446",
-      "source": "The Register",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Cloverleaf deal is latest example of Nvidia using its war chest to patch cracks in the AI bubble",
-      "summary": "Nv's new chips need new datacenters, but you can't have bit barns without power",
-      "url": "https://www.theregister.com/systems/2026/08/22/cloverleaf-deal-is-latest-example-of-nvidia-using-its-war-chest-to-patch-cracks-in-the-ai-bubble/5291369",
-      "source": "The Register",
-      "category": "HARDWARE",
       "age": "RECENT"
     },
     {
@@ -683,7 +683,7 @@
     },
     {
       "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
-      "summary": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, Seven Seven Six.",
+      "summary": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven Seven Six.",
       "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
       "source": "TechCrunch",
       "category": "ROBOTICS",
