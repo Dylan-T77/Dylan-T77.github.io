@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T09:07:27.601352+00:00",
+  "generated_at": "2026-08-24T10:06:37.388296+00:00",
   "articles": [
     {
       "title": "Due to need for 'absolute success,' China delays critical Moon launch to 2027",
@@ -159,6 +159,14 @@
       "url": "https://arstechnica.com/cars/2026/08/genesis-joins-the-giant-electric-suv-club-with-new-gv90/",
       "source": "Ars Technica",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Canonical backs quest to translate mountains of C into safe Rust with AI",
+      "summary": "Bungs banknotes at Bristol boffins to find out if mature code survives the machine",
+      "url": "https://www.theregister.com/software/2026/08/24/canonical-backs-quest-to-translate-mountains-of-c-into-safe-rust-with-ai/5290959",
+      "source": "The Register",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -354,11 +362,19 @@
       "age": "RECENT"
     },
     {
-      "title": "Wi-Fi 7's WPA3 protections come with a compatibility catch",
-      "summary": "CableLabs wants hardware makers to embrace a workaround that keeps legacy kit connected",
-      "url": "https://www.theregister.com/networks/2026/08/21/wi-fi-7s-wpa3-protections-come-with-a-compatibility-catch/5289614",
-      "source": "The Register",
-      "category": "HARDWARE",
+      "title": "The Best Multiuse Air Purifier for Home in 2026: BlueAir, Rabbit Air, Dreame",
+      "summary": "These WIRED-tested dual-purpose air purifiers also function as heaters, fans, art pieces, and more, offering the best of both worlds.",
+      "url": "https://www.wired.com/story/best-multi-use-air-purifiers/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "They Dedicated Their Lives to Teaching. Then the Deepfakes Started",
+      "summary": "The deepfake epidemic in schools is affecting more than students. Four teachers tell WIRED about becoming targets of sexualized, AI-generated content—and how difficult it was to find accountability.",
+      "url": "https://www.wired.com/story/teachers-deepfake-ai-students-content/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -546,19 +562,11 @@
       "age": "RECENT"
     },
     {
-      "title": "The Single English County Saying No to Palantir",
-      "summary": "The UK government is facing calls to cancel a sprawling health care contract with Palantir. The region of Greater Manchester insists it can do a better job itself.",
-      "url": "https://www.wired.com/story/the-single-english-county-saying-no-to-palantir/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Paramount+ Coupon Codes and Deals for August 2026",
-      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
-      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "Microsoft shares temporary fix for Windows 11 gaming issues",
+      "summary": "Microsoft has shared a temporary fix for ongoing gaming issues caused by Windows 11 updates released during the August 2026 Patch Tuesday. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues/",
+      "source": "BleepingComputer",
+      "category": "WINDOWS",
       "age": "RECENT"
     },
     {
@@ -671,14 +679,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
       "source": "BleepingComputer",
       "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "How MSPs can catch phishing attacks email filters miss",
-      "summary": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monitor identity, email, and endpoint activity to detect and contain attacks that make it past the inbox. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
-      "source": "BleepingComputer",
-      "category": "AI",
       "age": "RECENT"
     },
     {
