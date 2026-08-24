@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-08-24T11:46:41.146176+00:00",
+  "generated_at": "2026-08-24T13:16:50.114520+00:00",
   "articles": [
     {
-      "title": "Due to need for 'absolute success,' China delays critical Moon launch to 2027",
+      "title": "Review: Chuwi's $449 Unibook laptop is a funhouse-mirror MacBook Neo",
+      "summary": "The Unibook is a weird entry-level laptop for people with patience.",
+      "url": "https://arstechnica.com/gadgets/2026/08/review-chuwis-449-unibook-laptop-is-a-funhouse-mirror-macbook-neo/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Due to need for \"absolute success,\" China delays critical Moon launch to 2027",
       "summary": "\"The Chang’e 7 mission does not meet the conditions for launch.\"",
       "url": "https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/",
       "source": "Ars Technica",
@@ -154,11 +162,27 @@
       "age": "RECENT"
     },
     {
-      "title": "Genesis joins the giant electric SUV club with new GV90",
-      "summary": "A retractable screen, a huge heads-up display, and an optional 4-seat VIP interior.",
-      "url": "https://arstechnica.com/cars/2026/08/genesis-joins-the-giant-electric-suv-club-with-new-gv90/",
-      "source": "Ars Technica",
+      "title": "I picked Task Manager 'to see how ready AI is for primetime… or if it would just degrade to slop' – OG dev talks to The Reg",
+      "summary": "Original author of legendary 1996 system utility tries to answer the question: 'How would I do it today?'",
+      "url": "https://www.theregister.com/applications/2026/08/24/i-picked-task-manager-to-see-how-ready-ai-is-for-primetime-or-if-it-would-just-degrade-to-slop-og-dev-talks-to-the-reg/5291639",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "AliExpress accused of fingerprinting shoppers with silent audio trick that also muted a dev's headphones",
+      "summary": "Sawtooth waves you can't hear still mess with your Bluetooth. Firefox and Brave say they've got you covered",
+      "url": "https://www.theregister.com/security/2026/08/24/aliexpress-accused-of-fingerprinting-shoppers-with-silent-audio-trick-that-also-muted-a-devs-headphones/5291662",
+      "source": "The Register",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "US datacenters tripled their water footprint in 10 years",
+      "summary": "... and those are figures from the start of the AI boom. It can only be worse now. Silo-ed reporting isn't helping",
+      "url": "https://www.theregister.com/on-prem/2026/08/24/us-datacenters-tripled-their-water-footprint-in-10-years/5291564",
+      "source": "The Register",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -335,30 +359,6 @@
       "url": "https://www.theregister.com/cyber-crime/2026/08/21/sickkids-childrens-hospital-bandages-up-careers-website-after-intruder-breaks-in/5291098",
       "source": "The Register",
       "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Hackers poison popular Rust crates to steal developers' credentials",
-      "summary": "Malicious updates turned routine builds into a delivery system for infostealer malware",
-      "url": "https://www.theregister.com/security/2026/08/21/hackers-poison-popular-rust-crates-to-steal-developers-credentials/5291075",
-      "source": "The Register",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "AMD grabs more CPU share while pricier PCs punish desktop demand",
-      "summary": "Mercury Research blames costly memory and scarce GPUs for 20% processor shipment slide",
-      "url": "https://www.theregister.com/systems/2026/08/21/amd-grabs-more-cpu-share-while-pricier-pcs-punish-desktop-demand/5291053",
-      "source": "The Register",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "'We let you down': GitHub pledges to scale up before developers give up",
-      "summary": "CTO promises architectural overhaul following second outage of the month",
-      "url": "https://www.theregister.com/devops/2026/08/21/we-let-you-down-github-pledges-to-scale-up-before-developers-give-up/5291031",
-      "source": "The Register",
-      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -562,6 +562,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Microsoft: August updates break printing, PDF export in WPF apps",
+      "summary": "Microsoft has confirmed that .NET Framework updates released as part of the August 2026 Patch Tuesday are breaking printing and PDF export in WPF applications. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
+      "source": "BleepingComputer",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
       "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
       "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbra Collaboration Suite (ZCS) within three days. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
@@ -669,14 +677,6 @@
       "title": "SickKids data breach exposes employee and job applicant info",
       "summary": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in third-party software. Clinical systems and patient records were not affected. (264) [...",
       "url": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Hackers poison arrayref Rust crate to push infostealer malware",
-      "summary": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
       "source": "BleepingComputer",
       "category": "CYBERSECURITY",
       "age": "RECENT"
