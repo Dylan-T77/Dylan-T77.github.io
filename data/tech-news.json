@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T10:56:07.540198+00:00",
+  "generated_at": "2026-08-24T11:46:41.146176+00:00",
   "articles": [
     {
       "title": "Due to need for 'absolute success,' China delays critical Moon launch to 2027",
@@ -159,6 +159,22 @@
       "url": "https://arstechnica.com/cars/2026/08/genesis-joins-the-giant-electric-suv-club-with-new-gv90/",
       "source": "Ars Technica",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "$1T investment giant Apollo breached after social engineering attack",
+      "summary": "Hackers spent four days inside the org's cloud platforms after apparently talking their way in",
+      "url": "https://www.theregister.com/cyber-crime/2026/08/24/1t-investment-giant-apollo-breached-after-social-engineering-attack/5291609",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "AI vendors are turning to custom hardware as Microsoft winds back the clock on Windows",
+      "summary": "Vendors are moving way beyond Nvidia’s GPUs in the datacenter",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/24/ai-vendors-are-turning-to-custom-hardware-as-microsoft-winds-back-the-clock-on-windows/5291293",
+      "source": "The Register",
+      "category": "HARDWARE",
       "age": "RECENT"
     },
     {
@@ -346,19 +362,27 @@
       "age": "RECENT"
     },
     {
-      "title": "$10K phishing kit claims it can plant rogue passkeys for persistent access to pwned accounts",
-      "summary": "Seller's demos show a browser-in-the-middle attack adding credentials seconds after authentication",
-      "url": "https://www.theregister.com/cyber-crime/2026/08/21/10k-phishing-kit-claims-it-can-plant-rogue-passkeys-for-persistent-access-to-pwned-accounts/5291006",
-      "source": "The Register",
-      "category": "CYBERSECURITY",
+      "title": "Birdfy Nest Duo Review: My Own Private Nature Documentary",
+      "summary": "With two cameras and built-in climate sensors, the Birdfy Nest Duo let me watch an entire nesting season unfold.",
+      "url": "https://www.wired.com/review/birdfy-nest-duo/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "Microsoft lets you swap New Outlook's looks with the face of Outlook Classic",
-      "summary": "Functionality not all there yet, but at least Redmond's latest and greatest appears a bit more like its predecessor",
-      "url": "https://www.theregister.com/applications/2026/08/21/microsoft-lets-you-swap-new-outlooks-looks-with-the-face-of-outlook-classic/5290948",
-      "source": "The Register",
-      "category": "WINDOWS",
+      "title": "The Kindle Accessories I Never Want to Read Without (2026)",
+      "summary": "Looking to better protect your Kindle or add a little personality to your favorite e-reader? From cases and covers to page turners and even charms, this is the guide for you.",
+      "url": "https://www.wired.com/story/best-kindle-accessories/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "The Best Home Theater Projectors in 2026: XGIMI, Hisense, Leica, and More",
+      "summary": "Home theater projectors are getting better and better, and have quickly become my favorite way to enjoy movies.",
+      "url": "https://www.wired.com/story/best-home-theater-projector/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -533,30 +557,6 @@
       "title": "The Patrick Clancy Conspiracy Theories Are Rooted in the Harsh Realities of Motherhood",
       "summary": "Lindsay Clancy’s defense argues she killed her three kids because of postpartum psychosis. But armchair detectives, including many fed-up mothers, are laying blame with her ex-husband.",
       "url": "https://www.wired.com/story/the-patrick-clancy-conspiracy-theories-are-rooted-in-the-harsh-realities-of-motherhood/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "5 Best Electric Toothbrushes (2026): Philips, Oral-B, Quip, More",
-      "summary": "After two years of testing, these are the electric toothbrushes that impressed WIRED staffers the most.",
-      "url": "https://www.wired.com/story/the-best-electric-toothbrush-for-healthier-teeth-and-gums/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Influencers and Resellers Are Turning Empty Boxes Into Big Cash",
-      "summary": "As the appetite for “authenticity” grows online, content creators are buying up empty boxes for luxury goods—and resellers are cashing in for “crazy prices.”",
-      "url": "https://www.wired.com/story/when-the-packaging-is-the-product-empty-boxes-influencers/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "The Super El Niño Won’t Fix the West’s Water Crisis",
-      "summary": "“People have talked about the Colorado River crisis for decades—we’re now in it,” says one expert. “Everyone you talk to is like, ‘Shit, man.’”",
-      "url": "https://www.wired.com/story/the-super-el-nino-wont-fix-the-wests-water-crisis/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
