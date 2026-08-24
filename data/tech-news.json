@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T10:06:37.388296+00:00",
+  "generated_at": "2026-08-24T10:56:07.540198+00:00",
   "articles": [
     {
       "title": "Due to need for 'absolute success,' China delays critical Moon launch to 2027",
@@ -159,6 +159,14 @@
       "url": "https://arstechnica.com/cars/2026/08/genesis-joins-the-giant-electric-suv-club-with-new-gv90/",
       "source": "Ars Technica",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Security vets rally around $4 paper password books for sale in Australia",
+      "summary": "Once shunned by the IT crowd, pen-and-paper password vaults are getting the love they deserve in 2026",
+      "url": "https://www.theregister.com/security/2026/08/24/security-vets-rally-around-4-paper-password-books-for-sale-in-australia/5291234",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -354,11 +362,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Microsoft sounds alarm as perfect-10 Entra ID flaw comes under attack",
-      "summary": "Redmond says the cloud identity bug is already fixed, but isn't saying who exploited it or how widely",
-      "url": "https://www.theregister.com/cyber-crime/2026/08/21/microsoft-sounds-alarm-as-perfect-10-entra-id-flaw-comes-under-attack/5290925",
-      "source": "The Register",
-      "category": "CYBERSECURITY",
+      "title": "Forget Meta Ray-Bans. These Dorky-Looking Virtual Display Glasses Are Way More Useful",
+      "summary": "Tethered display glasses are truly practical face computers. They trade bulky spatial computing for simplicity: Plug in, recline, and get a massive screen right in front of your nose.",
+      "url": "https://www.wired.com/story/all-work-and-some-play-in-a-virtual-display/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -554,11 +562,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Best Early Tech Labor Day Sales I’d Shop Myself (2026): AirTags, Dyson, and More",
-      "summary": "From the best Dyson vacuum to the best wireless headphones and earbuds we’ve tested, you can get some great gadgets on sale already ahead of Labor Day.",
-      "url": "https://www.wired.com/story/early-tech-labor-day-sales-2026/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbra Collaboration Suite (ZCS) within three days. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -643,10 +651,10 @@
     },
     {
       "title": "Microsoft patches max severity code execution, privilege escalation flaws",
-      "summary": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
+      "summary": "Microsoft has patched multiple maximum-severity vulnerabilities in Entra ID, Azure Arc, and Exchange Online that allowed attackers to gain remote code execution and escalate privileges. [...]",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
       "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
+      "category": "WINDOWS",
       "age": "RECENT"
     },
     {
@@ -669,14 +677,6 @@
       "title": "Hackers poison arrayref Rust crate to push infostealer malware",
       "summary": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
-      "summary": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
       "source": "BleepingComputer",
       "category": "CYBERSECURITY",
       "age": "RECENT"
