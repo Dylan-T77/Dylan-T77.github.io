@@ -1,6 +1,38 @@
 {
-  "generated_at": "2026-08-24T19:03:11.387382+00:00",
+  "generated_at": "2026-08-24T19:47:52.350087+00:00",
   "articles": [
+    {
+      "title": "Buyer beware: Those mummified remains might carry toxic spores",
+      "summary": "\"Mummified remains sold online exhibit signs of biodeterioration, yet sellers provide no safety guidance.\"",
+      "url": "https://arstechnica.com/science/2026/08/modern-trade-of-mummified-remains-may-carry-its-own-mummys-curse/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Nvidia senior manager linked to Supermicro scheme smuggling AI servers to China",
+      "summary": "Nvidia worker indicted after Jensen Huang scolded Supermicro for AI server smuggling.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/",
+      "source": "Ars Technica",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "F1 in the Netherlands: The driver you most want to beat is your teammate",
+      "summary": "Formula 1 returned from its summer break with this weekend's Dutch Grand Prix.",
+      "url": "https://arstechnica.com/cars/2026/08/f1-in-the-netherlands-the-driver-you-most-want-to-beat-is-your-teammate/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Trump tried to curb clean energy. It’s booming anyway.",
+      "summary": "Capacity will rise by a record 45GW this year, according to S&#038;P Global Energy.",
+      "url": "https://arstechnica.com/science/2026/08/trump-tried-to-curb-clean-energy-its-booming-anyway/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
     {
       "title": "Review: Chuwi's $449 Unibook laptop is a funhouse-mirror MacBook Neo",
       "summary": "The Unibook is a weird entry-level laptop for people with patience.",
@@ -127,38 +159,6 @@
       "url": "https://arstechnica.com/space/2026/08/rocket-report-spacex-makes-a-mark-on-the-moon-ula-names-new-boss/",
       "source": "Ars Technica",
       "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "US distributor of China’s most popular humanoid robots pivots after US ban",
-      "summary": "FCC ban on foreign-made robots accelerated RoboStore’s US manufacturing plans.",
-      "url": "https://arstechnica.com/gadgets/2026/08/us-distributor-of-chinas-most-popular-humanoid-robots-pivots-after-us-ban/",
-      "source": "Ars Technica",
-      "category": "ROBOTICS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Europe cancels planned upgrades for Ariane 6 rocket",
-      "summary": "Arianespace hasn’t publicly disclosed the cost for an Ariane 6 launch.",
-      "url": "https://arstechnica.com/space/2026/08/europe-cancels-planned-upgrades-for-ariane-6-rocket/",
-      "source": "Ars Technica",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "They survived 9/11; 25 years later, their bonds remain unbroken",
-      "summary": "Survivors reconnect with those who saved them in National Geographic's 9/11: Reunited .",
-      "url": "https://arstechnica.com/culture/2026/08/new-9-11-documentary-finds-hope-in-the-horror/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Roblox must make changes after failing to block adults creeping on kids",
-      "summary": "Roblox is first platform to submit to independent audits under the Online Safety Act.",
-      "url": "https://arstechnica.com/tech-policy/2026/08/weak-roblox-safeguards-failed-to-stop-adults-contacting-kids-regulator-says/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -562,6 +562,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
+      "summary": "Hackers are attempting to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for WordPress that can be used to forge SAML responses and log in as administrators. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
       "title": "TikTok reaches $400M settlement with US over COPPA violations",
       "summary": "The U.S. Department of Justice announced a $400 million settlement with TikTok, ByteDance, and affiliated companies over allegations that they violated the Children's Online Privacy Protection Act (COPPA). [...]",
       "url": "https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/",
@@ -674,11 +682,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Microsoft rolls out Classic Outlook theme for New Outlook users",
-      "summary": "Microsoft has started rolling out a Classic Outlook theme for users of Outlook on the web and the New Outlook for Windows. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-classic-outlook-theme-for-new-outlook-users/",
-      "source": "BleepingComputer",
-      "category": "WINDOWS",
+      "title": "Apply now to host a Side Event at TechCrunch Disrupt 2026",
+      "summary": "Apply before September 4 to be a part of the Disrupt community by hosting your own Side Event.",
+      "url": "https://techcrunch.com/2026/08/24/apply-now-to-host-a-side-event-at-techcrunch-disrupt-2026/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -791,14 +799,6 @@
       "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
       "source": "TechCrunch",
       "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Will the DOJ’s investigation into a16z spook other VCs?",
-      "summary": "On the latest episode of Equity, we wonder why the DOJ is investigating startup board seats.",
-      "url": "https://techcrunch.com/2026/08/22/will-the-dojs-investigation-into-a16z-spook-other-vcs/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
       "age": "RECENT"
     }
   ]
