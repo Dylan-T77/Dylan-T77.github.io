@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T20:51:14.129574+00:00",
+  "generated_at": "2026-08-24T21:46:45.929923+00:00",
   "articles": [
     {
       "title": "GM vehicles under federal scrutiny after hundreds of reports",
@@ -362,6 +362,22 @@
       "age": "RECENT"
     },
     {
+      "title": "Bitdefender VPN Review: Fast and Affordable Privacy",
+      "summary": "Bitdefender VPN has an excellent starting price, even if it lacks the advanced features that privacy nerds may want.",
+      "url": "https://www.wired.com/review/bitdefender-vpn/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Can You Kill Salmonella in Eggs Without Cooking Them? I Tried It",
+      "summary": "With advice from infectious disease experts, I tested a low-effort way to pasteurize eggs at home.",
+      "url": "https://www.wired.com/story/sous-vide-salmonella-eggs/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "The Best Kitchen Gadget to Prevent Salmonella Is a Good Meat Probe",
       "summary": "Salmonella outbreaks are seemingly everywhere right now. A good temperature probe is the last and best line of defense.",
       "url": "https://www.wired.com/story/food-safety-gear-salmonella/",
@@ -546,19 +562,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Meta’s Big Reckoning Is Here",
-      "summary": "Meta is in court again over child safety, and this time it’s a landmark case that could force significant changes to core features of Facebook and Instagram.",
-      "url": "https://www.wired.com/story/metas-big-reckoning-is-here/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "I Tried the Best Robotic Pool Cleaners of 2026: Beatbot, iGarden, Dreame",
-      "summary": "Pack up your pool cleaning supplies. Let one of these robot buddies maintain your water quality instead",
-      "url": "https://www.wired.com/story/best-pool-cleaning-robots/",
-      "source": "WIRED",
-      "category": "ROBOTICS",
+      "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
+      "summary": "An unpatched vulnerability in Calix GS7 XGS (GS5239XG) residential routers used by multiple U.S. broadband providers allows remote, unauthenticated attackers to create port-forwarding rules that can expose local network devices to the public internet. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -674,11 +682,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Is Online Privacy Possible? How Digital Identities Can Help",
-      "summary": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your activity. Anonyome Labs explains how separate digital personas can reduce correlation and limit the impact of breaches, spam, and identity thef",
-      "url": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
+      "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
+      "summary": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135.",
+      "url": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
+      "source": "TechCrunch",
+      "category": "SPACE",
       "age": "RECENT"
     },
     {
@@ -699,14 +707,14 @@
     },
     {
       "title": "Alabama launches investigation into OpenAI’s hack of Hugging Face",
-      "summary": "Weeks after OpenAI disclosed that one of its cybersecurity models had gone rogue and hacked AI dataset company Hugging Face, Alabama’s Attorney General announced an investigation into the incident.",
+      "summary": "Weeks after OpenAI disclosed that one of its cybersecurity models had gone rogue and hacked AI dataset company Hugging Face, Alabama’s attorney general announced an investigation into the incident.",
       "url": "https://techcrunch.com/2026/08/24/alabama-launches-investigation-into-openais-hack-of-hugging-face/",
       "source": "TechCrunch",
       "category": "AI",
       "age": "RECENT"
     },
     {
-      "title": "Amazon hikes hardware prices by 60 percent, blaming memory shortage",
+      "title": "Amazon hikes hardware prices by 60%, blaming memory shortage",
       "summary": "As the memory shortage continues to cause trouble for hardware makers, Amazon says it is now being forced to pass on the costs to its consumers.",
       "url": "https://techcrunch.com/2026/08/24/amazon-hikes-hardware-prices-by-60-percent-blaming-memory-shortage/",
       "source": "TechCrunch",
@@ -791,14 +799,6 @@
       "url": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
       "source": "TechCrunch",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
-      "summary": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
-      "url": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
-      "source": "TechCrunch",
-      "category": "AI",
       "age": "RECENT"
     }
   ]
