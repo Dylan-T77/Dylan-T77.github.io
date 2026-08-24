@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T07:31:36.234769+00:00",
+  "generated_at": "2026-08-24T09:07:27.601352+00:00",
   "articles": [
     {
       "title": "Due to need for 'absolute success,' China delays critical Moon launch to 2027",
@@ -159,6 +159,22 @@
       "url": "https://arstechnica.com/cars/2026/08/genesis-joins-the-giant-electric-suv-club-with-new-gv90/",
       "source": "Ars Technica",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Software should work, and talking about it needn't be boring",
+      "summary": "Bingeing the boxed set of binary bafflement",
+      "url": "https://www.theregister.com/columnists/2026/08/24/software-should-work-and-talking-about-it-neednt-be-boring/5290862",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "China calls off ambitious ice-hunting moonshot a day before flight",
+      "summary": "Chang'e 7 didn’t meet unspecified ‘launch requirements’",
+      "url": "https://www.theregister.com/science/2026/08/24/china-calls-off-ambitious-ice-hunting-moonshot-a-day-before-flight/5291536",
+      "source": "The Register",
+      "category": "SPACE",
       "age": "RECENT"
     },
     {
@@ -346,19 +362,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Debian is 33, Haiku is 25, and neither is standing still",
-      "summary": "One remains a pillar of Linux, while the other keeps the BeOS dream alive",
-      "url": "https://www.theregister.com/os-platforms/2026/08/21/debian-is-33-haiku-is-25-and-neither-is-standing-still/5290144",
-      "source": "The Register",
-      "category": "LINUX",
-      "age": "RECENT"
-    },
-    {
-      "title": "EE invites mobile users to live life in the 5G Fast Lane – for a price",
-      "summary": "Network slicing offers a prioritized experience for those prepared to pay for a premium monthly plan",
-      "url": "https://www.theregister.com/networks/2026/08/21/ee-invites-mobile-users-to-live-life-in-the-5g-fast-lane-for-a-price/5290303",
-      "source": "The Register",
-      "category": "GENERAL",
+      "title": "NASA’s New Space Telescope Is Poised to Discover Hidden Facets of the Universe",
+      "summary": "The Nancy Grace Roman Space Telescope is expected to discover as many as 200,000 new planets and reveal details about the elusive nature of dark matter and dark energy.",
+      "url": "https://www.wired.com/story/nasa-nancy-grace-roman-space-telescope-hidden-facets-of-universe/",
+      "source": "WIRED",
+      "category": "SPACE",
       "age": "RECENT"
     },
     {
@@ -549,14 +557,6 @@
       "title": "Paramount+ Coupon Codes and Deals for August 2026",
       "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
       "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Zoro Coupon Codes: 55% Off August",
-      "summary": "Find the best Zoro coupon codes, deals, and free shipping offers to save big on industrial equipment, tools, and supplies this month.",
-      "url": "https://www.wired.com/story/zoro-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
