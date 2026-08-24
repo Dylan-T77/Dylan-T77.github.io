@@ -1,6 +1,38 @@
 {
-  "generated_at": "2026-08-24T22:46:40.854716+00:00",
+  "generated_at": "2026-08-24T23:40:07.367891+00:00",
   "articles": [
+    {
+      "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
+      "summary": "Young employment in AI-impacted fields down 19% compared to more AI-resistant occupations.",
+      "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
+      "source": "Ars Technica",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Data centers become \"killer application\" for new power transformer tech",
+      "summary": "Solid-state transformers could also benefit EV charging and someday households.",
+      "url": "https://arstechnica.com/gadgets/2026/08/energy-hungry-ai-data-centers-spur-new-power-transformer-technology/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "RFK Jr. may upend how vaccine recommendations are categorized",
+      "summary": "There are currently 3 categories. Without reason, RFK Jr. is considering changes.",
+      "url": "https://arstechnica.com/health/2026/08/rfk-jr-may-upend-how-vaccine-recommendations-are-categorized/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Ads and tracking infiltrated TVs. Now they're coming for monitors.",
+      "summary": "Monitor vendors are playing with fire.",
+      "url": "https://arstechnica.com/gadgets/2026/08/ads-and-tracking-infiltrated-tvs-now-theyre-coming-for-monitors/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
     {
       "title": "GM vehicles under federal scrutiny after hundreds of reports",
       "summary": "The eBoost brake-by-wire system is responsible for at least 22 crashes now.",
@@ -127,38 +159,6 @@
       "url": "https://arstechnica.com/tech-policy/2026/08/lawsuit-demands-logitech-hand-tariff-refunds-over-to-customers/",
       "source": "Ars Technica",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Chinese regulators tell Tesla to fix nearly 3 million cars",
-      "summary": "Chinese safety regulators have cracked down on doors that don't open in a crash.",
-      "url": "https://arstechnica.com/cars/2026/08/chinese-regulators-tell-tesla-to-fix-nearly-3-million-cars/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Fighter jets help destroy Russian drone boat near European offshore gas platform",
-      "summary": "Romania blew up drone boat to protect lives of several hundred rig workers.",
-      "url": "https://arstechnica.com/gadgets/2026/08/explosive-russian-drone-boat-destroyed-near-european-offshore-gas-site/",
-      "source": "Ars Technica",
-      "category": "ROBOTICS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Personalized pricing is “abhorrent,” but FTC limits may increase costs, critics say",
-      "summary": "Some Americans fear the FTC may be thinking about personalized pricing all wrong.",
-      "url": "https://arstechnica.com/tech-policy/2026/08/critics-ftc-limits-on-personalized-pricing-may-increase-costs-kill-discounts/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Waymo doubles spending on lobbying in robotaxi battle with Uber",
-      "summary": "Alphabet-owned company is seeking to persuade US regulators to clear a path for fully autonomous taxi services.",
-      "url": "https://arstechnica.com/cars/2026/08/waymo-doubles-spending-on-lobbying-in-robotaxi-battle-with-uber/",
-      "source": "Ars Technica",
-      "category": "ROBOTICS",
       "age": "RECENT"
     },
     {
@@ -682,6 +682,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Oura is reportedly eyeing a September IPO that could value it at more than $16B",
+      "summary": "We all knew it was coming. The expected valuation may surprise, though.",
+      "url": "https://techcrunch.com/2026/08/24/oura-is-reportedly-eyeing-a-september-ipo-that-could-value-it-at-more-than-16b/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
       "summary": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135.",
       "url": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
@@ -791,14 +799,6 @@
       "url": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
       "source": "TechCrunch",
       "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Uber faces fine of nearly $1B over automated driver suspensions",
-      "summary": "The Dutch Data Protection Authority is fining Uber €825 million in the second-largest penalty issued under Europe’s GDPR.",
-      "url": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
       "age": "RECENT"
     }
   ]
