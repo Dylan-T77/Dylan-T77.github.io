@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T16:57:31.975567+00:00",
+  "generated_at": "2026-08-24T17:49:38.388826+00:00",
   "articles": [
     {
       "title": "Review: Chuwi's $449 Unibook laptop is a funhouse-mirror MacBook Neo",
@@ -162,6 +162,30 @@
       "age": "RECENT"
     },
     {
+      "title": "YouTuber's backyard fab ambitions expand from RAM to homebrew LEDs",
+      "summary": "Dr. Semiconductor's latest project lights the path toward what he tells us he hopes becomes a cottage chip industry",
+      "url": "https://www.theregister.com/systems/2026/08/24/youtubers-backyard-fab-ambitions-expand-from-ram-to-homebrew-leds/5291956",
+      "source": "The Register",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Iran-linked cyberattack shut down a UK power plant",
+      "summary": "No risk to wider energy system, government tells The Reg",
+      "url": "https://www.theregister.com/security/2026/08/24/iran-linked-cyberattack-shut-down-a-uk-power-plant/5291930",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Logitech hit by sueball over tariff refunds",
+      "summary": "Complaint: Peripheral maker did not want to unplug itself from higher prices and hand back cash to customers",
+      "url": "https://www.theregister.com/legal/2026/08/24/logitech-hit-by-sueball-over-tariff-refunds/5291845",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Users mash LinkedIn's AI slop button 1M+ times in 3 weeks",
       "summary": "Or: Shock as users of world's largest slop repository report lots of slop",
       "url": "https://www.theregister.com/ai-and-ml/2026/08/24/users-mash-linkedins-ai-slop-button-1m-times-in-3-weeks/5291802",
@@ -172,15 +196,15 @@
     {
       "title": "Emperor Penguin Linus Torvalds banishes a bug – with a bot",
       "summary": "The lad himself finds and fixes a tricky one… or does he?",
-      "url": "https://www.theregister.com/os-platforms/2026/08/24/emperor-penguin-linus-torvalds-banishes-a-bug-with-a-bot/5291784",
+      "url": "https://www.theregister.com/os-platforms/2026/08/24/linus-torvalds-banishes-linux-bug-with-a-bot/5291784",
       "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "What Nvidia's first Groq 3 LPU benchmarks do and don't tell us about its $20B gamble",
+      "title": "What Nvidia's first Groq 3 LPU benchmarks tell us about its $20B gamble",
       "summary": "Gemma 4 31B performance tests offer a best-case scenario for next-gen dataflow accelerators",
-      "url": "https://www.theregister.com/systems/2026/08/24/what-nvidias-first-groq-3-lpu-benchmarks-do-and-dont-tell-us-about-its-20b-gamble/5291880",
+      "url": "https://www.theregister.com/systems/2026/08/24/what-nvidias-first-groq-3-lpu-benchmarks-tell-us-about-its-20b-gamble/5291880",
       "source": "The Register",
       "category": "HARDWARE",
       "age": "RECENT"
@@ -335,30 +359,6 @@
       "url": "https://www.theregister.com/security/2026/08/22/if-youre-not-using-ai-to-attack-your-own-systems-your-adversaries-will/5291346",
       "source": "The Register",
       "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "AI slop is good for business if you know what you're doing",
-      "summary": "Your irresponsibility is someone else's opportunity",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/22/ai-slop-is-good-for-business-if-you-know-what-youre-doing/5291382",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Skylab completists, clear some shelf space for 26 DVDs",
-      "summary": "Decades of archive hunting recover downlinks, silent reels, and footage once thought lost",
-      "url": "https://www.theregister.com/offbeat/2026/08/22/skylab-completists-clear-some-shelf-space-for-26-dvds/5290531",
-      "source": "The Register",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Casio decides it's about time the simple digital watch got a little smarter",
-      "summary": "F-B100W adds Bluetooth and step tracking while keeping a two-year battery",
-      "url": "https://www.theregister.com/personal-tech/2026/08/22/casio-decides-its-about-time-the-simple-digital-watch-got-a-little-smarter/5291223",
-      "source": "The Register",
-      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -731,7 +731,7 @@
     },
     {
       "title": "Uber faces fine of nearly $1B over automated driver suspensions",
-      "summary": "The Dutch Data Protection Authority is fining Uber €825 million in the second largest penalty issued under Europe’s GDPR.",
+      "summary": "The Dutch Data Protection Authority is fining Uber €825 million in the second-largest penalty issued under Europe’s GDPR.",
       "url": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
       "source": "TechCrunch",
       "category": "GENERAL",
