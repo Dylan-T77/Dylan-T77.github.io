@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-08-25T13:14:12.025072+00:00",
+  "generated_at": "2026-08-25T14:08:51.974713+00:00",
   "articles": [
+    {
+      "title": "Apple's new desktop computers are designed specifically for local AI development",
+      "summary": "Folks have been daisy-chaining Macs for AI—this refresh keeps that in mind.",
+      "url": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
+      "source": "Ars Technica",
+      "category": "AI",
+      "age": "RECENT"
+    },
     {
       "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
       "summary": "Young employment in AI-impacted fields down 19% compared to more AI-resistant occupations.",
@@ -154,10 +162,42 @@
       "age": "RECENT"
     },
     {
-      "title": "Lawsuit demands Logitech hand tariff refunds over to customers",
-      "summary": "Logitech increased prices by up to 25 percent last year.",
-      "url": "https://arstechnica.com/tech-policy/2026/08/lawsuit-demands-logitech-hand-tariff-refunds-over-to-customers/",
-      "source": "Ars Technica",
+      "title": "OpenAI's upcoming Jalapeño chip looks like it'll be an inference beast",
+      "summary": "128 chips, 1.7 exaFLOPS, and 27 TB of HBM give Altman and crew a leg up over Blackwell, and maybe even Rubin",
+      "url": "https://www.theregister.com/systems/2026/08/25/openais-upcoming-jalapeno-chip-looks-like-itll-be-an-inference-beast/5292052",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Windows XP was released to manufacturing a quarter of a century ago",
+      "summary": "So incredibly stable, govt branches, banks and dentist offices still haven't figured out how to close it",
+      "url": "https://www.theregister.com/offbeat/2026/08/25/windows-xp-was-released-to-manufacturing-a-quarter-of-a-century-ago/5292240",
+      "source": "The Register",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "SiFive pushes development server to take RISC-V into the datacenter",
+      "summary": "Rack-mount system intended for software porting, workload optimization, to bring open standard to the bitbarn",
+      "url": "https://www.theregister.com/systems/2026/08/25/sifive-pushes-development-server-to-take-risc-v-into-the-datacenter/5292136",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Microsoft breaks WPF printing with .NET update",
+      "summary": "Summer in Redmond, Winter for everyone else",
+      "url": "https://www.theregister.com/os-platforms/2026/08/25/microsoft-breaks-wpf-printing-with-net-update/5292116",
+      "source": "The Register",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "CISA slaps its tightest three-day patching deadline on perfect-10 Oracle flaw",
+      "summary": "Disclosed in January and honeypots buzzed soon after, CISA says it’s finally time for the USG to plug the gap",
+      "url": "https://www.theregister.com/security/2026/08/25/cisa-slaps-its-tightest-three-day-patching-deadline-on-perfect-10-oracle-flaw/5292107",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -319,46 +359,6 @@
       "url": "https://www.theregister.com/databases/2026/08/24/oracle-exadata-databaseaws-offers-advantages-but-trade-offs-remain/5291731",
       "source": "The Register",
       "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "ShinyHunters and ReliaQuest trade blows over claimed breach",
-      "summary": "Attackers took a look at an employee's identity dashboard, but security firm says that's as far as they got",
-      "url": "https://www.theregister.com/cyber-crime/2026/08/24/shinyhunters-and-reliaquest-trade-blows-over-claimed-breach/5291702",
-      "source": "The Register",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Chipmakers laughing all the way to the vault as memory prices go stratospheric",
-      "summary": "Gartner reckons $1.6 trillion year is just the start, and don't expect a bust anytime soon",
-      "url": "https://www.theregister.com/systems/2026/08/24/chipmakers-laughing-all-the-way-to-the-vault-as-memory-prices-go-stratospheric/5291690",
-      "source": "The Register",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "I picked Task Manager 'to see how ready AI is for primetime… or if it would just degrade to slop' – OG dev talks to The Reg",
-      "summary": "Original author of legendary 1996 system utility tries to answer the question: 'How would I do it today?'",
-      "url": "https://www.theregister.com/applications/2026/08/24/i-picked-task-manager-to-see-how-ready-ai-is-for-primetime-or-if-it-would-just-degrade-to-slop-og-dev-talks-to-the-reg/5291639",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "AliExpress accused of fingerprinting shoppers with silent audio trick that also muted a dev's headphones",
-      "summary": "Sawtooth waves you can't hear still mess with your Bluetooth. Firefox and Brave say they've got you covered",
-      "url": "https://www.theregister.com/security/2026/08/24/aliexpress-accused-of-fingerprinting-shoppers-with-silent-audio-trick-that-also-muted-a-devs-headphones/5291662",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "US datacenters tripled their water footprint in 10 years",
-      "summary": "... and those are figures from the start of the AI boom. It can only be worse now. Silo-ed reporting isn't helping",
-      "url": "https://www.theregister.com/on-prem/2026/08/24/us-datacenters-tripled-their-water-footprint-in-10-years/5291564",
-      "source": "The Register",
-      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -562,6 +562,22 @@
       "age": "RECENT"
     },
     {
+      "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
+      "summary": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops explains how stronger identity verification can help organizations prevent fake workers and social engineering attacks from gaining legitimate ",
+      "url": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
+      "source": "BleepingComputer",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Microsoft PowerToys adds Alt+Tab-style switching for an app's windows",
+      "summary": "Microsoft updated its Windows PowerToys toolset with a new utility dubbed \"Window Hopper\" that lets users switch between an app's windows more quickly. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
+      "source": "BleepingComputer",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
       "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
       "summary": "WhatsApp has started rolling out several new account security features, including support for multiple passkeys and stronger two-step verification. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
@@ -666,19 +682,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Hackers infect Android car head units with proxy botnet malware",
-      "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
-      "summary": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command authorization, strict input validation, and narrowly scoped privileges can help se",
-      "url": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
-      "source": "BleepingComputer",
-      "category": "WINDOWS",
+      "title": "Apple’s latest Mac Mini runs on a new M6 chip, and starts at $899",
+      "summary": "The base model of the Mac Mini comes with 256GB of storage, 16GB of RAM, and costs $899.",
+      "url": "https://techcrunch.com/2026/08/25/apples-latest-mac-mini-runs-on-a-new-m6-chip-and-starts-at-899/",
+      "source": "TechCrunch",
+      "category": "HARDWARE",
       "age": "RECENT"
     },
     {
@@ -791,14 +799,6 @@
       "url": "https://techcrunch.com/2026/08/24/alabama-launches-investigation-into-openais-hack-of-hugging-face/",
       "source": "TechCrunch",
       "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Amazon hikes hardware prices by 60%, blaming memory shortage",
-      "summary": "As the memory shortage continues to cause trouble for hardware makers, Amazon says it is now being forced to pass on the costs to its consumers.",
-      "url": "https://techcrunch.com/2026/08/24/amazon-hikes-hardware-prices-by-60-percent-blaming-memory-shortage/",
-      "source": "TechCrunch",
-      "category": "HARDWARE",
       "age": "RECENT"
     }
   ]
