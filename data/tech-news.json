@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T16:58:25.402823+00:00",
+  "generated_at": "2026-08-25T17:47:29.780868+00:00",
   "articles": [
     {
       "title": "New bootloader lets you take the \"Meta\" out of the original Meta Quest",
@@ -159,6 +159,38 @@
       "url": "https://arstechnica.com/science/2026/08/researchers-use-thunderquakes-to-study-structure-of-earths-surface/",
       "source": "Ars Technica",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "EPA to drop requirement for public notice of polluting datacenters",
+      "summary": "State and local regulators would decide whether the public gets a say on minor-source permits",
+      "url": "https://www.theregister.com/on-prem/2026/08/25/epa-to-drop-requirement-for-public-notice-of-polluting-datacenters/5292341",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "You could've applied all 1,449 Oracle patches and still been hit by this attack",
+      "summary": "Attackers now ready to exploit how things work, rather than just break them, says Oracle support expert",
+      "url": "https://www.theregister.com/security/2026/08/25/you-couldve-applied-all-1449-oracle-patches-and-still-been-hit-by-this-attack/5292335",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Microsoft warns that transitioning Excel workbooks to new Exchange connectors might not be smooth sailing",
+      "summary": "Current Exchange connector is retiring - and new ones won't work if you don't upgrade",
+      "url": "https://www.theregister.com/software/2026/08/25/microsoft-warns-that-transitioning-excel-workbooks-to-new-exchange-connectors-might-not-be-smooth-sailing/5292316",
+      "source": "The Register",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Slop factory bans Russians for using slop factory to create slop",
+      "summary": "OpenAI wants you to thank it for keeping a permanent record of all your discussions with its bots",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/25/slop-factory-bans-russians-for-using-slop-factory-to-create-slop/5292297",
+      "source": "The Register",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -325,38 +357,6 @@
       "title": "Logitech hit by sueball over tariff refunds",
       "summary": "Complaint: Peripheral maker did not want to unplug itself from higher prices and hand back cash to customers",
       "url": "https://www.theregister.com/legal/2026/08/24/logitech-hit-by-sueball-over-tariff-refunds/5291845",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Users mash LinkedIn's AI slop button 1M+ times in 3 weeks",
-      "summary": "Or: Shock as users of world's largest slop repository report lots of slop",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/24/users-mash-linkedins-ai-slop-button-1m-times-in-3-weeks/5291802",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Emperor Penguin Linus Torvalds banishes a bug – with a bot",
-      "summary": "The lad himself finds and fixes a tricky one… or does he?",
-      "url": "https://www.theregister.com/os-platforms/2026/08/24/linus-torvalds-banishes-linux-bug-with-a-bot/5291784",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "What Nvidia's first Groq 3 LPU benchmarks tell us about its $20B gamble",
-      "summary": "Gemma 4 31B performance tests offer a best-case scenario for next-gen dataflow accelerators",
-      "url": "https://www.theregister.com/systems/2026/08/24/what-nvidias-first-groq-3-lpu-benchmarks-tell-us-about-its-20b-gamble/5291880",
-      "source": "The Register",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Tesla to recall almost three million vehicles over hidden door handles",
-      "summary": "At least it looks cool, right Elon? China demands changes ahead of ban on new models in 2027",
-      "url": "https://www.theregister.com/offbeat/2026/08/24/tesla-to-recall-almost-three-million-vehicles-over-hidden-door-handles/5291757",
       "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
@@ -682,6 +682,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Waymo robotaxis are headed to Munich",
+      "summary": "Germany's autonomous vehicle regulations have made it a hotspot for autonomous vehicle testing and eventual commercial robotaxi deployment.",
+      "url": "https://techcrunch.com/2026/08/25/waymo-robotaxis-are-headed-to-munich/",
+      "source": "TechCrunch",
+      "category": "ROBOTICS",
+      "age": "RECENT"
+    },
+    {
       "title": "Life360 expands pet tracking with new $8 scannable tags and zoomie alerts",
       "summary": "Life360’s new $7.99 scannable pet tags alert families when a lost pet is found and share its last known location, while new care-tracking features help households keep tabs on feeding, walks, medication, and more.",
       "url": "https://techcrunch.com/2026/08/25/life360-expands-pet-tracking-with-new-8-scannable-tags-and-zoomie-alerts/",
@@ -789,14 +797,6 @@
       "title": "Fiat Ventures combines venture and advisory divisions into new brand, raises $35M Fund II",
       "summary": "In an environment where emerging fund managers struggle to attract LP attention, FGV is betting that a different venture model can help it lure LPs.",
       "url": "https://techcrunch.com/2026/08/25/fgv-capital-bets-on-a-new-venture-model-raises-35m-fund-ii/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Fitbit founders launch Luffu Link, an LTE health and safety band",
-      "summary": "Luffu Link combines all day health sensing, voice logging, location awareness, and the ability to get help from trusted contacts into a single device, all without needing a phone nearby.",
-      "url": "https://techcrunch.com/2026/08/25/fitbit-founders-launch-luffu-link-an-lte-health-and-safety-band/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
