@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T19:48:12.971786+00:00",
+  "generated_at": "2026-08-25T20:48:54.323800+00:00",
   "articles": [
     {
       "title": "Preserving glow-in-the-dark art and fashion for future generations",
@@ -562,6 +562,14 @@
       "age": "RECENT"
     },
     {
+      "title": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
+      "summary": "A newly uncovered phishing-as-a-service (PhaaS) platform called AnonyMousKIT automates the retrieval of codes used to unlock stolen Apple devices and disable the Activation Lock feature. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
+      "source": "BleepingComputer",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
       "title": "Massive DDoS attack disrupts Norway’s government digital services",
       "summary": "A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting services used by the public sector. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
@@ -674,11 +682,11 @@
       "age": "RECENT"
     },
     {
-      "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbra Collaboration Suite (ZCS) within three days. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
+      "title": "X sends cease-and-desist to open-source project Nitter over alleged scraping",
+      "summary": "X has sent cease-and-desist letters to Nitter, the open source project behind privacy-friendly X frontends, demanding its instances and code repository be taken down over alleged scraping.",
+      "url": "https://techcrunch.com/2026/08/25/x-sends-cease-and-desist-to-open-source-project-nitter-over-alleged-scraping/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -791,14 +799,6 @@
       "url": "https://techcrunch.com/2026/08/25/apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6/",
       "source": "TechCrunch",
       "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Self-driving truck startup Gatik raises $200M following PepsiCo deal",
-      "summary": "The funding, Gatik's largest so far, was led by Qatar Investment Authority and Koch Disruptive Technologies.",
-      "url": "https://techcrunch.com/2026/08/25/self-driving-truck-startup-gatik-raises-200m-following-pepsico-deal/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
       "age": "RECENT"
     }
   ]
