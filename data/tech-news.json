@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-08-25T20:48:54.323800+00:00",
+  "generated_at": "2026-08-25T21:46:32.304034+00:00",
   "articles": [
+    {
+      "title": "World humanoid robot games show runners breaking records, bursting into flames",
+      "summary": "Record-breaking robot races are less substantial than household chore challenges.",
+      "url": "https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames/",
+      "source": "Ars Technica",
+      "category": "ROBOTICS",
+      "age": "RECENT"
+    },
     {
       "title": "Preserving glow-in-the-dark art and fashion for future generations",
       "summary": "Understanding unique photochemistry of such materials will help in conservation, storage, and exhibition.",
@@ -151,14 +159,6 @@
       "url": "https://arstechnica.com/gadgets/2026/08/review-chuwis-449-unibook-laptop-is-a-funhouse-mirror-macbook-neo/",
       "source": "Ars Technica",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Due to need for \"absolute success,\" China delays critical Moon launch to 2027",
-      "summary": "\"The Chang’e 7 mission does not meet the conditions for launch.\"",
-      "url": "https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/",
-      "source": "Ars Technica",
-      "category": "SPACE",
       "age": "RECENT"
     },
     {
@@ -362,6 +362,14 @@
       "age": "RECENT"
     },
     {
+      "title": "The Best Early Labor Day Kitchen Deals to Ease You Back Into Fall (2026)",
+      "summary": "With school and sports starting again, these discounts on Instant Pots, cookware, and coffee gear arrive right on time.",
+      "url": "https://www.wired.com/story/early-labor-day-kitchen-appliance-deals-2026/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Google Pixel 11 Pro Fold Review: Better, Not Best",
       "summary": "A polished update to Google’s foldable brings real improvements, but the price bump and rampant competition make it a tough sell.",
       "url": "https://www.wired.com/review/google-pixel-11-pro-fold/",
@@ -554,11 +562,11 @@
       "age": "RECENT"
     },
     {
-      "title": "Asus ROG Swift RGB Stripe OLED Review: Clarity King",
-      "summary": "The Asus PG27UCWM brings a new sub-pixel layout to the world of OLED gaming monitors, and in my testing, I appreciated the improvements it brings to the table.",
-      "url": "https://www.wired.com/review/asus-rog-swift-rgb-stripe-oled-pg27ucwm/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "Hackers abuse npm mirrors to host phishing redirect pages",
+      "summary": "Threat actors are abusing npm and its mirrors to host malicious HTML pages that impersonate Cloudflare CAPTCHAs to redirect visitors to attacker-controlled websites. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -671,14 +679,6 @@
       "url": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/",
       "source": "BleepingComputer",
       "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Microsoft: August updates break printing, PDF export in WPF apps",
-      "summary": "Microsoft has confirmed that .NET Framework updates released as part of the August 2026 Patch Tuesday are breaking printing and PDF export in WPF applications. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
-      "source": "BleepingComputer",
-      "category": "WINDOWS",
       "age": "RECENT"
     },
     {
