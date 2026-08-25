@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T05:49:47.067511+00:00",
+  "generated_at": "2026-08-25T07:11:24.139763+00:00",
   "articles": [
     {
       "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
@@ -159,6 +159,14 @@
       "url": "https://arstechnica.com/tech-policy/2026/08/lawsuit-demands-logitech-hand-tariff-refunds-over-to-customers/",
       "source": "Ars Technica",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "SpaceX claims it will put a Vera Rubin NVL72 rack-scale system into orbit next year",
+      "summary": "And fly ‘significant scale’ in 2028 – a claim that isn’t entirely bonkers, but needs a solid grain of salt",
+      "url": "https://www.theregister.com/off-prem/2026/08/25/spacex-claims-it-will-put-a-vera-rubin-nvl72-rack-scale-system-into-orbit-next-year/5292067",
+      "source": "The Register",
+      "category": "SPACE",
       "age": "RECENT"
     },
     {
@@ -354,10 +362,10 @@
       "age": "RECENT"
     },
     {
-      "title": "China calls off ambitious ice-hunting moonshot a day before flight",
-      "summary": "Chang'e 7 didn’t meet unspecified ‘launch requirements’",
-      "url": "https://www.theregister.com/science/2026/08/24/china-calls-off-ambitious-ice-hunting-moonshot-a-day-before-flight/5291536",
-      "source": "The Register",
+      "title": "Omega Just Released a Mini Moonwatch",
+      "summary": "Say hello to a revamped collection of perfectly proportioned 38-mm Speedmasters.",
+      "url": "https://www.wired.com/story/omega-just-released-a-mini-moonwatch/",
+      "source": "WIRED",
       "category": "SPACE",
       "age": "RECENT"
     },
@@ -551,14 +559,6 @@
       "url": "https://www.wired.com/story/nasa-cancels-its-rescue-mission-for-the-aging-swift-telescope/",
       "source": "WIRED",
       "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "The Unlikely Place at the Center of China’s AI Boom",
-      "summary": "Cheap energy, abundant land, and proximity to Beijing have turned a city in Inner Mongolia into a crucial hub for data centers.",
-      "url": "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/",
-      "source": "WIRED",
-      "category": "AI",
       "age": "RECENT"
     },
     {
