@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T07:11:24.139763+00:00",
+  "generated_at": "2026-08-25T08:01:23.343702+00:00",
   "articles": [
     {
       "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
@@ -159,6 +159,22 @@
       "url": "https://arstechnica.com/tech-policy/2026/08/lawsuit-demands-logitech-hand-tariff-refunds-over-to-customers/",
       "source": "Ars Technica",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "What is virtualization modernization?",
+      "summary": "SPONSORED EXPLAINER: Why you should take a long-term approach to rethinking your virtualization portfolio",
+      "url": "https://www.theregister.com/virtualization/2026/08/25/sponsored-what-is-virtualization-modernization/5290459",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Australia’s record industry won’t chart tunes recorded in the key of AI",
+      "summary": "This is basically a riff on ‘You wouldn’t steal a car’ and means only the human league can have a hit",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/25/australias-record-industry-wont-chart-tunes-recorded-in-the-key-of-ai/5292074",
+      "source": "The Register",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -343,22 +359,6 @@
       "url": "https://www.theregister.com/security/2026/08/24/security-vets-rally-around-4-paper-password-books-for-sale-in-australia/5291234",
       "source": "The Register",
       "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Canonical backs quest to translate mountains of C into safe Rust with AI",
-      "summary": "Bungs banknotes at Bristol boffins to find out if mature code survives the machine",
-      "url": "https://www.theregister.com/software/2026/08/24/canonical-backs-quest-to-translate-mountains-of-c-into-safe-rust-with-ai/5290959",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Software should work, and talking about it needn't be boring",
-      "summary": "Bingeing the boxed set of binary bafflement",
-      "url": "https://www.theregister.com/columnists/2026/08/24/software-should-work-and-talking-about-it-neednt-be-boring/5290862",
-      "source": "The Register",
-      "category": "GENERAL",
       "age": "RECENT"
     },
     {
