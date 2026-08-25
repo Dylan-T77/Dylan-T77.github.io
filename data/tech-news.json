@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-08-25T17:47:29.780868+00:00",
+  "generated_at": "2026-08-25T19:00:26.126617+00:00",
   "articles": [
+    {
+      "title": "Two unvaccinated people die from measles in Pennsylvania, officials confirm",
+      "summary": "\"[P]eople are not familiar with this disease and don’t fully understand the potential severity.\"",
+      "url": "https://arstechnica.com/health/2026/08/two-unvaccinated-people-die-from-measles-in-pennsylvania-officials-confirm/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "SpaceX intends to invest up to $100 billion in massive Louisiana spaceport",
+      "summary": "\"This will be a project like no other.\"",
+      "url": "https://arstechnica.com/space/2026/08/spacex-intends-to-invest-up-to-100-billion-in-massive-louisiana-spaceport/",
+      "source": "Ars Technica",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Lab supply companies have been selling antibodies using manipulated images",
+      "summary": "Image changes that would get a paper retracted are widespread among suppliers.",
+      "url": "https://arstechnica.com/science/2026/08/lab-supply-companies-have-been-selling-antibodies-using-manipulated-images/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
     {
       "title": "New bootloader lets you take the \"Meta\" out of the original Meta Quest",
       "summary": "Privilege escalation attack grants \"full control\" and freedom from Meta's servers/apps.",
@@ -133,30 +157,6 @@
       "title": "Putting mice into hibernation causes a major loss of synapses",
       "summary": "Hibernation cuts down on synapses, but mice seem to retain memories anyway.",
       "url": "https://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Dismantling the Roadless Rule threatens to disrupt wildlife and water in US",
-      "summary": "Lands free of roads are under threat from the Trump administration’s proposed rollback.",
-      "url": "https://arstechnica.com/science/2026/08/dismantling-the-roadless-rule-threatens-to-disrupt-wildlife-and-water-in-us/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Trump's space transportation policy calls for new spaceport on federal land",
-      "summary": "\"We probably need another site that's capable of heavy and super heavy launch capability.\"",
-      "url": "https://arstechnica.com/space/2026/08/trump-admin-calls-for-more-spaceports-to-handle-surge-in-launches/",
-      "source": "Ars Technica",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Thunder + fiber-optic cabling used for seismic imaging",
-      "summary": "Thunderstorms make seismic waves that can be used to find sub-surface features.",
-      "url": "https://arstechnica.com/science/2026/08/researchers-use-thunderquakes-to-study-structure-of-earths-surface/",
       "source": "Ars Technica",
       "category": "GENERAL",
       "age": "RECENT"
@@ -362,6 +362,22 @@
       "age": "RECENT"
     },
     {
+      "title": "Google Pixel 11 Pro Fold Review: Better, Not Best",
+      "summary": "A polished update to Google’s foldable brings real improvements, but the price bump and rampant competition make it a tough sell.",
+      "url": "https://www.wired.com/review/google-pixel-11-pro-fold/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "The US Just Recorded Its First 2 Measles Deaths This Year",
+      "summary": "The fatalities come amid declining vaccination rates and calls from President Donald Trump to split up the MMR vaccine.",
+      "url": "https://www.wired.com/story/us-recorded-first-measles-deaths-2026/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "The Supreme Court’s Mail-In Ballot Ruling Is a Step Toward Chaos in the Midterms",
       "summary": "The Supreme Court has removed one roadblock from the Trump administration’s attempts to impose severe restrictions on voting.",
       "url": "https://www.wired.com/story/the-supreme-courts-mail-in-ballot-ruling-is-a-step-toward-chaos-in-the-midterms/",
@@ -546,22 +562,6 @@
       "age": "RECENT"
     },
     {
-      "title": "What’s the Best Kindle of 2026? (So Far)",
-      "summary": "I’ve tested every single Kindle. Here’s how Amazon’s ebook readers stack up.",
-      "url": "https://www.wired.com/gallery/best-kindle/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Transistors Changed Everything. Here’s How They Work",
-      "summary": "How a tiny little electronic switch sparked the computer revolution.",
-      "url": "https://www.wired.com/story/transistors-changed-everything-heres-how-they-work/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Massive DDoS attack disrupts Norway’s government digital services",
       "summary": "A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting services used by the public sector. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
@@ -682,6 +682,38 @@
       "age": "RECENT"
     },
     {
+      "title": "SpaceX will build a second, $100B ‘Starbase’ spaceport in Louisiana",
+      "summary": "The company says it will start construction in 2027 and that a Starship rocket could take flight as soon as 2029.",
+      "url": "https://techcrunch.com/2026/08/25/spacex-will-build-a-second-100b-starbase-spaceport-in-louisiana/",
+      "source": "TechCrunch",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Your vote matters! Decide which Audience Choice sessions will make it to TechCrunch Founder Summit",
+      "summary": "Each year, we get a huge influx of applicants to speak at TechCrunch’s events, and this year’s Founder Summit in Boston on November 4 will be no different!",
+      "url": "https://techcrunch.com/2026/08/25/your-vote-matters-decide-which-audience-choice-sessions-will-make-it-to-techcrunch-founder-summit/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Tonight marks your last chance to save up to $300 on a TechCrunch Disrupt 2026 pass",
+      "summary": "If you’ve been circling around Disrupt, then now’s the best time to lock in your pass and start getting ready to join the rest of the startup community gathering in San Francisco from October 13-15 at Moscone West!",
+      "url": "https://techcrunch.com/2026/08/25/tonight-marks-your-last-chance-to-save-up-to-300-on-a-techcrunch-disrupt-2026-pass/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Claude Cowork finally remembers what you told the app in chat",
+      "summary": "Anthropic is giving Claude a shared memory across chat and Cowork, so users no longer have to repeatedly brief the AI on projects, preferences, and other context.",
+      "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
       "title": "Waymo robotaxis are headed to Munich",
       "summary": "Germany's autonomous vehicle regulations have made it a hotspot for autonomous vehicle testing and eventual commercial robotaxi deployment.",
       "url": "https://techcrunch.com/2026/08/25/waymo-robotaxis-are-headed-to-munich/",
@@ -765,38 +797,6 @@
       "title": "Andy Dunn’s startup Pie becomes less of an events app and more of a social network",
       "summary": "The social app founded by Bonobos co-founder Andy Dunn is expanding beyond events with new digital homes for groups to connect, organize, and make plans.",
       "url": "https://techcrunch.com/2026/08/25/andy-dunns-startup-pie-becomes-less-of-an-events-app-and-more-of-a-social-network/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "WhatsApp tightens account security with stronger two-step verification and more",
-      "summary": "WhatsApp’s two-step verification previously relied on a six-digit PIN, but now users can choose a longer, alphanumeric password with special characters.",
-      "url": "https://techcrunch.com/2026/08/25/whatsapp-tightens-account-security-with-stronger-two-step-verification-and-more/",
-      "source": "TechCrunch",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Accel-backed Keenable is indexing the web for AI agents",
-      "summary": "Now exiting stealth mode with a $26 million seed round, Keenable has been building a vast web search index for AI agents.",
-      "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Uber launches live video streaming for teen accounts",
-      "summary": "Uber said no one will be able to access the video once the ride ends.",
-      "url": "https://techcrunch.com/2026/08/25/uber-launches-live-video-streaming-for-teen-accounts/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Fiat Ventures combines venture and advisory divisions into new brand, raises $35M Fund II",
-      "summary": "In an environment where emerging fund managers struggle to attract LP attention, FGV is betting that a different venture model can help it lure LPs.",
-      "url": "https://techcrunch.com/2026/08/25/fgv-capital-bets-on-a-new-venture-model-raises-35m-fund-ii/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
