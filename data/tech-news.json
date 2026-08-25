@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T04:04:18.748108+00:00",
+  "generated_at": "2026-08-25T04:56:34.875043+00:00",
   "articles": [
     {
       "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
@@ -362,6 +362,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Data Centers Are Driving an Alarming Gas Power Expansion in the US",
+      "summary": "There’s no clearer sign of the data center boom than rampant gas projects that have been proposed or that are already under construction.",
+      "url": "https://www.wired.com/story/us-data-centers-drive-gas-power-expansion/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Bitdefender VPN Review: Fast and Affordable Privacy",
       "summary": "Bitdefender VPN has an excellent starting price, even if it lacks the advanced features that privacy nerds may want.",
       "url": "https://www.wired.com/review/bitdefender-vpn/",
@@ -551,14 +559,6 @@
       "url": "https://www.wired.com/story/the-unlikely-place-at-the-center-of-chinas-ai-boom/",
       "source": "WIRED",
       "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Tesla’s Door Handles Lead to Its Biggest Recall Yet",
-      "summary": "A Chinese agency says the two recalls affecting some 3 million vehicles can mostly be fixed by over-the-air updates—but they will also require physical warning stickers and camera-related updates.",
-      "url": "https://www.wired.com/story/teslas-door-handles-lead-to-its-biggest-recall-yet/",
-      "source": "WIRED",
-      "category": "GENERAL",
       "age": "RECENT"
     },
     {
