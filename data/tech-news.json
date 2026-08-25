@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T15:08:41.801987+00:00",
+  "generated_at": "2026-08-25T16:03:06.302729+00:00",
   "articles": [
     {
       "title": "Apple's new desktop computers are designed specifically for local AI development",
@@ -362,6 +362,14 @@
       "age": "RECENT"
     },
     {
+      "title": "The Supreme Court’s Mail-In Ballot Ruling Is a Step Toward Chaos in the Midterms",
+      "summary": "The Supreme Court has removed one roadblock from the Trump administration’s attempts to impose severe restrictions on voting.",
+      "url": "https://www.wired.com/story/the-supreme-courts-mail-in-ballot-ruling-is-a-step-toward-chaos-in-the-midterms/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Apple Mac Mini M6 and Mac Studio M5 Ultra: Specs, Price, Release Date",
       "summary": "Apple’s Mac Mini and Mac Studio have been tough to buy for months, but updated versions have arrived. Both include new chips optimized for AI, with the M6 Mac Mini getting a $200 price bump.",
       "url": "https://www.wired.com/story/apple-announces-m6-and-m5-ultra-mac-mini-mac-studio/",
@@ -554,10 +562,10 @@
       "age": "RECENT"
     },
     {
-      "title": "The 6 Best Laptop Docking Stations to Unlock the Full Desktop Experience (2026)",
-      "summary": "Docking stations expand what your laptop can do, and I’ve been testing the best of the best to see which you should buy.",
-      "url": "https://www.wired.com/gallery/best-laptop-docking-stations/",
-      "source": "WIRED",
+      "title": "Massive DDoS attack disrupts Norway’s government digital services",
+      "summary": "A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting services used by the public sector. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
+      "source": "BleepingComputer",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -674,11 +682,19 @@
       "age": "RECENT"
     },
     {
-      "title": "Microsoft shares temporary fix for Windows 11 gaming issues",
-      "summary": "Microsoft has shared a temporary fix for ongoing gaming issues caused by Windows 11 updates released during the August 2026 Patch Tuesday. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues/",
-      "source": "BleepingComputer",
-      "category": "WINDOWS",
+      "title": "That fake Grand Theft Auto VI demo is actually just malware",
+      "summary": "Grand Theft Auto fans, eager for news about one of the most anticipated video games of all time, appear especially vulnerable to this new cyberattack.",
+      "url": "https://techcrunch.com/2026/08/25/that-fake-grand-theft-auto-vi-demo-is-actually-just-malware/",
+      "source": "TechCrunch",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Pacific Fusion’s next fusion machine could clear a key hurdle to commercial power",
+      "summary": "Fusion startup Pacific Fusion broke ground on a demonstration facility in New Mexico that it says will generate enough energy to power itself.",
+      "url": "https://techcrunch.com/2026/08/25/pacific-fusion-next-fusion-machine-could-clear-key-hurdle-to-commercial-power/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -781,22 +797,6 @@
       "title": "‘The world seems to be ready’: An interview with OpenAI head of product Thibault Sottiaux",
       "summary": "TechCrunch talks agents, UX, and reporting to Greg Brockman with OpenAI's head of product.",
       "url": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "India’s Airbound bags $37M to take on trucks with rocket-like drones",
-      "summary": "Airbound's ultra-lightweight approach to drone delivery has attracted backing from Greenoaks, DoorDash, and Silicon Valley investor Lachy Groom.",
-      "url": "https://techcrunch.com/2026/08/24/indias-airbound-bags-37m-to-take-on-trucks-with-rocket-like-drones/",
-      "source": "TechCrunch",
-      "category": "ROBOTICS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
-      "summary": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversify your portfolio.\"",
-      "url": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
       "source": "TechCrunch",
       "category": "AI",
       "age": "RECENT"
