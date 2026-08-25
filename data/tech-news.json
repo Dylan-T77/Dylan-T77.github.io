@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T09:53:46.039752+00:00",
+  "generated_at": "2026-08-25T10:52:30.504672+00:00",
   "articles": [
     {
       "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
@@ -159,6 +159,14 @@
       "url": "https://arstechnica.com/tech-policy/2026/08/lawsuit-demands-logitech-hand-tariff-refunds-over-to-customers/",
       "source": "Ars Technica",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Ukraine unveils native jet-powered drone interceptor",
+      "summary": "Fast and lightweight unmanned aircraft is designed for easy deployment and fits in a pickup truck",
+      "url": "https://www.theregister.com/offbeat/2026/08/25/ukraine-unveils-native-jet-powered-drone-interceptor/5292081",
+      "source": "The Register",
+      "category": "ROBOTICS",
       "age": "RECENT"
     },
     {
@@ -354,11 +362,19 @@
       "age": "RECENT"
     },
     {
-      "title": "$1T investment giant Apollo breached after social engineering attack",
-      "summary": "Hackers spent four days inside the org's cloud platforms after apparently talking their way in",
-      "url": "https://www.theregister.com/cyber-crime/2026/08/24/1t-investment-giant-apollo-breached-after-social-engineering-attack/5291609",
-      "source": "The Register",
-      "category": "CYBERSECURITY",
+      "title": "Optoma GT2400HDR Review: Ace Projector for Golf Simulation",
+      "summary": "The Optoma GT2400HDR laser projector is great for setting up a driving range in your living room, but mediocre video quality makes it less appealing for home entertainment.",
+      "url": "https://www.wired.com/review/optoma-gt2400hdr/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Border Wall Construction Threatens 6,000 Years of History on Private Lands",
+      "summary": "Archeologists are confronting an “unfathomable” loss as border wall construction is set to cut across ranches that are home to unique historical sites, many of which haven’t been fully studied.",
+      "url": "https://www.wired.com/story/border-wall-construction-threatens-6000-years-of-history/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -543,22 +559,6 @@
       "url": "https://www.wired.com/gallery/best-monitor-arms/",
       "source": "WIRED",
       "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Set Up a Separate Work Profile on Your Android Phone",
-      "summary": "It is possible to achieve your desired work-life balance on your smartphone. Just set up separate accounts using this built-in Android feature.",
-      "url": "https://www.wired.com/story/set-up-a-separate-work-profile-on-your-android-phone/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "The Best Mattress Toppers I've Tried (2026): Supportive, Plush, Memory Foam",
-      "summary": "These toppers will transform your mattress into exactly what you need, whether that’s a super-plush pillow top, memory foam, or targeted back support.",
-      "url": "https://www.wired.com/gallery/the-best-mattress-toppers/",
-      "source": "WIRED",
-      "category": "GENERAL",
       "age": "RECENT"
     },
     {
