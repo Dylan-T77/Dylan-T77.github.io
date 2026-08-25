@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T08:01:23.343702+00:00",
+  "generated_at": "2026-08-25T09:02:24.838335+00:00",
   "articles": [
     {
       "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
@@ -158,6 +158,14 @@
       "summary": "Logitech increased prices by up to 25 percent last year.",
       "url": "https://arstechnica.com/tech-policy/2026/08/lawsuit-demands-logitech-hand-tariff-refunds-over-to-customers/",
       "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "HMRC dangles £500M carrot for National Insurance system revamp",
+      "summary": "Taxman wants to drag creaky NPS into agile era",
+      "url": "https://www.theregister.com/software/2026/08/25/hmrc-dangles-500m-carrot-for-national-insurance-system-revamp/5291869",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -351,14 +359,6 @@
       "url": "https://www.theregister.com/ai-and-ml/2026/08/24/ai-vendors-are-turning-to-custom-hardware-as-microsoft-winds-back-the-clock-on-windows/5291293",
       "source": "The Register",
       "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Security vets rally around $4 paper password books for sale in Australia",
-      "summary": "Once shunned by the IT crowd, pen-and-paper password vaults are getting the love they deserve in 2026",
-      "url": "https://www.theregister.com/security/2026/08/24/security-vets-rally-around-4-paper-password-books-for-sale-in-australia/5291234",
-      "source": "The Register",
-      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
