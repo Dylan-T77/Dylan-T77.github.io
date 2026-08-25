@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-08-25T16:03:06.302729+00:00",
+  "generated_at": "2026-08-25T16:58:25.402823+00:00",
   "articles": [
+    {
+      "title": "New bootloader lets you take the \"Meta\" out of the original Meta Quest",
+      "summary": "Privilege escalation attack grants \"full control\" and freedom from Meta's servers/apps.",
+      "url": "https://arstechnica.com/gaming/2026/08/new-bootloader-lets-you-take-the-meta-out-of-the-original-meta-quest/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "AI won’t replace radiologists, but it will dramatically change their jobs",
+      "summary": "A pioneering AI scientist once predicted computers would replace human radiologists. They haven't.",
+      "url": "https://arstechnica.com/health/2026/08/ai-wont-replace-radiologists-but-it-will-dramatically-change-their-jobs/",
+      "source": "Ars Technica",
+      "category": "AI",
+      "age": "RECENT"
+    },
     {
       "title": "Apple's new desktop computers are designed specifically for local AI development",
       "summary": "Folks have been daisy-chaining Macs for AI—this refresh keeps that in mind.",
@@ -66,7 +82,7 @@
       "age": "RECENT"
     },
     {
-      "title": "Nvidia senior manager linked to Supermicro scheme smuggling AI servers to China",
+      "title": "Nvidia senior manager tied to ex-Supermicro staff's AI smuggling scheme",
       "summary": "Nvidia worker indicted after Jensen Huang scolded Supermicro for AI server smuggling.",
       "url": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/",
       "source": "Ars Technica",
@@ -141,22 +157,6 @@
       "title": "Thunder + fiber-optic cabling used for seismic imaging",
       "summary": "Thunderstorms make seismic waves that can be used to find sub-surface features.",
       "url": "https://arstechnica.com/science/2026/08/researchers-use-thunderquakes-to-study-structure-of-earths-surface/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Hidden Zillow listings created fake supply shock, raising NYC rents, lawsuit says",
-      "summary": "Renters say hidden Zillow listings make it harder to afford living in New York City.",
-      "url": "https://arstechnica.com/tech-policy/2026/08/class-action-accuses-brokers-of-hiding-zillow-listings-driving-up-nyc-rents/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Motorola's GrapheneOS phones will launch in 2027 priced higher than Pixels",
-      "summary": "The private Android-based OS will expand beyond Pixels next year.",
-      "url": "https://arstechnica.com/gadgets/2026/08/motorolas-grapheneos-phones-will-launch-in-2027-priced-higher-than-pixels/",
       "source": "Ars Technica",
       "category": "GENERAL",
       "age": "RECENT"
@@ -682,6 +682,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Life360 expands pet tracking with new $8 scannable tags and zoomie alerts",
+      "summary": "Life360’s new $7.99 scannable pet tags alert families when a lost pet is found and share its last known location, while new care-tracking features help households keep tabs on feeding, walks, medication, and more.",
+      "url": "https://techcrunch.com/2026/08/25/life360-expands-pet-tracking-with-new-8-scannable-tags-and-zoomie-alerts/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "That fake Grand Theft Auto VI demo is actually just malware",
       "summary": "Grand Theft Auto fans, eager for news about one of the most anticipated video games of all time, appear especially vulnerable to this new cyberattack.",
       "url": "https://techcrunch.com/2026/08/25/that-fake-grand-theft-auto-vi-demo-is-actually-just-malware/",
@@ -771,7 +779,7 @@
     },
     {
       "title": "Uber launches live video streaming for teen accounts",
-      "summary": "Uber said no one will be able to access the video once the ride ends",
+      "summary": "Uber said no one will be able to access the video once the ride ends.",
       "url": "https://techcrunch.com/2026/08/25/uber-launches-live-video-streaming-for-teen-accounts/",
       "source": "TechCrunch",
       "category": "GENERAL",
@@ -791,14 +799,6 @@
       "url": "https://techcrunch.com/2026/08/25/fitbit-founders-launch-luffu-link-an-lte-health-and-safety-band/",
       "source": "TechCrunch",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "‘The world seems to be ready’: An interview with OpenAI head of product Thibault Sottiaux",
-      "summary": "TechCrunch talks agents, UX, and reporting to Greg Brockman with OpenAI's head of product.",
-      "url": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux/",
-      "source": "TechCrunch",
-      "category": "AI",
       "age": "RECENT"
     }
   ]
