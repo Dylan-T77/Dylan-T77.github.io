@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-08-25T19:00:26.126617+00:00",
+  "generated_at": "2026-08-25T19:48:12.971786+00:00",
   "articles": [
+    {
+      "title": "Preserving glow-in-the-dark art and fashion for future generations",
+      "summary": "Understanding unique photochemistry of such materials will help in conservation, storage, and exhibition.",
+      "url": "https://arstechnica.com/science/2026/08/how-chemistry-can-keep-glow-in-the-dark-pigments-from-fading/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Google's anti-nausea Motion Assist dots finally rolling out on Android",
+      "summary": "It's currently only appearing on Pixels running Android 17.",
+      "url": "https://arstechnica.com/gadgets/2026/08/google-begins-rolling-out-anti-motion-sickness-feature-on-android-17/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
     {
       "title": "Two unvaccinated people die from measles in Pennsylvania, officials confirm",
       "summary": "\"[P]eople are not familiar with this disease and don’t fully understand the potential severity.\"",
@@ -143,22 +159,6 @@
       "url": "https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/",
       "source": "Ars Technica",
       "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Volcanoes that made history",
-      "summary": "Enormous eruptions altered Earth’s climate and societies all over the globe.",
-      "url": "https://arstechnica.com/science/2026/08/volcanoes-that-made-history/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Putting mice into hibernation causes a major loss of synapses",
-      "summary": "Hibernation cuts down on synapses, but mice seem to retain memories anyway.",
-      "url": "https://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -682,6 +682,22 @@
       "age": "RECENT"
     },
     {
+      "title": "Instagram’s ‘First Draft’ feature aims to make editing Reels less tedious",
+      "summary": "Instagram is making one of the most tedious parts of creating Reels easier. The company announced Tuesday in a Threads post that it’s rolling out “First Draft,” a new editing feature that automatically trims selected video clips and removes pauses, pulling together the best momen",
+      "url": "https://techcrunch.com/2026/08/25/instagrams-first-draft-feature-aims-to-make-editing-reels-less-tedious/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
+      "summary": "The company's new fundraising total now stands at $232 million.",
+      "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "SpaceX will build a second, $100B ‘Starbase’ spaceport in Louisiana",
       "summary": "The company says it will start construction in 2027 and that a Starship rocket could take flight as soon as 2029.",
       "url": "https://techcrunch.com/2026/08/25/spacex-will-build-a-second-100b-starbase-spaceport-in-louisiana/",
@@ -781,22 +797,6 @@
       "title": "Self-driving truck startup Gatik raises $200M following PepsiCo deal",
       "summary": "The funding, Gatik's largest so far, was led by Qatar Investment Authority and Koch Disruptive Technologies.",
       "url": "https://techcrunch.com/2026/08/25/self-driving-truck-startup-gatik-raises-200m-following-pepsico-deal/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Apple’s latest Mac Mini runs on a new M6 chip, and starts at $899",
-      "summary": "The base model of the Mac Mini comes with 256GB of storage, 16GB of RAM, and costs $899.",
-      "url": "https://techcrunch.com/2026/08/25/apples-latest-mac-mini-runs-on-a-new-m6-chip-and-starts-at-899/",
-      "source": "TechCrunch",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Andy Dunn’s startup Pie becomes less of an events app and more of a social network",
-      "summary": "The social app founded by Bonobos co-founder Andy Dunn is expanding beyond events with new digital homes for groups to connect, organize, and make plans.",
-      "url": "https://techcrunch.com/2026/08/25/andy-dunns-startup-pie-becomes-less-of-an-events-app-and-more-of-a-social-network/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
