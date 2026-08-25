@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T14:08:51.974713+00:00",
+  "generated_at": "2026-08-25T15:08:41.801987+00:00",
   "articles": [
     {
       "title": "Apple's new desktop computers are designed specifically for local AI development",
@@ -162,6 +162,14 @@
       "age": "RECENT"
     },
     {
+      "title": "US convicts ex-Philips engineer for exposing X-ray secrets to competitor",
+      "summary": "Dutch electronics giant saw right through ex-engineer’s plot, albeit over a year after it all unravelled",
+      "url": "https://www.theregister.com/legal/2026/08/25/us-convicts-ex-philips-engineer-for-exposing-x-ray-secrets-to-competitor/5292291",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "OpenAI's upcoming Jalapeño chip looks like it'll be an inference beast",
       "summary": "128 chips, 1.7 exaFLOPS, and 27 TB of HBM give Altman and crew a leg up over Blackwell, and maybe even Rubin",
       "url": "https://www.theregister.com/systems/2026/08/25/openais-upcoming-jalapeno-chip-looks-like-itll-be-an-inference-beast/5292052",
@@ -171,7 +179,7 @@
     },
     {
       "title": "Windows XP was released to manufacturing a quarter of a century ago",
-      "summary": "So incredibly stable, govt branches, banks and dentist offices still haven't figured out how to close it",
+      "summary": "So incredibly stable, govt branches, banks, and dentist offices still haven't figured out how to close it",
       "url": "https://www.theregister.com/offbeat/2026/08/25/windows-xp-was-released-to-manufacturing-a-quarter-of-a-century-ago/5292240",
       "source": "The Register",
       "category": "WINDOWS",
@@ -351,14 +359,6 @@
       "url": "https://www.theregister.com/offbeat/2026/08/24/tesla-to-recall-almost-three-million-vehicles-over-hidden-door-handles/5291757",
       "source": "The Register",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Oracle Exadata Database@AWS offers advantages, but trade-offs remain",
-      "summary": "Cloud giant allows customers to get more from Oracle hardware, but will try to gain more workloads on the side",
-      "url": "https://www.theregister.com/databases/2026/08/24/oracle-exadata-databaseaws-offers-advantages-but-trade-offs-remain/5291731",
-      "source": "The Register",
-      "category": "HARDWARE",
       "age": "RECENT"
     },
     {
@@ -562,6 +562,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Hospital operator Nutex Health says data stolen in cyberattack",
+      "summary": "Healthcare and services provider Nutex is investigating a data breach incident where an unauthorized third party exfiltrated information from company servers. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
       "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
       "summary": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops explains how stronger identity verification can help organizations prevent fake workers and social engineering attacks from gaining legitimate ",
       "url": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
@@ -674,11 +682,43 @@
       "age": "RECENT"
     },
     {
-      "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
-      "summary": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
+      "title": "Gamma acquires Accel-backed design startup Lica",
+      "summary": "Lica co-founders are going to work on Gamma's new research team.",
+      "url": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Apple rescues Hide My Email feature from the privacy scrap heap",
+      "summary": "Apple says it will no longer ditch using its icloud.com domain for hiding people's email addresses.",
+      "url": "https://techcrunch.com/2026/08/25/apple-rescues-hide-my-email-feature-from-the-privacy-scrap-heap/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+      "summary": "Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+      "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Apple debuts its ‘most powerful chip ever’ in M5 Ultra and M6",
+      "summary": "Apple unveils these new processors alongside an updated Mac Mini and Mac Studio.",
+      "url": "https://techcrunch.com/2026/08/25/apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6/",
+      "source": "TechCrunch",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Self-driving truck startup Gatik raises $200M following PepsiCo deal",
+      "summary": "The funding, Gatik's largest so far, was led by Qatar Investment Authority and Koch Disruptive Technologies.",
+      "url": "https://techcrunch.com/2026/08/25/self-driving-truck-startup-gatik-raises-200m-following-pepsico-deal/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -757,46 +797,6 @@
       "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
       "summary": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversify your portfolio.\"",
       "url": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Oura is reportedly eyeing a September IPO that could value it at more than $16B",
-      "summary": "We all knew it was coming. The expected valuation may surprise, though.",
-      "url": "https://techcrunch.com/2026/08/24/oura-is-reportedly-eyeing-a-september-ipo-that-could-value-it-at-more-than-16b/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
-      "summary": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135.",
-      "url": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
-      "source": "TechCrunch",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Zillow and Redfin settle FTC antitrust case",
-      "summary": "Zillow and Redfin reached a settlement with the FTC, which requires Redfin to reenter the rental advertising business.",
-      "url": "https://techcrunch.com/2026/08/24/zillow-and-redfin-settle-ftc-antitrust-case/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Showcase your startup at TechCrunch Disrupt 2026 and book an exhibit table while there’s still space",
-      "summary": "Make the most of Disrupt's crowds of potential investors and partners by exhibiting your startup from October 13-15.",
-      "url": "https://techcrunch.com/2026/08/24/showcase-your-startup-at-techcrunch-disrupt-2026-and-book-an-exhibit-table-while-theres-still-space/",
-      "source": "TechCrunch",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Alabama launches investigation into OpenAI’s hack of Hugging Face",
-      "summary": "Weeks after OpenAI disclosed that one of its cybersecurity models had gone rogue and hacked AI dataset company Hugging Face, Alabama’s attorney general announced an investigation into the incident.",
-      "url": "https://techcrunch.com/2026/08/24/alabama-launches-investigation-into-openais-hack-of-hugging-face/",
       "source": "TechCrunch",
       "category": "AI",
       "age": "RECENT"
