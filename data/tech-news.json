@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T01:54:59.718057+00:00",
+  "generated_at": "2026-08-25T03:14:31.842413+00:00",
   "articles": [
     {
       "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
@@ -158,6 +158,38 @@
       "summary": "Logitech increased prices by up to 25 percent last year.",
       "url": "https://arstechnica.com/tech-policy/2026/08/lawsuit-demands-logitech-hand-tariff-refunds-over-to-customers/",
       "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "IBM announces chip that natively executes Arm and Z instructions concurrently",
+      "summary": "Cunning plan to expand the amount of software that runs on mainframes is also an admission ISVs are focusing their energies elsewhere",
+      "url": "https://www.theregister.com/systems/2026/08/25/ibm-announces-chip-that-natively-executes-arm-and-z-instructions-concurrently/5292059",
+      "source": "The Register",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Microsoft AI watermarks in Paint and Photos are linked to user IDs, researcher finds",
+      "summary": "Privacy? Not if you use hosted AI services",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/25/microsoft-ai-watermarks-in-paint-and-photos-are-linked-to-user-ids-researcher-finds/5292034",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "You don't want this Sleepwalker backdoor on your Windows machine",
+      "summary": "Its own command language, 23 instructions - signs point to 'well-resourced operation rather than an opportunistic one'",
+      "url": "https://www.theregister.com/security/2026/08/24/you-dont-want-this-sleepwalker-backdoor-on-your-windows-machine/5292021",
+      "source": "The Register",
+      "category": "WINDOWS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Browser fingerprint tool shows how easy you are to track using the latest sneaky tricks",
+      "summary": "Glassbox dev admits he had some help from Claude to build locally running tool",
+      "url": "https://www.theregister.com/security/2026/08/24/browser-fingerprint-tool-shows-how-easy-you-are-to-track-using-the-latest-sneaky-tricks/5292015",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -327,38 +359,6 @@
       "url": "https://www.theregister.com/science/2026/08/24/china-calls-off-ambitious-ice-hunting-moonshot-a-day-before-flight/5291536",
       "source": "The Register",
       "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Batch file automated a clean-up job, then fouled itself by deleting the wrong directory",
-      "summary": "It survived testing and the boss signed off, so who was really to blame?",
-      "url": "https://www.theregister.com/software/2026/08/24/batch-file-automated-a-clean-up-job-then-fouled-itself-by-deleting-the-wrong-directory/5290873",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "AI-driven upgrade of communications energy storage empowers a new energy ecosystem for multiple industries",
-      "summary": "SPONSORED FEATURE: Embedding AI at communication sites to empower energy optimization, power grid stability control and low-carbon development",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/24/sponsored-ai-driven-upgrade-of-communications-energy-storage-empowers-a-new-energy-ecosystem-for-multiple-industries/5290186",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Ancient ‘Who owns Linux?’ case now has one foot very deep in the grave",
-      "summary": "Appeals court upholds decision the case is dead, but Xinuos is trying for a long-shot re-hearing",
-      "url": "https://www.theregister.com/software/2026/08/24/ancient-who-owns-linux-case-now-has-one-foot-very-deep-in-the-grave/5291513",
-      "source": "The Register",
-      "category": "LINUX",
-      "age": "RECENT"
-    },
-    {
-      "title": "How Cursor beat Git's scalability shortcomings",
-      "summary": "S3 keeps the source of truth while local NVMe repositories do the latency-sensitive work",
-      "url": "https://www.theregister.com/devops/2026/08/23/how-cursor-beat-gits-scalability-shortcomings/5291421",
-      "source": "The Register",
-      "category": "GENERAL",
       "age": "RECENT"
     },
     {
