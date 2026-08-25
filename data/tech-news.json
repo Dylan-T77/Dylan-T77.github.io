@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T11:46:56.567286+00:00",
+  "generated_at": "2026-08-25T13:14:12.025072+00:00",
   "articles": [
     {
       "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
@@ -11,7 +11,7 @@
     },
     {
       "title": "Data centers become \"killer application\" for new power transformer tech",
-      "summary": "Solid-state transformers could also benefit EV charging and someday households.",
+      "summary": "Solid-state transformers could also benefit EV charging and, someday, households.",
       "url": "https://arstechnica.com/gadgets/2026/08/energy-hungry-ai-data-centers-spur-new-power-transformer-technology/",
       "source": "Ars Technica",
       "category": "GENERAL",
@@ -362,6 +362,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Apple Mac Mini M6 and Mac Studio M5 Ultra: Specs, Price, Release Date",
+      "summary": "Apple’s Mac Mini and Mac Studio have been tough to buy for months, but updated versions have arrived. Both include new chips optimized for AI, with the M6 Mac Mini getting a $200 price bump.",
+      "url": "https://www.wired.com/story/apple-announces-m6-and-m5-ultra-mac-mini-mac-studio/",
+      "source": "WIRED",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
       "title": "I Tested Kitchen Composters for 2 Years. These Are the Ones I’d Buy (2026)",
       "summary": "After years of smells, strange noises, and “tea,” these are the composters and food recyclers I’d actually recommend.",
       "url": "https://www.wired.com/story/home-composters-buying-guide/",
@@ -554,11 +562,19 @@
       "age": "RECENT"
     },
     {
-      "title": "7 Basic iPhone Tricks I Built With iOS 27’s Revamped Shortcuts App",
-      "summary": "From halting my doomscrolls to automating air-quality checks, Apple’s streamlined Shortcuts app is my favorite iOS 27 feature.",
-      "url": "https://www.wired.com/story/7-basic-iphone-tricks-i-built-with-ios-27s-revamped-shortcuts-app/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
+      "summary": "WhatsApp has started rolling out several new account security features, including support for multiple passkeys and stronger two-step verification. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Hackers breached over 270 Zimbra servers in ongoing attacks",
+      "summary": "Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collaboration Suite (ZCS) vulnerability. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -666,19 +682,59 @@
       "age": "RECENT"
     },
     {
-      "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
-      "summary": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
-      "source": "BleepingComputer",
+      "title": "Andy Dunn’s startup Pie becomes less of an events app and more of a social network",
+      "summary": "The social app founded by Bonobos co-founder Andy Dunn is expanding beyond events with new digital homes for groups to connect, organize, and make plans.",
+      "url": "https://techcrunch.com/2026/08/25/andy-dunns-startup-pie-becomes-less-of-an-events-app-and-more-of-a-social-network/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "WhatsApp tightens account security with stronger two-step verification and more",
+      "summary": "WhatsApp’s two-step verification previously relied on a six-digit PIN, but now users can choose a longer, alphanumeric password with special characters.",
+      "url": "https://techcrunch.com/2026/08/25/whatsapp-tightens-account-security-with-stronger-two-step-verification-and-more/",
+      "source": "TechCrunch",
       "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
-      "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
-      "summary": "More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
-      "source": "BleepingComputer",
+      "title": "Accel-backed Keenable is indexing the web for AI agents",
+      "summary": "Now exiting stealth mode with a $26 million seed round, Keenable has been building a vast web search index for AI agents.",
+      "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Uber launches live video streaming for teen accounts",
+      "summary": "Uber said no one will be able to access the video once the ride ends",
+      "url": "https://techcrunch.com/2026/08/25/uber-launches-live-video-streaming-for-teen-accounts/",
+      "source": "TechCrunch",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Fiat Ventures combines venture and advisory divisions into new brand, raises $35M Fund II",
+      "summary": "In an environment where emerging fund managers struggle to attract LP attention, FGV is betting that a different venture model can help it lure LPs.",
+      "url": "https://techcrunch.com/2026/08/25/fgv-capital-bets-on-a-new-venture-model-raises-35m-fund-ii/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Fitbit founders launch Luffu Link, an LTE health and safety band",
+      "summary": "Luffu Link combines all day health sensing, voice logging, location awareness, and the ability to get help from trusted contacts into a single device, all without needing a phone nearby.",
+      "url": "https://techcrunch.com/2026/08/25/fitbit-founders-launch-luffu-link-an-lte-health-and-safety-band/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "‘The world seems to be ready’: An interview with OpenAI head of product Thibault Sottiaux",
+      "summary": "TechCrunch talks agents, UX, and reporting to Greg Brockman with OpenAI's head of product.",
+      "url": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux/",
+      "source": "TechCrunch",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -743,62 +799,6 @@
       "url": "https://techcrunch.com/2026/08/24/amazon-hikes-hardware-prices-by-60-percent-blaming-memory-shortage/",
       "source": "TechCrunch",
       "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026",
-      "summary": "At TechCrunch Disrupt 2026, Replit CEO Amjad Masad will share his perspective on the future of programming and Replit's role in developing it.",
-      "url": "https://techcrunch.com/2026/08/24/amjad-masad-ceo-and-co-founder-of-replit-joins-the-disrupt-stage-at-techcrunch-disrupt-2026/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Apply now to host a Side Event at TechCrunch Disrupt 2026",
-      "summary": "Apply before September 4 to be a part of the TechCrunch Disrupt community by hosting your own Side Event.",
-      "url": "https://techcrunch.com/2026/08/24/apply-now-to-host-a-side-event-at-techcrunch-disrupt-2026/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Instinct’s powerful AI assistant is raising privacy and security concerns",
-      "summary": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs.",
-      "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
-      "summary": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven Seven Six.",
-      "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
-      "source": "TechCrunch",
-      "category": "ROBOTICS",
-      "age": "RECENT"
-    },
-    {
-      "title": "OpenAI is building AI agents for everything. Will everyone use them?",
-      "summary": "Inside the frontier lab’s push to bring AI agents from software engineers to the masses.",
-      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Brake problems in GM EVs draw greater federal scrutiny",
-      "summary": "In one crash, the driver of a 2024 Blazer EV said they had to \"deliberately steer the vehicle into a concrete curb\" to slow it down and avoid a \"catastrophic intersection collision.\"",
-      "url": "https://techcrunch.com/2026/08/24/brake-problems-in-gm-evs-draw-greater-federal-scrutiny/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Hugging Face reportedly in talks to be acquired for $13B",
-      "summary": "Hugging Face has reportedly been fielding acquisition offers that would value the company at around $13B. But with the founders' feeling of responsibility to community, doubts arise as to whether a sale will happen.",
-      "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
       "age": "RECENT"
     }
   ]
