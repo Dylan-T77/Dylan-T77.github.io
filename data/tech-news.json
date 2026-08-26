@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T08:02:40.767146+00:00",
+  "generated_at": "2026-08-26T09:05:37.752729+00:00",
   "articles": [
     {
       "title": "The world's busiest spaceport is about to get a lot quieter, at least for now",
@@ -162,203 +162,11 @@
       "age": "RECENT"
     },
     {
-      "title": "India’s crewed space program will fly this year, after missing 2022 and 2025 targets",
-      "summary": "A space station by 2035 is ISRO’s new mission",
-      "url": "https://www.theregister.com/science/2026/08/26/indias-crewed-space-program-will-fly-this-year-after-missing-2022-and-2025-targets/5292478",
-      "source": "The Register",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Self-hosted email is in steep decline, Microsoft and Google are taking over",
-      "summary": "Oh great, Big Tech is now in prime position to decide which messages get through",
-      "url": "https://www.theregister.com/software/2026/08/26/self-hosted-email-is-in-steep-decline-microsoft-and-google-are-taking-over/5292471",
-      "source": "The Register",
-      "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Now Perplexity is trying to get into the local AI action",
-      "summary": "Amid talk of an Nvidia deal, the AI search biz is looking beyond the cloud",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/26/now-perplexity-is-trying-to-get-into-the-local-ai-action/5292449",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Intel's 256-core Xeon 7 CPUs are a Diamond in the rough",
-      "summary": "Delayed, flawed, yet still beautiful",
-      "url": "https://www.theregister.com/hpc/2026/08/25/intel-diamond-rapids-xeon-7-cpu-deep-dive/5292427",
-      "source": "The Register",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Apple defies memory shortage with new Mac minis",
-      "summary": "The cost of memory makes this an expensive ML meal",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/25/apple-defies-memory-shortage-with-new-mac-minis/5292406",
-      "source": "The Register",
+      "title": "A Mutation Is Making It Easier for Drug-Resistant Malaria to Spread",
+      "summary": "New findings shed light on what’s making the parasite less treatable using the drug that’s considered a first line of defense.",
+      "url": "https://www.wired.com/story/genetic-mutation-drug-resistant-malaria-spread/",
+      "source": "WIRED",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Claude and Cowork now share what they know about you",
-      "summary": "Shared memory is live, with no option to separate it between services, Anthropic tells us; Claude Code stays apart for now",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/25/claude-and-cowork-now-share-what-they-know-about-you/5292412",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "McKinsey says enterprise AI is finally 'on the road to ROI'",
-      "summary": "Fasten your seatbelt and empty that bladder: AI investment is rising, but reported enterprise earnings impact remains stubbornly flat",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/25/mckinsey-says-enterprise-ai-is-finally-on-the-road-to-roi/5292388",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "EPA to drop requirement for public notice of polluting datacenters",
-      "summary": "State and local regulators would decide whether the public gets a say on minor-source permits",
-      "url": "https://www.theregister.com/on-prem/2026/08/25/epa-to-drop-requirement-for-public-notice-of-polluting-datacenters/5292341",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "You could've applied all 1,449 Oracle patches and still been hit by this attack",
-      "summary": "Attackers now ready to exploit how things work, rather than just break them, says Oracle support expert",
-      "url": "https://www.theregister.com/security/2026/08/25/you-couldve-applied-all-1449-oracle-patches-and-still-been-hit-by-this-attack/5292335",
-      "source": "The Register",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Microsoft warns that transitioning Excel workbooks to new Exchange connectors might not be smooth sailing",
-      "summary": "Current Exchange connector is retiring - and new ones won't work if you don't upgrade",
-      "url": "https://www.theregister.com/software/2026/08/25/microsoft-warns-that-transitioning-excel-workbooks-to-new-exchange-connectors-might-not-be-smooth-sailing/5292316",
-      "source": "The Register",
-      "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Slop factory bans Russians for using slop factory to create slop",
-      "summary": "OpenAI wants you to thank it for keeping a permanent record of all your discussions with its bots",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/25/slop-factory-bans-russians-for-using-slop-factory-to-create-slop/5292297",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "US convicts ex-Philips engineer for exposing X-ray secrets to competitor",
-      "summary": "Dutch electronics giant saw right through ex-engineer’s plot, albeit over a year after it all unravelled",
-      "url": "https://www.theregister.com/legal/2026/08/25/us-convicts-ex-philips-engineer-for-exposing-x-ray-secrets-to-competitor/5292291",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "OpenAI's upcoming Jalapeño chip looks like it'll be an inference beast",
-      "summary": "128 chips, 1.7 exaFLOPS, and 27 TB of HBM give Altman and crew a leg up over Blackwell, and maybe even Rubin",
-      "url": "https://www.theregister.com/systems/2026/08/25/openais-upcoming-jalapeno-chip-looks-like-itll-be-an-inference-beast/5292052",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Windows XP was released to manufacturing a quarter of a century ago",
-      "summary": "So incredibly stable, govt branches, banks, and dentist offices still haven't figured out how to close it",
-      "url": "https://www.theregister.com/offbeat/2026/08/25/windows-xp-was-released-to-manufacturing-a-quarter-of-a-century-ago/5292240",
-      "source": "The Register",
-      "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
-      "title": "SiFive pushes development server to take RISC-V into the datacenter",
-      "summary": "Rack-mount system intended for software porting, workload optimization, to bring open standard to the bitbarn",
-      "url": "https://www.theregister.com/systems/2026/08/25/sifive-pushes-development-server-to-take-risc-v-into-the-datacenter/5292136",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Microsoft breaks WPF printing with .NET update",
-      "summary": "Summer in Redmond, Winter for everyone else",
-      "url": "https://www.theregister.com/os-platforms/2026/08/25/microsoft-breaks-wpf-printing-with-net-update/5292116",
-      "source": "The Register",
-      "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
-      "title": "CISA slaps its tightest three-day patching deadline on perfect-10 Oracle flaw",
-      "summary": "Disclosed in January and honeypots buzzed soon after, CISA says it’s finally time for the USG to plug the gap",
-      "url": "https://www.theregister.com/security/2026/08/25/cisa-slaps-its-tightest-three-day-patching-deadline-on-perfect-10-oracle-flaw/5292107",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Ukraine unveils native jet-powered drone interceptor",
-      "summary": "Fast and lightweight unmanned aircraft is designed for easy deployment and fits in a pickup truck",
-      "url": "https://www.theregister.com/offbeat/2026/08/25/ukraine-unveils-native-jet-powered-drone-interceptor/5292081",
-      "source": "The Register",
-      "category": "ROBOTICS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Crooks push Mac malware through fake OpenAI Codex ads",
-      "summary": "Sponsored search results lead developers straight into a ClickFix malware trap",
-      "url": "https://www.theregister.com/security/2026/08/25/crooks-push-mac-malware-through-fake-openai-codex-ads/5291899",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "HMRC dangles £500M carrot for National Insurance system revamp",
-      "summary": "Taxman wants to drag creaky NPS into agile era",
-      "url": "https://www.theregister.com/software/2026/08/25/hmrc-dangles-500m-carrot-for-national-insurance-system-revamp/5291869",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "What is virtualization modernization?",
-      "summary": "SPONSORED EXPLAINER: Why you should take a long-term approach to rethinking your virtualization portfolio",
-      "url": "https://www.theregister.com/virtualization/2026/08/25/sponsored-what-is-virtualization-modernization/5290459",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Australia’s record industry won’t chart tunes recorded in the key of AI",
-      "summary": "This is basically a riff on ‘You wouldn’t steal a car’ and means only the human league can have a hit",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/25/australias-record-industry-wont-chart-tunes-recorded-in-the-key-of-ai/5292074",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "SpaceX claims it will put a Vera Rubin NVL72 rack-scale system into orbit next year",
-      "summary": "And fly ‘significant scale’ in 2028 – a claim that isn’t entirely bonkers, but needs a solid grain of salt",
-      "url": "https://www.theregister.com/off-prem/2026/08/25/spacex-claims-it-will-put-a-vera-rubin-nvl72-rack-scale-system-into-orbit-next-year/5292067",
-      "source": "The Register",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "IBM announces chip that natively executes Arm and Z instructions concurrently",
-      "summary": "Cunning plan to expand the amount of software that runs on mainframes is also an admission ISVs are focusing their energies elsewhere",
-      "url": "https://www.theregister.com/systems/2026/08/25/ibm-announces-chip-that-natively-executes-arm-and-z-instructions-concurrently/5292059",
-      "source": "The Register",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Microsoft AI watermarks in Paint and Photos are linked to user IDs, researcher finds",
-      "summary": "Privacy? Not if you use hosted AI services",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/25/microsoft-ai-watermarks-in-paint-and-photos-are-linked-to-user-ids-researcher-finds/5292034",
-      "source": "The Register",
-      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -554,14 +362,6 @@
       "age": "RECENT"
     },
     {
-      "title": "It Should Be Harder to Apply for a Job. No, Really",
-      "summary": "Thanks to a dwindling supply of open roles, “one-click” applications, and the rise of artificial intelligence, it’s easier than ever to apply for a job. We’re all paying the price.",
-      "url": "https://www.wired.com/story/applying-for-a-job-is-too-damn-easy/",
-      "source": "WIRED",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
       "title": "LACMA data breach last year exposed social security and medical data",
       "summary": "The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]",
       "url": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
@@ -683,7 +483,7 @@
     },
     {
       "title": "Ventures Platform goes bigger — and broader — with its second Africa fund",
-      "summary": "The Pan-African venture firm has raised $83 million and plans to invest in startups beyond its home market of Nigeria.",
+      "summary": "The Pan-African venture firm has raised $84 million and plans to invest in startups beyond its home market of Nigeria.",
       "url": "https://techcrunch.com/2026/08/26/ventures-platform-goes-bigger-and-broader-with-its-second-africa-fund/",
       "source": "TechCrunch",
       "category": "GENERAL",
@@ -799,6 +599,206 @@
       "url": "https://techcrunch.com/2026/08/25/pacific-fusion-next-fusion-machine-could-clear-key-hurdle-to-commercial-power/",
       "source": "TechCrunch",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Gamma acquires Accel-backed design startup Lica",
+      "summary": "Lica co-founders are going to work on Gamma's new research team.",
+      "url": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Apple rescues Hide My Email feature from the privacy scrap heap",
+      "summary": "Apple says it will no longer ditch using its icloud.com domain for hiding people's email addresses.",
+      "url": "https://techcrunch.com/2026/08/25/apple-rescues-hide-my-email-feature-from-the-privacy-scrap-heap/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+      "summary": "Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+      "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Apple debuts its ‘most powerful chip ever’ in M5 Ultra and M6",
+      "summary": "Apple unveils these new processors alongside an updated Mac Mini and Mac Studio.",
+      "url": "https://techcrunch.com/2026/08/25/apple-debuts-its-most-powerful-chip-ever-in-m5-ultra-and-m6/",
+      "source": "TechCrunch",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Self-driving truck startup Gatik raises $200M following PepsiCo deal",
+      "summary": "The funding, Gatik's largest so far, was led by Qatar Investment Authority and Koch Disruptive Technologies.",
+      "url": "https://techcrunch.com/2026/08/25/self-driving-truck-startup-gatik-raises-200m-following-pepsico-deal/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "IBM Built the Cold War’s Most Powerful Code Breaker for the NSA",
+      "summary": "At the height of the Cold War, one very specialized computer was so secret that the world didn’t know it existed. It ran its jobs up to 200 times as fast as any other computer of its time. It was the U.S. National Security Agency’s main cryptographic processor in operation from t",
+      "url": "https://spectrum.ieee.org/cold-war-codebreaker-nsa-ibm",
+      "source": "IEEE Spectrum",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "AI Companion Robots Are Closing the Human Connection in Modern Homes",
+      "summary": "This article is brought to you by Ollobot . From about 2017, individuals began to truly connect with the initial wave of companion robots. These devices had personality, moved around, joked, and answered when you spoke to them. Most early companion robots, however, were still lim",
+      "url": "https://spectrum.ieee.org/ollobot-ai-companion-robot",
+      "source": "IEEE Spectrum",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "IEEE Senior Membership Demystified",
+      "summary": "For most of my career, my IEEE membership sat quietly in the background—a line on my résumé, a discount code for a conference registration, and access to the IEEE Xplore digital library , which I underutilized. I didn’t think much about the grade of membership available above tha",
+      "url": "https://spectrum.ieee.org/ieee-senior-membership-demystified",
+      "source": "IEEE Spectrum",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "What It Takes to Be an Adaptable Engineer",
+      "summary": "The AI boom has disrupted the way engineers work, introducing new tools to learn, raising expectations for what teams can achieve in a workday, and making it harder to get hired in the first place. This makes it difficult to advise students on which specific coding languages or t",
+      "url": "https://spectrum.ieee.org/adaptable-engineer-core-skills",
+      "source": "IEEE Spectrum",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Building Technology People Can Trust",
+      "summary": "This article is brought to you by Emerson . I’ve spent much of my career as an engineer, including years in the semiconductor industry. And one lesson has stayed with me through every major technology shift: innovation always creates new complexity. In semiconductors, we have see",
+      "url": "https://spectrum.ieee.org/ai-connected-test-and-measurement-platforms",
+      "source": "IEEE Spectrum",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Poetry for Engineers: Safe Distance",
+      "summary": "How do I touch you across the ocean, across cold depths where light travels through glass. Not copper—fibers. Optical. Through liquid glass, through flickering light that carries you in fragments. Light broken into pulses. You say: it’s easier this way. What are we missing like t",
+      "url": "https://spectrum.ieee.org/poetry-for-engineers-safe-distance",
+      "source": "IEEE Spectrum",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "This IEEE Senior Member Develops AI Tools for E-Commerce Sites",
+      "summary": "Balaji Ingole rarely saw televisions while growing up in Udgir, India. No one in the small Maharashtra village had computers or phones. Only one household owned a television, and neighbors often gathered there to watch shows together. Ingole never even saw a computer growing up. ",
+      "url": "https://spectrum.ieee.org/ieee-senior-member-ai-ecommerce",
+      "source": "IEEE Spectrum",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Stop Hunting, Start Solving: Accelerating Root Cause Analysis with Agentic AI",
+      "summary": "About this Webinar Turn Yield Excursions into Faster, More Confident Root Cause Analysis When a yield issue emerges, the answer rarely lives in a single system. Critical clues are spread across metrology data, tool traces, chemical analysis, and facilities systems, while growing ",
+      "url": "https://event.on24.com/wcc/r/5460332/DAFEFF7A68EE900DEA7A14356089B553?utm_source=IEEE&utm_medium=site&utm_campaign=922",
+      "source": "IEEE Spectrum",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Gaining Leadership Backing for Your Innovations",
+      "summary": "This article is part of our exclusive career advice series in partnership with the IEEE Technology and Engineering Management Society. Imagine this: You have a strong idea for a new product for your company. Your coworkers encourage you to move forward because they believe it cou",
+      "url": "https://spectrum.ieee.org/leadership-backing-innovation",
+      "source": "IEEE Spectrum",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "IEEE Presidents’ Scholarship Honors Teen Innovators",
+      "summary": "About 16 percent of the global population—more than 1 billion people—live with some form of disability, according to the World Health Organization . Many of the disabilities affect independence and mobility. Three high school students working on inventions to help people with dis",
+      "url": "https://spectrum.ieee.org/ieee-presidents-scholarship-2026",
+      "source": "IEEE Spectrum",
+      "category": "ROBOTICS",
+      "age": "RECENT"
+    },
+    {
+      "title": "From AI Copilots to Agent Swarms",
+      "summary": "The impact of AI on software development has been both profound and ever-evolving. Last year, I wrote about AMD’s plans to use AI not just for generating new lines of code, but also for other steps in the software development lifecycle (SDLC), such as triaging problems, debugging",
+      "url": "https://spectrum.ieee.org/amd-agent-swarms",
+      "source": "IEEE Spectrum",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Digital Signal Processing Pioneer Bede Liu Dies At 91",
+      "summary": "Bede Liu, a digital signal processing pioneer, died on 7 May. He was 91. Liu was widely regarded as one of the founders of modern digital signal processing, a field that applies mathematical algorithms to analyze, modify, and transmit signals including sound, images, and video. T",
+      "url": "https://spectrum.ieee.org/digital-signal-processing-pioneer-bede-liu",
+      "source": "IEEE Spectrum",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Predict Antenna Coupling on Electrically Large Platforms Before Building Hardware",
+      "summary": "Learn how full-wave simulation predicts very low antenna coupling on aircraft-sized platforms, and which three modeling techniques deliver accurate results with fewer computational resources. Download this free whitepaper now!",
+      "url": "https://content.knowledgehub.wiley.com/efficient-and-accurate-prediction-of-cosite-isolation-on-large-platforms/",
+      "source": "IEEE Spectrum",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Bring a Product Manager Mindset to Your Next Engineering Job",
+      "summary": "If you haven’t already seen a job listing for a “product engineer,” you probably will soon. The job everyone’s suddenly hiring for, this role is like a cross between a product manager and an engineer (as the name suggests). And it’s a hiring trend worth paying attention to. Compa",
+      "url": "https://spectrum.ieee.org/product-engineer",
+      "source": "IEEE Spectrum",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Inside the Data Bottleneck Slowing Visual and Physical AI",
+      "summary": "A survey of over 700 professionals examines how visual and physical AI teams build systems, why models fail, and where data work drives production. Download this free whitepaper now!",
+      "url": "https://content.knowledgehub.wiley.com/the-2026-state-of-visual-and-physical-ai-a-survey-of-700-practitioners-on-data-models-and-production/",
+      "source": "IEEE Spectrum",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "IEEE Engineering Summit Supports Bhutan’s Digital Transformation",
+      "summary": "In collaboration with the Kingdom of Bhutan government, IEEE recently introduced its Engineering Education, Research, and Innovation Summit. Held on 9 and 10 June in Paro, in the eastern Himalayas, the event was designed to help Bhutan navigate its digital transformation by focus",
+      "url": "https://spectrum.ieee.org/ieee-summit-bhutan-digital-transformation",
+      "source": "IEEE Spectrum",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Zap Rocks. Add Water. Get Clean Hydrogen",
+      "summary": "In a tranquil Boston suburb , on the far edge of a horse farm, where pasture gives way to woods, a crane lowers an enormous electrode into a borehole. The electrode, a half-meter-long cylinder with copper-tipped arms to ensure good contact with the borehole walls, descends—deeper",
+      "url": "https://spectrum.ieee.org/stimulated-geologic-hydrogen",
+      "source": "IEEE Spectrum",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Navigating the Pivot From Tech Expert to Organizational Leader",
+      "summary": "The transition from a purely technical expert or individual contributor position to a broader leadership role is one of the most challenging phases in a STEM career. It requires moving away from relying solely on technical excellence toward mastering systems thinking, adaptive le",
+      "url": "https://spectrum.ieee.org/navigating-pivot-tech-expert-leader",
+      "source": "IEEE Spectrum",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Cars Communicating Badly Is an Already-Solved Problem",
+      "summary": "The history of networking is full of tools that repurposed solutions to very different kinds of problems first. Wi-Fi’s origins trace back , in part, to a team of Australian radio astronomers trying to detect signals from evaporating black holes. But the data-processing tools the",
+      "url": "https://spectrum.ieee.org/v2x-technology-5g-open-ran",
+      "source": "IEEE Spectrum",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "IEEE Course Teaches How to Use AI to Modernize Power Grids",
+      "summary": "Today’s U.S. electrical grid, among the largest, most complex systems ever built, is operating at its limit. The combination of rapid industrial growth, more frequent extreme weather, and a record surge in electricity use has pushed the grid to its breaking point , according to t",
+      "url": "https://spectrum.ieee.org/ieee-course-ai-power-grids",
+      "source": "IEEE Spectrum",
+      "category": "AI",
       "age": "RECENT"
     }
   ]
