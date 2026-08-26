@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T03:27:49.123832+00:00",
+  "generated_at": "2026-08-26T04:58:07.510954+00:00",
   "articles": [
     {
       "title": "The world's busiest spaceport is about to get a lot quieter, at least for now",
@@ -682,6 +682,14 @@
       "age": "RECENT"
     },
     {
+      "title": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
+      "summary": "Ringg has raised $10 million from Peak XV as a part of its Series A extension.",
+      "url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
       "title": "Robotics startup Generalist reaches $3B valuation, sources say",
       "summary": "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
       "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
@@ -789,14 +797,6 @@
       "title": "Gamma acquires Accel-backed design startup Lica",
       "summary": "Lica co-founders are going to work on Gamma's new research team.",
       "url": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Apple rescues Hide My Email feature from the privacy scrap heap",
-      "summary": "Apple says it will no longer ditch using its icloud.com domain for hiding people's email addresses.",
-      "url": "https://techcrunch.com/2026/08/25/apple-rescues-hide-my-email-feature-from-the-privacy-scrap-heap/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
