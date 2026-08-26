@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-08-26T15:55:14.375578+00:00",
+  "generated_at": "2026-08-26T18:05:30.449930+00:00",
   "articles": [
+    {
+      "title": "Court blocks Trump FCC order that could flood broadcast TV with more election ads",
+      "summary": "Republicans demanded that parties and fundraising committees be given lowest ad rates.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/court-blocks-trump-fcc-order-that-could-flood-broadcast-tv-with-more-election-ads/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Researchers get two genetic codes to work at the same time",
+      "summary": "Messing with the genetic code might have gotten a bit easier to do.",
+      "url": "https://arstechnica.com/science/2026/08/researchers-get-two-genetic-codes-to-work-at-the-same-time/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
     {
       "title": "15,000 years of solar wind in four hours? A Seattle company gives it a go.",
       "summary": "\"We're living in this world of scarcity with the Moon.\"",
@@ -146,19 +162,19 @@
       "age": "RECENT"
     },
     {
-      "title": "GM vehicles under federal scrutiny after hundreds of reports",
-      "summary": "The eBoost brake-by-wire system is responsible for at least 22 crashes now.",
-      "url": "https://arstechnica.com/cars/2026/08/feds-deepen-probe-into-general-motors-brake-failures/",
-      "source": "Ars Technica",
+      "title": "Memory crunch: Cloud operators may be pushed to splurge 68% of capex on DRAM and NAND",
+      "summary": "Rising costs of new kit due to soaring memory prices likely to feed into cloud service bills",
+      "url": "https://www.theregister.com/storage/2026/08/26/memory-crunch-cloud-operators-may-be-pushed-to-splurge-68-of-capex-on-dram-and-nand/5292648",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "Inaudible sounds used to fingerprint browsers catch AliExpress red-handed",
-      "summary": "Is the technique outdated? Yes. Is it still creepy? Also yes.",
-      "url": "https://arstechnica.com/security/2026/08/aliexpress-caught-fingerprinting-visitors-after-sending-inaudible-sounds-to-browsers/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
+      "title": "Boston Scientific discloses 'global disruption' in ongoing cyberattack",
+      "summary": "No timeline to restore IT systems as probe remains ongoing",
+      "url": "https://www.theregister.com/security/2026/08/26/boston-scientific-discloses-global-disruption-in-ongoing-cyberattack/5292641",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -346,19 +362,19 @@
       "age": "RECENT"
     },
     {
-      "title": "OpenAI's upcoming Jalapeño chip looks like it'll be an inference beast",
-      "summary": "128 chips, 1.7 exaFLOPS, and 27 TB of HBM give Altman and crew a leg up over Blackwell, and maybe even Rubin",
-      "url": "https://www.theregister.com/systems/2026/08/25/openais-upcoming-jalapeno-chip-looks-like-itll-be-an-inference-beast/5292052",
-      "source": "The Register",
-      "category": "AI",
+      "title": "FBI Disrupts Chinese Proxy Tools Used in Mass Hacking of US Agencies and Infrastructure",
+      "summary": "China’s hacking campaign targeted NASA, the Federal Reserve, the US Senate, the Justice Department, and more, according to the DOJ.",
+      "url": "https://www.wired.com/story/fbi-disrupts-chinese-proxy-tools-used-in-mass-hacking-of-us-agencies-and-infrastructure/",
+      "source": "WIRED",
+      "category": "SPACE",
       "age": "RECENT"
     },
     {
-      "title": "Windows XP was released to manufacturing a quarter of a century ago",
-      "summary": "So incredibly stable, govt branches, banks, and dentist offices still haven't figured out how to close it",
-      "url": "https://www.theregister.com/offbeat/2026/08/25/windows-xp-was-released-to-manufacturing-a-quarter-of-a-century-ago/5292240",
-      "source": "The Register",
-      "category": "WINDOWS",
+      "title": "Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety",
+      "summary": "More than 15 politicians from across the country have signed on to the AI Pact, vowing to regulate data centers and AI. “We’ve got to get this right,” says Senate candidate Dan Osborn of Nebraska.",
+      "url": "https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/",
+      "source": "WIRED",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -466,9 +482,9 @@
       "age": "RECENT"
     },
     {
-      "title": "LegalZoom Promo Code: Exclusive 10% Off LLC Formations",
-      "summary": "Save on top services at LegalZoom, like LLC registration, incorporation, estate plans, and more with coupons and deals from WIRED.",
-      "url": "https://www.wired.com/story/legalzoom-promo-code/",
+      "title": "PlayStation Discount Code: Save on PS5 Games August 2026",
+      "summary": "Want to stretch your gaming budget? Learn how to unlock massive savings on PS5 games, DualSense controllers, and PlayStation Plus memberships using gift cards and exclusive promotional codes.",
+      "url": "https://www.wired.com/story/playstation-discount-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -482,22 +498,6 @@
       "age": "RECENT"
     },
     {
-      "title": "Tuft & Needle Promo Codes: 30% Off | August 2026",
-      "summary": "Save 30% on best-selling mattresses with our top Tuft & Needle coupon codes.",
-      "url": "https://www.wired.com/story/tuft-and-needle-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "PlayStation Discount Code: Save on PS5 Games August 2026",
-      "summary": "Want to stretch your gaming budget? Learn how to unlock massive savings on PS5 games, DualSense controllers, and PlayStation Plus memberships using gift cards and exclusive promotional codes.",
-      "url": "https://www.wired.com/story/playstation-discount-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Target Promo Code: $50 Off | August 2026",
       "summary": "Get $50 off your next order or up to 50% off site wide with Target coupon codes and Circle deals.",
       "url": "https://www.wired.com/story/target-promo-code/",
@@ -506,9 +506,17 @@
       "age": "RECENT"
     },
     {
-      "title": "HP Coupon Codes and Deals August 2026",
-      "summary": "Save up to 60%, plus an extra 20% with HP promo codes for laptops, printers, PCs, and more tech.",
-      "url": "https://www.wired.com/story/hp-coupon-code/",
+      "title": "Tuft & Needle Promo Codes: 30% Off | August 2026",
+      "summary": "Save 30% on best-selling mattresses with our top Tuft & Needle coupon codes.",
+      "url": "https://www.wired.com/story/tuft-and-needle-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "LegalZoom Promo Code: Exclusive 10% Off LLC Formations",
+      "summary": "Save on top services at LegalZoom, like LLC registration, incorporation, estate plans, and more with coupons and deals from WIRED.",
+      "url": "https://www.wired.com/story/legalzoom-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -517,6 +525,14 @@
       "title": "25% Off Adidas Promo Code | August 2026",
       "summary": "Save 15% or 30% with Adidas promo codes, plus explore Adidas deals for 40% off trendy sneakers.",
       "url": "https://www.wired.com/story/adidas-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "HP Coupon Codes and Deals August 2026",
+      "summary": "Save up to 60%, plus an extra 20% with HP promo codes for laptops, printers, PCs, and more tech.",
+      "url": "https://www.wired.com/story/hp-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -546,18 +562,10 @@
       "age": "RECENT"
     },
     {
-      "title": "The US Just Recorded Its First 2 Measles Deaths This Year",
-      "summary": "The fatalities come amid declining vaccination rates and calls from President Donald Trump to split up the MMR vaccine.",
-      "url": "https://www.wired.com/story/us-recorded-first-measles-deaths-2026/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "The Supreme Court’s Mail-In Ballot Ruling Is a Step Toward Chaos in the Midterms",
-      "summary": "The Supreme Court has removed one roadblock from the Trump administration’s attempts to impose severe restrictions on voting.",
-      "url": "https://www.wired.com/story/the-supreme-courts-mail-in-ballot-ruling-is-a-step-toward-chaos-in-the-midterms/",
-      "source": "WIRED",
+      "title": "Meta agrees to $18 billion settlement over teen social media harms",
+      "summary": "Meta has reached a proposed settlement worth up to approximately $18 billion with a bipartisan coalition of 52 attorneys generals over allegations that Facebook and Instagram were deliberately designed to encourage compulsive use by children and teenagers. [...]",
+      "url": "https://www.bleepingcomputer.com/news/technology/meta-agrees-to-18-billion-settlement-over-teen-social-media-harms/",
+      "source": "BleepingComputer",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -674,11 +682,43 @@
       "age": "RECENT"
     },
     {
-      "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
-      "summary": "WhatsApp has started rolling out several new account security features, including support for multiple passkeys and stronger two-step verification. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
-      "source": "BleepingComputer",
+      "title": "US seizes domains of Chinese botnet used to hack NASA, Justice Department, and the Senate",
+      "summary": "The FBI has seized domains associated with a botnet that allowed Chinese-backed hackers to breach several U.S. government departments.",
+      "url": "https://techcrunch.com/2026/08/26/us-seizes-domains-of-chinese-botnet-used-to-hack-nasa-justice-department-and-the-senate/",
+      "source": "TechCrunch",
       "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Capital F closes $17M debut fund with goal to back the future of the ‘female economy’",
+      "summary": "Capital F, one of the few all-female-led VC firms, announced Wednesday the $17 million close of its debut fund. The firm backs companies building in the “female economy” — or the markets where women drive demand. That mainly falls into three buckets for the firm, Margaret Coblent",
+      "url": "https://techcrunch.com/2026/08/26/capital-f-closes-17m-debut-fund-with-goal-to-back-the-future-of-the-female-economy/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Apple is holding its iPhone launch event on September 9",
+      "summary": "The event is expected to be a notable one, as Apple is rumored to unveil its long-awaited foldable iPhone. It'll also be the first Apple event with John Ternus as CEO, who is scheduled to take the reins of the tech giant from Tim Cook on September 1.",
+      "url": "https://techcrunch.com/2026/08/26/apple-is-holding-its-iphone-launch-event-on-september-9/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Meta agrees to sweeping changes to restrict kids’ access to its apps as part of settlement with states",
+      "summary": "One of the most notable changes is that Meta plans to implement a daily two-hour time limit for teens that can only be disabled with parental permission.",
+      "url": "https://techcrunch.com/2026/08/26/meta-agrees-to-sweeping-changes-to-restrict-kids-access-to-its-apps-as-part-of-settlement-with-states/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "What’s driving Sweden’s startup boom, from Lovable to Legora",
+      "summary": "Vibe-coding darling&#160;Lovable just raised $400 million at a&#160;$13.3 billion&#160;valuation,&#160;roughly doubling&#160;its worth in eight months. But Lovable&#160;isn’t&#160;the only Stockholm startup putting up&#160;huge numbers&#160;lately — legal AI company&#160;Legora&#",
+      "url": "https://techcrunch.com/video/whats-driving-swedens-startup-boom-from-lovable-to-legora/",
+      "source": "TechCrunch",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -757,46 +797,6 @@
       "title": "QueryStory wants you to believe what AI is telling you",
       "summary": "The startup came out of stealth with $6 million in seed funding and a plan to use LLMs and cybersecurity know-how to make AI queries coherent.",
       "url": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Arga Labs is building a better way to train enterprise AI agents",
-      "summary": "Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.",
-      "url": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses",
-      "summary": "The glasses, called Legato Frames, integrate the company’s patented hearing-assistance technology into the arms of eyewear frames.",
-      "url": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Runable hits $21M to bet AI agents can go from building businesses to growing them",
-      "summary": "Runable says 60% to 70% of its 1 trillion-plus token usage in the last 90 days came from paying customers.",
-      "url": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Ventures Platform goes bigger — and broader — with its second Africa fund",
-      "summary": "The Pan-African venture firm has raised $84 million and plans to invest in startups beyond its home market of Nigeria.",
-      "url": "https://techcrunch.com/2026/08/26/ventures-platform-goes-bigger-and-broader-with-its-second-africa-fund/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
-      "summary": "Ringg has raised $10 million from Peak XV as a part of its Series A extension.",
-      "url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
       "source": "TechCrunch",
       "category": "AI",
       "age": "RECENT"
