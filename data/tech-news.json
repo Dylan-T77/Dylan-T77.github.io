@@ -1,6 +1,54 @@
 {
-  "generated_at": "2026-08-26T20:07:35.890162+00:00",
+  "generated_at": "2026-08-26T23:40:40.261184+00:00",
   "articles": [
+    {
+      "title": "RIP, Tim Curry: Ars remembers his top 10 iconic performances",
+      "summary": "A dashing pirate, a butler, a killer clown, an alien mad scientist in drag—the man had range.",
+      "url": "https://arstechnica.com/culture/2026/08/rip-tim-curry-ars-remembers-his-top-10-iconic-performances/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
+      "summary": "Report shows Meta's challenges replacing people with AI agents.",
+      "url": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
+      "source": "Ars Technica",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "New Twitter launches, says Musk's X gave up the name",
+      "summary": "Judge hasn't ruled on X Corp’s preliminary injunction, but Operation Bluebird plows ahead",
+      "url": "https://arstechnica.com/tech-policy/2026/08/new-twitter-launches-says-musks-x-gave-up-the-name/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Meta settles states' child-safety claims for $18B; Florida rejects deal as \"peanuts\"",
+      "summary": "Meta to impose daily limit on child social media use in deal with nearly every state.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/meta-settles-states-child-safety-claims-for-18b-florida-rejects-deal-as-peanuts/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Florida Catholics slap down state AG by rejecting religious vaccine exemptions",
+      "summary": "The bishops' snub comes as the state continues to attack vaccines.",
+      "url": "https://arstechnica.com/health/2026/08/catholic-bishops-tell-florida-theres-no-religious-reason-for-vaccine-exemptions/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Google announces Gemini 3.5 Transcribe for AI-powered speech-to-text",
+      "summary": "The AI that powers Gboard's Rambler is coming to more Google products, including Chrome.",
+      "url": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-5-transcribe-for-ai-powered-speech-to-text/",
+      "source": "Ars Technica",
+      "category": "AI",
+      "age": "RECENT"
+    },
     {
       "title": "The Porsche 911 GT3 Touring punches above its weight class",
       "summary": "The \"everyday\" GT3 delivers, despite looming regulations and an ever-inflating price tag.",
@@ -114,50 +162,26 @@
       "age": "RECENT"
     },
     {
-      "title": "Lab supply companies have been selling antibodies using manipulated images",
-      "summary": "Image changes that would get a paper retracted are widespread among suppliers.",
-      "url": "https://arstechnica.com/science/2026/08/lab-supply-companies-have-been-selling-antibodies-using-manipulated-images/",
-      "source": "Ars Technica",
+      "title": "Meta's new MTIA 400 chip has a split personality: Training AI and serving ads",
+      "summary": "Faster than Blackwell, but still no replacement for AMD or Nvidia ... yet",
+      "url": "https://www.theregister.com/systems/2026/08/26/metas-new-mtia-400-chip-has-a-split-personality-training-ai-and-serving-ads/5292727",
+      "source": "The Register",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Kubernetes cleans house, bins legacy kube-dns, IPVS, and cgroup v1",
+      "summary": "K8s 1.37 also unsticks a Metrics API that has been lodged in beta status for nine years",
+      "url": "https://www.theregister.com/devops/2026/08/26/kubernetes-cleans-house-bins-legacy-kube-dns-ipvs-and-cgroup-v1/5292717",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "New bootloader lets you take the \"Meta\" out of the original Meta Quest",
-      "summary": "Privilege escalation attack grants \"full control\" and freedom from Meta's servers/apps.",
-      "url": "https://arstechnica.com/gaming/2026/08/new-bootloader-lets-you-take-the-meta-out-of-the-original-meta-quest/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "AI won’t replace radiologists, but it will dramatically change their jobs",
-      "summary": "A pioneering AI scientist once predicted computers would replace human radiologists. They haven't.",
-      "url": "https://arstechnica.com/health/2026/08/ai-wont-replace-radiologists-but-it-will-dramatically-change-their-jobs/",
-      "source": "Ars Technica",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Apple's new desktop computers are designed specifically for local AI development",
-      "summary": "Folks have been daisy-chaining Macs for AI—this refresh keeps that in mind.",
-      "url": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
-      "source": "Ars Technica",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
-      "summary": "Young employment in AI-impacted fields down 19% compared to more AI-resistant occupations.",
-      "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/",
-      "source": "Ars Technica",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Data centers become \"killer application\" for new power transformer tech",
-      "summary": "Solid-state transformers could also benefit EV charging and, someday, households.",
-      "url": "https://arstechnica.com/gadgets/2026/08/energy-hungry-ai-data-centers-spur-new-power-transformer-technology/",
-      "source": "Ars Technica",
+      "title": "Flock shock rocks cop cam vendor as protests mount",
+      "summary": "Database from legal advocacy group details growing unease with warrantless panopticon",
+      "url": "https://www.theregister.com/legal/2026/08/26/flock-shock-rocks-cop-cam-vendor-as-protests-mount/5292691",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -259,7 +283,7 @@
     },
     {
       "title": "SpaceX plans to plant $100B Starbase on Louisiana coast",
-      "summary": "Plans to break ground in 2027, produce own propellent, power in 'self-sustaining' spaceport. All before Starship ships v1.0 orbit",
+      "summary": "Plans to break ground in 2027, produce its own propellant, and power a 'self-sustaining' spaceport. All before Starship ships v1.0 to orbit",
       "url": "https://www.theregister.com/offbeat/2026/08/26/spacex-plans-to-plant-100b-starbase-on-louisiana-coast/5292520",
       "source": "The Register",
       "category": "SPACE",
@@ -338,31 +362,39 @@
       "age": "RECENT"
     },
     {
-      "title": "Claude and Cowork now share what they know about you",
-      "summary": "Shared memory is live, with no option to separate it between services, Anthropic tells us; Claude Code stays apart for now",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/25/claude-and-cowork-now-share-what-they-know-about-you/5292412",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "McKinsey says enterprise AI is finally 'on the road to ROI'",
-      "summary": "Fasten your seatbelt and empty that bladder: AI investment is rising, but reported enterprise earnings impact remains stubbornly flat",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/25/mckinsey-says-enterprise-ai-is-finally-on-the-road-to-roi/5292388",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "EPA to drop requirement for public notice of polluting datacenters",
-      "summary": "State and local regulators would decide whether the public gets a say on minor-source permits",
-      "url": "https://www.theregister.com/on-prem/2026/08/25/epa-to-drop-requirement-for-public-notice-of-polluting-datacenters/5292341",
-      "source": "The Register",
+      "title": "How Rising Temperatures Likely Contributed to Nepal’s Deadly Flood",
+      "summary": "Climate change is causing glaciers to retreat and become less stable, upping the odds of catastrophic collapses.",
+      "url": "https://www.wired.com/story/rising-temperatures-contributed-nepals-deadly-flood/",
+      "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "OpenAI’s Hugging Face Hack Debrief Raises More Questions Than It Answers",
+      "title": "Democrats Just Might Win the Senate",
+      "summary": "Strategists in both parties have long thought that everything would need to go right for Democrats to take over Congress this fall. Their map, though, is becoming more forgiving.",
+      "url": "https://www.wired.com/story/democrats-just-might-win-the-senate/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "The Meta Settlement Will Put Limits on Instagram for Teens. They’re Still Vulnerable",
+      "summary": "Child safety groups and former Meta employees welcome proposed changes to how the company’s platforms will work for teens. They also think states should have demanded more.",
+      "url": "https://www.wired.com/story/the-meta-settlement-will-put-limits-on-instagram-for-teens-theyre-still-vulnerable/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Waffle House Teleporter Gregg Phillips Is Still on the Trump Administration’s Payroll",
+      "summary": "In June, a FEMA official infamous for claiming to have teleported to a Waffle House was reportedly ousted. He’s still employed by the government, though—and meeting with a Trump fixer.",
+      "url": "https://www.wired.com/story/waffle-house-teleporter-gregg-phillips-is-still-on-the-trump-administrations-payroll/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "What We Still Don’t Know About OpenAI’s Hugging Face Hack",
       "summary": "The AI giant acknowledges that it could have done far more to prevent its AI agents from going rogue. But it still fails to explain why it didn't see this fiasco coming.",
       "url": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
       "source": "WIRED",
@@ -506,33 +538,9 @@
       "age": "RECENT"
     },
     {
-      "title": "LegalZoom Promo Code: Exclusive 10% Off LLC Formations",
-      "summary": "Save on top services at LegalZoom, like LLC registration, incorporation, estate plans, and more with coupons and deals from WIRED.",
-      "url": "https://www.wired.com/story/legalzoom-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Target Promo Code: $50 Off | August 2026",
-      "summary": "Get $50 off your next order or up to 50% off site wide with Target coupon codes and Circle deals.",
-      "url": "https://www.wired.com/story/target-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "PlayStation Discount Code: Save on PS5 Games August 2026",
       "summary": "Want to stretch your gaming budget? Learn how to unlock massive savings on PS5 games, DualSense controllers, and PlayStation Plus memberships using gift cards and exclusive promotional codes.",
       "url": "https://www.wired.com/story/playstation-discount-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "25% Off Adidas Promo Code | August 2026",
-      "summary": "Save 15% or 30% with Adidas promo codes, plus explore Adidas deals for 40% off trendy sneakers.",
-      "url": "https://www.wired.com/story/adidas-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -546,19 +554,19 @@
       "age": "RECENT"
     },
     {
-      "title": "Tuft & Needle Promo Codes: 30% Off | August 2026",
-      "summary": "Save 30% on best-selling mattresses with our top Tuft & Needle coupon codes.",
-      "url": "https://www.wired.com/story/tuft-and-needle-promo-code/",
+      "title": "Target Promo Code: $50 Off | August 2026",
+      "summary": "Get $50 off your next order or up to 50% off site wide with Target coupon codes and Circle deals.",
+      "url": "https://www.wired.com/story/target-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "HP Coupon Codes and Deals August 2026",
-      "summary": "Save up to 60%, plus an extra 20% with HP promo codes for laptops, printers, PCs, and more tech.",
-      "url": "https://www.wired.com/story/hp-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "Critical Avada WordPress theme flaw enables zero-click RCE",
+      "summary": "A critical vulnerability chain in the popular Avada theme for WordPress can be exploited by an unauthenticated attacker to execute arbitrary PHP code on the server. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -674,11 +682,19 @@
       "age": "RECENT"
     },
     {
-      "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
-      "summary": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops explains how stronger identity verification can help organizations prevent fake workers and social engineering attacks from gaining legitimate ",
-      "url": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
-      "source": "BleepingComputer",
+      "title": "Meta’s $18B child-safety deal hinges on age verification tech that doesn’t work well",
+      "summary": "The historic settlement reignites ongoing concern around how age-verification technology puts privacy at risk.",
+      "url": "https://techcrunch.com/2026/08/26/metas-18b-child-safety-deal-hinges-on-age-verification-tech-that-doesnt-work-well/",
+      "source": "TechCrunch",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
+      "summary": "The new deal with the infrastructure provider is the latest example of Anthropic's white-hot compute-gobbling streak.",
+      "url": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+      "source": "TechCrunch",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -723,18 +739,18 @@
     },
     {
       "title": "US seizes domains of Chinese botnet used to hack NASA, Justice Department, and the Senate",
-      "summary": "The FBI has seized domains associated with a botnet that allowed Chinese-backed hackers to breach several U.S. government departments.",
+      "summary": "The Justice Department said that the domain seizures made the botnet and its command and control servers \"inoperable,\" as the domains were hardcoded into the botnet's code and were critical for the botnet's communication and essential operations.",
       "url": "https://techcrunch.com/2026/08/26/us-seizes-domains-of-chinese-botnet-used-to-hack-nasa-justice-department-and-the-senate/",
       "source": "TechCrunch",
-      "category": "CYBERSECURITY",
+      "category": "SPACE",
       "age": "RECENT"
     },
     {
       "title": "Capital F closes $17M debut fund with goal to back the future of the ‘female economy’",
-      "summary": "Capital F, one of the few all-female-led VC firms, announced Wednesday the $17 million close of its debut fund. The firm backs companies building in the “female economy” — or the markets where women drive demand. That mainly falls into three buckets for the firm, Margaret Coblent",
+      "summary": "The firm backs companies building in the “female economy,” or the markets where women drive demand — women’s health, digital commerce, and AI tools.",
       "url": "https://techcrunch.com/2026/08/26/capital-f-closes-17m-debut-fund-with-goal-to-back-the-future-of-the-female-economy/",
       "source": "TechCrunch",
-      "category": "GENERAL",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -783,22 +799,6 @@
       "url": "https://techcrunch.com/2026/08/26/ring-introduces-a-new-encryption-standard-makes-it-the-default-for-cloud-features/",
       "source": "TechCrunch",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Bill Gates wants to see a robot tax and ‘Human Reserved’ jobs to mitigate harms from AI",
-      "summary": "Gates is mostly in the Responsible AI camp, but there are a few ideas in here we hadn't heard before.",
-      "url": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "CISA confirms hackers targeted over 100 US water systems during July",
-      "summary": "The federal cyber agency's warning comes amid a wave of suspected Iran-backed cyberattacks targeting critical water systems across the United States.",
-      "url": "https://techcrunch.com/2026/08/26/cisa-confirms-hackers-targeted-over-100-us-water-systems-during-july/",
-      "source": "TechCrunch",
-      "category": "CYBERSECURITY",
       "age": "RECENT"
     }
   ]
