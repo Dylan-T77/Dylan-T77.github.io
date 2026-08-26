@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T11:47:56.701044+00:00",
+  "generated_at": "2026-08-26T13:19:52.644365+00:00",
   "articles": [
     {
       "title": "IBM's new Granite 4.2 models ride the wave of interest in local LLMs",
@@ -362,6 +362,14 @@
       "age": "RECENT"
     },
     {
+      "title": "PeopleFinders’ New Website Runs Background Checks on Your Dates",
+      "summary": "The site, called Stud or Dud, helps daters dig up dirt on potential paramours. It’s fueled by the same public data as PeopleFinders.com—and comes with many of the same concerns.",
+      "url": "https://www.wired.com/story/peoplefinders-new-website-stud-or-dud-runs-background-checks-on-your-dates/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Best Wi-Fi Routers (2026): My Honest Picks After Testing 50+",
       "summary": "Don’t suffer the buffer. These WIRED-tested home routers will deliver reliable internet across your home, whatever your needs or budget.",
       "url": "https://www.wired.com/gallery/best-wifi-routers/",
@@ -450,9 +458,9 @@
       "age": "RECENT"
     },
     {
-      "title": "PlayStation Discount Code: Save on PS5 Games August 2026",
-      "summary": "Want to stretch your gaming budget? Learn how to unlock massive savings on PS5 games, DualSense controllers, and PlayStation Plus memberships using gift cards and exclusive promotional codes.",
-      "url": "https://www.wired.com/story/playstation-discount-code/",
+      "title": "LegalZoom Promo Code: Exclusive 10% Off LLC Formations",
+      "summary": "Save on top services at LegalZoom, like LLC registration, incorporation, estate plans, and more with coupons and deals from WIRED.",
+      "url": "https://www.wired.com/story/legalzoom-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -466,9 +474,17 @@
       "age": "RECENT"
     },
     {
-      "title": "HP Coupon Codes and Deals August 2026",
-      "summary": "Save up to 60%, plus an extra 20% with HP promo codes for laptops, printers, PCs, and more tech.",
-      "url": "https://www.wired.com/story/hp-coupon-code/",
+      "title": "Tuft & Needle Promo Codes: 30% Off | August 2026",
+      "summary": "Save 30% on best-selling mattresses with our top Tuft & Needle coupon codes.",
+      "url": "https://www.wired.com/story/tuft-and-needle-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "PlayStation Discount Code: Save on PS5 Games August 2026",
+      "summary": "Want to stretch your gaming budget? Learn how to unlock massive savings on PS5 games, DualSense controllers, and PlayStation Plus memberships using gift cards and exclusive promotional codes.",
+      "url": "https://www.wired.com/story/playstation-discount-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -482,17 +498,9 @@
       "age": "RECENT"
     },
     {
-      "title": "Tuft & Needle Promo Codes: 30% Off | August 2026",
-      "summary": "Save 30% on best-selling mattresses with our top Tuft & Needle coupon codes.",
-      "url": "https://www.wired.com/story/tuft-and-needle-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "LegalZoom Promo Code: Exclusive 10% Off LLC Formations",
-      "summary": "Save on top services at LegalZoom, like LLC registration, incorporation, estate plans, and more with coupons and deals from WIRED.",
-      "url": "https://www.wired.com/story/legalzoom-promo-code/",
+      "title": "HP Coupon Codes and Deals August 2026",
+      "summary": "Save up to 60%, plus an extra 20% with HP promo codes for laptops, printers, PCs, and more tech.",
+      "url": "https://www.wired.com/story/hp-coupon-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -554,11 +562,19 @@
       "age": "RECENT"
     },
     {
-      "title": "I Tested Kitchen Composters for 2 Years. These Are the Ones I’d Buy (2026)",
-      "summary": "After years of smells, strange noises, and “tea,” these are the composters and food recyclers I’d actually recommend.",
-      "url": "https://www.wired.com/story/home-composters-buying-guide/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "Ubiquiti patches three max severity security vulnerabilities",
+      "summary": "Ubiquiti has released security patches for three new maximum-severity vulnerabilities that threat actors can exploit remotely without privileges. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-security-vulnerabilities/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Microsoft tests new privacy controls for Windows 11 desktop apps",
+      "summary": "Microsoft has begun testing new privacy controls that will let Windows 11 users choose which desktop applications can access their camera, microphone, and precise location. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-privacy-controls-for-windows-11-desktop-apps/",
+      "source": "BleepingComputer",
+      "category": "WINDOWS",
       "age": "RECENT"
     },
     {
@@ -666,19 +682,35 @@
       "age": "RECENT"
     },
     {
-      "title": "TikTok reaches $400M settlement with US over COPPA violations",
-      "summary": "The U.S. Department of Justice announced a $400 million settlement with TikTok, ByteDance, and affiliated companies over allegations that they violated the Children's Online Privacy Protection Act (COPPA). [...]",
-      "url": "https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/",
-      "source": "BleepingComputer",
+      "title": "Bluesky now lets you upload 10-minute long videos",
+      "summary": "Bluesky's new 10-minute video support includes faster upload speeds, too.",
+      "url": "https://techcrunch.com/2026/08/26/bluesky-now-lets-you-upload-10-minute-long-videos/",
+      "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
-      "summary": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
+      "title": "QueryStory wants you to believe what AI is telling you",
+      "summary": "The startup came out of stealth with $6 million in seed funding and a plan to use LLMs and cybersecurity know-how to make AI queries coherent.",
+      "url": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Arga Labs is building a better way to train enterprise AI agents",
+      "summary": "Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.",
+      "url": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses",
+      "summary": "The glasses, called Legato Frames, integrate the company’s patented hearing-assistance technology into the arms of eyewear frames.",
+      "url": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/",
+      "source": "TechCrunch",
+      "category": "AI",
       "age": "RECENT"
     },
     {
@@ -767,38 +799,6 @@
       "url": "https://techcrunch.com/2026/08/25/tonight-marks-your-last-chance-to-save-up-to-300-on-a-techcrunch-disrupt-2026-pass/",
       "source": "TechCrunch",
       "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Claude Cowork finally remembers what you told the app in chat",
-      "summary": "Anthropic is giving Claude a shared memory across chat and Cowork, so users no longer have to repeatedly brief the AI on projects, preferences, and other context.",
-      "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Waymo robotaxis are headed to Munich",
-      "summary": "Germany's autonomous vehicle regulations have made it a hotspot for autonomous vehicle testing and eventual commercial robotaxi deployment.",
-      "url": "https://techcrunch.com/2026/08/25/waymo-robotaxis-are-headed-to-munich/",
-      "source": "TechCrunch",
-      "category": "ROBOTICS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Life360 expands pet tracking with new $8 scannable tags and zoomie alerts",
-      "summary": "Life360’s new $7.99 scannable pet tags alert families when a lost pet is found and share its last known location, while new care-tracking features help households keep tabs on feeding, walks, medication, and more.",
-      "url": "https://techcrunch.com/2026/08/25/life360-expands-pet-tracking-with-new-8-scannable-tags-and-zoomie-alerts/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "That fake Grand Theft Auto VI demo is actually just malware",
-      "summary": "Grand Theft Auto fans, eager for news about one of the most anticipated video games of all time, appear especially vulnerable to this new cyberattack.",
-      "url": "https://techcrunch.com/2026/08/25/that-fake-grand-theft-auto-vi-demo-is-actually-just-malware/",
-      "source": "TechCrunch",
-      "category": "CYBERSECURITY",
       "age": "RECENT"
     }
   ]
