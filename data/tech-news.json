@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T05:52:12.009651+00:00",
+  "generated_at": "2026-08-26T07:11:40.000939+00:00",
   "articles": [
     {
       "title": "The world's busiest spaceport is about to get a lot quieter, at least for now",
@@ -159,6 +159,22 @@
       "url": "https://arstechnica.com/science/2026/08/trump-tried-to-curb-clean-energy-its-booming-anyway/",
       "source": "Ars Technica",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "India’s crewed space program will fly this year, after missing 2022 and 2025 targets",
+      "summary": "A space station by 2035 is ISRO’s new mission",
+      "url": "https://www.theregister.com/science/2026/08/26/indias-crewed-space-program-will-fly-this-year-after-missing-2022-and-2025-targets/5292478",
+      "source": "The Register",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Self-hosted email is in steep decline, Microsoft and Google are taking over",
+      "summary": "Oh great, Big Tech is now in prime position to decide which messages get through",
+      "url": "https://www.theregister.com/software/2026/08/26/self-hosted-email-is-in-steep-decline-microsoft-and-google-are-taking-over/5292471",
+      "source": "The Register",
+      "category": "WINDOWS",
       "age": "RECENT"
     },
     {
@@ -346,22 +362,6 @@
       "age": "RECENT"
     },
     {
-      "title": "You don't want this Sleepwalker backdoor on your Windows machine",
-      "summary": "Its own command language, 23 instructions - signs point to 'well-resourced operation rather than an opportunistic one'",
-      "url": "https://www.theregister.com/security/2026/08/24/you-dont-want-this-sleepwalker-backdoor-on-your-windows-machine/5292021",
-      "source": "The Register",
-      "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Browser fingerprint tool shows how easy you are to track using the latest sneaky tricks",
-      "summary": "Glassbox dev admits he had some help from Claude to build locally running tool",
-      "url": "https://www.theregister.com/security/2026/08/24/browser-fingerprint-tool-shows-how-easy-you-are-to-track-using-the-latest-sneaky-tricks/5292015",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Corsair Discount Code: Up to 50% Off for August 2026",
       "summary": "Upgrade your gaming setup or PC build for less with these verified Corsair coupon codes, student discounts, and refurbished deals.",
       "url": "https://www.wired.com/story/corsair-coupon/",
@@ -394,14 +394,6 @@
       "age": "RECENT"
     },
     {
-      "title": "20% Off Sephora Promo Code | August 2026",
-      "summary": "Earn more points on skincare purchases when you use our Sephora coupon.",
-      "url": "https://www.wired.com/story/sephora-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Nomad Goods Promo Codes: Get 25% Off in August 2026",
       "summary": "Save up to 25% on Nomad Goods accessories such as Nomad phone cases, Nomad wallets, and more in August 2026.",
       "url": "https://www.wired.com/story/nomad-discount-code/",
@@ -410,9 +402,9 @@
       "age": "RECENT"
     },
     {
-      "title": "PlayStation Discount Code: Save on PS5 Games August 2026",
-      "summary": "Want to stretch your gaming budget? Learn how to unlock massive savings on PS5 games, DualSense controllers, and PlayStation Plus memberships using gift cards and exclusive promotional codes.",
-      "url": "https://www.wired.com/story/playstation-discount-code/",
+      "title": "20% Off Sephora Promo Code | August 2026",
+      "summary": "Earn more points on skincare purchases when you use our Sephora coupon.",
+      "url": "https://www.wired.com/story/sephora-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -426,14 +418,6 @@
       "age": "RECENT"
     },
     {
-      "title": "LegalZoom Promo Code: Exclusive 10% Off LLC Formations",
-      "summary": "Save on top services at LegalZoom, like LLC registration, incorporation, estate plans, and more with coupons and deals from WIRED.",
-      "url": "https://www.wired.com/story/legalzoom-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Target Promo Code: $50 Off | August 2026",
       "summary": "Get $50 off your next order or up to 50% off site wide with Target coupon codes and Circle deals.",
       "url": "https://www.wired.com/story/target-promo-code/",
@@ -442,17 +426,33 @@
       "age": "RECENT"
     },
     {
-      "title": "25% Off Adidas Promo Code | August 2026",
-      "summary": "Save 15% or 30% with Adidas promo codes, plus explore Adidas deals for 40% off trendy sneakers.",
-      "url": "https://www.wired.com/story/adidas-promo-code/",
+      "title": "Tuft & Needle Promo Codes: 30% Off | August 2026",
+      "summary": "Save 30% on best-selling mattresses with our top Tuft & Needle coupon codes.",
+      "url": "https://www.wired.com/story/tuft-and-needle-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "Tuft & Needle Promo Codes: 30% Off | August 2026",
-      "summary": "Save 30% on best-selling mattresses with our top Tuft & Needle coupon codes.",
-      "url": "https://www.wired.com/story/tuft-and-needle-promo-code/",
+      "title": "LegalZoom Promo Code: Exclusive 10% Off LLC Formations",
+      "summary": "Save on top services at LegalZoom, like LLC registration, incorporation, estate plans, and more with coupons and deals from WIRED.",
+      "url": "https://www.wired.com/story/legalzoom-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "PlayStation Discount Code: Save on PS5 Games August 2026",
+      "summary": "Want to stretch your gaming budget? Learn how to unlock massive savings on PS5 games, DualSense controllers, and PlayStation Plus memberships using gift cards and exclusive promotional codes.",
+      "url": "https://www.wired.com/story/playstation-discount-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "25% Off Adidas Promo Code | August 2026",
+      "summary": "Save 15% or 30% with Adidas promo codes, plus explore Adidas deals for 40% off trendy sneakers.",
+      "url": "https://www.wired.com/story/adidas-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -682,6 +682,14 @@
       "age": "RECENT"
     },
     {
+      "title": "Ventures Platform goes bigger — and broader — with its second Africa fund",
+      "summary": "The Pan-African venture firm has raised $83 million and plans to invest in startups beyond its home market of Nigeria.",
+      "url": "https://techcrunch.com/2026/08/26/ventures-platform-goes-bigger-and-broader-with-its-second-africa-fund/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
       "summary": "Ringg has raised $10 million from Peak XV as a part of its Series A extension.",
       "url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
@@ -698,8 +706,8 @@
       "age": "RECENT"
     },
     {
-      "title": "OpenAI loses a top data center exec, as stream of high-profile departures continues",
-      "summary": "Before Malone left, OpenAI had already reshuffled its infrastructure org, shifting his reporting line away from President Greg Brockman and putting Vice President Sachin Katti in charge of the group.",
+      "title": "OpenAI loses a top data center exec as stream of high-profile departures continues",
+      "summary": "In a statement to TechCrunch about Malone's departure, OpenAI said it had \"recently reorganized\" its \"infrastructure organization to support the scale and pace of our work.\"",
       "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
       "source": "TechCrunch",
       "category": "AI",
@@ -789,14 +797,6 @@
       "title": "Pacific Fusion’s next fusion machine could clear a key hurdle to commercial power",
       "summary": "Fusion startup Pacific Fusion broke ground on a demonstration facility in New Mexico that it says will generate enough energy to power itself.",
       "url": "https://techcrunch.com/2026/08/25/pacific-fusion-next-fusion-machine-could-clear-key-hurdle-to-commercial-power/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Gamma acquires Accel-backed design startup Lica",
-      "summary": "Lica co-founders are going to work on Gamma's new research team.",
-      "url": "https://techcrunch.com/2026/08/25/gamma-acquires-accel-backed-design-startup-lica/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
