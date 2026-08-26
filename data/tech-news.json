@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-08-26T18:05:30.449930+00:00",
+  "generated_at": "2026-08-26T20:07:35.890162+00:00",
   "articles": [
+    {
+      "title": "The Porsche 911 GT3 Touring punches above its weight class",
+      "summary": "The \"everyday\" GT3 delivers, despite looming regulations and an ever-inflating price tag.",
+      "url": "https://arstechnica.com/cars/2026/08/driven-the-992-2-porsche-911-gt3-touring-earns-its-keep/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Xbox’s new disc-to-digital program gives physical games a digital future",
+      "summary": "\"Most\" Xbox One and Series X games are compatible; discs will still work after being claimed.",
+      "url": "https://arstechnica.com/gaming/2026/08/xboxs-new-disc-to-digital-program-gives-physical-games-a-digital-future/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
     {
       "title": "Court blocks Trump FCC order that could flood broadcast TV with more election ads",
       "summary": "Republicans demanded that parties and fundraising committees be given lowest ad rates.",
@@ -146,18 +162,34 @@
       "age": "RECENT"
     },
     {
-      "title": "RFK Jr. may upend how vaccine recommendations are categorized",
-      "summary": "There are currently 3 categories. Without reason, RFK Jr. is considering changes.",
-      "url": "https://arstechnica.com/health/2026/08/rfk-jr-may-upend-how-vaccine-recommendations-are-categorized/",
-      "source": "Ars Technica",
+      "title": "More than 100 water systems were hit in July cyberattacks",
+      "summary": "'These are test runs for a larger-scale attack'",
+      "url": "https://www.theregister.com/cyber-crime/2026/08/26/more-than-100-water-systems-were-hit-in-july-cyberattacks/5292685",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "GitHub Actions was down yet again",
+      "summary": "Another outage puts last week's promises to an early test",
+      "url": "https://www.theregister.com/devops/2026/08/26/github-actions-was-down-yet-again/5292679",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "Ads and tracking infiltrated TVs. Now they're coming for monitors.",
-      "summary": "Monitor vendors are playing with fire.",
-      "url": "https://arstechnica.com/gadgets/2026/08/ads-and-tracking-infiltrated-tvs-now-theyre-coming-for-monitors/",
-      "source": "Ars Technica",
+      "title": "MNT follows up its open hardware portables with a desktop case",
+      "summary": "Upgrade the portable, give its old mainboard another job",
+      "url": "https://www.theregister.com/systems/2026/08/26/mnt-follows-up-its-open-hardware-portables-with-a-desktop-case/5292661",
+      "source": "The Register",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Meta's proposed $18B settlement in teen harm case throws YouTube and TikTok under the bus, too",
+      "summary": "Zuckercorp ties $5.3B of its payout to rivals playing along",
+      "url": "https://www.theregister.com/legal/2026/08/26/metas-proposed-18b-settlement-in-teen-harm-case-throws-youtube-and-tiktok-under-the-bus-too/5292665",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -330,35 +362,27 @@
       "age": "RECENT"
     },
     {
-      "title": "You could've applied all 1,449 Oracle patches and still been hit by this attack",
-      "summary": "Attackers now ready to exploit how things work, rather than just break them, says Oracle support expert",
-      "url": "https://www.theregister.com/security/2026/08/25/you-couldve-applied-all-1449-oracle-patches-and-still-been-hit-by-this-attack/5292335",
-      "source": "The Register",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Microsoft warns that transitioning Excel workbooks to new Exchange connectors might not be smooth sailing",
-      "summary": "Current Exchange connector is retiring - and new ones won't work if you don't upgrade",
-      "url": "https://www.theregister.com/software/2026/08/25/microsoft-warns-that-transitioning-excel-workbooks-to-new-exchange-connectors-might-not-be-smooth-sailing/5292316",
-      "source": "The Register",
-      "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Slop factory bans Russians for using slop factory to create slop",
-      "summary": "OpenAI wants you to thank it for keeping a permanent record of all your discussions with its bots",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/25/slop-factory-bans-russians-for-using-slop-factory-to-create-slop/5292297",
-      "source": "The Register",
+      "title": "OpenAI’s Hugging Face Hack Debrief Raises More Questions Than It Answers",
+      "summary": "The AI giant acknowledges that it could have done far more to prevent its AI agents from going rogue. But it still fails to explain why it didn't see this fiasco coming.",
+      "url": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
+      "source": "WIRED",
       "category": "AI",
       "age": "RECENT"
     },
     {
-      "title": "US convicts ex-Philips engineer for exposing X-ray secrets to competitor",
-      "summary": "Dutch electronics giant saw right through ex-engineer’s plot, albeit over a year after it all unravelled",
-      "url": "https://www.theregister.com/legal/2026/08/25/us-convicts-ex-philips-engineer-for-exposing-x-ray-secrets-to-competitor/5292291",
-      "source": "The Register",
+      "title": "There Are No Trans Women in the WNBA, so Right-Wingers Are Making Some Up",
+      "summary": "As culture warriors continue to stoke the flames of a gender panic in professional sports, wild conspiracy theories are coming into play.",
+      "url": "https://www.wired.com/story/there-are-no-trans-women-in-the-wnba-so-right-wingers-are-making-some-up/",
+      "source": "WIRED",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "The Humanoids at China’s Robot Games Were Faster Than Usain Bolt—but I’m More Impressed by Their Tweezer Mastery",
+      "summary": "Beijing’s endlessly delightful Robot Games featured tons of impressive stunts. But the most mind-blowing tricks challenged the humanoid’s brain, not its brawn.",
+      "url": "https://www.wired.com/story/i-could-watch-the-robot-games-forever-ai-lab/",
+      "source": "WIRED",
+      "category": "ROBOTICS",
       "age": "RECENT"
     },
     {
@@ -442,6 +466,22 @@
       "age": "RECENT"
     },
     {
+      "title": "20% Off Sephora Promo Code | August 2026",
+      "summary": "Earn more points on skincare purchases when you use our Sephora coupon.",
+      "url": "https://www.wired.com/story/sephora-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "AirDoctor Coupon Codes: 40% Off | August 2026",
+      "summary": "Save up to $400 on top air purifiers and filters with verified AirDoctor promo codes and special offers for 2026.",
+      "url": "https://www.wired.com/story/airdoctor-coupon-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "Google Workspace Promo Codes: 14% Off for August 2026",
       "summary": "Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three months, including Starter, Standard, and Plus tiers.",
       "url": "https://www.wired.com/story/google-workspace-promo-code/",
@@ -458,57 +498,9 @@
       "age": "RECENT"
     },
     {
-      "title": "AirDoctor Coupon Codes: 40% Off | August 2026",
-      "summary": "Save up to $400 on top air purifiers and filters with verified AirDoctor promo codes and special offers for 2026.",
-      "url": "https://www.wired.com/story/airdoctor-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
       "title": "Nomad Goods Promo Codes: Get 25% Off in August 2026",
       "summary": "Save up to 25% on Nomad Goods accessories such as Nomad phone cases, Nomad wallets, and more in August 2026.",
       "url": "https://www.wired.com/story/nomad-discount-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "20% Off Sephora Promo Code | August 2026",
-      "summary": "Earn more points on skincare purchases when you use our Sephora coupon.",
-      "url": "https://www.wired.com/story/sephora-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "PlayStation Discount Code: Save on PS5 Games August 2026",
-      "summary": "Want to stretch your gaming budget? Learn how to unlock massive savings on PS5 games, DualSense controllers, and PlayStation Plus memberships using gift cards and exclusive promotional codes.",
-      "url": "https://www.wired.com/story/playstation-discount-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Vitamix Promo Codes and Deals: $25 Off + Free Shipping",
-      "summary": "Score discounts on blenders, food processors, immersion blenders, and more with our selection of Vitamix coupons and deals.",
-      "url": "https://www.wired.com/story/vitamix-promo-code/",
-      "source": "WIRED",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Target Promo Code: $50 Off | August 2026",
-      "summary": "Get $50 off your next order or up to 50% off site wide with Target coupon codes and Circle deals.",
-      "url": "https://www.wired.com/story/target-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Tuft & Needle Promo Codes: 30% Off | August 2026",
-      "summary": "Save 30% on best-selling mattresses with our top Tuft & Needle coupon codes.",
-      "url": "https://www.wired.com/story/tuft-and-needle-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -522,9 +514,41 @@
       "age": "RECENT"
     },
     {
+      "title": "Target Promo Code: $50 Off | August 2026",
+      "summary": "Get $50 off your next order or up to 50% off site wide with Target coupon codes and Circle deals.",
+      "url": "https://www.wired.com/story/target-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "PlayStation Discount Code: Save on PS5 Games August 2026",
+      "summary": "Want to stretch your gaming budget? Learn how to unlock massive savings on PS5 games, DualSense controllers, and PlayStation Plus memberships using gift cards and exclusive promotional codes.",
+      "url": "https://www.wired.com/story/playstation-discount-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "25% Off Adidas Promo Code | August 2026",
       "summary": "Save 15% or 30% with Adidas promo codes, plus explore Adidas deals for 40% off trendy sneakers.",
       "url": "https://www.wired.com/story/adidas-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Vitamix Promo Codes and Deals: $25 Off + Free Shipping",
+      "summary": "Score discounts on blenders, food processors, immersion blenders, and more with our selection of Vitamix coupons and deals.",
+      "url": "https://www.wired.com/story/vitamix-promo-code/",
+      "source": "WIRED",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Tuft & Needle Promo Codes: 30% Off | August 2026",
+      "summary": "Save 30% on best-selling mattresses with our top Tuft & Needle coupon codes.",
+      "url": "https://www.wired.com/story/tuft-and-needle-promo-code/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
@@ -538,27 +562,11 @@
       "age": "RECENT"
     },
     {
-      "title": "‘Darth Vader’ Wants You to Know He Definitely Supports Flock Surveillance",
-      "summary": "Anthony Ralphs was frustrated by the San Diego City Council's support for Flock. He decided it would take something more than reasoned argument to get their attention.",
-      "url": "https://www.wired.com/story/darth-vader-wants-you-to-know-he-definitely-supports-flock-surveillance/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "The Best Early Labor Day Kitchen Deals to Ease You Back Into Fall (2026)",
-      "summary": "With school and sports starting again, these discounts on Instant Pots, cookware, and coffee gear arrive right on time.",
-      "url": "https://www.wired.com/story/early-labor-day-kitchen-appliance-deals-2026/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Google Pixel 11 Pro Fold Review: Better, Not Best",
-      "summary": "A polished update to Google’s foldable brings real improvements, but the price bump and rampant competition make it a tough sell.",
-      "url": "https://www.wired.com/review/google-pixel-11-pro-fold/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "New GPUThor attack defeats NVIDIA ECC protection for root access",
+      "summary": "A newly disclosed Rowhammer attack called GPUThor can bypass error-correcting code (ECC) protections on NVIDIA GPUs, enabling denial-of-service (DoS) and root-level privilege escalation. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/",
+      "source": "BleepingComputer",
+      "category": "HARDWARE",
       "age": "RECENT"
     },
     {
@@ -674,11 +682,43 @@
       "age": "RECENT"
     },
     {
-      "title": "Microsoft PowerToys adds Alt+Tab-style switching for an app's windows",
-      "summary": "Microsoft updated its Windows PowerToys toolset with a new utility dubbed \"Window Hopper\" that lets users switch between an app's windows more quickly. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
-      "source": "BleepingComputer",
-      "category": "WINDOWS",
+      "title": "Google’s Gemini has a branding problem, and so does the rest of AI",
+      "summary": "Consumer AI apps need to stop making users learn their product architecture.",
+      "url": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "How do we explain OpenAI’s executive exodus?",
+      "summary": "Was Greg Brockman the right executive all along?",
+      "url": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "OpenAI releases its official report on the Hugging Face breach",
+      "summary": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
+      "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
+      "source": "TechCrunch",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Flipboard acquires Graze, the feed builder working to monetize the open social web",
+      "summary": "Flipboard is acquiring Bluesky feed-building startup Graze, bringing its privacy-friendly ad technology and creator monetization tools into Flipboard’s growing open social web ecosystem.",
+      "url": "https://techcrunch.com/2026/08/26/flipboard-acquires-graze-the-feed-builder-working-to-monetize-the-open-social-web/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Medical device maker Boston Scientific says a cyberattack is causing a ‘global disruption’ to its operations",
+      "summary": "The company won't say if medical devices are affected or if any customer data was exfiltrated.",
+      "url": "https://techcrunch.com/2026/08/26/medical-device-maker-boston-scientific-says-a-cyberattack-is-causing-a-global-disruption-to-its-operations/",
+      "source": "TechCrunch",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -759,46 +799,6 @@
       "url": "https://techcrunch.com/2026/08/26/cisa-confirms-hackers-targeted-over-100-us-water-systems-during-july/",
       "source": "TechCrunch",
       "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
-      "summary": "Z.ai confirms it is behind Ox Alpha, the mysterious open AI model topping benchmarks and leaderboards, and its weights are set to be released soon.",
-      "url": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Meta settles for $18 billion in lawsuit brought by 29 states over social media harms to children",
-      "summary": "The lawsuit alleged that Meta knowingly designed platforms like Instagram and Facebook to addict children, despite knowing about the harms the platforms could pose to young users.",
-      "url": "https://techcrunch.com/2026/08/26/meta-settles-for-18-billion-in-lawsuit-brought-by-29-states-over-social-media-harms-to-children/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Robot brain builders are pushing out of their GPT-2 era",
-      "summary": "Robot bodies are waiting for their AI brains to catch up.",
-      "url": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Bluesky now lets you upload 10-minute long videos",
-      "summary": "Bluesky's new 10-minute video support includes faster upload speeds, too.",
-      "url": "https://techcrunch.com/2026/08/26/bluesky-now-lets-you-upload-10-minute-long-videos/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "QueryStory wants you to believe what AI is telling you",
-      "summary": "The startup came out of stealth with $6 million in seed funding and a plan to use LLMs and cybersecurity know-how to make AI queries coherent.",
-      "url": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
-      "source": "TechCrunch",
-      "category": "AI",
       "age": "RECENT"
     }
   ]
