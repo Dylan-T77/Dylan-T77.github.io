@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T10:00:23.529920+00:00",
+  "generated_at": "2026-08-26T10:53:30.729603+00:00",
   "articles": [
     {
       "title": "The world's busiest spaceport is about to get a lot quieter, at least for now",
@@ -158,6 +158,14 @@
       "summary": "Capacity will rise by a record 45GW this year, according to S&#038;P Global Energy.",
       "url": "https://arstechnica.com/science/2026/08/trump-tried-to-curb-clean-energy-its-booming-anyway/",
       "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "UK supermarket scales go 404 on shoppers",
+      "summary": "Tesco produce not found? But beware the forbidden scales...",
+      "url": "https://www.theregister.com/offbeat/2026/08/26/uk-supermarket-scales-go-404-on-shoppers/5292088",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
@@ -354,11 +362,19 @@
       "age": "RECENT"
     },
     {
-      "title": "SpaceX claims it will put a Vera Rubin NVL72 rack-scale system into orbit next year",
-      "summary": "And fly ‘significant scale’ in 2028 – a claim that isn’t entirely bonkers, but needs a solid grain of salt",
-      "url": "https://www.theregister.com/off-prem/2026/08/25/spacex-claims-it-will-put-a-vera-rubin-nvl72-rack-scale-system-into-orbit-next-year/5292067",
-      "source": "The Register",
-      "category": "SPACE",
+      "title": "Green Chef Meal Kit Review (2026): Great Ingredients, Layered Flavor",
+      "summary": "HelloFresh’s organic meal kit Green Chef offers transparent sourcing, layered cooking, and trustworthy gluten-free dishes.",
+      "url": "https://www.wired.com/review/green-chef-meal-kit-2026/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "How Ikea Turned a Controller Thumbstick Into the Star of Its Xbox Gaming Range",
+      "summary": "Xbox and Ikea collab alert! This unique nine-piece collection for gamers arrives this fall and has a slew of Easter eggs.",
+      "url": "https://www.wired.com/story/how-ikea-turned-a-controller-thumbstick-into-the-star-of-its-xbox-gaming-range/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -541,22 +557,6 @@
       "title": "The County Prosecutors Who Became ICE Informants",
       "summary": "Illinois prosecutors shared defendants’ personal data with federal immigration agents without criminal warrants, public disclosure, or legislative oversight.",
       "url": "https://www.wired.com/story/the-county-prosecutors-who-became-ice-informants/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Optoma GT2400HDR Review: Ace Projector for Golf Simulation",
-      "summary": "The Optoma GT2400HDR laser projector is great for setting up a driving range in your living room, but mediocre video quality makes it less appealing for home entertainment.",
-      "url": "https://www.wired.com/review/optoma-gt2400hdr/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Border Wall Construction Threatens 6,000 Years of History on Private Lands",
-      "summary": "Archeologists are confronting an “unfathomable” loss as border wall construction is set to cut across ranches that are home to unique historical sites, many of which haven’t been fully studied.",
-      "url": "https://www.wired.com/story/border-wall-construction-threatens-6000-years-of-history/",
       "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
