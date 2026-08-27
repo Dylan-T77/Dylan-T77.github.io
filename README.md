@@ -1,4 +1,4 @@
-# Dylan Thiart // IT Systems Portfolio
+# ᴅʏʟᴀɴ.exe // IT Systems Portfolio
 
 Personal IT portfolio and technical project site for **Dylan Thiart**.
 
@@ -81,5 +81,5 @@ The website itself is also part of the portfolio: it demonstrates version contro
 
 ---
 
-**Dylan Thiart**  
+**ᴅʏʟᴀɴ//T.exe**  
 `BUILD // TEST // BREAK // FIX // DOCUMENT`
