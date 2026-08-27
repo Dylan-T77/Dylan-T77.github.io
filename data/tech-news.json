@@ -1,9 +1,81 @@
 {
-  "generated_at": "2026-08-27T09:55:42.801686+00:00",
+  "generated_at": "2026-08-27T20:34:08.078430+00:00",
   "articles": [
     {
+      "title": "The iconic T-38 jets flown by astronauts just got a spiffy new look",
+      "summary": "\"Everyone wants to take that aircraft up now...\"",
+      "url": "https://arstechnica.com/space/2026/08/nasa-t-38-astronaut-training-jet-gets-new-artemis-look/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "RFK Jr. goes full anti-vaccine bananas over two measles deaths—one was a newborn",
+      "summary": "Kennedy and his allies have a history of downplaying vaccine-preventable deaths.",
+      "url": "https://arstechnica.com/health/2026/08/rfk-jr-spews-anti-vaccine-rubbish-as-newborn-revealed-to-have-died-from-measles/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Why did 1,000 world citizens bury their underpants?",
+      "summary": "Study: Land use is the biggest factor in determining decomposition rates of organic cotton underpants.",
+      "url": "https://arstechnica.com/science/2026/08/why-did-1000-swiss-citizens-bury-their-underpants/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Panic passes Trump tariff refunds back to the Playdate customers who paid them",
+      "summary": "\"It just felt like the right thing to do.\"",
+      "url": "https://arstechnica.com/gaming/2026/08/panic-refunds-illegal-tariffs-customers-paid-on-its-playdate-gaming-handheld/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Traders brought Central American cacao to Georgia 1,000 years ago",
+      "summary": "\"We built this city on good cacao\" does have a nice ring to it.",
+      "url": "https://arstechnica.com/science/2026/08/traders-brought-central-american-cacao-to-georgia-1000-years-ago/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
+      "summary": "227 install commands were found in corporate docs pointing at code nobody owns.",
+      "url": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "How much of a problem is AI’s water use?",
+      "summary": "AI’s water footprint is growing, but location and cooling technology make a difference.",
+      "url": "https://arstechnica.com/ai/2026/08/how-much-of-a-problem-is-ais-water-use/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
+      "summary": "Without authorization, 1,200 OpenAI agents conspired among themselves to game a test.",
+      "url": "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/",
+      "source": "Ars Technica",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Bentley takes us for a ride in its new EV, the Torcal",
+      "summary": "The electric Torcal will be Bentley's entry model and cost less than a Bentayga.",
+      "url": "https://arstechnica.com/cars/2026/08/an-ev-that-sounds-like-a-6-75-l-v8-a-ride-in-the-bentley-torcal/",
+      "source": "Ars Technica",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
       "title": "RIP, Tim Curry: Ars remembers his top 10 iconic performances",
-      "summary": "A dashing pirate, a butler, a killer clown, an alien mad scientist in drag—the man had range.",
+      "summary": "A dashing pirate, a butler, a shapeshifting killer clown, an alien mad scientist in drag—the man had range.",
       "url": "https://arstechnica.com/culture/2026/08/rip-tim-curry-ars-remembers-his-top-10-iconic-performances/",
       "source": "Ars Technica",
       "category": "GENERAL",
@@ -90,75 +162,83 @@
       "age": "RECENT"
     },
     {
-      "title": "Psychiatry’s diagnostic bible is finally getting a biological upgrade",
-      "summary": "Biology is coming to psychiatry’s diagnostic manual, even as reliable biomarkers remain rare.",
-      "url": "https://arstechnica.com/health/2026/08/psychiatrys-diagnostic-bible-is-finally-getting-a-biological-upgrade/",
-      "source": "Ars Technica",
+      "title": "ATF responds to 'major' cybersecurity incident after ransomware gang's claims",
+      "summary": "US Justice Department investigating the breach",
+      "url": "https://www.theregister.com/security/2026/08/27/atf-responds-to-major-cybersecurity-incident-after-ransomware-gangs-claims/5292990",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Schrödinger's backup: not actually recovered until you try to restore IT",
+      "summary": "SPONSORED FEATURE: Verify and survive: your backup isn't real 'til you test it",
+      "url": "https://www.theregister.com/security/2026/08/27/sponsored-schroedingers-backup-not-actually-recovered-until-you-try-to-restore-it/5286772",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "IBM's new Granite 4.2 models ride the wave of interest in local LLMs",
-      "summary": "The focus is on agentic capability and predictable enterprise deployment.",
-      "url": "https://arstechnica.com/ai/2026/08/ibms-new-granite-4-2-models-ride-the-wave-of-interest-in-local-llms/",
-      "source": "Ars Technica",
+      "title": "Nitter might be no more, but Twitter is back (sort of)",
+      "summary": "Twitter.now aims to fill the bird-shaped hole left by X. For a fee",
+      "url": "https://www.theregister.com/personal-tech/2026/08/27/nitter-might-be-no-more-but-twitter-is-back-sort-of/5292949",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Salesforce boasts: 50% of bookings were from 'customers refilling the tank... they consume Flex Credits, they want more'",
+      "summary": "As SaaS giant gets a boost from Claudeforce, users might want to know how their AI use will be monetized",
+      "url": "https://www.theregister.com/software/2026/08/27/salesforce-boasts-50-of-bookings-were-from-customers-refilling-the-tank-they-consume-flex-credits-they-want-more/5292927",
+      "source": "The Register",
       "category": "AI",
       "age": "RECENT"
     },
     {
-      "title": "Xtracycle's Swoop ASM e-bike brings an automatic transmission to cargo bikes",
-      "summary": "A steel frame cargo bike with a unique twist: You can let it choose your gear.",
-      "url": "https://arstechnica.com/cars/2026/08/xtracycles-swoop-asm-e-bike-brings-an-automatic-transmission-to-cargo-bikes/",
-      "source": "Ars Technica",
+      "title": "Cybercrooks jet off with Manchester Airports Group customer data",
+      "summary": "UK’s largest airport operator believes 8.7 million customers affected",
+      "url": "https://www.theregister.com/security/2026/08/27/cybercrooks-jet-off-with-manchester-airports-group-customer-data/5292943",
+      "source": "The Register",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "HP has a solution to expensive AI tokens: Buy a more expensive PC",
+      "summary": "Rising cloud AI costs are pushing workloads onto pricier PCs – which just happen to be better for PC maker's margins",
+      "url": "https://www.theregister.com/personal-tech/2026/08/27/hp-has-a-solution-to-expensive-ai-tokens-buy-a-more-expensive-pc/5292922",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Microsoft slaps a fresh coat of AI paint on the Microsoft 365 Roadmap",
+      "summary": "AI at Work roadmap is the new name for upcoming Microsoft 365 capabilities",
+      "url": "https://www.theregister.com/software/2026/08/27/microsoft-slaps-a-fresh-coat-of-ai-paint-on-the-microsoft-365-roadmap/5292865",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Nuisance-call blocker fined £190k for being a nuisance caller",
+      "summary": "Elderly Aids made 758,000 unwanted calls a year selling gear to stop unwanted calls",
+      "url": "https://www.theregister.com/security/2026/08/27/nuisance-call-blocker-fined-190k-for-being-a-nuisance-caller/5292888",
+      "source": "The Register",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "The world's busiest spaceport is about to get a lot quieter, at least for now",
-      "summary": "SpaceX aims to launch Starship from Florida by the end of the year. 2027 seems more likely.",
-      "url": "https://arstechnica.com/space/2026/08/the-worlds-busiest-spaceport-is-about-to-get-a-lot-quieter-at-least-for-now/",
-      "source": "Ars Technica",
-      "category": "SPACE",
+      "title": "Want to lead Whitehall's AI strategy? AI experience is not essential",
+      "summary": "Track record is merely desirable for the person tasked with shaping UK.gov's skills blueprint for 550,000 civil servants",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/27/want-to-lead-whitehalls-ai-strategy-ai-experience-is-not-essential/5292894",
+      "source": "The Register",
+      "category": "AI",
       "age": "RECENT"
     },
     {
-      "title": "World humanoid robot games show runners breaking records, bursting into flames",
-      "summary": "Record-breaking robot races are less substantial than household chore challenges.",
-      "url": "https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames/",
-      "source": "Ars Technica",
-      "category": "ROBOTICS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Preserving glow-in-the-dark art and fashion for future generations",
-      "summary": "Understanding unique photochemistry of such materials will help in conservation, storage, and exhibition.",
-      "url": "https://arstechnica.com/science/2026/08/how-chemistry-can-keep-glow-in-the-dark-pigments-from-fading/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Google's anti-nausea Motion Assist dots finally rolling out on Android",
-      "summary": "It's currently only appearing on Pixels running Android 17.",
-      "url": "https://arstechnica.com/gadgets/2026/08/google-begins-rolling-out-anti-motion-sickness-feature-on-android-17/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Two unvaccinated people die from measles in Pennsylvania, officials confirm",
-      "summary": "\"[P]eople are not familiar with this disease and don’t fully understand the potential severity.\"",
-      "url": "https://arstechnica.com/health/2026/08/two-unvaccinated-people-die-from-measles-in-pennsylvania-officials-confirm/",
-      "source": "Ars Technica",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "SpaceX intends to invest up to $100 billion in massive Louisiana spaceport",
-      "summary": "\"This will be a project like no other.\"",
-      "url": "https://arstechnica.com/space/2026/08/spacex-intends-to-invest-up-to-100-billion-in-massive-louisiana-spaceport/",
-      "source": "Ars Technica",
-      "category": "SPACE",
+      "title": "AROS, the FOSS recreation of AmigaOS, comes to Raspberry Pi",
+      "summary": "Plus: new official Amiga-branded hardware is coming",
+      "url": "https://www.theregister.com/os-platforms/2026/08/27/aros-the-foss-recreation-of-amigaos-comes-to-raspberry-pi/5292523",
+      "source": "The Register",
+      "category": "HARDWARE",
       "age": "RECENT"
     },
     {
@@ -195,7 +275,7 @@
     },
     {
       "title": "FBI seizes hacking tools it says China used to attack NASA, DOE, US Senate and other critical networks",
-      "summary": "Beijing's botnets busted.",
+      "summary": "Beijing's botnets busted",
       "url": "https://www.theregister.com/security/2026/08/27/fbi-seizes-hacking-tools-it-says-china-used-to-attack-nasa-doe-us-senate-and-other-critical-networks/5292742",
       "source": "The Register",
       "category": "SPACE",
@@ -282,83 +362,91 @@
       "age": "RECENT"
     },
     {
-      "title": "Carhartt data breach affects 12.9M, half of what ShinyHunters claimed",
-      "summary": "One AI and two trained eyes delved into the heavily padded leaks",
-      "url": "https://www.theregister.com/security/2026/08/26/carhartt-data-breach-affects-129m-half-of-what-shinyhunters-claimed/5292626",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "CIOs are on notice – vSphere 8 times out in October 2027",
-      "summary": "SPONSORED FEATURE: How do you plan for AI and virtualization when the clock is ticking this loudly?",
-      "url": "https://www.theregister.com/virtualization/2026/08/26/sponsored-cios-are-on-notice-vsphere-8-times-out-in-october-2027/5291634",
-      "source": "The Register",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Microsoft sketches out a Whiteboard extension",
-      "summary": "Users have a little more time to migrate from Azure storage to OneDrive",
-      "url": "https://www.theregister.com/personal-tech/2026/08/26/microsoft-sketches-out-a-whiteboard-extension/5292608",
-      "source": "The Register",
-      "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
-      "title": "AWS buys DuckLabs, the people behind the popular in-process OLAP database",
-      "summary": "Cloud giant expresses love for DuckDB by buying its main support and development company",
-      "url": "https://www.theregister.com/databases/2026/08/26/aws-buys-ducklabs-the-people-behind-the-popular-in-process-olap-database/5292590",
-      "source": "The Register",
+      "title": "Google Engineer Accused of Polymarket Insider Trading Says He Was Just Gambling",
+      "summary": "Michele Spagnuolo was arrested for alleged insider trading on Polymarket, but the Switzerland-based engineer says he was simply gambling—activity that is beyond the reach of US commodities law.",
+      "url": "https://www.wired.com/story/google-engineer-accused-of-polymarket-insider-trading-says-he-was-just-gambling/",
+      "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "Gates warns society faces an AI-pocalypse unless we get more socialist",
-      "summary": "AI and robots are advancing faster than you think, and we're not prepared for a world where the majority may be out of work",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/26/gates-warns-society-faces-an-ai-pocalypse-unless-we-get-more-socialist/5292560",
-      "source": "The Register",
+      "title": "Labor Day 2026 Deals Got Me a Complete Starter Tool Kit for Under $375",
+      "summary": "I combed through the Labor Day sales to find the power tools and other essentials that cover nearly every household repair.",
+      "url": "https://www.wired.com/story/labor-day-2026-home-tool-kit-essentials/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "A Georgia Cop Used Flock to Track 2 Other Cops: His Ex and Her Friend",
+      "summary": "After an affair with a fellow police officer ended, a Georgia cop used Flock to track her movements—and those of a man whose vehicle often showed up near hers, internal investigation records show.",
+      "url": "https://www.wired.com/story/a-georgia-cop-used-flock-to-track-2-other-cops-his-ex-and-her-friend/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World",
+      "summary": "The potential for AI to automate scientific research and manufacturing must be balanced with new risks, Anthropic says.",
+      "url": "https://www.wired.com/story/anthropic-standard-ai-agents-coming-to-the-physical-world/",
+      "source": "WIRED",
       "category": "AI",
       "age": "RECENT"
     },
     {
-      "title": "Nitter no more? X sends in the lawyers to shut down open source project",
-      "summary": "Cease and desist letters from firm headed by free speech absolutist",
-      "url": "https://www.theregister.com/legal/2026/08/26/nitter-no-more-x-sends-in-the-lawyers-to-shut-down-open-source-project/5292548",
-      "source": "The Register",
+      "title": "Netflix Failed at Video Games. Now It’s Trying to Promote Them",
+      "summary": "Netflix has walked back plans to put AAA games on its streaming platform. Instead, it's pivoting to marketing highly anticipated titles like Grand Theft Auto VI.",
+      "url": "https://www.wired.com/story/netflix-failed-at-video-games-now-its-trying-to-promote-them/",
+      "source": "WIRED",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "SpaceX plans to plant $100B Starbase on Louisiana coast",
-      "summary": "Plans to break ground in 2027, produce its own propellant, and power a 'self-sustaining' spaceport. All before Starship ships v1.0 to orbit",
-      "url": "https://www.theregister.com/offbeat/2026/08/26/spacex-plans-to-plant-100b-starbase-on-louisiana-coast/5292520",
-      "source": "The Register",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Nigel Farage wants to scrap 'suffocating' UK GDPR",
-      "summary": "Reform UK's leader proposes 'light-touch' alternative, although rival politicians say plans are sparsely detailed and inconsistent with reality",
-      "url": "https://www.theregister.com/public-sector/2026/08/26/nigel-farage-wants-to-scrap-suffocating-uk-gdpr/5292540",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "UK supermarket scales go 404 on shoppers",
-      "summary": "Tesco produce not found? But beware the forbidden scales...",
-      "url": "https://www.theregister.com/offbeat/2026/08/26/uk-supermarket-scales-go-404-on-shoppers/5292088",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Debian polls its developers on whether to burn the bots, tame the bots, or let 'em loose",
-      "summary": "Eight-way ballot on AI code puts the distro's fractious democracy through its paces",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/26/debian-polls-its-developers-on-whether-to-burn-the-bots-tame-the-bots-or-let-em-loose/5292270",
-      "source": "The Register",
+      "title": "OpenAI Is Developing a ‘Persistent’ AI Agent",
+      "summary": "Code reviewed by WIRED reveals the company is developing a feature that enables Codex to continue working proactively until it is “put to sleep.”",
+      "url": "https://www.wired.com/story/openai-is-developing-a-persistent-ai-agent/",
+      "source": "WIRED",
       "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Alienware AW3926QW Review: 39 Inches of Gaming Glory",
+      "summary": "Alienware’s latest gaming monitor explores a new size and resolution for ultrawide monitors, and I have a feeling PC gamers are going to love it.",
+      "url": "https://www.wired.com/review/alienware-aw3926qw-gaming-monitor/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Best Posture Correctors for Better Body Alignment (2026)",
+      "summary": "You’re hunched over your desk and phone for hours. I rounded up gadgets, a DIY trick, and even some yoga advice to help you straighten up.",
+      "url": "https://www.wired.com/gallery/posture-correctors/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Submit Your Questions: The Great Data Center Backlash",
+      "summary": "You have questions about data centers, and WIRED has answers. Join our livestream on September 10 and our panel of experts will tell you everything you need to know.",
+      "url": "https://www.wired.com/story/livestream-the-great-data-center-backlash/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Stop Touching Your Keyboard. Use This AI-Powered Microphone Instead",
+      "summary": "The Relay Q, due next year, is the latest attempt to reposition voice as the most seamless method for human-computer interaction.",
+      "url": "https://www.wired.com/story/relay-q-voice-to-text-ai-app/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "The Best Google Pixel Phones of 2026: Comparison, Features, and Accessories",
+      "summary": "Let us help you choose the right Pixel phone. Plus, check out our Pixel accessory recommendations and smart software tricks to try.",
+      "url": "https://www.wired.com/story/best-google-pixel-phone/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
@@ -474,91 +562,67 @@
       "age": "RECENT"
     },
     {
-      "title": "Waffle House Teleporter Gregg Phillips Is Still on the Trump Administration’s Payroll",
-      "summary": "In June, a FEMA official infamous for claiming to have teleported to a Waffle House was reportedly ousted. He’s still employed by the government, though—and meeting with a Trump fixer.",
-      "url": "https://www.wired.com/story/waffle-house-teleporter-gregg-phillips-is-still-on-the-trump-administrations-payroll/",
-      "source": "WIRED",
+      "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
+      "summary": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Manchester Airports Group says hackers stole travelers' data",
+      "summary": "The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "How Threat Research and MDR Help SMBs Build a Defensive Edge",
+      "summary": "Threat research gives security teams insight into how attackers operate, while MDR turns that intelligence into faster detection and response. ESET explains how combining threat intelligence, continuous monitoring, and human expertise can help SMBs strengthen their defenses. [...",
+      "url": "https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Android 17 adds ECH support to make web browsing harder to track",
+      "summary": "Google is introducing new network security protections in Android 17 to strengthen connection privacy, address cellular vulnerabilities, and protect the privacy of users' home networks. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
+      "age": "RECENT"
+    },
+    {
+      "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
+      "summary": "Australian authorities have arrested and charged two young men accused of being part of the TeamPCP hacking group linked to a string of far-reaching developer supply chain attacks. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
+      "source": "BleepingComputer",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "What We Still Don’t Know About OpenAI’s Hugging Face Hack",
-      "summary": "The AI giant acknowledges that it could have done far more to prevent its AI agents from going rogue. But it still fails to explain why it didn't see this fiasco coming.",
-      "url": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
-      "source": "WIRED",
-      "category": "AI",
+      "title": "Microsoft rolls out fix for Windows 11 crashes, gaming issues",
+      "summary": "Microsoft has started rolling out a permanent fix for a known issue that causes system crashes and gaming issues on Windows 11 devices. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-windows-11-crashes-gaming-issues/",
+      "source": "BleepingComputer",
+      "category": "WINDOWS",
       "age": "RECENT"
     },
     {
-      "title": "There Are No Trans Women in the WNBA, so Right-Wingers Are Making Some Up",
-      "summary": "As culture warriors continue to stoke the flames of a gender panic in professional sports, wild conspiracy theories are coming into play.",
-      "url": "https://www.wired.com/story/there-are-no-trans-women-in-the-wnba-so-right-wingers-are-making-some-up/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "Webinar: How Google Workspace breaches happen and what to do next",
+      "summary": "Google Workspace breaches can begin with social engineering or forgotten third-party integrations rather than sophisticated exploits. This webinar examines real-world breaches, what happens during the critical first hours, and the security controls that can make the greatest diff",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-how-google-workspace-breaches-happen-and-what-to-do-next/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
-      "title": "The Humanoids at China’s Robot Games Were Faster Than Usain Bolt—but I’m More Impressed by Their Tweezer Mastery",
-      "summary": "Beijing’s endlessly delightful Robot Games featured tons of impressive stunts. But the most mind-blowing tricks challenged the humanoid’s brain, not its brawn.",
-      "url": "https://www.wired.com/story/i-could-watch-the-robot-games-forever-ai-lab/",
-      "source": "WIRED",
-      "category": "ROBOTICS",
-      "age": "RECENT"
-    },
-    {
-      "title": "FBI Disrupts Chinese Proxy Tools Used in Mass Hacking of US Agencies and Infrastructure",
-      "summary": "China’s hacking campaign targeted NASA, the Federal Reserve, the US Senate, the Justice Department, and more, according to the DOJ.",
-      "url": "https://www.wired.com/story/fbi-disrupts-chinese-proxy-tools-used-in-mass-hacking-of-us-agencies-and-infrastructure/",
-      "source": "WIRED",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Candidates Are Signing a Pact Promising Action on Data Centers and AI Safety",
-      "summary": "More than 15 politicians from across the country have signed on to the AI Pact, vowing to regulate data centers and AI. “We’ve got to get this right,” says Senate candidate Dan Osborn of Nebraska.",
-      "url": "https://www.wired.com/story/candidates-are-signing-a-pact-promising-action-on-data-centers-and-ai-safety/",
-      "source": "WIRED",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Meta Will Pay Up to $16.7 Billion to Settle Its Social Media Harms Case—and That’s Not All",
-      "summary": "In addition to sending billions of dollars to states, Meta will make substantive changes to its platforms as part of a landmark settlement.",
-      "url": "https://www.wired.com/story/meta-will-pay-up-to-dollar167-billion-to-settle-its-social-media-harms-case-and-thats-just-for-starters/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "PeopleFinders’ New Website Runs Background Checks on Your Dates",
-      "summary": "The site, called Stud or Dud, helps daters dig up dirt on potential paramours. It’s fueled by the same public data as PeopleFinders.com—and comes with many of the same concerns.",
-      "url": "https://www.wired.com/story/peoplefinders-new-website-stud-or-dud-runs-background-checks-on-your-dates/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Best Wi-Fi Routers (2026): My Honest Picks After Testing 50+",
-      "summary": "Don’t suffer the buffer. These WIRED-tested home routers will deliver reliable internet across your home, whatever your needs or budget.",
-      "url": "https://www.wired.com/gallery/best-wifi-routers/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "AI Slop Is Ruining Cute Animals on the Internet",
-      "summary": "Pet owners, rescue agencies, and wildlife groups are calling for new safeguards as AI makes it harder to tell whether animals, from polar bears to house cats, are real or fake.",
-      "url": "https://www.wired.com/story/ai-slop-is-ruining-the-internets-cute-animal-economy/",
-      "source": "WIRED",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Green Chef Meal Kit Review (2026): Great Ingredients, Layered Flavor",
-      "summary": "HelloFresh’s organic meal kit Green Chef offers transparent sourcing, layered cooking, and trustworthy gluten-free dishes.",
-      "url": "https://www.wired.com/review/green-chef-meal-kit-2026/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "Carhartt data breach exposes information of 12.9 million accounts",
+      "summary": "The ShinyHunters extortion group has published sensitive data from nearly 13 million accounts stolen from clothing retailer giant Carhartt earlier this month, according to data breach notification service Have I Been Pwned. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -618,187 +682,123 @@
       "age": "RECENT"
     },
     {
-      "title": "FBI disrupts proxy network enabling Chinese espionage operations",
-      "summary": "The FBI has disrupted infrastructure associated with a technical \"quartermaster\" that provided reconnaissance, proxy management, and operational routing capabilities for Chinese cyber espionage activities. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-proxy-network-enabling-chinese-espionage-operations/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Snowflake ends service-account passwords. Now comes the hard part",
-      "summary": "Snowflake is ending password authentication for legacy service accounts, forcing organizations to migrate them to passwordless methods. Token Security explains why the harder challenge is identifying what uses each account, who owns it, and how much access it still needs. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Ubiquiti patches three max severity security vulnerabilities",
-      "summary": "Ubiquiti has released security patches for three new maximum-severity vulnerabilities that threat actors can exploit remotely without privileges. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-security-vulnerabilities/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Microsoft tests new privacy controls for Windows 11 desktop apps",
-      "summary": "Microsoft has begun testing new privacy controls that will let Windows 11 users choose which desktop applications can access their camera, microphone, and precise location. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-privacy-controls-for-windows-11-desktop-apps/",
-      "source": "BleepingComputer",
-      "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Hackers now exploit critical Gitea flaw in code injection attacks",
-      "summary": "Attackers are now exploiting a critical-severity vulnerability in the Gitea self-hosted Git service, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "LACMA data breach last year exposed social security and medical data",
-      "summary": "The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "Hackers abuse npm mirrors to host phishing redirect pages",
-      "summary": "Threat actors are abusing npm and its mirrors to host malicious HTML pages that impersonate Cloudflare CAPTCHAs to redirect visitors to attacker-controlled websites. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
-      "summary": "A newly uncovered phishing-as-a-service (PhaaS) platform called AnonyMousKIT automates the retrieval of codes used to unlock stolen Apple devices and disable the Activation Lock feature. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
-      "source": "BleepingComputer",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Nvidia closes in on Hugging Face acquisition",
-      "summary": "Nvidia has reportedly agreed to buy Hugging Face, the popular open-source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
-      "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
-      "source": "TechCrunch",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
-      "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
-      "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
-      "summary": "Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips.",
-      "url": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
-      "source": "TechCrunch",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Meta’s $18B child-safety deal hinges on age-verification tech that doesn’t work well",
-      "summary": "The historic settlement reignites ongoing concern around how age-verification technology puts privacy at risk.",
-      "url": "https://techcrunch.com/2026/08/26/metas-18b-child-safety-deal-hinges-on-age-verification-tech-that-doesnt-work-well/",
+      "title": "Rivian’s CFO is leaving the company",
+      "summary": "Claire McDonough is stepping down on October 30 to pursue a new opportunity, the company said in a filing on Thursday.",
+      "url": "https://techcrunch.com/2026/08/27/rivians-cfo-is-leaving-the-company/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
-      "summary": "The new deal with the infrastructure provider is the latest example of Anthropic's white-hot compute-gobbling streak.",
-      "url": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+      "title": "Bluesky adds an ‘algorithmic opt-out’ feature for those who don’t want to go viral",
+      "summary": "Sometimes people just want to post to their followers, Bluesky says.",
+      "url": "https://techcrunch.com/2026/08/27/bluesky-adds-an-algorithmic-opt-out-feature-for-those-who-dont-want-to-go-viral/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Buried in Meta’s $18B settlement is a legal pass on kids’ data",
+      "summary": "Meta’s settlement with 29 states allows it to retain certain data from children under 13 to train and test age-detection models, highlighting a privacy tradeoff built into the deal.",
+      "url": "https://techcrunch.com/2026/08/27/buried-in-metas-18b-settlement-is-a-legal-pass-on-kids-data/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "YouTube now lets creators tag Amazon products and earn commissions from purchases",
+      "summary": "The update turns product recommendations into a more direct revenue stream for creators, and for Amazon, the move puts its massive online marketplace inside one of the most popular video platforms.",
+      "url": "https://techcrunch.com/2026/08/27/youtube-now-lets-creators-tag-amazon-products-and-earn-commissions-from-purchases/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Barret Zoph, the Thinking Machines co-founder who defected to OpenAI, is now at Google",
+      "summary": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
+      "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
       "source": "TechCrunch",
       "category": "AI",
       "age": "RECENT"
     },
     {
-      "title": "Google’s Gemini has a branding problem, and so does the rest of AI",
-      "summary": "Consumer AI apps need to stop making users learn their product architecture.",
-      "url": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "How do we explain OpenAI’s executive exodus?",
-      "summary": "Was Greg Brockman the right executive all along?",
-      "url": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "OpenAI releases its official report on the Hugging Face breach",
-      "summary": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
-      "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
+      "title": "ATF declares ‘major incident’ as ransomware gang claims hack",
+      "summary": "The ATF is the latest federal government agency in recent years to notify Congress of a \"major incident\" involving its cybersecurity.",
+      "url": "https://techcrunch.com/2026/08/27/atf-declares-major-incident-as-ransomware-gang-claims-hack/",
       "source": "TechCrunch",
       "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
-      "title": "Flipboard acquires Graze, the feed builder working to monetize the open social web",
-      "summary": "Flipboard is acquiring Bluesky feed-building startup Graze, bringing its privacy-friendly ad technology and creator monetization tools into Flipboard’s growing open social web ecosystem.",
-      "url": "https://techcrunch.com/2026/08/26/flipboard-acquires-graze-the-feed-builder-working-to-monetize-the-open-social-web/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Medical device maker Boston Scientific says a cyberattack is causing a ‘global disruption’ to its operations",
-      "summary": "The company won't say if medical devices are affected or if any customer data was exfiltrated.",
-      "url": "https://techcrunch.com/2026/08/26/medical-device-maker-boston-scientific-says-a-cyberattack-is-causing-a-global-disruption-to-its-operations/",
-      "source": "TechCrunch",
-      "category": "CYBERSECURITY",
-      "age": "RECENT"
-    },
-    {
-      "title": "US seizes domains of Chinese botnet used to hack NASA, Justice Department, and the Senate",
-      "summary": "The Justice Department said that the domain seizures made the botnet and its command and control servers \"inoperable,\" as the domains were hardcoded into the botnet's code and were critical for the botnet's communication and essential operations.",
-      "url": "https://techcrunch.com/2026/08/26/us-seizes-domains-of-chinese-botnet-used-to-hack-nasa-justice-department-and-the-senate/",
-      "source": "TechCrunch",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Capital F closes $17M debut fund with goal to back the future of the ‘female economy’",
-      "summary": "The firm backs companies building in the “female economy,” or the markets where women drive demand — women’s health, digital commerce, and AI tools.",
-      "url": "https://techcrunch.com/2026/08/26/capital-f-closes-17m-debut-fund-with-goal-to-back-the-future-of-the-female-economy/",
+      "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+      "summary": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
+      "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
       "source": "TechCrunch",
       "category": "AI",
       "age": "RECENT"
     },
     {
-      "title": "Apple is holding its iPhone launch event on September 9",
-      "summary": "The event is expected to be a notable one, as Apple is rumored to unveil its long-awaited foldable iPhone. It'll also be the first Apple event with John Ternus as CEO, who is scheduled to take the reins of the tech giant from Tim Cook on September 1.",
-      "url": "https://techcrunch.com/2026/08/26/apple-is-holding-its-iphone-launch-event-on-september-9/",
+      "title": "Google’s new Fitbit Air brings Pokémon Sleep to your wrist",
+      "summary": "Google teamed up with the Pokémon Company to introduce a special-edition Fitbit Air that works with the Pokémon Sleep app.",
+      "url": "https://techcrunch.com/2026/08/27/googles-new-fitbit-air-brings-pokemon-sleep-to-your-wrist/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "Meta agrees to sweeping changes to restrict kids’ access to its apps as part of settlement with states",
-      "summary": "One of the most notable changes is that Meta plans to implement a daily two-hour time limit for teens that can only be disabled with parental permission.",
-      "url": "https://techcrunch.com/2026/08/26/meta-agrees-to-sweeping-changes-to-restrict-kids-access-to-its-apps-as-part-of-settlement-with-states/",
+      "title": "Fashion startup Atorie raises $9.5M to bring consumers luxury goods without the markup",
+      "summary": "Shoppers can visit the Atorie website and buy handbags or clothes made from the same material — and coming from the same factory — that manufacturers use in high-end goods.",
+      "url": "https://techcrunch.com/2026/08/27/fashion-startup-atorie-raises-9-5m-to-bring-consumers-luxury-goods-without-the-markup/",
       "source": "TechCrunch",
       "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "What’s driving Sweden’s startup boom, from Lovable to Legora",
-      "summary": "Vibe-coding darling&#160;Lovable just raised $400 million at a&#160;$13.3 billion&#160;valuation,&#160;roughly doubling&#160;its worth in eight months. But Lovable&#160;isn’t&#160;the only Stockholm startup putting up&#160;huge numbers&#160;lately — legal AI company&#160;Legora&#",
-      "url": "https://techcrunch.com/video/whats-driving-swedens-startup-boom-from-lovable-to-legora/",
+      "title": "Hoomanely’s building a smart feeding bowl and an AI platform to help owners spot when their pup is sick",
+      "summary": "Hoomanely has developed a smart bowl to measure and record dogs' feeding data, then tells owners if behaviors change.",
+      "url": "https://techcrunch.com/2026/08/27/hoomanelys-building-a-smart-feeding-bowl-and-an-ai-platform-to-help-owners-spot-when-their-pup-is-sick/",
       "source": "TechCrunch",
       "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "Google’s AI Mode can now track flight prices, help book hotels, and more",
+      "summary": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-planning and booking process.",
+      "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
+      "source": "TechCrunch",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "This former PG&E engineer is building a ‘Google Maps for the underground’",
+      "summary": "The startup just raised a $26 million Series A to grow its customer base and help reduce red tape for utility and construction work.",
+      "url": "https://techcrunch.com/2026/08/27/this-former-pge-engineer-is-building-a-google-maps-for-the-underground/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Hugging Face is selling a cute $399 open source duck robot, Microduck",
+      "summary": "Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”",
+      "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
+      "source": "TechCrunch",
+      "category": "ROBOTICS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Hold up, there’s a new Twitter in town",
+      "summary": "Former Twitter trademark counsel Stephen Coates said in a LinkedIn post that the company is not trying to re-create Twitter.",
+      "url": "https://techcrunch.com/2026/08/27/hold-up-theres-a-new-twitter-in-the-town/",
+      "source": "TechCrunch",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Sprains, pain, and whiplash: Waymo and Zoox test drivers are getting hurt as robotaxis scale",
+      "summary": "Test drivers for Waymo and Zoox sustained more than two dozen injuries in 2024 and 2025 from hard braking or other sudden movements made by the autonomous vehicles, according to a TechCrunch review of data submitted to OSHA.",
+      "url": "https://techcrunch.com/2026/08/27/sprains-pain-and-whiplash-waymo-and-zoox-test-drivers-are-getting-hurt-as-robotaxis-scale/",
+      "source": "TechCrunch",
+      "category": "ROBOTICS",
       "age": "RECENT"
     }
   ]
