@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T23:40:40.261184+00:00",
+  "generated_at": "2026-08-27T09:55:42.801686+00:00",
   "articles": [
     {
       "title": "RIP, Tim Curry: Ars remembers his top 10 iconic performances",
@@ -162,6 +162,54 @@
       "age": "RECENT"
     },
     {
+      "title": "Check out the width of that Debian display",
+      "summary": "Somebody might be aware, but does anyone care?",
+      "url": "https://www.theregister.com/offbeat/2026/08/27/check-out-the-width-of-that-debian-display/5292353",
+      "source": "The Register",
+      "category": "LINUX",
+      "age": "RECENT"
+    },
+    {
+      "title": "AI use among UK teachers doubles, but working hours still don't come down",
+      "summary": "F- for AI in test of reducing burden of teacher workload",
+      "url": "https://www.theregister.com/public-sector/2026/08/27/ai-use-among-uk-teachers-doubles-but-working-hours-still-dont-come-down/5292551",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "You could own AI.slop, if applicant for new global top-level domains get their way",
+      "summary": "Resistance is futile: .borg is on the list, along with .itiswhatitis, .therapy, and.hype. If that’s scary, might a cup of .tea help?",
+      "url": "https://www.theregister.com/networks/2026/08/27/you-could-own-aislop-if-applicant-for-new-global-top-level-domains-get-their-way/5292831",
+      "source": "The Register",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Nutanix built $20m AI cluster to reduce use of Copilot and Claude, expects ROI in a year",
+      "summary": "Also thinks Arm can give it a hand on the edge during RAMpocalypse",
+      "url": "https://www.theregister.com/virtualization/2026/08/27/nutanix-built-20m-ai-cluster-to-reduce-use-of-copilot-and-claude-expects-roi-in-a-year/5292823",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
+      "title": "FBI seizes hacking tools it says China used to attack NASA, DOE, US Senate and other critical networks",
+      "summary": "Beijing's botnets busted.",
+      "url": "https://www.theregister.com/security/2026/08/27/fbi-seizes-hacking-tools-it-says-china-used-to-attack-nasa-doe-us-senate-and-other-critical-networks/5292742",
+      "source": "The Register",
+      "category": "SPACE",
+      "age": "RECENT"
+    },
+    {
+      "title": "OpenAI explains how its naughty AI agents attacked Hugging Face",
+      "summary": "Biz describes its act of automated irresponsibility as 'a warning shot'",
+      "url": "https://www.theregister.com/security/2026/08/27/openai-explains-how-its-naughty-ai-agents-attacked-hugging-face/5292780",
+      "source": "The Register",
+      "category": "AI",
+      "age": "RECENT"
+    },
+    {
       "title": "Meta's new MTIA 400 chip has a split personality: Training AI and serving ads",
       "summary": "Faster than Blackwell, but still no replacement for AMD or Nvidia ... yet",
       "url": "https://www.theregister.com/systems/2026/08/26/metas-new-mtia-400-chip-has-a-split-personality-training-ai-and-serving-ads/5292727",
@@ -314,51 +362,91 @@
       "age": "RECENT"
     },
     {
-      "title": "Sopra Steria's £370M Capita spat heads for 2028 courtroom showdown",
-      "summary": "French SI still crying foul over shared services contract, alleges bid was 42% under DWP's own cost model",
-      "url": "https://www.theregister.com/public-sector/2026/08/26/sopra-sterias-370m-capita-spat-heads-for-2028-courtroom-showdown/5292234",
-      "source": "The Register",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "India’s crewed space program will fly this year, after missing 2022 and 2025 targets",
-      "summary": "A space station by 2035 is ISRO’s new mission",
-      "url": "https://www.theregister.com/science/2026/08/26/indias-crewed-space-program-will-fly-this-year-after-missing-2022-and-2025-targets/5292478",
-      "source": "The Register",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Self-hosted email is in steep decline, Microsoft and Google are taking over",
-      "summary": "Oh great, Big Tech is now in prime position to decide which messages get through",
-      "url": "https://www.theregister.com/software/2026/08/26/self-hosted-email-is-in-steep-decline-microsoft-and-google-are-taking-over/5292471",
-      "source": "The Register",
-      "category": "WINDOWS",
-      "age": "RECENT"
-    },
-    {
-      "title": "Now Perplexity is trying to get into the local AI action",
-      "summary": "Amid talk of an Nvidia deal, the AI search biz is looking beyond the cloud",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/26/now-perplexity-is-trying-to-get-into-the-local-ai-action/5292449",
-      "source": "The Register",
+      "title": "The UK Power Grid Has a Phantom Data Center Problem",
+      "summary": "The UK’s energy regulator is using a variety of tricks to keep speculative data center projects from plugging into the power grid. The country’s AI ambitions hang in the balance.",
+      "url": "https://www.wired.com/story/uk-data-centers-logjam-ofgem-regulations/",
+      "source": "WIRED",
       "category": "AI",
       "age": "RECENT"
     },
     {
-      "title": "Intel's 256-core Xeon 7 CPUs are a Diamond in the rough",
-      "summary": "Delayed, flawed, yet still beautiful",
-      "url": "https://www.theregister.com/hpc/2026/08/25/intel-diamond-rapids-xeon-7-cpu-deep-dive/5292427",
-      "source": "The Register",
-      "category": "HARDWARE",
+      "title": "Therabody Promo Codes: 15% Off September 2026",
+      "summary": "Save on the science-backed devices you’ve been eyeing with 15% off Theragun discount code and 30% off other great deals.",
+      "url": "https://www.wired.com/story/therabody-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
       "age": "RECENT"
     },
     {
-      "title": "Apple defies memory shortage with new Mac minis",
-      "summary": "The cost of memory makes this an expensive ML meal",
-      "url": "https://www.theregister.com/ai-and-ml/2026/08/25/apple-defies-memory-shortage-with-new-mac-minis/5292406",
-      "source": "The Register",
+      "title": "Birdfy Discount Codes: 15% Off Sitewide",
+      "summary": "Use these verified Birdfy discount codes to score up to 40% off smart feeders, camera kits, and accessories.",
+      "url": "https://www.wired.com/story/birdfy-discount-code/",
+      "source": "WIRED",
       "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Motley Fool Promo Code: $200 Off on Stock Advisor September 2026",
+      "summary": "Scale your portfolio for less with these verified The Motley Fool membership discounts, stock advisor promo codes, and Epic Bundle deals.",
+      "url": "https://www.wired.com/story/the-motley-fool-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Alo Discount Code: 20% Off September 2026",
+      "summary": "Refresh your workout wardrobe. Save on buttery-soft leggings, chic streetwear, and activewear essentials with verified Alo Yoga discount codes, free shipping, and loyalty program perks.",
+      "url": "https://www.wired.com/story/alo-yoga-discount-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Starz Promo Codes: $5 Off for September 2026",
+      "summary": "Ready to stream award-winning series, hit movies, and exclusive originals? Our comprehensive guide helps you find every active Starz coupon, free trial, and discount code to save big on your subscription this 2026.",
+      "url": "https://www.wired.com/story/starz-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Hostinger Promo Code: 79% Off for September 2026",
+      "summary": "Discover exclusive Hostinger promo codes, discounts, and deals on web hosting, cloud plans, and domain registration. Save big on your next Hostinger purchase today.",
+      "url": "https://www.wired.com/story/hostinger-coupon-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "Litter-Robot Promo Codes: Up to $150 Off",
+      "summary": "Get the latest Litter-Robot Discounts on Litter-Robot self-cleaning litter boxes, accessories, and more.",
+      "url": "https://www.wired.com/story/litter-robot-promo-code/",
+      "source": "WIRED",
+      "category": "ROBOTICS",
+      "age": "RECENT"
+    },
+    {
+      "title": "Design Within Reach Promo Codes: 30% Off | September 2026",
+      "summary": "Get 30% off, 20% off, and free shipping with our Design Within Reach coupon codes, plus up to 50% off furniture with these special discounts.",
+      "url": "https://www.wired.com/story/design-within-reach-promo-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "TopResume Packages: Everything You Need to Get Hired",
+      "summary": "Discover ways to save at TopResume, including their free review service and 4-week Career Services Platform trial.",
+      "url": "https://www.wired.com/story/topresume-discount-code/",
+      "source": "WIRED",
+      "category": "GENERAL",
+      "age": "RECENT"
+    },
+    {
+      "title": "How to See the Partial Lunar Eclipse and Blood Moon on August 27",
+      "summary": "The eclipse will obscure about 93 percent of the moon’s surface. Here are the peak times and tips for the best viewing experience.",
+      "url": "https://www.wired.com/story/how-to-view-august-2026-lunar-eclipse/",
+      "source": "WIRED",
+      "category": "SPACE",
       "age": "RECENT"
     },
     {
@@ -474,91 +562,19 @@
       "age": "RECENT"
     },
     {
-      "title": "How Ikea Turned a Controller Thumbstick Into the Star of Its Xbox Gaming Range",
-      "summary": "Xbox and Ikea collab alert! This unique nine-piece collection for gamers arrives this fall and has a slew of Easter eggs.",
-      "url": "https://www.wired.com/story/how-ikea-turned-a-controller-thumbstick-into-the-star-of-its-xbox-gaming-range/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday",
+      "summary": "CISA has ordered U.S. government agencies to patch their Citrix NetScaler appliances against an actively exploited remote code execution vulnerability by Saturday. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
-      "title": "A Mutation Is Making It Easier for Drug-Resistant Malaria to Spread",
-      "summary": "New findings shed light on what’s making the parasite less treatable using the drug that’s considered a first line of defense.",
-      "url": "https://www.wired.com/story/genetic-mutation-drug-resistant-malaria-spread/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Corsair Discount Code: Up to 50% Off for August 2026",
-      "summary": "Upgrade your gaming setup or PC build for less with these verified Corsair coupon codes, student discounts, and refurbished deals.",
-      "url": "https://www.wired.com/story/corsair-coupon/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "20% Off Sephora Promo Code | August 2026",
-      "summary": "Earn more points on skincare purchases when you use our Sephora coupon.",
-      "url": "https://www.wired.com/story/sephora-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "AirDoctor Coupon Codes: 40% Off | August 2026",
-      "summary": "Save up to $400 on top air purifiers and filters with verified AirDoctor promo codes and special offers for 2026.",
-      "url": "https://www.wired.com/story/airdoctor-coupon-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Google Workspace Promo Codes: 14% Off for August 2026",
-      "summary": "Boost your productivity and save with exclusive Google Workspace coupons from WIRED. Get up to 14% off plans for three months, including Starter, Standard, and Plus tiers.",
-      "url": "https://www.wired.com/story/google-workspace-promo-code/",
-      "source": "WIRED",
-      "category": "SPACE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Surfshark Promo Codes: 87% Off | August 2026",
-      "summary": "Save up to 87% with a Surfshark coupon code, 3 months of VPN free today, and more from WIRED.",
-      "url": "https://www.wired.com/story/surfshark-coupon/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Nomad Goods Promo Codes: Get 25% Off in August 2026",
-      "summary": "Save up to 25% on Nomad Goods accessories such as Nomad phone cases, Nomad wallets, and more in August 2026.",
-      "url": "https://www.wired.com/story/nomad-discount-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "PlayStation Discount Code: Save on PS5 Games August 2026",
-      "summary": "Want to stretch your gaming budget? Learn how to unlock massive savings on PS5 games, DualSense controllers, and PlayStation Plus memberships using gift cards and exclusive promotional codes.",
-      "url": "https://www.wired.com/story/playstation-discount-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
-      "age": "RECENT"
-    },
-    {
-      "title": "Vitamix Promo Codes and Deals: $25 Off + Free Shipping",
-      "summary": "Score discounts on blenders, food processors, immersion blenders, and more with our selection of Vitamix coupons and deals.",
-      "url": "https://www.wired.com/story/vitamix-promo-code/",
-      "source": "WIRED",
-      "category": "HARDWARE",
-      "age": "RECENT"
-    },
-    {
-      "title": "Target Promo Code: $50 Off | August 2026",
-      "summary": "Get $50 off your next order or up to 50% off site wide with Target coupon codes and Circle deals.",
-      "url": "https://www.wired.com/story/target-promo-code/",
-      "source": "WIRED",
-      "category": "GENERAL",
+      "title": "ATF confirms “major incident” after recent Qilin breach claims",
+      "summary": "ATF, the regulatory agency that enforces federal laws governing firearms and explosives in the United States, has confirmed that one of its systems was compromised after breach claims made by the Qilin ransomware gang. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/",
+      "source": "BleepingComputer",
+      "category": "CYBERSECURITY",
       "age": "RECENT"
     },
     {
@@ -666,23 +682,31 @@
       "age": "RECENT"
     },
     {
-      "title": "Massive DDoS attack disrupts Norway’s government digital services",
-      "summary": "A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting services used by the public sector. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
-      "source": "BleepingComputer",
-      "category": "GENERAL",
+      "title": "Nvidia closes in on Hugging Face acquisition",
+      "summary": "Nvidia has reportedly agreed to buy Hugging Face, the popular open-source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
+      "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
+      "source": "TechCrunch",
+      "category": "HARDWARE",
       "age": "RECENT"
     },
     {
-      "title": "Hospital operator Nutex Health says data stolen in cyberattack",
-      "summary": "Healthcare and services provider Nutex is investigating a data breach incident where an unauthorized third party exfiltrated information from company servers. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
-      "source": "BleepingComputer",
-      "category": "CYBERSECURITY",
+      "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
+      "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
+      "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
+      "source": "TechCrunch",
+      "category": "AI",
       "age": "RECENT"
     },
     {
-      "title": "Meta’s $18B child-safety deal hinges on age verification tech that doesn’t work well",
+      "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
+      "summary": "Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips.",
+      "url": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
+      "source": "TechCrunch",
+      "category": "HARDWARE",
+      "age": "RECENT"
+    },
+    {
+      "title": "Meta’s $18B child-safety deal hinges on age-verification tech that doesn’t work well",
       "summary": "The historic settlement reignites ongoing concern around how age-verification technology puts privacy at risk.",
       "url": "https://techcrunch.com/2026/08/26/metas-18b-child-safety-deal-hinges-on-age-verification-tech-that-doesnt-work-well/",
       "source": "TechCrunch",
@@ -775,30 +799,6 @@
       "url": "https://techcrunch.com/video/whats-driving-swedens-startup-boom-from-lovable-to-legora/",
       "source": "TechCrunch",
       "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Radar makes podcasts searchable — and usable by AI agents",
-      "summary": "Particle’s new podcast intelligence platform transcribes and analyzes more than 130,000 podcasts, making their conversations searchable on the web and accessible to AI agents through an API and MCP.",
-      "url": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Ex-Meta scientists want to bring visual AI to the factory floor",
-      "summary": "Perceptron offers an AI model that it says can help machines navigate the world while also providing in-depth visual intelligence.",
-      "url": "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/",
-      "source": "TechCrunch",
-      "category": "AI",
-      "age": "RECENT"
-    },
-    {
-      "title": "Ring introduces a new encryption standard, makes it the default for cloud features",
-      "summary": "Ring says users can still opt for end-to-end encryption.",
-      "url": "https://techcrunch.com/2026/08/26/ring-introduces-a-new-encryption-standard-makes-it-the-default-for-cloud-features/",
-      "source": "TechCrunch",
-      "category": "GENERAL",
       "age": "RECENT"
     }
   ]
