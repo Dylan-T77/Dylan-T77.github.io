@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T16:47:26.398117+00:00",
+  "generated_at": "2026-08-28T18:47:04.390992+00:00",
   "pipeline": [
     "SOURCES",
     "INGEST",
@@ -18,6 +18,73 @@
   },
   "errors": [],
   "items": [
+    {
+      "id": "inbox-b24e807cd58aef9d",
+      "title": "Trump blacklisting of \"woke\" Anthropic deemed illegal by federal judge",
+      "summary": "Anthropic refused to support lethal autonomous warfare and mass surveillance.",
+      "canonical_url": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge",
+      "url": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
+      "published_at": "2026-08-28T18:07:55+00:00",
+      "source": "Ars Technica",
+      "source_id": "ars-technica",
+      "source_type": "journalism",
+      "suggested_topics": [
+        "ai",
+        "robotics"
+      ],
+      "suggested_entities": [
+        "anthropic"
+      ],
+      "editorial_state": "INBOX",
+      "publish": false
+    },
+    {
+      "id": "inbox-01ba8a03c2a1dea6",
+      "title": "Here's what we know about the \"space academy\" Trump just announced",
+      "summary": "\"It's called the US Space Academy. That's a big deal.\"",
+      "canonical_url": "https://arstechnica.com/space/2026/08/trump-calls-for-creation-of-a-space-academy-to-train-future-nasa-leaders",
+      "url": "https://arstechnica.com/space/2026/08/trump-calls-for-creation-of-a-space-academy-to-train-future-nasa-leaders/",
+      "published_at": "2026-08-28T17:36:30+00:00",
+      "source": "Ars Technica",
+      "source_id": "ars-technica",
+      "source_type": "journalism",
+      "suggested_topics": [
+        "space"
+      ],
+      "suggested_entities": [],
+      "editorial_state": "INBOX",
+      "publish": false
+    },
+    {
+      "id": "inbox-c82f09dd2950faf7",
+      "title": "Apple One and Apple TV subscription prices increase by up to 20 percent",
+      "summary": "Annual Apple TV subscriptions get the biggest bump.",
+      "canonical_url": "https://arstechnica.com/gadgets/2026/08/apple-one-and-apple-tv-subscription-prices-increase-by-up-to-20-percent",
+      "url": "https://arstechnica.com/gadgets/2026/08/apple-one-and-apple-tv-subscription-prices-increase-by-up-to-20-percent/",
+      "published_at": "2026-08-28T17:23:53+00:00",
+      "source": "Ars Technica",
+      "source_id": "ars-technica",
+      "source_type": "journalism",
+      "suggested_topics": [],
+      "suggested_entities": [],
+      "editorial_state": "INBOX",
+      "publish": false
+    },
+    {
+      "id": "inbox-641e484a941b811e",
+      "title": "Our 10 favorite scenes from T2: Judgment Day",
+      "summary": "James Cameron's 1991 sci-fi blockbuster returns to theaters this weekend for its 35th anniversary.",
+      "canonical_url": "https://arstechnica.com/culture/2026/08/our-10-favorite-scenes-from-t2-judgment-day",
+      "url": "https://arstechnica.com/culture/2026/08/our-10-favorite-scenes-from-t2-judgment-day/",
+      "published_at": "2026-08-28T16:44:47+00:00",
+      "source": "Ars Technica",
+      "source_id": "ars-technica",
+      "source_type": "journalism",
+      "suggested_topics": [],
+      "suggested_entities": [],
+      "editorial_state": "INBOX",
+      "publish": false
+    },
     {
       "id": "inbox-7f8af8c249b2df95",
       "title": "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
@@ -280,68 +347,6 @@
       "suggested_entities": [
         "openai"
       ],
-      "editorial_state": "INBOX",
-      "publish": false
-    },
-    {
-      "id": "inbox-a43d14f4e4e38772",
-      "title": "Bentley takes us for a ride in its new EV, the Torcal",
-      "summary": "The electric Torcal will be Bentley's entry model and cost less than a Bentayga.",
-      "canonical_url": "https://arstechnica.com/cars/2026/08/an-ev-that-sounds-like-a-6-75-l-v8-a-ride-in-the-bentley-torcal",
-      "url": "https://arstechnica.com/cars/2026/08/an-ev-that-sounds-like-a-6-75-l-v8-a-ride-in-the-bentley-torcal/",
-      "published_at": "2026-08-27T11:30:09+00:00",
-      "source": "Ars Technica",
-      "source_id": "ars-technica",
-      "source_type": "journalism",
-      "suggested_topics": [],
-      "suggested_entities": [],
-      "editorial_state": "INBOX",
-      "publish": false
-    },
-    {
-      "id": "inbox-48496e22632e8de4",
-      "title": "RIP, Tim Curry: Ars remembers his top 10 iconic performances",
-      "summary": "A dashing pirate, a butler, a shapeshifting killer clown, an alien mad scientist in drag—the man had range.",
-      "canonical_url": "https://arstechnica.com/culture/2026/08/rip-tim-curry-ars-remembers-his-top-10-iconic-performances",
-      "url": "https://arstechnica.com/culture/2026/08/rip-tim-curry-ars-remembers-his-top-10-iconic-performances/",
-      "published_at": "2026-08-26T22:13:15+00:00",
-      "source": "Ars Technica",
-      "source_id": "ars-technica",
-      "source_type": "journalism",
-      "suggested_topics": [],
-      "suggested_entities": [],
-      "editorial_state": "INBOX",
-      "publish": false
-    },
-    {
-      "id": "inbox-23ad6ec681e78c74",
-      "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
-      "summary": "Report shows Meta's challenges replacing people with AI agents.",
-      "canonical_url": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent",
-      "url": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
-      "published_at": "2026-08-26T21:25:27+00:00",
-      "source": "Ars Technica",
-      "source_id": "ars-technica",
-      "source_type": "journalism",
-      "suggested_topics": [
-        "ai"
-      ],
-      "suggested_entities": [],
-      "editorial_state": "INBOX",
-      "publish": false
-    },
-    {
-      "id": "inbox-4faf1dba84fe6acf",
-      "title": "New Twitter launches, says Musk's X gave up the name",
-      "summary": "Judge hasn't ruled on X Corp’s preliminary injunction, but Operation Bluebird plows ahead",
-      "canonical_url": "https://arstechnica.com/tech-policy/2026/08/new-twitter-launches-says-musks-x-gave-up-the-name",
-      "url": "https://arstechnica.com/tech-policy/2026/08/new-twitter-launches-says-musks-x-gave-up-the-name/",
-      "published_at": "2026-08-26T20:49:04+00:00",
-      "source": "Ars Technica",
-      "source_id": "ars-technica",
-      "source_type": "journalism",
-      "suggested_topics": [],
-      "suggested_entities": [],
       "editorial_state": "INBOX",
       "publish": false
     },
@@ -749,6 +754,38 @@
       "publish": false
     },
     {
+      "id": "inbox-183cc9eadb16e431",
+      "title": "Microsoft Teams Has Become a Haven for Scammers in China",
+      "summary": "Fraudsters are exploiting enterprise chat apps like Teams and Webex to trick Chinese victims into transferring large sums of money, fueling a wave of complaints.",
+      "canonical_url": "https://www.wired.com/story/microsoft-teams-is-becoming-a-haven-for-chinese-scammers",
+      "url": "https://www.wired.com/story/microsoft-teams-is-becoming-a-haven-for-chinese-scammers/",
+      "published_at": "2026-08-28T18:23:17+00:00",
+      "source": "WIRED",
+      "source_id": "wired",
+      "source_type": "journalism",
+      "suggested_topics": [
+        "cybersecurity"
+      ],
+      "suggested_entities": [],
+      "editorial_state": "INBOX",
+      "publish": false
+    },
+    {
+      "id": "inbox-8ec11d7f7355193a",
+      "title": "Mice, a Caved-In Ceiling, and Cloudy Water: The GSA’s New Office Is Falling Apart",
+      "summary": "“Do we need to look at the ceiling before going to the bathroom? Can we actually trust the water is safe to drink?” asks one GSA worker.",
+      "canonical_url": "https://www.wired.com/story/mice-a-caved-in-ceiling-and-cloudy-water-the-gsas-new-office-is-falling-apart",
+      "url": "https://www.wired.com/story/mice-a-caved-in-ceiling-and-cloudy-water-the-gsas-new-office-is-falling-apart/",
+      "published_at": "2026-08-28T17:14:19+00:00",
+      "source": "WIRED",
+      "source_id": "wired",
+      "source_type": "journalism",
+      "suggested_topics": [],
+      "suggested_entities": [],
+      "editorial_state": "INBOX",
+      "publish": false
+    },
+    {
       "id": "inbox-b9d1fa72b77f7a9d",
       "title": "AI Has Human Doctors Asking: What’s Left for Us?",
       "summary": "A recent paper argues that AI is often better at doctoring than doctors. Guess who isn't thrilled.",
@@ -1105,35 +1142,18 @@
       "publish": false
     },
     {
-      "id": "inbox-acec6aa0873d0ff3",
-      "title": "This Is How Anthropic Thinks AI Agents Should Navigate the Physical World",
-      "summary": "The potential for AI to automate scientific research and manufacturing must be balanced with new risks, Anthropic says.",
-      "canonical_url": "https://www.wired.com/story/anthropic-standard-ai-agents-coming-to-the-physical-world",
-      "url": "https://www.wired.com/story/anthropic-standard-ai-agents-coming-to-the-physical-world/",
-      "published_at": "2026-08-27T18:06:52+00:00",
-      "source": "WIRED",
-      "source_id": "wired",
+      "id": "inbox-eb7e7755fa69b1c9",
+      "title": "GiveWP WordPress donation plugin flaw lets hackers execute server commands",
+      "summary": "A maximum-severity vulnerability in the GiveWP plugin for WordPress allows an unauthenticated attacker to execute arbitrary commands on the hosting server. [...]",
+      "canonical_url": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands",
+      "url": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/",
+      "published_at": "2026-08-28T18:18:55+00:00",
+      "source": "BleepingComputer",
+      "source_id": "bleepingcomputer",
       "source_type": "journalism",
       "suggested_topics": [
-        "ai"
+        "cybersecurity"
       ],
-      "suggested_entities": [
-        "anthropic"
-      ],
-      "editorial_state": "INBOX",
-      "publish": false
-    },
-    {
-      "id": "inbox-905d87072daee1a8",
-      "title": "Netflix Failed at Video Games. Now It’s Trying to Promote Them",
-      "summary": "Netflix has walked back plans to put AAA games on its streaming platform. Instead, it's pivoting to marketing highly anticipated titles like Grand Theft Auto VI.",
-      "canonical_url": "https://www.wired.com/story/netflix-failed-at-video-games-now-its-trying-to-promote-them",
-      "url": "https://www.wired.com/story/netflix-failed-at-video-games-now-its-trying-to-promote-them/",
-      "published_at": "2026-08-27T17:25:30+00:00",
-      "source": "WIRED",
-      "source_id": "wired",
-      "source_type": "journalism",
-      "suggested_topics": [],
       "suggested_entities": [],
       "editorial_state": "INBOX",
       "publish": false
@@ -1376,18 +1396,33 @@
       "publish": false
     },
     {
-      "id": "inbox-7ba07492b8f18771",
-      "title": "Carhartt data breach exposes information of 12.9 million accounts",
-      "summary": "The ShinyHunters extortion group has published sensitive data from nearly 13 million accounts stolen from clothing retailer giant Carhartt earlier this month, according to data breach notification service Have I Been Pwned. [...]",
-      "canonical_url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts",
-      "url": "https://www.bleepingcomputer.com/news/security/carhartt-data-breach-exposes-information-of-129-million-accounts/",
-      "published_at": "2026-08-27T11:10:04+00:00",
-      "source": "BleepingComputer",
-      "source_id": "bleepingcomputer",
+      "id": "inbox-0e9ab3c13f6b2176",
+      "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
+      "summary": "There's a lot of capital pouring into the business of giving models away.",
+      "canonical_url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets",
+      "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+      "published_at": "2026-08-28T18:19:40+00:00",
+      "source": "TechCrunch",
+      "source_id": "techcrunch",
       "source_type": "journalism",
       "suggested_topics": [
-        "cybersecurity"
+        "ai"
       ],
+      "suggested_entities": [],
+      "editorial_state": "INBOX",
+      "publish": false
+    },
+    {
+      "id": "inbox-fc3134a41509b8d8",
+      "title": "How Sweden built one of Europe’s hottest startup ecosystems",
+      "summary": "Sophia Bendz, general partner at Cherry Ventures, stopped by Equity to break down the latest in the Swedish tech ecosystem.",
+      "canonical_url": "https://techcrunch.com/2026/08/28/how-sweden-built-one-of-europes-hottest-startup-ecosystems",
+      "url": "https://techcrunch.com/2026/08/28/how-sweden-built-one-of-europes-hottest-startup-ecosystems/",
+      "published_at": "2026-08-28T17:09:05+00:00",
+      "source": "TechCrunch",
+      "source_id": "techcrunch",
+      "source_type": "journalism",
+      "suggested_topics": [],
       "suggested_entities": [],
       "editorial_state": "INBOX",
       "publish": false
@@ -1408,8 +1443,8 @@
       "publish": false
     },
     {
-      "id": "inbox-ebc4269979fa4e6c",
-      "title": "Friend-focused photo sharing app Retro snags $21M",
+      "id": "inbox-5657f2e533441a2a",
+      "title": "Friend-focused photo-sharing app Retro snags $21M",
       "summary": "Retro, a friend-focused photo-sharing app built by former Instagram employees, has raised more than $21 million in Series A funding.",
       "canonical_url": "https://techcrunch.com/2026/08/28/friend-focused-photo-sharing-app-retro-snags-21m",
       "url": "https://techcrunch.com/2026/08/28/friend-focused-photo-sharing-app-retro-snags-21m/",
@@ -1690,34 +1725,17 @@
       "publish": false
     },
     {
-      "id": "inbox-26594fd35c8dc680",
-      "title": "Hoomanely’s building a smart feeding bowl and an AI platform to help owners spot when their pup is sick",
-      "summary": "Hoomanely has developed a smart bowl to measure and record dogs' feeding data, then tells owners if behaviors change.",
-      "canonical_url": "https://techcrunch.com/2026/08/27/hoomanelys-building-a-smart-feeding-bowl-and-an-ai-platform-to-help-owners-spot-when-their-pup-is-sick",
-      "url": "https://techcrunch.com/2026/08/27/hoomanelys-building-a-smart-feeding-bowl-and-an-ai-platform-to-help-owners-spot-when-their-pup-is-sick/",
-      "published_at": "2026-08-27T16:53:50+00:00",
-      "source": "TechCrunch",
-      "source_id": "techcrunch",
+      "id": "inbox-26a50f56758e800d",
+      "title": "Oscar Winner Brings Monsters to Life With His Simulation Software",
+      "summary": "While walking to school as a child, Jernej Barbič would marvel at how beautiful his home was. He was born and raised in a picturesque village in northwestern Slovenia (formerly Yugoslavia), located in the European Alps. Surrounded by alpine and beech trees, Barbic dreamed of replicating their swaying in the wind for others to enjoy. At the time, he didn’t have the tools or the knowledge to create ",
+      "canonical_url": "https://spectrum.ieee.org/oscar-winner-jernej-barbic",
+      "url": "https://spectrum.ieee.org/oscar-winner-jernej-barbic",
+      "published_at": "2026-08-28T18:00:04+00:00",
+      "source": "IEEE Spectrum",
+      "source_id": "ieee-spectrum",
       "source_type": "journalism",
       "suggested_topics": [
-        "ai"
-      ],
-      "suggested_entities": [],
-      "editorial_state": "INBOX",
-      "publish": false
-    },
-    {
-      "id": "inbox-c5cb5fed5fe97786",
-      "title": "Google’s AI Mode can now track flight prices, help book hotels, and more",
-      "summary": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-planning and booking process.",
-      "canonical_url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more",
-      "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
-      "published_at": "2026-08-27T16:00:00+00:00",
-      "source": "TechCrunch",
-      "source_id": "techcrunch",
-      "source_type": "journalism",
-      "suggested_topics": [
-        "ai"
+        "robotics"
       ],
       "suggested_entities": [],
       "editorial_state": "INBOX",
@@ -2152,18 +2170,48 @@
       "publish": false
     },
     {
-      "id": "inbox-22c731db9bddcdb5",
-      "title": "The System That Turned Paper Charts Into Digital Medical Records",
-      "summary": "Most hospitals and health care providers use electronic health records instead of paper charts to note patient vaccinations, diagnoses, and procedures. AthenaOne , Epic , and Oracle Health are some of the systems employed around the world. Many patients can access their electronic medical records from home. The platforms exist thanks to pioneering efforts such as the Medical Information System (MI",
-      "canonical_url": "https://spectrum.ieee.org/ieee-milestone-digital-medical-records",
-      "url": "https://spectrum.ieee.org/ieee-milestone-digital-medical-records",
-      "published_at": "2026-08-03T18:00:02+00:00",
-      "source": "IEEE Spectrum",
-      "source_id": "ieee-spectrum",
-      "source_type": "journalism",
+      "id": "inbox-99838294dd9aebaf",
+      "title": "Secrets of the Atomic City",
+      "summary": "Article URL: https://longreads.com/2026/08/06/radiation-paducah-atavist/ Comments URL: https://news.ycombinator.com/item?id=49481672 Points: 12 # Comments: 3",
+      "canonical_url": "https://longreads.com/2026/08/06/radiation-paducah-atavist",
+      "url": "https://longreads.com/2026/08/06/radiation-paducah-atavist/",
+      "published_at": "2026-08-28T17:16:58+00:00",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_type": "aggregator",
+      "suggested_topics": [],
+      "suggested_entities": [],
+      "editorial_state": "INBOX",
+      "publish": false
+    },
+    {
+      "id": "inbox-6b3e49160ce3fb49",
+      "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
+      "summary": "Article URL: https://arxiv.org/abs/2608.23691 Comments URL: https://news.ycombinator.com/item?id=49481455 Points: 13 # Comments: 0",
+      "canonical_url": "https://arxiv.org/abs/2608.23691",
+      "url": "https://arxiv.org/abs/2608.23691",
+      "published_at": "2026-08-28T17:01:12+00:00",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_type": "aggregator",
       "suggested_topics": [
-        "space"
+        "robotics"
       ],
+      "suggested_entities": [],
+      "editorial_state": "INBOX",
+      "publish": false
+    },
+    {
+      "id": "inbox-8063038b594a8148",
+      "title": "Attimet (YC F24) Is Hiring Members of Technical Staff – Engineering and Research",
+      "summary": "Article URL: https://www.ycombinator.com/companies/attimet/jobs/6btZFDg-member-of-technical-staff-engineering Comments URL: https://news.ycombinator.com/item?id=49481423 Points: 0 # Comments: 0",
+      "canonical_url": "https://www.ycombinator.com/companies/attimet/jobs/6btZFDg-member-of-technical-staff-engineering",
+      "url": "https://www.ycombinator.com/companies/attimet/jobs/6btZFDg-member-of-technical-staff-engineering",
+      "published_at": "2026-08-28T17:00:06+00:00",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_type": "aggregator",
+      "suggested_topics": [],
       "suggested_entities": [],
       "editorial_state": "INBOX",
       "publish": false
@@ -2171,7 +2219,7 @@
     {
       "id": "inbox-9c3613fcb5a0a17d",
       "title": "Just the rumour of a bug is enough to find an exploit these days",
-      "summary": "Article URL: https://anil.recoil.org/notes/rumour-is-the-exploit Comments URL: https://news.ycombinator.com/item?id=49480466 Points: 28 # Comments: 8",
+      "summary": "Article URL: https://anil.recoil.org/notes/rumour-is-the-exploit Comments URL: https://news.ycombinator.com/item?id=49480466 Points: 102 # Comments: 35",
       "canonical_url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
       "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
       "published_at": "2026-08-28T15:58:46+00:00",
@@ -2188,7 +2236,7 @@
     {
       "id": "inbox-e5856e09fa552386",
       "title": "How Dactyl Works",
-      "summary": "Article URL: https://dactyl.dev/blog/how-dactyl-works/ Comments URL: https://news.ycombinator.com/item?id=49480220 Points: 22 # Comments: 0",
+      "summary": "Article URL: https://dactyl.dev/blog/how-dactyl-works/ Comments URL: https://news.ycombinator.com/item?id=49480220 Points: 55 # Comments: 10",
       "canonical_url": "https://dactyl.dev/blog/how-dactyl-works",
       "url": "https://dactyl.dev/blog/how-dactyl-works/",
       "published_at": "2026-08-28T15:42:04+00:00",
@@ -2201,26 +2249,24 @@
       "publish": false
     },
     {
-      "id": "inbox-6bae6a43cfab4112",
-      "title": "Run Qwen3.8 27B locally: real numbers from my Mac Studio",
-      "summary": "Article URL: https://terminalbytes.com/run-qwen-3-8-27b-locally/ Comments URL: https://news.ycombinator.com/item?id=49479951 Points: 27 # Comments: 14",
-      "canonical_url": "https://terminalbytes.com/run-qwen-3-8-27b-locally",
-      "url": "https://terminalbytes.com/run-qwen-3-8-27b-locally/",
-      "published_at": "2026-08-28T15:24:44+00:00",
+      "id": "inbox-fef46a7e23b3cdab",
+      "title": "EasyEffects can massively improve laptop speaker sound quality",
+      "summary": "Article URL: https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality/ Comments URL: https://news.ycombinator.com/item?id=49479924 Points: 28 # Comments: 14",
+      "canonical_url": "https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality",
+      "url": "https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality/",
+      "published_at": "2026-08-28T15:23:10+00:00",
       "source": "Hacker News",
       "source_id": "hacker-news",
       "source_type": "aggregator",
-      "suggested_topics": [
-        "ai"
-      ],
+      "suggested_topics": [],
       "suggested_entities": [],
       "editorial_state": "INBOX",
       "publish": false
     },
     {
-      "id": "inbox-22028bc53d174ef6",
-      "title": "Lake formed after ice-rock avalanche remains at a high level and is overflowing",
-      "summary": "Article URL: https://kathmandupost.com/national/2026/08/28/barrier-lake-continues-to-pose-flood-risk-china-warns Comments URL: https://news.ycombinator.com/item?id=49479898 Points: 7 # Comments: 0",
+      "id": "inbox-256b89130420712e",
+      "title": "Barrier lake continues to pose flood risk, China warns",
+      "summary": "Article URL: https://kathmandupost.com/national/2026/08/28/barrier-lake-continues-to-pose-flood-risk-china-warns Comments URL: https://news.ycombinator.com/item?id=49479898 Points: 48 # Comments: 9",
       "canonical_url": "https://kathmandupost.com/national/2026/08/28/barrier-lake-continues-to-pose-flood-risk-china-warns",
       "url": "https://kathmandupost.com/national/2026/08/28/barrier-lake-continues-to-pose-flood-risk-china-warns",
       "published_at": "2026-08-28T15:21:26+00:00",
@@ -2235,7 +2281,7 @@
     {
       "id": "inbox-0882a4fcc6456f09",
       "title": "GLM-5.3 is now open-weight",
-      "summary": "Article URL: https://twitter.com/Zai_org/status/2093354097122455713 Comments URL: https://news.ycombinator.com/item?id=49479878 Points: 163 # Comments: 51",
+      "summary": "Article URL: https://twitter.com/Zai_org/status/2093354097122455713 Comments URL: https://news.ycombinator.com/item?id=49479878 Points: 320 # Comments: 122",
       "canonical_url": "https://twitter.com/Zai_org/status/2093354097122455713",
       "url": "https://twitter.com/Zai_org/status/2093354097122455713",
       "published_at": "2026-08-28T15:20:13+00:00",
@@ -2250,7 +2296,7 @@
     {
       "id": "inbox-19a2d7556a35a1d4",
       "title": "GUIs should be fully keyboard-driven",
-      "summary": "Article URL: https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html Comments URL: https://news.ycombinator.com/item?id=49479837 Points: 28 # Comments: 22",
+      "summary": "Article URL: https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html Comments URL: https://news.ycombinator.com/item?id=49479837 Points: 183 # Comments: 122",
       "canonical_url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
       "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
       "published_at": "2026-08-28T15:17:09+00:00",
@@ -2265,7 +2311,7 @@
     {
       "id": "inbox-8860aa27a00cf86e",
       "title": "Don't use musl if you care about performance",
-      "summary": "Article URL: https://blog.brokk.ai/dont-use-musl-if-you-care-about-performance/ Comments URL: https://news.ycombinator.com/item?id=49479826 Points: 14 # Comments: 5",
+      "summary": "Article URL: https://blog.brokk.ai/dont-use-musl-if-you-care-about-performance/ Comments URL: https://news.ycombinator.com/item?id=49479826 Points: 46 # Comments: 29",
       "canonical_url": "https://blog.brokk.ai/dont-use-musl-if-you-care-about-performance",
       "url": "https://blog.brokk.ai/dont-use-musl-if-you-care-about-performance/",
       "published_at": "2026-08-28T15:16:07+00:00",
@@ -2278,9 +2324,9 @@
       "publish": false
     },
     {
-      "id": "inbox-7a299a778e93f6ce",
-      "title": "Africa's Wild Dogs Are the Most Hated Carnivores on the Continent",
-      "summary": "Article URL: https://www.smithsonianmag.com/science-nature/africa-wild-dogs-most-hated-carnivores-continent-heres-why-conservationists-saving-them-anyway-180989287/ Comments URL: https://news.ycombinator.com/item?id=49479302 Points: 20 # Comments: 5",
+      "id": "inbox-4686af9c11d3681e",
+      "title": "The conservationists helping to restore Africa’s wild dog populations",
+      "summary": "Article URL: https://www.smithsonianmag.com/science-nature/africa-wild-dogs-most-hated-carnivores-continent-heres-why-conservationists-saving-them-anyway-180989287/ Comments URL: https://news.ycombinator.com/item?id=49479302 Points: 40 # Comments: 14",
       "canonical_url": "https://www.smithsonianmag.com/science-nature/africa-wild-dogs-most-hated-carnivores-continent-heres-why-conservationists-saving-them-anyway-180989287",
       "url": "https://www.smithsonianmag.com/science-nature/africa-wild-dogs-most-hated-carnivores-continent-heres-why-conservationists-saving-them-anyway-180989287/",
       "published_at": "2026-08-28T14:44:51+00:00",
@@ -2293,24 +2339,9 @@
       "publish": false
     },
     {
-      "id": "inbox-b4523302931adad6",
-      "title": "Autistici/Inventati's main .org domain goes dark after US terrorism designation",
-      "summary": "Article URL: https://mastodon.bida.im/@cavallette/117172989300228024 Comments URL: https://news.ycombinator.com/item?id=49479122 Points: 125 # Comments: 52",
-      "canonical_url": "https://mastodon.bida.im/@cavallette/117172989300228024",
-      "url": "https://mastodon.bida.im/@cavallette/117172989300228024",
-      "published_at": "2026-08-28T14:33:04+00:00",
-      "source": "Hacker News",
-      "source_id": "hacker-news",
-      "source_type": "aggregator",
-      "suggested_topics": [],
-      "suggested_entities": [],
-      "editorial_state": "INBOX",
-      "publish": false
-    },
-    {
       "id": "inbox-fb8565ff116987a7",
       "title": "Verschlimmbesserung: The Word Your Software Updates Need",
-      "summary": "Article URL: https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/ Comments URL: https://news.ycombinator.com/item?id=49479072 Points: 15 # Comments: 2",
+      "summary": "Article URL: https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/ Comments URL: https://news.ycombinator.com/item?id=49479072 Points: 54 # Comments: 20",
       "canonical_url": "https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung",
       "url": "https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/",
       "published_at": "2026-08-28T14:30:33+00:00",
@@ -2323,9 +2354,24 @@
       "publish": false
     },
     {
+      "id": "inbox-edec8dcd662db85c",
+      "title": "Debugging my new network, when 10 Gigabit Ethernet Runs at 300 Megabits",
+      "summary": "Article URL: https://www.hanselman.com/blog/debugging-my-new-network-when-10-gigabit-ethernet-runs-at-300-megabits Comments URL: https://news.ycombinator.com/item?id=49478942 Points: 33 # Comments: 11",
+      "canonical_url": "https://www.hanselman.com/blog/debugging-my-new-network-when-10-gigabit-ethernet-runs-at-300-megabits",
+      "url": "https://www.hanselman.com/blog/debugging-my-new-network-when-10-gigabit-ethernet-runs-at-300-megabits",
+      "published_at": "2026-08-28T14:23:27+00:00",
+      "source": "Hacker News",
+      "source_id": "hacker-news",
+      "source_type": "aggregator",
+      "suggested_topics": [],
+      "suggested_entities": [],
+      "editorial_state": "INBOX",
+      "publish": false
+    },
+    {
       "id": "inbox-3f42ba25dd56fcc5",
       "title": "“Weird” is a weird word",
-      "summary": "Article URL: https://www.deadlanguagesociety.com/p/weird-is-a-weird-word Comments URL: https://news.ycombinator.com/item?id=49478489 Points: 26 # Comments: 7",
+      "summary": "Article URL: https://www.deadlanguagesociety.com/p/weird-is-a-weird-word Comments URL: https://news.ycombinator.com/item?id=49478489 Points: 46 # Comments: 17",
       "canonical_url": "https://www.deadlanguagesociety.com/p/weird-is-a-weird-word",
       "url": "https://www.deadlanguagesociety.com/p/weird-is-a-weird-word",
       "published_at": "2026-08-28T13:51:17+00:00",
@@ -2340,7 +2386,7 @@
     {
       "id": "inbox-865ce7b0d58e8f3c",
       "title": "State of the Map 2026",
-      "summary": "Article URL: https://2026.stateofthemap.org/ Comments URL: https://news.ycombinator.com/item?id=49478401 Points: 66 # Comments: 19",
+      "summary": "Article URL: https://2026.stateofthemap.org/ Comments URL: https://news.ycombinator.com/item?id=49478401 Points: 95 # Comments: 36",
       "canonical_url": "https://2026.stateofthemap.org/",
       "url": "https://2026.stateofthemap.org/",
       "published_at": "2026-08-28T13:46:28+00:00",
@@ -2353,24 +2399,9 @@
       "publish": false
     },
     {
-      "id": "inbox-91f46ab8d60ecd82",
-      "title": "Autistici/Inventati case sets a new counterterrorism precedent, Irdi says",
-      "summary": "Article URL: https://decode39.com/16319/autistici-inventati-case-sets-a-new-counterterrorism-precedent-irdi-says/ Comments URL: https://news.ycombinator.com/item?id=49478348 Points: 28 # Comments: 3",
-      "canonical_url": "https://decode39.com/16319/autistici-inventati-case-sets-a-new-counterterrorism-precedent-irdi-says",
-      "url": "https://decode39.com/16319/autistici-inventati-case-sets-a-new-counterterrorism-precedent-irdi-says/",
-      "published_at": "2026-08-28T13:43:11+00:00",
-      "source": "Hacker News",
-      "source_id": "hacker-news",
-      "source_type": "aggregator",
-      "suggested_topics": [],
-      "suggested_entities": [],
-      "editorial_state": "INBOX",
-      "publish": false
-    },
-    {
       "id": "inbox-4c6100e50cb2510c",
       "title": "Get your Windows license refund",
-      "summary": "Article URL: https://en.refund4freedom.org/ Comments URL: https://news.ycombinator.com/item?id=49478340 Points: 277 # Comments: 94",
+      "summary": "Article URL: https://en.refund4freedom.org/ Comments URL: https://news.ycombinator.com/item?id=49478340 Points: 498 # Comments: 195",
       "canonical_url": "https://en.refund4freedom.org/",
       "url": "https://en.refund4freedom.org/",
       "published_at": "2026-08-28T13:42:40+00:00",
@@ -2383,9 +2414,9 @@
       "publish": false
     },
     {
-      "id": "inbox-7fdeb469c24a9b5f",
-      "title": "Htmx 4.0.0 has been released",
-      "summary": "Article URL: https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released Comments URL: https://news.ycombinator.com/item?id=49478178 Points: 79 # Comments: 12",
+      "id": "inbox-429dc32b2e4162eb",
+      "title": "Htmx 4.0.0",
+      "summary": "Article URL: https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released Comments URL: https://news.ycombinator.com/item?id=49478178 Points: 238 # Comments: 54",
       "canonical_url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
       "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
       "published_at": "2026-08-28T13:28:56+00:00",
@@ -2398,39 +2429,9 @@
       "publish": false
     },
     {
-      "id": "inbox-04a3b6eaf4056ee8",
-      "title": "I used AWS cognito for a startup. I wouldn't do it again",
-      "summary": "Article URL: https://joshkaramuth.com/blog/aws-cognito-authentication-startup-nightmare/ Comments URL: https://news.ycombinator.com/item?id=49478091 Points: 112 # Comments: 88",
-      "canonical_url": "https://joshkaramuth.com/blog/aws-cognito-authentication-startup-nightmare",
-      "url": "https://joshkaramuth.com/blog/aws-cognito-authentication-startup-nightmare/",
-      "published_at": "2026-08-28T13:21:03+00:00",
-      "source": "Hacker News",
-      "source_id": "hacker-news",
-      "source_type": "aggregator",
-      "suggested_topics": [],
-      "suggested_entities": [],
-      "editorial_state": "INBOX",
-      "publish": false
-    },
-    {
-      "id": "inbox-32ef61dfbc23b64f",
-      "title": "Interactive pattern discovery in binaries (FF-16-TUI)",
-      "summary": "Article URL: https://github.com/HexLasso/FF-16-TUI Comments URL: https://news.ycombinator.com/item?id=49477925 Points: 25 # Comments: 2",
-      "canonical_url": "https://github.com/HexLasso/FF-16-TUI",
-      "url": "https://github.com/HexLasso/FF-16-TUI",
-      "published_at": "2026-08-28T13:05:49+00:00",
-      "source": "Hacker News",
-      "source_id": "hacker-news",
-      "source_type": "aggregator",
-      "suggested_topics": [],
-      "suggested_entities": [],
-      "editorial_state": "INBOX",
-      "publish": false
-    },
-    {
       "id": "inbox-a5dd4be25b406b44",
-      "title": "U.S. Sanctions Against the a/I Collective",
-      "summary": "Article URL: https://www.inventati.org/ Comments URL: https://news.ycombinator.com/item?id=49477854 Points: 172 # Comments: 146",
+      "title": "U.S. sanctions against the A/I Collective",
+      "summary": "Article URL: https://www.inventati.org/ Comments URL: https://news.ycombinator.com/item?id=49477854 Points: 291 # Comments: 257",
       "canonical_url": "https://www.inventati.org/",
       "url": "https://www.inventati.org/",
       "published_at": "2026-08-28T12:58:53+00:00",
@@ -2443,9 +2444,9 @@
       "publish": false
     },
     {
-      "id": "inbox-b250e1050d8b0298",
-      "title": "Are Crows Our Friends?",
-      "summary": "Article URL: https://www.audubon.org/magazine/are-crows-really-our-friends Comments URL: https://news.ycombinator.com/item?id=49477813 Points: 42 # Comments: 32",
+      "id": "inbox-cd41694014d86a15",
+      "title": "An investigation into the state of corvid–human relations",
+      "summary": "Article URL: https://www.audubon.org/magazine/are-crows-really-our-friends Comments URL: https://news.ycombinator.com/item?id=49477813 Points: 76 # Comments: 48",
       "canonical_url": "https://www.audubon.org/magazine/are-crows-really-our-friends",
       "url": "https://www.audubon.org/magazine/are-crows-really-our-friends",
       "published_at": "2026-08-28T12:53:42+00:00",
@@ -2460,7 +2461,7 @@
     {
       "id": "inbox-e6531fdd9104ffdd",
       "title": "“It works better in the app”",
-      "summary": "Article URL: https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/ Comments URL: https://news.ycombinator.com/item?id=49477600 Points: 510 # Comments: 319",
+      "summary": "Article URL: https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/ Comments URL: https://news.ycombinator.com/item?id=49477600 Points: 576 # Comments: 381",
       "canonical_url": "https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app",
       "url": "https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/",
       "published_at": "2026-08-28T12:32:16+00:00",
