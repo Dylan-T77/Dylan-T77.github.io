@@ -6,6 +6,7 @@
 <title>The Tech Briefing — Read the signal. Understand the system. Verify the source. Connect the map.</title>
 <meta name="description" content="The Tech Briefing is a static-first information network for technology systems: AI, robotics, semiconductors, cybersecurity, and space. Coverage is authored, sourced, and connected — not an automated news dump.">
 <link rel="canonical" href="https://thetechbriefing.com/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="alternate" type="application/atom+xml" title="The Tech Briefing feed" href="/feed.xml">
 <meta name="robots" content="index,follow">
 <meta property="og:site_name" content="The Tech Briefing">
@@ -17,7 +18,7 @@
 <meta name="twitter:title" content="The Tech Briefing — Read the signal. Understand the system. Verify the source. Connect the map.">
 <meta name="twitter:description" content="The Tech Briefing is a static-first information network for technology systems: AI, robotics, semiconductors, cybersecurity, and space. Coverage is authored, sourced, and connected — not an automated news dump.">
 
-<link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/enhancements.css"><link rel="stylesheet" href="/css/network.css">
+<link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/enhancements.css"><link rel="stylesheet" href="/css/network.css"><link rel="stylesheet" href="/css/vendor/leaflet.css"><link rel="stylesheet" href="/css/dashboard.css">
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "The Tech Briefing", "url": "https://thetechbriefing.com", "description": "The Tech Briefing is a static-first information network for technology systems: AI, robotics, semiconductors, cybersecurity, and space. Coverage is authored, sourced, and connected — not an automated news dump.", "potentialAction": {"@type": "SearchAction", "target": "https://thetechbriefing.com/search/?q={query}", "query-input": "required name=query"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://thetechbriefing.com/"}]}</script>
@@ -54,17 +55,153 @@
   <p class="masthead-deck">Read the signal. Understand the system. Verify the source. Connect the map.</p>
   <div class="loop-row">READ <span>→</span> UNDERSTAND <span>→</span> VERIFY <span>→</span> CONNECT <span>→</span> DISCOVER</div>
 </section>
-<section class="ed-section container" id="edition">
-  <p class="ed-label">02 / CURRENT EDITION</p>
-  <div class="lead-meta">Edition 2026.08.28 · 28 AUG 2026 · STATUS OPEN</div>
+
+<section class="console container" id="console">
+  <div class="console-head">
+    <p class="ed-label">01 / NETWORK CONSOLE</p>
+    <p class="console-sub">A live control surface over the published record. Every panel is derived from the information network - no synthetic telemetry, no invented activity.</p>
+    <div class="filter-bar" id="filter-bar" role="group" aria-label="Information filters">
+      <span class="filter-group" role="group" aria-label="Topic filter">
+        <span class="filter-label">TOPIC</span>
+        <button type="button" class="f-chip is-active" data-topic="all">ALL</button>
+        <button type="button" class="f-chip" data-topic="ai">AI</button><button type="button" class="f-chip" data-topic="robotics">ROBOTICS</button><button type="button" class="f-chip" data-topic="space">SPACE</button><button type="button" class="f-chip" data-topic="cybersecurity">CYBER</button><button type="button" class="f-chip" data-topic="semiconductors">SEMICON</button>
+      </span>
+      <span class="filter-group" role="group" aria-label="Time window filter">
+        <span class="filter-label">WINDOW</span>
+        <button type="button" class="f-chip" data-window="today">TODAY</button>
+        <button type="button" class="f-chip" data-window="7d">7 DAYS</button>
+        <button type="button" class="f-chip" data-window="30d">30 DAYS</button>
+        <button type="button" class="f-chip is-active" data-window="all">ALL TIME</button>
+      </span>
+      <span class="filter-readout" id="filter-readout">6 / 6 SIGNALS IN VIEW</span>
+    </div>
+  </div>
+
+  <div class="panel" id="panel-map">
+    <div class="panel-head"><span class="panel-title">GEOGRAPHIC ACTIVITY</span><span class="panel-note">7 SITES · 8 MAPPED ENTITIES</span></div>
+    <div class="map-grid">
+      <div id="dash-map" class="dash-map" role="application" aria-label="Map of entity locations linked to published signals"><noscript><p class="noscript-note">INTERACTIVE MAP NEEDS JAVASCRIPT - THE LOCATION INDEX LISTS EVERY SITE ON RECORD.</p></noscript></div>
+      <aside class="map-side">
+        <div class="map-detail" id="map-detail">
+          <p class="detail-hint">SELECT A MARKER OR LOCATION TO INSPECT ITS SIGNALS.</p>
+        </div>
+        <div class="map-index-block">
+          <p class="mini-label">LOCATION INDEX</p>
+          <ul class="loc-index" id="loc-index"><li><button type="button" class="loc-btn" data-loc="ashburn-united-states"><span class="loc-name">ASHBURN, UNITED STATES</span><span class="loc-meta"><b>1 SIGNAL</b> · <a href="/entities/hhmi-janelia/">HHMI Janelia Research Campus</a></span></button></li><li><button type="button" class="loc-btn" data-loc="boston-united-states"><span class="loc-name">BOSTON, UNITED STATES</span><span class="loc-meta"><b>1 SIGNAL</b> · <a href="/entities/quera/">QuEra Computing</a></span></button></li><li><button type="button" class="loc-btn" data-loc="cambridge-united-kingdom"><span class="loc-name">CAMBRIDGE, UNITED KINGDOM</span><span class="loc-meta"><b>1 SIGNAL</b> · <a href="/entities/raspberry-pi/">Raspberry Pi</a></span></button></li><li><button type="button" class="loc-btn" data-loc="hsinchu-taiwan"><span class="loc-name">HSINCHU, TAIWAN</span><span class="loc-meta"><b>0 SIGNALS</b> · <a href="/entities/tsmc/">TSMC</a></span></button></li><li><button type="button" class="loc-btn" data-loc="new-york-united-states"><span class="loc-name">NEW YORK, UNITED STATES</span><span class="loc-meta"><b>1 SIGNAL</b> · <a href="/entities/hugging-face/">Hugging Face</a></span></button></li><li><button type="button" class="loc-btn" data-loc="san-francisco-united-states"><span class="loc-name">SAN FRANCISCO, UNITED STATES</span><span class="loc-meta"><b>6 SIGNALS</b> · <a href="/entities/anthropic/">Anthropic</a>, <a href="/entities/openai/">OpenAI</a></span></button></li><li><button type="button" class="loc-btn" data-loc="santa-clara-united-states"><span class="loc-name">SANTA CLARA, UNITED STATES</span><span class="loc-meta"><b>0 SIGNALS</b> · <a href="/entities/nvidia/">NVIDIA</a></span></button></li></ul>
+        </div>
+      </aside>
+    </div>
+    <p class="panel-foot">Entity sites from public record (headquarters / campus). Signals attach through their linked entities; records without a reliable geographic association stay off the map. Not mapped: Model Hardware Standard - no fixed site on record. Tiles © OpenStreetMap contributors © CARTO.</p>
+  </div>
+
+  <div class="console-grid">
+    <div class="panel" id="panel-signals">
+      <div class="panel-head"><span class="panel-title">CURRENT SIGNALS</span><span class="panel-note" id="signals-count">6 RECORDS</span></div>
+      <div class="sig-list" id="sig-list">
+        <article class="sig-row" data-sid="sig-mhs-anthropic-preview" data-topics="ai,robotics" data-published="2026-08-27" data-status="VERIFIED">
+  <div class="sig-flag"><b class="flag-verified">VERIFIED</b><time datetime="2026-08-27">27 AUG</time></div>
+  <div class="sig-body">
+    <h3><a href="/signals/anthropic-opens-mhs-research-preview/" data-track="signal">Anthropic opens a research preview of the Model Hardware Standard</a></h3>
+    <p class="sig-topics">AI · ROBOTICS // LEAD</p>
+  </div>
+</article><article class="sig-row" data-sid="sig-quera-laser-lock" data-topics="ai,robotics" data-published="2026-08-27" data-status="REPORTED">
+  <div class="sig-flag"><b class="flag-reported">REPORTED</b><time datetime="2026-08-27">27 AUG</time></div>
+  <div class="sig-body">
+    <h3><a href="/signals/quera-mhs-laser-lock/" data-track="signal">QuEra: agent-written laser lock recovers 99.3% of the time in MHS tests</a></h3>
+    <p class="sig-topics">AI · ROBOTICS // EVIDENCE</p>
+  </div>
+</article><article class="sig-row" data-sid="sig-mhs-ars" data-topics="ai,robotics" data-published="2026-08-27" data-status="VERIFIED">
+  <div class="sig-flag"><b class="flag-verified">VERIFIED</b><time datetime="2026-08-27">27 AUG</time></div>
+  <div class="sig-body">
+    <h3><a href="/signals/ars-technica-mhs-physical-agents/" data-track="signal">Independent write-up: MHS as a common driver layer for physical agents</a></h3>
+    <p class="sig-topics">AI · ROBOTICS // CONTEXT</p>
+  </div>
+</article><article class="sig-row" data-sid="sig-mhs-cnbc" data-topics="ai,robotics,semiconductors" data-published="2026-08-27" data-status="VERIFIED">
+  <div class="sig-flag"><b class="flag-verified">VERIFIED</b><time datetime="2026-08-27">27 AUG</time></div>
+  <div class="sig-body">
+    <h3><a href="/signals/cnbc-anthropic-physical-world/" data-track="signal">CNBC: Anthropic frames MHS as USB-C for machines, with an industrial follow-on</a></h3>
+    <p class="sig-topics">AI · ROBOTICS · SEMICON // CONTEXT</p>
+  </div>
+</article><article class="sig-row" data-sid="sig-mhs-lerobot" data-topics="robotics,ai" data-published="2026-08-27" data-status="REPORTED">
+  <div class="sig-flag"><b class="flag-reported">REPORTED</b><time datetime="2026-08-27">27 AUG</time></div>
+  <div class="sig-body">
+    <h3><a href="/signals/hugging-face-lerobot-mhs/" data-track="signal">Hugging Face is adding MHS support in LeRobot</a></h3>
+    <p class="sig-topics">ROBOTICS · AI // WATCH</p>
+  </div>
+</article><article class="sig-row" data-sid="sig-mhs-raspberry-pi" data-topics="robotics,ai" data-published="2026-08-27" data-status="REPORTED">
+  <div class="sig-flag"><b class="flag-reported">REPORTED</b><time datetime="2026-08-27">27 AUG</time></div>
+  <div class="sig-body">
+    <h3><a href="/signals/raspberry-pi-mhs-camera-driver/" data-track="signal">Raspberry Pi: camera MHS driver tests, broader product integration planned</a></h3>
+    <p class="sig-topics">ROBOTICS · AI // WATCH</p>
+  </div>
+</article>
+      </div>
+      <p class="panel-foot"><a href="/signals/">Open the full signal index</a> · <a href="/briefings/">Briefings</a></p>
+    </div>
+
+    <div class="panel" id="panel-status">
+      <div class="panel-head"><span class="panel-title">SYSTEM STATUS</span><span class="panel-note">NETWORK SNAPSHOT</span></div>
+      <dl class="stat-list">
+        <div><dt>EDITION</dt><dd>2026-08-28 // <b class="ok">OPEN</b></dd></div>
+        <div><dt>SIGNALS</dt><dd id="stat-signals">6 PUBLISHED</dd></div>
+        <div><dt>BRIEFINGS</dt><dd>1 PUBLISHED</dd></div>
+        <div><dt>TOPICS</dt><dd>5 TRACKED</dd></div>
+        <div><dt>ENTITIES</dt><dd>9 REGISTERED · 8 MAPPED</dd></div>
+        <div><dt>SOURCES</dt><dd>10 REGISTERED · 3 CITED</dd></div>
+        <div><dt>INGEST INBOX</dt><dd>150 HELD FOR REVIEW</dd></div>
+        <div><dt>UPDATED</dt><dd>28 AUG 2026</dd></div>
+      </dl>
+      <p class="mini-label">SIGNAL VERIFICATION SPLIT</p>
+      <div class="bar-chart" id="chart-status"><div class="bar-row" data-status="REPORTED" role="button" tabindex="0" aria-label="Filter: REPORTED"><span class="bar-label">REPORTED</span><span class="bar-track"><span class="bar-fill" style="width:100%"></span></span><span class="bar-value">3</span></div><div class="bar-row" data-status="VERIFIED" role="button" tabindex="0" aria-label="Filter: VERIFIED"><span class="bar-label">VERIFIED</span><span class="bar-track"><span class="bar-fill" style="width:100%"></span></span><span class="bar-value">3</span></div></div>
+    </div>
+  </div>
+
+  <div class="console-grid three">
+    <div class="panel" id="panel-topics">
+      <div class="panel-head"><span class="panel-title">TOPIC ACTIVITY</span><span class="panel-note">SIGNALS PER TOPIC</span></div>
+      <div class="bar-chart" id="chart-topics"><div class="bar-row" data-topic="ai" role="button" tabindex="0" aria-label="Filter: Artificial Intelligence"><span class="bar-label"><a href="/topics/ai/">Artificial Intelligence</a></span><span class="bar-track"><span class="bar-fill" style="width:100%"></span></span><span class="bar-value">6</span></div><div class="bar-row" data-topic="robotics" role="button" tabindex="0" aria-label="Filter: Robotics"><span class="bar-label"><a href="/topics/robotics/">Robotics</a></span><span class="bar-track"><span class="bar-fill" style="width:100%"></span></span><span class="bar-value">6</span></div><div class="bar-row" data-topic="space" role="button" tabindex="0" aria-label="Filter: Space"><span class="bar-label"><a href="/topics/space/">Space</a></span><span class="bar-track"><span class="bar-fill" style="width:0%"></span></span><span class="bar-value">0</span></div><div class="bar-row" data-topic="cybersecurity" role="button" tabindex="0" aria-label="Filter: Cybersecurity"><span class="bar-label"><a href="/topics/cybersecurity/">Cybersecurity</a></span><span class="bar-track"><span class="bar-fill" style="width:0%"></span></span><span class="bar-value">0</span></div><div class="bar-row" data-topic="semiconductors" role="button" tabindex="0" aria-label="Filter: Semiconductors"><span class="bar-label"><a href="/topics/semiconductors/">Semiconductors</a></span><span class="bar-track"><span class="bar-fill" style="width:17%"></span></span><span class="bar-value">1</span></div></div>
+      <p class="panel-foot">Select a bar to filter the console by topic.</p>
+    </div>
+    <div class="panel" id="panel-trend">
+      <div class="panel-head"><span class="panel-title">SIGNALS OVER TIME</span><span class="panel-note">PUBLISHED PER DAY</span></div>
+      <div class="data-state" id="chart-trend">
+  <strong>BUILDING DATASET</strong>
+  <p>6 signals across 1 day of published coverage. The trend view unlocks when the record spans more days - no synthetic history is drawn.</p>
+  <ul><li><b>27 AUG</b> - 6 signals</li></ul>
+</div>
+    </div>
+    <div class="panel" id="panel-sources">
+      <div class="panel-head"><span class="panel-title">SOURCE DISTRIBUTION</span><span class="panel-note">CITATIONS IN SIGNALS</span></div>
+      <div class="bar-chart" id="chart-sources"><div class="bar-row" data-source="anthropic" role="button" tabindex="0" aria-label="Filter: Anthropic"><span class="bar-label">Anthropic</span><span class="bar-track"><span class="bar-fill" style="width:100%"></span></span><span class="bar-value">4</span></div><div class="bar-row" data-source="ars-technica" role="button" tabindex="0" aria-label="Filter: Ars Technica"><span class="bar-label">Ars Technica</span><span class="bar-track"><span class="bar-fill" style="width:25%"></span></span><span class="bar-value">1</span></div><div class="bar-row" data-source="cnbc" role="button" tabindex="0" aria-label="Filter: CNBC"><span class="bar-label">CNBC</span><span class="bar-track"><span class="bar-fill" style="width:25%"></span></span><span class="bar-value">1</span></div></div>
+      <p class="panel-foot">10 sources registered. Uncited sources stay at zero until a published record references them.</p>
+    </div>
+  </div>
+
+  <div class="panel" id="panel-net">
+    <div class="panel-head"><span class="panel-title">RELATIONSHIP NETWORK</span><span class="panel-note">15 NODES · 48 EDGES FROM THE RECORD</span></div>
+    <div class="net-grid">
+      <div class="net-stage">
+        <canvas id="net-canvas" aria-label="Relationship network of topics, entities and briefings"></canvas>
+        <div class="net-legend" aria-hidden="true"><span class="lg-topic">■ TOPIC</span><span class="lg-entity">● ENTITY</span><span class="lg-briefing">◆ BRIEFING</span></div>
+      </div>
+      <aside class="net-detail" id="net-detail">
+        <p class="mini-label">TOP CONNECTIONS</p>
+        <ul class="top-links"><li><span>ANTHROPIC</span><i>↔</i><span>AI</span><b>7 REC</b></li><li><span>ANTHROPIC</span><i>↔</i><span>ROBOTICS</span><b>7 REC</b></li><li><span>MODEL HARDWARE STANDARD</span><i>↔</i><span>AI</span><b>7 REC</b></li><li><span>MODEL HARDWARE STANDARD</span><i>↔</i><span>ROBOTICS</span><b>7 REC</b></li><li><span>ANTHROPIC</span><i>↔</i><span>MODEL HARDWARE STANDARD</span><b>7 REC</b></li><li><span>AI</span><i>↔</i><span>ROBOTICS</span><b>7 REC</b></li></ul>
+        <p class="detail-hint">SELECT A NODE TO INSPECT ITS RECORD.</p>
+      </aside>
+    </div>
+    <p class="panel-foot">Nodes are published records (topics, entities, briefings). Edges are real co-occurrence inside signals and briefings - nothing is drawn without a record behind it.</p>
+  </div>
 </section>
+
 <section class="ed-section container" id="lead">
-  <p class="ed-label">03 / LEAD BRIEFING</p>
+  <p class="ed-label">02 / LEAD BRIEFING</p>
   <div class="lead">
     <div>
       <p class="lead-kicker">Lead briefing // Edition 2026.08.28</p>
-      <h2><a href="/briefings/model-hardware-standard/">Model Hardware Standard: agents get a driver layer for the physical lab</a></h2>
+      <h2><a href="/briefings/model-hardware-standard/" data-track="briefing">Model Hardware Standard: agents get a driver layer for the physical lab</a></h2>
       <p class="lead-deck">Anthropic&#x27;s MHS research preview is not a robot and not a new model. It is a shared interface so agents can discover, describe, and operate programmable devices — with the hard problems still sitting in safety, spatial reasoning, and who writes the drivers.</p>
+      <p class="lead-cta"><a class="console-cta" href="/briefings/model-hardware-standard/" data-track="briefing">READ FULL BRIEFING →</a></p>
     </div>
     <dl class="meta-col">
       <dt>PUBLISHED</dt><dd>28 AUG 2026</dd>
@@ -74,60 +211,12 @@
     </dl>
   </div>
 </section>
-<section class="ed-section container" id="signals">
-  <p class="ed-label">04 / CURRENT SIGNALS</p>
-  <div class="row-list">
-    <article class="row-item">
-  <div class="row-meta"><b>VERIFIED</b><br>27 AUG 2026</div>
-  <div>
-    <h3><a href="/signals/anthropic-opens-mhs-research-preview/">Anthropic opens a research preview of the Model Hardware Standard</a></h3>
-    <p>A shared driver spec for agents to operate programmable lab and factory devices, starting with a closed partner group.</p>
-  </div>
-  <a class="row-go" href="/signals/anthropic-opens-mhs-research-preview/">OPEN</a>
-</article><article class="row-item">
-  <div class="row-meta"><b>VERIFIED</b><br>27 AUG 2026</div>
-  <div>
-    <h3><a href="/signals/ars-technica-mhs-physical-agents/">Independent write-up: MHS as a common driver layer for physical agents</a></h3>
-    <p>Ars Technica describes MHS as standardized drivers so agents can talk to arbitrary devices without a custom translator for each instrument.</p>
-  </div>
-  <a class="row-go" href="/signals/ars-technica-mhs-physical-agents/">OPEN</a>
-</article><article class="row-item">
-  <div class="row-meta"><b>VERIFIED</b><br>27 AUG 2026</div>
-  <div>
-    <h3><a href="/signals/cnbc-anthropic-physical-world/">CNBC: Anthropic frames MHS as USB-C for machines, with an industrial follow-on</a></h3>
-    <p>Business reporting adds competitive context — OpenAI and Amazon hardware spend, Anthropic&#x27;s silicon hiring — around a still-closed research preview.</p>
-  </div>
-  <a class="row-go" href="/signals/cnbc-anthropic-physical-world/">OPEN</a>
-</article><article class="row-item">
-  <div class="row-meta"><b>REPORTED</b><br>27 AUG 2026</div>
-  <div>
-    <h3><a href="/signals/hugging-face-lerobot-mhs/">Hugging Face is adding MHS support in LeRobot</a></h3>
-    <p>Anthropic names LeRobot as an early adopter for the next phase of device coverage.</p>
-  </div>
-  <a class="row-go" href="/signals/hugging-face-lerobot-mhs/">OPEN</a>
-</article><article class="row-item">
-  <div class="row-meta"><b>REPORTED</b><br>27 AUG 2026</div>
-  <div>
-    <h3><a href="/signals/raspberry-pi-mhs-camera-driver/">Raspberry Pi: camera MHS driver tests, broader product integration planned</a></h3>
-    <p>Another named hardware adopter in the Anthropic preview post, after successful Camera MHS Driver tests.</p>
-  </div>
-  <a class="row-go" href="/signals/raspberry-pi-mhs-camera-driver/">OPEN</a>
-</article><article class="row-item">
-  <div class="row-meta"><b>REPORTED</b><br>27 AUG 2026</div>
-  <div>
-    <h3><a href="/signals/quera-mhs-laser-lock/">QuEra: agent-written laser lock recovers 99.3% of the time in MHS tests</a></h3>
-    <p>A partner result from the preview post — specific, quantitative, and still vendor-mediated.</p>
-  </div>
-  <a class="row-go" href="/signals/quera-mhs-laser-lock/">OPEN</a>
-</article>
-  </div>
-</section>
 <section class="ed-section container" id="why">
-  <p class="ed-label">05 / WHY THIS MATTERS</p>
+  <p class="ed-label">03 / WHY THIS MATTERS</p>
   <ol class="takeaway-list"><li><b>01</b><span>For a year, &#x27;agentic AI&#x27; has mostly meant tools inside a computer: files, browsers, APIs, tickets. MHS is an attempt to reuse that tool-calling pattern on microscopes, liquid handlers, robotic arms, and lasers.</span></li><li><b>02</b><span>If a model-agnostic hardware driver layer actually spreads, the bottleneck moves from &#x27;can the model call a unique vendor SDK&#x27; to &#x27;who certifies the driver, who sets the safety limits, and who audits the command log.&#x27; That is a systems story, not a chatbot story.</span></li><li><b>03</b><span>Labs are a sharp test case. They already have programmable instruments, expensive integration work, and a culture of writing down procedures. They are also unforgiving of spatial mistakes, sample loss, and collision.</span></li><li><b>04</b><span>The competitive map matters: NVIDIA is selling a vertically integrated physical-AI stack (simulation, world models, Jetson, Isaac). Anthropic is selling an interface. Those are different bets. One can win without the other dying.</span></li></ol>
 </section>
 <section class="ed-section container" id="topics">
-  <p class="ed-label">06 / TOPIC PULSE</p>
+  <p class="ed-label">04 / TOPIC PULSE</p>
   <table class="pulse-table">
     <thead><tr><th>TOPIC</th><th>STATUS</th><th>NOW</th></tr></thead>
     <tbody>
@@ -136,13 +225,13 @@
   </table>
 </section>
 <section class="ed-section container" id="timeline">
-  <p class="ed-label">07 / DEVELOPING STORY</p>
-  <ul class="timeline">
-    <li><time datetime="2024">2024</time><strong>MCP open-sourced</strong><p>Anthropic open-sourced the Model Context Protocol, the software-tool analogue MHS is now extending into hardware. Date and fact from CNBC&#x27;s 27 August 2026 report and Anthropic&#x27;s own MCP history.</p></li><li><time datetime="pre-2026">pre-2026</time><strong>Janelia origin</strong><p>Arco Bast built a shared-memory dictionary so lasers, focusers, and cameras on a Janelia imaging rig could communicate at memory speed. Alek Kemeny worked with Bast to bring models onto that interface. Source: Anthropic acknowledgments in the MHS post.</p></li><li><time datetime="2025–2026">2025–2026</time><strong>Partner testing</strong><p>Anthropic says scientific partners used MHS over the past year and saw faster device integration and live fault detection. Named examples include Genentech, University of Washington Baker and Pinglay labs, Carnegie Mellon, HHMI Janelia, QuEra, and Tetsuwan Scientific.</p></li><li><time datetime="2026-08-27">2026-08-27</time><strong>Research preview</strong><p>Public announcement. Preview access for a first group in science, robotics, electronics, and manufacturing. Open-source promised after additional safety evaluations. Independent reports: Ars Technica, CNBC.</p></li>
+  <p class="ed-label">05 / DEVELOPING STORY</p>
+  <ul class="timeline" id="story-timeline">
+    <li data-date="2024"><time datetime="2024">2024</time><strong>MCP open-sourced</strong><p>Anthropic open-sourced the Model Context Protocol, the software-tool analogue MHS is now extending into hardware. Date and fact from CNBC&#x27;s 27 August 2026 report and Anthropic&#x27;s own MCP history.</p></li><li data-date="pre-2026"><time datetime="pre-2026">pre-2026</time><strong>Janelia origin</strong><p>Arco Bast built a shared-memory dictionary so lasers, focusers, and cameras on a Janelia imaging rig could communicate at memory speed. Alek Kemeny worked with Bast to bring models onto that interface. Source: Anthropic acknowledgments in the MHS post.</p></li><li data-date="2025–2026"><time datetime="2025–2026">2025–2026</time><strong>Partner testing</strong><p>Anthropic says scientific partners used MHS over the past year and saw faster device integration and live fault detection. Named examples include Genentech, University of Washington Baker and Pinglay labs, Carnegie Mellon, HHMI Janelia, QuEra, and Tetsuwan Scientific.</p></li><li data-date="2026-08-27"><time datetime="2026-08-27">2026-08-27</time><strong>Research preview</strong><p>Public announcement. Preview access for a first group in science, robotics, electronics, and manufacturing. Open-source promised after additional safety evaluations. Independent reports: Ars Technica, CNBC.</p></li>
   </ul>
 </section>
 <section class="ed-section container" id="connected">
-  <p class="ed-label">08 / CONNECTED INFORMATION</p>
+  <p class="ed-label">06 / CONNECTED INFORMATION</p>
   <div class="connected-grid">
     <div>
       <h3>ENTITIES</h3>
@@ -159,7 +248,7 @@
   </div>
 </section>
 <section class="ed-section container" id="lab">
-  <p class="ed-label">09 / LATEST FROM THE LAB</p>
+  <p class="ed-label">07 / LATEST FROM THE LAB</p>
   <div class="row-list">
     <article class="row-item">
   <div class="row-meta"><b>PROJECT_001</b><br>COMPLETE / DOCUMENTED</div>
@@ -177,10 +266,10 @@
   <a class="row-go" href="/lab/projects/">LAB</a>
 </article>
   </div>
-  <p class="lead-meta" style="margin-top:18px"><a href="/lab/">Open the Lab layer</a> · <a href="/lab/experiments/xeno-signal/">Xeno Signal experiment</a></p>
+  <p class="lead-meta" style="margin-top:18px"><a href="/lab/" data-track="lab">Open the Lab layer</a> · <a href="/lab/experiments/xeno-signal/" data-track="lab">Xeno Signal experiment</a></p>
 </section>
 <section class="ed-section container" id="method">
-  <p class="ed-label">10 / SOURCES AND METHOD</p>
+  <p class="ed-label">08 / SOURCES AND METHOD</p>
   <div class="method-block">
     <div>
       <p>RSS is an inbox, not the product. Headlines are ingested, normalized, validated, and held at editorial_state=INBOX with publish=false until a briefing or signal is written against primary sources.</p>
@@ -195,6 +284,6 @@
   <span>© 2026 The Tech Briefing // LAB: DYLAN THIART</span>
   <span><a href="/about/">METHODOLOGY</a> · <a href="/feed.xml">FEED</a> · <a href="/lab/">LAB</a></span>
 </footer>
-<script src="/js/site.js"></script>
+<script src="/js/site.js"></script><script src="/js/vendor/leaflet.js"></script><script src="/js/dashboard.js"></script>
 </body>
 </html>

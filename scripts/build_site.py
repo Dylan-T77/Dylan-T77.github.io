@@ -164,6 +164,7 @@ def layout(
 <title>{e(title)}</title>
 <meta name="description" content="{e(description)}">
 <link rel="canonical" href="{e(canonical)}">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="alternate" type="application/atom+xml" title="{e(site["name"])} feed" href="/feed.xml">
 <meta name="robots" content="index,follow">
 <meta property="og:site_name" content="{e(site["name"])}">
@@ -248,15 +249,396 @@ def empty(title: str, text: str) -> str:
     return f'<div class="empty-state"><strong>{e(title)}</strong>{e(text)}</div>'
 
 
+TOPIC_SHORT = {
+    "ai": "AI",
+    "robotics": "ROBOTICS",
+    "space": "SPACE",
+    "cybersecurity": "CYBER",
+    "semiconductors": "SEMICON",
+}
+
+IMPORTANCE_ORDER = {"LEAD": 0, "EVIDENCE": 1, "CONTEXT": 2, "WATCH": 3}
+
+
+def short_date(value: str | None) -> str:
+    if not value:
+        return "UNDATED"
+    try:
+        return datetime.strptime(value[:10], "%Y-%m-%d").strftime("%d %b").upper()
+    except ValueError:
+        return value
+
+
+def loc_id(city: str, country: str) -> str:
+    raw = f"{city}-{country}".lower()
+    return "".join(c if c.isalnum() else "-" for c in raw).strip("-")
+
+
+def dashboard_data(data: dict) -> dict:
+    """Derive the homepage console dataset from the published network.
+
+    Everything in this file is computed from network.json records - no
+    hand-maintained duplicates, no synthetic telemetry.
+    """
+    signals = sorted(
+        data["signals"],
+        key=lambda s: (s["published"], -IMPORTANCE_ORDER.get(s.get("importance", ""), 9)),
+        reverse=True,
+    )
+    briefings = data["briefings"]
+    topics = index_by(data["topics"])
+    entities = index_by(data["entities"])
+
+    sig_items = [
+        {
+            "id": s["id"],
+            "slug": s["slug"],
+            "url": f"/signals/{s['slug']}/",
+            "title": s["title"],
+            "deck": s["deck"],
+            "published": s["published"],
+            "updated": s.get("updated") or s["published"],
+            "status": s["status"],
+            "importance": s.get("importance", ""),
+            "topics": s.get("topics", []),
+            "entities": s.get("entities", []),
+            "briefings": s.get("related_briefings", []),
+            "sources": [ref["id"] for ref in s.get("sources", [])],
+        }
+        for s in signals
+    ]
+
+    topic_items = []
+    for t in data["topics"]:
+        t_sigs = [s for s in data["signals"] if t["id"] in s.get("topics", [])]
+        t_briefs = [b for b in briefings if t["id"] in b.get("topics", [])]
+        topic_items.append(
+            {
+                "id": t["id"],
+                "slug": t["slug"],
+                "name": t["name"],
+                "short": TOPIC_SHORT.get(t["id"], t["name"].upper()),
+                "status": t["status"],
+                "url": f"/topics/{t['slug']}/",
+                "signals": len(t_sigs),
+                "briefings": len(t_briefs),
+            }
+        )
+
+    ent_items = []
+    for ent in data["entities"]:
+        e_sigs = [s["id"] for s in data["signals"] if ent["id"] in s.get("entities", [])]
+        e_briefs = [b["id"] for b in briefings if ent["id"] in b.get("entities", [])]
+        ent_items.append(
+            {
+                "id": ent["id"],
+                "slug": ent["slug"],
+                "name": ent["name"],
+                "type": ent["type"],
+                "status": ent["status"],
+                "url": f"/entities/{ent['slug']}/",
+                "signals": e_sigs,
+                "briefings": e_briefs,
+                "location": ent.get("location"),
+            }
+        )
+
+    loc_groups: dict[tuple[str, str], dict] = {}
+    for ent in data["entities"]:
+        loc = ent.get("location")
+        if not loc:
+            continue
+        key = (loc["city"], loc["country"])
+        group = loc_groups.setdefault(
+            key,
+            {
+                "id": loc_id(loc["city"], loc["country"]),
+                "name": loc["name"],
+                "city": loc["city"],
+                "country": loc["country"],
+                "lat": loc["lat"],
+                "lon": loc["lon"],
+                "basis": loc.get("basis", ""),
+                "entity_ids": [],
+            },
+        )
+        group["entity_ids"].append(ent["id"])
+
+    loc_items = []
+    for key in sorted(loc_groups, key=lambda k: loc_groups[k]["name"]):
+        group = loc_groups[key]
+        loc_sigs = []
+        loc_briefs = []
+        for ent_id in group["entity_ids"]:
+            for s in signals:
+                if ent_id in s.get("entities", []) and s["id"] not in loc_sigs:
+                    loc_sigs.append(s["id"])
+            for b in briefings:
+                if ent_id in b.get("entities", []) and b["id"] not in [x["id"] for x in loc_briefs]:
+                    loc_briefs.append(
+                        {"id": b["id"], "title": b["title"], "url": f"/briefings/{b['slug']}/"}
+                    )
+        loc_topics = []
+        for s in signals:
+            if s["id"] in loc_sigs:
+                for tid in s.get("topics", []):
+                    if tid not in loc_topics:
+                        loc_topics.append(tid)
+        latest = next((s for s in signals if s["id"] in loc_sigs), None)
+        loc_items.append(
+            {
+                **group,
+                "entities": [
+                    {"id": ent_id, "name": entities[ent_id]["name"], "type": entities[ent_id]["type"], "url": f"/entities/{entities[ent_id]['slug']}/"}
+                    for ent_id in group["entity_ids"]
+                ],
+                "signals": loc_sigs,
+                "briefings": loc_briefs,
+                "signal_count": len(loc_sigs),
+                "topics": loc_topics,
+                "latest": (
+                    {
+                        "id": latest["id"],
+                        "title": latest["title"],
+                        "url": f"/signals/{latest['slug']}/",
+                        "published": latest["published"],
+                        "status": latest["status"],
+                    }
+                    if latest
+                    else None
+                ),
+            }
+        )
+
+    unmapped = [
+        {"id": ent["id"], "name": ent["name"], "type": ent["type"]}
+        for ent in data["entities"]
+        if not ent.get("location")
+    ]
+
+    nodes: dict[str, dict] = {}
+    edges: dict[tuple[str, str], dict] = {}
+
+    def node(key: str, label: str, kind: str, url: str, status: str = "") -> None:
+        nodes.setdefault(key, {"id": key, "label": label, "kind": kind, "url": url, "status": status, "weight": 0})
+
+    def edge(a: str, b: str) -> None:
+        if a == b:
+            return
+        pair = (a, b) if a < b else (b, a)
+        edges.setdefault(pair, {"source": pair[0], "target": pair[1], "weight": 0})
+        edges[pair]["weight"] += 1
+
+    for t in data["topics"]:
+        node(f"topic:{t['id']}", TOPIC_SHORT.get(t["id"], t["name"].upper()), "topic", f"/topics/{t['slug']}/", t["status"])
+    for ent in data["entities"]:
+        node(f"entity:{ent['id']}", ent["name"].upper(), "entity", f"/entities/{ent['slug']}/", ent["status"])
+    for b in briefings:
+        node(f"briefing:{b['id']}", b["title"].upper(), "briefing", f"/briefings/{b['slug']}/", b["status"])
+
+    records = list(data["signals"]) + list(briefings)
+    for rec in records:
+        rec_topics = [f"topic:{t}" for t in rec.get("topics", []) if t in topics]
+        rec_entities = [f"entity:{en}" for en in rec.get("entities", []) if en in entities]
+        for key in rec_topics + rec_entities:
+            if key in nodes:
+                nodes[key]["weight"] += 1
+        for a in rec_entities:
+            for b_ in rec_topics:
+                edge(a, b_)
+        for i, a in enumerate(rec_entities):
+            for b_ in rec_entities[i + 1 :]:
+                edge(a, b_)
+        for i, a in enumerate(rec_topics):
+            for b_ in rec_topics[i + 1 :]:
+                edge(a, b_)
+        if rec in briefings:
+            bkey = f"briefing:{rec['id']}"
+            nodes[bkey]["weight"] += len(rec.get("related_signals", [])) or 1
+            for tkey in rec_topics:
+                edge(bkey, tkey)
+            for ekey in rec_entities:
+                edge(bkey, ekey)
+
+    by_day: dict[str, int] = {}
+    for s in data["signals"]:
+        by_day[s["published"]] = by_day.get(s["published"], 0) + 1
+
+    source_counts: dict[str, int] = {}
+    for s in data["signals"]:
+        for ref in s.get("sources", []):
+            source_counts[ref["id"]] = source_counts.get(ref["id"], 0) + 1
+    sources_by_id = index_by(data["sources"])
+    cited = [
+        {"id": sid, "name": sources_by_id.get(sid, {}).get("name", sid), "count": n}
+        for sid, n in sorted(source_counts.items(), key=lambda kv: (-kv[1], kv[0]))
+    ]
+
+    status_counts: dict[str, int] = {}
+    for s in data["signals"]:
+        status_counts[s["status"]] = status_counts.get(s["status"], 0) + 1
+
+    inbox_count = 0
+    inbox_path = ROOT / "data" / "ingest" / "rss-inbox.json"
+    if inbox_path.exists():
+        try:
+            inbox_count = len(json.loads(inbox_path.read_text(encoding="utf-8")).get("items", []))
+        except (ValueError, OSError):
+            inbox_count = 0
+
+    lead = briefings and index_by(briefings, "slug").get(data["site"]["edition"].get("lead_briefing", ""))
+
+    return {
+        "meta": {
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "edition": data["site"]["edition"],
+            "counts": {
+                "signals": len(data["signals"]),
+                "briefings": len(briefings),
+                "topics": len(data["topics"]),
+                "entities": len(data["entities"]),
+                "entities_mapped": len(data["entities"]) - len(unmapped),
+                "sources": len(data["sources"]),
+                "sources_cited": len(source_counts),
+                "collections": len(data["collections"]),
+                "inbox": inbox_count,
+            },
+            "lead_briefing": data["site"]["edition"].get("lead_briefing"),
+        },
+        "topics": topic_items,
+        "signals": sig_items,
+        "entities": ent_items,
+        "locations": loc_items,
+        "unmapped_entities": unmapped,
+        "graph": {"nodes": list(nodes.values()), "edges": list(edges.values())},
+        "charts": {
+            "signals_by_topic": [
+                {"id": t["id"], "name": TOPIC_SHORT.get(t["id"], t["name"].upper()), "count": t["signals"]}
+                for t in topic_items
+            ],
+            "signals_by_status": [{"status": k, "count": v} for k, v in sorted(status_counts.items())],
+            "signals_by_day": [{"date": d, "count": c} for d, c in sorted(by_day.items())],
+            "sources_cited": cited,
+        },
+        "timeline": (lead or {}).get("timeline", []),
+    }
+
+
+def bar_rows(items: list[tuple[str, int, str | None, str]], chart_id: str, key_attr: str) -> str:
+    """Static horizontal bars. items: (label, count, href or None, data-key)."""
+    top = max([n for _, n, _, _ in items] + [1])
+    rows = []
+    for label, count, href, key in items:
+        pct = round(100 * count / top) if count else 0
+        label_html = f'<a href="{e(href)}">{e(label)}</a>' if href else e(label)
+        rows.append(
+            f'<div class="bar-row" {key_attr}="{e(key)}" role="button" tabindex="0" aria-label="Filter: {e(label)}">'
+            f'<span class="bar-label">{label_html}</span>'
+            f'<span class="bar-track"><span class="bar-fill" style="width:{pct}%"></span></span>'
+            f'<span class="bar-value">{count}</span>'
+            f"</div>"
+        )
+    return f'<div class="bar-chart" id="{e(chart_id)}">{"".join(rows)}</div>'
+
+
 def homepage(data: dict) -> str:
     site = data["site"]
     briefings = index_by(data["briefings"], "slug")
     lead = briefings[site["edition"]["lead_briefing"]]
     topics = {t["id"]: t for t in data["topics"]}
     entities = {t["id"]: t for t in data["entities"]}
-    signals = sorted(data["signals"], key=lambda s: s["published"], reverse=True)
+    signals = sorted(
+        data["signals"],
+        key=lambda s: (s["published"], -IMPORTANCE_ORDER.get(s.get("importance", ""), 9)),
+        reverse=True,
+    )
     lab_projects = data["lab"]["projects"][:2]
     crumb = [("/", "Home")]
+    dash = dashboard_data(data)
+    counts = dash["meta"]["counts"]
+
+    topic_chips = "".join(
+        f'<button type="button" class="f-chip" data-topic="{e(t["id"])}">{e(TOPIC_SHORT.get(t["id"], t["name"].upper()))}</button>'
+        for t in data["topics"]
+    )
+
+    loc_index = []
+    for loc in dash["locations"]:
+        ent_links = ", ".join(
+            f'<a href="{e(ent["url"])}">{e(ent["name"])}</a>' for ent in loc["entities"]
+        )
+        loc_index.append(
+            f'<li><button type="button" class="loc-btn" data-loc="{e(loc["id"])}">'
+            f'<span class="loc-name">{e(loc["city"].upper())}, {e(loc["country"].upper())}</span>'
+            f'<span class="loc-meta"><b>{loc["signal_count"]} SIGNAL{"S" if loc["signal_count"] != 1 else ""}</b> · {ent_links}</span>'
+            f"</button></li>"
+        )
+    unmapped_note = ""
+    if dash["unmapped_entities"]:
+        names = ", ".join(ent["name"] for ent in dash["unmapped_entities"])
+        unmapped_note = f" Not mapped: {e(names)} - no fixed site on record."
+
+    sig_rows = []
+    for s in signals:
+        sig_topics = [t for t in s.get("topics", []) if t in topics]
+        topic_line = " · ".join(e(TOPIC_SHORT.get(t, topics[t]["name"].upper())) for t in sig_topics)
+        sig_rows.append(
+            f"""<article class="sig-row" data-sid="{e(s["id"])}" data-topics="{e(",".join(sig_topics))}" data-published="{e(s["published"])}" data-status="{e(s["status"])}">
+  <div class="sig-flag"><b class="flag-{e(s["status"].lower())}">{e(s["status"])}</b><time datetime="{e(s["published"])}">{e(short_date(s["published"]))}</time></div>
+  <div class="sig-body">
+    <h3><a href="/signals/{e(s["slug"])}/" data-track="signal">{e(s["title"])}</a></h3>
+    <p class="sig-topics">{topic_line} // {e(s.get("importance", ""))}</p>
+  </div>
+</article>"""
+        )
+
+    status_bars = bar_rows(
+        [(item["status"], item["count"], None, item["status"]) for item in dash["charts"]["signals_by_status"]],
+        "chart-status",
+        "data-status",
+    )
+    topic_bars = bar_rows(
+        [
+            (t["name"], t["signals"], t["url"], t["id"])
+            for t in dash["topics"]
+        ],
+        "chart-topics",
+        "data-topic",
+    )
+    source_bars = bar_rows(
+        [(s["name"], s["count"], None, s["id"]) for s in dash["charts"]["sources_cited"]],
+        "chart-sources",
+        "data-source",
+    )
+
+    days = dash["charts"]["signals_by_day"]
+    if len(days) >= 3:
+        top_day = max(d["count"] for d in days)
+        day_bars = "".join(
+            f'<div class="day-col" title="{e(d["date"])}: {d["count"]} signals">'
+            f'<span class="day-fill" style="height:{max(8, round(100 * d["count"] / top_day))}%"></span>'
+            f'<span class="day-label">{e(short_date(d["date"]))}</span></div>'
+            for d in days
+        )
+        trend_html = f'<div class="day-chart" id="chart-trend">{day_bars}</div>'
+    else:
+        day_list = "".join(
+            f"<li><b>{e(short_date(d['date']))}</b> - {d['count']} signal{'s' if d['count'] != 1 else ''}</li>"
+            for d in days
+        )
+        trend_html = f"""<div class="data-state" id="chart-trend">
+  <strong>BUILDING DATASET</strong>
+  <p>{counts["signals"]} signals across {len(days)} day{"s" if len(days) != 1 else ""} of published coverage. The trend view unlocks when the record spans more days - no synthetic history is drawn.</p>
+  <ul>{day_list}</ul>
+</div>"""
+
+    top_edges = sorted(dash["graph"]["edges"], key=lambda x: -x["weight"])[:6]
+    node_labels = {n["id"]: n["label"] for n in dash["graph"]["nodes"]}
+    top_links = "".join(
+        f'<li><span>{e(node_labels.get(ed["source"], ed["source"]))}</span><i>↔</i><span>{e(node_labels.get(ed["target"], ed["target"]))}</span><b>{ed["weight"]} REC</b></li>'
+        for ed in top_edges
+    )
+
     body = f"""
 <section class="masthead container">
   {breadcrumbs(crumb)}
@@ -265,17 +647,113 @@ def homepage(data: dict) -> str:
   <p class="masthead-deck">{e(site["tagline"])}</p>
   <div class="loop-row">{' <span>→</span> '.join(e(step) for step in site["loop"])}</div>
 </section>
-<section class="ed-section container" id="edition">
-  <p class="ed-label">02 / CURRENT EDITION</p>
-  <div class="lead-meta">{e(site["edition"]["label"])} · {e(pretty_date(site["edition"]["date"]))} · STATUS {e(site["edition"]["status"])}</div>
+
+<section class="console container" id="console">
+  <div class="console-head">
+    <p class="ed-label">01 / NETWORK CONSOLE</p>
+    <p class="console-sub">A live control surface over the published record. Every panel is derived from the information network - no synthetic telemetry, no invented activity.</p>
+    <div class="filter-bar" id="filter-bar" role="group" aria-label="Information filters">
+      <span class="filter-group" role="group" aria-label="Topic filter">
+        <span class="filter-label">TOPIC</span>
+        <button type="button" class="f-chip is-active" data-topic="all">ALL</button>
+        {topic_chips}
+      </span>
+      <span class="filter-group" role="group" aria-label="Time window filter">
+        <span class="filter-label">WINDOW</span>
+        <button type="button" class="f-chip" data-window="today">TODAY</button>
+        <button type="button" class="f-chip" data-window="7d">7 DAYS</button>
+        <button type="button" class="f-chip" data-window="30d">30 DAYS</button>
+        <button type="button" class="f-chip is-active" data-window="all">ALL TIME</button>
+      </span>
+      <span class="filter-readout" id="filter-readout">{counts["signals"]} / {counts["signals"]} SIGNALS IN VIEW</span>
+    </div>
+  </div>
+
+  <div class="panel" id="panel-map">
+    <div class="panel-head"><span class="panel-title">GEOGRAPHIC ACTIVITY</span><span class="panel-note">{len(dash["locations"])} SITES · {counts["entities_mapped"]} MAPPED ENTITIES</span></div>
+    <div class="map-grid">
+      <div id="dash-map" class="dash-map" role="application" aria-label="Map of entity locations linked to published signals"><noscript><p class="noscript-note">INTERACTIVE MAP NEEDS JAVASCRIPT - THE LOCATION INDEX LISTS EVERY SITE ON RECORD.</p></noscript></div>
+      <aside class="map-side">
+        <div class="map-detail" id="map-detail">
+          <p class="detail-hint">SELECT A MARKER OR LOCATION TO INSPECT ITS SIGNALS.</p>
+        </div>
+        <div class="map-index-block">
+          <p class="mini-label">LOCATION INDEX</p>
+          <ul class="loc-index" id="loc-index">{"".join(loc_index)}</ul>
+        </div>
+      </aside>
+    </div>
+    <p class="panel-foot">Entity sites from public record (headquarters / campus). Signals attach through their linked entities; records without a reliable geographic association stay off the map.{unmapped_note} Tiles © OpenStreetMap contributors © CARTO.</p>
+  </div>
+
+  <div class="console-grid">
+    <div class="panel" id="panel-signals">
+      <div class="panel-head"><span class="panel-title">CURRENT SIGNALS</span><span class="panel-note" id="signals-count">{counts["signals"]} RECORDS</span></div>
+      <div class="sig-list" id="sig-list">
+        {"".join(sig_rows)}
+      </div>
+      <p class="panel-foot"><a href="/signals/">Open the full signal index</a> · <a href="/briefings/">Briefings</a></p>
+    </div>
+
+    <div class="panel" id="panel-status">
+      <div class="panel-head"><span class="panel-title">SYSTEM STATUS</span><span class="panel-note">NETWORK SNAPSHOT</span></div>
+      <dl class="stat-list">
+        <div><dt>EDITION</dt><dd>{e(site["edition"]["id"])} // <b class="ok">{e(site["edition"]["status"])}</b></dd></div>
+        <div><dt>SIGNALS</dt><dd id="stat-signals">{counts["signals"]} PUBLISHED</dd></div>
+        <div><dt>BRIEFINGS</dt><dd>{counts["briefings"]} PUBLISHED</dd></div>
+        <div><dt>TOPICS</dt><dd>{counts["topics"]} TRACKED</dd></div>
+        <div><dt>ENTITIES</dt><dd>{counts["entities"]} REGISTERED · {counts["entities_mapped"]} MAPPED</dd></div>
+        <div><dt>SOURCES</dt><dd>{counts["sources"]} REGISTERED · {counts["sources_cited"]} CITED</dd></div>
+        <div><dt>INGEST INBOX</dt><dd>{counts["inbox"]} HELD FOR REVIEW</dd></div>
+        <div><dt>UPDATED</dt><dd>{e(pretty_date(site["edition"]["date"]))}</dd></div>
+      </dl>
+      <p class="mini-label">SIGNAL VERIFICATION SPLIT</p>
+      {status_bars}
+    </div>
+  </div>
+
+  <div class="console-grid three">
+    <div class="panel" id="panel-topics">
+      <div class="panel-head"><span class="panel-title">TOPIC ACTIVITY</span><span class="panel-note">SIGNALS PER TOPIC</span></div>
+      {topic_bars}
+      <p class="panel-foot">Select a bar to filter the console by topic.</p>
+    </div>
+    <div class="panel" id="panel-trend">
+      <div class="panel-head"><span class="panel-title">SIGNALS OVER TIME</span><span class="panel-note">PUBLISHED PER DAY</span></div>
+      {trend_html}
+    </div>
+    <div class="panel" id="panel-sources">
+      <div class="panel-head"><span class="panel-title">SOURCE DISTRIBUTION</span><span class="panel-note">CITATIONS IN SIGNALS</span></div>
+      {source_bars}
+      <p class="panel-foot">{counts["sources"]} sources registered. Uncited sources stay at zero until a published record references them.</p>
+    </div>
+  </div>
+
+  <div class="panel" id="panel-net">
+    <div class="panel-head"><span class="panel-title">RELATIONSHIP NETWORK</span><span class="panel-note">{len(dash["graph"]["nodes"])} NODES · {len(dash["graph"]["edges"])} EDGES FROM THE RECORD</span></div>
+    <div class="net-grid">
+      <div class="net-stage">
+        <canvas id="net-canvas" aria-label="Relationship network of topics, entities and briefings"></canvas>
+        <div class="net-legend" aria-hidden="true"><span class="lg-topic">■ TOPIC</span><span class="lg-entity">● ENTITY</span><span class="lg-briefing">◆ BRIEFING</span></div>
+      </div>
+      <aside class="net-detail" id="net-detail">
+        <p class="mini-label">TOP CONNECTIONS</p>
+        <ul class="top-links">{top_links}</ul>
+        <p class="detail-hint">SELECT A NODE TO INSPECT ITS RECORD.</p>
+      </aside>
+    </div>
+    <p class="panel-foot">Nodes are published records (topics, entities, briefings). Edges are real co-occurrence inside signals and briefings - nothing is drawn without a record behind it.</p>
+  </div>
 </section>
+
 <section class="ed-section container" id="lead">
-  <p class="ed-label">03 / LEAD BRIEFING</p>
+  <p class="ed-label">02 / LEAD BRIEFING</p>
   <div class="lead">
     <div>
       <p class="lead-kicker">{e(lead.get("kicker", "LEAD"))}</p>
-      <h2><a href="/briefings/{e(lead["slug"])}/">{e(lead["title"])}</a></h2>
+      <h2><a href="/briefings/{e(lead["slug"])}/" data-track="briefing">{e(lead["title"])}</a></h2>
       <p class="lead-deck">{e(lead["deck"])}</p>
+      <p class="lead-cta"><a class="console-cta" href="/briefings/{e(lead["slug"])}/" data-track="briefing">READ FULL BRIEFING →</a></p>
     </div>
     <dl class="meta-col">
       <dt>PUBLISHED</dt><dd>{e(pretty_date(lead["published"]))}</dd>
@@ -285,18 +763,12 @@ def homepage(data: dict) -> str:
     </dl>
   </div>
 </section>
-<section class="ed-section container" id="signals">
-  <p class="ed-label">04 / CURRENT SIGNALS</p>
-  <div class="row-list">
-    {"".join(row(f"<b>{e(s['status'])}</b><br>{e(pretty_date(s['published']))}", s["title"], f"/signals/{s['slug']}/", s["deck"]) for s in signals)}
-  </div>
-</section>
 <section class="ed-section container" id="why">
-  <p class="ed-label">05 / WHY THIS MATTERS</p>
+  <p class="ed-label">03 / WHY THIS MATTERS</p>
   {numbered(lead["why_it_matters"][:4])}
 </section>
 <section class="ed-section container" id="topics">
-  <p class="ed-label">06 / TOPIC PULSE</p>
+  <p class="ed-label">04 / TOPIC PULSE</p>
   <table class="pulse-table">
     <thead><tr><th>TOPIC</th><th>STATUS</th><th>NOW</th></tr></thead>
     <tbody>
@@ -305,13 +777,13 @@ def homepage(data: dict) -> str:
   </table>
 </section>
 <section class="ed-section container" id="timeline">
-  <p class="ed-label">07 / DEVELOPING STORY</p>
-  <ul class="timeline">
-    {"".join(f'<li><time datetime="{e(ev["date"])}">{e(ev["date"])}</time><strong>{e(ev["label"])}</strong><p>{e(ev["text"])}</p></li>' for ev in lead["timeline"])}
+  <p class="ed-label">05 / DEVELOPING STORY</p>
+  <ul class="timeline" id="story-timeline">
+    {"".join(f'<li data-date="{e(ev["date"])}"><time datetime="{e(ev["date"])}">{e(ev["date"])}</time><strong>{e(ev["label"])}</strong><p>{e(ev["text"])}</p></li>' for ev in lead["timeline"])}
   </ul>
 </section>
 <section class="ed-section container" id="connected">
-  <p class="ed-label">08 / CONNECTED INFORMATION</p>
+  <p class="ed-label">06 / CONNECTED INFORMATION</p>
   <div class="connected-grid">
     <div>
       <h3>ENTITIES</h3>
@@ -328,14 +800,14 @@ def homepage(data: dict) -> str:
   </div>
 </section>
 <section class="ed-section container" id="lab">
-  <p class="ed-label">09 / LATEST FROM THE LAB</p>
+  <p class="ed-label">07 / LATEST FROM THE LAB</p>
   <div class="row-list">
     {"".join(row(f"<b>{e(p['code'])}</b><br>{e(p['status'])}", p["title"], "/lab/projects/", p["summary"], "LAB") for p in lab_projects)}
   </div>
-  <p class="lead-meta" style="margin-top:18px"><a href="/lab/">Open the Lab layer</a> · <a href="/lab/experiments/xeno-signal/">Xeno Signal experiment</a></p>
+  <p class="lead-meta" style="margin-top:18px"><a href="/lab/" data-track="lab">Open the Lab layer</a> · <a href="/lab/experiments/xeno-signal/" data-track="lab">Xeno Signal experiment</a></p>
 </section>
 <section class="ed-section container" id="method">
-  <p class="ed-label">10 / SOURCES AND METHOD</p>
+  <p class="ed-label">08 / SOURCES AND METHOD</p>
   <div class="method-block">
     <div>
       <p>RSS is an inbox, not the product. Headlines are ingested, normalized, validated, and held at editorial_state=INBOX with publish=false until a briefing or signal is written against primary sources.</p>
@@ -368,6 +840,8 @@ def homepage(data: dict) -> str:
         active="home",
         body=body,
         crumbs=crumb,
+        extra_css=["/css/vendor/leaflet.css", "/css/dashboard.css"],
+        extra_js=["/js/vendor/leaflet.js", "/js/dashboard.js"],
         ld=ld,
     )
 
@@ -1296,6 +1770,7 @@ def main() -> None:
 
     write(ROOT / "404.html", not_found(data))
     write(ROOT / "data" / "search-index.json", json.dumps({"generated_at": datetime.now(timezone.utc).isoformat(), "items": index_items}, indent=2))
+    write(ROOT / "data" / "dashboard.json", json.dumps(dashboard_data(data), indent=2))
     write(ROOT / "sitemap.xml", sitemap(data, routes))
     write(ROOT / "robots.txt", robots(data))
     write(ROOT / "feed.xml", atom_feed(data))

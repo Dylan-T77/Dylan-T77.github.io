@@ -193,6 +193,15 @@
       "summary": "AI lab behind Claude, the Model Context Protocol, and the Model Hardware Standard research preview.",
       "status": "ACTIVE",
       "aliases": ["Claude"],
+      "location": {
+        "name": "San Francisco, California, US",
+        "city": "San Francisco",
+        "country": "United States",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "basis": "headquarters",
+        "precision": "city"
+      },
       "notes": "Primary source for MHS. Distinguishing company claims from independently verified lab results is part of every Anthropic-linked briefing."
     },
     {
@@ -203,6 +212,15 @@
       "summary": "GPU and systems vendor positioning a full-stack physical AI platform: simulation, world models, Jetson, Isaac, and data-center GPUs.",
       "status": "WATCHING",
       "aliases": ["Nvidia"],
+      "location": {
+        "name": "Santa Clara, California, US",
+        "city": "Santa Clara",
+        "country": "United States",
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "basis": "headquarters",
+        "precision": "city"
+      },
       "notes": "Competing physical-AI stack to a protocol-style interface. Coverage will separate NVIDIA product marketing from third-party deployment evidence."
     },
     {
@@ -213,6 +231,15 @@
       "summary": "Leading-edge foundry. The manufacturing substrate under most frontier-model accelerators and many edge inference parts.",
       "status": "WATCHING",
       "aliases": ["Taiwan Semiconductor Manufacturing Company"],
+      "location": {
+        "name": "Hsinchu, Taiwan",
+        "city": "Hsinchu",
+        "country": "Taiwan",
+        "lat": 24.8036,
+        "lon": 120.9658,
+        "basis": "headquarters",
+        "precision": "city"
+      },
       "notes": "No authored briefing yet. Entity exists so semiconductor and physical-AI stories can attach to foundry capacity when sources support it."
     },
     {
@@ -223,6 +250,15 @@
       "summary": "AI lab and product company. Relevant here as a hardware and physical-AI competitor, not as a general news ticker.",
       "status": "WATCHING",
       "aliases": ["ChatGPT"],
+      "location": {
+        "name": "San Francisco, California, US",
+        "city": "San Francisco",
+        "country": "United States",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "basis": "headquarters",
+        "precision": "city"
+      },
       "notes": "CNBC's MHS coverage notes OpenAI among firms spending on AI-native devices. The Tech Briefing will not treat that as a product fact until a primary OpenAI source is attached."
     },
     {
@@ -243,7 +279,73 @@
       "summary": "Howard Hughes Medical Institute research campus where MHS originated as a way to coordinate multi-vendor microscopy rigs.",
       "status": "CONTEXT",
       "aliases": ["Janelia"],
+      "location": {
+        "name": "Ashburn, Virginia, US",
+        "city": "Ashburn",
+        "country": "United States",
+        "lat": 39.0438,
+        "lon": -77.4874,
+        "basis": "campus",
+        "precision": "city"
+      },
       "notes": "Collaboration origin, not a commercial vendor."
+    },
+    {
+      "id": "quera",
+      "slug": "quera",
+      "name": "QuEra Computing",
+      "type": "company",
+      "summary": "Quantum computing company named in the MHS preview for an agent-controlled laser-lock test on a quantum laser system.",
+      "status": "CONTEXT",
+      "aliases": ["QuEra"],
+      "location": {
+        "name": "Boston, Massachusetts, US",
+        "city": "Boston",
+        "country": "United States",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "basis": "headquarters",
+        "precision": "city"
+      },
+      "notes": "Registered from Anthropic's MHS preview partner claims. The 99.3% laser-lock figure is vendor-mediated until a QuEra-side write-up is attached."
+    },
+    {
+      "id": "raspberry-pi",
+      "slug": "raspberry-pi",
+      "name": "Raspberry Pi",
+      "type": "company",
+      "summary": "Single-board computer maker named in the MHS preview for Camera MHS Driver tests and planned product integration.",
+      "status": "CONTEXT",
+      "aliases": ["Raspberry Pi Ltd"],
+      "location": {
+        "name": "Cambridge, United Kingdom",
+        "city": "Cambridge",
+        "country": "United Kingdom",
+        "lat": 52.2053,
+        "lon": 0.1218,
+        "basis": "headquarters",
+        "precision": "city"
+      },
+      "notes": "Registered from Anthropic's MHS preview partner claims. No Raspberry Pi primary source attached yet; adoption stays REPORTED until documented on their own channels."
+    },
+    {
+      "id": "hugging-face",
+      "slug": "hugging-face",
+      "name": "Hugging Face",
+      "type": "company",
+      "summary": "Open model and robotics library publisher. LeRobot is named in the MHS preview as an early adopter for device coverage.",
+      "status": "CONTEXT",
+      "aliases": ["LeRobot"],
+      "location": {
+        "name": "New York, New York, US",
+        "city": "New York",
+        "country": "United States",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "basis": "headquarters",
+        "precision": "city"
+      },
+      "notes": "Registered from Anthropic's MHS preview partner claims. Verification step is a Hugging Face primary source showing MHS drivers actually landed in LeRobot."
     }
   ],
   "signals": [
@@ -331,7 +433,7 @@
       "summary": "The Anthropic announcement says Hugging Face is adding MHS support in LeRobot, its robotics library. That is a vendor-reported adoption signal, not a reviewed pull request or release note from Hugging Face.",
       "body": "Next verification step: a Hugging Face primary source (docs, changelog, or repository change) that MHS drivers actually landed. Until then this stays a reported signal, not a verified product event.",
       "topics": ["robotics", "ai"],
-      "entities": ["anthropic", "model-hardware-standard"],
+      "entities": ["anthropic", "model-hardware-standard", "hugging-face"],
       "sources": [
         {
           "id": "anthropic",
@@ -355,7 +457,7 @@
       "summary": "Anthropic says Raspberry Pi is enabling MHS integration across a number of products following tests of a Camera MHS Driver. This is still an Anthropic-reported partner claim.",
       "body": "If confirmed on Raspberry Pi's own channels, this would be the clearest hobbyist/education path for MHS — and a different adoption surface than industrial arms or liquid handlers.",
       "topics": ["robotics", "ai"],
-      "entities": ["anthropic", "model-hardware-standard"],
+      "entities": ["anthropic", "model-hardware-standard", "raspberry-pi"],
       "sources": [
         {
           "id": "anthropic",
@@ -379,7 +481,7 @@
       "summary": "Anthropic reports that QuEra used MHS so an agent could control parts of a quantum laser system and recover laser lock 99.3% of the time without human intervention. The number is striking and needs a QuEra-side write-up before it is treated as a measured result rather than a partner anecdote.",
       "body": "Keep the figure attached to its source. Do not generalize from one laser-lock controller to 'AI runs quantum computers.'",
       "topics": ["ai", "robotics"],
-      "entities": ["anthropic", "model-hardware-standard"],
+      "entities": ["anthropic", "model-hardware-standard", "quera"],
       "sources": [
         {
           "id": "anthropic",
