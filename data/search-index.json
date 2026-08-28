@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T16:46:34.814569+00:00",
+  "generated_at": "2026-08-28T19:20:29.359859+00:00",
   "items": [
     {
       "id": "model-hardware-standard",
@@ -103,7 +103,8 @@
       ],
       "entities": [
         "anthropic",
-        "model-hardware-standard"
+        "model-hardware-standard",
+        "hugging-face"
       ],
       "sources": [
         "anthropic"
@@ -123,7 +124,8 @@
       ],
       "entities": [
         "anthropic",
-        "model-hardware-standard"
+        "model-hardware-standard",
+        "raspberry-pi"
       ],
       "sources": [
         "anthropic"
@@ -143,7 +145,8 @@
       ],
       "entities": [
         "anthropic",
-        "model-hardware-standard"
+        "model-hardware-standard",
+        "quera"
       ],
       "sources": [
         "anthropic"
@@ -300,6 +303,48 @@
       "topics": [],
       "entities": [
         "hhmi-janelia"
+      ],
+      "sources": [],
+      "date": ""
+    },
+    {
+      "id": "quera",
+      "type": "entity",
+      "title": "QuEra Computing",
+      "summary": "Quantum computing company named in the MHS preview for an agent-controlled laser-lock test on a quantum laser system.",
+      "body": "Registered from Anthropic's MHS preview partner claims. The 99.3% laser-lock figure is vendor-mediated until a QuEra-side write-up is attached.",
+      "url": "/entities/quera/",
+      "topics": [],
+      "entities": [
+        "quera"
+      ],
+      "sources": [],
+      "date": ""
+    },
+    {
+      "id": "raspberry-pi",
+      "type": "entity",
+      "title": "Raspberry Pi",
+      "summary": "Single-board computer maker named in the MHS preview for Camera MHS Driver tests and planned product integration.",
+      "body": "Registered from Anthropic's MHS preview partner claims. No Raspberry Pi primary source attached yet; adoption stays REPORTED until documented on their own channels.",
+      "url": "/entities/raspberry-pi/",
+      "topics": [],
+      "entities": [
+        "raspberry-pi"
+      ],
+      "sources": [],
+      "date": ""
+    },
+    {
+      "id": "hugging-face",
+      "type": "entity",
+      "title": "Hugging Face",
+      "summary": "Open model and robotics library publisher. LeRobot is named in the MHS preview as an early adopter for device coverage.",
+      "body": "Registered from Anthropic's MHS preview partner claims. Verification step is a Hugging Face primary source showing MHS drivers actually landed in LeRobot.",
+      "url": "/entities/hugging-face/",
+      "topics": [],
+      "entities": [
+        "hugging-face"
       ],
       "sources": [],
       "date": ""

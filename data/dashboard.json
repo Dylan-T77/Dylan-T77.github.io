@@ -1,0 +1,1153 @@
+{
+  "meta": {
+    "generated_at": "2026-08-28T19:20:29.361009+00:00",
+    "edition": {
+      "id": "2026-08-28",
+      "date": "2026-08-28",
+      "label": "Edition 2026.08.28",
+      "status": "OPEN",
+      "lead_briefing": "model-hardware-standard"
+    },
+    "counts": {
+      "signals": 6,
+      "briefings": 1,
+      "topics": 5,
+      "entities": 9,
+      "entities_mapped": 8,
+      "sources": 10,
+      "sources_cited": 3,
+      "collections": 1,
+      "inbox": 150
+    },
+    "lead_briefing": "model-hardware-standard"
+  },
+  "topics": [
+    {
+      "id": "ai",
+      "slug": "ai",
+      "name": "Artificial Intelligence",
+      "short": "AI",
+      "status": "ACTIVE",
+      "url": "/topics/ai/",
+      "signals": 6,
+      "briefings": 1
+    },
+    {
+      "id": "robotics",
+      "slug": "robotics",
+      "name": "Robotics",
+      "short": "ROBOTICS",
+      "status": "DEVELOPING",
+      "url": "/topics/robotics/",
+      "signals": 6,
+      "briefings": 1
+    },
+    {
+      "id": "space",
+      "slug": "space",
+      "name": "Space",
+      "short": "SPACE",
+      "status": "WATCHING",
+      "url": "/topics/space/",
+      "signals": 0,
+      "briefings": 0
+    },
+    {
+      "id": "cybersecurity",
+      "slug": "cybersecurity",
+      "name": "Cybersecurity",
+      "short": "CYBER",
+      "status": "WATCHING",
+      "url": "/topics/cybersecurity/",
+      "signals": 0,
+      "briefings": 0
+    },
+    {
+      "id": "semiconductors",
+      "slug": "semiconductors",
+      "name": "Semiconductors",
+      "short": "SEMICON",
+      "status": "WATCHING",
+      "url": "/topics/semiconductors/",
+      "signals": 1,
+      "briefings": 1
+    }
+  ],
+  "signals": [
+    {
+      "id": "sig-mhs-anthropic-preview",
+      "slug": "anthropic-opens-mhs-research-preview",
+      "url": "/signals/anthropic-opens-mhs-research-preview/",
+      "title": "Anthropic opens a research preview of the Model Hardware Standard",
+      "deck": "A shared driver spec for agents to operate programmable lab and factory devices, starting with a closed partner group.",
+      "published": "2026-08-27",
+      "updated": "2026-08-28",
+      "status": "VERIFIED",
+      "importance": "LEAD",
+      "topics": [
+        "ai",
+        "robotics"
+      ],
+      "entities": [
+        "anthropic",
+        "model-hardware-standard",
+        "hhmi-janelia"
+      ],
+      "briefings": [
+        "model-hardware-standard"
+      ],
+      "sources": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-quera-laser-lock",
+      "slug": "quera-mhs-laser-lock",
+      "url": "/signals/quera-mhs-laser-lock/",
+      "title": "QuEra: agent-written laser lock recovers 99.3% of the time in MHS tests",
+      "deck": "A partner result from the preview post \u2014 specific, quantitative, and still vendor-mediated.",
+      "published": "2026-08-27",
+      "updated": "2026-08-28",
+      "status": "REPORTED",
+      "importance": "EVIDENCE",
+      "topics": [
+        "ai",
+        "robotics"
+      ],
+      "entities": [
+        "anthropic",
+        "model-hardware-standard",
+        "quera"
+      ],
+      "briefings": [
+        "model-hardware-standard"
+      ],
+      "sources": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-mhs-ars",
+      "slug": "ars-technica-mhs-physical-agents",
+      "url": "/signals/ars-technica-mhs-physical-agents/",
+      "title": "Independent write-up: MHS as a common driver layer for physical agents",
+      "deck": "Ars Technica describes MHS as standardized drivers so agents can talk to arbitrary devices without a custom translator for each instrument.",
+      "published": "2026-08-27",
+      "updated": "2026-08-28",
+      "status": "VERIFIED",
+      "importance": "CONTEXT",
+      "topics": [
+        "ai",
+        "robotics"
+      ],
+      "entities": [
+        "anthropic",
+        "model-hardware-standard"
+      ],
+      "briefings": [
+        "model-hardware-standard"
+      ],
+      "sources": [
+        "ars-technica"
+      ]
+    },
+    {
+      "id": "sig-mhs-cnbc",
+      "slug": "cnbc-anthropic-physical-world",
+      "url": "/signals/cnbc-anthropic-physical-world/",
+      "title": "CNBC: Anthropic frames MHS as USB-C for machines, with an industrial follow-on",
+      "deck": "Business reporting adds competitive context \u2014 OpenAI and Amazon hardware spend, Anthropic's silicon hiring \u2014 around a still-closed research preview.",
+      "published": "2026-08-27",
+      "updated": "2026-08-28",
+      "status": "VERIFIED",
+      "importance": "CONTEXT",
+      "topics": [
+        "ai",
+        "robotics",
+        "semiconductors"
+      ],
+      "entities": [
+        "anthropic",
+        "model-hardware-standard",
+        "openai"
+      ],
+      "briefings": [
+        "model-hardware-standard"
+      ],
+      "sources": [
+        "cnbc"
+      ]
+    },
+    {
+      "id": "sig-mhs-lerobot",
+      "slug": "hugging-face-lerobot-mhs",
+      "url": "/signals/hugging-face-lerobot-mhs/",
+      "title": "Hugging Face is adding MHS support in LeRobot",
+      "deck": "Anthropic names LeRobot as an early adopter for the next phase of device coverage.",
+      "published": "2026-08-27",
+      "updated": "2026-08-28",
+      "status": "REPORTED",
+      "importance": "WATCH",
+      "topics": [
+        "robotics",
+        "ai"
+      ],
+      "entities": [
+        "anthropic",
+        "model-hardware-standard",
+        "hugging-face"
+      ],
+      "briefings": [
+        "model-hardware-standard"
+      ],
+      "sources": [
+        "anthropic"
+      ]
+    },
+    {
+      "id": "sig-mhs-raspberry-pi",
+      "slug": "raspberry-pi-mhs-camera-driver",
+      "url": "/signals/raspberry-pi-mhs-camera-driver/",
+      "title": "Raspberry Pi: camera MHS driver tests, broader product integration planned",
+      "deck": "Another named hardware adopter in the Anthropic preview post, after successful Camera MHS Driver tests.",
+      "published": "2026-08-27",
+      "updated": "2026-08-28",
+      "status": "REPORTED",
+      "importance": "WATCH",
+      "topics": [
+        "robotics",
+        "ai"
+      ],
+      "entities": [
+        "anthropic",
+        "model-hardware-standard",
+        "raspberry-pi"
+      ],
+      "briefings": [
+        "model-hardware-standard"
+      ],
+      "sources": [
+        "anthropic"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "anthropic",
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "type": "company",
+      "status": "ACTIVE",
+      "url": "/entities/anthropic/",
+      "signals": [
+        "sig-mhs-anthropic-preview",
+        "sig-mhs-ars",
+        "sig-mhs-cnbc",
+        "sig-mhs-lerobot",
+        "sig-mhs-raspberry-pi",
+        "sig-quera-laser-lock"
+      ],
+      "briefings": [
+        "model-hardware-standard"
+      ],
+      "location": {
+        "name": "San Francisco, California, US",
+        "city": "San Francisco",
+        "country": "United States",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "basis": "headquarters",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "nvidia",
+      "slug": "nvidia",
+      "name": "NVIDIA",
+      "type": "company",
+      "status": "WATCHING",
+      "url": "/entities/nvidia/",
+      "signals": [],
+      "briefings": [
+        "model-hardware-standard"
+      ],
+      "location": {
+        "name": "Santa Clara, California, US",
+        "city": "Santa Clara",
+        "country": "United States",
+        "lat": 37.3541,
+        "lon": -121.9552,
+        "basis": "headquarters",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "tsmc",
+      "slug": "tsmc",
+      "name": "TSMC",
+      "type": "company",
+      "status": "WATCHING",
+      "url": "/entities/tsmc/",
+      "signals": [],
+      "briefings": [],
+      "location": {
+        "name": "Hsinchu, Taiwan",
+        "city": "Hsinchu",
+        "country": "Taiwan",
+        "lat": 24.8036,
+        "lon": 120.9658,
+        "basis": "headquarters",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "openai",
+      "slug": "openai",
+      "name": "OpenAI",
+      "type": "company",
+      "status": "WATCHING",
+      "url": "/entities/openai/",
+      "signals": [
+        "sig-mhs-cnbc"
+      ],
+      "briefings": [
+        "model-hardware-standard"
+      ],
+      "location": {
+        "name": "San Francisco, California, US",
+        "city": "San Francisco",
+        "country": "United States",
+        "lat": 37.7749,
+        "lon": -122.4194,
+        "basis": "headquarters",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "model-hardware-standard",
+      "slug": "model-hardware-standard",
+      "name": "Model Hardware Standard",
+      "type": "standard",
+      "status": "ACTIVE",
+      "url": "/entities/model-hardware-standard/",
+      "signals": [
+        "sig-mhs-anthropic-preview",
+        "sig-mhs-ars",
+        "sig-mhs-cnbc",
+        "sig-mhs-lerobot",
+        "sig-mhs-raspberry-pi",
+        "sig-quera-laser-lock"
+      ],
+      "briefings": [
+        "model-hardware-standard"
+      ],
+      "location": null
+    },
+    {
+      "id": "hhmi-janelia",
+      "slug": "hhmi-janelia",
+      "name": "HHMI Janelia Research Campus",
+      "type": "institution",
+      "status": "CONTEXT",
+      "url": "/entities/hhmi-janelia/",
+      "signals": [
+        "sig-mhs-anthropic-preview"
+      ],
+      "briefings": [
+        "model-hardware-standard"
+      ],
+      "location": {
+        "name": "Ashburn, Virginia, US",
+        "city": "Ashburn",
+        "country": "United States",
+        "lat": 39.0438,
+        "lon": -77.4874,
+        "basis": "campus",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "quera",
+      "slug": "quera",
+      "name": "QuEra Computing",
+      "type": "company",
+      "status": "CONTEXT",
+      "url": "/entities/quera/",
+      "signals": [
+        "sig-quera-laser-lock"
+      ],
+      "briefings": [],
+      "location": {
+        "name": "Boston, Massachusetts, US",
+        "city": "Boston",
+        "country": "United States",
+        "lat": 42.3601,
+        "lon": -71.0589,
+        "basis": "headquarters",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "raspberry-pi",
+      "slug": "raspberry-pi",
+      "name": "Raspberry Pi",
+      "type": "company",
+      "status": "CONTEXT",
+      "url": "/entities/raspberry-pi/",
+      "signals": [
+        "sig-mhs-raspberry-pi"
+      ],
+      "briefings": [],
+      "location": {
+        "name": "Cambridge, United Kingdom",
+        "city": "Cambridge",
+        "country": "United Kingdom",
+        "lat": 52.2053,
+        "lon": 0.1218,
+        "basis": "headquarters",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "hugging-face",
+      "slug": "hugging-face",
+      "name": "Hugging Face",
+      "type": "company",
+      "status": "CONTEXT",
+      "url": "/entities/hugging-face/",
+      "signals": [
+        "sig-mhs-lerobot"
+      ],
+      "briefings": [],
+      "location": {
+        "name": "New York, New York, US",
+        "city": "New York",
+        "country": "United States",
+        "lat": 40.7128,
+        "lon": -74.006,
+        "basis": "headquarters",
+        "precision": "city"
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "ashburn-united-states",
+      "name": "Ashburn, Virginia, US",
+      "city": "Ashburn",
+      "country": "United States",
+      "lat": 39.0438,
+      "lon": -77.4874,
+      "basis": "campus",
+      "entity_ids": [
+        "hhmi-janelia"
+      ],
+      "entities": [
+        {
+          "id": "hhmi-janelia",
+          "name": "HHMI Janelia Research Campus",
+          "type": "institution",
+          "url": "/entities/hhmi-janelia/"
+        }
+      ],
+      "signals": [
+        "sig-mhs-anthropic-preview"
+      ],
+      "briefings": [
+        {
+          "id": "model-hardware-standard",
+          "title": "Model Hardware Standard: agents get a driver layer for the physical lab",
+          "url": "/briefings/model-hardware-standard/"
+        }
+      ],
+      "signal_count": 1,
+      "topics": [
+        "ai",
+        "robotics"
+      ],
+      "latest": {
+        "id": "sig-mhs-anthropic-preview",
+        "title": "Anthropic opens a research preview of the Model Hardware Standard",
+        "url": "/signals/anthropic-opens-mhs-research-preview/",
+        "published": "2026-08-27",
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "boston-united-states",
+      "name": "Boston, Massachusetts, US",
+      "city": "Boston",
+      "country": "United States",
+      "lat": 42.3601,
+      "lon": -71.0589,
+      "basis": "headquarters",
+      "entity_ids": [
+        "quera"
+      ],
+      "entities": [
+        {
+          "id": "quera",
+          "name": "QuEra Computing",
+          "type": "company",
+          "url": "/entities/quera/"
+        }
+      ],
+      "signals": [
+        "sig-quera-laser-lock"
+      ],
+      "briefings": [],
+      "signal_count": 1,
+      "topics": [
+        "ai",
+        "robotics"
+      ],
+      "latest": {
+        "id": "sig-quera-laser-lock",
+        "title": "QuEra: agent-written laser lock recovers 99.3% of the time in MHS tests",
+        "url": "/signals/quera-mhs-laser-lock/",
+        "published": "2026-08-27",
+        "status": "REPORTED"
+      }
+    },
+    {
+      "id": "cambridge-united-kingdom",
+      "name": "Cambridge, United Kingdom",
+      "city": "Cambridge",
+      "country": "United Kingdom",
+      "lat": 52.2053,
+      "lon": 0.1218,
+      "basis": "headquarters",
+      "entity_ids": [
+        "raspberry-pi"
+      ],
+      "entities": [
+        {
+          "id": "raspberry-pi",
+          "name": "Raspberry Pi",
+          "type": "company",
+          "url": "/entities/raspberry-pi/"
+        }
+      ],
+      "signals": [
+        "sig-mhs-raspberry-pi"
+      ],
+      "briefings": [],
+      "signal_count": 1,
+      "topics": [
+        "robotics",
+        "ai"
+      ],
+      "latest": {
+        "id": "sig-mhs-raspberry-pi",
+        "title": "Raspberry Pi: camera MHS driver tests, broader product integration planned",
+        "url": "/signals/raspberry-pi-mhs-camera-driver/",
+        "published": "2026-08-27",
+        "status": "REPORTED"
+      }
+    },
+    {
+      "id": "hsinchu-taiwan",
+      "name": "Hsinchu, Taiwan",
+      "city": "Hsinchu",
+      "country": "Taiwan",
+      "lat": 24.8036,
+      "lon": 120.9658,
+      "basis": "headquarters",
+      "entity_ids": [
+        "tsmc"
+      ],
+      "entities": [
+        {
+          "id": "tsmc",
+          "name": "TSMC",
+          "type": "company",
+          "url": "/entities/tsmc/"
+        }
+      ],
+      "signals": [],
+      "briefings": [],
+      "signal_count": 0,
+      "topics": [],
+      "latest": null
+    },
+    {
+      "id": "new-york-united-states",
+      "name": "New York, New York, US",
+      "city": "New York",
+      "country": "United States",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "basis": "headquarters",
+      "entity_ids": [
+        "hugging-face"
+      ],
+      "entities": [
+        {
+          "id": "hugging-face",
+          "name": "Hugging Face",
+          "type": "company",
+          "url": "/entities/hugging-face/"
+        }
+      ],
+      "signals": [
+        "sig-mhs-lerobot"
+      ],
+      "briefings": [],
+      "signal_count": 1,
+      "topics": [
+        "robotics",
+        "ai"
+      ],
+      "latest": {
+        "id": "sig-mhs-lerobot",
+        "title": "Hugging Face is adding MHS support in LeRobot",
+        "url": "/signals/hugging-face-lerobot-mhs/",
+        "published": "2026-08-27",
+        "status": "REPORTED"
+      }
+    },
+    {
+      "id": "san-francisco-united-states",
+      "name": "San Francisco, California, US",
+      "city": "San Francisco",
+      "country": "United States",
+      "lat": 37.7749,
+      "lon": -122.4194,
+      "basis": "headquarters",
+      "entity_ids": [
+        "anthropic",
+        "openai"
+      ],
+      "entities": [
+        {
+          "id": "anthropic",
+          "name": "Anthropic",
+          "type": "company",
+          "url": "/entities/anthropic/"
+        },
+        {
+          "id": "openai",
+          "name": "OpenAI",
+          "type": "company",
+          "url": "/entities/openai/"
+        }
+      ],
+      "signals": [
+        "sig-mhs-anthropic-preview",
+        "sig-quera-laser-lock",
+        "sig-mhs-ars",
+        "sig-mhs-cnbc",
+        "sig-mhs-lerobot",
+        "sig-mhs-raspberry-pi"
+      ],
+      "briefings": [
+        {
+          "id": "model-hardware-standard",
+          "title": "Model Hardware Standard: agents get a driver layer for the physical lab",
+          "url": "/briefings/model-hardware-standard/"
+        }
+      ],
+      "signal_count": 6,
+      "topics": [
+        "ai",
+        "robotics",
+        "semiconductors"
+      ],
+      "latest": {
+        "id": "sig-mhs-anthropic-preview",
+        "title": "Anthropic opens a research preview of the Model Hardware Standard",
+        "url": "/signals/anthropic-opens-mhs-research-preview/",
+        "published": "2026-08-27",
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "santa-clara-united-states",
+      "name": "Santa Clara, California, US",
+      "city": "Santa Clara",
+      "country": "United States",
+      "lat": 37.3541,
+      "lon": -121.9552,
+      "basis": "headquarters",
+      "entity_ids": [
+        "nvidia"
+      ],
+      "entities": [
+        {
+          "id": "nvidia",
+          "name": "NVIDIA",
+          "type": "company",
+          "url": "/entities/nvidia/"
+        }
+      ],
+      "signals": [],
+      "briefings": [
+        {
+          "id": "model-hardware-standard",
+          "title": "Model Hardware Standard: agents get a driver layer for the physical lab",
+          "url": "/briefings/model-hardware-standard/"
+        }
+      ],
+      "signal_count": 0,
+      "topics": [],
+      "latest": null
+    }
+  ],
+  "unmapped_entities": [
+    {
+      "id": "model-hardware-standard",
+      "name": "Model Hardware Standard",
+      "type": "standard"
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "topic:ai",
+        "label": "AI",
+        "kind": "topic",
+        "url": "/topics/ai/",
+        "status": "ACTIVE",
+        "weight": 7
+      },
+      {
+        "id": "topic:robotics",
+        "label": "ROBOTICS",
+        "kind": "topic",
+        "url": "/topics/robotics/",
+        "status": "DEVELOPING",
+        "weight": 7
+      },
+      {
+        "id": "topic:space",
+        "label": "SPACE",
+        "kind": "topic",
+        "url": "/topics/space/",
+        "status": "WATCHING",
+        "weight": 0
+      },
+      {
+        "id": "topic:cybersecurity",
+        "label": "CYBER",
+        "kind": "topic",
+        "url": "/topics/cybersecurity/",
+        "status": "WATCHING",
+        "weight": 0
+      },
+      {
+        "id": "topic:semiconductors",
+        "label": "SEMICON",
+        "kind": "topic",
+        "url": "/topics/semiconductors/",
+        "status": "WATCHING",
+        "weight": 2
+      },
+      {
+        "id": "entity:anthropic",
+        "label": "ANTHROPIC",
+        "kind": "entity",
+        "url": "/entities/anthropic/",
+        "status": "ACTIVE",
+        "weight": 7
+      },
+      {
+        "id": "entity:nvidia",
+        "label": "NVIDIA",
+        "kind": "entity",
+        "url": "/entities/nvidia/",
+        "status": "WATCHING",
+        "weight": 1
+      },
+      {
+        "id": "entity:tsmc",
+        "label": "TSMC",
+        "kind": "entity",
+        "url": "/entities/tsmc/",
+        "status": "WATCHING",
+        "weight": 0
+      },
+      {
+        "id": "entity:openai",
+        "label": "OPENAI",
+        "kind": "entity",
+        "url": "/entities/openai/",
+        "status": "WATCHING",
+        "weight": 2
+      },
+      {
+        "id": "entity:model-hardware-standard",
+        "label": "MODEL HARDWARE STANDARD",
+        "kind": "entity",
+        "url": "/entities/model-hardware-standard/",
+        "status": "ACTIVE",
+        "weight": 7
+      },
+      {
+        "id": "entity:hhmi-janelia",
+        "label": "HHMI JANELIA RESEARCH CAMPUS",
+        "kind": "entity",
+        "url": "/entities/hhmi-janelia/",
+        "status": "CONTEXT",
+        "weight": 2
+      },
+      {
+        "id": "entity:quera",
+        "label": "QUERA COMPUTING",
+        "kind": "entity",
+        "url": "/entities/quera/",
+        "status": "CONTEXT",
+        "weight": 1
+      },
+      {
+        "id": "entity:raspberry-pi",
+        "label": "RASPBERRY PI",
+        "kind": "entity",
+        "url": "/entities/raspberry-pi/",
+        "status": "CONTEXT",
+        "weight": 1
+      },
+      {
+        "id": "entity:hugging-face",
+        "label": "HUGGING FACE",
+        "kind": "entity",
+        "url": "/entities/hugging-face/",
+        "status": "CONTEXT",
+        "weight": 1
+      },
+      {
+        "id": "briefing:model-hardware-standard",
+        "label": "MODEL HARDWARE STANDARD: AGENTS GET A DRIVER LAYER FOR THE PHYSICAL LAB",
+        "kind": "briefing",
+        "url": "/briefings/model-hardware-standard/",
+        "status": "PUBLISHED",
+        "weight": 6
+      }
+    ],
+    "edges": [
+      {
+        "source": "entity:anthropic",
+        "target": "topic:ai",
+        "weight": 7
+      },
+      {
+        "source": "entity:anthropic",
+        "target": "topic:robotics",
+        "weight": 7
+      },
+      {
+        "source": "entity:model-hardware-standard",
+        "target": "topic:ai",
+        "weight": 7
+      },
+      {
+        "source": "entity:model-hardware-standard",
+        "target": "topic:robotics",
+        "weight": 7
+      },
+      {
+        "source": "entity:hhmi-janelia",
+        "target": "topic:ai",
+        "weight": 2
+      },
+      {
+        "source": "entity:hhmi-janelia",
+        "target": "topic:robotics",
+        "weight": 2
+      },
+      {
+        "source": "entity:anthropic",
+        "target": "entity:model-hardware-standard",
+        "weight": 7
+      },
+      {
+        "source": "entity:anthropic",
+        "target": "entity:hhmi-janelia",
+        "weight": 2
+      },
+      {
+        "source": "entity:hhmi-janelia",
+        "target": "entity:model-hardware-standard",
+        "weight": 2
+      },
+      {
+        "source": "topic:ai",
+        "target": "topic:robotics",
+        "weight": 7
+      },
+      {
+        "source": "entity:anthropic",
+        "target": "topic:semiconductors",
+        "weight": 2
+      },
+      {
+        "source": "entity:model-hardware-standard",
+        "target": "topic:semiconductors",
+        "weight": 2
+      },
+      {
+        "source": "entity:openai",
+        "target": "topic:ai",
+        "weight": 2
+      },
+      {
+        "source": "entity:openai",
+        "target": "topic:robotics",
+        "weight": 2
+      },
+      {
+        "source": "entity:openai",
+        "target": "topic:semiconductors",
+        "weight": 2
+      },
+      {
+        "source": "entity:anthropic",
+        "target": "entity:openai",
+        "weight": 2
+      },
+      {
+        "source": "entity:model-hardware-standard",
+        "target": "entity:openai",
+        "weight": 2
+      },
+      {
+        "source": "topic:ai",
+        "target": "topic:semiconductors",
+        "weight": 2
+      },
+      {
+        "source": "topic:robotics",
+        "target": "topic:semiconductors",
+        "weight": 2
+      },
+      {
+        "source": "entity:hugging-face",
+        "target": "topic:robotics",
+        "weight": 1
+      },
+      {
+        "source": "entity:hugging-face",
+        "target": "topic:ai",
+        "weight": 1
+      },
+      {
+        "source": "entity:anthropic",
+        "target": "entity:hugging-face",
+        "weight": 1
+      },
+      {
+        "source": "entity:hugging-face",
+        "target": "entity:model-hardware-standard",
+        "weight": 1
+      },
+      {
+        "source": "entity:raspberry-pi",
+        "target": "topic:robotics",
+        "weight": 1
+      },
+      {
+        "source": "entity:raspberry-pi",
+        "target": "topic:ai",
+        "weight": 1
+      },
+      {
+        "source": "entity:anthropic",
+        "target": "entity:raspberry-pi",
+        "weight": 1
+      },
+      {
+        "source": "entity:model-hardware-standard",
+        "target": "entity:raspberry-pi",
+        "weight": 1
+      },
+      {
+        "source": "entity:quera",
+        "target": "topic:ai",
+        "weight": 1
+      },
+      {
+        "source": "entity:quera",
+        "target": "topic:robotics",
+        "weight": 1
+      },
+      {
+        "source": "entity:anthropic",
+        "target": "entity:quera",
+        "weight": 1
+      },
+      {
+        "source": "entity:model-hardware-standard",
+        "target": "entity:quera",
+        "weight": 1
+      },
+      {
+        "source": "entity:hhmi-janelia",
+        "target": "topic:semiconductors",
+        "weight": 1
+      },
+      {
+        "source": "entity:nvidia",
+        "target": "topic:ai",
+        "weight": 1
+      },
+      {
+        "source": "entity:nvidia",
+        "target": "topic:robotics",
+        "weight": 1
+      },
+      {
+        "source": "entity:nvidia",
+        "target": "topic:semiconductors",
+        "weight": 1
+      },
+      {
+        "source": "entity:anthropic",
+        "target": "entity:nvidia",
+        "weight": 1
+      },
+      {
+        "source": "entity:model-hardware-standard",
+        "target": "entity:nvidia",
+        "weight": 1
+      },
+      {
+        "source": "entity:hhmi-janelia",
+        "target": "entity:openai",
+        "weight": 1
+      },
+      {
+        "source": "entity:hhmi-janelia",
+        "target": "entity:nvidia",
+        "weight": 1
+      },
+      {
+        "source": "entity:nvidia",
+        "target": "entity:openai",
+        "weight": 1
+      },
+      {
+        "source": "briefing:model-hardware-standard",
+        "target": "topic:ai",
+        "weight": 1
+      },
+      {
+        "source": "briefing:model-hardware-standard",
+        "target": "topic:robotics",
+        "weight": 1
+      },
+      {
+        "source": "briefing:model-hardware-standard",
+        "target": "topic:semiconductors",
+        "weight": 1
+      },
+      {
+        "source": "briefing:model-hardware-standard",
+        "target": "entity:anthropic",
+        "weight": 1
+      },
+      {
+        "source": "briefing:model-hardware-standard",
+        "target": "entity:model-hardware-standard",
+        "weight": 1
+      },
+      {
+        "source": "briefing:model-hardware-standard",
+        "target": "entity:hhmi-janelia",
+        "weight": 1
+      },
+      {
+        "source": "briefing:model-hardware-standard",
+        "target": "entity:openai",
+        "weight": 1
+      },
+      {
+        "source": "briefing:model-hardware-standard",
+        "target": "entity:nvidia",
+        "weight": 1
+      }
+    ]
+  },
+  "charts": {
+    "signals_by_topic": [
+      {
+        "id": "ai",
+        "name": "AI",
+        "count": 6
+      },
+      {
+        "id": "robotics",
+        "name": "ROBOTICS",
+        "count": 6
+      },
+      {
+        "id": "space",
+        "name": "SPACE",
+        "count": 0
+      },
+      {
+        "id": "cybersecurity",
+        "name": "CYBER",
+        "count": 0
+      },
+      {
+        "id": "semiconductors",
+        "name": "SEMICON",
+        "count": 1
+      }
+    ],
+    "signals_by_status": [
+      {
+        "status": "REPORTED",
+        "count": 3
+      },
+      {
+        "status": "VERIFIED",
+        "count": 3
+      }
+    ],
+    "signals_by_day": [
+      {
+        "date": "2026-08-27",
+        "count": 6
+      }
+    ],
+    "sources_cited": [
+      {
+        "id": "anthropic",
+        "name": "Anthropic",
+        "count": 4
+      },
+      {
+        "id": "ars-technica",
+        "name": "Ars Technica",
+        "count": 1
+      },
+      {
+        "id": "cnbc",
+        "name": "CNBC",
+        "count": 1
+      }
+    ]
+  },
+  "timeline": [
+    {
+      "date": "2024",
+      "label": "MCP open-sourced",
+      "text": "Anthropic open-sourced the Model Context Protocol, the software-tool analogue MHS is now extending into hardware. Date and fact from CNBC's 27 August 2026 report and Anthropic's own MCP history."
+    },
+    {
+      "date": "pre-2026",
+      "label": "Janelia origin",
+      "text": "Arco Bast built a shared-memory dictionary so lasers, focusers, and cameras on a Janelia imaging rig could communicate at memory speed. Alek Kemeny worked with Bast to bring models onto that interface. Source: Anthropic acknowledgments in the MHS post."
+    },
+    {
+      "date": "2025\u20132026",
+      "label": "Partner testing",
+      "text": "Anthropic says scientific partners used MHS over the past year and saw faster device integration and live fault detection. Named examples include Genentech, University of Washington Baker and Pinglay labs, Carnegie Mellon, HHMI Janelia, QuEra, and Tetsuwan Scientific."
+    },
+    {
+      "date": "2026-08-27",
+      "label": "Research preview",
+      "text": "Public announcement. Preview access for a first group in science, robotics, electronics, and manufacturing. Open-source promised after additional safety evaluations. Independent reports: Ars Technica, CNBC."
+    }
+  ]
+}
