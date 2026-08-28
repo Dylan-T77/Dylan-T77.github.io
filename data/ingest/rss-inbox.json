@@ -1,0 +1,21 @@
+{
+  "generated_at": null,
+  "pipeline": [
+    "SOURCES",
+    "INGEST",
+    "NORMALIZE",
+    "VALIDATE",
+    "DEDUPLICATE",
+    "CLASSIFY",
+    "EDITORIAL REVIEW",
+    "PUBLISH",
+    "CONNECT"
+  ],
+  "policy": {
+    "auto_publish": false,
+    "editorial_state": "INBOX",
+    "note": "Inbox records must not be rendered as Tech Briefing briefings or signals."
+  },
+  "errors": [],
+  "items": []
+}
