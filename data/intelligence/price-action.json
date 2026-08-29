@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generated_at": "2026-08-29T13:15:18.296645+00:00",
+  "generated_at": "2026-08-29T13:23:32.245953+00:00",
   "observations": [
     {
-      "observation_id": "price-nvda-1788009318",
+      "observation_id": "price-nvda-1788009812",
       "asset_id": "nvda",
-      "timestamp": "2026-08-29T13:15:18.401964+00:00",
-      "source_observation": "price-nvda-1788009318",
+      "timestamp": "2026-08-29T13:23:32.339232+00:00",
+      "source_observation": "price-nvda-1788009812",
       "calculation": {
         "return_1d": 0.0,
         "price_change_1d": 0.0,
@@ -18,10 +18,10 @@
       }
     },
     {
-      "observation_id": "price-tsm-1788009318",
+      "observation_id": "price-tsm-1788009812",
       "asset_id": "tsm",
-      "timestamp": "2026-08-29T13:15:18.508111+00:00",
-      "source_observation": "price-tsm-1788009318",
+      "timestamp": "2026-08-29T13:23:32.438535+00:00",
+      "source_observation": "price-tsm-1788009812",
       "calculation": {
         "return_1d": 0.0,
         "price_change_1d": 0.0,
@@ -33,10 +33,10 @@
       }
     },
     {
-      "observation_id": "price-msft-1788009318",
+      "observation_id": "price-msft-1788009812",
       "asset_id": "msft",
-      "timestamp": "2026-08-29T13:15:18.628619+00:00",
-      "source_observation": "price-msft-1788009318",
+      "timestamp": "2026-08-29T13:23:32.530485+00:00",
+      "source_observation": "price-msft-1788009812",
       "calculation": {
         "return_1d": 0.0,
         "price_change_1d": 0.0,
@@ -48,10 +48,10 @@
       }
     },
     {
-      "observation_id": "price-goog-1788009318",
+      "observation_id": "price-goog-1788009812",
       "asset_id": "goog",
-      "timestamp": "2026-08-29T13:15:18.759620+00:00",
-      "source_observation": "price-goog-1788009318",
+      "timestamp": "2026-08-29T13:23:32.622434+00:00",
+      "source_observation": "price-goog-1788009812",
       "calculation": {
         "return_1d": 0.0,
         "price_change_1d": 0.0,
@@ -63,10 +63,10 @@
       }
     },
     {
-      "observation_id": "price-aapl-1788009318",
+      "observation_id": "price-aapl-1788009812",
       "asset_id": "aapl",
-      "timestamp": "2026-08-29T13:15:18.884907+00:00",
-      "source_observation": "price-aapl-1788009318",
+      "timestamp": "2026-08-29T13:23:32.753166+00:00",
+      "source_observation": "price-aapl-1788009812",
       "calculation": {
         "return_1d": 0.0,
         "price_change_1d": 0.0,
@@ -78,10 +78,10 @@
       }
     },
     {
-      "observation_id": "price-amzn-1788009318",
+      "observation_id": "price-amzn-1788009812",
       "asset_id": "amzn",
-      "timestamp": "2026-08-29T13:15:18.977508+00:00",
-      "source_observation": "price-amzn-1788009318",
+      "timestamp": "2026-08-29T13:23:32.831078+00:00",
+      "source_observation": "price-amzn-1788009812",
       "calculation": {
         "return_1d": 0.0,
         "price_change_1d": 0.0,
@@ -93,10 +93,10 @@
       }
     },
     {
-      "observation_id": "price-meta-1788009319",
+      "observation_id": "price-meta-1788009812",
       "asset_id": "meta",
-      "timestamp": "2026-08-29T13:15:19.072744+00:00",
-      "source_observation": "price-meta-1788009319",
+      "timestamp": "2026-08-29T13:23:32.922356+00:00",
+      "source_observation": "price-meta-1788009812",
       "calculation": {
         "return_1d": 0.0,
         "price_change_1d": 0.0,
@@ -108,10 +108,10 @@
       }
     },
     {
-      "observation_id": "price-intc-1788009319",
+      "observation_id": "price-intc-1788009813",
       "asset_id": "intc",
-      "timestamp": "2026-08-29T13:15:19.193410+00:00",
-      "source_observation": "price-intc-1788009319",
+      "timestamp": "2026-08-29T13:23:33.058070+00:00",
+      "source_observation": "price-intc-1788009813",
       "calculation": {
         "return_1d": 0.0,
         "price_change_1d": 0.0,
@@ -123,10 +123,10 @@
       }
     },
     {
-      "observation_id": "price-amd-1788009319",
+      "observation_id": "price-amd-1788009813",
       "asset_id": "amd",
-      "timestamp": "2026-08-29T13:15:19.289602+00:00",
-      "source_observation": "price-amd-1788009319",
+      "timestamp": "2026-08-29T13:23:33.194781+00:00",
+      "source_observation": "price-amd-1788009813",
       "calculation": {
         "return_1d": 0.0,
         "price_change_1d": 0.0,
@@ -138,16 +138,16 @@
       }
     },
     {
-      "observation_id": "price-btc-1788009319",
+      "observation_id": "price-btc-1788009813",
       "asset_id": "btc",
-      "timestamp": "2026-08-29T13:15:19.309219+00:00",
-      "source_observation": "price-btc-1788009319",
+      "timestamp": "2026-08-29T13:23:33.225643+00:00",
+      "source_observation": "price-btc-1788009813",
       "calculation": {
-        "return_1d": 7.7e-05,
-        "price_change_1d": 6,
-        "close": 77630,
-        "previous_close": 77624,
-        "volume": 28397169195.237057
+        "return_1d": -0.000605,
+        "price_change_1d": -47,
+        "close": 77661,
+        "previous_close": 77708,
+        "volume": 28402537737.52311
       }
     }
   ]
