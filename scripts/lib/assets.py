@@ -17,12 +17,12 @@ ASSET_SOURCES: tuple[str, ...] = (
     "css/network.css",
     "css/dashboard.css",
     "css/xeno-signal.css",
-    "css/vendor/leaflet.css",
     "js/site.js",
     "js/dashboard.js",
     "js/search.js",
+    "js/voxel-world.js",
     "js/xeno-signal.js",
-    "js/vendor/leaflet.js",
+    "js/vendor/three.module.js",
 )
 
 HASHED_NAME = re.compile(r"^(.+)\.([0-9a-f]{8})\.(css|js)$")

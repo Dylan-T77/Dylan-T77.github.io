@@ -97,6 +97,7 @@ def layout(
     crumbs: list[tuple[str, str]],
     extra_css: list[str] | None = None,
     extra_js: list[str] | None = None,
+    module_js: list[str] | None = None,
     ld: list[dict] | None = None,
     og_type: str = "website",
     article: dict | None = None,
@@ -113,6 +114,7 @@ def layout(
         ]
     )
     js_links = _resolve_asset_hrefs(["/js/site.js", *(extra_js or [])])
+    module_links = _resolve_asset_hrefs(module_js or [])
     edition = site["edition"]
     meta_article = ""
     if article:
@@ -164,6 +166,7 @@ def layout(
   <span><a href="/about/">METHODOLOGY</a> · <a href="/feed.xml">FEED</a> · <a href="/lab/">LAB</a></span>
 </footer>
 {"".join(f'<script src="{e(href)}"></script>' for href in js_links)}
+{"".join(f'<script type="module" src="{e(href)}"></script>' for href in module_links)}
 </body>
 </html>
 """

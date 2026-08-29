@@ -230,126 +230,149 @@
     }).join("");
   }
 
-  /* ---------- map ---------- */
+  /* ---------- voxel world map ---------- */
 
-  var map = null;
-  var markers = {}; /* locId -> {marker, loc} */
-  var selectedLoc = null;
+  var selectedCountry = null;
 
-  function markerSize(count) {
-    if (count >= 6) return 20;
-    if (count >= 3) return 16;
-    if (count >= 1) return 12;
-    return 10;
-  }
-
-  function markerIcon(count) {
-    var size = markerSize(count);
-    var cls = "ttb-marker" + (count ? "" : " is-quiet");
-    return window.L.divIcon({
-      className: "ttb-marker-wrap",
-      html: '<span class="' + cls + '"><i></i></span>',
-      iconSize: [size, size],
-      iconAnchor: [size / 2, size / 2],
+  function countryById(id) {
+    var found = null;
+    (DATA.countries || []).forEach(function (c) {
+      if (c.id === id) found = c;
     });
+    if (found) return found;
+    (DATA.world_countries || []).forEach(function (c) {
+      if (c.id === id) found = c;
+    });
+    return found;
   }
 
-  function locCountInView(loc, visIds) {
+  function countryCountInView(country, visIds) {
     var n = 0;
-    (loc.signals || []).forEach(function (sid) { if (visIds[sid]) n += 1; });
+    (country.signals || []).forEach(function (sid) {
+      if (visIds[sid]) n += 1;
+    });
     return n;
   }
 
-  function initMap() {
-    var el = $("#dash-map");
-    if (!el || !window.L) return;
-
-    map = window.L.map(el, {
-      scrollWheelZoom: false,
-      zoomControl: true,
-      worldCopyJump: true,
-      minZoom: 2,
-      maxZoom: 9,
-      zoomSnap: 0.5,
-      attributionControl: true,
+  function visSignalMap() {
+    var visIds = {};
+    visibleSignals().forEach(function (s) {
+      visIds[s.id] = true;
     });
-    map.attributionControl.setPrefix(false);
+    return visIds;
+  }
 
-    window.L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-      attribution: "&copy; OpenStreetMap contributors &copy; CARTO",
-      subdomains: "abcd",
-      maxZoom: 19,
-    }).addTo(map);
+  function syncVoxelIntelligence() {
+    if (!TTB.voxelWorld || !TTB.voxelWorld.isReady()) return;
+    TTB.voxelWorld.setIntelligence(DATA.countries || [], visSignalMap());
+  }
 
-    var bounds = [];
-    DATA.locations.forEach(function (loc) {
-      var marker = window.L.marker([loc.lat, loc.lon], { icon: markerIcon(loc.signal_count) });
-      marker.bindTooltip(
-        esc(loc.city.toUpperCase()) + ", " + esc(loc.country.toUpperCase()) + " · " + plural(loc.signal_count, "SIGNAL"),
-        { direction: "top", offset: [0, -10], className: "ttb-tooltip" }
-      );
-      marker.on("click", function () {
-        TTB.track("map_marker_click", { location: loc.id, signals: loc.signal_count });
-        selectLocation(loc.id, { pan: false });
-      });
-      marker.addTo(map);
-      markers[loc.id] = { marker: marker, loc: loc };
-      bounds.push([loc.lat, loc.lon]);
+  function initVoxelMap() {
+    syncVoxelIntelligence();
+
+    window.addEventListener("ttb:country-select", function (ev) {
+      var cid = ev.detail && ev.detail.countryId;
+      if (cid) selectCountry(cid, { track: "map" });
     });
 
-    if (bounds.length) map.fitBounds(bounds, { padding: [42, 42] });
-
-    /* scroll hijack guard: zoom with the wheel only after an explicit click */
-    el.addEventListener("click", function () { map.scrollWheelZoom.enable(); }, { once: true });
-
-    $$(".loc-btn").forEach(function (btn) {
+    $$(".country-btn").forEach(function (btn) {
       btn.addEventListener("click", function () {
-        var id = btn.getAttribute("data-loc");
-        TTB.track("map_location_click", { location: id, via: "index" });
-        selectLocation(id, { pan: true });
+        var id = btn.getAttribute("data-country");
+        TTB.track("map_country_click", { country: id, via: "index" });
+        selectCountry(id, { focus: true, track: "index" });
       });
     });
+
+    if (!TTB.voxelWorld.isReady()) {
+      window.addEventListener("ttb:voxel-ready", function onReady() {
+        window.removeEventListener("ttb:voxel-ready", onReady);
+        syncVoxelIntelligence();
+      });
+    }
   }
 
-  function selectLocation(id, opts) {
-    var entry = markers[id];
-    var loc = entry ? entry.loc : null;
-    DATA.locations.forEach(function (l) { if (l.id === id) loc = loc || l; });
-    if (!loc) return;
-    selectedLoc = id;
+  function selectCountry(id, opts) {
+    var country = countryById(id);
+    if (!country) {
+      country = {
+        id: id,
+        name: id,
+        has_entity_presence: false,
+        has_signals: false,
+        entities: [],
+        sites: [],
+        topics: [],
+        briefings: [],
+        signals: [],
+        signal_count: 0,
+        latest: null,
+      };
+    }
+    opts = opts || {};
+    selectedCountry = id;
 
-    $$(".loc-btn").forEach(function (btn) {
-      btn.classList.toggle("is-active", btn.getAttribute("data-loc") === id);
+    $$(".country-btn").forEach(function (btn) {
+      btn.classList.toggle("is-active", btn.getAttribute("data-country") === id);
     });
-    if (map && opts && opts.pan) map.panTo([loc.lat, loc.lon], { animate: !REDUCED });
 
-    renderLocDetail(loc);
+    if (TTB.voxelWorld && TTB.voxelWorld.isReady()) {
+      TTB.voxelWorld.selectCountry(id, { emit: false });
+    }
+
+    if (opts.track) {
+      TTB.track("map_country_select", {
+        country: id,
+        via: opts.track,
+        signals: country.signal_count,
+      });
+    }
+
+    renderCountryDetail(country);
   }
 
-  function renderLocDetail(loc) {
+  function renderCountryDetail(country) {
     var el = $("#map-detail");
     if (!el) return;
-    var visIds = {};
-    visibleSignals().forEach(function (s) { visIds[s.id] = true; });
-    var inView = locCountInView(loc, visIds);
+    var visIds = visSignalMap();
+    var inView = countryCountInView(country, visIds);
 
-    var ents = (loc.entities || []).map(function (ent) {
+    var ents = (country.entities || []).map(function (ent) {
       return '<a href="' + esc(ent.url) + '">' + esc(ent.name) + "</a> (" + esc(ent.type) + ")";
     }).join("<br>");
-    var topics = (loc.topics || []).map(function (t) { return esc(t.toUpperCase()); }).join(" · ") || "NONE ON RECORD";
-    var latest = loc.latest
-      ? '<a href="' + esc(loc.latest.url) + '" data-track="signal">' + esc(loc.latest.title) + "</a><br>" +
-        '<span class="node-status">' + esc(loc.latest.status) + " · " + esc(fmtDay(loc.latest.published)) + "</span>"
-      : "No signal attached yet.";
-    var briefs = (loc.briefings || []).length
-      ? '<dt>BRIEFINGS</dt><dd>' + loc.briefings.map(function (b) { return '<a href="' + esc(b.url) + '" data-track="briefing">' + esc(b.title) + "</a>"; }).join("<br>") + "</dd>"
+
+    var sites = (country.sites || []).map(function (site) {
+      return esc(site.city.toUpperCase()) + " · " + esc(site.name) + " · " + site.signal_count + " SIG";
+    }).join("<br>");
+
+    var topics = (country.topics || []).map(function (t) {
+      return esc(t.toUpperCase());
+    }).join(" · ") || "NONE ON RECORD";
+
+    var latest = country.latest
+      ? '<a href="' + esc(country.latest.url) + '" data-track="signal">' + esc(country.latest.title) + "</a><br>" +
+        '<span class="node-status">' + esc(country.latest.status) + " · " + esc(fmtDay(country.latest.published)) + "</span>"
+      : country.has_entity_presence
+        ? "Entity presence on record. No published signal attached yet."
+        : "No intelligence on record for this country.";
+
+    var briefs = (country.briefings || []).length
+      ? '<dt>BRIEFINGS</dt><dd>' + country.briefings.map(function (b) {
+          return '<a href="' + esc(b.url) + '" data-track="briefing">' + esc(b.title) + "</a>";
+        }).join("<br>") + "</dd>"
       : "";
 
+    var presenceLine = country.has_signals
+      ? plural(country.signal_count, "SIGNAL") + " ON RECORD · " + inView + " IN VIEW"
+      : country.has_entity_presence
+        ? "ENTITY PRESENCE · 0 SIGNALS ON RECORD"
+        : "NO RECORDED PRESENCE";
+
     el.innerHTML =
-      "<h3>" + esc(loc.city.toUpperCase()) + ", " + esc(loc.country.toUpperCase()) + "</h3>" +
-      '<span class="loc-count">' + plural(loc.signal_count, "SIGNAL") + " ON RECORD · " + inView + " IN VIEW</span>" +
+      "<h3>" + esc(country.name.toUpperCase()) + "</h3>" +
+      '<span class="loc-count">' + esc(presenceLine) + "</span>" +
       "<dl>" +
-      "<dt>ENTITIES</dt><dd>" + ents + "</dd>" +
+      "<dt>ENTITIES</dt><dd>" + (ents || "None on record.") + "</dd>" +
+      "<dt>SITES</dt><dd>" + (sites || "None on record.") + "</dd>" +
       "<dt>TOPICS</dt><dd>" + topics + "</dd>" +
       "<dt>LATEST</dt><dd>" + latest + "</dd>" +
       briefs +
@@ -358,28 +381,26 @@
   }
 
   function refreshMapCounts(visIds) {
-    if (!map) return;
-    Object.keys(markers).forEach(function (id) {
-      var entry = markers[id];
-      var n = locCountInView(entry.loc, visIds);
-      entry.marker.setIcon(markerIcon(n));
-      entry.marker.setTooltipContent(
-        esc(entry.loc.city.toUpperCase()) + ", " + esc(entry.loc.country.toUpperCase()) + " · " + plural(n, "SIGNAL") + " IN VIEW"
-      );
-    });
-    if (selectedLoc) {
-      DATA.locations.forEach(function (l) { if (l.id === selectedLoc) renderLocDetail(l); });
+    syncVoxelIntelligence();
+    if (selectedCountry) {
+      var country = countryById(selectedCountry);
+      if (country) renderCountryDetail(country);
     }
   }
 
   function refreshLocIndex(visIds) {
-    $$(".loc-btn").forEach(function (btn) {
-      var id = btn.getAttribute("data-loc");
-      var loc = null;
-      DATA.locations.forEach(function (l) { if (l.id === id) loc = l; });
-      if (!loc) return;
+    $$(".country-btn").forEach(function (btn) {
+      var id = btn.getAttribute("data-country");
+      var country = countryById(id);
+      if (!country) return;
       var meta = btn.querySelector(".loc-meta b");
-      if (meta) meta.textContent = plural(locCountInView(loc, visIds), "SIGNAL");
+      if (!meta) return;
+      if (country.has_signals) {
+        meta.textContent = countryCountInView(country, visIds) + " IN VIEW / " +
+          country.signal_count + " ON RECORD";
+      } else if (country.has_entity_presence) {
+        meta.textContent = "ENTITY PRESENCE · 0 SIGNALS";
+      }
     });
   }
 
@@ -755,10 +776,10 @@
       DATA = payload;
       /* Debug/analytics handle: lets a future analytics layer read console
          state and lets tests drive the same public surface. */
-      TTB.console = { data: DATA, state: state, net: net, selectLocation: selectLocation };
+      TTB.console = { data: DATA, state: state, net: net, selectCountry: selectCountry };
       initFilters();
       initTracking();
-      initMap();
+      initVoxelMap();
       initNet();
       applyFilters();
       bindChartBars($("#chart-topics"), "data-topic", function (key) {

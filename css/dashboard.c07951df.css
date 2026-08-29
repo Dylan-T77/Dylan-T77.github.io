@@ -139,10 +139,70 @@
   grid-template-columns: minmax(0, 1fr) 310px;
   min-height: 430px;
 }
-.dash-map {
+.dash-voxel-world {
+  position: relative;
   min-height: 430px;
-  background: #070a0c;
+  background: #050608;
+  overflow: hidden;
+  cursor: grab;
+  touch-action: none;
+}
+.dash-voxel-world.is-fallback {
+  display: grid;
+  place-items: center;
+}
+.voxel-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 430px;
+}
+.voxel-fallback {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: grid;
+  place-content: center;
+  gap: 10px;
+  padding: 24px;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(5, 6, 8, .94), rgba(7, 10, 12, .98));
+  border-right: 1px solid var(--line);
+}
+.voxel-fallback strong {
+  color: var(--accent);
+  font: 800 .62rem ui-monospace, monospace;
+  letter-spacing: .16em;
+}
+.voxel-fallback p {
+  margin: 0;
+  max-width: 36ch;
+  color: #5c6c71;
+  font: 600 .58rem/1.75 ui-monospace, monospace;
+  letter-spacing: .06em;
+}
+.voxel-hud {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  background: rgba(5, 6, 8, .72);
+  pointer-events: none;
+}
+.voxel-hud-label {
+  color: var(--accent);
+  font: 800 .54rem ui-monospace, monospace;
+  letter-spacing: .16em;
+}
+.voxel-hud-hint {
+  color: #536267;
+  font: 600 .52rem ui-monospace, monospace;
+  letter-spacing: .12em;
 }
 .noscript-note {
   margin: 0;
@@ -222,71 +282,6 @@
 .loc-meta b { color: var(--accent); font-weight: 700; }
 .loc-meta a { color: var(--muted); text-decoration: underline; text-underline-offset: 2px; }
 .loc-meta a:hover { color: var(--accent); }
-
-/* Leaflet dark overrides + custom markers */
-.leaflet-container {
-  background: #070a0c;
-  font: 600 .62rem ui-monospace, monospace;
-}
-.leaflet-bar a {
-  background: #0b0f12;
-  color: var(--muted);
-  border-bottom: 1px solid var(--line);
-}
-.leaflet-bar a:hover { background: #0b0f12; color: var(--accent); }
-.leaflet-bar { border: 1px solid var(--line); box-shadow: none; }
-.leaflet-control-attribution {
-  background: rgba(5, 6, 8, .82);
-  color: #4c5b60;
-  font: 600 .52rem ui-monospace, monospace;
-}
-.leaflet-control-attribution a { color: #5c6c71; }
-.ttb-tooltip {
-  background: #050608;
-  border: 1px solid var(--accent);
-  color: var(--text);
-  font: 700 .58rem ui-monospace, monospace;
-  letter-spacing: .08em;
-  box-shadow: none;
-  border-radius: 0;
-}
-.ttb-tooltip:before { display: none; }
-.ttb-marker-wrap { background: none; border: none; }
-.ttb-marker {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.ttb-marker i {
-  position: absolute;
-  inset: 0;
-  margin: auto;
-  width: 60%;
-  height: 60%;
-  background: var(--accent);
-  transform: rotate(45deg);
-  box-shadow: 0 0 10px rgba(97, 246, 197, .55);
-}
-.ttb-marker:before {
-  content: "";
-  position: absolute;
-  inset: -45%;
-  border: 1px solid rgba(97, 246, 197, .5);
-  transform: rotate(45deg);
-  animation: marker-ping 2.6s ease-out infinite;
-}
-.ttb-marker.is-quiet i {
-  background: transparent;
-  border: 1px solid #5c6c71;
-  box-shadow: none;
-}
-.ttb-marker.is-quiet:before { display: none; }
-.ttb-marker.is-dim { opacity: .22; }
-@keyframes marker-ping {
-  0% { transform: rotate(45deg) scale(.55); opacity: .9; }
-  70%, 100% { transform: rotate(45deg) scale(1.5); opacity: 0; }
-}
 
 /* ---------- signals panel ---------- */
 
@@ -544,7 +539,8 @@
   .map-grid,
   .net-grid { grid-template-columns: 1fr; }
   .map-side, .net-detail { border-left: 0; border-top: 1px solid var(--line); }
-  .dash-map { min-height: 320px; }
+  .dash-voxel-world,
+  .voxel-canvas { min-height: 320px; }
   #net-canvas { height: 380px; }
 }
 
@@ -571,7 +567,8 @@
   .console { padding: 0; border-bottom: 0; }
   .console-head { padding-inline: 0; }
   .filter-readout { margin-left: 0; width: 100%; }
-  .dash-map { min-height: 280px; }
+  .dash-voxel-world,
+  .voxel-canvas { min-height: 280px; }
   #net-canvas { height: 340px; cursor: default; }
   .sig-row { grid-template-columns: 1fr; gap: 4px; }
   .bar-row { grid-template-columns: minmax(80px, 110px) minmax(0, 1fr) 30px; }

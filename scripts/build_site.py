@@ -16,7 +16,8 @@ from scripts.lib import assets
 from scripts.lib.components import bar_rows, chips, empty, numbered, row, source_rows
 from scripts.lib.html_utils import e, index_by, load, page_file, pretty_date, short_date, write
 from scripts.lib.layout import breadcrumbs, crumb_ld, layout
-from scripts.lib.paths import ROOT, RSS_INBOX_PATH, XENO_MAIN
+from scripts.lib.country_intel import country_records, world_country_registry
+from scripts.lib.paths import ROOT, RSS_INBOX_PATH, VOXEL_COUNTRIES_PATH, XENO_MAIN
 from scripts.lib.stable_json import write_if_changed
 
 TOPIC_SHORT = {
@@ -248,6 +249,22 @@ def dashboard_data(data: dict) -> dict:
 
     lead = briefings and index_by(briefings, "slug").get(data["site"]["edition"].get("lead_briefing", ""))
 
+    voxel_countries: dict[str, dict] = {}
+    if VOXEL_COUNTRIES_PATH.is_file():
+        try:
+            voxel_payload = json.loads(VOXEL_COUNTRIES_PATH.read_text(encoding="utf-8"))
+            voxel_countries = {c["id"]: c for c in voxel_payload.get("countries", [])}
+        except (OSError, ValueError):
+            voxel_countries = {}
+
+    country_items = country_records(
+        loc_items=loc_items,
+        entities=entities,
+        signals=signals,
+        voxel_countries=voxel_countries,
+    )
+    world_countries = world_country_registry(voxel_countries)
+
     return {
         "meta": {
             "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -262,6 +279,8 @@ def dashboard_data(data: dict) -> dict:
                 "sources_cited": len(source_counts),
                 "collections": len(data["collections"]),
                 "inbox": inbox_count,
+                "countries_with_presence": len(country_items),
+                "world_countries": len(voxel_countries),
             },
             "lead_briefing": data["site"]["edition"].get("lead_briefing"),
         },
@@ -269,6 +288,8 @@ def dashboard_data(data: dict) -> dict:
         "signals": sig_items,
         "entities": ent_items,
         "locations": loc_items,
+        "countries": country_items,
+        "world_countries": world_countries,
         "unmapped_entities": unmapped,
         "graph": {"nodes": list(nodes.values()), "edges": list(edges.values())},
         "charts": {
@@ -306,20 +327,29 @@ def homepage(data: dict) -> str:
     )
 
     loc_index = []
-    for loc in dash["locations"]:
+    for country in dash["countries"]:
         ent_links = ", ".join(
-            f'<a href="{e(ent["url"])}">{e(ent["name"])}</a>' for ent in loc["entities"]
+            f'<a href="{e(ent["url"])}">{e(ent["name"])}</a>' for ent in country["entities"]
+        )
+        presence_note = (
+            f'{country["signal_count"]} SIGNAL{"S" if country["signal_count"] != 1 else ""} ON RECORD'
+            if country["has_signals"]
+            else "ENTITY PRESENCE · 0 SIGNALS"
         )
         loc_index.append(
-            f'<li><button type="button" class="loc-btn" data-loc="{e(loc["id"])}">'
-            f'<span class="loc-name">{e(loc["city"].upper())}, {e(loc["country"].upper())}</span>'
-            f'<span class="loc-meta"><b>{loc["signal_count"]} SIGNAL{"S" if loc["signal_count"] != 1 else ""}</b> · {ent_links}</span>'
+            f'<li><button type="button" class="loc-btn country-btn" data-country="{e(country["id"])}">'
+            f'<span class="loc-name">{e(country["name"].upper())}</span>'
+            f'<span class="loc-meta"><b>{presence_note}</b> · {ent_links}</span>'
             f"</button></li>"
         )
     unmapped_note = ""
     if dash["unmapped_entities"]:
         names = ", ".join(ent["name"] for ent in dash["unmapped_entities"])
-        unmapped_note = f" Not mapped: {e(names)} - no fixed site on record."
+        unmapped_note = f" Entities without geographic basis: {e(names)} — not placed on the world."
+    world_note = (
+        f'{dash["meta"]["counts"].get("world_countries", 0)} COUNTRIES IN GEOMETRY · '
+        f'{len(dash["countries"])} WITH RECORDED PRESENCE'
+    )
 
     sig_rows = []
     for s in signals:
@@ -413,20 +443,30 @@ def homepage(data: dict) -> str:
   </div>
 
   <div class="panel" id="panel-map">
-    <div class="panel-head"><span class="panel-title">GEOGRAPHIC ACTIVITY</span><span class="panel-note">{len(dash["locations"])} SITES · {counts["entities_mapped"]} MAPPED ENTITIES</span></div>
+    <div class="panel-head"><span class="panel-title">GEOGRAPHIC INTELLIGENCE</span><span class="panel-note">{world_note}</span></div>
     <div class="map-grid">
-      <div id="dash-map" class="dash-map" role="application" aria-label="Map of entity locations linked to published signals"><noscript><p class="noscript-note">INTERACTIVE MAP NEEDS JAVASCRIPT - THE LOCATION INDEX LISTS EVERY SITE ON RECORD.</p></noscript></div>
+      <div id="dash-voxel-world" class="dash-voxel-world" role="application" aria-label="Three-dimensional voxel world map of countries">
+        <noscript><p class="noscript-note">INTERACTIVE WORLD MAP REQUIRES JAVASCRIPT — THE COUNTRY INDEX LISTS EVERY RECORDED PRESENCE.</p></noscript>
+        <div class="voxel-fallback" id="voxel-fallback" hidden>
+          <strong>WEBGL UNAVAILABLE</strong>
+          <p>This panel needs WebGL for the 3D voxel world. Use the country index to inspect recorded presence.</p>
+        </div>
+        <div class="voxel-hud" aria-hidden="true">
+          <span class="voxel-hud-label">VOXEL WORLD</span>
+          <span class="voxel-hud-hint">DRAG · SCROLL · SELECT</span>
+        </div>
+      </div>
       <aside class="map-side">
         <div class="map-detail" id="map-detail">
-          <p class="detail-hint">SELECT A MARKER OR LOCATION TO INSPECT ITS SIGNALS.</p>
+          <p class="detail-hint">SELECT A COUNTRY ON THE WORLD OR FROM THE INDEX TO INSPECT ITS RECORD.</p>
         </div>
         <div class="map-index-block">
-          <p class="mini-label">LOCATION INDEX</p>
-          <ul class="loc-index" id="loc-index">{"".join(loc_index)}</ul>
+          <p class="mini-label">COUNTRY INDEX</p>
+          <ul class="loc-index" id="country-index">{"".join(loc_index) if loc_index else '<li><p class="detail-hint">No country-level presence on record yet.</p></li>'}</ul>
         </div>
       </aside>
     </div>
-    <p class="panel-foot">Entity sites from public record (headquarters / campus). Signals attach through their linked entities; records without a reliable geographic association stay off the map.{unmapped_note} Tiles © OpenStreetMap contributors © CARTO.</p>
+    <p class="panel-foot">Country geometry from Natural Earth 1:110m (static, local). Intelligence overlays derive from published entity and signal records only — geography without a record stays unlit.{unmapped_note}</p>
   </div>
 
   <div class="console-grid">
@@ -575,6 +615,8 @@ def homepage(data: dict) -> str:
         },
         crumb_ld(site, crumb),
     ]
+    three_url = assets.url("/js/vendor/three.module.js")
+    importmap = json.dumps({"imports": {"three": three_url}}, ensure_ascii=False)
     return layout(
         data,
         title=f'{site["name"]} — {site["tagline"]}',
@@ -583,8 +625,10 @@ def homepage(data: dict) -> str:
         active="home",
         body=body,
         crumbs=crumb,
-        extra_css=["/css/vendor/leaflet.css", "/css/dashboard.css"],
-        extra_js=["/js/vendor/leaflet.js", "/js/dashboard.js"],
+        extra_css=["/css/dashboard.css"],
+        extra_js=["/js/dashboard.js"],
+        module_js=["/js/voxel-world.js"],
+        extra_head=f'<script type="importmap">{importmap}</script>',
         ld=ld,
     )
 
@@ -1475,6 +1519,11 @@ def atom_feed(data: dict) -> str:
 
 
 def main() -> None:
+    import subprocess
+    import sys
+
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "build_voxel_world.py")], check=True)
+
     manifest = assets.publish_assets(ROOT)
     assets.configure(manifest)
 

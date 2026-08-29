@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-29T12:24:49.331768+00:00",
+  "generated_at": "2026-08-29T12:31:53.616556+00:00",
   "assets": {
     "/css/style.css": "/css/style.15738ed0.css",
     "/css/enhancements.css": "/css/enhancements.3c0cd085.css",
     "/css/network.css": "/css/network.69d1d096.css",
-    "/css/dashboard.css": "/css/dashboard.cff7138f.css",
+    "/css/dashboard.css": "/css/dashboard.c07951df.css",
     "/css/xeno-signal.css": "/css/xeno-signal.b0c014a9.css",
-    "/css/vendor/leaflet.css": "/css/vendor/leaflet.a7837102.css",
     "/js/site.js": "/js/site.367599fb.js",
-    "/js/dashboard.js": "/js/dashboard.dc97efc8.js",
+    "/js/dashboard.js": "/js/dashboard.16b0d994.js",
     "/js/search.js": "/js/search.85cd2d04.js",
+    "/js/voxel-world.js": "/js/voxel-world.3a7e214e.js",
     "/js/xeno-signal.js": "/js/xeno-signal.7a652305.js",
-    "/js/vendor/leaflet.js": "/js/vendor/leaflet.db49d009.js"
+    "/js/vendor/three.module.js": "/js/vendor/three.module.ce1fa418.js"
   }
 }

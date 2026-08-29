@@ -18,8 +18,8 @@
 <meta name="twitter:title" content="The Tech Briefing — Read the signal. Understand the system. Verify the source. Connect the map.">
 <meta name="twitter:description" content="The Tech Briefing is a static-first information network for technology systems: AI, robotics, semiconductors, cybersecurity, and space. Coverage is authored, sourced, and connected — not an automated news dump.">
 
-<link rel="stylesheet" href="/css/style.15738ed0.css"><link rel="stylesheet" href="/css/enhancements.3c0cd085.css"><link rel="stylesheet" href="/css/network.69d1d096.css"><link rel="stylesheet" href="/css/vendor/leaflet.a7837102.css"><link rel="stylesheet" href="/css/dashboard.cff7138f.css">
-
+<link rel="stylesheet" href="/css/style.15738ed0.css"><link rel="stylesheet" href="/css/enhancements.3c0cd085.css"><link rel="stylesheet" href="/css/network.69d1d096.css"><link rel="stylesheet" href="/css/dashboard.c07951df.css">
+<script type="importmap">{"imports": {"three": "/js/vendor/three.module.ce1fa418.js"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "The Tech Briefing", "url": "https://thetechbriefing.com", "description": "The Tech Briefing is a static-first information network for technology systems: AI, robotics, semiconductors, cybersecurity, and space. Coverage is authored, sourced, and connected — not an automated news dump.", "potentialAction": {"@type": "SearchAction", "target": "https://thetechbriefing.com/search/?q={query}", "query-input": "required name=query"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://thetechbriefing.com/"}]}</script>
 </head>
@@ -78,20 +78,30 @@
   </div>
 
   <div class="panel" id="panel-map">
-    <div class="panel-head"><span class="panel-title">GEOGRAPHIC ACTIVITY</span><span class="panel-note">7 SITES · 8 MAPPED ENTITIES</span></div>
+    <div class="panel-head"><span class="panel-title">GEOGRAPHIC INTELLIGENCE</span><span class="panel-note">175 COUNTRIES IN GEOMETRY · 3 WITH RECORDED PRESENCE</span></div>
     <div class="map-grid">
-      <div id="dash-map" class="dash-map" role="application" aria-label="Map of entity locations linked to published signals"><noscript><p class="noscript-note">INTERACTIVE MAP NEEDS JAVASCRIPT - THE LOCATION INDEX LISTS EVERY SITE ON RECORD.</p></noscript></div>
+      <div id="dash-voxel-world" class="dash-voxel-world" role="application" aria-label="Three-dimensional voxel world map of countries">
+        <noscript><p class="noscript-note">INTERACTIVE WORLD MAP REQUIRES JAVASCRIPT — THE COUNTRY INDEX LISTS EVERY RECORDED PRESENCE.</p></noscript>
+        <div class="voxel-fallback" id="voxel-fallback" hidden>
+          <strong>WEBGL UNAVAILABLE</strong>
+          <p>This panel needs WebGL for the 3D voxel world. Use the country index to inspect recorded presence.</p>
+        </div>
+        <div class="voxel-hud" aria-hidden="true">
+          <span class="voxel-hud-label">VOXEL WORLD</span>
+          <span class="voxel-hud-hint">DRAG · SCROLL · SELECT</span>
+        </div>
+      </div>
       <aside class="map-side">
         <div class="map-detail" id="map-detail">
-          <p class="detail-hint">SELECT A MARKER OR LOCATION TO INSPECT ITS SIGNALS.</p>
+          <p class="detail-hint">SELECT A COUNTRY ON THE WORLD OR FROM THE INDEX TO INSPECT ITS RECORD.</p>
         </div>
         <div class="map-index-block">
-          <p class="mini-label">LOCATION INDEX</p>
-          <ul class="loc-index" id="loc-index"><li><button type="button" class="loc-btn" data-loc="ashburn-united-states"><span class="loc-name">ASHBURN, UNITED STATES</span><span class="loc-meta"><b>1 SIGNAL</b> · <a href="/entities/hhmi-janelia/">HHMI Janelia Research Campus</a></span></button></li><li><button type="button" class="loc-btn" data-loc="boston-united-states"><span class="loc-name">BOSTON, UNITED STATES</span><span class="loc-meta"><b>1 SIGNAL</b> · <a href="/entities/quera/">QuEra Computing</a></span></button></li><li><button type="button" class="loc-btn" data-loc="cambridge-united-kingdom"><span class="loc-name">CAMBRIDGE, UNITED KINGDOM</span><span class="loc-meta"><b>1 SIGNAL</b> · <a href="/entities/raspberry-pi/">Raspberry Pi</a></span></button></li><li><button type="button" class="loc-btn" data-loc="hsinchu-taiwan"><span class="loc-name">HSINCHU, TAIWAN</span><span class="loc-meta"><b>0 SIGNALS</b> · <a href="/entities/tsmc/">TSMC</a></span></button></li><li><button type="button" class="loc-btn" data-loc="new-york-united-states"><span class="loc-name">NEW YORK, UNITED STATES</span><span class="loc-meta"><b>1 SIGNAL</b> · <a href="/entities/hugging-face/">Hugging Face</a></span></button></li><li><button type="button" class="loc-btn" data-loc="san-francisco-united-states"><span class="loc-name">SAN FRANCISCO, UNITED STATES</span><span class="loc-meta"><b>6 SIGNALS</b> · <a href="/entities/anthropic/">Anthropic</a>, <a href="/entities/openai/">OpenAI</a></span></button></li><li><button type="button" class="loc-btn" data-loc="santa-clara-united-states"><span class="loc-name">SANTA CLARA, UNITED STATES</span><span class="loc-meta"><b>0 SIGNALS</b> · <a href="/entities/nvidia/">NVIDIA</a></span></button></li></ul>
+          <p class="mini-label">COUNTRY INDEX</p>
+          <ul class="loc-index" id="country-index"><li><button type="button" class="loc-btn country-btn" data-country="158"><span class="loc-name">TAIWAN</span><span class="loc-meta"><b>ENTITY PRESENCE · 0 SIGNALS</b> · <a href="/entities/tsmc/">TSMC</a></span></button></li><li><button type="button" class="loc-btn country-btn" data-country="826"><span class="loc-name">UNITED KINGDOM</span><span class="loc-meta"><b>1 SIGNAL ON RECORD</b> · <a href="/entities/raspberry-pi/">Raspberry Pi</a></span></button></li><li><button type="button" class="loc-btn country-btn" data-country="840"><span class="loc-name">UNITED STATES OF AMERICA</span><span class="loc-meta"><b>6 SIGNALS ON RECORD</b> · <a href="/entities/hhmi-janelia/">HHMI Janelia Research Campus</a>, <a href="/entities/quera/">QuEra Computing</a>, <a href="/entities/hugging-face/">Hugging Face</a>, <a href="/entities/anthropic/">Anthropic</a>, <a href="/entities/openai/">OpenAI</a>, <a href="/entities/nvidia/">NVIDIA</a></span></button></li></ul>
         </div>
       </aside>
     </div>
-    <p class="panel-foot">Entity sites from public record (headquarters / campus). Signals attach through their linked entities; records without a reliable geographic association stay off the map. Not mapped: Model Hardware Standard - no fixed site on record. Tiles © OpenStreetMap contributors © CARTO.</p>
+    <p class="panel-foot">Country geometry from Natural Earth 1:110m (static, local). Intelligence overlays derive from published entity and signal records only — geography without a record stays unlit. Entities without geographic basis: Model Hardware Standard — not placed on the world.</p>
   </div>
 
   <div class="console-grid">
@@ -284,6 +294,7 @@
   <span>© 2026 The Tech Briefing // LAB: DYLAN THIART</span>
   <span><a href="/about/">METHODOLOGY</a> · <a href="/feed.xml">FEED</a> · <a href="/lab/">LAB</a></span>
 </footer>
-<script src="/js/site.367599fb.js"></script><script src="/js/vendor/leaflet.db49d009.js"></script><script src="/js/dashboard.dc97efc8.js"></script>
+<script src="/js/site.367599fb.js"></script><script src="/js/dashboard.16b0d994.js"></script>
+<script type="module" src="/js/voxel-world.3a7e214e.js"></script>
 </body>
 </html>
