@@ -4,250 +4,27 @@
 from __future__ import annotations
 
 import json
+import sys
 from datetime import datetime, timezone
-from html import escape
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-DATA_PATH = ROOT / "data" / "network.json"
-XENO_MAIN = ROOT / "scripts" / "xeno_signal_main.html"
+_REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
 
-
-def e(value) -> str:
-    return escape(str(value if value is not None else ""), quote=True)
-
-
-def load() -> dict:
-    return json.loads(DATA_PATH.read_text(encoding="utf-8"))
-
-
-def index_by(items: list[dict], key: str = "id") -> dict:
-    return {item[key]: item for item in items}
-
-
-def write(path: Path, text: str) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text, encoding="utf-8")
-
-
-def page_file(route: str) -> Path:
-    route = route.rstrip("/") or ""
-    if route == "":
-        return ROOT / "index.html"
-    if route.endswith(".html"):
-        return ROOT / route.lstrip("/")
-    return ROOT / route.lstrip("/") / "index.html"
-
-
-def pretty_date(value: str | None) -> str:
-    if not value:
-        return "undated"
-    try:
-        return datetime.strptime(value[:10], "%Y-%m-%d").strftime("%d %b %Y").upper()
-    except ValueError:
-        return value
-
-
-def nav_items(active: str) -> list[tuple[str, str, str]]:
-    return [
-        ("/briefings/", "BRIEFINGS", "briefings"),
-        ("/signals/", "SIGNALS", "signals"),
-        ("/topics/", "TOPICS", "topics"),
-        ("/archive/", "ARCHIVE", "archive"),
-        ("/lab/", "LAB", "lab"),
-        ("/search/", "SEARCH", "search"),
-    ]
-
-
-def current_attr(active: str, key: str) -> str:
-    return ' aria-current="page"' if active == key else ""
-
-
-def render_nav(site: dict, active: str) -> str:
-    primary = "".join(
-        f'<a href="{e(href)}"{current_attr(active, key)}>{e(label)}</a>'
-        for href, label, key in nav_items(active)
-    )
-    about_current = current_attr(active, "about")
-    mobile = primary + f'<a href="/about/"{about_current}>ABOUT</a>'
-    return f"""<a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
-<nav class="nav container" aria-label="Primary">
-  <a class="brand-lockup" href="/">
-    <span class="brand-name"><span class="status-dot"></span>{e(site["name"])}</span>
-    <span class="brand-loop">READ → UNDERSTAND → VERIFY → CONNECT → DISCOVER</span>
-  </a>
-  <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu">MENU <span>☰</span></button>
-  <div class="nav-cluster">
-    <div class="nav-primary">{primary}</div>
-    <div class="nav-secondary"><a href="/about/"{about_current}>ABOUT</a></div>
-  </div>
-  <div class="mobile-menu" id="mobile-menu">{mobile}</div>
-</nav>
-</header>"""
-
-
-def breadcrumbs(items: list[tuple[str, str]]) -> str:
-    parts = []
-    for i, (href, label) in enumerate(items):
-        last = i == len(items) - 1
-        if last:
-            parts.append(f'<span aria-current="page">{e(label)}</span>')
-        else:
-            parts.append(f'<a href="{e(href)}">{e(label)}</a><span aria-hidden="true">/</span>')
-    return f'<nav class="breadcrumbs" aria-label="Breadcrumb">{"".join(parts)}</nav>'
-
-
-def json_ld(blocks: list[dict]) -> str:
-    return "\n".join(
-        f'<script type="application/ld+json">{json.dumps(block, ensure_ascii=False)}</script>'
-        for block in blocks
-    )
-
-
-def crumb_ld(site: dict, items: list[tuple[str, str]]) -> dict:
-    return {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": i + 1,
-                "name": label,
-                "item": site["url"] + href,
-            }
-            for i, (href, label) in enumerate(items)
-        ],
-    }
-
-
-def layout(
-    data: dict,
-    *,
-    title: str,
-    description: str,
-    route: str,
-    active: str,
-    body: str,
-    crumbs: list[tuple[str, str]],
-    extra_css: list[str] | None = None,
-    extra_js: list[str] | None = None,
-    ld: list[dict] | None = None,
-    og_type: str = "website",
-    article: dict | None = None,
-    extra_head: str = "",
-) -> str:
-    site = data["site"]
-    canonical = site["url"] + (route if route != "/" else "/")
-    css_links = [
-        "/css/style.css",
-        "/css/enhancements.css",
-        "/css/network.css",
-        *(extra_css or []),
-    ]
-    js_links = ["/js/site.js", *(extra_js or [])]
-    edition = site["edition"]
-    meta_article = ""
-    if article:
-        meta_article = f"""
-<meta property="article:published_time" content="{e(article.get("published"))}">
-<meta property="article:modified_time" content="{e(article.get("updated") or article.get("published"))}">
-<meta property="article:author" content="{e(site["author"]["name"])}">"""
-        for topic in article.get("topics", []):
-            meta_article += f'\n<meta property="article:tag" content="{e(topic)}">'
-    ld_blocks = ld or []
-    return f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>{e(title)}</title>
-<meta name="description" content="{e(description)}">
-<link rel="canonical" href="{e(canonical)}">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="alternate" type="application/atom+xml" title="{e(site["name"])} feed" href="/feed.xml">
-<meta name="robots" content="index,follow">
-<meta property="og:site_name" content="{e(site["name"])}">
-<meta property="og:type" content="{e(og_type)}">
-<meta property="og:title" content="{e(title)}">
-<meta property="og:description" content="{e(description)}">
-<meta property="og:url" content="{e(canonical)}">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="{e(title)}">
-<meta name="twitter:description" content="{e(description)}">
-{meta_article}
-{"".join(f'<link rel="stylesheet" href="{e(href)}">' for href in css_links)}
-{extra_head}
-{json_ld(ld_blocks)}
-</head>
-<body>
-<div class="scanlines" aria-hidden="true"></div>
-{render_nav(site, active)}
-<div class="edition-strip">
-  <div class="container">
-    <span>{e(edition["label"])} // <b>{e(edition["status"])}</b></span>
-    <span>{e(pretty_date(edition["date"]))} // {e(site["location"]).upper()}</span>
-  </div>
-</div>
-<main id="main">
-{body}
-</main>
-<footer class="site-footer container">
-  <span>© {datetime.now().year} {e(site["name"])} // LAB: {e(site["author"]["name"]).upper()}</span>
-  <span><a href="/about/">METHODOLOGY</a> · <a href="/feed.xml">FEED</a> · <a href="/lab/">LAB</a></span>
-</footer>
-{"".join(f'<script src="{e(href)}"></script>' for href in js_links)}
-</body>
-</html>
-"""
-
-
-def numbered(items: list[str]) -> str:
-    lis = "".join(
-        f"<li><b>{i:02d}</b><span>{e(item)}</span></li>" for i, item in enumerate(items, 1)
-    )
-    return f'<ol class="takeaway-list">{lis}</ol>'
-
-
-def row(meta: str, title: str, href: str, summary: str, go: str = "OPEN") -> str:
-    return f"""<article class="row-item">
-  <div class="row-meta">{meta}</div>
-  <div>
-    <h3><a href="{e(href)}">{e(title)}</a></h3>
-    <p>{e(summary)}</p>
-  </div>
-  <a class="row-go" href="{e(href)}">{e(go)}</a>
-</article>"""
-
-
-def chips(kind: str, ids: list[str], lookup: dict) -> str:
-    if not ids:
-        return ""
-    links = []
-    for item_id in ids:
-        item = lookup.get(item_id)
-        if not item:
-            continue
-        href = f"/{kind}/{e(item.get('slug', item_id))}/"
-        links.append(f'<a class="chip" href="{href}">{e(item["name"])}</a>')
-    return f'<div class="chip-row">{"".join(links)}</div>' if links else ""
-
-
-def source_rows(data: dict, refs: list[dict]) -> str:
-    sources = index_by(data["sources"])
-    items = []
-    for ref in refs:
-        src = sources.get(ref["id"], {"name": ref["id"], "type": "unknown"})
-        items.append(
-            f'<li><a href="{e(ref["url"])}" rel="noopener noreferrer">{e(ref.get("title") or src["name"])}</a>'
-            f' — {e(src["name"])} ({e(src.get("type", "source"))}, {e(pretty_date(ref.get("published")))})</li>'
-        )
-    return f'<ul class="prose-list">{"".join(items)}</ul>' if items else '<p class="empty-state">No sources attached.</p>'
-
-
-def empty(title: str, text: str) -> str:
-    return f'<div class="empty-state"><strong>{e(title)}</strong>{e(text)}</div>'
-
+from scripts.lib import assets
+from scripts.lib.components import bar_rows, chips, empty, numbered, row, source_rows
+from scripts.lib.html_utils import e, index_by, load, page_file, pretty_date, short_date, write
+from scripts.lib.layout import breadcrumbs, crumb_ld, layout
+from scripts.lib.ingest.sources import load_sources
+from scripts.lib.country_intel import country_records, world_country_registry
+from scripts.lib.ingest.sectors import SECTOR_LABELS
+from scripts.lib.ingest.classify import primary_sector_label
+from scripts.lib.intelligence.access import IntelligenceStore
+from scripts.lib.intelligence.build import write_intelligence_public
+from scripts.lib.intelligence.country_events import country_event_summary
+from scripts.lib.paths import ROOT, RSS_INBOX_PATH, VOXEL_COUNTRIES_PATH, XENO_MAIN
+from scripts.lib.stable_json import write_if_changed
 
 TOPIC_SHORT = {
     "ai": "AI",
@@ -258,15 +35,6 @@ TOPIC_SHORT = {
 }
 
 IMPORTANCE_ORDER = {"LEAD": 0, "EVIDENCE": 1, "CONTEXT": 2, "WATCH": 3}
-
-
-def short_date(value: str | None) -> str:
-    if not value:
-        return "UNDATED"
-    try:
-        return datetime.strptime(value[:10], "%Y-%m-%d").strftime("%d %b").upper()
-    except ValueError:
-        return value
 
 
 def loc_id(city: str, country: str) -> str:
@@ -479,14 +247,34 @@ def dashboard_data(data: dict) -> dict:
         status_counts[s["status"]] = status_counts.get(s["status"], 0) + 1
 
     inbox_count = 0
-    inbox_path = ROOT / "data" / "ingest" / "rss-inbox.json"
-    if inbox_path.exists():
+    if RSS_INBOX_PATH.exists():
         try:
-            inbox_count = len(json.loads(inbox_path.read_text(encoding="utf-8")).get("items", []))
+            inbox_count = len(json.loads(RSS_INBOX_PATH.read_text(encoding="utf-8")).get("items", []))
         except (ValueError, OSError):
             inbox_count = 0
 
     lead = briefings and index_by(briefings, "slug").get(data["site"]["edition"].get("lead_briefing", ""))
+
+    voxel_countries: dict[str, dict] = {}
+    if VOXEL_COUNTRIES_PATH.is_file():
+        try:
+            voxel_payload = json.loads(VOXEL_COUNTRIES_PATH.read_text(encoding="utf-8"))
+            voxel_countries = {c["id"]: c for c in voxel_payload.get("countries", [])}
+        except (OSError, ValueError):
+            voxel_countries = {}
+
+    country_items = country_records(
+        loc_items=loc_items,
+        entities=entities,
+        signals=signals,
+        voxel_countries=voxel_countries,
+    )
+    world_countries = world_country_registry(voxel_countries)
+
+    intel_store = IntelligenceStore()
+    intel_events = intel_store.latest_events(limit=500)
+    intel_articles = intel_store.articles()
+    country_intel_events = country_event_summary(intel_events)
 
     return {
         "meta": {
@@ -502,6 +290,11 @@ def dashboard_data(data: dict) -> dict:
                 "sources_cited": len(source_counts),
                 "collections": len(data["collections"]),
                 "inbox": inbox_count,
+                "countries_with_presence": len(country_items),
+                "world_countries": len(voxel_countries),
+                "intel_events": len(intel_events),
+                "intel_articles": len(intel_articles),
+                "countries_with_events": len(country_intel_events),
             },
             "lead_briefing": data["site"]["edition"].get("lead_briefing"),
         },
@@ -509,6 +302,8 @@ def dashboard_data(data: dict) -> dict:
         "signals": sig_items,
         "entities": ent_items,
         "locations": loc_items,
+        "countries": country_items,
+        "world_countries": world_countries,
         "unmapped_entities": unmapped,
         "graph": {"nodes": list(nodes.values()), "edges": list(edges.values())},
         "charts": {
@@ -521,24 +316,10 @@ def dashboard_data(data: dict) -> dict:
             "sources_cited": cited,
         },
         "timeline": (lead or {}).get("timeline", []),
+        "intel_events": intel_events,
+        "intel_articles": intel_articles[:120],
+        "country_intel_events": country_intel_events,
     }
-
-
-def bar_rows(items: list[tuple[str, int, str | None, str]], chart_id: str, key_attr: str) -> str:
-    """Static horizontal bars. items: (label, count, href or None, data-key)."""
-    top = max([n for _, n, _, _ in items] + [1])
-    rows = []
-    for label, count, href, key in items:
-        pct = round(100 * count / top) if count else 0
-        label_html = f'<a href="{e(href)}">{e(label)}</a>' if href else e(label)
-        rows.append(
-            f'<div class="bar-row" {key_attr}="{e(key)}" role="button" tabindex="0" aria-label="Filter: {e(label)}">'
-            f'<span class="bar-label">{label_html}</span>'
-            f'<span class="bar-track"><span class="bar-fill" style="width:{pct}%"></span></span>'
-            f'<span class="bar-value">{count}</span>'
-            f"</div>"
-        )
-    return f'<div class="bar-chart" id="{e(chart_id)}">{"".join(rows)}</div>'
 
 
 def homepage(data: dict) -> str:
@@ -556,6 +337,7 @@ def homepage(data: dict) -> str:
     crumb = [("/", "Home")]
     dash = dashboard_data(data)
     counts = dash["meta"]["counts"]
+    enabled_source_count = len(load_sources())
 
     topic_chips = "".join(
         f'<button type="button" class="f-chip" data-topic="{e(t["id"])}">{e(TOPIC_SHORT.get(t["id"], t["name"].upper()))}</button>'
@@ -563,20 +345,72 @@ def homepage(data: dict) -> str:
     )
 
     loc_index = []
-    for loc in dash["locations"]:
+    for country in dash["countries"]:
         ent_links = ", ".join(
-            f'<a href="{e(ent["url"])}">{e(ent["name"])}</a>' for ent in loc["entities"]
+            f'<a href="{e(ent["url"])}">{e(ent["name"])}</a>' for ent in country["entities"]
+        )
+        presence_note = (
+            f'{country["signal_count"]} SIGNAL{"S" if country["signal_count"] != 1 else ""} ON RECORD'
+            if country["has_signals"]
+            else "ENTITY PRESENCE · 0 SIGNALS"
         )
         loc_index.append(
-            f'<li><button type="button" class="loc-btn" data-loc="{e(loc["id"])}">'
-            f'<span class="loc-name">{e(loc["city"].upper())}, {e(loc["country"].upper())}</span>'
-            f'<span class="loc-meta"><b>{loc["signal_count"]} SIGNAL{"S" if loc["signal_count"] != 1 else ""}</b> · {ent_links}</span>'
+            f'<li><button type="button" class="loc-btn country-btn" data-country="{e(country["id"])}">'
+            f'<span class="loc-name">{e(country["name"].upper())}</span>'
+            f'<span class="loc-meta"><b>{presence_note}</b> · {ent_links}</span>'
             f"</button></li>"
         )
     unmapped_note = ""
     if dash["unmapped_entities"]:
         names = ", ".join(ent["name"] for ent in dash["unmapped_entities"])
-        unmapped_note = f" Not mapped: {e(names)} - no fixed site on record."
+        unmapped_note = f" Entities without geographic basis: {e(names)} — not placed on the world."
+    world_note = (
+        f'{dash["meta"]["counts"].get("world_countries", 0)} COUNTRIES IN GEOMETRY · '
+        f'{len(dash["countries"])} WITH RECORDED PRESENCE'
+    )
+
+    event_rows = []
+    for ev in dash.get("intel_events", [])[:24]:
+        fact = ev["facts"][0] if ev.get("facts") else ev.get("event_type", "event")
+        sectors = " · ".join(e(s.upper()) for s in ev.get("sectors", [])[:3]) or "UNCLASSIFIED"
+        prov = ev.get("provenance") or {}
+        src_url = prov.get("canonical_url", "#")
+        event_rows.append(
+            f"""<article class="evt-row">
+  <div class="evt-flag"><b>{e(ev.get("event_type", "event").replace("_", " ").upper())}</b><time datetime="{e(ev.get("timestamp", ""))}">{e(short_date(ev.get("timestamp", "")[:10])) if ev.get("timestamp") else "—"}</time></div>
+  <div class="evt-body">
+    <h3><a href="{e(src_url)}" rel="noopener noreferrer">{e(fact[:120])}</a></h3>
+    <p class="evt-meta">{sectors} // {e(ev.get("confidence", "medium").upper())} // {e(prov.get("source_name", ""))}</p>
+  </div>
+</article>"""
+        )
+    events_html = "".join(event_rows) if event_rows else (
+        '<div class="data-state"><strong>NO EXTRACTED EVENTS</strong>'
+        "<p>Run the ingestion pipeline to populate the editorial inbox and event layer.</p></div>"
+    )
+
+    sector_chips = "".join(
+        f'<button type="button" class="f-chip info-sector-chip" data-sector="{e(sid)}">{e(label.upper())}</button>'
+        for sid, label in SECTOR_LABELS.items()
+    )
+    info_rows = []
+    for art in dash.get("intel_articles", [])[:80]:
+        sectors = art.get("suggested_topics") or []
+        primary = art.get("primary_sector") or "general"
+        sector_label = primary_sector_label(primary) if primary != "general" else "GENERAL"
+        pub = art.get("published_at") or art.get("ingested_at") or ""
+        info_rows.append(
+            f"""<article class="info-row" data-sectors="{e(",".join(sectors))}" data-primary="{e(primary)}">
+  <div class="info-flag"><b>{e(sector_label)}</b><time datetime="{e(pub)}">{e(short_date(pub[:10])) if pub else "—"}</time></div>
+  <div class="info-body">
+    <h3><a href="{e(art["canonical_url"])}" rel="noopener noreferrer">{e(art["title"][:140])}</a></h3>
+    <p class="info-meta">{e(art.get("source", ""))} // {e(art.get("source_reliability") or art.get("source_category") or "source")} // INBOX</p>
+  </div>
+</article>"""
+        )
+    info_stream_html = "".join(info_rows) if info_rows else (
+        '<div class="data-state"><strong>NO INGESTED ARTICLES</strong><p>Run make ingest to populate the information stream.</p></div>'
+    )
 
     sig_rows = []
     for s in signals:
@@ -670,20 +504,50 @@ def homepage(data: dict) -> str:
   </div>
 
   <div class="panel" id="panel-map">
-    <div class="panel-head"><span class="panel-title">GEOGRAPHIC ACTIVITY</span><span class="panel-note">{len(dash["locations"])} SITES · {counts["entities_mapped"]} MAPPED ENTITIES</span></div>
+    <div class="panel-head"><span class="panel-title">GEOGRAPHIC INTELLIGENCE</span><span class="panel-note">{world_note}</span></div>
     <div class="map-grid">
-      <div id="dash-map" class="dash-map" role="application" aria-label="Map of entity locations linked to published signals"><noscript><p class="noscript-note">INTERACTIVE MAP NEEDS JAVASCRIPT - THE LOCATION INDEX LISTS EVERY SITE ON RECORD.</p></noscript></div>
+      <div id="dash-voxel-world" class="dash-voxel-world" role="application" aria-label="Three-dimensional voxel world map of countries">
+        <noscript><p class="noscript-note">INTERACTIVE WORLD MAP REQUIRES JAVASCRIPT — THE COUNTRY INDEX LISTS EVERY RECORDED PRESENCE.</p></noscript>
+        <div class="voxel-fallback" id="voxel-fallback" hidden>
+          <strong>WEBGL UNAVAILABLE</strong>
+          <p>This panel needs WebGL for the 3D voxel world. Use the country index to inspect recorded presence.</p>
+        </div>
+        <div class="voxel-hud" aria-hidden="true">
+          <span class="voxel-hud-label">VOXEL WORLD</span>
+          <span class="voxel-hud-hint">DRAG · SCROLL · SELECT</span>
+        </div>
+      </div>
       <aside class="map-side">
         <div class="map-detail" id="map-detail">
-          <p class="detail-hint">SELECT A MARKER OR LOCATION TO INSPECT ITS SIGNALS.</p>
+          <p class="detail-hint">SELECT A COUNTRY ON THE WORLD OR FROM THE INDEX TO INSPECT ITS RECORD.</p>
         </div>
         <div class="map-index-block">
-          <p class="mini-label">LOCATION INDEX</p>
-          <ul class="loc-index" id="loc-index">{"".join(loc_index)}</ul>
+          <p class="mini-label">COUNTRY INDEX</p>
+          <ul class="loc-index" id="country-index">{"".join(loc_index) if loc_index else '<li><p class="detail-hint">No country-level presence on record yet.</p></li>'}</ul>
         </div>
       </aside>
     </div>
-    <p class="panel-foot">Entity sites from public record (headquarters / campus). Signals attach through their linked entities; records without a reliable geographic association stay off the map.{unmapped_note} Tiles © OpenStreetMap contributors © CARTO.</p>
+    <p class="panel-foot">Country geometry from Natural Earth 1:110m (static, local). Intelligence overlays derive from published entity and signal records only — geography without a record stays unlit.{unmapped_note}</p>
+  </div>
+
+  <div class="panel" id="panel-events">
+    <div class="panel-head"><span class="panel-title">EXTRACTED EVENTS</span><span class="panel-note">{counts.get("intel_events", 0)} FROM INGEST · INBOX ONLY</span></div>
+    <div class="evt-list">{events_html}</div>
+    <p class="panel-foot">Structured events from ingested sources. Facts are separated from interpretation. Nothing here is published or traded. <a href="/intelligence/">Open intelligence layer</a></p>
+  </div>
+
+  <div class="panel" id="panel-info-stream">
+    <div class="panel-head"><span class="panel-title">INFORMATION STREAM</span><span class="panel-note">{counts.get("intel_articles", 0)} ARTICLES · EDITORIAL INBOX</span></div>
+    <div class="filter-bar info-filter-bar" role="group" aria-label="Sector filter">
+      <span class="filter-group">
+        <span class="filter-label">SECTOR</span>
+        <button type="button" class="f-chip info-sector-chip is-active" data-sector="all">ALL</button>
+        {sector_chips}
+      </span>
+      <span class="filter-readout" id="info-stream-readout">{counts.get("intel_articles", 0)} IN VIEW</span>
+    </div>
+    <div class="info-list" id="info-stream">{info_stream_html}</div>
+    <p class="panel-foot">Live ingested information from {enabled_source_count} sources. Items remain in INBOX until editorially promoted to a published signal or briefing.</p>
   </div>
 
   <div class="console-grid">
@@ -705,6 +569,7 @@ def homepage(data: dict) -> str:
         <div><dt>ENTITIES</dt><dd>{counts["entities"]} REGISTERED · {counts["entities_mapped"]} MAPPED</dd></div>
         <div><dt>SOURCES</dt><dd>{counts["sources"]} REGISTERED · {counts["sources_cited"]} CITED</dd></div>
         <div><dt>INGEST INBOX</dt><dd>{counts["inbox"]} HELD FOR REVIEW</dd></div>
+        <div><dt>EXTRACTED EVENTS</dt><dd>{counts.get("intel_events", 0)} IN EVENT LAYER</dd></div>
         <div><dt>UPDATED</dt><dd>{e(pretty_date(site["edition"]["date"]))}</dd></div>
       </dl>
       <p class="mini-label">SIGNAL VERIFICATION SPLIT</p>
@@ -832,6 +697,8 @@ def homepage(data: dict) -> str:
         },
         crumb_ld(site, crumb),
     ]
+    three_url = assets.url("/js/vendor/three.module.js")
+    importmap = json.dumps({"imports": {"three": three_url}}, ensure_ascii=False)
     return layout(
         data,
         title=f'{site["name"]} — {site["tagline"]}',
@@ -840,8 +707,10 @@ def homepage(data: dict) -> str:
         active="home",
         body=body,
         crumbs=crumb,
-        extra_css=["/css/vendor/leaflet.css", "/css/dashboard.css"],
-        extra_js=["/js/vendor/leaflet.js", "/js/dashboard.js"],
+        extra_css=["/css/dashboard.css"],
+        extra_js=["/js/dashboard.js", "/js/info-stream.js"],
+        module_js=["/js/voxel-world.js"],
+        extra_head=f'<script type="importmap">{importmap}</script>',
         ld=ld,
     )
 
@@ -1731,7 +1600,179 @@ def atom_feed(data: dict) -> str:
 """
 
 
+def intelligence_page(data: dict) -> str:
+    site = data["site"]
+    crumb = [("/", "Home"), ("/intelligence/", "Intelligence")]
+    store = IntelligenceStore()
+    events = store.latest_events(limit=50)
+    all_articles = store.articles()
+    articles = all_articles[:30]
+    assets_list = store.assets()
+    markets_list = store.markets()
+    price_obs = store.price_observations()
+    reactions = store.historical_reactions()
+    prediction_obs = store.prediction_market_observations()
+    probabilities = store.probability_observations()
+    country_events = country_event_summary(store.latest_events(limit=10_000))
+
+    sector_counts: dict[str, int] = {}
+    for article in all_articles:
+        ps = article.get("primary_sector")
+        if ps:
+            sector_counts[ps] = sector_counts.get(ps, 0) + 1
+
+    event_rows = []
+    for ev in events:
+        facts = ev.get("facts") or []
+        fact_block = "".join(f"<li>{e(f)}</li>" for f in facts)
+        interp_block = ""
+        if ev.get("interpretations"):
+            interp_block = "<dt>INTERPRETATION</dt><dd>" + "<br>".join(e(i) for i in ev["interpretations"]) + "</dd>"
+        prov = ev.get("provenance") or {}
+        geo = ev.get("geography") or {}
+        geo_bits = []
+        if geo.get("event_country_ids"):
+            geo_bits.append("event: " + ", ".join(geo["event_country_ids"]))
+        if geo.get("headquarters_country_ids"):
+            geo_bits.append("hq: " + ", ".join(geo["headquarters_country_ids"]))
+        if geo.get("regulatory_country_ids"):
+            geo_bits.append("regulatory: " + ", ".join(geo["regulatory_country_ids"]))
+        geo_block = f'<div><dt>GEOGRAPHY</dt><dd>{e(" · ".join(geo_bits) or "—")}</dd></div>' if geo_bits or ev.get("countries") else ""
+        sectors_block = ""
+        if ev.get("sectors"):
+            sectors_block = f'<div><dt>SECTORS</dt><dd>{e(", ".join(ev["sectors"]))}</dd></div>'
+        assets_block = ""
+        if ev.get("assets"):
+            assets_block = f'<div><dt>ASSETS</dt><dd>{e(", ".join(ev["assets"]))}</dd></div>'
+        event_rows.append(
+            f"""<article class="intel-event">
+  <header><span class="intel-type">{e(ev.get("event_type", "").replace("_", " ").upper())}</span>
+  <time datetime="{e(ev.get("timestamp", ""))}">{e(ev.get("timestamp", "—")[:19])}</time></header>
+  <ul class="intel-facts">{fact_block}</ul>
+  <dl class="intel-meta">
+    <div><dt>SOURCE</dt><dd><a href="{e(prov.get("canonical_url", "#"))}" rel="noopener noreferrer">{e(prov.get("source_name", ""))}</a></dd></div>
+    <div><dt>CONFIDENCE</dt><dd>{e(ev.get("confidence", ""))}</dd></div>
+    <div><dt>STATUS</dt><dd>{e(ev.get("interpretation_status", ""))}</dd></div>
+    <div><dt>ENTITIES</dt><dd>{e(", ".join(ev.get("entities", [])) or "—")}</dd></div>
+    {geo_block}
+    {sectors_block}
+    {assets_block}
+    {interp_block}
+  </dl>
+</article>"""
+        )
+
+    asset_rows = "".join(
+        f'<li><b>{e(a["symbol"])}</b> — {e(a["name"])} <span class="intel-tag">{e(a["asset_class"])}</span></li>'
+        for a in assets_list
+    )
+    market_rows = "".join(
+        f'<li><b>{e(m["symbol"])}</b> @ {e(m["venue"])} <span class="intel-tag">{e(m["market_type"])}</span></li>'
+        for m in markets_list
+    )
+    sector_rows = "".join(
+        f'<li><b>{e(SECTOR_LABELS.get(sid, sid))}</b> <span class="intel-tag">{count}</span></li>'
+        for sid, count in sorted(sector_counts.items(), key=lambda x: (-x[1], x[0]))
+    )
+    price_rows = "".join(
+        f'<li><b>{e(o.get("symbol", o.get("asset_id", "")))}</b> {e(str(o.get("price", "—")))} '
+        f'<span class="intel-tag">{e(o.get("source", ""))}</span></li>'
+        for o in price_obs[:10]
+    )
+    country_rows = "".join(
+        f'<li><b>{e(cid)}</b> <span class="intel-tag">{meta.get("event_count", 0)} events</span></li>'
+        for cid, meta in sorted(country_events.items(), key=lambda x: -x[1].get("event_count", 0))[:12]
+    )
+
+    body = f"""
+<section class="page-head container">
+  {breadcrumbs(crumb)}
+  <p class="masthead-kicker">MARKET INTELLIGENCE FOUNDATION</p>
+  <h1>INTELLIGENCE<span>.</span></h1>
+  <p class="console-sub">Structured events and market observations derived from ingested sources. Editorial inbox items are never auto-published. No trading signals. No fabricated probabilities.</p>
+</section>
+<section class="console container">
+  <div class="panel">
+    <div class="panel-head"><span class="panel-title">PIPELINE</span><span class="panel-note">STAGE 4 · $0/MO</span></div>
+    <p class="panel-foot" style="border-top:0">{" → ".join(e(step) for step in ["SOURCE", "ARTICLE", "EVENT", "ENTITY", "COUNTRY", "SECTOR", "ASSET", "MARKET", "OBSERVATION", "HISTORICAL REACTION", "PROBABILITY"])}</p>
+  </div>
+  <div class="console-grid">
+    <div class="panel">
+      <div class="panel-head"><span class="panel-title">COVERAGE</span><span class="panel-note">{len(all_articles)} ARTICLES · {len(events)} EVENTS</span></div>
+      <ul class="intel-list">{sector_rows or "<li>No sector coverage yet.</li>"}</ul>
+    </div>
+    <div class="panel">
+      <div class="panel-head"><span class="panel-title">GEOGRAPHY</span><span class="panel-note">{len(country_events)} COUNTRIES</span></div>
+      <ul class="intel-list">{country_rows or "<li>No country associations yet.</li>"}</ul>
+    </div>
+  </div>
+  <div class="console-grid">
+    <div class="panel">
+      <div class="panel-head"><span class="panel-title">ASSETS</span><span class="panel-note">{len(assets_list)} REGISTERED</span></div>
+      <ul class="intel-list">{asset_rows or "<li>No assets registered yet.</li>"}</ul>
+    </div>
+    <div class="panel">
+      <div class="panel-head"><span class="panel-title">MARKETS</span><span class="panel-note">{len(markets_list)} REGISTERED</span></div>
+      <ul class="intel-list">{market_rows or "<li>No markets registered yet.</li>"}</ul>
+    </div>
+  </div>
+  <div class="console-grid">
+    <div class="panel">
+      <div class="panel-head"><span class="panel-title">PRICE OBSERVATIONS</span><span class="panel-note">{len(price_obs)} LIVE</span></div>
+      <ul class="intel-list">{price_rows or "<li>No price observations yet.</li>"}</ul>
+    </div>
+    <div class="panel">
+      <div class="panel-head"><span class="panel-title">RESEARCH DATA</span><span class="panel-note">{len(reactions)} REACTIONS</span></div>
+      <ul class="intel-list">
+        <li><b>Historical reactions</b> <span class="intel-tag">{len(reactions)}</span></li>
+        <li><b>Prediction markets</b> <span class="intel-tag">{len(prediction_obs)}</span></li>
+        <li><b>Market-implied probabilities</b> <span class="intel-tag">{len(probabilities)}</span></li>
+      </ul>
+      <p class="panel-foot">Observations only. NULL where data is unavailable. No buy/sell labels.</p>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="panel-head"><span class="panel-title">STRUCTURED EVENTS</span><span class="panel-note">{len(events)} EXTRACTED</span></div>
+    <div class="intel-events">{"".join(event_rows) if event_rows else empty("No events extracted yet. Run scripts/run_ingest.py.")}</div>
+    <p class="panel-foot">Facts are listed verbatim from source titles/summaries. Geography uses explicit evidence only.</p>
+  </div>
+  <div class="panel">
+    <div class="panel-head"><span class="panel-title">INGESTED ARTICLES</span><span class="panel-note">{len(all_articles)} IN INBOX</span></div>
+    <ul class="intel-list">
+      {"".join(f'<li><a href="{e(a["canonical_url"])}" rel="noopener noreferrer">{e(a["title"])}</a> <span class="intel-tag">{e(a.get("primary_sector") or a["source_id"])}</span></li>' for a in articles[:20])}
+    </ul>
+  </div>
+</section>
+"""
+    return layout(
+        data,
+        title=f"Intelligence — {site['name']}",
+        description="Structured market intelligence foundation: ingested events, assets, and markets.",
+        route="/intelligence/",
+        active="intelligence",
+        body=body,
+        crumbs=crumb,
+        extra_css=["/css/dashboard.css"],
+        ld=[crumb_ld(site, crumb)],
+    )
+
+
 def main() -> None:
+    import subprocess
+    import sys
+
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "build_voxel_world.py")], check=True)
+
+    try:
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "run_ingest.py")], check=True)
+    except subprocess.CalledProcessError:
+        print("WARN: ingestion pipeline failed; continuing build with existing intelligence data")
+
+    write_intelligence_public(ROOT)
+
+    manifest = assets.publish_assets(ROOT)
+    assets.configure(manifest)
+
     data = load()
     routes: list[str] = []
 
@@ -1739,6 +1780,7 @@ def main() -> None:
         "/": homepage(data),
         "/briefings/": briefings_index(data),
         "/signals/": signals_index(data),
+        "/intelligence/": intelligence_page(data),
         "/topics/": topics_index(data),
         "/entities/": entities_index(data),
         "/archive/": archive_page(data),
@@ -1769,8 +1811,14 @@ def main() -> None:
         routes.append(route)
 
     write(ROOT / "404.html", not_found(data))
-    write(ROOT / "data" / "search-index.json", json.dumps({"generated_at": datetime.now(timezone.utc).isoformat(), "items": index_items}, indent=2))
-    write(ROOT / "data" / "dashboard.json", json.dumps(dashboard_data(data), indent=2))
+    write_if_changed(
+        ROOT / "data" / "search-index.json",
+        {"generated_at": datetime.now(timezone.utc).isoformat(), "items": index_items},
+    )
+    write_if_changed(
+        ROOT / "data" / "dashboard.json",
+        dashboard_data(data),
+    )
     write(ROOT / "sitemap.xml", sitemap(data, routes))
     write(ROOT / "robots.txt", robots(data))
     write(ROOT / "feed.xml", atom_feed(data))
@@ -1786,7 +1834,10 @@ def main() -> None:
     for filename, target in redirects.items():
         write(ROOT / filename, redirect_page(target, f"Redirecting to {target}"))
 
-    print(f"Wrote {len(pages)} pages, search index ({len(index_items)} items), sitemap, feed, redirects.")
+    print(
+        f"Wrote {len(pages)} pages, search index ({len(index_items)} items), "
+        f"{len(manifest)} hashed assets, sitemap, feed, redirects."
+    )
 
 
 if __name__ == "__main__":
