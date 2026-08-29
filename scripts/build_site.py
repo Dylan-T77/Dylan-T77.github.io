@@ -16,9 +16,13 @@ from scripts.lib import assets
 from scripts.lib.components import bar_rows, chips, empty, numbered, row, source_rows
 from scripts.lib.html_utils import e, index_by, load, page_file, pretty_date, short_date, write
 from scripts.lib.layout import breadcrumbs, crumb_ld, layout
+from scripts.lib.ingest.sources import load_sources
 from scripts.lib.country_intel import country_records, world_country_registry
+from scripts.lib.ingest.sectors import SECTOR_LABELS
+from scripts.lib.ingest.classify import primary_sector_label
 from scripts.lib.intelligence.access import IntelligenceStore
 from scripts.lib.intelligence.build import write_intelligence_public
+from scripts.lib.intelligence.country_events import country_event_summary
 from scripts.lib.paths import ROOT, RSS_INBOX_PATH, VOXEL_COUNTRIES_PATH, XENO_MAIN
 from scripts.lib.stable_json import write_if_changed
 
@@ -268,7 +272,9 @@ def dashboard_data(data: dict) -> dict:
     world_countries = world_country_registry(voxel_countries)
 
     intel_store = IntelligenceStore()
-    intel_events = intel_store.latest_events(limit=24)
+    intel_events = intel_store.latest_events(limit=500)
+    intel_articles = intel_store.articles()
+    country_intel_events = country_event_summary(intel_events)
 
     return {
         "meta": {
@@ -287,6 +293,8 @@ def dashboard_data(data: dict) -> dict:
                 "countries_with_presence": len(country_items),
                 "world_countries": len(voxel_countries),
                 "intel_events": len(intel_events),
+                "intel_articles": len(intel_articles),
+                "countries_with_events": len(country_intel_events),
             },
             "lead_briefing": data["site"]["edition"].get("lead_briefing"),
         },
@@ -309,6 +317,8 @@ def dashboard_data(data: dict) -> dict:
         },
         "timeline": (lead or {}).get("timeline", []),
         "intel_events": intel_events,
+        "intel_articles": intel_articles[:120],
+        "country_intel_events": country_intel_events,
     }
 
 
@@ -327,6 +337,7 @@ def homepage(data: dict) -> str:
     crumb = [("/", "Home")]
     dash = dashboard_data(data)
     counts = dash["meta"]["counts"]
+    enabled_source_count = len(load_sources())
 
     topic_chips = "".join(
         f'<button type="button" class="f-chip" data-topic="{e(t["id"])}">{e(TOPIC_SHORT.get(t["id"], t["name"].upper()))}</button>'
@@ -359,7 +370,7 @@ def homepage(data: dict) -> str:
     )
 
     event_rows = []
-    for ev in dash.get("intel_events", [])[:8]:
+    for ev in dash.get("intel_events", [])[:24]:
         fact = ev["facts"][0] if ev.get("facts") else ev.get("event_type", "event")
         sectors = " · ".join(e(s.upper()) for s in ev.get("sectors", [])[:3]) or "UNCLASSIFIED"
         prov = ev.get("provenance") or {}
@@ -376,6 +387,29 @@ def homepage(data: dict) -> str:
     events_html = "".join(event_rows) if event_rows else (
         '<div class="data-state"><strong>NO EXTRACTED EVENTS</strong>'
         "<p>Run the ingestion pipeline to populate the editorial inbox and event layer.</p></div>"
+    )
+
+    sector_chips = "".join(
+        f'<button type="button" class="f-chip info-sector-chip" data-sector="{e(sid)}">{e(label.upper())}</button>'
+        for sid, label in SECTOR_LABELS.items()
+    )
+    info_rows = []
+    for art in dash.get("intel_articles", [])[:80]:
+        sectors = art.get("suggested_topics") or []
+        primary = art.get("primary_sector") or "general"
+        sector_label = primary_sector_label(primary) if primary != "general" else "GENERAL"
+        pub = art.get("published_at") or art.get("ingested_at") or ""
+        info_rows.append(
+            f"""<article class="info-row" data-sectors="{e(",".join(sectors))}" data-primary="{e(primary)}">
+  <div class="info-flag"><b>{e(sector_label)}</b><time datetime="{e(pub)}">{e(short_date(pub[:10])) if pub else "—"}</time></div>
+  <div class="info-body">
+    <h3><a href="{e(art["canonical_url"])}" rel="noopener noreferrer">{e(art["title"][:140])}</a></h3>
+    <p class="info-meta">{e(art.get("source", ""))} // {e(art.get("source_reliability") or art.get("source_category") or "source")} // INBOX</p>
+  </div>
+</article>"""
+        )
+    info_stream_html = "".join(info_rows) if info_rows else (
+        '<div class="data-state"><strong>NO INGESTED ARTICLES</strong><p>Run make ingest to populate the information stream.</p></div>'
     )
 
     sig_rows = []
@@ -500,6 +534,20 @@ def homepage(data: dict) -> str:
     <div class="panel-head"><span class="panel-title">EXTRACTED EVENTS</span><span class="panel-note">{counts.get("intel_events", 0)} FROM INGEST · INBOX ONLY</span></div>
     <div class="evt-list">{events_html}</div>
     <p class="panel-foot">Structured events from ingested sources. Facts are separated from interpretation. Nothing here is published or traded. <a href="/intelligence/">Open intelligence layer</a></p>
+  </div>
+
+  <div class="panel" id="panel-info-stream">
+    <div class="panel-head"><span class="panel-title">INFORMATION STREAM</span><span class="panel-note">{counts.get("intel_articles", 0)} ARTICLES · EDITORIAL INBOX</span></div>
+    <div class="filter-bar info-filter-bar" role="group" aria-label="Sector filter">
+      <span class="filter-group">
+        <span class="filter-label">SECTOR</span>
+        <button type="button" class="f-chip info-sector-chip is-active" data-sector="all">ALL</button>
+        {sector_chips}
+      </span>
+      <span class="filter-readout" id="info-stream-readout">{counts.get("intel_articles", 0)} IN VIEW</span>
+    </div>
+    <div class="info-list" id="info-stream">{info_stream_html}</div>
+    <p class="panel-foot">Live ingested information from {enabled_source_count} sources. Items remain in INBOX until editorially promoted to a published signal or briefing.</p>
   </div>
 
   <div class="console-grid">
@@ -660,7 +708,7 @@ def homepage(data: dict) -> str:
         body=body,
         crumbs=crumb,
         extra_css=["/css/dashboard.css"],
-        extra_js=["/js/dashboard.js"],
+        extra_js=["/js/dashboard.js", "/js/info-stream.js"],
         module_js=["/js/voxel-world.js"],
         extra_head=f'<script type="importmap">{importmap}</script>',
         ld=ld,
@@ -1557,9 +1605,21 @@ def intelligence_page(data: dict) -> str:
     crumb = [("/", "Home"), ("/intelligence/", "Intelligence")]
     store = IntelligenceStore()
     events = store.latest_events(limit=50)
-    articles = store.articles()[:30]
+    all_articles = store.articles()
+    articles = all_articles[:30]
     assets_list = store.assets()
     markets_list = store.markets()
+    price_obs = store.price_observations()
+    reactions = store.historical_reactions()
+    prediction_obs = store.prediction_market_observations()
+    probabilities = store.probability_observations()
+    country_events = country_event_summary(store.latest_events(limit=10_000))
+
+    sector_counts: dict[str, int] = {}
+    for article in all_articles:
+        ps = article.get("primary_sector")
+        if ps:
+            sector_counts[ps] = sector_counts.get(ps, 0) + 1
 
     event_rows = []
     for ev in events:
@@ -1569,6 +1629,21 @@ def intelligence_page(data: dict) -> str:
         if ev.get("interpretations"):
             interp_block = "<dt>INTERPRETATION</dt><dd>" + "<br>".join(e(i) for i in ev["interpretations"]) + "</dd>"
         prov = ev.get("provenance") or {}
+        geo = ev.get("geography") or {}
+        geo_bits = []
+        if geo.get("event_country_ids"):
+            geo_bits.append("event: " + ", ".join(geo["event_country_ids"]))
+        if geo.get("headquarters_country_ids"):
+            geo_bits.append("hq: " + ", ".join(geo["headquarters_country_ids"]))
+        if geo.get("regulatory_country_ids"):
+            geo_bits.append("regulatory: " + ", ".join(geo["regulatory_country_ids"]))
+        geo_block = f'<div><dt>GEOGRAPHY</dt><dd>{e(" · ".join(geo_bits) or "—")}</dd></div>' if geo_bits or ev.get("countries") else ""
+        sectors_block = ""
+        if ev.get("sectors"):
+            sectors_block = f'<div><dt>SECTORS</dt><dd>{e(", ".join(ev["sectors"]))}</dd></div>'
+        assets_block = ""
+        if ev.get("assets"):
+            assets_block = f'<div><dt>ASSETS</dt><dd>{e(", ".join(ev["assets"]))}</dd></div>'
         event_rows.append(
             f"""<article class="intel-event">
   <header><span class="intel-type">{e(ev.get("event_type", "").replace("_", " ").upper())}</span>
@@ -1579,6 +1654,9 @@ def intelligence_page(data: dict) -> str:
     <div><dt>CONFIDENCE</dt><dd>{e(ev.get("confidence", ""))}</dd></div>
     <div><dt>STATUS</dt><dd>{e(ev.get("interpretation_status", ""))}</dd></div>
     <div><dt>ENTITIES</dt><dd>{e(", ".join(ev.get("entities", [])) or "—")}</dd></div>
+    {geo_block}
+    {sectors_block}
+    {assets_block}
     {interp_block}
   </dl>
 </article>"""
@@ -1592,18 +1670,41 @@ def intelligence_page(data: dict) -> str:
         f'<li><b>{e(m["symbol"])}</b> @ {e(m["venue"])} <span class="intel-tag">{e(m["market_type"])}</span></li>'
         for m in markets_list
     )
+    sector_rows = "".join(
+        f'<li><b>{e(SECTOR_LABELS.get(sid, sid))}</b> <span class="intel-tag">{count}</span></li>'
+        for sid, count in sorted(sector_counts.items(), key=lambda x: (-x[1], x[0]))
+    )
+    price_rows = "".join(
+        f'<li><b>{e(o.get("symbol", o.get("asset_id", "")))}</b> {e(str(o.get("price", "—")))} '
+        f'<span class="intel-tag">{e(o.get("source", ""))}</span></li>'
+        for o in price_obs[:10]
+    )
+    country_rows = "".join(
+        f'<li><b>{e(cid)}</b> <span class="intel-tag">{meta.get("event_count", 0)} events</span></li>'
+        for cid, meta in sorted(country_events.items(), key=lambda x: -x[1].get("event_count", 0))[:12]
+    )
 
     body = f"""
 <section class="page-head container">
   {breadcrumbs(crumb)}
   <p class="masthead-kicker">MARKET INTELLIGENCE FOUNDATION</p>
   <h1>INTELLIGENCE<span>.</span></h1>
-  <p class="console-sub">Structured events and market models derived from ingested sources. Editorial inbox items are never auto-published. No trading signals. No fabricated observations.</p>
+  <p class="console-sub">Structured events and market observations derived from ingested sources. Editorial inbox items are never auto-published. No trading signals. No fabricated probabilities.</p>
 </section>
 <section class="console container">
   <div class="panel">
-    <div class="panel-head"><span class="panel-title">PIPELINE</span><span class="panel-note">STAGE 3 · $0/MO</span></div>
-    <p class="panel-foot" style="border-top:0">{" → ".join(e(step) for step in ["SOURCES", "INGEST", "NORMALIZE", "VALIDATE", "DEDUPLICATE", "CLASSIFY", "EXTRACT EVENTS", "EDITORIAL REVIEW", "PUBLISH", "CONNECT"])}</p>
+    <div class="panel-head"><span class="panel-title">PIPELINE</span><span class="panel-note">STAGE 4 · $0/MO</span></div>
+    <p class="panel-foot" style="border-top:0">{" → ".join(e(step) for step in ["SOURCE", "ARTICLE", "EVENT", "ENTITY", "COUNTRY", "SECTOR", "ASSET", "MARKET", "OBSERVATION", "HISTORICAL REACTION", "PROBABILITY"])}</p>
+  </div>
+  <div class="console-grid">
+    <div class="panel">
+      <div class="panel-head"><span class="panel-title">COVERAGE</span><span class="panel-note">{len(all_articles)} ARTICLES · {len(events)} EVENTS</span></div>
+      <ul class="intel-list">{sector_rows or "<li>No sector coverage yet.</li>"}</ul>
+    </div>
+    <div class="panel">
+      <div class="panel-head"><span class="panel-title">GEOGRAPHY</span><span class="panel-note">{len(country_events)} COUNTRIES</span></div>
+      <ul class="intel-list">{country_rows or "<li>No country associations yet.</li>"}</ul>
+    </div>
   </div>
   <div class="console-grid">
     <div class="panel">
@@ -1615,15 +1716,30 @@ def intelligence_page(data: dict) -> str:
       <ul class="intel-list">{market_rows or "<li>No markets registered yet.</li>"}</ul>
     </div>
   </div>
+  <div class="console-grid">
+    <div class="panel">
+      <div class="panel-head"><span class="panel-title">PRICE OBSERVATIONS</span><span class="panel-note">{len(price_obs)} LIVE</span></div>
+      <ul class="intel-list">{price_rows or "<li>No price observations yet.</li>"}</ul>
+    </div>
+    <div class="panel">
+      <div class="panel-head"><span class="panel-title">RESEARCH DATA</span><span class="panel-note">{len(reactions)} REACTIONS</span></div>
+      <ul class="intel-list">
+        <li><b>Historical reactions</b> <span class="intel-tag">{len(reactions)}</span></li>
+        <li><b>Prediction markets</b> <span class="intel-tag">{len(prediction_obs)}</span></li>
+        <li><b>Market-implied probabilities</b> <span class="intel-tag">{len(probabilities)}</span></li>
+      </ul>
+      <p class="panel-foot">Observations only. NULL where data is unavailable. No buy/sell labels.</p>
+    </div>
+  </div>
   <div class="panel">
     <div class="panel-head"><span class="panel-title">STRUCTURED EVENTS</span><span class="panel-note">{len(events)} EXTRACTED</span></div>
     <div class="intel-events">{"".join(event_rows) if event_rows else empty("No events extracted yet. Run scripts/run_ingest.py.")}</div>
-    <p class="panel-foot">Facts are listed verbatim from source titles/summaries. Interpretations and hypotheses remain empty until editorial review.</p>
+    <p class="panel-foot">Facts are listed verbatim from source titles/summaries. Geography uses explicit evidence only.</p>
   </div>
   <div class="panel">
-    <div class="panel-head"><span class="panel-title">INGESTED ARTICLES</span><span class="panel-note">{len(articles)} IN INBOX</span></div>
+    <div class="panel-head"><span class="panel-title">INGESTED ARTICLES</span><span class="panel-note">{len(all_articles)} IN INBOX</span></div>
     <ul class="intel-list">
-      {"".join(f'<li><a href="{e(a["canonical_url"])}" rel="noopener noreferrer">{e(a["title"])}</a> <span class="intel-tag">{e(a["source_id"])}</span></li>' for a in articles[:20])}
+      {"".join(f'<li><a href="{e(a["canonical_url"])}" rel="noopener noreferrer">{e(a["title"])}</a> <span class="intel-tag">{e(a.get("primary_sector") or a["source_id"])}</span></li>' for a in articles[:20])}
     </ul>
   </div>
 </section>

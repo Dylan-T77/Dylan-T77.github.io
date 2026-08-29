@@ -2,68 +2,9 @@
 
 from __future__ import annotations
 
-TOPICS = {
-    "ai": [
-        "artificial intelligence",
-        "machine learning",
-        " llm",
-        " ai ",
-        "openai",
-        "anthropic",
-        "gemini",
-        "qwen",
-        "llama",
-        "claude",
-        "model hardware",
-        "agentic",
-    ],
-    "robotics": [
-        "robot",
-        "robotics",
-        "drone",
-        "autonomous",
-        "humanoid",
-        "lerobot",
-        "robotic arm",
-    ],
-    "space": [
-        "space",
-        "nasa",
-        "spacex",
-        "rocket",
-        "satellite",
-        "orbit",
-        "moon",
-        "mars",
-        "artemis",
-    ],
-    "cybersecurity": [
-        "security",
-        "cyber",
-        "vulnerability",
-        "exploit",
-        "malware",
-        "ransomware",
-        "breach",
-        "cve",
-        "phishing",
-        "zero-day",
-    ],
-    "semiconductors": [
-        "cpu",
-        "gpu",
-        "processor",
-        "chip",
-        "semiconductor",
-        "nvidia",
-        "amd",
-        "intel",
-        "tsmc",
-        "foundry",
-        "wafer",
-    ],
-}
+from scripts.lib.ingest.sectors import SECTOR_LABELS, classify_sectors
 
+# Legacy entity keywords aligned with network.json editorial entities
 ENTITIES = {
     "anthropic": ["anthropic", "claude", "model hardware standard", " mhs "],
     "nvidia": ["nvidia", "geforce", "cuda", "jetson", "omniverse"],
@@ -73,8 +14,14 @@ ENTITIES = {
 }
 
 
-def classify_text(title: str, summary: str) -> tuple[list[str], list[str]]:
+def classify_text(title: str, summary: str) -> tuple[list[str], list[str], str | None]:
     hay = f" {title} {summary} ".lower()
-    topics = [topic for topic, words in TOPICS.items() if any(word in hay for word in words)]
+    sectors, primary = classify_sectors(title, summary)
     entities = [entity for entity, words in ENTITIES.items() if any(word in hay for word in words)]
-    return topics, entities
+    return sectors, entities, primary
+
+
+def primary_sector_label(sector_id: str | None) -> str:
+    if not sector_id:
+        return "GENERAL"
+    return SECTOR_LABELS.get(sector_id, sector_id.replace("_", " ").upper())

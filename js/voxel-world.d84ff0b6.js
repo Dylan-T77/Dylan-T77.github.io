@@ -59,6 +59,7 @@ function VoxelWorld(container) {
   this.pointer = new THREE.Vector2();
   this.world = null;
   this.intelByCountry = {};
+  this.countryEvents = {};
   this.instanceCountry = [];
   this.countryInstances = {};
   this.baseColors = [];
@@ -339,11 +340,12 @@ VoxelWorld.prototype.init = function () {
     });
 };
 
-VoxelWorld.prototype.setIntelligence = function (countries, visSignalIds) {
+VoxelWorld.prototype.setIntelligence = function (countries, visSignalIds, countryEvents) {
   this.intelByCountry = {};
   (countries || []).forEach(function (c) {
     this.intelByCountry[c.id] = c;
   }, this);
+  this.countryEvents = countryEvents || {};
   this.visSignalIds = visSignalIds || {};
   this._applyColors();
 };
@@ -360,17 +362,26 @@ VoxelWorld.prototype._countInView = function (country) {
 
 VoxelWorld.prototype._countryColor = function (cid) {
   var intel = this.intelByCountry[cid];
-  if (!intel) return new THREE.Color(COLORS.geography);
-  var inView = this._countInView(intel);
-  if (inView > 0) {
-    var t = Math.min(1, 0.45 + inView * 0.18);
-    return new THREE.Color(COLORS.signals).lerp(new THREE.Color(COLORS.select), 1 - t);
+  var events = this.countryEvents[cid];
+  if (intel) {
+    var inView = this._countInView(intel);
+    if (inView > 0) {
+      var t = Math.min(1, 0.45 + inView * 0.18);
+      return new THREE.Color(COLORS.signals).lerp(new THREE.Color(COLORS.select), 1 - t);
+    }
+    if (intel.has_signals) {
+      return new THREE.Color(COLORS.signalsDim);
+    }
+    if (intel.has_entity_presence) {
+      return new THREE.Color(COLORS.entities);
+    }
   }
-  if (intel.has_signals) {
-    return new THREE.Color(COLORS.signalsDim);
-  }
-  if (intel.has_entity_presence) {
-    return new THREE.Color(COLORS.entities);
+  if (events && events.event_count > 0) {
+    var intensity = Math.min(1, 0.35 + events.recent_count * 0.25 + events.event_count * 0.05);
+    if (events.recent_count > 0) {
+      return new THREE.Color(COLORS.signalsDim).lerp(new THREE.Color(COLORS.signals), intensity);
+    }
+    return new THREE.Color(COLORS.entities).lerp(new THREE.Color(COLORS.signalsDim), intensity * 0.6);
   }
   return new THREE.Color(COLORS.geography);
 };
@@ -567,8 +578,8 @@ TTB.voxelWorld = {
       return ok;
     });
   },
-  setIntelligence: function (countries, visSignalIds) {
-    if (instance && instance.ready) instance.setIntelligence(countries, visSignalIds);
+  setIntelligence: function (countries, visSignalIds, countryEvents) {
+    if (instance && instance.ready) instance.setIntelligence(countries, visSignalIds, countryEvents);
   },
   selectCountry: function (cid, opts) {
     if (instance && instance.ready) instance.selectCountry(cid, opts || {});

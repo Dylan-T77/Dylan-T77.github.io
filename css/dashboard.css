@@ -310,6 +310,33 @@
   letter-spacing: .1em;
 }
 
+.info-list { display: grid; max-height: 520px; overflow: auto; }
+.info-row {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  gap: 16px;
+  padding: 13px 16px;
+  border-top: 1px solid var(--line);
+  align-items: start;
+}
+.info-row.is-hidden { display: none; }
+.info-row:first-child { border-top: 0; }
+.info-flag {
+  color: #5c6c71;
+  font: 600 .56rem/1.7 ui-monospace, monospace;
+  letter-spacing: .08em;
+}
+.info-flag b { display: block; font-weight: 800; color: var(--accent2); }
+.info-body h3 { margin: 0 0 3px; font-size: .9rem; line-height: 1.4; font-weight: 700; }
+.info-body h3 a:hover { color: var(--accent); }
+.info-meta {
+  margin: 0;
+  color: #5c6c71;
+  font: 600 .56rem ui-monospace, monospace;
+  letter-spacing: .1em;
+}
+.info-filter-bar { margin-top: 0; border-top: 0; border-left: 0; border-right: 0; }
+
 /* ---------- intelligence page ---------- */
 
 .intel-list {

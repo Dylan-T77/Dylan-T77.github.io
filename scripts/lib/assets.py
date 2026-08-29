@@ -19,6 +19,7 @@ ASSET_SOURCES: tuple[str, ...] = (
     "css/xeno-signal.css",
     "js/site.js",
     "js/dashboard.js",
+    "js/info-stream.js",
     "js/search.js",
     "js/voxel-world.js",
     "js/xeno-signal.js",

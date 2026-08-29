@@ -264,7 +264,11 @@
 
   function syncVoxelIntelligence() {
     if (!TTB.voxelWorld || !TTB.voxelWorld.isReady()) return;
-    TTB.voxelWorld.setIntelligence(DATA.countries || [], visSignalMap());
+    TTB.voxelWorld.setIntelligence(
+      DATA.countries || [],
+      visSignalMap(),
+      DATA.country_intel_events || {}
+    );
   }
 
   function initVoxelMap() {

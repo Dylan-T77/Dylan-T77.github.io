@@ -87,7 +87,7 @@ def record_id(canonical: str, title: str) -> str:
     return f"inbox-{digest}"
 
 
-def fetch_feed_items(source: dict, *, limit: int = 25) -> list[dict]:
+def fetch_feed_items(source: dict, *, limit: int | None = None) -> list[dict]:
     request = urllib.request.Request(
         source["url"],
         headers={"User-Agent": "TheTechBriefing-Ingest/1.0 (+https://thetechbriefing.com/about/)"},
@@ -97,8 +97,9 @@ def fetch_feed_items(source: dict, *, limit: int = 25) -> list[dict]:
     root = ET.fromstring(payload)
     nodes = root.findall(".//item") or root.findall(f".//{ATOM}entry")
     ingested_at = datetime.now(timezone.utc).isoformat()
+    item_limit = limit if limit is not None else int(source.get("fetch_limit", 40))
     out: list[dict] = []
-    for node in nodes[:limit]:
+    for node in nodes[:item_limit]:
         title = child_text(node, ["title", f"{ATOM}title"])
         summary = child_text(
             node,
@@ -114,12 +115,14 @@ def fetch_feed_items(source: dict, *, limit: int = 25) -> list[dict]:
         if not title or not url:
             continue
         canonical = canonical_url(url)
-        topics, entities = classify_text(title, summary)
+        sectors, entities, primary_sector = classify_text(title, summary)
+        if not primary_sector:
+            primary_sector = "general"
         out.append(
             {
                 "id": record_id(canonical, title),
                 "title": title,
-                "summary": summary[:400],
+                "summary": summary[:500],
                 "canonical_url": canonical,
                 "original_url": url,
                 "url": url,
@@ -130,8 +133,9 @@ def fetch_feed_items(source: dict, *, limit: int = 25) -> list[dict]:
                 "source_reliability": source.get("reliability"),
                 "published_at": published,
                 "ingested_at": ingested_at,
-                "suggested_topics": topics,
+                "suggested_topics": sectors,
                 "suggested_entities": entities,
+                "primary_sector": primary_sector,
                 "editorial_state": "INBOX",
                 "publish": False,
             }
