@@ -4,250 +4,20 @@
 from __future__ import annotations
 
 import json
+import sys
 from datetime import datetime, timezone
-from html import escape
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-DATA_PATH = ROOT / "data" / "network.json"
-XENO_MAIN = ROOT / "scripts" / "xeno_signal_main.html"
+_REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
 
-
-def e(value) -> str:
-    return escape(str(value if value is not None else ""), quote=True)
-
-
-def load() -> dict:
-    return json.loads(DATA_PATH.read_text(encoding="utf-8"))
-
-
-def index_by(items: list[dict], key: str = "id") -> dict:
-    return {item[key]: item for item in items}
-
-
-def write(path: Path, text: str) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text, encoding="utf-8")
-
-
-def page_file(route: str) -> Path:
-    route = route.rstrip("/") or ""
-    if route == "":
-        return ROOT / "index.html"
-    if route.endswith(".html"):
-        return ROOT / route.lstrip("/")
-    return ROOT / route.lstrip("/") / "index.html"
-
-
-def pretty_date(value: str | None) -> str:
-    if not value:
-        return "undated"
-    try:
-        return datetime.strptime(value[:10], "%Y-%m-%d").strftime("%d %b %Y").upper()
-    except ValueError:
-        return value
-
-
-def nav_items(active: str) -> list[tuple[str, str, str]]:
-    return [
-        ("/briefings/", "BRIEFINGS", "briefings"),
-        ("/signals/", "SIGNALS", "signals"),
-        ("/topics/", "TOPICS", "topics"),
-        ("/archive/", "ARCHIVE", "archive"),
-        ("/lab/", "LAB", "lab"),
-        ("/search/", "SEARCH", "search"),
-    ]
-
-
-def current_attr(active: str, key: str) -> str:
-    return ' aria-current="page"' if active == key else ""
-
-
-def render_nav(site: dict, active: str) -> str:
-    primary = "".join(
-        f'<a href="{e(href)}"{current_attr(active, key)}>{e(label)}</a>'
-        for href, label, key in nav_items(active)
-    )
-    about_current = current_attr(active, "about")
-    mobile = primary + f'<a href="/about/"{about_current}>ABOUT</a>'
-    return f"""<a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
-<nav class="nav container" aria-label="Primary">
-  <a class="brand-lockup" href="/">
-    <span class="brand-name"><span class="status-dot"></span>{e(site["name"])}</span>
-    <span class="brand-loop">READ → UNDERSTAND → VERIFY → CONNECT → DISCOVER</span>
-  </a>
-  <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu">MENU <span>☰</span></button>
-  <div class="nav-cluster">
-    <div class="nav-primary">{primary}</div>
-    <div class="nav-secondary"><a href="/about/"{about_current}>ABOUT</a></div>
-  </div>
-  <div class="mobile-menu" id="mobile-menu">{mobile}</div>
-</nav>
-</header>"""
-
-
-def breadcrumbs(items: list[tuple[str, str]]) -> str:
-    parts = []
-    for i, (href, label) in enumerate(items):
-        last = i == len(items) - 1
-        if last:
-            parts.append(f'<span aria-current="page">{e(label)}</span>')
-        else:
-            parts.append(f'<a href="{e(href)}">{e(label)}</a><span aria-hidden="true">/</span>')
-    return f'<nav class="breadcrumbs" aria-label="Breadcrumb">{"".join(parts)}</nav>'
-
-
-def json_ld(blocks: list[dict]) -> str:
-    return "\n".join(
-        f'<script type="application/ld+json">{json.dumps(block, ensure_ascii=False)}</script>'
-        for block in blocks
-    )
-
-
-def crumb_ld(site: dict, items: list[tuple[str, str]]) -> dict:
-    return {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": i + 1,
-                "name": label,
-                "item": site["url"] + href,
-            }
-            for i, (href, label) in enumerate(items)
-        ],
-    }
-
-
-def layout(
-    data: dict,
-    *,
-    title: str,
-    description: str,
-    route: str,
-    active: str,
-    body: str,
-    crumbs: list[tuple[str, str]],
-    extra_css: list[str] | None = None,
-    extra_js: list[str] | None = None,
-    ld: list[dict] | None = None,
-    og_type: str = "website",
-    article: dict | None = None,
-    extra_head: str = "",
-) -> str:
-    site = data["site"]
-    canonical = site["url"] + (route if route != "/" else "/")
-    css_links = [
-        "/css/style.css",
-        "/css/enhancements.css",
-        "/css/network.css",
-        *(extra_css or []),
-    ]
-    js_links = ["/js/site.js", *(extra_js or [])]
-    edition = site["edition"]
-    meta_article = ""
-    if article:
-        meta_article = f"""
-<meta property="article:published_time" content="{e(article.get("published"))}">
-<meta property="article:modified_time" content="{e(article.get("updated") or article.get("published"))}">
-<meta property="article:author" content="{e(site["author"]["name"])}">"""
-        for topic in article.get("topics", []):
-            meta_article += f'\n<meta property="article:tag" content="{e(topic)}">'
-    ld_blocks = ld or []
-    return f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>{e(title)}</title>
-<meta name="description" content="{e(description)}">
-<link rel="canonical" href="{e(canonical)}">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="alternate" type="application/atom+xml" title="{e(site["name"])} feed" href="/feed.xml">
-<meta name="robots" content="index,follow">
-<meta property="og:site_name" content="{e(site["name"])}">
-<meta property="og:type" content="{e(og_type)}">
-<meta property="og:title" content="{e(title)}">
-<meta property="og:description" content="{e(description)}">
-<meta property="og:url" content="{e(canonical)}">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="{e(title)}">
-<meta name="twitter:description" content="{e(description)}">
-{meta_article}
-{"".join(f'<link rel="stylesheet" href="{e(href)}">' for href in css_links)}
-{extra_head}
-{json_ld(ld_blocks)}
-</head>
-<body>
-<div class="scanlines" aria-hidden="true"></div>
-{render_nav(site, active)}
-<div class="edition-strip">
-  <div class="container">
-    <span>{e(edition["label"])} // <b>{e(edition["status"])}</b></span>
-    <span>{e(pretty_date(edition["date"]))} // {e(site["location"]).upper()}</span>
-  </div>
-</div>
-<main id="main">
-{body}
-</main>
-<footer class="site-footer container">
-  <span>© {datetime.now().year} {e(site["name"])} // LAB: {e(site["author"]["name"]).upper()}</span>
-  <span><a href="/about/">METHODOLOGY</a> · <a href="/feed.xml">FEED</a> · <a href="/lab/">LAB</a></span>
-</footer>
-{"".join(f'<script src="{e(href)}"></script>' for href in js_links)}
-</body>
-</html>
-"""
-
-
-def numbered(items: list[str]) -> str:
-    lis = "".join(
-        f"<li><b>{i:02d}</b><span>{e(item)}</span></li>" for i, item in enumerate(items, 1)
-    )
-    return f'<ol class="takeaway-list">{lis}</ol>'
-
-
-def row(meta: str, title: str, href: str, summary: str, go: str = "OPEN") -> str:
-    return f"""<article class="row-item">
-  <div class="row-meta">{meta}</div>
-  <div>
-    <h3><a href="{e(href)}">{e(title)}</a></h3>
-    <p>{e(summary)}</p>
-  </div>
-  <a class="row-go" href="{e(href)}">{e(go)}</a>
-</article>"""
-
-
-def chips(kind: str, ids: list[str], lookup: dict) -> str:
-    if not ids:
-        return ""
-    links = []
-    for item_id in ids:
-        item = lookup.get(item_id)
-        if not item:
-            continue
-        href = f"/{kind}/{e(item.get('slug', item_id))}/"
-        links.append(f'<a class="chip" href="{href}">{e(item["name"])}</a>')
-    return f'<div class="chip-row">{"".join(links)}</div>' if links else ""
-
-
-def source_rows(data: dict, refs: list[dict]) -> str:
-    sources = index_by(data["sources"])
-    items = []
-    for ref in refs:
-        src = sources.get(ref["id"], {"name": ref["id"], "type": "unknown"})
-        items.append(
-            f'<li><a href="{e(ref["url"])}" rel="noopener noreferrer">{e(ref.get("title") or src["name"])}</a>'
-            f' — {e(src["name"])} ({e(src.get("type", "source"))}, {e(pretty_date(ref.get("published")))})</li>'
-        )
-    return f'<ul class="prose-list">{"".join(items)}</ul>' if items else '<p class="empty-state">No sources attached.</p>'
-
-
-def empty(title: str, text: str) -> str:
-    return f'<div class="empty-state"><strong>{e(title)}</strong>{e(text)}</div>'
-
+from scripts.lib import assets
+from scripts.lib.components import bar_rows, chips, empty, numbered, row, source_rows
+from scripts.lib.html_utils import e, index_by, load, page_file, pretty_date, short_date, write
+from scripts.lib.layout import breadcrumbs, crumb_ld, layout
+from scripts.lib.paths import ROOT, RSS_INBOX_PATH, XENO_MAIN
+from scripts.lib.stable_json import write_if_changed
 
 TOPIC_SHORT = {
     "ai": "AI",
@@ -258,15 +28,6 @@ TOPIC_SHORT = {
 }
 
 IMPORTANCE_ORDER = {"LEAD": 0, "EVIDENCE": 1, "CONTEXT": 2, "WATCH": 3}
-
-
-def short_date(value: str | None) -> str:
-    if not value:
-        return "UNDATED"
-    try:
-        return datetime.strptime(value[:10], "%Y-%m-%d").strftime("%d %b").upper()
-    except ValueError:
-        return value
 
 
 def loc_id(city: str, country: str) -> str:
@@ -479,10 +240,9 @@ def dashboard_data(data: dict) -> dict:
         status_counts[s["status"]] = status_counts.get(s["status"], 0) + 1
 
     inbox_count = 0
-    inbox_path = ROOT / "data" / "ingest" / "rss-inbox.json"
-    if inbox_path.exists():
+    if RSS_INBOX_PATH.exists():
         try:
-            inbox_count = len(json.loads(inbox_path.read_text(encoding="utf-8")).get("items", []))
+            inbox_count = len(json.loads(RSS_INBOX_PATH.read_text(encoding="utf-8")).get("items", []))
         except (ValueError, OSError):
             inbox_count = 0
 
@@ -522,23 +282,6 @@ def dashboard_data(data: dict) -> dict:
         },
         "timeline": (lead or {}).get("timeline", []),
     }
-
-
-def bar_rows(items: list[tuple[str, int, str | None, str]], chart_id: str, key_attr: str) -> str:
-    """Static horizontal bars. items: (label, count, href or None, data-key)."""
-    top = max([n for _, n, _, _ in items] + [1])
-    rows = []
-    for label, count, href, key in items:
-        pct = round(100 * count / top) if count else 0
-        label_html = f'<a href="{e(href)}">{e(label)}</a>' if href else e(label)
-        rows.append(
-            f'<div class="bar-row" {key_attr}="{e(key)}" role="button" tabindex="0" aria-label="Filter: {e(label)}">'
-            f'<span class="bar-label">{label_html}</span>'
-            f'<span class="bar-track"><span class="bar-fill" style="width:{pct}%"></span></span>'
-            f'<span class="bar-value">{count}</span>'
-            f"</div>"
-        )
-    return f'<div class="bar-chart" id="{e(chart_id)}">{"".join(rows)}</div>'
 
 
 def homepage(data: dict) -> str:
@@ -1732,6 +1475,9 @@ def atom_feed(data: dict) -> str:
 
 
 def main() -> None:
+    manifest = assets.publish_assets(ROOT)
+    assets.configure(manifest)
+
     data = load()
     routes: list[str] = []
 
@@ -1769,8 +1515,14 @@ def main() -> None:
         routes.append(route)
 
     write(ROOT / "404.html", not_found(data))
-    write(ROOT / "data" / "search-index.json", json.dumps({"generated_at": datetime.now(timezone.utc).isoformat(), "items": index_items}, indent=2))
-    write(ROOT / "data" / "dashboard.json", json.dumps(dashboard_data(data), indent=2))
+    write_if_changed(
+        ROOT / "data" / "search-index.json",
+        {"generated_at": datetime.now(timezone.utc).isoformat(), "items": index_items},
+    )
+    write_if_changed(
+        ROOT / "data" / "dashboard.json",
+        dashboard_data(data),
+    )
     write(ROOT / "sitemap.xml", sitemap(data, routes))
     write(ROOT / "robots.txt", robots(data))
     write(ROOT / "feed.xml", atom_feed(data))
@@ -1786,7 +1538,10 @@ def main() -> None:
     for filename, target in redirects.items():
         write(ROOT / filename, redirect_page(target, f"Redirecting to {target}"))
 
-    print(f"Wrote {len(pages)} pages, search index ({len(index_items)} items), sitemap, feed, redirects.")
+    print(
+        f"Wrote {len(pages)} pages, search index ({len(index_items)} items), "
+        f"{len(manifest)} hashed assets, sitemap, feed, redirects."
+    )
 
 
 if __name__ == "__main__":
