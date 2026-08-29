@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "schema": "probability_observation",
+  "freshness": "moderate",
+  "generated_at": null,
+  "policy": {
+    "note": "Probabilities require provenance. model_estimate and historical_frequency are null until sourced."
+  },
+  "observations": []
+}

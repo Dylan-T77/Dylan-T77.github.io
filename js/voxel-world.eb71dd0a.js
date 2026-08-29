@@ -1,8 +1,11 @@
 /**
  * The Tech Briefing — 3D voxel world map
  * Static country geometry + live intelligence overlay from dashboard.json
+ *
+ * THREE is loaded via build-time URL injection (/js/vendor/three.module.ce1fa418.js).
+ * Import map remains as a secondary resolver for local dev.
  */
-import * as THREE from "three";
+import * as THREE from "/js/vendor/three.module.ce1fa418.js";
 
 var TTB = (window.TTB = window.TTB || {});
 
@@ -16,6 +19,30 @@ var COLORS = {
   hover: 0x9fffe0,
   select: 0xe8f0f2,
 };
+
+var STAGE = {
+  MODULE: "module",
+  GEOMETRY: "geometry",
+  WEBGL: "webgl",
+  RENDERER: "renderer",
+  SCENE: "scene",
+  VOXELS: "voxels",
+  EVENTS: "events",
+  RENDER: "render",
+};
+
+function isDevHost() {
+  var host = window.location && window.location.hostname;
+  return host === "localhost" || host === "127.0.0.1" || host === "[::1]";
+}
+
+function logStageError(stage, err) {
+  var message = err && err.message ? err.message : String(err);
+  console.error("[ttb:voxel:" + stage + "]", message, err);
+  if (isDevHost() && err && err.stack) {
+    console.error(err.stack);
+  }
+}
 
 function prefersReducedMotion() {
   return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -49,85 +76,118 @@ function VoxelWorld(container) {
   this.distance = 95;
   this.target = new THREE.Vector3(0, 2, 0);
   this.ready = false;
+  this.stage = null;
   this.fallback = document.getElementById("voxel-fallback");
 }
 
-VoxelWorld.prototype.init = function () {
-  var self = this;
-  if (!this.container) return Promise.resolve(false);
+VoxelWorld.prototype._showDiagnostic = function (stage, title, detail) {
+  this.stage = stage;
+  if (this.fallback) {
+    this.fallback.hidden = false;
+    var strong = this.fallback.querySelector("strong");
+    var p = this.fallback.querySelector("p");
+    if (strong) strong.textContent = title;
+    if (p) p.textContent = detail;
+  }
+  if (this.container) this.container.classList.add("is-fallback");
+  window.dispatchEvent(
+    new CustomEvent("ttb:voxel-error", {
+      detail: { stage: stage, title: title, detail: detail },
+    })
+  );
+};
 
+VoxelWorld.prototype._fetchGeometry = function () {
+  var self = this;
   return fetch("/data/geo/voxel-world.v1.json")
     .then(function (res) {
-      if (!res.ok) throw new Error("voxel geometry unavailable");
+      if (!res.ok) {
+        throw new Error("HTTP " + res.status + " loading voxel-world.v1.json");
+      }
       return res.json();
     })
     .then(function (world) {
+      if (!world || !Array.isArray(world.voxels) || !world.cols || !world.rows) {
+        throw new Error("voxel-world.v1.json is missing cols/rows/voxels");
+      }
       self.world = world;
-      return self._setupScene();
+      return world;
     })
-    .catch(function () {
-      self._showFallback("Geometry file unavailable.");
-      return false;
+    .catch(function (err) {
+      logStageError(STAGE.GEOMETRY, err);
+      self._showDiagnostic(
+        STAGE.GEOMETRY,
+        "GEOMETRY UNAVAILABLE",
+        isDevHost()
+          ? err.message
+          : "Country geometry could not be loaded. Use the country index below."
+      );
+      throw err;
     });
 };
 
-VoxelWorld.prototype._showFallback = function (msg) {
-  if (this.fallback) {
-    this.fallback.hidden = false;
-    if (msg) {
-      var p = this.fallback.querySelector("p");
-      if (p) p.textContent = msg;
-    }
-  }
-  if (this.container) this.container.classList.add("is-fallback");
+VoxelWorld.prototype._createCanvas = function () {
+  this.canvas = document.createElement("canvas");
+  this.canvas.className = "voxel-canvas";
+  this.canvas.setAttribute("aria-hidden", "true");
+  this.container.insertBefore(this.canvas, this.container.firstChild);
 };
 
-VoxelWorld.prototype._setupScene = function () {
-  var self = this;
-  try {
-    this.canvas = document.createElement("canvas");
-    this.canvas.className = "voxel-canvas";
-    this.canvas.setAttribute("aria-hidden", "true");
-    this.container.insertBefore(this.canvas, this.container.firstChild);
+VoxelWorld.prototype._createWebGLContext = function () {
+  var test = document.createElement("canvas");
+  var gl =
+    test.getContext("webgl2", { antialias: true }) ||
+    test.getContext("webgl", { antialias: true }) ||
+    test.getContext("experimental-webgl", { antialias: true });
+  if (!gl) {
+    var err = new Error("Browser did not expose a WebGL or WebGL2 context");
+    logStageError(STAGE.WEBGL, err);
+    this._showDiagnostic(
+      STAGE.WEBGL,
+      "WEBGL UNAVAILABLE",
+      "This device or browser cannot create a WebGL context. Use the country index to inspect records."
+    );
+    throw err;
+  }
+};
 
+VoxelWorld.prototype._createRenderer = function () {
+  try {
     this.renderer = new THREE.WebGLRenderer({
       canvas: this.canvas,
       antialias: true,
       alpha: false,
       powerPreference: "high-performance",
     });
-    this.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
-    this.renderer.setClearColor(COLORS.ocean, 1);
-
-    this.scene = new THREE.Scene();
-    this.scene.fog = new THREE.Fog(COLORS.ocean, 70, 180);
-
-    var aspect = 1;
-    this.camera = new THREE.PerspectiveCamera(42, aspect, 0.5, 400);
-    this._updateCamera();
-
-    var ambient = new THREE.AmbientLight(0x8aa0a8, 0.55);
-    var key = new THREE.DirectionalLight(0x61f6c5, 0.85);
-    key.position.set(40, 80, 30);
-    var fill = new THREE.DirectionalLight(0x203040, 0.45);
-    fill.position.set(-50, 20, -40);
-    this.scene.add(ambient, key, fill);
-
-    this._buildVoxels();
-    this._bindEvents();
-    this._resize();
-    this.ready = true;
-
-    if (!prefersReducedMotion()) {
-      this._animate();
-    } else {
-      this.renderer.render(this.scene, this.camera);
-    }
-    return true;
   } catch (err) {
-    this._showFallback("WebGL could not initialize on this device.");
-    return false;
+    logStageError(STAGE.RENDERER, err);
+    this._showDiagnostic(
+      STAGE.RENDERER,
+      "RENDERER FAILED",
+      isDevHost()
+        ? err.message
+        : "Three.js could not initialize its WebGL renderer."
+    );
+    throw err;
   }
+  this.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+  this.renderer.setClearColor(COLORS.ocean, 1);
+};
+
+VoxelWorld.prototype._createScene = function () {
+  this.scene = new THREE.Scene();
+  this.scene.fog = new THREE.Fog(COLORS.ocean, 70, 180);
+
+  var aspect = 1;
+  this.camera = new THREE.PerspectiveCamera(42, aspect, 0.5, 400);
+  this._updateCamera();
+
+  var ambient = new THREE.AmbientLight(0x8aa0a8, 0.55);
+  var key = new THREE.DirectionalLight(0x61f6c5, 0.85);
+  key.position.set(40, 80, 30);
+  var fill = new THREE.DirectionalLight(0x203040, 0.45);
+  fill.position.set(-50, 20, -40);
+  this.scene.add(ambient, key, fill);
 };
 
 VoxelWorld.prototype._buildVoxels = function () {
@@ -145,7 +205,9 @@ VoxelWorld.prototype._buildVoxels = function () {
   });
 
   this.mesh = new THREE.InstancedMesh(geo, mat, count);
-  this.mesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
+  if (this.mesh.instanceMatrix.setUsage) {
+    this.mesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
+  }
   this.instanceCountry = new Array(count);
   this.countryInstances = {};
   this.baseColors = new Array(count);
@@ -191,6 +253,90 @@ VoxelWorld.prototype._buildVoxels = function () {
   var grid = new THREE.GridHelper(Math.max(cols, rows), 24, 0x1d2a2e, 0x101820);
   grid.position.y = 0.01;
   this.scene.add(grid);
+};
+
+VoxelWorld.prototype._setupScene = function () {
+  this._createCanvas();
+  this._createWebGLContext();
+  this._createRenderer();
+  try {
+    this._createScene();
+  } catch (err) {
+    logStageError(STAGE.SCENE, err);
+    this._showDiagnostic(
+      STAGE.SCENE,
+      "SCENE SETUP FAILED",
+      isDevHost() ? err.message : "Lighting or camera setup failed."
+    );
+    throw err;
+  }
+  try {
+    this._buildVoxels();
+  } catch (err) {
+    logStageError(STAGE.VOXELS, err);
+    this._showDiagnostic(
+      STAGE.VOXELS,
+      "VOXEL BUILD FAILED",
+      isDevHost() ? err.message : "Country voxel geometry could not be constructed."
+    );
+    throw err;
+  }
+  try {
+    this._bindEvents();
+  } catch (err) {
+    logStageError(STAGE.EVENTS, err);
+    this._showDiagnostic(
+      STAGE.EVENTS,
+      "INTERACTION SETUP FAILED",
+      isDevHost() ? err.message : "Map controls could not be attached."
+    );
+    throw err;
+  }
+  try {
+    this._resize();
+    if (!prefersReducedMotion()) {
+      this._animate();
+    } else {
+      this.renderer.render(this.scene, this.camera);
+    }
+  } catch (err) {
+    logStageError(STAGE.RENDER, err);
+    this._showDiagnostic(
+      STAGE.RENDER,
+      "RENDER FAILED",
+      isDevHost() ? err.message : "Initial frame could not be drawn."
+    );
+    throw err;
+  }
+  this.ready = true;
+};
+
+VoxelWorld.prototype.init = function () {
+  var self = this;
+  if (!this.container) return Promise.resolve(false);
+
+  return this._fetchGeometry()
+    .then(function () {
+      try {
+        self._setupScene();
+        if (self.fallback) self.fallback.hidden = true;
+        self.container.classList.remove("is-fallback");
+        return true;
+      } catch (err) {
+        if (!self.stage) {
+          logStageError(STAGE.SCENE, err);
+          self._showDiagnostic(
+            STAGE.SCENE,
+            "SCENE SETUP FAILED",
+            isDevHost() ? err.message : "The voxel world could not be constructed."
+          );
+        }
+        return false;
+      }
+    })
+    .catch(function () {
+      return false;
+    });
 };
 
 VoxelWorld.prototype.setIntelligence = function (countries, visSignalIds) {
@@ -292,6 +438,7 @@ VoxelWorld.prototype._resize = function () {
 VoxelWorld.prototype._pickCountry = function (clientX, clientY) {
   if (!this.mesh || !this.canvas) return null;
   var rect = this.canvas.getBoundingClientRect();
+  if (!rect.width || !rect.height) return null;
   this.pointer.x = ((clientX - rect.left) / rect.width) * 2 - 1;
   this.pointer.y = -((clientY - rect.top) / rect.height) * 2 + 1;
   this.raycaster.setFromCamera(this.pointer, this.camera);
@@ -402,10 +549,6 @@ VoxelWorld.prototype.selectCountry = function (cid, opts) {
       new CustomEvent("ttb:country-select", { detail: { countryId: cid } })
     );
   }
-};
-
-VoxelWorld.prototype.focusCountry = function (cid) {
-  this.selectCountry(cid, { emit: false });
 };
 
 VoxelWorld.prototype.destroy = function () {

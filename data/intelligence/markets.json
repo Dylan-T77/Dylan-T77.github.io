@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "generated_at": null,
+  "policy": {
+    "note": "Markets are venues or instruments. Prediction markets use provider adapters — not hard-coded."
+  },
+  "markets": [
+    {
+      "market_id": "nasdaq-nvda",
+      "asset_id": "nvda",
+      "venue": "NASDAQ",
+      "symbol": "NVDA",
+      "market_type": "equity",
+      "provider": "manual",
+      "currency": "USD"
+    },
+    {
+      "market_id": "coinbase-btc-usd",
+      "asset_id": "btc",
+      "venue": "Coinbase",
+      "symbol": "BTC-USD",
+      "market_type": "spot_crypto",
+      "provider": "manual",
+      "currency": "USD"
+    }
+  ]
+}

@@ -283,6 +283,85 @@
 .loc-meta a { color: var(--muted); text-decoration: underline; text-underline-offset: 2px; }
 .loc-meta a:hover { color: var(--accent); }
 
+/* ---------- extracted events ---------- */
+
+.evt-list { display: grid; }
+.evt-row {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  gap: 16px;
+  padding: 13px 16px;
+  border-top: 1px solid var(--line);
+  align-items: start;
+}
+.evt-row:first-child { border-top: 0; }
+.evt-flag {
+  color: #5c6c71;
+  font: 600 .56rem/1.7 ui-monospace, monospace;
+  letter-spacing: .08em;
+}
+.evt-flag b { display: block; font-weight: 800; color: var(--accent2); }
+.evt-body h3 { margin: 0 0 3px; font-size: .9rem; line-height: 1.4; font-weight: 700; }
+.evt-body h3 a:hover { color: var(--accent); }
+.evt-meta {
+  margin: 0;
+  color: #5c6c71;
+  font: 600 .56rem ui-monospace, monospace;
+  letter-spacing: .1em;
+}
+
+/* ---------- intelligence page ---------- */
+
+.intel-list {
+  margin: 0;
+  padding: 12px 16px 16px;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+.intel-list li {
+  font: 600 .72rem/1.5 ui-monospace, monospace;
+  color: var(--muted);
+}
+.intel-tag {
+  color: #536267;
+  font: 700 .54rem ui-monospace, monospace;
+  letter-spacing: .1em;
+}
+.intel-events { display: grid; }
+.intel-event {
+  padding: 14px 16px;
+  border-top: 1px solid var(--line);
+}
+.intel-event:first-child { border-top: 0; }
+.intel-event header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+  font: 800 .58rem ui-monospace, monospace;
+  letter-spacing: .12em;
+}
+.intel-type { color: var(--accent2); }
+.intel-facts {
+  margin: 0 0 10px;
+  padding-left: 18px;
+  color: var(--text);
+  font-size: .88rem;
+  line-height: 1.5;
+}
+.intel-meta {
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+.intel-meta dt {
+  color: #536267;
+  font: 800 .54rem ui-monospace, monospace;
+  letter-spacing: .14em;
+}
+.intel-meta dd { margin: 2px 0 0; font-size: .82rem; color: var(--muted); }
+
 /* ---------- signals panel ---------- */
 
 .sig-list { display: grid; }

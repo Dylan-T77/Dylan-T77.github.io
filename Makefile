@@ -1,6 +1,9 @@
-.PHONY: build dev clean
+.PHONY: build dev clean ingest
 
 PORT ?= 8080
+
+ingest:
+	python3 scripts/run_ingest.py
 
 build:
 	python3 scripts/build_site.py

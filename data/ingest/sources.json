@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "generated_at": null,
+  "policy": {
+    "auto_publish": false,
+    "note": "Feed definitions for editorial ingestion only. Items never auto-publish."
+  },
+  "sources": [
+    {
+      "source_id": "ars-technica",
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "source_type": "rss",
+      "category": "journalism",
+      "reliability": "independent-tech",
+      "enabled": true
+    },
+    {
+      "source_id": "the-register",
+      "name": "The Register",
+      "url": "https://www.theregister.com/headlines.atom",
+      "source_type": "atom",
+      "category": "journalism",
+      "reliability": "independent-tech",
+      "enabled": true
+    },
+    {
+      "source_id": "wired",
+      "name": "WIRED",
+      "url": "https://www.wired.com/feed/rss",
+      "source_type": "rss",
+      "category": "journalism",
+      "reliability": "independent-tech",
+      "enabled": true
+    },
+    {
+      "source_id": "bleepingcomputer",
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "source_type": "rss",
+      "category": "journalism",
+      "reliability": "independent-tech",
+      "enabled": true
+    },
+    {
+      "source_id": "techcrunch",
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "source_type": "rss",
+      "category": "journalism",
+      "reliability": "independent-tech",
+      "enabled": true
+    },
+    {
+      "source_id": "ieee-spectrum",
+      "name": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/feeds/feed.rss",
+      "source_type": "rss",
+      "category": "journalism",
+      "reliability": "institutional",
+      "enabled": true
+    },
+    {
+      "source_id": "hacker-news",
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "source_type": "rss",
+      "category": "aggregator",
+      "reliability": "community-link",
+      "enabled": true
+    }
+  ]
+}

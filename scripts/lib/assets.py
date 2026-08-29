@@ -41,18 +41,36 @@ def public_url(source_rel: str, digest: str) -> str:
     return "/" + str(hashed_path(source_rel, digest)).replace("\\", "/")
 
 
+THREE_MODULE_PLACEHOLDER = "__THREE_MODULE_URL__"
+
+
 def publish_assets(root: Path = ROOT) -> dict[str, str]:
     """Copy source CSS/JS to content-hashed filenames; return logical → public URL map."""
     manifest: dict[str, str] = {}
     active_outputs: set[Path] = set()
 
+    prepared: dict[str, bytes] = {}
+    digests: dict[str, str] = {}
     for source_rel in ASSET_SOURCES:
         source = root / source_rel
         if not source.is_file():
             raise FileNotFoundError(f"Missing build asset source: {source_rel}")
+        prepared[source_rel] = source.read_bytes()
+        digests[source_rel] = content_hash(prepared[source_rel])
 
-        raw = source.read_bytes()
-        digest = content_hash(raw)
+    three_public = public_url("js/vendor/three.module.js", digests["js/vendor/three.module.js"])
+
+    for source_rel in ASSET_SOURCES:
+        raw = prepared[source_rel]
+        if source_rel == "js/voxel-world.js":
+            text = raw.decode("utf-8")
+            if THREE_MODULE_PLACEHOLDER not in text:
+                raise ValueError("js/voxel-world.js must import THREE via __THREE_MODULE_URL__")
+            raw = text.replace(THREE_MODULE_PLACEHOLDER, three_public).encode("utf-8")
+            digest = content_hash(raw)
+        else:
+            digest = digests[source_rel]
+
         output_rel = hashed_path(source_rel, digest)
         output = root / output_rel
         logical_url = "/" + source_rel.replace("\\", "/")

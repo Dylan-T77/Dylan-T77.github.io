@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-29T12:31:53.632785+00:00",
+    "generated_at": "2026-08-29T12:57:21.045166+00:00",
     "edition": {
       "id": "2026-08-28",
       "date": "2026-08-28",
@@ -19,7 +19,8 @@
       "collections": 1,
       "inbox": 150,
       "countries_with_presence": 3,
-      "world_countries": 175
+      "world_countries": 175,
+      "intel_events": 24
     },
     "lead_briefing": "model-hardware-standard"
   },
@@ -4212,6 +4213,759 @@
       "date": "2026-08-27",
       "label": "Research preview",
       "text": "Public announcement. Preview access for a first group in science, robotics, electronics, and manufacturing. Open-source promised after additional safety evaluations. Independent reports: Ars Technica, CNBC."
+    }
+  ],
+  "intel_events": [
+    {
+      "event_id": "evt-38b485c5f3bc041a",
+      "event_type": "government_action",
+      "timestamp": "2026-08-29T11:39:38+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-2827460774918bed"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Iceland votes on whether to restart talks on joining EU",
+        "Article URL: https://www.bbc.com/news/articles/cn45vdxyvvlo Comments URL: https://news.ycombinator.com/item?id=49489057 Points: 88 # Comments: 99"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-2827460774918bed",
+        "canonical_url": "https://www.bbc.com/news/articles/cn45vdxyvvlo"
+      }
+    },
+    {
+      "event_id": "evt-7de293b44b26d661",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T11:00:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-e0225435362f02ac"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Soundcore Liberty 5 Pro Review: Master of Phone Calls",
+        "Outstanding call quality and an excellent price point put these earbuds way ahead of pricier competition."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-e0225435362f02ac",
+        "canonical_url": "https://www.wired.com/review/soundcore-liberty-5-pro"
+      }
+    },
+    {
+      "event_id": "evt-d95e40b17e3920aa",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T10:50:31+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-fc991f15a6a27b88"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "I asked 100 companies for my data. Some deleted it instead.",
+        "Testing 100 companies found privacy requests often led to confusion and dead ends."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-fc991f15a6a27b88",
+        "canonical_url": "https://arstechnica.com/tech-policy/2026/08/i-asked-100-companies-for-my-data-some-deleted-it-instead"
+      }
+    },
+    {
+      "event_id": "evt-764e6452cfe33fe1",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T10:30:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-f953923c6a8749e7"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "space"
+      ],
+      "assets": [],
+      "facts": [
+        "NASA’s Nancy Grace Roman Space Telescope Has a Hidden Technological Leap",
+        "Astronomers will test equipment that, if it’s successful, will one day be crucial for discovering Earthlike planets."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-f953923c6a8749e7",
+        "canonical_url": "https://www.wired.com/story/nasas-nancy-grace-roman-space-telescope-coronagraph-leap"
+      }
+    },
+    {
+      "event_id": "evt-a89f8197a0688340",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T10:30:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-c56cf3e22fd8bcb0"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "robotics",
+        "cybersecurity"
+      ],
+      "assets": [],
+      "facts": [
+        "The Cybersecurity Apocalypse Is Coming in ‘Months,’ AI Giants Warn",
+        "Plus: Hackers target over 100 US water systems, ICE puts in an order for robot dogs, and you’ll never guess what “MrChildPorn” was arrested for."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-c56cf3e22fd8bcb0",
+        "canonical_url": "https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn"
+      }
+    },
+    {
+      "event_id": "evt-c842798b76052a9a",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T10:15:00+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-334a5264bbef25d6"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "robotics"
+      ],
+      "assets": [],
+      "facts": [
+        "Startup bags $7M to build drone-interceptor-in-a-backpack systems",
+        "Spike drone defense system is designed to be carried in a rucksack or mounted on top of a vehicle"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-334a5264bbef25d6",
+        "canonical_url": "https://www.theregister.com/offbeat/2026/08/29/startup-bags-7m-to-build-drone-interceptor-in-a-backpack-systems/5293176"
+      }
+    },
+    {
+      "event_id": "evt-c95901d09076574c",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T10:00:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-77b5d886a3804b48"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "How to Run a Chatbot on Your Own Computer",
+        "Installing a large language model on your personal computer gives you a handy digital assistant that won’t compromise your data privacy."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-77b5d886a3804b48",
+        "canonical_url": "https://www.wired.com/story/how-to-run-your-own-local-llm"
+      }
+    },
+    {
+      "event_id": "evt-8c6f7b08130bb912",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T09:00:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-214515c3f2ebbaa4"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Psilocybin Might Make Your Brain Live in the Moment",
+        "Psychedelics are often associated with disconnecting from reality, but a recent neuroimaging study found that psilocybin can actually make our brain activity more connected to the world around us."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-214515c3f2ebbaa4",
+        "canonical_url": "https://www.wired.com/story/psilocybin-might-make-your-brain-live-in-the-moment"
+      }
+    },
+    {
+      "event_id": "evt-2ddd25b53043fce5",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T07:28:00+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-da63b24e5b1b7972"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Xbox respawns IKEA furniture with gaming range",
+        "At last, somewhere comfy to sit while your PlayStation 5 game loads"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-da63b24e5b1b7972",
+        "canonical_url": "https://www.theregister.com/offbeat/2026/08/29/xbox-respawns-ikea-furniture-with-gaming-range/5292911"
+      }
+    },
+    {
+      "event_id": "evt-26c545174011433d",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T06:06:51+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-f234734a378e26d9"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "Samsung's Processing-in-Memory (PIM)",
+        "Article URL: https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing Comments URL: https://news.ycombinator.com/item?id=49487341 Points: 138 # Comments: 46"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-f234734a378e26d9",
+        "canonical_url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing"
+      }
+    },
+    {
+      "event_id": "evt-70660ccbf9d81ca3",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T05:00:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-902282cd82b20d33"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Motorola Coupon Code for September 2026",
+        "Upgrade your smartphone for less with the latest Motorola promo codes, free shipping offers, and exclusive seasonal discounts."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-902282cd82b20d33",
+        "canonical_url": "https://www.wired.com/story/motorola-coupon-code"
+      }
+    },
+    {
+      "event_id": "evt-8957384c9d7845e4",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T02:23:37+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-38a7a81e9279c1ba"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "TurboKV: Insanely fast Rust key-value store",
+        "Article URL: https://github.com/kingroryg/turbokv Comments URL: https://news.ycombinator.com/item?id=49486334 Points: 127 # Comments: 56"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-38a7a81e9279c1ba",
+        "canonical_url": "https://github.com/kingroryg/turbokv"
+      }
+    },
+    {
+      "event_id": "evt-72de7e60107314e2",
+      "event_type": "acquisition",
+      "timestamp": "2026-08-29T01:47:53+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-8be9bfed8f83c9e2"
+      ],
+      "companies": [
+        "openai"
+      ],
+      "entities": [
+        "openai"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "space"
+      ],
+      "assets": [],
+      "facts": [
+        "Our decision on Cursor following its acquisition by SpaceX",
+        "Article URL: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ Comments URL: https://news.ycombinator.com/item?id=49486172 Points: 599 # Comments: 343"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-8be9bfed8f83c9e2",
+        "canonical_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
+      }
+    },
+    {
+      "event_id": "evt-f6e3f7c9ccc43865",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T01:24:13+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-c6b0909203a17395"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "StemDeck, a free, open-source and local AI stem separator",
+        "Article URL: https://github.com/stemdeckapp/stemdeck Comments URL: https://news.ycombinator.com/item?id=49486081 Points: 124 # Comments: 27"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-c6b0909203a17395",
+        "canonical_url": "https://github.com/stemdeckapp/stemdeck"
+      }
+    },
+    {
+      "event_id": "evt-c1e804394210827d",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T23:46:10+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-e57704afb364dd09"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Does the Sumerian King List Align with Paleoclimate Events?",
+        "Article URL: https://www.vectorian.be/articles/2026-06-07/sumerian-king-list-paleoclimate-alignment-explorer/ Comments URL: https://news.ycombinator.com/item?id=49485532 Points: 108 # Comments: 55"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-e57704afb364dd09",
+        "canonical_url": "https://www.vectorian.be/articles/2026-06-07/sumerian-king-list-paleoclimate-alignment-explorer"
+      }
+    },
+    {
+      "event_id": "evt-26a8981eadf73b88",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T23:32:22+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-8bdf0080e26998b1"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "9th Circuit sides with states in Kalshi gambling fight",
+        "Article URL: https://azmirror.com/2026/08/28/9th-circuit-sides-with-states-in-kalshi-gambling-fight-potentially-reviving-arizonas-prosecution/ Comments URL: https://news.ycombinator.com/item?id=49485452 Points: 142 # Comments: 118"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-8bdf0080e26998b1",
+        "canonical_url": "https://azmirror.com/2026/08/28/9th-circuit-sides-with-states-in-kalshi-gambling-fight-potentially-reviving-arizonas-prosecution"
+      }
+    },
+    {
+      "event_id": "evt-13779bb4fba55f2b",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T23:27:45+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-ccd04a2d0610c1c1"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "I accidentally turned LLM memory into program analysis",
+        "Article URL: https://pwning.systems/posts/llm-memory-program-analysis/ Comments URL: https://news.ycombinator.com/item?id=49485416 Points: 180 # Comments: 45"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-ccd04a2d0610c1c1",
+        "canonical_url": "https://pwning.systems/posts/llm-memory-program-analysis"
+      }
+    },
+    {
+      "event_id": "evt-34315a056c6cdc15",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T23:24:27+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-cd7a60fa9e75429e"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "robotics"
+      ],
+      "assets": [],
+      "facts": [
+        "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
+        "Technical progress has encouraged a new batch of companies to jump in on the promise of profits from humanoid robots. And they're all Chinese automakers."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-cd7a60fa9e75429e",
+        "canonical_url": "https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine"
+      }
+    },
+    {
+      "event_id": "evt-4266b2dc07a01789",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T23:02:21+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-c7fdd806b538e47d"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Boot a Virtual iPhone via Apple's Virtualization.framework",
+        "Article URL: https://github.com/Lakr233/vphone-cli Comments URL: https://news.ycombinator.com/item?id=49485267 Points: 306 # Comments: 83"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-c7fdd806b538e47d",
+        "canonical_url": "https://github.com/Lakr233/vphone-cli"
+      }
+    },
+    {
+      "event_id": "evt-49d01cbb457d705c",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T22:42:48+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-8331bcd407652aae"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Is the best way to watch a movie on a pair of sunglasses?",
+        "Are XREAL's smart glasses the way of the future for home entertainment?"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-8331bcd407652aae",
+        "canonical_url": "https://techcrunch.com/2026/08/28/is-the-best-way-to-watch-a-movie-on-a-pair-of-sunglasses"
+      }
+    },
+    {
+      "event_id": "evt-e8feadf5a94f957c",
+      "event_type": "security_incident",
+      "timestamp": "2026-08-28T22:40:17+00:00",
+      "source_ids": [
+        "bleepingcomputer"
+      ],
+      "article_ids": [
+        "inbox-d86056bc7ad40765"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "cybersecurity"
+      ],
+      "assets": [],
+      "facts": [
+        "McKesson discloses breach after ShinyHunters claims patient data theft",
+        "Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters extortion group claiming it stole 284 million patient data records. [...]"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "bleepingcomputer",
+        "source_name": "BleepingComputer",
+        "article_id": "inbox-d86056bc7ad40765",
+        "canonical_url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft"
+      }
+    },
+    {
+      "event_id": "evt-9e3e973e5b3bfeaa",
+      "event_type": "earnings",
+      "timestamp": "2026-08-28T22:29:13+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-ee9b4063e536d044"
+      ],
+      "companies": [
+        "nvidia"
+      ],
+      "entities": [
+        "nvidia"
+      ],
+      "countries": [],
+      "sectors": [
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "Nvidia CEO Jensen Huang Took a Call From Donald Trump in the Middle of an All-Hands",
+        "The unexpected interruption came hours before the president wrote a congratulatory post on Truth Social about the company’s most recent earnings report."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-ee9b4063e536d044",
+        "canonical_url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-took-a-call-from-donald-trump-in-the-middle-of-an-all-hands"
+      }
+    },
+    {
+      "event_id": "evt-9e52e6ee514c1fda",
+      "event_type": "regulatory_action",
+      "timestamp": "2026-08-28T22:14:52+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-ad430b56015816e0"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Court rules Kalshi sports bets aren't \"swaps,\" just gambling with a different name",
+        "Kalshi can't evade Nevada gambling laws by calling bets \"swaps,\" judges rule."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-ad430b56015816e0",
+        "canonical_url": "https://arstechnica.com/tech-policy/2026/08/kalshi-cant-evade-nevada-gambling-laws-by-calling-bets-swaps-court-rules"
+      }
+    },
+    {
+      "event_id": "evt-8a2d0eadd1cdb0b9",
+      "event_type": "technology_milestone",
+      "timestamp": "2026-08-28T21:33:54+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-707f7a3b2c072922"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Cities terminate Flock contracts at record pace in August",
+        "Cancellations have accelerated."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-707f7a3b2c072922",
+        "canonical_url": "https://arstechnica.com/tech-policy/2026/08/cities-terminate-flock-contracts-at-record-pace-in-august"
+      }
     }
   ]
 }

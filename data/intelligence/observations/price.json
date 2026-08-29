@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "schema": "price_observation",
+  "freshness": "short_lived",
+  "generated_at": null,
+  "observations": []
+}

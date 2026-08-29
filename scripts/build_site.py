@@ -17,6 +17,8 @@ from scripts.lib.components import bar_rows, chips, empty, numbered, row, source
 from scripts.lib.html_utils import e, index_by, load, page_file, pretty_date, short_date, write
 from scripts.lib.layout import breadcrumbs, crumb_ld, layout
 from scripts.lib.country_intel import country_records, world_country_registry
+from scripts.lib.intelligence.access import IntelligenceStore
+from scripts.lib.intelligence.build import write_intelligence_public
 from scripts.lib.paths import ROOT, RSS_INBOX_PATH, VOXEL_COUNTRIES_PATH, XENO_MAIN
 from scripts.lib.stable_json import write_if_changed
 
@@ -265,6 +267,9 @@ def dashboard_data(data: dict) -> dict:
     )
     world_countries = world_country_registry(voxel_countries)
 
+    intel_store = IntelligenceStore()
+    intel_events = intel_store.latest_events(limit=24)
+
     return {
         "meta": {
             "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -281,6 +286,7 @@ def dashboard_data(data: dict) -> dict:
                 "inbox": inbox_count,
                 "countries_with_presence": len(country_items),
                 "world_countries": len(voxel_countries),
+                "intel_events": len(intel_events),
             },
             "lead_briefing": data["site"]["edition"].get("lead_briefing"),
         },
@@ -302,6 +308,7 @@ def dashboard_data(data: dict) -> dict:
             "sources_cited": cited,
         },
         "timeline": (lead or {}).get("timeline", []),
+        "intel_events": intel_events,
     }
 
 
@@ -349,6 +356,26 @@ def homepage(data: dict) -> str:
     world_note = (
         f'{dash["meta"]["counts"].get("world_countries", 0)} COUNTRIES IN GEOMETRY · '
         f'{len(dash["countries"])} WITH RECORDED PRESENCE'
+    )
+
+    event_rows = []
+    for ev in dash.get("intel_events", [])[:8]:
+        fact = ev["facts"][0] if ev.get("facts") else ev.get("event_type", "event")
+        sectors = " · ".join(e(s.upper()) for s in ev.get("sectors", [])[:3]) or "UNCLASSIFIED"
+        prov = ev.get("provenance") or {}
+        src_url = prov.get("canonical_url", "#")
+        event_rows.append(
+            f"""<article class="evt-row">
+  <div class="evt-flag"><b>{e(ev.get("event_type", "event").replace("_", " ").upper())}</b><time datetime="{e(ev.get("timestamp", ""))}">{e(short_date(ev.get("timestamp", "")[:10])) if ev.get("timestamp") else "—"}</time></div>
+  <div class="evt-body">
+    <h3><a href="{e(src_url)}" rel="noopener noreferrer">{e(fact[:120])}</a></h3>
+    <p class="evt-meta">{sectors} // {e(ev.get("confidence", "medium").upper())} // {e(prov.get("source_name", ""))}</p>
+  </div>
+</article>"""
+        )
+    events_html = "".join(event_rows) if event_rows else (
+        '<div class="data-state"><strong>NO EXTRACTED EVENTS</strong>'
+        "<p>Run the ingestion pipeline to populate the editorial inbox and event layer.</p></div>"
     )
 
     sig_rows = []
@@ -469,6 +496,12 @@ def homepage(data: dict) -> str:
     <p class="panel-foot">Country geometry from Natural Earth 1:110m (static, local). Intelligence overlays derive from published entity and signal records only — geography without a record stays unlit.{unmapped_note}</p>
   </div>
 
+  <div class="panel" id="panel-events">
+    <div class="panel-head"><span class="panel-title">EXTRACTED EVENTS</span><span class="panel-note">{counts.get("intel_events", 0)} FROM INGEST · INBOX ONLY</span></div>
+    <div class="evt-list">{events_html}</div>
+    <p class="panel-foot">Structured events from ingested sources. Facts are separated from interpretation. Nothing here is published or traded. <a href="/intelligence/">Open intelligence layer</a></p>
+  </div>
+
   <div class="console-grid">
     <div class="panel" id="panel-signals">
       <div class="panel-head"><span class="panel-title">CURRENT SIGNALS</span><span class="panel-note" id="signals-count">{counts["signals"]} RECORDS</span></div>
@@ -488,6 +521,7 @@ def homepage(data: dict) -> str:
         <div><dt>ENTITIES</dt><dd>{counts["entities"]} REGISTERED · {counts["entities_mapped"]} MAPPED</dd></div>
         <div><dt>SOURCES</dt><dd>{counts["sources"]} REGISTERED · {counts["sources_cited"]} CITED</dd></div>
         <div><dt>INGEST INBOX</dt><dd>{counts["inbox"]} HELD FOR REVIEW</dd></div>
+        <div><dt>EXTRACTED EVENTS</dt><dd>{counts.get("intel_events", 0)} IN EVENT LAYER</dd></div>
         <div><dt>UPDATED</dt><dd>{e(pretty_date(site["edition"]["date"]))}</dd></div>
       </dl>
       <p class="mini-label">SIGNAL VERIFICATION SPLIT</p>
@@ -1518,11 +1552,107 @@ def atom_feed(data: dict) -> str:
 """
 
 
+def intelligence_page(data: dict) -> str:
+    site = data["site"]
+    crumb = [("/", "Home"), ("/intelligence/", "Intelligence")]
+    store = IntelligenceStore()
+    events = store.latest_events(limit=50)
+    articles = store.articles()[:30]
+    assets_list = store.assets()
+    markets_list = store.markets()
+
+    event_rows = []
+    for ev in events:
+        facts = ev.get("facts") or []
+        fact_block = "".join(f"<li>{e(f)}</li>" for f in facts)
+        interp_block = ""
+        if ev.get("interpretations"):
+            interp_block = "<dt>INTERPRETATION</dt><dd>" + "<br>".join(e(i) for i in ev["interpretations"]) + "</dd>"
+        prov = ev.get("provenance") or {}
+        event_rows.append(
+            f"""<article class="intel-event">
+  <header><span class="intel-type">{e(ev.get("event_type", "").replace("_", " ").upper())}</span>
+  <time datetime="{e(ev.get("timestamp", ""))}">{e(ev.get("timestamp", "—")[:19])}</time></header>
+  <ul class="intel-facts">{fact_block}</ul>
+  <dl class="intel-meta">
+    <div><dt>SOURCE</dt><dd><a href="{e(prov.get("canonical_url", "#"))}" rel="noopener noreferrer">{e(prov.get("source_name", ""))}</a></dd></div>
+    <div><dt>CONFIDENCE</dt><dd>{e(ev.get("confidence", ""))}</dd></div>
+    <div><dt>STATUS</dt><dd>{e(ev.get("interpretation_status", ""))}</dd></div>
+    <div><dt>ENTITIES</dt><dd>{e(", ".join(ev.get("entities", [])) or "—")}</dd></div>
+    {interp_block}
+  </dl>
+</article>"""
+        )
+
+    asset_rows = "".join(
+        f'<li><b>{e(a["symbol"])}</b> — {e(a["name"])} <span class="intel-tag">{e(a["asset_class"])}</span></li>'
+        for a in assets_list
+    )
+    market_rows = "".join(
+        f'<li><b>{e(m["symbol"])}</b> @ {e(m["venue"])} <span class="intel-tag">{e(m["market_type"])}</span></li>'
+        for m in markets_list
+    )
+
+    body = f"""
+<section class="page-head container">
+  {breadcrumbs(crumb)}
+  <p class="masthead-kicker">MARKET INTELLIGENCE FOUNDATION</p>
+  <h1>INTELLIGENCE<span>.</span></h1>
+  <p class="console-sub">Structured events and market models derived from ingested sources. Editorial inbox items are never auto-published. No trading signals. No fabricated observations.</p>
+</section>
+<section class="console container">
+  <div class="panel">
+    <div class="panel-head"><span class="panel-title">PIPELINE</span><span class="panel-note">STAGE 3 · $0/MO</span></div>
+    <p class="panel-foot" style="border-top:0">{" → ".join(e(step) for step in ["SOURCES", "INGEST", "NORMALIZE", "VALIDATE", "DEDUPLICATE", "CLASSIFY", "EXTRACT EVENTS", "EDITORIAL REVIEW", "PUBLISH", "CONNECT"])}</p>
+  </div>
+  <div class="console-grid">
+    <div class="panel">
+      <div class="panel-head"><span class="panel-title">ASSETS</span><span class="panel-note">{len(assets_list)} REGISTERED</span></div>
+      <ul class="intel-list">{asset_rows or "<li>No assets registered yet.</li>"}</ul>
+    </div>
+    <div class="panel">
+      <div class="panel-head"><span class="panel-title">MARKETS</span><span class="panel-note">{len(markets_list)} REGISTERED</span></div>
+      <ul class="intel-list">{market_rows or "<li>No markets registered yet.</li>"}</ul>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="panel-head"><span class="panel-title">STRUCTURED EVENTS</span><span class="panel-note">{len(events)} EXTRACTED</span></div>
+    <div class="intel-events">{"".join(event_rows) if event_rows else empty("No events extracted yet. Run scripts/run_ingest.py.")}</div>
+    <p class="panel-foot">Facts are listed verbatim from source titles/summaries. Interpretations and hypotheses remain empty until editorial review.</p>
+  </div>
+  <div class="panel">
+    <div class="panel-head"><span class="panel-title">INGESTED ARTICLES</span><span class="panel-note">{len(articles)} IN INBOX</span></div>
+    <ul class="intel-list">
+      {"".join(f'<li><a href="{e(a["canonical_url"])}" rel="noopener noreferrer">{e(a["title"])}</a> <span class="intel-tag">{e(a["source_id"])}</span></li>' for a in articles[:20])}
+    </ul>
+  </div>
+</section>
+"""
+    return layout(
+        data,
+        title=f"Intelligence — {site['name']}",
+        description="Structured market intelligence foundation: ingested events, assets, and markets.",
+        route="/intelligence/",
+        active="intelligence",
+        body=body,
+        crumbs=crumb,
+        extra_css=["/css/dashboard.css"],
+        ld=[crumb_ld(site, crumb)],
+    )
+
+
 def main() -> None:
     import subprocess
     import sys
 
     subprocess.run([sys.executable, str(ROOT / "scripts" / "build_voxel_world.py")], check=True)
+
+    try:
+        subprocess.run([sys.executable, str(ROOT / "scripts" / "run_ingest.py")], check=True)
+    except subprocess.CalledProcessError:
+        print("WARN: ingestion pipeline failed; continuing build with existing intelligence data")
+
+    write_intelligence_public(ROOT)
 
     manifest = assets.publish_assets(ROOT)
     assets.configure(manifest)
@@ -1534,6 +1664,7 @@ def main() -> None:
         "/": homepage(data),
         "/briefings/": briefings_index(data),
         "/signals/": signals_index(data),
+        "/intelligence/": intelligence_page(data),
         "/topics/": topics_index(data),
         "/entities/": entities_index(data),
         "/archive/": archive_page(data),

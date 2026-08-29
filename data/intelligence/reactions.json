@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "schema": "historical_reaction",
+  "freshness": "persistent",
+  "generated_at": null,
+  "policy": {
+    "note": "Observational dataset only — not predictive. Every record requires event_id, asset_id, and timestamps.",
+    "windows": ["5m", "15m", "1h", "4h", "1d", "1w"]
+  },
+  "reactions": []
+}

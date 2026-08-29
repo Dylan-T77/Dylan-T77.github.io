@@ -1,0 +1,4904 @@
+{
+  "version": 1,
+  "generated_at": "2026-08-29T13:02:32.795052+00:00",
+  "freshness": "persistent",
+  "events": [
+    {
+      "event_id": "evt-d95e40b17e3920aa",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T10:50:31+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-fc991f15a6a27b88"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "I asked 100 companies for my data. Some deleted it instead.",
+        "Testing 100 companies found privacy requests often led to confusion and dead ends."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-fc991f15a6a27b88",
+        "canonical_url": "https://arstechnica.com/tech-policy/2026/08/i-asked-100-companies-for-my-data-some-deleted-it-instead"
+      }
+    },
+    {
+      "event_id": "evt-9e52e6ee514c1fda",
+      "event_type": "regulatory_action",
+      "timestamp": "2026-08-28T22:14:52+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-ad430b56015816e0"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Court rules Kalshi sports bets aren't \"swaps,\" just gambling with a different name",
+        "Kalshi can't evade Nevada gambling laws by calling bets \"swaps,\" judges rule."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-ad430b56015816e0",
+        "canonical_url": "https://arstechnica.com/tech-policy/2026/08/kalshi-cant-evade-nevada-gambling-laws-by-calling-bets-swaps-court-rules"
+      }
+    },
+    {
+      "event_id": "evt-8a2d0eadd1cdb0b9",
+      "event_type": "technology_milestone",
+      "timestamp": "2026-08-28T21:33:54+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-707f7a3b2c072922"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Cities terminate Flock contracts at record pace in August",
+        "Cancellations have accelerated."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-707f7a3b2c072922",
+        "canonical_url": "https://arstechnica.com/tech-policy/2026/08/cities-terminate-flock-contracts-at-record-pace-in-august"
+      }
+    },
+    {
+      "event_id": "evt-115d1543e7145a78",
+      "event_type": "government_action",
+      "timestamp": "2026-08-28T21:17:38+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-0f8e9cc47a53a8f7"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "\"RFK Jr. has lied to the Senate\": Lawmakers call for criminal probe, ouster",
+        "RFK Jr. went to Samoa to spread vaccine fears. The measles outbreak after killed 83."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-0f8e9cc47a53a8f7",
+        "canonical_url": "https://arstechnica.com/health/2026/08/rfk-jr-has-lied-to-the-senate-lawmakers-call-for-criminal-probe-ouster"
+      }
+    },
+    {
+      "event_id": "evt-39eff2a32163c949",
+      "event_type": "government_action",
+      "timestamp": "2026-08-28T18:07:55+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-b24e807cd58aef9d"
+      ],
+      "companies": [
+        "anthropic"
+      ],
+      "entities": [
+        "anthropic"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "robotics"
+      ],
+      "assets": [],
+      "facts": [
+        "Trump blacklisting of \"woke\" Anthropic deemed illegal by federal judge",
+        "Anthropic refused to support lethal autonomous warfare and mass surveillance."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-b24e807cd58aef9d",
+        "canonical_url": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge"
+      }
+    },
+    {
+      "event_id": "evt-b396289dac987a56",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T17:36:30+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-01ba8a03c2a1dea6"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "space"
+      ],
+      "assets": [],
+      "facts": [
+        "Here's what we know about the \"space academy\" Trump just announced",
+        "\"It's called the US Space Academy. That's a big deal.\""
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-01ba8a03c2a1dea6",
+        "canonical_url": "https://arstechnica.com/space/2026/08/trump-calls-for-creation-of-a-space-academy-to-train-future-nasa-leaders"
+      }
+    },
+    {
+      "event_id": "evt-17fea349b81a98a2",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T17:23:53+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-c82f09dd2950faf7"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Apple One and Apple TV subscription prices increase by up to 20 percent",
+        "Annual Apple TV subscriptions get the biggest bump."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-c82f09dd2950faf7",
+        "canonical_url": "https://arstechnica.com/gadgets/2026/08/apple-one-and-apple-tv-subscription-prices-increase-by-up-to-20-percent"
+      }
+    },
+    {
+      "event_id": "evt-3d5728748aa83616",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T16:44:47+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-641e484a941b811e"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Our 10 favorite scenes from T2: Judgment Day",
+        "James Cameron's 1991 sci-fi blockbuster returns to theaters this weekend for its 35th anniversary."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-641e484a941b811e",
+        "canonical_url": "https://arstechnica.com/culture/2026/08/our-10-favorite-scenes-from-t2-judgment-day"
+      }
+    },
+    {
+      "event_id": "evt-22e86b95b26b8b0e",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T15:42:24+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-7f8af8c249b2df95"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
+        "Meta fixes AI glasses to stop recording any time users cover up the safety light."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-7f8af8c249b2df95",
+        "canonical_url": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain"
+      }
+    },
+    {
+      "event_id": "evt-66ba541f19e1f87a",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T11:15:05+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-5fd0ec773f98633c"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
+        "The group infected more than 1,000 organizations in a relentless supply-chain attack campaign."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-5fd0ec773f98633c",
+        "canonical_url": "https://arstechnica.com/security/2026/08/authorities-arrest-2-alleged-members-of-prolific-hacking-group-teampcp"
+      }
+    },
+    {
+      "event_id": "evt-72f0dbc5b5e23367",
+      "event_type": "product_launch",
+      "timestamp": "2026-08-28T11:00:39+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-b6405d1b9c62d599"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "space"
+      ],
+      "assets": [],
+      "facts": [
+        "Rocket Report: Europe splashes some cash on launch startups; Pallas-1 nears debut",
+        "\"From here on, Starlink missions out of Florida will fly on Starship.\""
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-b6405d1b9c62d599",
+        "canonical_url": "https://arstechnica.com/space/2026/08/rocket-report-europe-splashes-some-cash-on-launch-startups-pallas-1-nears-debut"
+      }
+    },
+    {
+      "event_id": "evt-e2baaa49723fb3f7",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T22:15:43+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-3e34c8684c399d05"
+      ],
+      "companies": [
+        "anthropic",
+        "model-hardware-standard"
+      ],
+      "entities": [
+        "anthropic",
+        "model-hardware-standard"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "Anthropic's new hardware standard lets AI agents control the physical world",
+        "Standardized driver interface aims to let devices talk to AI and each other."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-3e34c8684c399d05",
+        "canonical_url": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world"
+      }
+    },
+    {
+      "event_id": "evt-aad7303d2be9f3e9",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T20:52:31+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-9876695e16b16f78"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Elon Musk’s xAI used child porn to train Grok models, lawsuit says",
+        "xAI accused of training Grok on real and AI-generated child pornography."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-9876695e16b16f78",
+        "canonical_url": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says"
+      }
+    },
+    {
+      "event_id": "evt-215053be0d8033d4",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T20:06:10+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-b7e207679dbc6c44"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "GOP heads to Supreme Court after losing case over TV election ad prices",
+        "GOP campaign committees want quick ruling before election ads ramp up next week."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-b7e207679dbc6c44",
+        "canonical_url": "https://arstechnica.com/tech-policy/2026/08/gop-heads-to-supreme-court-after-losing-case-over-tv-election-ad-prices"
+      }
+    },
+    {
+      "event_id": "evt-e2de429abc262b15",
+      "event_type": "infrastructure_investment",
+      "timestamp": "2026-08-27T19:55:22+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-ace6f4a963e9ee1f"
+      ],
+      "companies": [
+        "nvidia"
+      ],
+      "entities": [
+        "nvidia"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "Report: Nvidia to acquire AI model repository Hugging Face for $13 billion",
+        "Nvidia is nabbing critical infrastructure for open models as interest grows."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-ace6f4a963e9ee1f",
+        "canonical_url": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion"
+      }
+    },
+    {
+      "event_id": "evt-064695002e1d6522",
+      "event_type": "infrastructure_investment",
+      "timestamp": "2026-08-27T18:57:08+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-97b6c6c500a1d273"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "AI industry says Trump plans to tax chips in the “single dumbest way imaginable”",
+        "Tech industry is perplexed by Trump’s plan to win AI race by taxing data centers."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-97b6c6c500a1d273",
+        "canonical_url": "https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumbest-way-imaginable"
+      }
+    },
+    {
+      "event_id": "evt-98d62a13c85b0963",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T17:26:25+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-e6c9edf2723d30ef"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "The iconic T-38 jets flown by astronauts just got a spiffy new look",
+        "\"Everyone wants to take that aircraft up now...\""
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-e6c9edf2723d30ef",
+        "canonical_url": "https://arstechnica.com/space/2026/08/nasa-t-38-astronaut-training-jet-gets-new-artemis-look"
+      }
+    },
+    {
+      "event_id": "evt-a3a010fb9ceac5da",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T16:36:16+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-bf126aa39be67937"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "RFK Jr. goes full anti-vaccine bananas over two measles deaths—one was a newborn",
+        "Kennedy and his allies have a history of downplaying vaccine-preventable deaths."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-bf126aa39be67937",
+        "canonical_url": "https://arstechnica.com/health/2026/08/rfk-jr-spews-anti-vaccine-rubbish-as-newborn-revealed-to-have-died-from-measles"
+      }
+    },
+    {
+      "event_id": "evt-5e66ee16921966ba",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T15:39:42+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-8197469f4a0c8c58"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Why did 1,000 world citizens bury their underpants?",
+        "Study: Land use is the biggest factor in determining decomposition rates of organic cotton underpants."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-8197469f4a0c8c58",
+        "canonical_url": "https://arstechnica.com/science/2026/08/why-did-1000-swiss-citizens-bury-their-underpants"
+      }
+    },
+    {
+      "event_id": "evt-f1f4e131a88fd0bb",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T14:53:17+00:00",
+      "source_ids": [
+        "ars-technica"
+      ],
+      "article_ids": [
+        "inbox-a380eb70f4104675"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Panic passes Trump tariff refunds back to the Playdate customers who paid them",
+        "\"It just felt like the right thing to do.\""
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ars-technica",
+        "source_name": "Ars Technica",
+        "article_id": "inbox-a380eb70f4104675",
+        "canonical_url": "https://arstechnica.com/gaming/2026/08/panic-refunds-illegal-tariffs-customers-paid-on-its-playdate-gaming-handheld"
+      }
+    },
+    {
+      "event_id": "evt-c842798b76052a9a",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T10:15:00+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-334a5264bbef25d6"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "robotics"
+      ],
+      "assets": [],
+      "facts": [
+        "Startup bags $7M to build drone-interceptor-in-a-backpack systems",
+        "Spike drone defense system is designed to be carried in a rucksack or mounted on top of a vehicle"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-334a5264bbef25d6",
+        "canonical_url": "https://www.theregister.com/offbeat/2026/08/29/startup-bags-7m-to-build-drone-interceptor-in-a-backpack-systems/5293176"
+      }
+    },
+    {
+      "event_id": "evt-2ddd25b53043fce5",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T07:28:00+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-da63b24e5b1b7972"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Xbox respawns IKEA furniture with gaming range",
+        "At last, somewhere comfy to sit while your PlayStation 5 game loads"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-da63b24e5b1b7972",
+        "canonical_url": "https://www.theregister.com/offbeat/2026/08/29/xbox-respawns-ikea-furniture-with-gaming-range/5292911"
+      }
+    },
+    {
+      "event_id": "evt-84d0a73d73bc1768",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T20:50:15+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-23ce4a32d10845cd"
+      ],
+      "companies": [
+        "anthropic"
+      ],
+      "entities": [
+        "anthropic"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "Researcher shows how Claude Code can be tricked simply by asking it to summarize a website",
+        "More prompt-injection hijinks from wunderwuzzi"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-23ce4a32d10845cd",
+        "canonical_url": "https://www.theregister.com/research/2026/08/28/researcher-shows-how-claude-code-can-be-tricked-simply-by-asking-it-to-summarize-a-website/5293372"
+      }
+    },
+    {
+      "event_id": "evt-750017808b42faf6",
+      "event_type": "research_result",
+      "timestamp": "2026-08-28T20:23:23+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-2abb4a339d97a67d"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "German-Japanese researchers invent electricity-free tech that could cool datacenters",
+        "How come that super-smart AI of yours didn't figure this out, frontier labs?"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-2abb4a339d97a67d",
+        "canonical_url": "https://www.theregister.com/science/2026/08/28/german-japanese-researchers-invent-electricity-free-tech-that-could-cool-datacenters/5293364"
+      }
+    },
+    {
+      "event_id": "evt-263cafd5449b5963",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T19:46:40+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-1b9592daead1700e"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "AWS Route 53 DNS service reimagined...as a file system?",
+        "Cloud industry pros have a bit of fun at Amazon's expense"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-1b9592daead1700e",
+        "canonical_url": "https://www.theregister.com/offbeat/2026/08/28/aws-route-53-dns-service-reimaginedas-a-file-system/5293357"
+      }
+    },
+    {
+      "event_id": "evt-aa8fe66a43ab627a",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T15:45:00+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-74dd9af96d4c7c32"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "LibreOffice 26.8 is out – local first, and with no AI",
+        "It looks a bit clunky, but it does the job – and on your own computer"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-74dd9af96d4c7c32",
+        "canonical_url": "https://www.theregister.com/applications/2026/08/28/libreoffice-268-is-out-local-first-and-with-no-ai/5293301"
+      }
+    },
+    {
+      "event_id": "evt-d14ee56928e37342",
+      "event_type": "infrastructure_investment",
+      "timestamp": "2026-08-28T15:29:57+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-d80e07f73ab47d26"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Green Party wants to slam the brakes on UK datacenter construction until water and energy use are sorted",
+        "Tree huggers aim to end blanket critical infrastructure status for bit barns and ensure environmental standards are met"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-d80e07f73ab47d26",
+        "canonical_url": "https://www.theregister.com/on-prem/2026/08/28/green-party-wants-to-slam-the-brakes-on-uk-datacenter-construction-until-water-and-energy-use-are-sorted/5293338"
+      }
+    },
+    {
+      "event_id": "evt-9e18a46df277e668",
+      "event_type": "government_action",
+      "timestamp": "2026-08-28T15:00:00+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-43f1370f6071df77"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "US government snitch-finder pleads guilty to leaking state secrets to foreign spies",
+        "The IT specialist began contacting a foreign government within days of being assigned to the DIA’s Insider Threat Division"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-43f1370f6071df77",
+        "canonical_url": "https://www.theregister.com/security/2026/08/28/us-government-snitch-finder-pleads-guilty-to-leaking-state-secrets-to-foreign-spies/5293248"
+      }
+    },
+    {
+      "event_id": "evt-0435b70fd13edb0f",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T14:15:00+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-b0d24222d968a4d9"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Keepers of Noble Numbats to be offered a Resolute Racoon: Ubuntu 26.04.1 is coming",
+        "GRUB's up for furry new update"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-b0d24222d968a4d9",
+        "canonical_url": "https://www.theregister.com/os-platforms/2026/08/28/keepers-of-noble-numbats-to-be-offered-a-resolute-racoon-ubuntu-26041-is-coming/5293277"
+      }
+    },
+    {
+      "event_id": "evt-1f114c5b9d12974e",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T13:34:00+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-bc769bb68c6a1dfe"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "Word 97's ghost in the machine: The crash that vanished the moment anyone looked at it",
+        "Microsoft veteran recalls how a CPU errata, a mythical ICE, and a single sneaky NOP saved Clippy's big debut"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-bc769bb68c6a1dfe",
+        "canonical_url": "https://www.theregister.com/software/2026/08/28/word-97s-ghost-in-the-machine-the-crash-that-vanished-the-moment-anyone-looked-at-it/5293263"
+      }
+    },
+    {
+      "event_id": "evt-ef1d64af19d306ce",
+      "event_type": "supply_chain_event",
+      "timestamp": "2026-08-28T13:01:14+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-f7afea5d0a3dff22"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Datacenters face direct hit from China rare earth curbs, as clock runs out on escalated licensing chokeoff",
+        "Paused export controls on materials used in key IT components due for review in November"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-f7afea5d0a3dff22",
+        "canonical_url": "https://www.theregister.com/systems/2026/08/28/datacenters-face-direct-hit-from-china-rare-earth-curbs-as-clock-runs-out-on-escalated-licensing-chokeoff/5293257"
+      }
+    },
+    {
+      "event_id": "evt-da11c4624d4b8c39",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T12:31:51+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-583d7cebf2d2b09a"
+      ],
+      "companies": [
+        "anthropic"
+      ],
+      "entities": [
+        "anthropic"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "cybersecurity"
+      ],
+      "assets": [],
+      "facts": [
+        "Pentagon blacklisted Anthropic over Claude powers it didn't have",
+        "Judge finds national-security rationale was assembled after Hegseth had already decided AI maker was a threat"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-583d7cebf2d2b09a",
+        "canonical_url": "https://www.theregister.com/ai-and-ml/2026/08/28/pentagon-blacklisted-anthropic-over-claude-powers-it-didnt-have/5293266"
+      }
+    },
+    {
+      "event_id": "evt-cfb0797553f4cdca",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T12:03:00+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-dc01b125fb5ea3f7"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Microsoft preps this year's Windows 11 feature tweaks: 26H2 hits Release Preview",
+        "Same servicing branch as 24H2 and 25H2... and the same buggy updates"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-dc01b125fb5ea3f7",
+        "canonical_url": "https://www.theregister.com/os-platforms/2026/08/28/microsoft-preps-this-years-windows-11-feature-tweaks-26h2-hits-release-preview/5293211"
+      }
+    },
+    {
+      "event_id": "evt-a27eb2b6cffd0d8b",
+      "event_type": "security_incident",
+      "timestamp": "2026-08-28T11:29:00+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-0b60f5eab7d31801"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "cybersecurity"
+      ],
+      "assets": [],
+      "facts": [
+        "CISA: Most exploited vulnerabilities should have been eradicated decades ago",
+        "Organizational culture and systemic gaps in Secure by Design adoption blamed for sorry state of affairs"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-0b60f5eab7d31801",
+        "canonical_url": "https://www.theregister.com/security/2026/08/28/cisa-most-exploited-vulnerabilities-should-have-been-eradicated-decades-ago/5293194"
+      }
+    },
+    {
+      "event_id": "evt-7b6756faa2e3006b",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T11:01:00+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-aae4eb0ca0c1c034"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "Industry that built the problem offers to sell you the solution",
+        "100+ tech giants warn AI attacks are coming, skip the part where they pay for defenses"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-aae4eb0ca0c1c034",
+        "canonical_url": "https://www.theregister.com/security/2026/08/28/industry-that-built-the-problem-offers-to-sell-you-the-solution/5293207"
+      }
+    },
+    {
+      "event_id": "evt-86d5c97e3685c8b0",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T10:29:00+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-46d47b12a5aaf2b0"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Microsoft's virtual intern Teams Facilitator will be late for the meeting",
+        "Teams question detection bot postpones debut, will get 2-month extension to practice interrupting you"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-46d47b12a5aaf2b0",
+        "canonical_url": "https://www.theregister.com/ai-and-ml/2026/08/28/microsofts-virtual-intern-teams-facilitator-will-be-late-for-the-meeting/5293045"
+      }
+    },
+    {
+      "event_id": "evt-c98f969c0123b09e",
+      "event_type": "government_action",
+      "timestamp": "2026-08-28T10:00:00+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-e3a896e6350e2ad6"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "Unsafe at any speed: AI optimists are turning cautious as safety concerns mount",
+        "And as for getting US government to help – uncontrolled AI is not as dangerous as AI under the control of the technically clueless"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-e3a896e6350e2ad6",
+        "canonical_url": "https://www.theregister.com/columnists/2026/08/28/unsafe-at-any-speed-ai-optimists-are-turning-cautious-as-safety-concerns-mount/5292853"
+      }
+    },
+    {
+      "event_id": "evt-f0d84fea8775c5ef",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T09:15:00+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-449fd148900244ea"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "Big Tech market power will cause UK to lose AI race, think tank warns",
+        "Britain's market watchdog criticized for not creating the conditions for competition to thrive"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-449fd148900244ea",
+        "canonical_url": "https://www.theregister.com/ai-and-ml/2026/08/28/big-tech-market-power-will-cause-uk-to-lose-ai-race-think-tank-warns/5292918"
+      }
+    },
+    {
+      "event_id": "evt-113b9d18ad8359f1",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T08:29:00+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-966378e4a09ba4de"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "BOFH: Schrödinger's petty cash puts us in a very awkward superposition",
+        "Why oh why are the accountants stricter than the IRS and HMRC put together?"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-966378e4a09ba4de",
+        "canonical_url": "https://www.theregister.com/bofh/2026/08/28/bofh-schroedingers-petty-cash-puts-us-in-a-very-awkward-superposition/5289510"
+      }
+    },
+    {
+      "event_id": "evt-c34b8df41859b1cf",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T06:37:00+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-8dabb8e9a5921d50"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "On Call: Exec couldn’t identify a photocopier, which made for a fax-inating tech support call",
+        "One retro numeric keypad looks much like any other to some users"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-8dabb8e9a5921d50",
+        "canonical_url": "https://www.theregister.com/personal-tech/2026/08/28/on-call-exec-couldnt-identify-a-photocopier-which-made-for-a-fax-inating-tech-support-call/5292838"
+      }
+    },
+    {
+      "event_id": "evt-b2b0dc68113c2286",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T05:29:53+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-f18ebe63d6fef8f7"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Print management outfit PaperCut is under 0-day attack, and it’s drawing customers’ blood",
+        "The fix is either an unvalidated and unofficial emergency patch or taking the server offline"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-f18ebe63d6fef8f7",
+        "canonical_url": "https://www.theregister.com/security/2026/08/28/print-management-outfit-papercut-is-under-0-day-attack-and-its-drawing-customers-blood/5293168"
+      }
+    },
+    {
+      "event_id": "evt-f4915b6eddb244a5",
+      "event_type": "supply_chain_event",
+      "timestamp": "2026-08-28T03:33:54+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-91388821cb268eec"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Australian cops cuff alleged TeamPCP masterminds",
+        "Alleged crew behind the Shai-Hulud worm and other supply chain attacks nabbed with help from the FBI"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-91388821cb268eec",
+        "canonical_url": "https://www.theregister.com/security/2026/08/28/australian-cops-cuff-alleged-teampcp-masterminds/5293157"
+      }
+    },
+    {
+      "event_id": "evt-9b3062b81544a744",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T23:22:35+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-5075badb5dcaa2ce"
+      ],
+      "companies": [
+        "anthropic"
+      ],
+      "entities": [
+        "anthropic"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "robotics"
+      ],
+      "assets": [],
+      "facts": [
+        "Anthropic proposes plumbing spec to link AI agents to lab kit and robots",
+        "Say you're trying to enrich Uranium and your centrifuges broke - soon it will be easy to connect an AI to figure out why"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-5075badb5dcaa2ce",
+        "canonical_url": "https://www.theregister.com/ai-and-ml/2026/08/28/anthropic-proposes-plumbing-spec-to-link-ai-agents-to-lab-kit-and-robots/5293135"
+      }
+    },
+    {
+      "event_id": "evt-1a9af0744dfa7486",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T22:57:43+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-fbfd4d05b1c3462d"
+      ],
+      "companies": [
+        "nvidia"
+      ],
+      "entities": [
+        "nvidia"
+      ],
+      "countries": [],
+      "sectors": [
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "Nvidia and Cerebras are selling performance their customers will (probably) never see",
+        "Touting batch 1 token generation is a bit like boasting about the top speed of your car"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-fbfd4d05b1c3462d",
+        "canonical_url": "https://www.theregister.com/systems/2026/08/27/nvidia-and-cerebras-are-selling-performance-their-customers-will-probably-never-see/5293117"
+      }
+    },
+    {
+      "event_id": "evt-ecb608e1e50f2bcc",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T21:24:27+00:00",
+      "source_ids": [
+        "the-register"
+      ],
+      "article_ids": [
+        "inbox-38de50d526e42ed6"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "CRPx0 hacking service for dummies claims victim count more than quintupled",
+        "It's 'built to be operated by a human with no technical background'"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "the-register",
+        "source_name": "The Register",
+        "article_id": "inbox-38de50d526e42ed6",
+        "canonical_url": "https://www.theregister.com/cyber-crime/2026/08/27/crpx0-hacking-service-for-dummies-claims-victim-count-more-than-quintupled/5293097"
+      }
+    },
+    {
+      "event_id": "evt-7de293b44b26d661",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T11:00:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-e0225435362f02ac"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Soundcore Liberty 5 Pro Review: Master of Phone Calls",
+        "Outstanding call quality and an excellent price point put these earbuds way ahead of pricier competition."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-e0225435362f02ac",
+        "canonical_url": "https://www.wired.com/review/soundcore-liberty-5-pro"
+      }
+    },
+    {
+      "event_id": "evt-764e6452cfe33fe1",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T10:30:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-f953923c6a8749e7"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "space"
+      ],
+      "assets": [],
+      "facts": [
+        "NASA’s Nancy Grace Roman Space Telescope Has a Hidden Technological Leap",
+        "Astronomers will test equipment that, if it’s successful, will one day be crucial for discovering Earthlike planets."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-f953923c6a8749e7",
+        "canonical_url": "https://www.wired.com/story/nasas-nancy-grace-roman-space-telescope-coronagraph-leap"
+      }
+    },
+    {
+      "event_id": "evt-a89f8197a0688340",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T10:30:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-c56cf3e22fd8bcb0"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "robotics",
+        "cybersecurity"
+      ],
+      "assets": [],
+      "facts": [
+        "The Cybersecurity Apocalypse Is Coming in ‘Months,’ AI Giants Warn",
+        "Plus: Hackers target over 100 US water systems, ICE puts in an order for robot dogs, and you’ll never guess what “MrChildPorn” was arrested for."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-c56cf3e22fd8bcb0",
+        "canonical_url": "https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn"
+      }
+    },
+    {
+      "event_id": "evt-c95901d09076574c",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T10:00:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-77b5d886a3804b48"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "How to Run a Chatbot on Your Own Computer",
+        "Installing a large language model on your personal computer gives you a handy digital assistant that won’t compromise your data privacy."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-77b5d886a3804b48",
+        "canonical_url": "https://www.wired.com/story/how-to-run-your-own-local-llm"
+      }
+    },
+    {
+      "event_id": "evt-8c6f7b08130bb912",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T09:00:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-214515c3f2ebbaa4"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Psilocybin Might Make Your Brain Live in the Moment",
+        "Psychedelics are often associated with disconnecting from reality, but a recent neuroimaging study found that psilocybin can actually make our brain activity more connected to the world around us."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-214515c3f2ebbaa4",
+        "canonical_url": "https://www.wired.com/story/psilocybin-might-make-your-brain-live-in-the-moment"
+      }
+    },
+    {
+      "event_id": "evt-70660ccbf9d81ca3",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T05:00:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-902282cd82b20d33"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Motorola Coupon Code for September 2026",
+        "Upgrade your smartphone for less with the latest Motorola promo codes, free shipping offers, and exclusive seasonal discounts."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-902282cd82b20d33",
+        "canonical_url": "https://www.wired.com/story/motorola-coupon-code"
+      }
+    },
+    {
+      "event_id": "evt-9e3e973e5b3bfeaa",
+      "event_type": "earnings",
+      "timestamp": "2026-08-28T22:29:13+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-ee9b4063e536d044"
+      ],
+      "companies": [
+        "nvidia"
+      ],
+      "entities": [
+        "nvidia"
+      ],
+      "countries": [],
+      "sectors": [
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "Nvidia CEO Jensen Huang Took a Call From Donald Trump in the Middle of an All-Hands",
+        "The unexpected interruption came hours before the president wrote a congratulatory post on Truth Social about the company’s most recent earnings report."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-ee9b4063e536d044",
+        "canonical_url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-took-a-call-from-donald-trump-in-the-middle-of-an-all-hands"
+      }
+    },
+    {
+      "event_id": "evt-4da327158d20e3fb",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T19:44:11+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-97b73d39ccc4827c"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Milo Yiannopoulos Detained by ICE in Louisiana",
+        "The longtime far-right operator and troll, a UK citizen, is being held in ICE custody pending his removal from the United States."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-97b73d39ccc4827c",
+        "canonical_url": "https://www.wired.com/story/milo-yiannopoulos-detained-by-ice-in-louisiana"
+      }
+    },
+    {
+      "event_id": "evt-f8adf3fe4f5f0741",
+      "event_type": "security_incident",
+      "timestamp": "2026-08-28T18:23:17+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-183cc9eadb16e431"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "cybersecurity"
+      ],
+      "assets": [],
+      "facts": [
+        "Microsoft Teams Has Become a Haven for Scammers in China",
+        "Fraudsters are exploiting enterprise chat apps like Teams and Webex to trick Chinese victims into transferring large sums of money, fueling a wave of complaints."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-183cc9eadb16e431",
+        "canonical_url": "https://www.wired.com/story/microsoft-teams-is-becoming-a-haven-for-chinese-scammers"
+      }
+    },
+    {
+      "event_id": "evt-283f78de2fa99b29",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T17:14:19+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-8ec11d7f7355193a"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Mice, a Caved-In Ceiling, and Cloudy Water: The GSA’s New Office Is Falling Apart",
+        "“Do we need to look at the ceiling before going to the bathroom? Can we actually trust the water is safe to drink?” asks one GSA worker."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-8ec11d7f7355193a",
+        "canonical_url": "https://www.wired.com/story/mice-a-caved-in-ceiling-and-cloudy-water-the-gsas-new-office-is-falling-apart"
+      }
+    },
+    {
+      "event_id": "evt-14a19c1c62401b41",
+      "event_type": "research_result",
+      "timestamp": "2026-08-28T15:00:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-b9d1fa72b77f7a9d"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "AI Has Human Doctors Asking: What’s Left for Us?",
+        "A recent paper argues that AI is often better at doctoring than doctors. Guess who isn't thrilled."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-b9d1fa72b77f7a9d",
+        "canonical_url": "https://www.wired.com/story/ai-has-human-doctors-asking-whats-left-for-us"
+      }
+    },
+    {
+      "event_id": "evt-f48fd247c8d8f290",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T12:00:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-abcb60e329a6a358"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "The 31 Best Deals From the REI Labor Day Sale",
+        "Labor Day already? Say it ain’t so. You can still chase summer a while longer with these great deals on outdoor gear at the REI Labor Day Sale."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-abcb60e329a6a358",
+        "canonical_url": "https://www.wired.com/story/rei-labor-day-sale-2026"
+      }
+    },
+    {
+      "event_id": "evt-11d6497490a0c365",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T11:39:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-eec74c5fb242afb2"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Best Laptops (2026): My Top Recommendations After Testing Hundreds",
+        "I’ve been reviewing laptops for over a decade, and here's my advice on how to find the right laptop for you."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-eec74c5fb242afb2",
+        "canonical_url": "https://www.wired.com/story/best-laptops"
+      }
+    },
+    {
+      "event_id": "evt-734db561af0abf57",
+      "event_type": "partnership",
+      "timestamp": "2026-08-28T11:00:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-52a20a04b0dc2695"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "He Scraped All of Their Art for AI. Now He’s Collaborating on a Tool to Help Them",
+        "The art portfolio platform Cara, designed for creators who don’t want their work used to train AI, has been under assault by trolls seizing and publishing its data."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-52a20a04b0dc2695",
+        "canonical_url": "https://www.wired.com/story/he-scraped-art-from-cara-for-ai-now-he-is-collaborating-on-a-tool-to-help-them"
+      }
+    },
+    {
+      "event_id": "evt-737b81e4cbb35706",
+      "event_type": "infrastructure_investment",
+      "timestamp": "2026-08-28T10:56:22+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-7436aefd4116da66"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "robotics"
+      ],
+      "assets": [],
+      "facts": [
+        "Inside Meta’s Push to Put Robots to Work in Data Centers",
+        "The company is testing robots that can swap cables, reset servers, and take on other tasks performed by technicians, fueling concerns among some workers that their jobs could be at risk."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-7436aefd4116da66",
+        "canonical_url": "https://www.wired.com/story/inside-metas-experiments-with-data-center-robots"
+      }
+    },
+    {
+      "event_id": "evt-ea183ec5bee54c05",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T10:45:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-7c6a791985f1413c"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "The Easiest Ways to Share Anything Between Android and iOS",
+        "Transferring files and data across platforms is more straightforward than ever."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-7c6a791985f1413c",
+        "canonical_url": "https://www.wired.com/story/how-to-share-anything-between-android-and-ios"
+      }
+    },
+    {
+      "event_id": "evt-14ae6cc4e84670f0",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T10:30:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-1277d5a589e9decb"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "XGIMI Vibe One Battery-Powered Projector Review (2026)",
+        "With the curtains closed and the power cable nearby, this affordable Full HD smart projector is a compact delight."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-1277d5a589e9decb",
+        "canonical_url": "https://www.wired.com/review/xgimi-vibe-one-battery-powered-projector"
+      }
+    },
+    {
+      "event_id": "evt-cfde274afd32c9f7",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T10:15:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-2c8d6d7f44ab83c4"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "I Asked 100 Companies for My Data. I Got Deletion Notices Instead",
+        "California residents have a legal right to access the data that companies collect about them. Actually exercising that right is a burdensome nightmare."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-2c8d6d7f44ab83c4",
+        "canonical_url": "https://www.wired.com/story/i-demanded-my-data-from-over-100-companies-deletion-notices-started-arriving-instead"
+      }
+    },
+    {
+      "event_id": "evt-ee34802a9c330ec4",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T09:30:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-f42c83fa6cee63f6"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "There Are So Many Conspiracy Theories About Dolly Parton and Vaccines",
+        "Influential right-wing conspiracy theorists and MAGA-aligned pundits are falsely claiming that the Covid vaccine killed Dolly Parton, the vaccination advocate and philanthropist."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-f42c83fa6cee63f6",
+        "canonical_url": "https://www.wired.com/story/there-are-so-many-conspiracy-theories-about-dolly-parton-and-vaccines"
+      }
+    },
+    {
+      "event_id": "evt-23d84710a4a9e1ba",
+      "event_type": "government_action",
+      "timestamp": "2026-08-28T09:00:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-9c91f670ff4552e8"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "How an Atlanta Suburb Ended Up Sharing Flock Data With More Than 2,000 Organizations",
+        "Alpharetta, Georgia, cops share data with thousands of Flock users, ranging from federal agencies to a fish and wildlife commission. The reasons why show how vast—and invasive—the network has become."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-9c91f670ff4552e8",
+        "canonical_url": "https://www.wired.com/story/how-an-atlanta-suburb-ended-up-sharing-flock-data-with-more-than-2000-organizations"
+      }
+    },
+    {
+      "event_id": "evt-bdcf162cce34d457",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T05:00:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-38f25aa9d6a80aef"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Uber Eats Promo Codes: $15 Off │September 2026",
+        "Hunger meets savings. Discover verified Uber Eats promo codes, new user offers, and Uber One discounts to slash your delivery fees and meal costs."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-38f25aa9d6a80aef",
+        "canonical_url": "https://www.wired.com/story/uber-eats-promo-code"
+      }
+    },
+    {
+      "event_id": "evt-09ebbf91a9bdb219",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T05:00:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-5f782fb1b8702b4c"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Hotels.com Coupon Codes for September 2026",
+        "Unlock significant savings on hotels, resorts, and getaways with our verified Hotels.com promo codes and gift card discounts. Plan your perfect trip today!"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-5f782fb1b8702b4c",
+        "canonical_url": "https://www.wired.com/story/hotels-com-coupon"
+      }
+    },
+    {
+      "event_id": "evt-9a0ee9306f8eba27",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T05:00:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-6295ce6a3696e362"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Gametime Promo Code: Save on Tickets in September 2026",
+        "Grab last-minute seats for less with a verified Gametime discount code for up to 10% off, first-purchase coupons, and lowest price guarantee credits."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-6295ce6a3696e362",
+        "canonical_url": "https://www.wired.com/story/gametime-promo-code"
+      }
+    },
+    {
+      "event_id": "evt-4a79597f8f460e74",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T05:00:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-f68cc5a238febeda"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Reebok Discount Code: Save 15%+ in September 2026",
+        "Score deep discounts on running shoes, athletic apparel, and classics with the latest verified Reebok promo codes, student discounts, and member-only savings."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-f68cc5a238febeda",
+        "canonical_url": "https://www.wired.com/story/reebok-discount-code"
+      }
+    },
+    {
+      "event_id": "evt-3ebc43a3494e5aa4",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T05:00:00+00:00",
+      "source_ids": [
+        "wired"
+      ],
+      "article_ids": [
+        "inbox-535592964c7d9457"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "30% VistaPrint Coupon & Promo Codes | September 2026",
+        "From personalized gifts to business essentials, WIRED can help you save with our selection of VistaPrint promo codes."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "wired",
+        "source_name": "WIRED",
+        "article_id": "inbox-535592964c7d9457",
+        "canonical_url": "https://www.wired.com/story/vistaprint-coupon-code"
+      }
+    },
+    {
+      "event_id": "evt-e8feadf5a94f957c",
+      "event_type": "security_incident",
+      "timestamp": "2026-08-28T22:40:17+00:00",
+      "source_ids": [
+        "bleepingcomputer"
+      ],
+      "article_ids": [
+        "inbox-d86056bc7ad40765"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "cybersecurity"
+      ],
+      "assets": [],
+      "facts": [
+        "McKesson discloses breach after ShinyHunters claims patient data theft",
+        "Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters extortion group claiming it stole 284 million patient data records. [...]"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "bleepingcomputer",
+        "source_name": "BleepingComputer",
+        "article_id": "inbox-d86056bc7ad40765",
+        "canonical_url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft"
+      }
+    },
+    {
+      "event_id": "evt-139bfdc7f9c4c61f",
+      "event_type": "security_incident",
+      "timestamp": "2026-08-28T19:08:26+00:00",
+      "source_ids": [
+        "bleepingcomputer"
+      ],
+      "article_ids": [
+        "inbox-507c81474e796037"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "cybersecurity"
+      ],
+      "assets": [],
+      "facts": [
+        "PaperCut releases second emergency patch for exploited flaws",
+        "PaperCut has released a second emergency security update for two actively exploited vulnerabilities in its PaperCut NG and MF print management software after researchers discovered multiple ways to bypass the initial fixes. [...]"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "bleepingcomputer",
+        "source_name": "BleepingComputer",
+        "article_id": "inbox-507c81474e796037",
+        "canonical_url": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws"
+      }
+    },
+    {
+      "event_id": "evt-031363f05e253bfa",
+      "event_type": "research_result",
+      "timestamp": "2026-08-28T19:08:26+00:00",
+      "source_ids": [
+        "bleepingcomputer"
+      ],
+      "article_ids": [
+        "inbox-507c81474e796037"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "cybersecurity"
+      ],
+      "assets": [],
+      "facts": [
+        "PaperCut releases second emergency patch for exploited flaws",
+        "PaperCut has released a second emergency security update for two actively exploited vulnerabilities in its PaperCut NG and MF print management software after researchers discovered multiple ways to bypass the initial fixes. [...]"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "bleepingcomputer",
+        "source_name": "BleepingComputer",
+        "article_id": "inbox-507c81474e796037",
+        "canonical_url": "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws"
+      }
+    },
+    {
+      "event_id": "evt-f6f519840fc12f76",
+      "event_type": "security_incident",
+      "timestamp": "2026-08-28T18:18:55+00:00",
+      "source_ids": [
+        "bleepingcomputer"
+      ],
+      "article_ids": [
+        "inbox-eb7e7755fa69b1c9"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "cybersecurity"
+      ],
+      "assets": [],
+      "facts": [
+        "GiveWP WordPress donation plugin flaw lets hackers execute server commands",
+        "A maximum-severity vulnerability in the GiveWP plugin for WordPress allows an unauthenticated attacker to execute arbitrary commands on the hosting server. [...]"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "bleepingcomputer",
+        "source_name": "BleepingComputer",
+        "article_id": "inbox-eb7e7755fa69b1c9",
+        "canonical_url": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands"
+      }
+    },
+    {
+      "event_id": "evt-4b6410c2480b06ee",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T16:36:47+00:00",
+      "source_ids": [
+        "bleepingcomputer"
+      ],
+      "article_ids": [
+        "inbox-5100e8e898a7a7a3"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "68-year-old imprisoned after making $1.3 million by pirating IPTV services",
+        "A 68-year-old has been sentenced in the U.K. to more than six years in prison for operating an illegal IPTV (Internet Protocol Television) service that generated £980,812 ($1.3 million) over three years. [...]"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "bleepingcomputer",
+        "source_name": "BleepingComputer",
+        "article_id": "inbox-5100e8e898a7a7a3",
+        "canonical_url": "https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services"
+      }
+    },
+    {
+      "event_id": "evt-95c5e395adb8a9ac",
+      "event_type": "security_incident",
+      "timestamp": "2026-08-28T14:00:10+00:00",
+      "source_ids": [
+        "bleepingcomputer"
+      ],
+      "article_ids": [
+        "inbox-ef315f9373f3bc0d"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "cybersecurity",
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "AI Is Accelerating Vulnerability Discovery. Can Defenders Keep Up?",
+        "AI is accelerating vulnerability discovery, putting pressure on systems built to enrich, prioritize, and remediate flaws at a slower pace. Action1 explains why defenders increasingly need to correlate multiple intelligence sources and turn vulnerability data into faster remediation. [...]"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "bleepingcomputer",
+        "source_name": "BleepingComputer",
+        "article_id": "inbox-ef315f9373f3bc0d",
+        "canonical_url": "https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up"
+      }
+    },
+    {
+      "event_id": "evt-0078568dfd69a486",
+      "event_type": "security_incident",
+      "timestamp": "2026-08-28T12:58:43+00:00",
+      "source_ids": [
+        "bleepingcomputer"
+      ],
+      "article_ids": [
+        "inbox-9953bd93eeb5c52b"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "cybersecurity"
+      ],
+      "assets": [],
+      "facts": [
+        "Over 8,300 Gitea servers vulnerable to code execution attacks",
+        "Over 8,300 Internet-exposed Gitea instances are still unpatched against a critical security flaw exploited in ongoing remote code execution attacks, according to cybersecurity watchdog Shadowserver. [...]"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "bleepingcomputer",
+        "source_name": "BleepingComputer",
+        "article_id": "inbox-9953bd93eeb5c52b",
+        "canonical_url": "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks"
+      }
+    },
+    {
+      "event_id": "evt-5820322e2a8c767d",
+      "event_type": "security_incident",
+      "timestamp": "2026-08-28T11:46:57+00:00",
+      "source_ids": [
+        "bleepingcomputer"
+      ],
+      "article_ids": [
+        "inbox-ca42d2f6518b2e7e"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "cybersecurity"
+      ],
+      "assets": [],
+      "facts": [
+        "Toy-making giant Hasbro disclose data breach affecting employees",
+        "Hasbro, one of the world's largest toy and game companies, has disclosed that attackers have accessed the personal and financial information of an undisclosed number of employees. [...]"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "bleepingcomputer",
+        "source_name": "BleepingComputer",
+        "article_id": "inbox-ca42d2f6518b2e7e",
+        "canonical_url": "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees"
+      }
+    },
+    {
+      "event_id": "evt-09dd69ce9b1f426a",
+      "event_type": "security_incident",
+      "timestamp": "2026-08-28T10:29:42+00:00",
+      "source_ids": [
+        "bleepingcomputer"
+      ],
+      "article_ids": [
+        "inbox-a1ea42b3a1c683e2"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "cybersecurity"
+      ],
+      "assets": [],
+      "facts": [
+        "ServiceNow warns of three max severity security vulnerabilities",
+        "ServiceNow released security patches for three new maximum-severity AI Platform vulnerabilities that can be exploited in code injection, SQL injection, and privilege escalation attacks. [...]"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "bleepingcomputer",
+        "source_name": "BleepingComputer",
+        "article_id": "inbox-a1ea42b3a1c683e2",
+        "canonical_url": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities"
+      }
+    },
+    {
+      "event_id": "evt-51e9e1c2436c7343",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T09:10:13+00:00",
+      "source_ids": [
+        "bleepingcomputer"
+      ],
+      "article_ids": [
+        "inbox-f1e6c62201e5a3fb"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Windows 11 KB5120998 update released with 35 changes and fixes",
+        "Microsoft released the KB5120998 preview cumulative update for Windows 11 versions 25H2 and 24H2, which comes with 35 changes, including improvements to the Start menu, taskbar, and Windows search. [...]"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "bleepingcomputer",
+        "source_name": "BleepingComputer",
+        "article_id": "inbox-f1e6c62201e5a3fb",
+        "canonical_url": "https://www.bleepingcomputer.com/news/security/windows-11-kb5120998-update-released-with-35-changes-and-fixes"
+      }
+    },
+    {
+      "event_id": "evt-e00e466530eedea5",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T21:38:53+00:00",
+      "source_ids": [
+        "bleepingcomputer"
+      ],
+      "article_ids": [
+        "inbox-425b7b6c5d2251fd"
+      ],
+      "companies": [
+        "openai"
+      ],
+      "entities": [
+        "openai"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
+        "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the compromise through an unauthorized message board. [...]"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "bleepingcomputer",
+        "source_name": "BleepingComputer",
+        "article_id": "inbox-425b7b6c5d2251fd",
+        "canonical_url": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack"
+      }
+    },
+    {
+      "event_id": "evt-5b5accd2498c25e7",
+      "event_type": "security_incident",
+      "timestamp": "2026-08-27T16:31:53+00:00",
+      "source_ids": [
+        "bleepingcomputer"
+      ],
+      "article_ids": [
+        "inbox-0c7614831197265d"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "cybersecurity"
+      ],
+      "assets": [],
+      "facts": [
+        "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
+        "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "bleepingcomputer",
+        "source_name": "BleepingComputer",
+        "article_id": "inbox-0c7614831197265d",
+        "canonical_url": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks"
+      }
+    },
+    {
+      "event_id": "evt-6ff6d8562febe82c",
+      "event_type": "security_incident",
+      "timestamp": "2026-08-27T16:12:26+00:00",
+      "source_ids": [
+        "bleepingcomputer"
+      ],
+      "article_ids": [
+        "inbox-f484fc8348f1ef56"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "cybersecurity"
+      ],
+      "assets": [],
+      "facts": [
+        "Manchester Airports Group says hackers stole travelers' data",
+        "The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports. [...]"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "bleepingcomputer",
+        "source_name": "BleepingComputer",
+        "article_id": "inbox-f484fc8348f1ef56",
+        "canonical_url": "https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data"
+      }
+    },
+    {
+      "event_id": "evt-519381fd29bb2a1e",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T14:00:10+00:00",
+      "source_ids": [
+        "bleepingcomputer"
+      ],
+      "article_ids": [
+        "inbox-874c1e221797d3d3"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "cybersecurity",
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "How Threat Research and MDR Help SMBs Build a Defensive Edge",
+        "Threat research gives security teams insight into how attackers operate, while MDR turns that intelligence into faster detection and response. ESET explains how combining threat intelligence, continuous monitoring, and human expertise can help SMBs strengthen their defenses. [...]"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "bleepingcomputer",
+        "source_name": "BleepingComputer",
+        "article_id": "inbox-874c1e221797d3d3",
+        "canonical_url": "https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge"
+      }
+    },
+    {
+      "event_id": "evt-694ccedee6e9d77e",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T14:00:00+00:00",
+      "source_ids": [
+        "bleepingcomputer"
+      ],
+      "article_ids": [
+        "inbox-4ab0991ef9e94394"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "cybersecurity"
+      ],
+      "assets": [],
+      "facts": [
+        "Android 17 adds ECH support to make web browsing harder to track",
+        "Google is introducing new network security protections in Android 17 to strengthen connection privacy, address cellular vulnerabilities, and protect the privacy of users' home networks. [...]"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "bleepingcomputer",
+        "source_name": "BleepingComputer",
+        "article_id": "inbox-4ab0991ef9e94394",
+        "canonical_url": "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track"
+      }
+    },
+    {
+      "event_id": "evt-09e53890dc067808",
+      "event_type": "supply_chain_event",
+      "timestamp": "2026-08-27T13:31:13+00:00",
+      "source_ids": [
+        "bleepingcomputer"
+      ],
+      "article_ids": [
+        "inbox-3a47ba0a7e58e226"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
+        "Australian authorities have arrested and charged two young men accused of being part of the TeamPCP hacking group linked to a string of far-reaching developer supply chain attacks. [...]"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "bleepingcomputer",
+        "source_name": "BleepingComputer",
+        "article_id": "inbox-3a47ba0a7e58e226",
+        "canonical_url": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks"
+      }
+    },
+    {
+      "event_id": "evt-782a7a01dee00851",
+      "event_type": "infrastructure_investment",
+      "timestamp": "2026-08-29T13:00:00+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-21351f17b60b814a"
+      ],
+      "companies": [
+        "nvidia"
+      ],
+      "entities": [
+        "nvidia"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "Nvidia’s AI advantage is moving beyond the GPU",
+        "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-21351f17b60b814a",
+        "canonical_url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu"
+      }
+    },
+    {
+      "event_id": "evt-34315a056c6cdc15",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T23:24:27+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-cd7a60fa9e75429e"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "robotics"
+      ],
+      "assets": [],
+      "facts": [
+        "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
+        "Technical progress has encouraged a new batch of companies to jump in on the promise of profits from humanoid robots. And they're all Chinese automakers."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-cd7a60fa9e75429e",
+        "canonical_url": "https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine"
+      }
+    },
+    {
+      "event_id": "evt-49d01cbb457d705c",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T22:42:48+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-8331bcd407652aae"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Is the best way to watch a movie on a pair of sunglasses?",
+        "Are XREAL's smart glasses the way of the future for home entertainment?"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-8331bcd407652aae",
+        "canonical_url": "https://techcrunch.com/2026/08/28/is-the-best-way-to-watch-a-movie-on-a-pair-of-sunglasses"
+      }
+    },
+    {
+      "event_id": "evt-5572c1ef1cc8f6ca",
+      "event_type": "acquisition",
+      "timestamp": "2026-08-28T20:24:11+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-5d3536d03c48c697"
+      ],
+      "companies": [
+        "nvidia"
+      ],
+      "entities": [
+        "nvidia"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "Neocloud Lambda secures $1B in debt to buy more chips",
+        "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-5d3536d03c48c697",
+        "canonical_url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips"
+      }
+    },
+    {
+      "event_id": "evt-dc39107a8850539f",
+      "event_type": "research_result",
+      "timestamp": "2026-08-28T19:30:38+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-02354c6a50c504fd"
+      ],
+      "companies": [
+        "anthropic"
+      ],
+      "entities": [
+        "anthropic"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "An Anthropic researcher just gave us a peek at self-improving AI",
+        "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-02354c6a50c504fd",
+        "canonical_url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai"
+      }
+    },
+    {
+      "event_id": "evt-c1fabe0d27bae50e",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T18:50:00+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-3ab3776178563d6c"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Brave’s browser one-ups Chrome with its new support for email aliases",
+        "The feature, announced this week, allows Brave's users to sign up for websites and other online services without having to share their personal email addresses."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-3ab3776178563d6c",
+        "canonical_url": "https://techcrunch.com/2026/08/28/braves-browser-one-ups-chrome-with-its-new-support-for-email-aliases"
+      }
+    },
+    {
+      "event_id": "evt-e57119150da2385b",
+      "event_type": "acquisition",
+      "timestamp": "2026-08-28T18:19:40+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-0e9ab3c13f6b2176"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "Open-weight AI companies are the Valley’s hottest acquisition targets",
+        "There's a lot of capital pouring into the business of giving models away."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-0e9ab3c13f6b2176",
+        "canonical_url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets"
+      }
+    },
+    {
+      "event_id": "evt-5927a870376cd33c",
+      "event_type": "funding",
+      "timestamp": "2026-08-28T17:09:05+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-fc3134a41509b8d8"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "How Sweden built one of Europe’s hottest startup ecosystems",
+        "Sophia Bendz, general partner at Cherry Ventures, stopped by Equity to break down the latest in the Swedish tech ecosystem."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-fc3134a41509b8d8",
+        "canonical_url": "https://techcrunch.com/2026/08/28/how-sweden-built-one-of-europes-hottest-startup-ecosystems"
+      }
+    },
+    {
+      "event_id": "evt-176059fae2756d6c",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T15:57:58+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-a78a758dfd23bf4a"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "More Americans oppose police license plate cameras than support them: survey",
+        "The backlash against license plate readers comes amid a wave of police abuses of surveillance cameras."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-a78a758dfd23bf4a",
+        "canonical_url": "https://techcrunch.com/2026/08/28/more-americans-oppose-police-license-plate-cameras-than-support-them-survey"
+      }
+    },
+    {
+      "event_id": "evt-5ffbd3e3791be61c",
+      "event_type": "funding",
+      "timestamp": "2026-08-28T15:35:03+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-5657f2e533441a2a"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Friend-focused photo-sharing app Retro snags $21M",
+        "Retro, a friend-focused photo-sharing app built by former Instagram employees, has raised more than $21 million in Series A funding."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-5657f2e533441a2a",
+        "canonical_url": "https://techcrunch.com/2026/08/28/friend-focused-photo-sharing-app-retro-snags-21m"
+      }
+    },
+    {
+      "event_id": "evt-1c459e06d42beb36",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T14:36:48+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-c58e61cf5e30cbc2"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Apple TV is raising its subscription prices again",
+        "Now, Apple TV subscriptions will cost $14.99 per month, up from its previous price of $12.99 per month."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-c58e61cf5e30cbc2",
+        "canonical_url": "https://techcrunch.com/2026/08/28/apple-tv-is-raising-its-subscription-prices-again"
+      }
+    },
+    {
+      "event_id": "evt-7beca9051c302440",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T13:24:43+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-b62664590a2f72f7"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "a16z creates a $1.1B ‘Machine Age’ fund to ‘accelerate the physical buildout of AI’",
+        "The firm, known for its focus on software, is going to start throwing more money at the hardware behind AI."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-b62664590a2f72f7",
+        "canonical_url": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai"
+      }
+    },
+    {
+      "event_id": "evt-8cf5f8d0734ae3eb",
+      "event_type": "government_action",
+      "timestamp": "2026-08-28T12:46:12+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-0e24e6fa4ffa0a62"
+      ],
+      "companies": [
+        "anthropic"
+      ],
+      "entities": [
+        "anthropic"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+        "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-0e24e6fa4ffa0a62",
+        "canonical_url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label"
+      }
+    },
+    {
+      "event_id": "evt-a8c65179bede5a79",
+      "event_type": "technology_milestone",
+      "timestamp": "2026-08-28T12:46:12+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-0e24e6fa4ffa0a62"
+      ],
+      "companies": [
+        "anthropic"
+      ],
+      "entities": [
+        "anthropic"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+        "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-0e24e6fa4ffa0a62",
+        "canonical_url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label"
+      }
+    },
+    {
+      "event_id": "evt-a8cce1b2555886b6",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T12:21:06+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-83fb200a008c2217"
+      ],
+      "companies": [
+        "openai"
+      ],
+      "entities": [
+        "openai"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
+        "Sandhya Devanathan will oversee some OpenAI operations across Southeast Asia and Australia in her new role."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-83fb200a008c2217",
+        "canonical_url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india"
+      }
+    },
+    {
+      "event_id": "evt-7bab9234a46749e2",
+      "event_type": "product_launch",
+      "timestamp": "2026-08-28T09:33:00+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-3446bb1c1787598e"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "space"
+      ],
+      "assets": [],
+      "facts": [
+        "As electric two-wheelers gain a foothold, Belgian startup Any bets on cargo space",
+        "Launched by Belgian startup Any, LUV1 is a modular electric motorcycle with 120 liters of cargo space that can be used to carry bags, work equipment, or even pets."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-3446bb1c1787598e",
+        "canonical_url": "https://techcrunch.com/2026/08/28/as-electric-two-wheelers-gain-a-foothold-belgian-startup-any-bets-on-cargo-space"
+      }
+    },
+    {
+      "event_id": "evt-e1e74c326e8cfd24",
+      "event_type": "funding",
+      "timestamp": "2026-08-28T02:02:44+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-32d07c67a424b947"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "AI, athletes, and Keith Rabois: StrictlyVC is back in New York on September 10",
+        "A boutique StrictlyVC evening returns to New York's West Village on September 10 with Keith Rabois, Craig Shapiro, Jason Levien, Tristan Walker, Brynn Putnam, and Deven Parekh — covering AI, sports investing, community-building, venture economics, and politics, with cocktails, food, and networking throughout the night."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-32d07c67a424b947",
+        "canonical_url": "https://techcrunch.com/2026/08/27/ai-athletes-and-keith-rabois-strictlyvc-is-back-in-new-york-on-september-10"
+      }
+    },
+    {
+      "event_id": "evt-e813825d659bd603",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T23:16:45+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-f8c095ad30853e6d"
+      ],
+      "companies": [
+        "anthropic",
+        "openai"
+      ],
+      "entities": [
+        "anthropic",
+        "openai"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+        "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-f8c095ad30853e6d",
+        "canonical_url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026"
+      }
+    },
+    {
+      "event_id": "evt-d4745f5b3b6bb2db",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T20:23:10+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-3ccde67bcb8f0270"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Rivian’s CFO is leaving the company",
+        "Claire McDonough is stepping down on October 30 to pursue a new opportunity, the company said in a filing on Thursday."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-3ccde67bcb8f0270",
+        "canonical_url": "https://techcrunch.com/2026/08/27/rivians-cfo-is-leaving-the-company"
+      }
+    },
+    {
+      "event_id": "evt-f4a698b896f7b3c8",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T20:15:26+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-136522289c549041"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Bluesky adds an ‘algorithmic opt-out’ feature for those who don’t want to go viral",
+        "Sometimes people just want to post to their followers, Bluesky says."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-136522289c549041",
+        "canonical_url": "https://techcrunch.com/2026/08/27/bluesky-adds-an-algorithmic-opt-out-feature-for-those-who-dont-want-to-go-viral"
+      }
+    },
+    {
+      "event_id": "evt-647c190b6b7d26fe",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T20:04:26+00:00",
+      "source_ids": [
+        "techcrunch"
+      ],
+      "article_ids": [
+        "inbox-1ad8a2a51e2106c5"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Buried in Meta’s $18B settlement is a legal pass on kids’ data",
+        "Meta’s settlement with 29 states allows it to retain certain data from children under 13 to train and test age-detection models, highlighting a privacy trade-off built into the deal."
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "techcrunch",
+        "source_name": "TechCrunch",
+        "article_id": "inbox-1ad8a2a51e2106c5",
+        "canonical_url": "https://techcrunch.com/2026/08/27/buried-in-metas-18b-settlement-is-a-legal-pass-on-kids-data"
+      }
+    },
+    {
+      "event_id": "evt-edcb017d26e4abc3",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T18:00:04+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-26a50f56758e800d"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "robotics"
+      ],
+      "assets": [],
+      "facts": [
+        "Oscar Winner Brings Monsters to Life With His Simulation Software",
+        "While walking to school as a child, Jernej Barbič would marvel at how beautiful his home was. He was born and raised in a picturesque village in northwestern Slovenia (formerly Yugoslavia), located in the European Alps. Surrounded by alpine and beech trees, Barbic dreamed of replicating their swaying in the wind for others to enjoy. At the time, he didn’t have the tools or the knowledge to create"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-26a50f56758e800d",
+        "canonical_url": "https://spectrum.ieee.org/oscar-winner-jernej-barbic"
+      }
+    },
+    {
+      "event_id": "evt-276206fce2c5089b",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T14:46:56+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-76a87a4badd5add2"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "space",
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "Make a Portable Wide-screen Mechanical TV",
+        "I never intended to join the cutting edge of electromechanical television. I just wanted to make a nice clock. But sometimes you have to go where the engineering takes you, and in my case it took me to the Scanwheel, a pocket-size wide-screen electromechanical TV with a resolution of 4,096 by 20 pixels. Yup, that’s 4K by 20. The 3D-printed drum [top] is spun by a motor controlled by a driver board"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-76a87a4badd5add2",
+        "canonical_url": "https://spectrum.ieee.org/mechanical-tv-2677767814"
+      }
+    },
+    {
+      "event_id": "evt-8bd9e1bc378b811b",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-26T20:00:04+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-85e6ed68646f9f70"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "IEEE Student Conference Provides Visibility to Budding Authors",
+        "The IEEE–Eta Kappa Nu (IEEE-HKN) honor society is preparing to host the Innovating the Future event on 6 November. The inaugural one-day, in-person event is designed to provide a forum for IEEE and IEEE-HKN undergraduate and graduate student authors to present their original research papers. A keynote address and thematic presentation sessions are planned as well. Student attendees can network wit"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-85e6ed68646f9f70",
+        "canonical_url": "https://spectrum.ieee.org/ieee-student-conference-budding-authors"
+      }
+    },
+    {
+      "event_id": "evt-37e4ecd8e3c25eab",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-26T12:00:01+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-c9c72d97c5f42ccd"
+      ],
+      "companies": [
+        "nvidia"
+      ],
+      "entities": [
+        "nvidia"
+      ],
+      "countries": [],
+      "sectors": [
+        "robotics",
+        "space"
+      ],
+      "assets": [],
+      "facts": [
+        "A New NASA Design Turbocharges Nuclear Spacecraft",
+        "Summary NASA and industry engineers propose a synchronal bimodal nuclear rocket (S‑BNR) to dramatically cut transit times to destinations around the solar system, such as Mars, by combining nuclear thermal and electric propulsion. S‑BNR uses a single reactor with two independent fluid loops and correspondingly optimized fuel zones, eliminating complex mode-switching valves while providing both hig"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-c9c72d97c5f42ccd",
+        "canonical_url": "https://spectrum.ieee.org/bimodal-nuclear-spacecraft"
+      }
+    },
+    {
+      "event_id": "evt-7788ae582021b8ec",
+      "event_type": "regulatory_action",
+      "timestamp": "2026-08-25T13:00:01+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-f642ad21f5c45ca9"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "robotics",
+        "space",
+        "cybersecurity",
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "IBM Built the Cold War’s Most Powerful Code Breaker for the NSA",
+        "At the height of the Cold War, one very specialized computer was so secret that the world didn’t know it existed. It ran its jobs up to 200 times as fast as any other computer of its time. It was the U.S. National Security Agency’s main cryptographic processor in operation from the time of the Cuban Missile Crisis in 1962 through the Vietnam War and on past the 1975 Helsinki Accords . The machine"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-f642ad21f5c45ca9",
+        "canonical_url": "https://spectrum.ieee.org/cold-war-codebreaker-nsa-ibm"
+      }
+    },
+    {
+      "event_id": "evt-550ee2c0ecb0ab26",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-25T10:00:03+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-2b58e7f5bd72680b"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "robotics",
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "AI Companion Robots Are Closing the Human Connection in Modern Homes",
+        "This article is brought to you by Ollobot . From about 2017, individuals began to truly connect with the initial wave of companion robots. These devices had personality, moved around, joked, and answered when you spoke to them. Most early companion robots, however, were still limited by simple voice-command interactions and narrow functionality. Once the novelty wore off, many ended up sitting unu"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-2b58e7f5bd72680b",
+        "canonical_url": "https://spectrum.ieee.org/ollobot-ai-companion-robot"
+      }
+    },
+    {
+      "event_id": "evt-7efa30d853dfaf20",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-24T18:00:01+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-d8bd15fe96245349"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "IEEE Senior Membership Demystified",
+        "For most of my career, my IEEE membership sat quietly in the background—a line on my résumé, a discount code for a conference registration, and access to the IEEE Xplore digital library , which I underutilized. I didn’t think much about the grade of membership available above that of the regular member. I assumed senior membership was reserved for people further along in their career than I was. T"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-d8bd15fe96245349",
+        "canonical_url": "https://spectrum.ieee.org/ieee-senior-membership-demystified"
+      }
+    },
+    {
+      "event_id": "evt-8ca671579f8ea0c1",
+      "event_type": "technology_milestone",
+      "timestamp": "2026-08-24T14:00:01+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-1c1961129eabc6b7"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "space"
+      ],
+      "assets": [],
+      "facts": [
+        "What It Takes to Be an Adaptable Engineer",
+        "The AI boom has disrupted the way engineers work, introducing new tools to learn, raising expectations for what teams can achieve in a workday, and making it harder to get hired in the first place. This makes it difficult to advise students on which specific coding languages or technical skills they should learn. So amidst the uncertainty, advice for young professionals often turns to a common ref"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-1c1961129eabc6b7",
+        "canonical_url": "https://spectrum.ieee.org/adaptable-engineer-core-skills"
+      }
+    },
+    {
+      "event_id": "evt-7fec7cb8a76ec5b3",
+      "event_type": "technology_milestone",
+      "timestamp": "2026-08-24T11:37:02+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-9b71290d4e65aab5"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "Building Technology People Can Trust",
+        "This article is brought to you by Emerson . I’ve spent much of my career as an engineer, including years in the semiconductor industry. And one lesson has stayed with me through every major technology shift: innovation always creates new complexity. In semiconductors, we have seen that repeatedly. Every generation has delivered breakthroughs in performance and capability, but each step forward mad"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-9b71290d4e65aab5",
+        "canonical_url": "https://spectrum.ieee.org/ai-connected-test-and-measurement-platforms"
+      }
+    },
+    {
+      "event_id": "evt-b5fcfbc5ae992982",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-23T13:00:01+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-beab284a953e15be"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Poetry for Engineers: Safe Distance",
+        "How do I touch you across the ocean, across cold depths where light travels through glass. Not copper—fibers. Optical. Through liquid glass, through flickering light that carries you in fragments. Light broken into pulses. You say: it’s easier this way. What are we missing like this? You smile. Safe distance. I say: network. Signals slide beneath the sea, through cables thinner than trust, faster"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-beab284a953e15be",
+        "canonical_url": "https://spectrum.ieee.org/poetry-for-engineers-safe-distance"
+      }
+    },
+    {
+      "event_id": "evt-a75742284fe9de42",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-21T18:00:01+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-a3e592729e4d7e9e"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "space"
+      ],
+      "assets": [],
+      "facts": [
+        "This IEEE Senior Member Develops AI Tools for E-Commerce Sites",
+        "Balaji Ingole rarely saw televisions while growing up in Udgir, India. No one in the small Maharashtra village had computers or phones. Only one household owned a television, and neighbors often gathered there to watch shows together. Ingole never even saw a computer growing up. It wasn’t until he reached middle school that he encountered a computer lab, an experience he says changed his life. Alm"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-a3e592729e4d7e9e",
+        "canonical_url": "https://spectrum.ieee.org/ieee-senior-member-ai-ecommerce"
+      }
+    },
+    {
+      "event_id": "evt-3715695f7a51bbf2",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-21T14:32:37+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-99bbbffa3ea11a55"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "Stop Hunting, Start Solving: Accelerating Root Cause Analysis with Agentic AI",
+        "About this Webinar Turn Yield Excursions into Faster, More Confident Root Cause Analysis When a yield issue emerges, the answer rarely lives in a single system. Critical clues are spread across metrology data, tool traces, chemical analysis, and facilities systems, while growing data volumes make traditional dashboards slow, fragmented, and difficult to act on. What You’ll Learn: Discover how a pu"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-99bbbffa3ea11a55",
+        "canonical_url": "https://event.on24.com/wcc/r/5460332/DAFEFF7A68EE900DEA7A14356089B553"
+      }
+    },
+    {
+      "event_id": "evt-b1e7ecfd2089137d",
+      "event_type": "partnership",
+      "timestamp": "2026-08-19T18:00:02+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-452343f897eaa17c"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "space"
+      ],
+      "assets": [],
+      "facts": [
+        "Gaining Leadership Backing for Your Innovations",
+        "This article is part of our exclusive career advice series in partnership with the IEEE Technology and Engineering Management Society. Imagine this: You have a strong idea for a new product for your company. Your coworkers encourage you to move forward because they believe it could be the organization’s next big success. The idea clearly falls outside your department’s responsibilities, however, a"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-452343f897eaa17c",
+        "canonical_url": "https://spectrum.ieee.org/leadership-backing-innovation"
+      }
+    },
+    {
+      "event_id": "evt-36a5f6b97dae1b32",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-17T18:00:04+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-206156ad603e84fb"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "robotics",
+        "space"
+      ],
+      "assets": [],
+      "facts": [
+        "IEEE Presidents’ Scholarship Honors Teen Innovators",
+        "About 16 percent of the global population—more than 1 billion people—live with some form of disability, according to the World Health Organization . Many of the disabilities affect independence and mobility. Three high school students working on inventions to help people with disabilities restore movement, translate thoughts, and navigate rough terrain had their work showcased at Regeneron’s Inter"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-206156ad603e84fb",
+        "canonical_url": "https://spectrum.ieee.org/ieee-presidents-scholarship-2026"
+      }
+    },
+    {
+      "event_id": "evt-71aeeff305bab0f9",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-17T14:00:01+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-f898626bfa84956c"
+      ],
+      "companies": [
+        "anthropic"
+      ],
+      "entities": [
+        "anthropic"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "From AI Copilots to Agent Swarms",
+        "The impact of AI on software development has been both profound and ever-evolving. Last year, I wrote about AMD’s plans to use AI not just for generating new lines of code, but also for other steps in the software development lifecycle (SDLC), such as triaging problems, debugging code, and testing the software. At the time, we were hoping for a 25 percent productivity boost from AI use over the co"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-f898626bfa84956c",
+        "canonical_url": "https://spectrum.ieee.org/amd-agent-swarms"
+      }
+    },
+    {
+      "event_id": "evt-a2a7304b21cdf9b6",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-14T18:00:02+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-a7aba83834eeaffd"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "cybersecurity",
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "Digital Signal Processing Pioneer Bede Liu Dies At 91",
+        "Bede Liu, a digital signal processing pioneer, died on 7 May. He was 91. Liu was widely regarded as one of the founders of modern digital signal processing, a field that applies mathematical algorithms to analyze, modify, and transmit signals including sound, images, and video. The IEEE Life Fellow taught electrical engineering at Princeton for more than 50 years. From 1994 to 1997, he chaired the"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-a7aba83834eeaffd",
+        "canonical_url": "https://spectrum.ieee.org/digital-signal-processing-pioneer-bede-liu"
+      }
+    },
+    {
+      "event_id": "evt-a43e68fc6b454f9c",
+      "event_type": "research_result",
+      "timestamp": "2026-08-14T17:27:12+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-dbc39d820266c058"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Predict Antenna Coupling on Electrically Large Platforms Before Building Hardware",
+        "Learn how full-wave simulation predicts very low antenna coupling on aircraft-sized platforms, and which three modeling techniques deliver accurate results with fewer computational resources. Download this free whitepaper now!"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-dbc39d820266c058",
+        "canonical_url": "https://content.knowledgehub.wiley.com/efficient-and-accurate-prediction-of-cosite-isolation-on-large-platforms"
+      }
+    },
+    {
+      "event_id": "evt-994db36e47fbd063",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-13T14:44:50+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-e94974621ed2a1f3"
+      ],
+      "companies": [
+        "anthropic"
+      ],
+      "entities": [
+        "anthropic"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "robotics"
+      ],
+      "assets": [],
+      "facts": [
+        "Bring a Product Manager Mindset to Your Next Engineering Job",
+        "If you haven’t already seen a job listing for a “product engineer,” you probably will soon. The job everyone’s suddenly hiring for, this role is like a cross between a product manager and an engineer (as the name suggests). And it’s a hiring trend worth paying attention to. Companies are opening more of these roles every single month, but they’re struggling to fill them. The reason has almost noth"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-e94974621ed2a1f3",
+        "canonical_url": "https://spectrum.ieee.org/product-engineer"
+      }
+    },
+    {
+      "event_id": "evt-ec4257cc43c1bd51",
+      "event_type": "research_result",
+      "timestamp": "2026-08-12T14:18:05+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-51bdc692a743d6bd"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "Inside the Data Bottleneck Slowing Visual and Physical AI",
+        "A survey of over 700 professionals examines how visual and physical AI teams build systems, why models fail, and where data work drives production. Download this free whitepaper now!"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-51bdc692a743d6bd",
+        "canonical_url": "https://content.knowledgehub.wiley.com/the-2026-state-of-visual-and-physical-ai-a-survey-of-700-practitioners-on-data-models-and-production"
+      }
+    },
+    {
+      "event_id": "evt-a65603807a3720a1",
+      "event_type": "government_action",
+      "timestamp": "2026-08-11T19:50:54+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-64dd31737549146f"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "IEEE Engineering Summit Supports Bhutan’s Digital Transformation",
+        "In collaboration with the Kingdom of Bhutan government, IEEE recently introduced its Engineering Education, Research, and Innovation Summit. Held on 9 and 10 June in Paro, in the eastern Himalayas, the event was designed to help Bhutan navigate its digital transformation by focusing on the critical intersection of digital transformation, engineering education, and sustainable development. The summ"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-64dd31737549146f",
+        "canonical_url": "https://spectrum.ieee.org/ieee-summit-bhutan-digital-transformation"
+      }
+    },
+    {
+      "event_id": "evt-a398ce0c2353da94",
+      "event_type": "partnership",
+      "timestamp": "2026-08-11T19:50:54+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-64dd31737549146f"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "IEEE Engineering Summit Supports Bhutan’s Digital Transformation",
+        "In collaboration with the Kingdom of Bhutan government, IEEE recently introduced its Engineering Education, Research, and Innovation Summit. Held on 9 and 10 June in Paro, in the eastern Himalayas, the event was designed to help Bhutan navigate its digital transformation by focusing on the critical intersection of digital transformation, engineering education, and sustainable development. The summ"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-64dd31737549146f",
+        "canonical_url": "https://spectrum.ieee.org/ieee-summit-bhutan-digital-transformation"
+      }
+    },
+    {
+      "event_id": "evt-238a4b41df7d4224",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-11T13:00:01+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-438581dfecd93d40"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Zap Rocks. Add Water. Get Clean Hydrogen",
+        "In a tranquil Boston suburb , on the far edge of a horse farm, where pasture gives way to woods, a crane lowers an enormous electrode into a borehole. The electrode, a half-meter-long cylinder with copper-tipped arms to ensure good contact with the borehole walls, descends—deeper, deeper—through layers of spongy sandstone to the hard, marbled roots of an ancient mountain range hundreds of meters b"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-438581dfecd93d40",
+        "canonical_url": "https://spectrum.ieee.org/stimulated-geologic-hydrogen"
+      }
+    },
+    {
+      "event_id": "evt-aca2a9533768a469",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-07T18:00:01+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-92d5a6ae59ed9743"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Navigating the Pivot From Tech Expert to Organizational Leader",
+        "The transition from a purely technical expert or individual contributor position to a broader leadership role is one of the most challenging phases in a STEM career. It requires moving away from relying solely on technical excellence toward mastering systems thinking, adaptive leadership, and team alignment. To help mid-career professionals navigate the shift, the inaugural IEEE International Lead"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-92d5a6ae59ed9743",
+        "canonical_url": "https://spectrum.ieee.org/navigating-pivot-tech-expert-leader"
+      }
+    },
+    {
+      "event_id": "evt-927badbc8ad7d31d",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-07T13:00:01+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-967e77e1b45522cf"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "robotics",
+        "cybersecurity",
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "Cars Communicating Badly Is an Already-Solved Problem",
+        "The history of networking is full of tools that repurposed solutions to very different kinds of problems first. Wi-Fi’s origins trace back , in part, to a team of Australian radio astronomers trying to detect signals from evaporating black holes. But the data-processing tools they’d developed also proved capable at extracting clean messages from any chaotic, echoing signal environment . Echoes are"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-967e77e1b45522cf",
+        "canonical_url": "https://spectrum.ieee.org/v2x-technology-5g-open-ran"
+      }
+    },
+    {
+      "event_id": "evt-99fe5ef97867d3c0",
+      "event_type": "technology_milestone",
+      "timestamp": "2026-08-05T18:00:03+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-52483edacc3b7bd3"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "cybersecurity",
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "IEEE Course Teaches How to Use AI to Modernize Power Grids",
+        "Today’s U.S. electrical grid, among the largest, most complex systems ever built, is operating at its limit. The combination of rapid industrial growth, more frequent extreme weather, and a record surge in electricity use has pushed the grid to its breaking point , according to the U.S. Department of Energy . Built decades ago for a more predictable world in which power came mostly from centralize"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-52483edacc3b7bd3",
+        "canonical_url": "https://spectrum.ieee.org/ieee-course-ai-power-grids"
+      }
+    },
+    {
+      "event_id": "evt-7c4c394cebd27518",
+      "event_type": "infrastructure_investment",
+      "timestamp": "2026-08-04T14:51:55+00:00",
+      "source_ids": [
+        "ieee-spectrum"
+      ],
+      "article_ids": [
+        "inbox-d8ca15470ee474db"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "Why R&D Waste Persists Despite Widespread AI Adoption",
+        "This report examines R&D waste and how AI adoption has outpaced the intelligence needed to make consequential decisions well. What Attendees will Learn Where R&D budget is lost. More than a third of organizations spend 25 to 40 percent of their R&D budget on projects that never reach market. Why projects fail late. Almost half of teams estimate over one million dollars in wasted investment for eac"
+      ],
+      "confidence": "medium",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "ieee-spectrum",
+        "source_name": "IEEE Spectrum",
+        "article_id": "inbox-d8ca15470ee474db",
+        "canonical_url": "https://content.knowledgehub.wiley.com/the-2026-rd-benchmark-report-waste-ai-and-the-race-to-market"
+      }
+    },
+    {
+      "event_id": "evt-38b485c5f3bc041a",
+      "event_type": "government_action",
+      "timestamp": "2026-08-29T11:39:38+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-2827460774918bed"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Iceland votes on whether to restart talks on joining EU",
+        "Article URL: https://www.bbc.com/news/articles/cn45vdxyvvlo Comments URL: https://news.ycombinator.com/item?id=49489057 Points: 88 # Comments: 99"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-2827460774918bed",
+        "canonical_url": "https://www.bbc.com/news/articles/cn45vdxyvvlo"
+      }
+    },
+    {
+      "event_id": "evt-26c545174011433d",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T06:06:51+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-f234734a378e26d9"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "semiconductors"
+      ],
+      "assets": [],
+      "facts": [
+        "Samsung's Processing-in-Memory (PIM)",
+        "Article URL: https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing Comments URL: https://news.ycombinator.com/item?id=49487341 Points: 138 # Comments: 46"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-f234734a378e26d9",
+        "canonical_url": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing"
+      }
+    },
+    {
+      "event_id": "evt-8957384c9d7845e4",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T02:23:37+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-38a7a81e9279c1ba"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "TurboKV: Insanely fast Rust key-value store",
+        "Article URL: https://github.com/kingroryg/turbokv Comments URL: https://news.ycombinator.com/item?id=49486334 Points: 127 # Comments: 56"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-38a7a81e9279c1ba",
+        "canonical_url": "https://github.com/kingroryg/turbokv"
+      }
+    },
+    {
+      "event_id": "evt-72de7e60107314e2",
+      "event_type": "acquisition",
+      "timestamp": "2026-08-29T01:47:53+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-8be9bfed8f83c9e2"
+      ],
+      "companies": [
+        "openai"
+      ],
+      "entities": [
+        "openai"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai",
+        "space"
+      ],
+      "assets": [],
+      "facts": [
+        "Our decision on Cursor following its acquisition by SpaceX",
+        "Article URL: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ Comments URL: https://news.ycombinator.com/item?id=49486172 Points: 599 # Comments: 343"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-8be9bfed8f83c9e2",
+        "canonical_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
+      }
+    },
+    {
+      "event_id": "evt-f6e3f7c9ccc43865",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-29T01:24:13+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-c6b0909203a17395"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "StemDeck, a free, open-source and local AI stem separator",
+        "Article URL: https://github.com/stemdeckapp/stemdeck Comments URL: https://news.ycombinator.com/item?id=49486081 Points: 124 # Comments: 27"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-c6b0909203a17395",
+        "canonical_url": "https://github.com/stemdeckapp/stemdeck"
+      }
+    },
+    {
+      "event_id": "evt-c1e804394210827d",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T23:46:10+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-e57704afb364dd09"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Does the Sumerian King List Align with Paleoclimate Events?",
+        "Article URL: https://www.vectorian.be/articles/2026-06-07/sumerian-king-list-paleoclimate-alignment-explorer/ Comments URL: https://news.ycombinator.com/item?id=49485532 Points: 108 # Comments: 55"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-e57704afb364dd09",
+        "canonical_url": "https://www.vectorian.be/articles/2026-06-07/sumerian-king-list-paleoclimate-alignment-explorer"
+      }
+    },
+    {
+      "event_id": "evt-26a8981eadf73b88",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T23:32:22+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-8bdf0080e26998b1"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "9th Circuit sides with states in Kalshi gambling fight",
+        "Article URL: https://azmirror.com/2026/08/28/9th-circuit-sides-with-states-in-kalshi-gambling-fight-potentially-reviving-arizonas-prosecution/ Comments URL: https://news.ycombinator.com/item?id=49485452 Points: 142 # Comments: 118"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-8bdf0080e26998b1",
+        "canonical_url": "https://azmirror.com/2026/08/28/9th-circuit-sides-with-states-in-kalshi-gambling-fight-potentially-reviving-arizonas-prosecution"
+      }
+    },
+    {
+      "event_id": "evt-13779bb4fba55f2b",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T23:27:45+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-ccd04a2d0610c1c1"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "I accidentally turned LLM memory into program analysis",
+        "Article URL: https://pwning.systems/posts/llm-memory-program-analysis/ Comments URL: https://news.ycombinator.com/item?id=49485416 Points: 180 # Comments: 45"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-ccd04a2d0610c1c1",
+        "canonical_url": "https://pwning.systems/posts/llm-memory-program-analysis"
+      }
+    },
+    {
+      "event_id": "evt-4266b2dc07a01789",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T23:02:21+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-c7fdd806b538e47d"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Boot a Virtual iPhone via Apple's Virtualization.framework",
+        "Article URL: https://github.com/Lakr233/vphone-cli Comments URL: https://news.ycombinator.com/item?id=49485267 Points: 306 # Comments: 83"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-c7fdd806b538e47d",
+        "canonical_url": "https://github.com/Lakr233/vphone-cli"
+      }
+    },
+    {
+      "event_id": "evt-cd2434a650c000bb",
+      "event_type": "security_incident",
+      "timestamp": "2026-08-28T15:58:46+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-9c3613fcb5a0a17d"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [
+        "cybersecurity"
+      ],
+      "assets": [],
+      "facts": [
+        "Just the rumour of a bug is enough to find an exploit these days",
+        "Article URL: https://anil.recoil.org/notes/rumour-is-the-exploit Comments URL: https://news.ycombinator.com/item?id=49480466 Points: 340 # Comments: 115"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-9c3613fcb5a0a17d",
+        "canonical_url": "https://anil.recoil.org/notes/rumour-is-the-exploit"
+      }
+    },
+    {
+      "event_id": "evt-aafe535a651f7dab",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T15:23:10+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-c1c5e937b8b2c4e9"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "EasyEffects can improve laptop speaker sound quality",
+        "Article URL: https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality/ Comments URL: https://news.ycombinator.com/item?id=49479924 Points: 170 # Comments: 69"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-c1c5e937b8b2c4e9",
+        "canonical_url": "https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality"
+      }
+    },
+    {
+      "event_id": "evt-3c53ff30ffceaf05",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T15:20:13+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-abf66d074aa92a38"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "GLM-5.3 is now open-weight",
+        "https://twitter.com/Zai_org/status/2093354097122455713 https://z.ai/blog/glm-5.3 Comments URL: https://news.ycombinator.com/item?id=49479878 Points: 722 # Comments: 241"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-abf66d074aa92a38",
+        "canonical_url": "https://huggingface.co/zai-org/GLM-5.3"
+      }
+    },
+    {
+      "event_id": "evt-78c04446d3a9156b",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T15:17:09+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-19a2d7556a35a1d4"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "GUIs should be fully keyboard-driven",
+        "Article URL: https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html Comments URL: https://news.ycombinator.com/item?id=49479837 Points: 870 # Comments: 434"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-19a2d7556a35a1d4",
+        "canonical_url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html"
+      }
+    },
+    {
+      "event_id": "evt-42b129be8d041775",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T14:30:33+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-fb8565ff116987a7"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Verschlimmbesserung: The Word Your Software Updates Need",
+        "Article URL: https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/ Comments URL: https://news.ycombinator.com/item?id=49479072 Points: 149 # Comments: 103"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-fb8565ff116987a7",
+        "canonical_url": "https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung"
+      }
+    },
+    {
+      "event_id": "evt-3902a4ea9bcd47fa",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T13:28:56+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-337f15c08d71ece5"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Htmx 4.0",
+        "Article URL: https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released Comments URL: https://news.ycombinator.com/item?id=49478178 Points: 703 # Comments: 174"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-337f15c08d71ece5",
+        "canonical_url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released"
+      }
+    },
+    {
+      "event_id": "evt-1c224eac9cf741ad",
+      "event_type": "government_action",
+      "timestamp": "2026-08-28T12:58:53+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-a5dd4be25b406b44"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "U.S. sanctions against the A/I Collective",
+        "Earlier: US Government designates host of noblogs.org a \"global terrorist\" - https://news.ycombinator.com/item?id=49464391 - (131 comments) US sanctions Italian hosting provider Autistici Inventati - https://news.ycombinator.com/item?id=49451343 - (219 comments) Comments URL: https://news.ycombinator.com/item?id=49477854 Points: 633 # Comments: 622"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-a5dd4be25b406b44",
+        "canonical_url": "https://www.inventati.org/"
+      }
+    },
+    {
+      "event_id": "evt-94d97d9b91ae5693",
+      "event_type": "supply_chain_event",
+      "timestamp": "2026-08-28T12:58:53+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-a5dd4be25b406b44"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "U.S. sanctions against the A/I Collective",
+        "Earlier: US Government designates host of noblogs.org a \"global terrorist\" - https://news.ycombinator.com/item?id=49464391 - (131 comments) US sanctions Italian hosting provider Autistici Inventati - https://news.ycombinator.com/item?id=49451343 - (219 comments) Comments URL: https://news.ycombinator.com/item?id=49477854 Points: 633 # Comments: 622"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-a5dd4be25b406b44",
+        "canonical_url": "https://www.inventati.org/"
+      }
+    },
+    {
+      "event_id": "evt-119a7d78bab52ce4",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T12:29:05+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-6f37802606e6ef24"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Inception-style curved map for turn-by-turn directions",
+        "Article URL: https://www.orbify.eu/demo/ Comments URL: https://news.ycombinator.com/item?id=49477564 Points: 529 # Comments: 178"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-6f37802606e6ef24",
+        "canonical_url": "https://www.orbify.eu/demo"
+      }
+    },
+    {
+      "event_id": "evt-21c4940bc04eafc6",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-28T11:51:20+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-34acdea167125c0f"
+      ],
+      "companies": [
+        "openai"
+      ],
+      "entities": [
+        "openai"
+      ],
+      "countries": [],
+      "sectors": [
+        "ai"
+      ],
+      "assets": [],
+      "facts": [
+        "Migrating to HTTPX2",
+        "Article URL: https://github.com/openai/openai-python/blob/main/httpx2.md Comments URL: https://news.ycombinator.com/item?id=49477212 Points: 200 # Comments: 90"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-34acdea167125c0f",
+        "canonical_url": "https://github.com/openai/openai-python/blob/main/httpx2.md"
+      }
+    },
+    {
+      "event_id": "evt-93434c4287d9df3c",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-27T22:41:11+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-5f074105065bf314"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "The Twelve-Factor App (2025)",
+        "Article URL: https://12factor.net/ Comments URL: https://news.ycombinator.com/item?id=49472216 Points: 280 # Comments: 154"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-5f074105065bf314",
+        "canonical_url": "https://12factor.net/"
+      }
+    },
+    {
+      "event_id": "evt-891b7069f57413af",
+      "event_type": "company_announcement",
+      "timestamp": "2026-08-26T22:32:00+00:00",
+      "source_ids": [
+        "hacker-news"
+      ],
+      "article_ids": [
+        "inbox-c35ccc9ba9f755e0"
+      ],
+      "companies": [],
+      "entities": [],
+      "countries": [],
+      "sectors": [],
+      "assets": [],
+      "facts": [
+        "Europe's last regular standard-gauge steam passenger service",
+        "Article URL: https://parowozowniawolsztyn.pl/?page_id=2141 Comments URL: https://news.ycombinator.com/item?id=49456819 Points: 62 # Comments: 18"
+      ],
+      "confidence": "low",
+      "interpretation_status": "unreviewed",
+      "interpretations": [],
+      "hypotheses": [],
+      "provenance": {
+        "source_id": "hacker-news",
+        "source_name": "Hacker News",
+        "article_id": "inbox-c35ccc9ba9f755e0",
+        "canonical_url": "https://parowozowniawolsztyn.pl/?page_id=2141"
+      }
+    }
+  ]
+}

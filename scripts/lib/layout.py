@@ -13,6 +13,7 @@ def nav_items(active: str) -> list[tuple[str, str, str]]:
     return [
         ("/briefings/", "BRIEFINGS", "briefings"),
         ("/signals/", "SIGNALS", "signals"),
+        ("/intelligence/", "INTELLIGENCE", "intelligence"),
         ("/topics/", "TOPICS", "topics"),
         ("/archive/", "ARCHIVE", "archive"),
         ("/lab/", "LAB", "lab"),

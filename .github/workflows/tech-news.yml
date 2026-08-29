@@ -13,12 +13,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch RSS feeds into editorial inbox
-        run: python3 .github/scripts/update-tech-news.py
-      - name: Commit inbox only
+      - name: Run ingestion pipeline
+        run: python3 scripts/run_ingest.py
+      - name: Commit inbox and intelligence artifacts
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/ingest/rss-inbox.json
-          git diff --cached --quiet || git commit -m 'Update RSS editorial inbox'
+          git add data/ingest/rss-inbox.json \
+                  data/intelligence/articles.json \
+                  data/intelligence/events.json
+          git diff --cached --quiet || git commit -m 'Update RSS inbox and extracted events'
           git push

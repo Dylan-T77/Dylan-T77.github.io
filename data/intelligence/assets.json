@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "generated_at": null,
+  "policy": {
+    "note": "Tradable or quotable assets linked to entities where known. Not every entity has an asset."
+  },
+  "assets": [
+    {
+      "asset_id": "nvda",
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "asset_class": "equity",
+      "entity_ids": ["nvidia"],
+      "currency": "USD"
+    },
+    {
+      "asset_id": "btc",
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "asset_class": "crypto",
+      "entity_ids": [],
+      "currency": "USD"
+    }
+  ]
+}
