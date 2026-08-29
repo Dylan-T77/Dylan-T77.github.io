@@ -59,7 +59,7 @@ Pipeline:
 
 SOURCES → INGEST → NORMALIZE → VALIDATE → DEDUPLICATE → CLASSIFY → EDITORIAL REVIEW → PUBLISH → CONNECT
 
-`.github/scripts/update-tech-news.py` writes `data/ingest/rss-inbox.json`.
+`python3 scripts/run_ingest.py` writes `data/ingest/rss-inbox.json` and intelligence artifacts under `data/intelligence/`.
 
 Every ingested record has `editorial_state: INBOX` and `publish: false`. Inbox items are never rendered as briefings or signals.
 
