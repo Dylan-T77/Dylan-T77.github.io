@@ -145,9 +145,9 @@
     renderTopicBars();
     renderStatusBars(vis);
     renderSourceBars(vis);
-    refreshMapCounts(visIds);
     refreshNetFilter(vis, visIds);
-    refreshLocIndex(visIds);
+    renderLandscape(vis);
+    renderSnapshotStats(vis);
   }
 
   /* ---------- bar charts ---------- */
@@ -230,182 +230,79 @@
     }).join("");
   }
 
-  /* ---------- voxel world map ---------- */
-
-  var selectedCountry = null;
-
-  function countryById(id) {
-    var found = null;
-    (DATA.countries || []).forEach(function (c) {
-      if (c.id === id) found = c;
-    });
-    if (found) return found;
-    (DATA.world_countries || []).forEach(function (c) {
-      if (c.id === id) found = c;
-    });
-    return found;
-  }
-
-  function countryCountInView(country, visIds) {
-    var n = 0;
-    (country.signals || []).forEach(function (sid) {
-      if (visIds[sid]) n += 1;
-    });
-    return n;
-  }
-
-  function visSignalMap() {
-    var visIds = {};
-    visibleSignals().forEach(function (s) {
-      visIds[s.id] = true;
-    });
-    return visIds;
-  }
-
-  function syncVoxelIntelligence() {
-    if (!TTB.voxelWorld || !TTB.voxelWorld.isReady()) return;
-    TTB.voxelWorld.setIntelligence(
-      DATA.countries || [],
-      visSignalMap(),
-      DATA.country_intel_events || {}
-    );
-  }
-
-  function initVoxelMap() {
-    syncVoxelIntelligence();
-
-    window.addEventListener("ttb:country-select", function (ev) {
-      var cid = ev.detail && ev.detail.countryId;
-      if (cid) selectCountry(cid, { track: "map" });
-    });
-
-    $$(".country-btn").forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        var id = btn.getAttribute("data-country");
-        TTB.track("map_country_click", { country: id, via: "index" });
-        selectCountry(id, { focus: true, track: "index" });
+  function countByTopic(signals) {
+    var counts = {};
+    DATA.topics.forEach(function (t) { counts[t.id] = 0; });
+    signals.forEach(function (s) {
+      (s.topics || []).forEach(function (t) {
+        if (t in counts) counts[t] += 1;
       });
     });
-
-    if (!TTB.voxelWorld.isReady()) {
-      window.addEventListener("ttb:voxel-ready", function onReady() {
-        window.removeEventListener("ttb:voxel-ready", onReady);
-        syncVoxelIntelligence();
-      });
-    }
+    return counts;
   }
 
-  function selectCountry(id, opts) {
-    var country = countryById(id);
-    if (!country) {
-      country = {
-        id: id,
-        name: id,
-        has_entity_presence: false,
-        has_signals: false,
-        entities: [],
-        sites: [],
-        topics: [],
-        briefings: [],
-        signals: [],
-        signal_count: 0,
-        latest: null,
-      };
-    }
-    opts = opts || {};
-    selectedCountry = id;
-
-    $$(".country-btn").forEach(function (btn) {
-      btn.classList.toggle("is-active", btn.getAttribute("data-country") === id);
-    });
-
-    if (TTB.voxelWorld && TTB.voxelWorld.isReady()) {
-      TTB.voxelWorld.selectCountry(id, { emit: false });
-    }
-
-    if (opts.track) {
-      TTB.track("map_country_select", {
-        country: id,
-        via: opts.track,
-        signals: country.signal_count,
-      });
-    }
-
-    renderCountryDetail(country);
-  }
-
-  function renderCountryDetail(country) {
-    var el = $("#map-detail");
-    if (!el) return;
-    var visIds = visSignalMap();
-    var inView = countryCountInView(country, visIds);
-
-    var ents = (country.entities || []).map(function (ent) {
-      return '<a href="' + esc(ent.url) + '">' + esc(ent.name) + "</a> (" + esc(ent.type) + ")";
-    }).join("<br>");
-
-    var sites = (country.sites || []).map(function (site) {
-      return esc(site.city.toUpperCase()) + " · " + esc(site.name) + " · " + site.signal_count + " SIG";
-    }).join("<br>");
-
-    var topics = (country.topics || []).map(function (t) {
-      return esc(t.toUpperCase());
-    }).join(" · ") || "NONE ON RECORD";
-
-    var latest = country.latest
-      ? '<a href="' + esc(country.latest.url) + '" data-track="signal">' + esc(country.latest.title) + "</a><br>" +
-        '<span class="node-status">' + esc(country.latest.status) + " · " + esc(fmtDay(country.latest.published)) + "</span>"
-      : country.has_entity_presence
-        ? "Entity presence on record. No published signal attached yet."
-        : "No intelligence on record for this country.";
-
-    var briefs = (country.briefings || []).length
-      ? '<dt>BRIEFINGS</dt><dd>' + country.briefings.map(function (b) {
-          return '<a href="' + esc(b.url) + '" data-track="briefing">' + esc(b.title) + "</a>";
-        }).join("<br>") + "</dd>"
-      : "";
-
-    var presenceLine = country.has_signals
-      ? plural(country.signal_count, "SIGNAL") + " ON RECORD · " + inView + " IN VIEW"
-      : country.has_entity_presence
-        ? "ENTITY PRESENCE · 0 SIGNALS ON RECORD"
-        : "NO RECORDED PRESENCE";
-
-    el.innerHTML =
-      "<h3>" + esc(country.name.toUpperCase()) + "</h3>" +
-      '<span class="loc-count">' + esc(presenceLine) + "</span>" +
-      "<dl>" +
-      "<dt>ENTITIES</dt><dd>" + (ents || "None on record.") + "</dd>" +
-      "<dt>SITES</dt><dd>" + (sites || "None on record.") + "</dd>" +
-      "<dt>TOPICS</dt><dd>" + topics + "</dd>" +
-      "<dt>LATEST</dt><dd>" + latest + "</dd>" +
-      briefs +
-      "</dl>" +
-      '<a class="detail-go" href="/signals/" data-track="signals_index">VIEW SIGNALS →</a>';
-  }
-
-  function refreshMapCounts(visIds) {
-    syncVoxelIntelligence();
-    if (selectedCountry) {
-      var country = countryById(selectedCountry);
-      if (country) renderCountryDetail(country);
-    }
-  }
-
-  function refreshLocIndex(visIds) {
-    $$(".country-btn").forEach(function (btn) {
-      var id = btn.getAttribute("data-country");
-      var country = countryById(id);
-      if (!country) return;
-      var meta = btn.querySelector(".loc-meta b");
-      if (!meta) return;
-      if (country.has_signals) {
-        meta.textContent = countryCountInView(country, visIds) + " IN VIEW / " +
-          country.signal_count + " ON RECORD";
-      } else if (country.has_entity_presence) {
-        meta.textContent = "ENTITY PRESENCE · 0 SIGNALS";
+  function countByStatus(signals) {
+    var counts = { VERIFIED: 0, REPORTED: 0 };
+    signals.forEach(function (s) {
+      if (s.status === "VERIFIED" || s.status === "REPORTED") {
+        counts[s.status] += 1;
       }
     });
+    return counts;
+  }
+
+  function renderLandscape(vis) {
+    var topicsEl = $("#chart-landscape");
+    if (!topicsEl) return;
+    var topicCounts = countByTopic(vis);
+    var top = 1;
+    DATA.topics.forEach(function (t) { top = Math.max(top, topicCounts[t.id]); });
+    topicsEl.innerHTML = DATA.topics.map(function (t) {
+      return barRowHtml(t.name, topicCounts[t.id], top, t.id, "data-topic", t.url);
+    }).join("");
+    $$(".bar-row", topicsEl).forEach(function (rowEl) {
+      rowEl.classList.toggle("is-active", rowEl.getAttribute("data-topic") === state.topic);
+      rowEl.setAttribute(
+        "aria-label",
+        (((rowEl.querySelector(".bar-label") || {}).textContent || "Topic").trim()) +
+          ": " + String((rowEl.querySelector(".bar-value") || {}).textContent || "0") + " signals"
+      );
+    });
+
+    var statusEl = $("#chart-landscape-status");
+    if (!statusEl) return;
+    var statusCounts = countByStatus(vis);
+    var statusTop = Math.max(1, statusCounts.VERIFIED, statusCounts.REPORTED);
+    statusEl.innerHTML = [
+      barRowHtml("VERIFIED", statusCounts.VERIFIED, statusTop, "VERIFIED", "data-status", null),
+      barRowHtml("REPORTED", statusCounts.REPORTED, statusTop, "REPORTED", "data-status", null),
+    ].join("");
+  }
+
+  function renderSnapshotStats(vis) {
+    var topicCounts = countByTopic(vis);
+    var topicActive = 0;
+    Object.keys(topicCounts).forEach(function (key) {
+      if (topicCounts[key] > 0) topicActive += 1;
+    });
+    var sourceCounts = {};
+    vis.forEach(function (s) {
+      (s.sources || []).forEach(function (src) {
+        sourceCounts[src] = true;
+      });
+    });
+    var statusCounts = countByStatus(vis);
+
+    var signalsEl = $("#snapshot-signals");
+    if (signalsEl) signalsEl.textContent = String(vis.length);
+    var topicsEl = $("#snapshot-topics");
+    if (topicsEl) topicsEl.textContent = String(topicActive);
+    var sourcesEl = $("#snapshot-sources");
+    if (sourcesEl) sourcesEl.textContent = String(Object.keys(sourceCounts).length);
+    var verifiedEl = $("#snapshot-verified");
+    if (verifiedEl) verifiedEl.textContent = String(statusCounts.VERIFIED);
+    var reportedEl = $("#snapshot-reported");
+    if (reportedEl) reportedEl.textContent = String(statusCounts.REPORTED);
   }
 
   /* ---------- network graph ---------- */
@@ -825,10 +722,9 @@
       DATA = payload;
       /* Debug/analytics handle: lets a future analytics layer read console
          state and lets tests drive the same public surface. */
-      TTB.console = { data: DATA, state: state, net: net, selectCountry: selectCountry };
+      TTB.console = { data: DATA, state: state, net: net };
       initFilters();
       initTracking();
-      initVoxelMap();
       initNet();
       applyFilters();
       bindChartBars($("#chart-topics"), "data-topic", function (key) {
@@ -837,6 +733,14 @@
           c.classList.toggle("is-active", c.dataset.topic === state.topic);
         });
         TTB.track("filter_topic", { topic: state.topic, via: "topic_chart" });
+        applyFilters();
+      });
+      bindChartBars($("#chart-landscape"), "data-topic", function (key) {
+        state.topic = state.topic === key ? "all" : key;
+        $$(".f-chip[data-topic]", consoleEl).forEach(function (c) {
+          c.classList.toggle("is-active", c.dataset.topic === state.topic);
+        });
+        TTB.track("filter_topic", { topic: state.topic, via: "landscape_chart" });
         applyFilters();
       });
     })

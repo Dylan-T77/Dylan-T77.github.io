@@ -344,31 +344,6 @@ def homepage(data: dict) -> str:
         for t in data["topics"]
     )
 
-    loc_index = []
-    for country in dash["countries"]:
-        ent_links = ", ".join(
-            f'<a href="{e(ent["url"])}">{e(ent["name"])}</a>' for ent in country["entities"]
-        )
-        presence_note = (
-            f'{country["signal_count"]} SIGNAL{"S" if country["signal_count"] != 1 else ""} ON RECORD'
-            if country["has_signals"]
-            else "ENTITY PRESENCE · 0 SIGNALS"
-        )
-        loc_index.append(
-            f'<li><button type="button" class="loc-btn country-btn" data-country="{e(country["id"])}">'
-            f'<span class="loc-name">{e(country["name"].upper())}</span>'
-            f'<span class="loc-meta"><b>{presence_note}</b> · {ent_links}</span>'
-            f"</button></li>"
-        )
-    unmapped_note = ""
-    if dash["unmapped_entities"]:
-        names = ", ".join(ent["name"] for ent in dash["unmapped_entities"])
-        unmapped_note = f" Entities without geographic basis: {e(names)} — not placed on the world."
-    world_note = (
-        f'{dash["meta"]["counts"].get("world_countries", 0)} COUNTRIES IN GEOMETRY · '
-        f'{len(dash["countries"])} WITH RECORDED PRESENCE'
-    )
-
     event_rows = []
     for ev in dash.get("intel_events", [])[:24]:
         fact = ev["facts"][0] if ev.get("facts") else ev.get("event_type", "event")
@@ -439,10 +414,23 @@ def homepage(data: dict) -> str:
         "chart-topics",
         "data-topic",
     )
+    landscape_topic_bars = bar_rows(
+        [(t["name"], t["signals"], t["url"], t["id"]) for t in dash["topics"]],
+        "chart-landscape",
+        "data-topic",
+    )
     source_bars = bar_rows(
         [(s["name"], s["count"], None, s["id"]) for s in dash["charts"]["sources_cited"]],
         "chart-sources",
         "data-source",
+    )
+    landscape_status_bars = bar_rows(
+        [
+            ("VERIFIED", sum(1 for s in signals if s["status"] == "VERIFIED"), None, "VERIFIED"),
+            ("REPORTED", sum(1 for s in signals if s["status"] == "REPORTED"), None, "REPORTED"),
+        ],
+        "chart-landscape-status",
+        "data-status",
     )
 
     days = dash["charts"]["signals_by_day"]
@@ -504,30 +492,26 @@ def homepage(data: dict) -> str:
   </div>
 
   <div class="panel" id="panel-map">
-    <div class="panel-head"><span class="panel-title">GEOGRAPHIC INTELLIGENCE</span><span class="panel-note">{world_note}</span></div>
-    <div class="map-grid">
-      <div id="dash-voxel-world" class="dash-voxel-world" role="application" aria-label="Three-dimensional voxel world map of countries">
-        <noscript><p class="noscript-note">INTERACTIVE WORLD MAP REQUIRES JAVASCRIPT — THE COUNTRY INDEX LISTS EVERY RECORDED PRESENCE.</p></noscript>
-        <div class="voxel-fallback" id="voxel-fallback" hidden>
-          <strong>WEBGL UNAVAILABLE</strong>
-          <p>This panel needs WebGL for the 3D voxel world. Use the country index to inspect recorded presence.</p>
-        </div>
-        <div class="voxel-hud" aria-hidden="true">
-          <span class="voxel-hud-label">VOXEL WORLD</span>
-          <span class="voxel-hud-hint">DRAG · SCROLL · SELECT</span>
-        </div>
+    <div class="panel-head"><span class="panel-title">NETWORK SNAPSHOT</span><span class="panel-note">PUBLISHED SIGNALS · FILTER AFFECTED</span></div>
+    <div class="snapshot-grid">
+      <div class="snapshot-main">
+        <p class="mini-label">SIGNAL LANDSCAPE</p>
+        {landscape_topic_bars}
+        <p class="mini-label">VERIFICATION</p>
+        <div class="verify-list" id="landscape-verify">{landscape_status_bars}</div>
       </div>
-      <aside class="map-side">
-        <div class="map-detail" id="map-detail">
-          <p class="detail-hint">SELECT A COUNTRY ON THE WORLD OR FROM THE INDEX TO INSPECT ITS RECORD.</p>
-        </div>
-        <div class="map-index-block">
-          <p class="mini-label">COUNTRY INDEX</p>
-          <ul class="loc-index" id="country-index">{"".join(loc_index) if loc_index else '<li><p class="detail-hint">No country-level presence on record yet.</p></li>'}</ul>
-        </div>
+      <aside class="snapshot-side" aria-label="Current record summary">
+        <p class="mini-label">CURRENT RECORD</p>
+        <dl class="snapshot-stats">
+          <div><dt>SIGNALS</dt><dd id="snapshot-signals">{counts["signals"]}</dd></div>
+          <div><dt>TOPICS</dt><dd id="snapshot-topics">{counts["topics"]}</dd></div>
+          <div><dt>SOURCES</dt><dd id="snapshot-sources">{counts["sources_cited"]}</dd></div>
+          <div><dt>VERIFIED</dt><dd id="snapshot-verified">{sum(1 for s in signals if s["status"] == "VERIFIED")}</dd></div>
+          <div><dt>REPORTED</dt><dd id="snapshot-reported">{sum(1 for s in signals if s["status"] == "REPORTED")}</dd></div>
+        </dl>
       </aside>
     </div>
-    <p class="panel-foot">Country geometry from Natural Earth 1:110m (static, local). Intelligence overlays derive from published entity and signal records only — geography without a record stays unlit.{unmapped_note}</p>
+    <p class="panel-foot">Signal distribution is derived from published records only. No synthetic activity is added.</p>
   </div>
 
   <div class="panel" id="panel-events">
@@ -697,8 +681,6 @@ def homepage(data: dict) -> str:
         },
         crumb_ld(site, crumb),
     ]
-    three_url = assets.url("/js/vendor/three.module.js")
-    importmap = json.dumps({"imports": {"three": three_url}}, ensure_ascii=False)
     return layout(
         data,
         title=f'{site["name"]} — {site["tagline"]}',
@@ -709,8 +691,6 @@ def homepage(data: dict) -> str:
         crumbs=crumb,
         extra_css=["/css/dashboard.css"],
         extra_js=["/js/dashboard.js", "/js/info-stream.js"],
-        module_js=["/js/voxel-world.js"],
-        extra_head=f'<script type="importmap">{importmap}</script>',
         ld=ld,
     )
 

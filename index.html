@@ -18,8 +18,8 @@
 <meta name="twitter:title" content="The Tech Briefing — Read the signal. Understand the system. Verify the source. Connect the map.">
 <meta name="twitter:description" content="The Tech Briefing is a static-first information network for technology systems: AI, robotics, semiconductors, cybersecurity, and space. Coverage is authored, sourced, and connected — not an automated news dump.">
 
-<link rel="stylesheet" href="/css/style.15738ed0.css"><link rel="stylesheet" href="/css/enhancements.3c0cd085.css"><link rel="stylesheet" href="/css/network.69d1d096.css"><link rel="stylesheet" href="/css/dashboard.0a1ebe58.css">
-<script type="importmap">{"imports": {"three": "/js/vendor/three.module.ce1fa418.js"}}</script>
+<link rel="stylesheet" href="/css/style.15738ed0.css"><link rel="stylesheet" href="/css/enhancements.3c0cd085.css"><link rel="stylesheet" href="/css/network.69d1d096.css"><link rel="stylesheet" href="/css/dashboard.cc2c10cb.css">
+
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "The Tech Briefing", "url": "https://thetechbriefing.com", "description": "The Tech Briefing is a static-first information network for technology systems: AI, robotics, semiconductors, cybersecurity, and space. Coverage is authored, sourced, and connected — not an automated news dump.", "potentialAction": {"@type": "SearchAction", "target": "https://thetechbriefing.com/search/?q={query}", "query-input": "required name=query"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://thetechbriefing.com/"}]}</script>
 </head>
@@ -78,35 +78,127 @@
   </div>
 
   <div class="panel" id="panel-map">
-    <div class="panel-head"><span class="panel-title">GEOGRAPHIC INTELLIGENCE</span><span class="panel-note">175 COUNTRIES IN GEOMETRY · 3 WITH RECORDED PRESENCE</span></div>
-    <div class="map-grid">
-      <div id="dash-voxel-world" class="dash-voxel-world" role="application" aria-label="Three-dimensional voxel world map of countries">
-        <noscript><p class="noscript-note">INTERACTIVE WORLD MAP REQUIRES JAVASCRIPT — THE COUNTRY INDEX LISTS EVERY RECORDED PRESENCE.</p></noscript>
-        <div class="voxel-fallback" id="voxel-fallback" hidden>
-          <strong>WEBGL UNAVAILABLE</strong>
-          <p>This panel needs WebGL for the 3D voxel world. Use the country index to inspect recorded presence.</p>
-        </div>
-        <div class="voxel-hud" aria-hidden="true">
-          <span class="voxel-hud-label">VOXEL WORLD</span>
-          <span class="voxel-hud-hint">DRAG · SCROLL · SELECT</span>
-        </div>
+    <div class="panel-head"><span class="panel-title">NETWORK SNAPSHOT</span><span class="panel-note">PUBLISHED SIGNALS · FILTER AFFECTED</span></div>
+    <div class="snapshot-grid">
+      <div class="snapshot-main">
+        <p class="mini-label">SIGNAL LANDSCAPE</p>
+        <div class="bar-chart" id="chart-landscape"><div class="bar-row" data-topic="ai" role="button" tabindex="0" aria-label="Filter: Artificial Intelligence"><span class="bar-label"><a href="/topics/ai/">Artificial Intelligence</a></span><span class="bar-track"><span class="bar-fill" style="width:100%"></span></span><span class="bar-value">6</span></div><div class="bar-row" data-topic="robotics" role="button" tabindex="0" aria-label="Filter: Robotics"><span class="bar-label"><a href="/topics/robotics/">Robotics</a></span><span class="bar-track"><span class="bar-fill" style="width:100%"></span></span><span class="bar-value">6</span></div><div class="bar-row" data-topic="space" role="button" tabindex="0" aria-label="Filter: Space"><span class="bar-label"><a href="/topics/space/">Space</a></span><span class="bar-track"><span class="bar-fill" style="width:0%"></span></span><span class="bar-value">0</span></div><div class="bar-row" data-topic="cybersecurity" role="button" tabindex="0" aria-label="Filter: Cybersecurity"><span class="bar-label"><a href="/topics/cybersecurity/">Cybersecurity</a></span><span class="bar-track"><span class="bar-fill" style="width:0%"></span></span><span class="bar-value">0</span></div><div class="bar-row" data-topic="semiconductors" role="button" tabindex="0" aria-label="Filter: Semiconductors"><span class="bar-label"><a href="/topics/semiconductors/">Semiconductors</a></span><span class="bar-track"><span class="bar-fill" style="width:17%"></span></span><span class="bar-value">1</span></div></div>
+        <p class="mini-label">VERIFICATION</p>
+        <div class="verify-list" id="landscape-verify"><div class="bar-chart" id="chart-landscape-status"><div class="bar-row" data-status="VERIFIED" role="button" tabindex="0" aria-label="Filter: VERIFIED"><span class="bar-label">VERIFIED</span><span class="bar-track"><span class="bar-fill" style="width:100%"></span></span><span class="bar-value">3</span></div><div class="bar-row" data-status="REPORTED" role="button" tabindex="0" aria-label="Filter: REPORTED"><span class="bar-label">REPORTED</span><span class="bar-track"><span class="bar-fill" style="width:100%"></span></span><span class="bar-value">3</span></div></div></div>
       </div>
-      <aside class="map-side">
-        <div class="map-detail" id="map-detail">
-          <p class="detail-hint">SELECT A COUNTRY ON THE WORLD OR FROM THE INDEX TO INSPECT ITS RECORD.</p>
-        </div>
-        <div class="map-index-block">
-          <p class="mini-label">COUNTRY INDEX</p>
-          <ul class="loc-index" id="country-index"><li><button type="button" class="loc-btn country-btn" data-country="158"><span class="loc-name">TAIWAN</span><span class="loc-meta"><b>ENTITY PRESENCE · 0 SIGNALS</b> · <a href="/entities/tsmc/">TSMC</a></span></button></li><li><button type="button" class="loc-btn country-btn" data-country="826"><span class="loc-name">UNITED KINGDOM</span><span class="loc-meta"><b>1 SIGNAL ON RECORD</b> · <a href="/entities/raspberry-pi/">Raspberry Pi</a></span></button></li><li><button type="button" class="loc-btn country-btn" data-country="840"><span class="loc-name">UNITED STATES OF AMERICA</span><span class="loc-meta"><b>6 SIGNALS ON RECORD</b> · <a href="/entities/hhmi-janelia/">HHMI Janelia Research Campus</a>, <a href="/entities/quera/">QuEra Computing</a>, <a href="/entities/hugging-face/">Hugging Face</a>, <a href="/entities/anthropic/">Anthropic</a>, <a href="/entities/openai/">OpenAI</a>, <a href="/entities/nvidia/">NVIDIA</a></span></button></li></ul>
-        </div>
+      <aside class="snapshot-side" aria-label="Current record summary">
+        <p class="mini-label">CURRENT RECORD</p>
+        <dl class="snapshot-stats">
+          <div><dt>SIGNALS</dt><dd id="snapshot-signals">6</dd></div>
+          <div><dt>TOPICS</dt><dd id="snapshot-topics">5</dd></div>
+          <div><dt>SOURCES</dt><dd id="snapshot-sources">3</dd></div>
+          <div><dt>VERIFIED</dt><dd id="snapshot-verified">3</dd></div>
+          <div><dt>REPORTED</dt><dd id="snapshot-reported">3</dd></div>
+        </dl>
       </aside>
     </div>
-    <p class="panel-foot">Country geometry from Natural Earth 1:110m (static, local). Intelligence overlays derive from published entity and signal records only — geography without a record stays unlit. Entities without geographic basis: Model Hardware Standard — not placed on the world.</p>
+    <p class="panel-foot">Signal distribution is derived from published records only. No synthetic activity is added.</p>
   </div>
 
   <div class="panel" id="panel-events">
-    <div class="panel-head"><span class="panel-title">EXTRACTED EVENTS</span><span class="panel-note">383 FROM INGEST · INBOX ONLY</span></div>
+    <div class="panel-head"><span class="panel-title">EXTRACTED EVENTS</span><span class="panel-note">400 FROM INGEST · INBOX ONLY</span></div>
     <div class="evt-list"><article class="evt-row">
+  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T16:10:00+00:00">29 AUG</time></div>
+  <div class="evt-body">
+    <h3><a href="https://techcrunch.com/2026/08/29/hollywood-celebs-are-getting-into-microdrama-apps" rel="noopener noreferrer">Hollywood celebs are getting into microdrama apps</a></h3>
+    <p class="evt-meta">UNCLASSIFIED // MEDIUM // TechCrunch</p>
+  </div>
+</article><article class="evt-row">
+  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T15:57:13+00:00">29 AUG</time></div>
+  <div class="evt-body">
+    <h3><a href="https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt" rel="noopener noreferrer">California lawmakers unanimously pass Linux exemption from age-verification law — software distributed under the GPL, MI</a></h3>
+    <p class="evt-meta">UNCLASSIFIED // MEDIUM // Tom&#x27;s Hardware</p>
+  </div>
+</article><article class="evt-row">
+  <div class="evt-flag"><b>GOVERNMENT ACTION</b><time datetime="2026-08-29T15:48:02+00:00">29 AUG</time></div>
+  <div class="evt-body">
+    <h3><a href="https://science.nasa.gov/mission/roman-space-telescope" rel="noopener noreferrer">Nancy Grace Roman Space Telescope</a></h3>
+    <p class="evt-meta">SPACE · DEFENCE_TECH // LOW // Hacker News</p>
+  </div>
+</article><article class="evt-row">
+  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T15:42:43+00:00">29 AUG</time></div>
+  <div class="evt-body">
+    <h3><a href="https://www.dampfkraft.com/posuto.html" rel="noopener noreferrer">Parsing the Infamous Japanese Postal CSV</a></h3>
+    <p class="evt-meta">DEFENCE_TECH // LOW // Hacker News</p>
+  </div>
+</article><article class="evt-row">
+  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T15:35:01+00:00">29 AUG</time></div>
+  <div class="evt-body">
+    <h3><a href="https://spectrum.ieee.org/bimodal-nuclear-engine" rel="noopener noreferrer">Noodling on Nuclear Engines</a></h3>
+    <p class="evt-meta">SPACE · CONSUMER_TECH · ENERGY // MEDIUM // IEEE Spectrum</p>
+  </div>
+</article><article class="evt-row">
+  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T15:26:28+00:00">29 AUG</time></div>
+  <div class="evt-body">
+    <h3><a href="https://bsky.app/profile/grapheneos.org/post/3mua32q4ds22e" rel="noopener noreferrer">GrapheneOS project: pixel 11 no longer supports hardware memory tagging (MTE)</a></h3>
+    <p class="evt-meta">DEFENCE_TECH · HARDWARE // LOW // Hacker News</p>
+  </div>
+</article><article class="evt-row">
+  <div class="evt-flag"><b>TECHNOLOGY MILESTONE</b><time datetime="2026-08-29T15:14:44+00:00">29 AUG</time></div>
+  <div class="evt-body">
+    <h3><a href="https://www.tomshardware.com/pc-components/usb-flash-drives/magnetic-core-memory-usb-drive-transfers-files-in-sneakernet-first-text-and-image-files-get-moved-between-pcs-via-hugely-constrained-archaic-memory-tech" rel="noopener noreferrer">Magnetic core memory USB drive transfers files in sneakernet first — text and image files get moved between PCs via huge</a></h3>
+    <p class="evt-meta">HARDWARE // MEDIUM // Tom&#x27;s Hardware</p>
+  </div>
+</article><article class="evt-row">
+  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T15:00:00+00:00">29 AUG</time></div>
+  <div class="evt-body">
+    <h3><a href="https://www.coindesk.com/business/2026/08/28/ditch-digital-gold-bpi-study-suggests-everyday-americans-prefer-control-and-micro-investing" rel="noopener noreferrer">Ditching &#x27;digital gold&#x27;: BPI study suggests everyday Americans prefer control and micro-investing</a></h3>
+    <p class="evt-meta">CRYPTO // MEDIUM // CoinDesk</p>
+  </div>
+</article><article class="evt-row">
+  <div class="evt-flag"><b>INFRASTRUCTURE INVESTMENT</b><time datetime="2026-08-29T15:00:00+00:00">29 AUG</time></div>
+  <div class="evt-body">
+    <h3><a href="https://www.coindesk.com/business/2026/08/29/swift-s-usd1-5-quadrillion-network-faces-a-blockchain-test" rel="noopener noreferrer">Swift’s $1.5 quadrillion network faces a blockchain test</a></h3>
+    <p class="evt-meta">CRYPTO // MEDIUM // CoinDesk</p>
+  </div>
+</article><article class="evt-row">
+  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T15:00:00+00:00">29 AUG</time></div>
+  <div class="evt-body">
+    <h3><a href="https://www.coindesk.com/business/2026/08/29/the-next-trillion-dollar-currency-may-not-be-a-stablecoin-it-might-not-even-have-a-name-yet" rel="noopener noreferrer">The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet</a></h3>
+    <p class="evt-meta">CRYPTO · AI // MEDIUM // CoinDesk</p>
+  </div>
+</article><article class="evt-row">
+  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T14:20:33+00:00">29 AUG</time></div>
+  <div class="evt-body">
+    <h3><a href="https://uecker.codeberg.page/2026-08-29.html" rel="noopener noreferrer">Indirect Calling of Nested Functions on GCC Without Executable Stack</a></h3>
+    <p class="evt-meta">DEFENCE_TECH // LOW // Hacker News</p>
+  </div>
+</article><article class="evt-row">
+  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T14:20:00+00:00">29 AUG</time></div>
+  <div class="evt-body">
+    <h3><a href="https://www.tomshardware.com/monitors/gaming-monitors/get-a-32-inch-samsung-odyssey-g55c-curved-gaming-monitor-for-usd199-1440p-165-hz-screen-is-39-percent-off-at-amazon-for-a-limited-time" rel="noopener noreferrer">Get a 32-inch Samsung Odyssey G55C curved gaming monitor for $199 — 1440p 165 Hz screen is 39% off at Amazon for a limit</a></h3>
+    <p class="evt-meta">UNCLASSIFIED // MEDIUM // Tom&#x27;s Hardware</p>
+  </div>
+</article><article class="evt-row">
+  <div class="evt-flag"><b>PRODUCT LAUNCH</b><time datetime="2026-08-29T14:19:23+00:00">29 AUG</time></div>
+  <div class="evt-body">
+    <h3><a href="https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking" rel="noopener noreferrer">Brave browser adds email aliases to help users evade tracking</a></h3>
+    <p class="evt-meta">UNCLASSIFIED // MEDIUM // BleepingComputer</p>
+  </div>
+</article><article class="evt-row">
+  <div class="evt-flag"><b>FUNDING</b><time datetime="2026-08-29T14:16:20+00:00">29 AUG</time></div>
+  <div class="evt-body">
+    <h3><a href="https://www.tomshardware.com/tech-industry/drones/startup-raises-usd7-million-to-build-backpack-portable-8-8-ounce-drone-interceptors-mara-claims-20x-cost-advantage-over-other-interceptors-priced-one-for-one-against-attack-drones" rel="noopener noreferrer">Startup raises $7 million to build backpack-portable 8.8-ounce drone interceptors — Mara claims 20x cost advantage over </a></h3>
+    <p class="evt-meta">DEFENCE_TECH · ROBOTICS // MEDIUM // Tom&#x27;s Hardware</p>
+  </div>
+</article><article class="evt-row">
+  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T14:02:10+00:00">29 AUG</time></div>
+  <div class="evt-body">
+    <h3><a href="https://lwn.net/Articles/1091231" rel="noopener noreferrer">Debian votes to allow &quot;responsible use of generative AI&quot;</a></h3>
+    <p class="evt-meta">DEFENCE_TECH // LOW // Hacker News</p>
+  </div>
+</article><article class="evt-row">
+  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T14:00:00+00:00">29 AUG</time></div>
+  <div class="evt-body">
+    <h3><a href="https://techcrunch.com/2026/08/29/the-theragun-sense-makes-everyday-recovery-surprisingly-easy" rel="noopener noreferrer">The Theragun Sense makes everyday recovery surprisingly easy</a></h3>
+    <p class="evt-meta">UNCLASSIFIED // MEDIUM // TechCrunch</p>
+  </div>
+</article><article class="evt-row">
   <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T13:30:00+00:00">29 AUG</time></div>
   <div class="evt-body">
     <h3><a href="https://www.theregister.com/networks/2026/08/29/aws-mumbles-about-its-cost-busting-networking-tech-when-it-should-be-shouting/5293379" rel="noopener noreferrer">AWS mumbles about its cost-busting networking tech when it should be shouting</a></h3>
@@ -154,117 +246,117 @@
     <h3><a href="https://www.wired.com/review/soundcore-liberty-5-pro" rel="noopener noreferrer">Soundcore Liberty 5 Pro Review: Master of Phone Calls</a></h3>
     <p class="evt-meta">UNCLASSIFIED // MEDIUM // WIRED</p>
   </div>
-</article><article class="evt-row">
-  <div class="evt-flag"><b>INFRASTRUCTURE INVESTMENT</b><time datetime="2026-08-29T11:00:00+00:00">29 AUG</time></div>
-  <div class="evt-body">
-    <h3><a href="https://www.tomshardware.com/tech-industry/data-centers/microsoft-backed-ai-data-center-faces-multiple-complaints-from-community-issues-range-from-unpermitted-gas-turbines-to-illegal-construction-and-noise-pollution" rel="noopener noreferrer">Microsoft-backed AI data center faces backlash over 62 unpermitted gas turbines and 1.5M-gallon LNG tank — issues with $</a></h3>
-    <p class="evt-meta">AI · DATA_CENTRES // MEDIUM // Tom&#x27;s Hardware</p>
-  </div>
-</article><article class="evt-row">
-  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T10:50:31+00:00">29 AUG</time></div>
-  <div class="evt-body">
-    <h3><a href="https://arstechnica.com/tech-policy/2026/08/i-asked-100-companies-for-my-data-some-deleted-it-instead" rel="noopener noreferrer">I asked 100 companies for my data. Some deleted it instead.</a></h3>
-    <p class="evt-meta">UNCLASSIFIED // MEDIUM // Ars Technica</p>
-  </div>
-</article><article class="evt-row">
-  <div class="evt-flag"><b>GOVERNMENT ACTION</b><time datetime="2026-08-29T10:30:00+00:00">29 AUG</time></div>
-  <div class="evt-body">
-    <h3><a href="https://www.wired.com/story/nasas-nancy-grace-roman-space-telescope-coronagraph-leap" rel="noopener noreferrer">NASA’s Nancy Grace Roman Space Telescope Has a Hidden Technological Leap</a></h3>
-    <p class="evt-meta">SPACE // MEDIUM // WIRED</p>
-  </div>
-</article><article class="evt-row">
-  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T10:30:00+00:00">29 AUG</time></div>
-  <div class="evt-body">
-    <h3><a href="https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn" rel="noopener noreferrer">The Cybersecurity Apocalypse Is Coming in ‘Months,’ AI Giants Warn</a></h3>
-    <p class="evt-meta">CYBERSECURITY · AI · ROBOTICS // MEDIUM // WIRED</p>
-  </div>
-</article><article class="evt-row">
-  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T10:30:00+00:00">29 AUG</time></div>
-  <div class="evt-body">
-    <h3><a href="https://www.tomshardware.com/video-games/console-gaming/gta-6-leaker-cyberleek-cashes-out-roughly-250000-hours-before-rockstars-official-reveal" rel="noopener noreferrer">GTA 6 leaker cashes out in $250,000 crypto rug pull just hours before Rockstar&#x27;s official reveal — memecoin crashes as C</a></h3>
-    <p class="evt-meta">CRYPTO · CYBERSECURITY // MEDIUM // Tom&#x27;s Hardware</p>
-  </div>
-</article><article class="evt-row">
-  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T10:15:00+00:00">29 AUG</time></div>
-  <div class="evt-body">
-    <h3><a href="https://www.theregister.com/offbeat/2026/08/29/startup-bags-7m-to-build-drone-interceptor-in-a-backpack-systems/5293176" rel="noopener noreferrer">Startup bags $7M to build drone-interceptor-in-a-backpack systems</a></h3>
-    <p class="evt-meta">DEFENCE_TECH · ROBOTICS // MEDIUM // The Register</p>
-  </div>
-</article><article class="evt-row">
-  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T10:00:00+00:00">29 AUG</time></div>
-  <div class="evt-body">
-    <h3><a href="https://www.wired.com/story/how-to-run-your-own-local-llm" rel="noopener noreferrer">How to Run a Chatbot on Your Own Computer</a></h3>
-    <p class="evt-meta">UNCLASSIFIED // MEDIUM // WIRED</p>
-  </div>
-</article><article class="evt-row">
-  <div class="evt-flag"><b>PRODUCT LAUNCH</b><time datetime="2026-08-29T10:00:00+00:00">29 AUG</time></div>
-  <div class="evt-body">
-    <h3><a href="https://www.tomshardware.com/tech-industry/drones/us-navy-launches-missiles-from-its-first-drone-sailboat-saildrone-surveyor-launches-dual-jagm-missiles-carrier-strike-group-tests-armed-usv-and-electronic-warfare" rel="noopener noreferrer">US Navy launches missiles from its first drone sailboat — Saildrone Surveyor launches dual JAGM missiles, carrier strike</a></h3>
-    <p class="evt-meta">DEFENCE_TECH · ROBOTICS // MEDIUM // Tom&#x27;s Hardware</p>
-  </div>
-</article><article class="evt-row">
-  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T09:00:00+00:00">29 AUG</time></div>
-  <div class="evt-body">
-    <h3><a href="https://www.wired.com/story/psilocybin-might-make-your-brain-live-in-the-moment" rel="noopener noreferrer">Psilocybin Might Make Your Brain Live in the Moment</a></h3>
-    <p class="evt-meta">UNCLASSIFIED // MEDIUM // WIRED</p>
-  </div>
-</article><article class="evt-row">
-  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T07:28:00+00:00">29 AUG</time></div>
-  <div class="evt-body">
-    <h3><a href="https://www.theregister.com/offbeat/2026/08/29/xbox-respawns-ikea-furniture-with-gaming-range/5292911" rel="noopener noreferrer">Xbox respawns IKEA furniture with gaming range</a></h3>
-    <p class="evt-meta">CONSUMER_TECH // MEDIUM // The Register</p>
-  </div>
-</article><article class="evt-row">
-  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T06:06:51+00:00">29 AUG</time></div>
-  <div class="evt-body">
-    <h3><a href="https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing" rel="noopener noreferrer">Samsung&#x27;s Processing-in-Memory (PIM)</a></h3>
-    <p class="evt-meta">DEFENCE_TECH · SEMICONDUCTORS // LOW // Hacker News</p>
-  </div>
-</article><article class="evt-row">
-  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T05:00:00+00:00">29 AUG</time></div>
-  <div class="evt-body">
-    <h3><a href="https://www.wired.com/story/motorola-coupon-code" rel="noopener noreferrer">Motorola Coupon Code for September 2026</a></h3>
-    <p class="evt-meta">CONSUMER_TECH // MEDIUM // WIRED</p>
-  </div>
-</article><article class="evt-row">
-  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T04:30:00+00:00">29 AUG</time></div>
-  <div class="evt-body">
-    <h3><a href="https://www.coindesk.com/markets/2026/08/28/bitcoin-wallets-untouched-for-10-years-moved-usd40-million-most-avoided-exchanges" rel="noopener noreferrer">Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges</a></h3>
-    <p class="evt-meta">CRYPTO // MEDIUM // CoinDesk</p>
-  </div>
-</article><article class="evt-row">
-  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T02:30:00+00:00">29 AUG</time></div>
-  <div class="evt-body">
-    <h3><a href="https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives" rel="noopener noreferrer">Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day’ arrives</a></h3>
-    <p class="evt-meta">CRYPTO · AI · QUANTUM // MEDIUM // CoinDesk</p>
-  </div>
-</article><article class="evt-row">
-  <div class="evt-flag"><b>COMPANY ANNOUNCEMENT</b><time datetime="2026-08-29T02:23:37+00:00">29 AUG</time></div>
-  <div class="evt-body">
-    <h3><a href="https://github.com/kingroryg/turbokv" rel="noopener noreferrer">TurboKV: Insanely fast Rust key-value store</a></h3>
-    <p class="evt-meta">DEFENCE_TECH // LOW // Hacker News</p>
-  </div>
-</article><article class="evt-row">
-  <div class="evt-flag"><b>ACQUISITION</b><time datetime="2026-08-29T01:47:53+00:00">29 AUG</time></div>
-  <div class="evt-body">
-    <h3><a href="https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex" rel="noopener noreferrer">Our decision on Cursor following its acquisition by SpaceX</a></h3>
-    <p class="evt-meta">SPACE · AI · DEFENCE_TECH // LOW // Hacker News</p>
-  </div>
 </article></div>
     <p class="panel-foot">Structured events from ingested sources. Facts are separated from interpretation. Nothing here is published or traded. <a href="/intelligence/">Open intelligence layer</a></p>
   </div>
 
   <div class="panel" id="panel-info-stream">
-    <div class="panel-head"><span class="panel-title">INFORMATION STREAM</span><span class="panel-note">383 ARTICLES · EDITORIAL INBOX</span></div>
+    <div class="panel-head"><span class="panel-title">INFORMATION STREAM</span><span class="panel-note">400 ARTICLES · EDITORIAL INBOX</span></div>
     <div class="filter-bar info-filter-bar" role="group" aria-label="Sector filter">
       <span class="filter-group">
         <span class="filter-label">SECTOR</span>
         <button type="button" class="f-chip info-sector-chip is-active" data-sector="all">ALL</button>
         <button type="button" class="f-chip info-sector-chip" data-sector="ai">ARTIFICIAL INTELLIGENCE</button><button type="button" class="f-chip info-sector-chip" data-sector="semiconductors">SEMICONDUCTORS</button><button type="button" class="f-chip info-sector-chip" data-sector="robotics">ROBOTICS</button><button type="button" class="f-chip info-sector-chip" data-sector="cybersecurity">CYBERSECURITY</button><button type="button" class="f-chip info-sector-chip" data-sector="space">SPACE</button><button type="button" class="f-chip info-sector-chip" data-sector="energy">ENERGY</button><button type="button" class="f-chip info-sector-chip" data-sector="data_centres">DATA CENTRES</button><button type="button" class="f-chip info-sector-chip" data-sector="cloud">CLOUD INFRASTRUCTURE</button><button type="button" class="f-chip info-sector-chip" data-sector="quantum">QUANTUM COMPUTING</button><button type="button" class="f-chip info-sector-chip" data-sector="telecom">TELECOMMUNICATIONS</button><button type="button" class="f-chip info-sector-chip" data-sector="consumer_tech">CONSUMER TECHNOLOGY</button><button type="button" class="f-chip info-sector-chip" data-sector="enterprise_tech">ENTERPRISE TECHNOLOGY</button><button type="button" class="f-chip info-sector-chip" data-sector="defence_tech">DEFENCE TECHNOLOGY</button><button type="button" class="f-chip info-sector-chip" data-sector="autonomous_systems">AUTONOMOUS SYSTEMS</button><button type="button" class="f-chip info-sector-chip" data-sector="biotech">BIOTECHNOLOGY</button><button type="button" class="f-chip info-sector-chip" data-sector="hardware">HARDWARE</button><button type="button" class="f-chip info-sector-chip" data-sector="manufacturing">MANUFACTURING TECHNOLOGY</button><button type="button" class="f-chip info-sector-chip" data-sector="supply_chain">SUPPLY CHAIN</button><button type="button" class="f-chip info-sector-chip" data-sector="regulation">TECHNOLOGY REGULATION</button><button type="button" class="f-chip info-sector-chip" data-sector="crypto">CRYPTO / BLOCKCHAIN</button><button type="button" class="f-chip info-sector-chip" data-sector="macro">TECHNOLOGY MACRO</button><button type="button" class="f-chip info-sector-chip" data-sector="general">GENERAL TECHNOLOGY</button>
       </span>
-      <span class="filter-readout" id="info-stream-readout">383 IN VIEW</span>
+      <span class="filter-readout" id="info-stream-readout">400 IN VIEW</span>
     </div>
-    <div class="info-list" id="info-stream"><article class="info-row" data-sectors="cloud,data_centres" data-primary="cloud">
+    <div class="info-list" id="info-stream"><article class="info-row" data-sectors="" data-primary="general">
+  <div class="info-flag"><b>GENERAL</b><time datetime="2026-08-29T16:10:00+00:00">29 AUG</time></div>
+  <div class="info-body">
+    <h3><a href="https://techcrunch.com/2026/08/29/hollywood-celebs-are-getting-into-microdrama-apps" rel="noopener noreferrer">Hollywood celebs are getting into microdrama apps</a></h3>
+    <p class="info-meta">TechCrunch // independent-tech // INBOX</p>
+  </div>
+</article><article class="info-row" data-sectors="" data-primary="general">
+  <div class="info-flag"><b>GENERAL</b><time datetime="2026-08-29T15:57:13+00:00">29 AUG</time></div>
+  <div class="info-body">
+    <h3><a href="https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt" rel="noopener noreferrer">California lawmakers unanimously pass Linux exemption from age-verification law — software distributed under the GPL, MIT, BSD, and Apache l</a></h3>
+    <p class="info-meta">Tom&#x27;s Hardware // specialist // INBOX</p>
+  </div>
+</article><article class="info-row" data-sectors="space,defence_tech" data-primary="space">
+  <div class="info-flag"><b>Space</b><time datetime="2026-08-29T15:48:02+00:00">29 AUG</time></div>
+  <div class="info-body">
+    <h3><a href="https://science.nasa.gov/mission/roman-space-telescope" rel="noopener noreferrer">Nancy Grace Roman Space Telescope</a></h3>
+    <p class="info-meta">Hacker News // community-link // INBOX</p>
+  </div>
+</article><article class="info-row" data-sectors="defence_tech" data-primary="defence_tech">
+  <div class="info-flag"><b>Defence Technology</b><time datetime="2026-08-29T15:42:43+00:00">29 AUG</time></div>
+  <div class="info-body">
+    <h3><a href="https://www.dampfkraft.com/posuto.html" rel="noopener noreferrer">Parsing the Infamous Japanese Postal CSV</a></h3>
+    <p class="info-meta">Hacker News // community-link // INBOX</p>
+  </div>
+</article><article class="info-row" data-sectors="space,consumer_tech,energy,enterprise_tech,manufacturing" data-primary="space">
+  <div class="info-flag"><b>Space</b><time datetime="2026-08-29T15:35:01+00:00">29 AUG</time></div>
+  <div class="info-body">
+    <h3><a href="https://spectrum.ieee.org/bimodal-nuclear-engine" rel="noopener noreferrer">Noodling on Nuclear Engines</a></h3>
+    <p class="info-meta">IEEE Spectrum // institutional // INBOX</p>
+  </div>
+</article><article class="info-row" data-sectors="defence_tech,hardware" data-primary="defence_tech">
+  <div class="info-flag"><b>Defence Technology</b><time datetime="2026-08-29T15:26:28+00:00">29 AUG</time></div>
+  <div class="info-body">
+    <h3><a href="https://bsky.app/profile/grapheneos.org/post/3mua32q4ds22e" rel="noopener noreferrer">GrapheneOS project: pixel 11 no longer supports hardware memory tagging (MTE)</a></h3>
+    <p class="info-meta">Hacker News // community-link // INBOX</p>
+  </div>
+</article><article class="info-row" data-sectors="hardware" data-primary="hardware">
+  <div class="info-flag"><b>Hardware</b><time datetime="2026-08-29T15:14:44+00:00">29 AUG</time></div>
+  <div class="info-body">
+    <h3><a href="https://www.tomshardware.com/pc-components/usb-flash-drives/magnetic-core-memory-usb-drive-transfers-files-in-sneakernet-first-text-and-image-files-get-moved-between-pcs-via-hugely-constrained-archaic-memory-tech" rel="noopener noreferrer">Magnetic core memory USB drive transfers files in sneakernet first — text and image files get moved between PCs via hugely constrained archa</a></h3>
+    <p class="info-meta">Tom&#x27;s Hardware // specialist // INBOX</p>
+  </div>
+</article><article class="info-row" data-sectors="crypto" data-primary="crypto">
+  <div class="info-flag"><b>Crypto / Blockchain</b><time datetime="2026-08-29T15:00:00+00:00">29 AUG</time></div>
+  <div class="info-body">
+    <h3><a href="https://www.coindesk.com/business/2026/08/28/ditch-digital-gold-bpi-study-suggests-everyday-americans-prefer-control-and-micro-investing" rel="noopener noreferrer">Ditching &#x27;digital gold&#x27;: BPI study suggests everyday Americans prefer control and micro-investing</a></h3>
+    <p class="info-meta">CoinDesk // crypto-specialist // INBOX</p>
+  </div>
+</article><article class="info-row" data-sectors="crypto" data-primary="crypto">
+  <div class="info-flag"><b>Crypto / Blockchain</b><time datetime="2026-08-29T15:00:00+00:00">29 AUG</time></div>
+  <div class="info-body">
+    <h3><a href="https://www.coindesk.com/business/2026/08/29/swift-s-usd1-5-quadrillion-network-faces-a-blockchain-test" rel="noopener noreferrer">Swift’s $1.5 quadrillion network faces a blockchain test</a></h3>
+    <p class="info-meta">CoinDesk // crypto-specialist // INBOX</p>
+  </div>
+</article><article class="info-row" data-sectors="crypto,ai" data-primary="crypto">
+  <div class="info-flag"><b>Crypto / Blockchain</b><time datetime="2026-08-29T15:00:00+00:00">29 AUG</time></div>
+  <div class="info-body">
+    <h3><a href="https://www.coindesk.com/business/2026/08/29/the-next-trillion-dollar-currency-may-not-be-a-stablecoin-it-might-not-even-have-a-name-yet" rel="noopener noreferrer">The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet</a></h3>
+    <p class="info-meta">CoinDesk // crypto-specialist // INBOX</p>
+  </div>
+</article><article class="info-row" data-sectors="defence_tech" data-primary="defence_tech">
+  <div class="info-flag"><b>Defence Technology</b><time datetime="2026-08-29T14:20:33+00:00">29 AUG</time></div>
+  <div class="info-body">
+    <h3><a href="https://uecker.codeberg.page/2026-08-29.html" rel="noopener noreferrer">Indirect Calling of Nested Functions on GCC Without Executable Stack</a></h3>
+    <p class="info-meta">Hacker News // community-link // INBOX</p>
+  </div>
+</article><article class="info-row" data-sectors="" data-primary="general">
+  <div class="info-flag"><b>GENERAL</b><time datetime="2026-08-29T14:20:00+00:00">29 AUG</time></div>
+  <div class="info-body">
+    <h3><a href="https://www.tomshardware.com/monitors/gaming-monitors/get-a-32-inch-samsung-odyssey-g55c-curved-gaming-monitor-for-usd199-1440p-165-hz-screen-is-39-percent-off-at-amazon-for-a-limited-time" rel="noopener noreferrer">Get a 32-inch Samsung Odyssey G55C curved gaming monitor for $199 — 1440p 165 Hz screen is 39% off at Amazon for a limited time</a></h3>
+    <p class="info-meta">Tom&#x27;s Hardware // specialist // INBOX</p>
+  </div>
+</article><article class="info-row" data-sectors="" data-primary="general">
+  <div class="info-flag"><b>GENERAL</b><time datetime="2026-08-29T14:19:23+00:00">29 AUG</time></div>
+  <div class="info-body">
+    <h3><a href="https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking" rel="noopener noreferrer">Brave browser adds email aliases to help users evade tracking</a></h3>
+    <p class="info-meta">BleepingComputer // security-specialist // INBOX</p>
+  </div>
+</article><article class="info-row" data-sectors="defence_tech,robotics" data-primary="defence_tech">
+  <div class="info-flag"><b>Defence Technology</b><time datetime="2026-08-29T14:16:20+00:00">29 AUG</time></div>
+  <div class="info-body">
+    <h3><a href="https://www.tomshardware.com/tech-industry/drones/startup-raises-usd7-million-to-build-backpack-portable-8-8-ounce-drone-interceptors-mara-claims-20x-cost-advantage-over-other-interceptors-priced-one-for-one-against-attack-drones" rel="noopener noreferrer">Startup raises $7 million to build backpack-portable 8.8-ounce drone interceptors — Mara claims 20x cost advantage over other interceptors, </a></h3>
+    <p class="info-meta">Tom&#x27;s Hardware // specialist // INBOX</p>
+  </div>
+</article><article class="info-row" data-sectors="defence_tech" data-primary="defence_tech">
+  <div class="info-flag"><b>Defence Technology</b><time datetime="2026-08-29T14:02:10+00:00">29 AUG</time></div>
+  <div class="info-body">
+    <h3><a href="https://lwn.net/Articles/1091231" rel="noopener noreferrer">Debian votes to allow &quot;responsible use of generative AI&quot;</a></h3>
+    <p class="info-meta">Hacker News // community-link // INBOX</p>
+  </div>
+</article><article class="info-row" data-sectors="" data-primary="general">
+  <div class="info-flag"><b>GENERAL</b><time datetime="2026-08-29T14:00:00+00:00">29 AUG</time></div>
+  <div class="info-body">
+    <h3><a href="https://techcrunch.com/2026/08/29/the-theragun-sense-makes-everyday-recovery-surprisingly-easy" rel="noopener noreferrer">The Theragun Sense makes everyday recovery surprisingly easy</a></h3>
+    <p class="info-meta">TechCrunch // independent-tech // INBOX</p>
+  </div>
+</article><article class="info-row" data-sectors="cloud,data_centres" data-primary="cloud">
   <div class="info-flag"><b>Cloud Infrastructure</b><time datetime="2026-08-29T13:30:00+00:00">29 AUG</time></div>
   <div class="info-body">
     <h3><a href="https://www.theregister.com/networks/2026/08/29/aws-mumbles-about-its-cost-busting-networking-tech-when-it-should-be-shouting/5293379" rel="noopener noreferrer">AWS mumbles about its cost-busting networking tech when it should be shouting</a></h3>
@@ -315,7 +407,7 @@
 </article><article class="info-row" data-sectors="ai,data_centres" data-primary="ai">
   <div class="info-flag"><b>Artificial Intelligence</b><time datetime="2026-08-29T11:00:00+00:00">29 AUG</time></div>
   <div class="info-body">
-    <h3><a href="https://www.tomshardware.com/tech-industry/data-centers/microsoft-backed-ai-data-center-faces-multiple-complaints-from-community-issues-range-from-unpermitted-gas-turbines-to-illegal-construction-and-noise-pollution" rel="noopener noreferrer">Microsoft-backed AI data center faces backlash over 62 unpermitted gas turbines and 1.5M-gallon LNG tank — issues with $19.4B facility range</a></h3>
+    <h3><a href="https://www.tomshardware.com/tech-industry/data-centers/microsoft-backed-ai-data-center-faces-multiple-complaints-from-community-issues-range-from-unpermitted-gas-turbines-to-illegal-construction-and-noise-pollution" rel="noopener noreferrer">Microsoft-backed AI data center faces backlash over alleged unpermitted gas turbines and 1.5M-gallon LNG tank — groups&#x27; issues with $19.4B f</a></h3>
     <p class="info-meta">Tom&#x27;s Hardware // specialist // INBOX</p>
   </div>
 </article><article class="info-row" data-sectors="" data-primary="general">
@@ -648,102 +740,6 @@
     <h3><a href="https://www.tomshardware.com/pc-components/ddr4/msi-brings-ddr4-back-to-gaming-laptops-amidst-dram-crisis-katana-15-hx-c14-available-with-up-to-core-i9-14900hx-and-rtx-5070" rel="noopener noreferrer">MSI brings DDR4 back to gaming laptops amidst DRAM crisis — Katana 15 HX C14 available with up to Core i9-14900HX and RTX 5070</a></h3>
     <p class="info-meta">Tom&#x27;s Hardware // specialist // INBOX</p>
   </div>
-</article><article class="info-row" data-sectors="ai,supply_chain" data-primary="ai">
-  <div class="info-flag"><b>Artificial Intelligence</b><time datetime="2026-08-28T15:47:46+00:00">28 AUG</time></div>
-  <div class="info-body">
-    <h3><a href="https://www.tomshardware.com/tech-industry/policy/new-us-export-controls-reportedly-target-chinese-access-to-remote-ai-servers-trump-admins-cut-down-ai-diffusion-rule-could-be-shared-with-industry-as-soon-as-september" rel="noopener noreferrer">New US export controls reportedly target Chinese access to remote AI servers — Trump admin&#x27;s cut-down AI diffusion rule could be shared with</a></h3>
-    <p class="info-meta">Tom&#x27;s Hardware // specialist // INBOX</p>
-  </div>
-</article><article class="info-row" data-sectors="space" data-primary="space">
-  <div class="info-flag"><b>Space</b><time datetime="2026-08-28T15:45:43+00:00">28 AUG</time></div>
-  <div class="info-body">
-    <h3><a href="https://www.nasa.gov/centers-and-facilities/grants-2" rel="noopener noreferrer">Grants</a></h3>
-    <p class="info-meta">NASA Breaking News // official // INBOX</p>
-  </div>
-</article><article class="info-row" data-sectors="ai" data-primary="ai">
-  <div class="info-flag"><b>Artificial Intelligence</b><time datetime="2026-08-28T15:45:00+00:00">28 AUG</time></div>
-  <div class="info-body">
-    <h3><a href="https://www.theregister.com/applications/2026/08/28/libreoffice-268-is-out-local-first-and-with-no-ai/5293301" rel="noopener noreferrer">LibreOffice 26.8 is out – local first, and with no AI</a></h3>
-    <p class="info-meta">The Register // independent-tech // INBOX</p>
-  </div>
-</article><article class="info-row" data-sectors="ai" data-primary="ai">
-  <div class="info-flag"><b>Artificial Intelligence</b><time datetime="2026-08-28T15:42:24+00:00">28 AUG</time></div>
-  <div class="info-body">
-    <h3><a href="https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain" rel="noopener noreferrer">Meta makes AI glasses slightly less creepy with limit on nonconsensual recording</a></h3>
-    <p class="info-meta">Ars Technica // independent-tech // INBOX</p>
-  </div>
-</article><article class="info-row" data-sectors="" data-primary="general">
-  <div class="info-flag"><b>GENERAL</b><time datetime="2026-08-28T15:35:03+00:00">28 AUG</time></div>
-  <div class="info-body">
-    <h3><a href="https://techcrunch.com/2026/08/28/friend-focused-photo-sharing-app-retro-snags-21m" rel="noopener noreferrer">Friend-focused photo-sharing app Retro snags $21M</a></h3>
-    <p class="info-meta">TechCrunch // independent-tech // INBOX</p>
-  </div>
-</article><article class="info-row" data-sectors="data_centres,energy" data-primary="data_centres">
-  <div class="info-flag"><b>Data Centres</b><time datetime="2026-08-28T15:29:57+00:00">28 AUG</time></div>
-  <div class="info-body">
-    <h3><a href="https://www.theregister.com/on-prem/2026/08/28/green-party-wants-to-slam-the-brakes-on-uk-datacenter-construction-until-water-and-energy-use-are-sorted/5293338" rel="noopener noreferrer">Green Party wants to slam the brakes on UK datacenter construction until water and energy use are sorted</a></h3>
-    <p class="info-meta">The Register // independent-tech // INBOX</p>
-  </div>
-</article><article class="info-row" data-sectors="defence_tech,hardware" data-primary="defence_tech">
-  <div class="info-flag"><b>Defence Technology</b><time datetime="2026-08-28T15:23:10+00:00">28 AUG</time></div>
-  <div class="info-body">
-    <h3><a href="https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality" rel="noopener noreferrer">EasyEffects can improve laptop speaker sound quality</a></h3>
-    <p class="info-meta">Hacker News // community-link // INBOX</p>
-  </div>
-</article><article class="info-row" data-sectors="defence_tech" data-primary="defence_tech">
-  <div class="info-flag"><b>Defence Technology</b><time datetime="2026-08-28T15:20:13+00:00">28 AUG</time></div>
-  <div class="info-body">
-    <h3><a href="https://huggingface.co/zai-org/GLM-5.3" rel="noopener noreferrer">GLM-5.3 is now open-weight</a></h3>
-    <p class="info-meta">Hacker News // community-link // INBOX</p>
-  </div>
-</article><article class="info-row" data-sectors="ai,semiconductors" data-primary="ai">
-  <div class="info-flag"><b>Artificial Intelligence</b><time datetime="2026-08-28T15:19:27+00:00">28 AUG</time></div>
-  <div class="info-body">
-    <h3><a href="https://www.tomshardware.com/tech-industry/big-tech/nvidia-gears-up-its-influence-in-washington-forming-pac-tells-employees-that-decisions-congress-makes-over-the-coming-years-could-have-substantial-consequences-for-the-ai-industry-according-to-report" rel="noopener noreferrer">Nvidia gears up its influence in Washington, forming PAC — tells employees that decisions Congress makes over the coming years could have su</a></h3>
-    <p class="info-meta">Tom&#x27;s Hardware // specialist // INBOX</p>
-  </div>
-</article><article class="info-row" data-sectors="defence_tech" data-primary="defence_tech">
-  <div class="info-flag"><b>Defence Technology</b><time datetime="2026-08-28T15:17:09+00:00">28 AUG</time></div>
-  <div class="info-body">
-    <h3><a href="https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html" rel="noopener noreferrer">GUIs should be fully keyboard-driven</a></h3>
-    <p class="info-meta">Hacker News // community-link // INBOX</p>
-  </div>
-</article><article class="info-row" data-sectors="" data-primary="general">
-  <div class="info-flag"><b>GENERAL</b><time datetime="2026-08-28T15:00:00+00:00">28 AUG</time></div>
-  <div class="info-body">
-    <h3><a href="https://www.theregister.com/security/2026/08/28/us-government-snitch-finder-pleads-guilty-to-leaking-state-secrets-to-foreign-spies/5293248" rel="noopener noreferrer">US government snitch-finder pleads guilty to leaking state secrets to foreign spies</a></h3>
-    <p class="info-meta">The Register // independent-tech // INBOX</p>
-  </div>
-</article><article class="info-row" data-sectors="ai" data-primary="ai">
-  <div class="info-flag"><b>Artificial Intelligence</b><time datetime="2026-08-28T15:00:00+00:00">28 AUG</time></div>
-  <div class="info-body">
-    <h3><a href="https://www.wired.com/story/ai-has-human-doctors-asking-whats-left-for-us" rel="noopener noreferrer">AI Has Human Doctors Asking: What’s Left for Us?</a></h3>
-    <p class="info-meta">WIRED // independent-tech // INBOX</p>
-  </div>
-</article><article class="info-row" data-sectors="" data-primary="general">
-  <div class="info-flag"><b>GENERAL</b><time datetime="2026-08-28T14:37:14+00:00">28 AUG</time></div>
-  <div class="info-body">
-    <h3><a href="https://www.coindesk.com/business/2026/08/28/bitgo-to-buy-nydig-trading-arm-for-usd42-5m-in-cash-and-stock-plus-usd15m-earnout" rel="noopener noreferrer">BitGo to buy NYDIG trading arm for $42.5M in cash and stock plus $15M earnout</a></h3>
-    <p class="info-meta">CoinDesk // crypto-specialist // INBOX</p>
-  </div>
-</article><article class="info-row" data-sectors="" data-primary="general">
-  <div class="info-flag"><b>GENERAL</b><time datetime="2026-08-28T14:36:48+00:00">28 AUG</time></div>
-  <div class="info-body">
-    <h3><a href="https://techcrunch.com/2026/08/28/apple-tv-is-raising-its-subscription-prices-again" rel="noopener noreferrer">Apple TV is raising its subscription prices again</a></h3>
-    <p class="info-meta">TechCrunch // independent-tech // INBOX</p>
-  </div>
-</article><article class="info-row" data-sectors="defence_tech" data-primary="defence_tech">
-  <div class="info-flag"><b>Defence Technology</b><time datetime="2026-08-28T14:30:33+00:00">28 AUG</time></div>
-  <div class="info-body">
-    <h3><a href="https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung" rel="noopener noreferrer">Verschlimmbesserung: The Word Your Software Updates Need</a></h3>
-    <p class="info-meta">Hacker News // community-link // INBOX</p>
-  </div>
-</article><article class="info-row" data-sectors="" data-primary="general">
-  <div class="info-flag"><b>GENERAL</b><time datetime="2026-08-28T14:15:00+00:00">28 AUG</time></div>
-  <div class="info-body">
-    <h3><a href="https://www.theregister.com/os-platforms/2026/08/28/keepers-of-noble-numbats-to-be-offered-a-resolute-racoon-ubuntu-26041-is-coming/5293277" rel="noopener noreferrer">Keepers of Noble Numbats to be offered a Resolute Racoon: Ubuntu 26.04.1 is coming</a></h3>
-    <p class="info-meta">The Register // independent-tech // INBOX</p>
-  </div>
 </article></div>
     <p class="panel-foot">Live ingested information from 17 sources. Items remain in INBOX until editorially promoted to a published signal or briefing.</p>
   </div>
@@ -802,8 +798,8 @@
         <div><dt>TOPICS</dt><dd>5 TRACKED</dd></div>
         <div><dt>ENTITIES</dt><dd>9 REGISTERED · 8 MAPPED</dd></div>
         <div><dt>SOURCES</dt><dd>10 REGISTERED · 3 CITED</dd></div>
-        <div><dt>INGEST INBOX</dt><dd>383 HELD FOR REVIEW</dd></div>
-        <div><dt>EXTRACTED EVENTS</dt><dd>383 IN EVENT LAYER</dd></div>
+        <div><dt>INGEST INBOX</dt><dd>400 HELD FOR REVIEW</dd></div>
+        <div><dt>EXTRACTED EVENTS</dt><dd>400 IN EVENT LAYER</dd></div>
         <div><dt>UPDATED</dt><dd>28 AUG 2026</dd></div>
       </dl>
       <p class="mini-label">SIGNAL VERIFICATION SPLIT</p>
@@ -939,7 +935,7 @@
   <span>© 2026 The Tech Briefing // LAB: DYLAN THIART</span>
   <span><a href="/about/">METHODOLOGY</a> · <a href="/feed.xml">FEED</a> · <a href="/lab/">LAB</a></span>
 </footer>
-<script src="/js/site.367599fb.js"></script><script src="/js/dashboard.288e80d1.js"></script><script src="/js/info-stream.371e047b.js"></script>
-<script type="module" src="/js/voxel-world.945603a4.js"></script>
+<script src="/js/site.367599fb.js"></script><script src="/js/dashboard.0c545d16.js"></script><script src="/js/info-stream.371e047b.js"></script>
+
 </body>
 </html>
