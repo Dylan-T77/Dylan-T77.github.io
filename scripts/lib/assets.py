@@ -42,7 +42,7 @@ def public_url(source_rel: str, digest: str) -> str:
     return "/" + str(hashed_path(source_rel, digest)).replace("\\", "/")
 
 
-THREE_MODULE_PLACEHOLDER = "__THREE_MODULE_URL__"
+THREE_MODULE_PLACEHOLDER = "__THREE_MODULE_URL__"  # legacy; voxel-world uses import map
 
 
 def publish_assets(root: Path = ROOT) -> dict[str, str]:
@@ -59,18 +59,9 @@ def publish_assets(root: Path = ROOT) -> dict[str, str]:
         prepared[source_rel] = source.read_bytes()
         digests[source_rel] = content_hash(prepared[source_rel])
 
-    three_public = public_url("js/vendor/three.module.js", digests["js/vendor/three.module.js"])
-
     for source_rel in ASSET_SOURCES:
         raw = prepared[source_rel]
-        if source_rel == "js/voxel-world.js":
-            text = raw.decode("utf-8")
-            if THREE_MODULE_PLACEHOLDER not in text:
-                raise ValueError("js/voxel-world.js must import THREE via __THREE_MODULE_URL__")
-            raw = text.replace(THREE_MODULE_PLACEHOLDER, three_public).encode("utf-8")
-            digest = content_hash(raw)
-        else:
-            digest = digests[source_rel]
+        digest = digests[source_rel]
 
         output_rel = hashed_path(source_rel, digest)
         output = root / output_rel
