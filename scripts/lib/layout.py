@@ -106,6 +106,7 @@ def layout(
 ) -> str:
     site = data["site"]
     canonical = site["url"] + (route if route != "/" else "/")
+    social_image = site["url"] + "/og-image.png"
     css_links = _resolve_asset_hrefs(
         [
             "/css/style.css",
@@ -141,10 +142,12 @@ def layout(
 <meta property="og:type" content="{e(og_type)}">
 <meta property="og:title" content="{e(title)}">
 <meta property="og:description" content="{e(description)}">
+<meta property="og:image" content="{e(social_image)}">
 <meta property="og:url" content="{e(canonical)}">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{e(title)}">
 <meta name="twitter:description" content="{e(description)}">
+<meta name="twitter:image" content="{e(social_image)}">
 {meta_article}
 {"".join(f'<link rel="stylesheet" href="{e(href)}">' for href in css_links)}
 {extra_head}
